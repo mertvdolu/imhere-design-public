@@ -7,5 +7,5 @@
 - Güncel metinler: `03-GUNCEL-ORTAK/l10n/`.
 - Son kararlar: `04-GUNCEL-KARARLAR.md`.
 - Son ekler: `02-SON-EKLER/`; ekranlar ve önceki paketler: `01-PAKETLER/`.
-- Eski v2.0 ZIP eki kaldırılacak; sürüm açıklaması dosya yollarına yönlendirilecek.
+- Eski v2.0 ZIP eki kaldırıldı; sürüm açıklaması dosya yollarına yönlendirildi.
 - Birleştirme kuralları değişmedi: canlı ARB dosyalarının tamamının üzerine yazılmaz.
