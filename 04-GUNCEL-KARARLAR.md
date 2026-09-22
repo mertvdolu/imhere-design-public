@@ -14,3 +14,5 @@
 12. İç yönetim paneli için ayrı tasarım paketi yok. Hukuki URL'ler/metinler bu teslimde üretilmedi; önceki bekleyen işler tamamlandı sayılmaz.
 
 Bu not konuşmadaki son Founder/Manager bildirimlerini bir araya getirir; ürün kuralı değiştirmez ve önceki teslimlerin kabul durumunu yükseltmez.
+
+13. Founder kararı: telefondaki uygulama adı IM HERE (kesme işaretsiz, büyük harf). Simge v1.0 A/B adayları 02-SON-EKLER/imhere-app-icon-v1.0 altında; seçim bekleniyor. Nihai simge, splash ve bildirim küçük simgesi tamamlandı sayılmaz.

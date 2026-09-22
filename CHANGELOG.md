@@ -1,5 +1,14 @@
 # Değişiklik kaydı
 
+## Uygulama simgesi v1.0 — 2026-09-22
+
+- Founder kararı: telefondaki ad **IM HERE**, büyük harf ve kesme işaretsiz.
+- [Simge adayları](02-SON-EKLER/imhere-app-icon-v1.0/): A yazılı, B yazısız; Founder seçimi bekleniyor.
+- [Karşılaştırma](02-SON-EKLER/imhere-app-icon-v1.0/KARSILASTIRMA.png), SVG/PNG kaynaklar ve Android adaptif katmanları dosya bazlı eklendi. Tema renkleri korunuyor.
+- Eski geçici simgenin yerine geçecek aday henüz seçilmedi; uygulama değiştirilmedi.
+- Splash, bildirim küçük simgesi ve koyu harita kapsam dışında; sonraki teslimler.
+
+
 ## v2.0 — Dosya bazlı depo yayını · 2026-09-22
 
 - Önceden tek ZIP olarak verilen 3.426 dosya depo köküne klasörleri korunarak aktarıldı.

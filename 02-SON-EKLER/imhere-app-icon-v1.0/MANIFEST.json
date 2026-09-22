@@ -1,0 +1,149 @@
+{
+  "version": "1.0",
+  "files": [
+    {
+      "path": "A-wordmark/android-background-1024.png",
+      "sha256": "d9532a1caba147f3354257bef5f0e4e7e0a197c58d568197dac8e276131442af"
+    },
+    {
+      "path": "A-wordmark/android-background.svg",
+      "sha256": "fbc191a80581db55b1f124838d1e25a8f2ef36c37c11cf39d5f020d145560891"
+    },
+    {
+      "path": "A-wordmark/android-composite-preview.png",
+      "sha256": "86fe599c92e22bcb4116101f824fda4c3314da0d44eecfba98a1580625d13132"
+    },
+    {
+      "path": "A-wordmark/android-composite-preview.svg",
+      "sha256": "3081691f28b2a2c58c9f4d7f85ae1b4759cf844cf01301a3188e03dc3bde4868"
+    },
+    {
+      "path": "A-wordmark/android-foreground-1024.png",
+      "sha256": "2230c7a2c26b1f6340cc40bdb26940c3bc7370699fec87fe93d73ff43eb85cc0"
+    },
+    {
+      "path": "A-wordmark/android-foreground.svg",
+      "sha256": "2091dcf2d202e06f802928be1f0d38b400a8f30150e3125bf5bd7b96f4967728"
+    },
+    {
+      "path": "A-wordmark/artwork-layer.svg",
+      "sha256": "29a846626bad369616d3b33ef6fa4d1d60fda1c11f2c11dbac280bc980b72367"
+    },
+    {
+      "path": "A-wordmark/icon-1024.png",
+      "sha256": "780f54bf9c5216ab75679b1d0c6eefe464aba737b1ddb4e377ced4a3b25214e9"
+    },
+    {
+      "path": "A-wordmark/icon-120.png",
+      "sha256": "53729404503c6ecff416778d3712c6fa7f66a3151cb24ceb4b32fcac24ca9be0"
+    },
+    {
+      "path": "A-wordmark/icon-180.png",
+      "sha256": "9cb562902729a1c8b9421ab7b96a8932ea4f32683e86c61d08fd5637ecf912e7"
+    },
+    {
+      "path": "A-wordmark/icon-192.png",
+      "sha256": "e947aeaa83df7d28c6b547c3637281391a78511cd27914253650cf39f30a573d"
+    },
+    {
+      "path": "A-wordmark/icon-40.png",
+      "sha256": "4e3bdc40ca66e5aafbf48302f90f7247eb47f2d8cb8368aa404c2089b9cec2c5"
+    },
+    {
+      "path": "A-wordmark/icon-512.png",
+      "sha256": "a48558b48caf3d33055ebff0ebedebb8c8b7fd6aa669fa0bcca6976716608858"
+    },
+    {
+      "path": "A-wordmark/icon-60.png",
+      "sha256": "4ff9dd36e44b508e7c55bfda7bcaf27526bde349257655990828e3e5dea3fb18"
+    },
+    {
+      "path": "A-wordmark/icon-master.svg",
+      "sha256": "8a56ef30852efc9dfce25742c7d7d2f85989d0839b523114126b9b9fa12240b8"
+    },
+    {
+      "path": "B-symbol/android-background-1024.png",
+      "sha256": "d9532a1caba147f3354257bef5f0e4e7e0a197c58d568197dac8e276131442af"
+    },
+    {
+      "path": "B-symbol/android-background.svg",
+      "sha256": "fbc191a80581db55b1f124838d1e25a8f2ef36c37c11cf39d5f020d145560891"
+    },
+    {
+      "path": "B-symbol/android-composite-preview.png",
+      "sha256": "150fcd14e10af894a7f9d833352062f774bb82300580815b6d855d641f2ad2be"
+    },
+    {
+      "path": "B-symbol/android-composite-preview.svg",
+      "sha256": "50e859f5c138a68b54d73a196a201018d828a45e079d5e4764a50105c403e40e"
+    },
+    {
+      "path": "B-symbol/android-foreground-1024.png",
+      "sha256": "abbc6eb17e9ecd3901c0e155eff3d83700fa31fba078b94c8ef95fa51cf4faca"
+    },
+    {
+      "path": "B-symbol/android-foreground.svg",
+      "sha256": "81f3284d31aacd297e8ea80d139bfd2de75573a68d9401a1b45ad53e68eb3cfa"
+    },
+    {
+      "path": "B-symbol/artwork-layer.svg",
+      "sha256": "3f8b5cd8241f0ea716c0d942b7fc41316c62c6fe16a1f7a9fa8343c83e225f1e"
+    },
+    {
+      "path": "B-symbol/icon-1024.png",
+      "sha256": "3a9ebe45bde6271641446bd64cd2cc90d1ecea30cdc477888ff49ec931d4ad2d"
+    },
+    {
+      "path": "B-symbol/icon-120.png",
+      "sha256": "479d8fb514d61c58a29bc7768e4b8c63fbf40f341ceb523297fc7c7e13ae18c6"
+    },
+    {
+      "path": "B-symbol/icon-180.png",
+      "sha256": "4180f446b3749622c6a99b746df92f69a5e20b89598dea963f95cd5e7d41b49a"
+    },
+    {
+      "path": "B-symbol/icon-192.png",
+      "sha256": "95a39aeb3541782c436f8a7328b1053e86b7a2fb29f53a84a8861ccc9c837775"
+    },
+    {
+      "path": "B-symbol/icon-40.png",
+      "sha256": "910f0258c50f78d5b0c22b920a39fe3d98e5cc3e471be815ab6c46622afad7e0"
+    },
+    {
+      "path": "B-symbol/icon-512.png",
+      "sha256": "0df5a06ae6e72e19698668c6187aa802ee726d93494d2d6ae7c8cdffa813601d"
+    },
+    {
+      "path": "B-symbol/icon-60.png",
+      "sha256": "fcbc441b9f2399223b31401a9da56af7f2e3a2678af28bea045f442fb56eeab7"
+    },
+    {
+      "path": "B-symbol/icon-master.svg",
+      "sha256": "13a2f8bcfab66521c5005103b85637afbc75e69569cb483d7e1694d82eac6db7"
+    },
+    {
+      "path": "FONT-LICENSE.txt",
+      "sha256": "c683bfbcc7e087f5d37a54ef628f10387c451a83ddc459b151403a164ac46c90"
+    },
+    {
+      "path": "KARSILASTIRMA.png",
+      "sha256": "f220df8829ccaa4b9482d44f763f1d90cd44d0e6dc56aff874d71a50b5aace6e"
+    },
+    {
+      "path": "MANAGER-NOTU.md",
+      "sha256": "b268068e54f6d0a093307d77358908634c2c8573662c5ddd68c5b5515d01c6bd"
+    },
+    {
+      "path": "README.md",
+      "sha256": "f0449efc6f5658aee0eec7c22bd8d2c09a7a9ee366debec12245c2813a3b2912"
+    },
+    {
+      "path": "spec.json",
+      "sha256": "938e626d93e73a26b4c462548843d4719d47f001e1608a213070fbfcaf13850f"
+    },
+    {
+      "path": "validation.json",
+      "sha256": "10b7b9901d0540ce5e4f3af4b67db2a9acc821fbc51ab256d4a9202a40daae6d"
+    }
+  ]
+}

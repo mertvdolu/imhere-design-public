@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "status": "Founder selection pending",
+  "displayName": "IM HERE",
+  "variants": [
+    "A-wordmark",
+    "B-symbol"
+  ],
+  "colors": {
+    "background": "#17251D",
+    "foreground": "#C3F5CE"
+  },
+  "font": "Geist SemiBold, converted to vector outlines",
+  "scope": "Launcher app icon only; notification small icon, native splash and dark map deferred",
+  "androidForegroundCanvas": 1024,
+  "androidForegroundScale": 0.7
+}

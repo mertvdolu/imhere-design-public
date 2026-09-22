@@ -2,6 +2,10 @@
 
 Tüm tasarım dosyaları bu depoda klasörler halinde bulunur. Küçük güncellemeler ilgili dosyalara ayrı commit olarak uygulanır.
 
+## Son teslim: uygulama simgesi v1.0
+
+[İki simge adayını karşılaştır](02-SON-EKLER/imhere-app-icon-v1.0/README.md) — IM HERE yazılı ve yazısız. Founder seçimi bekleniyor.
+
 ## Başlangıç
 - [Başlangıç rehberi](00-BURADAN-BASLA.md)
 - [Güncel kararlar](04-GUNCEL-KARARLAR.md)

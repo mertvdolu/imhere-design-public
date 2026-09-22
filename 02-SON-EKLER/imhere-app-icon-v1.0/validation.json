@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "A-wordmark: 1024 RGB opaque",
+    "A-wordmark: foreground max radius 276.72 <= 312.89",
+    "B-symbol: 1024 RGB opaque",
+    "B-symbol: foreground max radius 237.53 <= 312.89"
+  ],
+  "visualReview": "KARSILASTIRMA.png inspected",
+  "deviceTest": false,
+  "founderApproved": false
+}
