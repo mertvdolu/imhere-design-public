@@ -1,0 +1,11 @@
+{
+  "contrast": {
+    "text / surface": 16.76,
+    "textSecondary / surface": 5.24,
+    "onPrimary / primary": 16.76,
+    "inputBorder / input": 3.54
+  },
+  "tokenKeysPreserved": true,
+  "fourBandsUnchanged": true,
+  "nativeTest": false
+}

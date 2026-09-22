@@ -1,18 +1,21 @@
 {
-  "version": "1.0",
-  "status": "Visual experiment; Founder approval pending",
+  "status": "Founder approved visual direction; native implementation pending",
   "files": [
+    {
+      "path": "APPROVAL.md",
+      "sha256": "7d8d3b2e73ff169dfe30e8c81f944ac2294bd6b30f0cc0009e08081de9085141"
+    },
     {
       "path": "MANAGER-NOTU.md",
       "sha256": "f67dfb7eff1bf681b6742edcf3a5ddef905744cc2b9d5ad93f479fb137036f6f"
     },
     {
       "path": "NOTLAR.md",
-      "sha256": "4018aa9639c9a59a8697ee28e441baf76b99841f32ea910d3f702b08d917600f"
+      "sha256": "ba2b3339367ab2b0fed1866451133cc264fa4f552cf1d038d842542db561c0cf"
     },
     {
       "path": "ONIZLEME.html",
-      "sha256": "eea4360d7fdc765afe74e6223b58e5395cb5f333a3aacff18731c8a21267adc9"
+      "sha256": "b82f8bd3a453be83a8b1766b8b632df980333f7103ba1d6555caa2bf5714e738"
     },
     {
       "path": "REVIEW.png",

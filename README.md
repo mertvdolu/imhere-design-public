@@ -10,9 +10,9 @@ Tüm tasarım dosyaları bu depoda klasörler halinde bulunur. Küçük güncell
 
 [Resmî küçük simge, yerel açılış ve koyu harita](02-SON-EKLER/imhere-a4-suite-v1.0/) · [Soru bloklarının kapanışı](02-SON-EKLER/imhere-a4-suite-v1.0/KARAR-KAPANISLARI.md)
 
-## Görsel alternatif: Cream study v1.0
+## Aktif tema: Cream & Ink — Founder onaylı
 
-[Altı ekranı incele](02-SON-EKLER/imhere-cream-study-v1.0/REVIEW.png) · [HTML ve dosyalar](02-SON-EKLER/imhere-cream-study-v1.0/) — krem/siyah deneme, mevcut temanın yerine geçmez.
+[Altı ekranı incele](02-SON-EKLER/imhere-cream-study-v1.0/REVIEW.png) · [HTML ve dosyalar](02-SON-EKLER/imhere-cream-study-v1.0/) — seçilen krem/siyah tema. [Geçiş kaynakları](02-SON-EKLER/imhere-cream-theme-v1.0/).
 
 ## Başlangıç
 - [Başlangıç rehberi](00-BURADAN-BASLA.md)

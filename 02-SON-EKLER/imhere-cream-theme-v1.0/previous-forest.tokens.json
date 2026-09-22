@@ -1,44 +1,43 @@
 {
   "meta": {
-    "name": "IM HERE / Cream & Ink",
-    "version": "2.1",
-    "date": "2026-09-22",
-    "baseline": "Founder selected Cream study v1.0; supersedes Forest & Mint visual direction",
+    "name": "IM HERE / Forest & Mint",
+    "version": "1.4",
+    "date": "2026-09-15",
+    "baseline": "Accepted v1.3 + M05 theme package",
     "requirements": "Designer extract v1.0.1 + Founder relayed decisions; Master not read",
     "units": "Flutter logical pixels; text sizes before system scaling",
-    "delivery": "Approved visual direction and theme mapping; native implementation pending",
-    "scopeNote": "Native text scaling/minimum targets preserved. Remaining screen layouts inherit theme; legacy screenshots not redrawn."
+    "delivery": "Package 1 design handoff; not implemented app"
   },
   "colors": {
-    "background": "#F4F1E9",
-    "surface": "#FCFAF5",
-    "card": "#FCFAF5",
-    "popover": "#FCFAF5",
-    "primary": "#191A17",
-    "onPrimary": "#FCFAF5",
-    "text": "#191A17",
-    "textSecondary": "#696A62",
-    "border": "#D9D5CB",
-    "input": "#F0ECE3",
-    "inputBorder": "#7C7D73",
-    "navigation": "#FCFAF5",
-    "nearbyCard": "#FCFAF5",
-    "nearbyCardBorder": "#D9D5CB",
-    "heroTop": "#F4F1E9",
-    "heroBottom": "#F4F1E9",
-    "orbLight": "#191A17",
-    "orbDark": "#191A17",
-    "orbText": "#FCFAF5",
-    "orbStroke": "#191A17",
-    "danger": "#191A17",
-    "friendship": "#191A17",
-    "friendshipSurface": "#E9E5DA",
-    "networking": "#191A17",
-    "networkingSurface": "#E9E5DA",
-    "messageOwn": "#191A17",
-    "messageOwnText": "#FCFAF5",
-    "messageOther": "#FCFAF5",
-    "messageOtherText": "#191A17",
+    "background": "#080E0C",
+    "surface": "#17251D",
+    "card": "#132019",
+    "popover": "#15221C",
+    "primary": "#C3F5CE",
+    "onPrimary": "#142319",
+    "text": "#F2F5ED",
+    "textSecondary": "#A7B8AE",
+    "border": "#2A3B30",
+    "input": "#1C3221",
+    "inputBorder": "#637D5A",
+    "navigation": "#14221A",
+    "nearbyCard": "#23372A",
+    "nearbyCardBorder": "#405943",
+    "heroTop": "#263D2C",
+    "heroBottom": "#111E16",
+    "orbLight": "#E7FFC7",
+    "orbDark": "#B8EB9D",
+    "orbText": "#18391C",
+    "orbStroke": "#F2FFDA",
+    "danger": "#F4A9A9",
+    "friendship": "#C8E4F2",
+    "friendshipSurface": "#293E43",
+    "networking": "#D0C9F1",
+    "networkingSurface": "#343347",
+    "messageOwn": "#C6E7B9",
+    "messageOwnText": "#26452B",
+    "messageOther": "#2F4532",
+    "messageOtherText": "#D2E2CD",
     "densityBlue": "#64A8FF",
     "densityYellow": "#F7D46A",
     "densityGreen": "#7DDEAC",
@@ -47,10 +46,10 @@
   "typography": {
     "family": "Geist",
     "headline": {
-      "size": 36,
-      "height": 1.05,
+      "size": 31,
+      "height": 1.16,
       "weight": 500,
-      "letterSpacing": -1.8
+      "letterSpacing": -1.2
     },
     "body": {
       "size": 16,
@@ -70,6 +69,10 @@
     "orbLabel": {
       "size": 18,
       "weight": 600
+    },
+    "editorialOnly": {
+      "family": "Georgia",
+      "italic": true
     }
   },
   "spacing": [
@@ -85,10 +88,10 @@
   ],
   "radius": {
     "input": 12,
-    "card": 15,
-    "nearbyPreview": 15,
+    "card": 16,
+    "nearbyPreview": 18,
     "sheet": 24,
-    "button": 12,
+    "button": 28,
     "pill": 999
   },
   "nativeLayout": {
@@ -106,8 +109,7 @@
     "interactiveOrbRegionHeight": 216,
     "heroContentPadding": 22,
     "interactiveContentPaddingDesktop": 20,
-    "interactiveContentPaddingMobile": 16,
-    "creamPageInset": 22
+    "interactiveContentPaddingMobile": 16
   },
   "motion": {
     "screenEnterMs": 250,
@@ -118,8 +120,8 @@
   },
   "policy": {
     "useDynamicColor": false,
-    "themeMode": "light",
-    "approvedScreen": "Cream study v1.0: Nearby, map, connections, chat, profile, settings",
+    "themeMode": "dark",
+    "approvedScreen": "Nearby / I am here",
     "densityBandZoomInvariant": true,
     "navigation": {
       "status": "LOCKED",
@@ -132,7 +134,7 @@
       "internalPlacement": "APPROVED: O-01 accepted by founder in v1.2; see decision record"
     },
     "riverpod": "Not verified by this inventory; preserve StatefulWidget/controller integration",
-    "mapProvider": "MapLibre + OpenFreeMap",
+    "mapProvider": "Mapbox candidate, not installed, not final",
     "intents": {
       "values": [
         "friendship",
@@ -142,8 +144,6 @@
       "maximum": 2,
       "default": [],
       "authority": "Founder / FD-75"
-    },
-    "activeLocale": "en",
-    "trStatus": "ready but disabled by Founder; language settings row hidden"
+    }
   }
 }

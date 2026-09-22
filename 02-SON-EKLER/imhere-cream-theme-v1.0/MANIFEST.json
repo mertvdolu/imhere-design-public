@@ -1,0 +1,33 @@
+{
+  "status": "Founder approved visual direction; native implementation pending",
+  "files": [
+    {
+      "path": "GECIS-NOTU.md",
+      "sha256": "e000c86839cc86a525a404bde0fcd1943e9b8b58e6c7e10e17b38421438f978b"
+    },
+    {
+      "path": "MANAGER-NOTU.md",
+      "sha256": "c9ea3ed67e5bf8e6804bf175126c5a0dd62836fd7f17a4dc42342efe2ec9b556"
+    },
+    {
+      "path": "map-cream-en.json",
+      "sha256": "62faaab4a7e8385c95a7d1c6a8b5538acdde669ed036d382d2bff3d0c0d08906"
+    },
+    {
+      "path": "map-cream-tr.json",
+      "sha256": "1a1c597d6f78d7b54346b6d14c0e62586e3c47c8f92693611a51dfd7ab1754e2"
+    },
+    {
+      "path": "previous-forest.tokens.json",
+      "sha256": "594c40b84df0abcdf579e0c84b8f225ba30d9498d5bde882612a7036206fc60c"
+    },
+    {
+      "path": "theme.tokens.json",
+      "sha256": "3e083b80cda98e77c53235ef8649ce351cc23548cbae7157356e046fc62633e5"
+    },
+    {
+      "path": "validation.json",
+      "sha256": "6877691c7aedfbc486fcf2aac3bc8188fb844d8c8ce377043774c732520086ab"
+    }
+  ]
+}

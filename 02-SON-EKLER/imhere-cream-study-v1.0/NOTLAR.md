@@ -1,6 +1,6 @@
 # IM HERE — Cream study v1.0
 
-Durum: Founder'ın istediği görsel deneme. Kabul edilmiş Forest & Mint temasının yerine geçmez. Ürün veya uygulama kodu değiştirilmedi.
+Durum: Founder tarafından ana tema yönü olarak seçildi. Forest & Mint görsel yönünün yerini alır; bu HTML bir görsel demo olarak kalır. Ürün veya uygulama kodu değiştirilmedi.
 
 ## İnceleme
 ONIZLEME.html dosyasını tarayıcıda aç. Üstten Krem/Beyaz seçilebilir; altı ekran filtrelenebilir. Yakındakiler kartından örnek kişi ve boş niyet seçici açılır; Bağlantılar listesinden sohbet görünümüne geçilir. Tüm işlemler yerel görsel demodur. E-posta, mesaj, istek veya profil değişikliği gönderilmez. Harita dışındaki ekranlar internet olmadan çalışır; harita için OpenFreeMap tile/glyph erişimi gerekir. Ekran içleri kaydırılabilir.
@@ -23,7 +23,7 @@ ONIZLEME.html dosyasını tarayıcıda aç. Üstten Krem/Beyaz seçilebilir; alt
 Etkinlikler sekmesi mevcut placeholder'ı açar; sahte etkinlik yok. Dört sekmenin sırası korunur. Niyet seçenekleri Friendship/Networking, seçici boş başlar. İngilizce arayüz ve Türkçe inceleme çerçevesi kullanıldı. Yeni fallback başlık/sloganlar yalnız görsel çalışma metnidir; ARB'lere aktarılmadı.
 
 ## Sınırlar
-Bu, altı ana ekranın HTML görsel alternatifi; tüm boş/hata/offline/izin hâllerinin yeniden tasarımı değildir. Büyük metin düğmesi ×1,55 tasarım denemesidir; native %200 erişilebilirlik kabulü değildir. Masaüstü ve dar ekran kontrolü yapıldı; iOS/Android gerçek cihaz entegrasyonu yapılmadı. Harita krema stili ayrı bir öneridir; onaylı koyu stil dosyaları değişmedi. Konuşma kuralları ve son Manager kararları değişmedi.
+Bu, altı ana ekranın HTML görsel alternatifi; tüm boş/hata/offline/izin hâllerinin yeniden tasarımı değildir. Büyük metin düğmesi ×1,55 tasarım denemesidir; native %200 erişilebilirlik kabulü değildir. Masaüstü ve dar ekran kontrolü yapıldı; iOS/Android gerçek cihaz entegrasyonu yapılmadı. Krem harita yönü seçildi; native aktarım JSON dosyaları imhere-cream-theme-v1.0 içindedir. Konuşma kuralları ve son Manager kararları değişmedi.
 
 ## Dosyalar
 - ONIZLEME.html, style.css, app.js: yerel HTML demo.

@@ -1,5 +1,14 @@
 # Değişiklik kaydı
 
+## Cream & Ink ana tema seçildi — token v2.1
+
+- Founder Cream study v1.0 yönünü onayladı; Forest & Mint aktif tema olmaktan çıktı, arşivde korunuyor.
+- Ortak theme.tokens.json krem/siyah eşlemesine ve light moda güncellendi.
+- [Geçiş teslimi](02-SON-EKLER/imhere-cream-theme-v1.0/): tokenlar, EN/TR krem alt harita, eski tema referansı, doğrulama ve Manager notu.
+- HTML incelemesinin onay durumu güncellendi. Dört band rengi ve ürün kuralları aynı.
+- Native uygulama değişmedi; eski ekran çizimleri topluca yenilenmedi.
+
+
 ## Cream study v1.0 — Görsel alternatif
 
 - Founder talebiyle krem/siyah tema için [altı ekranın HTML denemesi](02-SON-EKLER/imhere-cream-study-v1.0/) eklendi.

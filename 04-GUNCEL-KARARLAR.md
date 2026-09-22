@@ -18,3 +18,5 @@ Bu not konuşmadaki son Founder/Manager bildirimlerini bir araya getirir; ürün
 13. Founder kararı: telefondaki uygulama adı IM HERE (kesme işaretsiz, büyük harf). Simge v1.0 A/B adayları 02-SON-EKLER/imhere-app-icon-v1.0 altında; seçim bekleniyor. Nihai simge, splash ve bildirim küçük simgesi tamamlandı sayılmaz.
 
 14. Son Founder kararı: B-symbol seçildi, A uygulanmayacak. 13. maddedeki seçim bekliyor ifadesinin yerini bu karar alır. A4 devam v1.0 resmî küçük simge, splash tasarım varlıkları ve koyu OpenFreeMap stil dosyalarını teslim eder; native entegrasyon onayı değildir. Açık soru bloklarının tasarım yanıtları aynı teslimde KARAR-KAPANISLARI.md içindedir.
+
+15. Founder son kararı: Cream & Ink ana tema. Forest & Mint ve koyu harita/splash yönü tarihsel arşiv; güncel ortak token v2.1 ve imhere-cream-theme-v1.0 geçiş notu esas alınır. Dört harita bandı rengi korunur. Tema onayı native uygulama tamamlandı anlamına gelmez. Yeni logo koordinasyonu Manager'dadır.
