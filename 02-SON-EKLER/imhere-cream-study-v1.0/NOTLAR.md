@@ -10,7 +10,7 @@ ONIZLEME.html dosyasını tarayıcıda aç. Üstten Krem/Beyaz seçilebilir; alt
 - Geist: düzenli metin, medium başlık; sıkı başlık aralığı, geniş beyaz boşluk.
 - İnce çizgili ikonlar; siyah ana eylemler; sade ayırıcılar.
 - Portrelerde yalnız CSS siyah-beyaz önizleme filtresi. Kaynak fotoğraflar değişmedi; bu bir görsel teklif, kullanıcının fotoğrafına kalıcı müdahale değil.
-- Uygulama üstünde IM HERE adı; yeni logo dosyaları veya iç kullanım kılavuzu yeniden yayımlanmadı. Bu çalışma logo entegrasyonu değildir.
+- v1.1: Kullanıcının gönderdiği iki daireli logo HTML inceleme başlığında ve örnek uygulama üst alanlarında kullanılır. Normal ve küçük boyut ağırlığı orijinal SVG dosyalarıyla, Ink rengi ve koruma alanı korunarak yerleştirildi. İç kullanım kılavuzu PDF’si yayımlanmadı. Telefon uygulama adı IM HERE kararı değişmez. Bu güncelleme native simge/splash entegrasyonu değildir.
 
 ## Altı görünüm
 1. Yakındakiler: aktif check-in örneği, kişi kartları ve nearbyLimited.

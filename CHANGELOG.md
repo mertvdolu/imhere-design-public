@@ -1,5 +1,14 @@
 # Değişiklik kaydı
 
+## Cream HTML v1.1 — Founder logosu
+
+- Kullanıcının gönderdiği orijinal iki daireli logo krem HTML başlığına ve uygulama üst alanlarına eklendi.
+- assets/imhere-mark.svg ve imhere-mark-icon-weight.svg değişmeden kullanıldı; PDF kılavuz yayımlanmadı.
+- [Önizleme ve notlar](02-SON-EKLER/imhere-cream-study-v1.0/LOGO-GUNCELLEMESI-v1.1.md); REVIEW ve manifest güncel. Klasör adresi korunuyor.
+- Tam ekran harita yerleşimi Founder onayı güncel karar notuna işlendi.
+- Native uygulama ve simge varlıkları değişmedi.
+
+
 ## Cream & Ink ana tema seçildi — token v2.1
 
 - Founder Cream study v1.0 yönünü onayladı; Forest & Mint aktif tema olmaktan çıktı, arşivde korunuyor.

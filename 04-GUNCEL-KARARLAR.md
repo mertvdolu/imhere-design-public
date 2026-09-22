@@ -20,3 +20,5 @@ Bu not konuşmadaki son Founder/Manager bildirimlerini bir araya getirir; ürün
 14. Son Founder kararı: B-symbol seçildi, A uygulanmayacak. 13. maddedeki seçim bekliyor ifadesinin yerini bu karar alır. A4 devam v1.0 resmî küçük simge, splash tasarım varlıkları ve koyu OpenFreeMap stil dosyalarını teslim eder; native entegrasyon onayı değildir. Açık soru bloklarının tasarım yanıtları aynı teslimde KARAR-KAPANISLARI.md içindedir.
 
 15. Founder son kararı: Cream & Ink ana tema. Forest & Mint ve koyu harita/splash yönü tarihsel arşiv; güncel ortak token v2.1 ve imhere-cream-theme-v1.0 geçiş notu esas alınır. Dört harita bandı rengi korunur. Tema onayı native uygulama tamamlandı anlamına gelmez. Yeni logo koordinasyonu Manager'dadır.
+
+16. Founder tam ekran harita yerleşimini ayrıca onayladı: açılınca ekranı kaplar, geri Yakındakiler’e döner, kontroller/attribution görünür kalır. Krem HTML v1.1 içinde gönderilen iki daireli logo kullanılır; native logo uygulaması Manager koordinasyonunda kalır.
