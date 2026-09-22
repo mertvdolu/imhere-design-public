@@ -1,0 +1,922 @@
+[
+  {
+    "id": "contact-update-success",
+    "group": "contact",
+    "title": "Düzenleme / doğrulanmış başarı",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/contact-update-success--tr--ios--100.svg",
+    "width": 390,
+    "height": 971,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "contactFields": [
+      {
+        "key": "contactInstagram",
+        "value": "@ornek.yeni",
+        "owner": "self",
+        "published": true
+      },
+      {
+        "key": "contactEmail",
+        "value": "iletisim@example.com",
+        "owner": "peer",
+        "published": true
+      }
+    ]
+  },
+  {
+    "id": "contact-update-success",
+    "group": "contact",
+    "title": "Düzenleme / doğrulanmış başarı",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/contact-update-success--tr--ios--200.svg",
+    "width": 390,
+    "height": 1738,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "contactFields": [
+      {
+        "key": "contactInstagram",
+        "value": "@ornek.yeni",
+        "owner": "self",
+        "published": true
+      },
+      {
+        "key": "contactEmail",
+        "value": "iletisim@example.com",
+        "owner": "peer",
+        "published": true
+      }
+    ]
+  },
+  {
+    "id": "contact-update-success",
+    "group": "contact",
+    "title": "Düzenleme / doğrulanmış başarı",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/contact-update-success--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "contactFields": [
+      {
+        "key": "contactInstagram",
+        "value": "@ornek.yeni",
+        "owner": "self",
+        "published": true
+      },
+      {
+        "key": "contactEmail",
+        "value": "iletisim@example.com",
+        "owner": "peer",
+        "published": true
+      }
+    ]
+  },
+  {
+    "id": "contact-update-success",
+    "group": "contact",
+    "title": "Düzenleme / doğrulanmış başarı",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/contact-update-success--tr--android--200.svg",
+    "width": 412,
+    "height": 1655,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "contactFields": [
+      {
+        "key": "contactInstagram",
+        "value": "@ornek.yeni",
+        "owner": "self",
+        "published": true
+      },
+      {
+        "key": "contactEmail",
+        "value": "iletisim@example.com",
+        "owner": "peer",
+        "published": true
+      }
+    ]
+  },
+  {
+    "id": "contact-update-success",
+    "group": "contact",
+    "title": "Düzenleme / doğrulanmış başarı",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/contact-update-success--en--ios--100.svg",
+    "width": 390,
+    "height": 951,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "contactFields": [
+      {
+        "key": "contactInstagram",
+        "value": "@ornek.yeni",
+        "owner": "self",
+        "published": true
+      },
+      {
+        "key": "contactEmail",
+        "value": "iletisim@example.com",
+        "owner": "peer",
+        "published": true
+      }
+    ]
+  },
+  {
+    "id": "contact-update-success",
+    "group": "contact",
+    "title": "Düzenleme / doğrulanmış başarı",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/contact-update-success--en--ios--200.svg",
+    "width": 390,
+    "height": 1699,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "contactFields": [
+      {
+        "key": "contactInstagram",
+        "value": "@ornek.yeni",
+        "owner": "self",
+        "published": true
+      },
+      {
+        "key": "contactEmail",
+        "value": "iletisim@example.com",
+        "owner": "peer",
+        "published": true
+      }
+    ]
+  },
+  {
+    "id": "contact-update-success",
+    "group": "contact",
+    "title": "Düzenleme / doğrulanmış başarı",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/contact-update-success--en--android--100.svg",
+    "width": 412,
+    "height": 919,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "contactFields": [
+      {
+        "key": "contactInstagram",
+        "value": "@ornek.yeni",
+        "owner": "self",
+        "published": true
+      },
+      {
+        "key": "contactEmail",
+        "value": "iletisim@example.com",
+        "owner": "peer",
+        "published": true
+      }
+    ]
+  },
+  {
+    "id": "contact-update-success",
+    "group": "contact",
+    "title": "Düzenleme / doğrulanmış başarı",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/contact-update-success--en--android--200.svg",
+    "width": 412,
+    "height": 1667,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "contactFields": [
+      {
+        "key": "contactInstagram",
+        "value": "@ornek.yeni",
+        "owner": "self",
+        "published": true
+      },
+      {
+        "key": "contactEmail",
+        "value": "iletisim@example.com",
+        "owner": "peer",
+        "published": true
+      }
+    ]
+  },
+  {
+    "id": "contact-own-empty",
+    "group": "contact",
+    "title": "Paylaşılan alan yok / kalıcı boş durum",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/contact-own-empty--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "actions": [
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "contactFields": [
+      {
+        "key": "contactEmail",
+        "value": "iletisim@example.com",
+        "owner": "peer",
+        "published": true
+      }
+    ]
+  },
+  {
+    "id": "contact-own-empty",
+    "group": "contact",
+    "title": "Paylaşılan alan yok / kalıcı boş durum",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/contact-own-empty--tr--ios--200.svg",
+    "width": 390,
+    "height": 1449,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "actions": [
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "contactFields": [
+      {
+        "key": "contactEmail",
+        "value": "iletisim@example.com",
+        "owner": "peer",
+        "published": true
+      }
+    ]
+  },
+  {
+    "id": "contact-own-empty",
+    "group": "contact",
+    "title": "Paylaşılan alan yok / kalıcı boş durum",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/contact-own-empty--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "actions": [
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "contactFields": [
+      {
+        "key": "contactEmail",
+        "value": "iletisim@example.com",
+        "owner": "peer",
+        "published": true
+      }
+    ]
+  },
+  {
+    "id": "contact-own-empty",
+    "group": "contact",
+    "title": "Paylaşılan alan yok / kalıcı boş durum",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/contact-own-empty--tr--android--200.svg",
+    "width": 412,
+    "height": 1315,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "actions": [
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "contactFields": [
+      {
+        "key": "contactEmail",
+        "value": "iletisim@example.com",
+        "owner": "peer",
+        "published": true
+      }
+    ]
+  },
+  {
+    "id": "contact-own-empty",
+    "group": "contact",
+    "title": "Paylaşılan alan yok / kalıcı boş durum",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/contact-own-empty--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "actions": [
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "contactFields": [
+      {
+        "key": "contactEmail",
+        "value": "iletisim@example.com",
+        "owner": "peer",
+        "published": true
+      }
+    ]
+  },
+  {
+    "id": "contact-own-empty",
+    "group": "contact",
+    "title": "Paylaşılan alan yok / kalıcı boş durum",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/contact-own-empty--en--ios--200.svg",
+    "width": 390,
+    "height": 1359,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "actions": [
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "contactFields": [
+      {
+        "key": "contactEmail",
+        "value": "iletisim@example.com",
+        "owner": "peer",
+        "published": true
+      }
+    ]
+  },
+  {
+    "id": "contact-own-empty",
+    "group": "contact",
+    "title": "Paylaşılan alan yok / kalıcı boş durum",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/contact-own-empty--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "actions": [
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "contactFields": [
+      {
+        "key": "contactEmail",
+        "value": "iletisim@example.com",
+        "owner": "peer",
+        "published": true
+      }
+    ]
+  },
+  {
+    "id": "contact-own-empty",
+    "group": "contact",
+    "title": "Paylaşılan alan yok / kalıcı boş durum",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/contact-own-empty--en--android--200.svg",
+    "width": 412,
+    "height": 1327,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "actions": [
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "contactFields": [
+      {
+        "key": "contactEmail",
+        "value": "iletisim@example.com",
+        "owner": "peer",
+        "published": true
+      }
+    ]
+  },
+  {
+    "id": "contact-last-withdrawn",
+    "group": "contact",
+    "title": "Son alan kaldırıldı / başarı ve boş durum",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/contact-last-withdrawn--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "actions": [
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "contactFields": [
+      {
+        "key": "contactEmail",
+        "value": "iletisim@example.com",
+        "owner": "peer",
+        "published": true
+      }
+    ]
+  },
+  {
+    "id": "contact-last-withdrawn",
+    "group": "contact",
+    "title": "Son alan kaldırıldı / başarı ve boş durum",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/contact-last-withdrawn--tr--ios--200.svg",
+    "width": 390,
+    "height": 1651,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "actions": [
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "contactFields": [
+      {
+        "key": "contactEmail",
+        "value": "iletisim@example.com",
+        "owner": "peer",
+        "published": true
+      }
+    ]
+  },
+  {
+    "id": "contact-last-withdrawn",
+    "group": "contact",
+    "title": "Son alan kaldırıldı / başarı ve boş durum",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/contact-last-withdrawn--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "actions": [
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "contactFields": [
+      {
+        "key": "contactEmail",
+        "value": "iletisim@example.com",
+        "owner": "peer",
+        "published": true
+      }
+    ]
+  },
+  {
+    "id": "contact-last-withdrawn",
+    "group": "contact",
+    "title": "Son alan kaldırıldı / başarı ve boş durum",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/contact-last-withdrawn--tr--android--200.svg",
+    "width": 412,
+    "height": 1466,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "actions": [
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "contactFields": [
+      {
+        "key": "contactEmail",
+        "value": "iletisim@example.com",
+        "owner": "peer",
+        "published": true
+      }
+    ]
+  },
+  {
+    "id": "contact-last-withdrawn",
+    "group": "contact",
+    "title": "Son alan kaldırıldı / başarı ve boş durum",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/contact-last-withdrawn--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "actions": [
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "contactFields": [
+      {
+        "key": "contactEmail",
+        "value": "iletisim@example.com",
+        "owner": "peer",
+        "published": true
+      }
+    ]
+  },
+  {
+    "id": "contact-last-withdrawn",
+    "group": "contact",
+    "title": "Son alan kaldırıldı / başarı ve boş durum",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/contact-last-withdrawn--en--ios--200.svg",
+    "width": 390,
+    "height": 1509,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "actions": [
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "contactFields": [
+      {
+        "key": "contactEmail",
+        "value": "iletisim@example.com",
+        "owner": "peer",
+        "published": true
+      }
+    ]
+  },
+  {
+    "id": "contact-last-withdrawn",
+    "group": "contact",
+    "title": "Son alan kaldırıldı / başarı ve boş durum",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/contact-last-withdrawn--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "actions": [
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "contactFields": [
+      {
+        "key": "contactEmail",
+        "value": "iletisim@example.com",
+        "owner": "peer",
+        "published": true
+      }
+    ]
+  },
+  {
+    "id": "contact-last-withdrawn",
+    "group": "contact",
+    "title": "Son alan kaldırıldı / başarı ve boş durum",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/contact-last-withdrawn--en--android--200.svg",
+    "width": 412,
+    "height": 1477,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "actions": [
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "contactFields": [
+      {
+        "key": "contactEmail",
+        "value": "iletisim@example.com",
+        "owner": "peer",
+        "published": true
+      }
+    ]
+  },
+  {
+    "id": "connections-open-closed",
+    "group": "connections",
+    "title": "Açık ve kapalı kart / karşılaştırma",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/connections-open-closed--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "actions": [
+      {
+        "key": "matchOpenChat",
+        "enabled": true
+      }
+    ],
+    "contactFields": []
+  },
+  {
+    "id": "connections-open-closed",
+    "group": "connections",
+    "title": "Açık ve kapalı kart / karşılaştırma",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/connections-open-closed--tr--ios--200.svg",
+    "width": 390,
+    "height": 959,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "actions": [
+      {
+        "key": "matchOpenChat",
+        "enabled": true
+      }
+    ],
+    "contactFields": []
+  },
+  {
+    "id": "connections-open-closed",
+    "group": "connections",
+    "title": "Açık ve kapalı kart / karşılaştırma",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/connections-open-closed--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "actions": [
+      {
+        "key": "matchOpenChat",
+        "enabled": true
+      }
+    ],
+    "contactFields": []
+  },
+  {
+    "id": "connections-open-closed",
+    "group": "connections",
+    "title": "Açık ve kapalı kart / karşılaştırma",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/connections-open-closed--tr--android--200.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "actions": [
+      {
+        "key": "matchOpenChat",
+        "enabled": true
+      }
+    ],
+    "contactFields": []
+  },
+  {
+    "id": "connections-open-closed",
+    "group": "connections",
+    "title": "Açık ve kapalı kart / karşılaştırma",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/connections-open-closed--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "actions": [
+      {
+        "key": "matchOpenChat",
+        "enabled": true
+      }
+    ],
+    "contactFields": []
+  },
+  {
+    "id": "connections-open-closed",
+    "group": "connections",
+    "title": "Açık ve kapalı kart / karşılaştırma",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/connections-open-closed--en--ios--200.svg",
+    "width": 390,
+    "height": 959,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "actions": [
+      {
+        "key": "matchOpenChat",
+        "enabled": true
+      }
+    ],
+    "contactFields": []
+  },
+  {
+    "id": "connections-open-closed",
+    "group": "connections",
+    "title": "Açık ve kapalı kart / karşılaştırma",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/connections-open-closed--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "actions": [
+      {
+        "key": "matchOpenChat",
+        "enabled": true
+      }
+    ],
+    "contactFields": []
+  },
+  {
+    "id": "connections-open-closed",
+    "group": "connections",
+    "title": "Açık ve kapalı kart / karşılaştırma",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/connections-open-closed--en--android--200.svg",
+    "width": 412,
+    "height": 927,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "actions": [
+      {
+        "key": "matchOpenChat",
+        "enabled": true
+      }
+    ],
+    "contactFields": []
+  }
+]

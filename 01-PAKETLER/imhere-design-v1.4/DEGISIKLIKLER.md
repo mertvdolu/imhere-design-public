@@ -1,0 +1,11 @@
+# v1.4 değişiklik kaydı
+- **Yeni:** Paket 1'in 34 görünümü, iki dil/platform ve %100/%200 metin varyantı; offline inceleme dosyası, ölçü/durum/erişilebilirlik sözleşmeleri.
+- **Korunan:** Profil → Mesajlar → Yakındakiler → Etkinlikler; başlangıç Yakındakiler. Harita check-in olmadan erişilir. Onaylı orman/nane, Geist, boşluklar, yarıçaplar ve hareket token’ları korunur.
+- **FD-75 / Founder kararı:** yalnız friendship/networking, min 1–max 2, boş başlangıç. Üçüncü niyetin aktif ARB ve renk token’ları kaldırıldı; intentHint iki seçenekle hizalandı. Eski uygulama çağrıları migration dosyasına göre güncellenmeli; kaldırılan niyet başka niyete otomatik eşlenmemeli.
+- **S-1:** inputBorder #506D46 → #637D5A; opak input dolgusunda 3.02:1, ekran zemininde 3.50:1. Diğer mevcut renkler değiştirilmedi.
+- **S-2:** navMap kaldırıldı; giriş eylemi mapOpen. Harita başlığı mapTitle, sekmeler yalnız dört nav* anahtarıdır.
+- **S-3:** chatReadOnly → chatClosedReadOnly; chatSoftContactTitle/Body → chatSoftTitle/Body. Metinleri yeniden yazmak yerine onaylı kanonik ifadeler korundu.
+- **S-4:** requestAccept yalnız bağımsız niyet seçimini açar; requestSelectAccept gönderir. Doğrudan kabul yok; metin anahtarları korunur.
+- **S-5:** mevcut uygulamada v1.3’te bulunmayan **83** anahtar görüldü (eski belgede yaklaşık 94). Her biri eklendi veya kanonik karşılığına eşlendi. 26 hazır ilgi alanı + Diğer korunur. Türkçe karakterler ve I’M HERE yazımı düzeltildi. Doğum tarihi reddi genel mesajla eşlendi; yaş uygunluğu hakkında hata nedeni ifşa edilmedi.
+- **Metin kapsamı:** nihai iki ARB’de 254’er metin anahtarı. Sayısal sınırlar ve placeholder’lar için uygulamanın mevcut parametreli API’si korunmalı; migration dosyası birleştirme tarifidir, doğrudan dosya değiştirme komutu değildir.
+- **Güncel bağlam:** M05 tema ve ortak bileşenler koda aktarılmıştır (iletilen paket/ekran kanıtına göre). Bunlar yeniden yazılmadı; yeni layout bunun üzerine kurulacak. Master veya uygulama deposu değiştirilmedi.

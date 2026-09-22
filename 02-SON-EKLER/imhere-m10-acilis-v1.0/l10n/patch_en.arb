@@ -1,0 +1,7 @@
+{
+  "@@locale": "en",
+  "chatRetentionInfo": "Messages are kept for up to 30 days after this chat becomes read-only.",
+  "chatRetentionWarning": "These messages will be deleted soon. If contact details have been shared, you can save any you need.",
+  "chatRetentionDeleted": "The messages in this chat were deleted because their retention period ended.",
+  "nearbyLimited": "Some of the people nearby are shown here."
+}

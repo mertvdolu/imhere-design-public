@@ -1,0 +1,26 @@
+[
+  {
+    "id": "PARTIAL",
+    "arbKey": "mapPartial",
+    "copy": {
+      "tr": "Hareketliliği görmek için yaklaştır",
+      "en": "Zoom in to see activity"
+    },
+    "trigger": "Engineering-provided PARTIAL response when the viewport is too wide and only part is evaluated; not inferred from client zoom threshold or physical travel distance.",
+    "asset": "assets/map-states/map-partial.svg",
+    "presentation": "Quiet inline map overlay with zoom-in icon; map gestures remain available; no forced camera movement.",
+    "privacy": "No count, distance, progress fraction, individual pin or inferred absence in unevaluated areas. Zoom does not subdivide fixed density cells."
+  },
+  {
+    "id": "EMPTY_NO_REGION",
+    "arbKey": "mapEmptyNoRegion",
+    "copy": {
+      "tr": "Buradayım de ya da haritayı gez",
+      "en": "Check in or explore the map"
+    },
+    "trigger": "No active check-in AND no previously viewed region; presentation condition, not a new backend enum.",
+    "asset": "assets/map-states/map-empty-no-region.svg",
+    "presentation": "Compact empty-state card on the base map with folded-map icon; explore map remains available; existing check-in entry retains its current flow.",
+    "privacy": "Not zero activity; no fabricated region, GPS marker or automatic check-in."
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "@@locale": "en",
+  "contactUpdated": "Your shared detail was updated.",
+  "@contactUpdated": {
+    "description": "Success feedback only after confirmed update of an already shared contact field. Not initial sharing or withdrawal."
+  }
+}

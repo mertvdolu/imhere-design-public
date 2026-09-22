@@ -1,0 +1,194 @@
+[
+  {
+    "locale": "tr",
+    "key": "authSignInFailed",
+    "previousKey": null,
+    "before": "Giriş yapılamadı. E-posta adresini ve parolanı kontrol et.",
+    "after": "Giriş yapılamadı. Bilgilerini kontrol edip tekrar dene.",
+    "kind": "copy-update"
+  },
+  {
+    "locale": "tr",
+    "key": "authResetSent",
+    "previousKey": null,
+    "before": "Parola sıfırlama isteğin alındı. Bu adresle ilişkili bir hesap varsa talimatları e-postanda bulabilirsin.",
+    "after": "Bu e-posta adresi kayıtlıysa parola sıfırlama bağlantısı gönderildi.",
+    "kind": "copy-update"
+  },
+  {
+    "locale": "tr",
+    "key": "authEmail",
+    "previousKey": "emailLabel",
+    "before": "E-posta adresi",
+    "after": "E-posta adresi",
+    "kind": "rename"
+  },
+  {
+    "locale": "tr",
+    "key": "authPasswordRule",
+    "previousKey": null,
+    "before": null,
+    "after": "En az 8 karakter.",
+    "kind": "add"
+  },
+  {
+    "locale": "tr",
+    "key": "authPasswordShow",
+    "previousKey": "authShowPassword",
+    "before": "Parolayı göster",
+    "after": "Parolayı göster",
+    "kind": "rename"
+  },
+  {
+    "locale": "tr",
+    "key": "authPasswordHide",
+    "previousKey": "authHidePassword",
+    "before": "Parolayı gizle",
+    "after": "Parolayı gizle",
+    "kind": "rename"
+  },
+  {
+    "locale": "tr",
+    "key": "authEmailInvalid",
+    "previousKey": "emailInvalid",
+    "before": "E-posta adresini kontrol et.",
+    "after": "E-posta adresini kontrol et.",
+    "kind": "rename"
+  },
+  {
+    "locale": "tr",
+    "key": "authPasswordWeak",
+    "previousKey": "authPasswordInvalid",
+    "before": "Parolanı kontrol edip tekrar dene.",
+    "after": "Parola en az 8 karakter olmalı.",
+    "kind": "rename-and-copy-update"
+  },
+  {
+    "locale": "tr",
+    "key": "authEmailUnavailable",
+    "previousKey": null,
+    "before": null,
+    "after": "İşlem tamamlanamadı. Bilgilerini kontrol edip tekrar dene.",
+    "kind": "add"
+  },
+  {
+    "locale": "tr",
+    "key": "authTooManyAttempts",
+    "previousKey": null,
+    "before": null,
+    "after": "Şu anda işlemi tamamlayamıyoruz. Daha sonra tekrar dene.",
+    "kind": "add"
+  },
+  {
+    "locale": "tr",
+    "key": "authReauthRequired",
+    "previousKey": null,
+    "before": null,
+    "after": "Devam etmek için yeniden giriş yap.",
+    "kind": "add"
+  },
+  {
+    "locale": "tr",
+    "key": "authResetBackToSignIn",
+    "previousKey": "authBackToSignIn",
+    "before": "Girişe dön",
+    "after": "Girişe dön",
+    "kind": "rename"
+  },
+  {
+    "locale": "en",
+    "key": "authSignInFailed",
+    "previousKey": null,
+    "before": "Sign-in failed. Check your email address and password.",
+    "after": "Couldn’t sign in. Check your details and try again.",
+    "kind": "copy-update"
+  },
+  {
+    "locale": "en",
+    "key": "authResetSent",
+    "previousKey": null,
+    "before": "Your password reset request has been received. If an account is associated with this address, you can find instructions in your email.",
+    "after": "If this email address is registered, a password reset link has been sent.",
+    "kind": "copy-update"
+  },
+  {
+    "locale": "en",
+    "key": "authEmail",
+    "previousKey": "emailLabel",
+    "before": "Email address",
+    "after": "Email address",
+    "kind": "rename"
+  },
+  {
+    "locale": "en",
+    "key": "authPasswordRule",
+    "previousKey": null,
+    "before": null,
+    "after": "At least 8 characters.",
+    "kind": "add"
+  },
+  {
+    "locale": "en",
+    "key": "authPasswordShow",
+    "previousKey": "authShowPassword",
+    "before": "Show password",
+    "after": "Show password",
+    "kind": "rename"
+  },
+  {
+    "locale": "en",
+    "key": "authPasswordHide",
+    "previousKey": "authHidePassword",
+    "before": "Hide password",
+    "after": "Hide password",
+    "kind": "rename"
+  },
+  {
+    "locale": "en",
+    "key": "authEmailInvalid",
+    "previousKey": "emailInvalid",
+    "before": "Check your email address.",
+    "after": "Check your email address.",
+    "kind": "rename"
+  },
+  {
+    "locale": "en",
+    "key": "authPasswordWeak",
+    "previousKey": "authPasswordInvalid",
+    "before": "Check your password and try again.",
+    "after": "Password must be at least 8 characters.",
+    "kind": "rename-and-copy-update"
+  },
+  {
+    "locale": "en",
+    "key": "authEmailUnavailable",
+    "previousKey": null,
+    "before": null,
+    "after": "The action couldn’t be completed. Check your details and try again.",
+    "kind": "add"
+  },
+  {
+    "locale": "en",
+    "key": "authTooManyAttempts",
+    "previousKey": null,
+    "before": null,
+    "after": "We can’t complete this action right now. Please try again later.",
+    "kind": "add"
+  },
+  {
+    "locale": "en",
+    "key": "authReauthRequired",
+    "previousKey": null,
+    "before": null,
+    "after": "Sign in again to continue.",
+    "kind": "add"
+  },
+  {
+    "locale": "en",
+    "key": "authResetBackToSignIn",
+    "previousKey": "authBackToSignIn",
+    "before": "Back to sign in",
+    "after": "Back to sign in",
+    "kind": "rename"
+  }
+]

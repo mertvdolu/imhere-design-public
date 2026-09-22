@@ -1,0 +1,50 @@
+{
+  "localFile": true,
+  "mainFlowCount": 13,
+  "allStateCount": 73,
+  "groups": [
+    {
+      "group": "settings",
+      "cards": 8,
+      "imagesLoaded": true
+    },
+    {
+      "group": "report",
+      "cards": 10,
+      "imagesLoaded": true
+    },
+    {
+      "group": "safety",
+      "cards": 14,
+      "imagesLoaded": true
+    },
+    {
+      "group": "blocked",
+      "cards": 11,
+      "imagesLoaded": true
+    },
+    {
+      "group": "notifications",
+      "cards": 11,
+      "imagesLoaded": true
+    },
+    {
+      "group": "legal",
+      "cards": 8,
+      "imagesLoaded": true
+    },
+    {
+      "group": "delete",
+      "cards": 9,
+      "imagesLoaded": true
+    },
+    {
+      "group": "events",
+      "cards": 2,
+      "imagesLoaded": true
+    }
+  ],
+  "pageErrors": [],
+  "networkRequests": [],
+  "note": "Local review shell; not app integration"
+}

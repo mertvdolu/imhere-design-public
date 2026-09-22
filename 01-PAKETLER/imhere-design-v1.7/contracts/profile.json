@@ -1,0 +1,60 @@
+{
+  "version": "1.5",
+  "required": [
+    "singlePhoto",
+    "displayName",
+    "birthDate",
+    "gender",
+    "occupation",
+    "bio",
+    "interests"
+  ],
+  "optional": [
+    "spokenLanguages"
+  ],
+  "photoCount": 1,
+  "nameGraphemes": {
+    "min": 2,
+    "max": 30
+  },
+  "bioMaxGraphemes": 150,
+  "adultOnly": true,
+  "dateErrorKey": "profileBirthDateError",
+  "publicBirthDate": false,
+  "publicAge": "Computed from birthDate; show only if visible",
+  "visibility": {
+    "age": {
+      "initialDefault": true,
+      "editable": true,
+      "honorSavedValue": true,
+      "omitEntireRowWhenHidden": true
+    },
+    "gender": {
+      "initialDefault": true,
+      "editable": true,
+      "honorSavedValue": true,
+      "omitEntireRowWhenHidden": true
+    },
+    "occupation": {
+      "initialDefault": true,
+      "editable": true,
+      "honorSavedValue": true,
+      "omitEntireRowWhenHidden": true
+    }
+  },
+  "interestCount": {
+    "min": 1,
+    "max": 5
+  },
+  "genderOptions": [
+    "genderWoman",
+    "genderMan",
+    "genderNonbinary",
+    "genderPrivate"
+  ],
+  "genderDefault": null,
+  "gallery": false,
+  "publicContactFields": false,
+  "genderPreference": false,
+  "authority": "Designer requirements v1.0.1 + user-relayed Founder decisions"
+}

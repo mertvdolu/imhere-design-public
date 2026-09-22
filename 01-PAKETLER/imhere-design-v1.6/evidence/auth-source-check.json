@@ -1,0 +1,37 @@
+{
+  "readOnlyFiles": [
+    {
+      "path": "tools/m02b-email-roundtrip.mjs",
+      "findings": [
+        "accounts:signUp receives email + password",
+        "accounts:sendOobCode with VERIFY_EMAIL",
+        "accounts:signInWithPassword"
+      ]
+    },
+    {
+      "path": "backend/functions/src/core/auth.ts",
+      "findings": [
+        "Authorization reads provider verified token",
+        "EMAIL_VERIFIED rejects token without emailVerified=true",
+        "Neutral errors avoid account/admin enumeration"
+      ]
+    },
+    {
+      "path": "app/lib/main.dart and app/lib/screens/language_settings_screen.dart",
+      "findings": [
+        "Existing Settings language view found; local development shell has three temporary tabs and is not authority for the accepted four-tab product navigation.",
+        "M10 attaches Settings to Profile context; sign-out fragment does not create a fifth tab."
+      ]
+    }
+  ],
+  "passwordPolicyText": "Not found in local Flutter UI/localization; no Firebase defaults inferred",
+  "requirementsFile": "Accessible summary files still identify themselves as v1.0.1; user current message is the authority for this correction",
+  "notDone": [
+    "No Master read",
+    "No Firebase console access",
+    "No auth requests executed",
+    "No secrets read",
+    "No app code changes"
+  ],
+  "founderResponse": "Will obtain existing password copy from developer; leave the field without policy copy until then."
+}

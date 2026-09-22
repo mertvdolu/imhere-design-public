@@ -1,0 +1,417 @@
+[
+  {
+    "key": "appTitle",
+    "resolution": "alias",
+    "canonical": "appTitle"
+  },
+  {
+    "key": "profileSaved",
+    "resolution": "added",
+    "canonical": "profileSaved"
+  },
+  {
+    "key": "profileIncomplete",
+    "resolution": "added",
+    "canonical": "profileIncomplete"
+  },
+  {
+    "key": "profileComplete",
+    "resolution": "added",
+    "canonical": "profileComplete"
+  },
+  {
+    "key": "fieldDisplayName",
+    "resolution": "alias",
+    "canonical": "displayName"
+  },
+  {
+    "key": "fieldBio",
+    "resolution": "alias",
+    "canonical": "bio"
+  },
+  {
+    "key": "fieldOccupation",
+    "resolution": "alias",
+    "canonical": "occupation"
+  },
+  {
+    "key": "fieldGender",
+    "resolution": "alias",
+    "canonical": "gender"
+  },
+  {
+    "key": "fieldDob",
+    "resolution": "alias",
+    "canonical": "profileBirthDate"
+  },
+  {
+    "key": "fieldInterests",
+    "resolution": "added",
+    "canonical": "fieldInterests"
+  },
+  {
+    "key": "fieldSpokenLanguages",
+    "resolution": "alias",
+    "canonical": "languages"
+  },
+  {
+    "key": "dobHelp",
+    "resolution": "added",
+    "canonical": "dobHelp"
+  },
+  {
+    "key": "interestsHelp",
+    "resolution": "added",
+    "canonical": "interestsHelp"
+  },
+  {
+    "key": "charactersLeft",
+    "resolution": "added",
+    "canonical": "charactersLeft"
+  },
+  {
+    "key": "genderWOMAN",
+    "resolution": "alias",
+    "canonical": "genderWoman"
+  },
+  {
+    "key": "genderMAN",
+    "resolution": "alias",
+    "canonical": "genderMan"
+  },
+  {
+    "key": "genderNON_BINARY",
+    "resolution": "alias",
+    "canonical": "genderNonbinary"
+  },
+  {
+    "key": "genderPREFER_NOT_TO_SAY",
+    "resolution": "alias",
+    "canonical": "genderPrivate"
+  },
+  {
+    "key": "visibilityTitle",
+    "resolution": "added",
+    "canonical": "visibilityTitle"
+  },
+  {
+    "key": "visibilityHelp",
+    "resolution": "added",
+    "canonical": "visibilityHelp"
+  },
+  {
+    "key": "showAge",
+    "resolution": "added",
+    "canonical": "showAge"
+  },
+  {
+    "key": "showGender",
+    "resolution": "added",
+    "canonical": "showGender"
+  },
+  {
+    "key": "showOccupation",
+    "resolution": "added",
+    "canonical": "showOccupation"
+  },
+  {
+    "key": "photoTitle",
+    "resolution": "added",
+    "canonical": "photoTitle"
+  },
+  {
+    "key": "photoNone",
+    "resolution": "added",
+    "canonical": "photoNone"
+  },
+  {
+    "key": "photoChoose",
+    "resolution": "added",
+    "canonical": "photoChoose"
+  },
+  {
+    "key": "photoReplace",
+    "resolution": "added",
+    "canonical": "photoReplace"
+  },
+  {
+    "key": "photoPrivacyNote",
+    "resolution": "added",
+    "canonical": "photoPrivacyNote"
+  },
+  {
+    "key": "settingsTitle",
+    "resolution": "alias",
+    "canonical": "settings"
+  },
+  {
+    "key": "settingsLanguage",
+    "resolution": "added",
+    "canonical": "settingsLanguage"
+  },
+  {
+    "key": "languageSystem",
+    "resolution": "alias",
+    "canonical": "deviceLanguage"
+  },
+  {
+    "key": "errorRequired",
+    "resolution": "added",
+    "canonical": "errorRequired"
+  },
+  {
+    "key": "errorTextTooLong",
+    "resolution": "added",
+    "canonical": "errorTextTooLong"
+  },
+  {
+    "key": "errorTextTooShort",
+    "resolution": "added",
+    "canonical": "errorTextTooShort"
+  },
+  {
+    "key": "errorAgeIneligible",
+    "resolution": "alias",
+    "canonical": "profileBirthDateError"
+  },
+  {
+    "key": "errorInterestsRange",
+    "resolution": "added",
+    "canonical": "errorInterestsRange"
+  },
+  {
+    "key": "errorGenderRequired",
+    "resolution": "added",
+    "canonical": "errorGenderRequired"
+  },
+  {
+    "key": "errorQualityInsufficient",
+    "resolution": "added",
+    "canonical": "errorQualityInsufficient"
+  },
+  {
+    "key": "errorStateChanged",
+    "resolution": "added",
+    "canonical": "errorStateChanged"
+  },
+  {
+    "key": "errorNetwork",
+    "resolution": "added",
+    "canonical": "errorNetwork"
+  },
+  {
+    "key": "interestMusic",
+    "resolution": "added",
+    "canonical": "interestMusic"
+  },
+  {
+    "key": "interestLiveMusic",
+    "resolution": "added",
+    "canonical": "interestLiveMusic"
+  },
+  {
+    "key": "interestFilmTv",
+    "resolution": "added",
+    "canonical": "interestFilmTv"
+  },
+  {
+    "key": "interestBooks",
+    "resolution": "added",
+    "canonical": "interestBooks"
+  },
+  {
+    "key": "interestArtMuseums",
+    "resolution": "added",
+    "canonical": "interestArtMuseums"
+  },
+  {
+    "key": "interestPhotography",
+    "resolution": "added",
+    "canonical": "interestPhotography"
+  },
+  {
+    "key": "interestCoffee",
+    "resolution": "added",
+    "canonical": "interestCoffee"
+  },
+  {
+    "key": "interestFoodCooking",
+    "resolution": "added",
+    "canonical": "interestFoodCooking"
+  },
+  {
+    "key": "interestTravel",
+    "resolution": "added",
+    "canonical": "interestTravel"
+  },
+  {
+    "key": "interestNatureHiking",
+    "resolution": "added",
+    "canonical": "interestNatureHiking"
+  },
+  {
+    "key": "interestWatchingSports",
+    "resolution": "added",
+    "canonical": "interestWatchingSports"
+  },
+  {
+    "key": "interestFitness",
+    "resolution": "added",
+    "canonical": "interestFitness"
+  },
+  {
+    "key": "interestRunning",
+    "resolution": "added",
+    "canonical": "interestRunning"
+  },
+  {
+    "key": "interestCycling",
+    "resolution": "added",
+    "canonical": "interestCycling"
+  },
+  {
+    "key": "interestWaterSports",
+    "resolution": "added",
+    "canonical": "interestWaterSports"
+  },
+  {
+    "key": "interestYoga",
+    "resolution": "added",
+    "canonical": "interestYoga"
+  },
+  {
+    "key": "interestDancing",
+    "resolution": "added",
+    "canonical": "interestDancing"
+  },
+  {
+    "key": "interestVideoGames",
+    "resolution": "added",
+    "canonical": "interestVideoGames"
+  },
+  {
+    "key": "interestBoardGames",
+    "resolution": "added",
+    "canonical": "interestBoardGames"
+  },
+  {
+    "key": "interestTechnology",
+    "resolution": "added",
+    "canonical": "interestTechnology"
+  },
+  {
+    "key": "interestEntrepreneurship",
+    "resolution": "added",
+    "canonical": "interestEntrepreneurship"
+  },
+  {
+    "key": "interestDesign",
+    "resolution": "added",
+    "canonical": "interestDesign"
+  },
+  {
+    "key": "interestLanguages",
+    "resolution": "added",
+    "canonical": "interestLanguages"
+  },
+  {
+    "key": "interestVolunteering",
+    "resolution": "added",
+    "canonical": "interestVolunteering"
+  },
+  {
+    "key": "interestAnimals",
+    "resolution": "added",
+    "canonical": "interestAnimals"
+  },
+  {
+    "key": "interestGardening",
+    "resolution": "added",
+    "canonical": "interestGardening"
+  },
+  {
+    "key": "interestOther",
+    "resolution": "added",
+    "canonical": "interestOther"
+  },
+  {
+    "key": "checkInTitle",
+    "resolution": "added",
+    "canonical": "checkInTitle"
+  },
+  {
+    "key": "checkInButton",
+    "resolution": "alias",
+    "canonical": "checkInStart"
+  },
+  {
+    "key": "renewButton",
+    "resolution": "alias",
+    "canonical": "checkInRenew"
+  },
+  {
+    "key": "stopButton",
+    "resolution": "alias",
+    "canonical": "checkInStop"
+  },
+  {
+    "key": "retryButton",
+    "resolution": "alias",
+    "canonical": "checkInRetry"
+  },
+  {
+    "key": "cancelButton",
+    "resolution": "alias",
+    "canonical": "checkInCancel"
+  },
+  {
+    "key": "openSettingsButton",
+    "resolution": "alias",
+    "canonical": "checkInOpenSettings"
+  },
+  {
+    "key": "openLocationSettingsButton",
+    "resolution": "alias",
+    "canonical": "checkInLocationSettings"
+  },
+  {
+    "key": "statusInactive",
+    "resolution": "alias",
+    "canonical": "checkInStatusInactive"
+  },
+  {
+    "key": "statusAcquiring",
+    "resolution": "alias",
+    "canonical": "checkInStatusAcquiring"
+  },
+  {
+    "key": "statusVerifying",
+    "resolution": "alias",
+    "canonical": "checkInStatusVerifying"
+  },
+  {
+    "key": "statusActiveUntil",
+    "resolution": "alias",
+    "canonical": "checkInStatusActive"
+  },
+  {
+    "key": "statusRemaining",
+    "resolution": "alias",
+    "canonical": "checkInMinutesRemaining"
+  },
+  {
+    "key": "statusStopped",
+    "resolution": "alias",
+    "canonical": "checkInStatusStopped"
+  },
+  {
+    "key": "statusExpired",
+    "resolution": "alias",
+    "canonical": "checkInStatusExpired"
+  },
+  {
+    "key": "devEmulatorBanner",
+    "resolution": "added",
+    "canonical": "devEmulatorBanner"
+  }
+]

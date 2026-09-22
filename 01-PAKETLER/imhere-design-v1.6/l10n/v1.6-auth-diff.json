@@ -1,0 +1,450 @@
+[
+  {
+    "locale": "tr",
+    "key": "emailTitle",
+    "before": "E-postanla devam et",
+    "after": "Hesabını oluştur",
+    "kind": "modified-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "emailHelp",
+    "before": "Giriş için e-posta adresine bir doğrulama bağlantısı göndereceğiz.",
+    "after": "E-posta adresin ve parolanla hesabını oluştur. Ardından e-posta adresini doğrula.",
+    "kind": "modified-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "emailWaitingTitle",
+    "before": "E-postanı kontrol et",
+    "after": "E-postanı doğrula",
+    "kind": "modified-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authCreateAccount",
+    "before": null,
+    "after": "Hesap oluştur",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authPassword",
+    "before": null,
+    "after": "Parola",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authShowPassword",
+    "before": null,
+    "after": "Parolayı göster",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authHidePassword",
+    "before": null,
+    "after": "Parolayı gizle",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authPasswordInvalid",
+    "before": null,
+    "after": "Parolanı kontrol edip tekrar dene.",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authCreating",
+    "before": null,
+    "after": "Hesabın oluşturuluyor…",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authCreateFailed",
+    "before": null,
+    "after": "Hesap oluşturulamadı. Bilgilerini kontrol edip tekrar deneyebilirsin.",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authSignInTitle",
+    "before": null,
+    "after": "Tekrar merhaba",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authSignInBody",
+    "before": null,
+    "after": "E-posta adresin ve parolanla giriş yap.",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authSignIn",
+    "before": null,
+    "after": "Giriş yap",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authExistingAccount",
+    "before": null,
+    "after": "Hesabım var · Giriş yap",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authBackToSignIn",
+    "before": null,
+    "after": "Girişe dön",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authSigningIn",
+    "before": null,
+    "after": "Giriş yapılıyor…",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authSignInFailed",
+    "before": null,
+    "after": "Giriş yapılamadı. E-posta adresini ve parolanı kontrol et.",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authForgotPassword",
+    "before": null,
+    "after": "Parolamı unuttum",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authResetTitle",
+    "before": null,
+    "after": "Parolanı sıfırla",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authResetBody",
+    "before": null,
+    "after": "Hesabınla kullandığın e-posta adresini gir.",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authResetSend",
+    "before": null,
+    "after": "Sıfırlama e-postası gönder",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authResetSending",
+    "before": null,
+    "after": "Parola sıfırlama isteğin gönderiliyor…",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authResetSent",
+    "before": null,
+    "after": "Parola sıfırlama isteğin alındı. Bu adresle ilişkili bir hesap varsa talimatları e-postanda bulabilirsin.",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authResetFailed",
+    "before": null,
+    "after": "Parola sıfırlama isteği tamamlanamadı. Tekrar deneyebilirsin.",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authVerifyCheck",
+    "before": null,
+    "after": "Doğrulamayı kontrol et",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authVerifyRequired",
+    "before": null,
+    "after": "Devam etmek için e-posta adresini doğrula.",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authVerifyNotYet",
+    "before": null,
+    "after": "E-posta doğrulaması henüz onaylanmadı. Gelen kutundaki bağlantıya dokunup tekrar kontrol edebilirsin.",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authVerifySendFailed",
+    "before": null,
+    "after": "Doğrulama e-postası gönderilemedi. Tekrar göndermeyi deneyebilirsin.",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authVerifyResendUnavailable",
+    "before": null,
+    "after": "Doğrulama e-postası şu anda yeniden gönderilemiyor.",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authSignOut",
+    "before": null,
+    "after": "Çıkış yap",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authSigningOut",
+    "before": null,
+    "after": "Çıkış yapılıyor…",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "tr",
+    "key": "authSignOutFailed",
+    "before": null,
+    "after": "Çıkış yapılamadı. Tekrar deneyebilirsin.",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "emailTitle",
+    "before": "Continue with your email",
+    "after": "Create your account",
+    "kind": "modified-auth"
+  },
+  {
+    "locale": "en",
+    "key": "emailHelp",
+    "before": "We’ll send a verification link to your email address so you can sign in.",
+    "after": "Create your account with your email and password. Then verify your email address.",
+    "kind": "modified-auth"
+  },
+  {
+    "locale": "en",
+    "key": "emailWaitingTitle",
+    "before": "Check your email",
+    "after": "Verify your email",
+    "kind": "modified-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authCreateAccount",
+    "before": null,
+    "after": "Create account",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authPassword",
+    "before": null,
+    "after": "Password",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authShowPassword",
+    "before": null,
+    "after": "Show password",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authHidePassword",
+    "before": null,
+    "after": "Hide password",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authPasswordInvalid",
+    "before": null,
+    "after": "Check your password and try again.",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authCreating",
+    "before": null,
+    "after": "Creating your account…",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authCreateFailed",
+    "before": null,
+    "after": "Your account couldn’t be created. Check your details and try again.",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authSignInTitle",
+    "before": null,
+    "after": "Hello again",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authSignInBody",
+    "before": null,
+    "after": "Sign in with your email and password.",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authSignIn",
+    "before": null,
+    "after": "Sign in",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authExistingAccount",
+    "before": null,
+    "after": "I have an account · Sign in",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authBackToSignIn",
+    "before": null,
+    "after": "Back to sign in",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authSigningIn",
+    "before": null,
+    "after": "Signing in…",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authSignInFailed",
+    "before": null,
+    "after": "Sign-in failed. Check your email address and password.",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authForgotPassword",
+    "before": null,
+    "after": "Forgot password",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authResetTitle",
+    "before": null,
+    "after": "Reset your password",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authResetBody",
+    "before": null,
+    "after": "Enter the email address you use for your account.",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authResetSend",
+    "before": null,
+    "after": "Send reset email",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authResetSending",
+    "before": null,
+    "after": "Sending your password reset request…",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authResetSent",
+    "before": null,
+    "after": "Your password reset request has been received. If an account is associated with this address, you can find instructions in your email.",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authResetFailed",
+    "before": null,
+    "after": "Your password reset request couldn’t be completed. You can try again.",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authVerifyCheck",
+    "before": null,
+    "after": "Check verification",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authVerifyRequired",
+    "before": null,
+    "after": "Verify your email address to continue.",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authVerifyNotYet",
+    "before": null,
+    "after": "Email verification hasn’t been confirmed yet. Tap the link in your inbox and check again.",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authVerifySendFailed",
+    "before": null,
+    "after": "The verification email couldn’t be sent. You can try sending it again.",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authVerifyResendUnavailable",
+    "before": null,
+    "after": "The verification email can’t be resent right now.",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authSignOut",
+    "before": null,
+    "after": "Sign out",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authSigningOut",
+    "before": null,
+    "after": "Signing out…",
+    "kind": "added-auth"
+  },
+  {
+    "locale": "en",
+    "key": "authSignOutFailed",
+    "before": null,
+    "after": "You couldn’t be signed out. You can try again.",
+    "kind": "added-auth"
+  }
+]

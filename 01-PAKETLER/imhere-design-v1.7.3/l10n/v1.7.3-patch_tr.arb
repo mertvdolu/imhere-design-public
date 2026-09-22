@@ -1,0 +1,7 @@
+{
+  "@@locale": "tr",
+  "contactUpdated": "Paylaştığın bilgi güncellendi.",
+  "@contactUpdated": {
+    "description": "Success feedback only after confirmed update of an already shared contact field. Not initial sharing or withdrawal."
+  }
+}

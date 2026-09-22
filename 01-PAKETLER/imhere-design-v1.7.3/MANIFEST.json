@@ -1,0 +1,315 @@
+{
+  "version": "1.7.3",
+  "files": [
+    {
+      "path": "00-BURADAN-BASLA.md",
+      "sha256": "88ce244fd1e1e11b1754b6211f0a7638ccb721f657d57ff0b7bcca1c7d3b4b06",
+      "bytes": 786
+    },
+    {
+      "path": "DOGRULAMA.md",
+      "sha256": "c11863d3c66745e3820225d4bcbd960aa2b9894e6140b52a9ef91eac44d20293",
+      "bytes": 439
+    },
+    {
+      "path": "MANAGER-NOTU.md",
+      "sha256": "b5b8651394b40c7555ba3329c4729b3483ff77b07e308d95971f439b4727e16c",
+      "bytes": 860
+    },
+    {
+      "path": "ONIZLEME.html",
+      "sha256": "050bd51c883462ce37c54ab7dc750bd25a12bb33bef47d45fbaa7d0542ec5711",
+      "bytes": 17085
+    },
+    {
+      "path": "assets/profile-deniz-preview.jpg",
+      "sha256": "f44a805abf320af9e614f13ed5fc97e0f2ef250e0a12f807907fbc2f2cc01a8a",
+      "bytes": 79764
+    },
+    {
+      "path": "assets/profile-emre.png",
+      "sha256": "e2ad967bd7259569789ce32bc63123f81d609815ef6ac1a7c77fc83b0cd006c5",
+      "bytes": 1062275
+    },
+    {
+      "path": "contracts/screen-manifest.json",
+      "sha256": "d7b6d5e5e50d6777e1bffd5dd881b0bd19aebf597ae5e4288a29b9ea14b3c531",
+      "bytes": 20903
+    },
+    {
+      "path": "evidence/preview-check.json",
+      "sha256": "b939b634500c02488764686c6033e35098b95014145179df9e78bb9677c96247",
+      "bytes": 47
+    },
+    {
+      "path": "evidence/validation.json",
+      "sha256": "58cc438bf02a339ffc55d0b9fb2a43001fb56f24976d1057a13aa71f40a4e6f1",
+      "bytes": 78403
+    },
+    {
+      "path": "fonts/Geist-Medium.ttf",
+      "sha256": "3a3b36f0d0b981f4857f7f00eeef4a5ee123605575d362ab31ee7c19e3d11f2f",
+      "bytes": 127660
+    },
+    {
+      "path": "fonts/Geist-Regular.ttf",
+      "sha256": "85a1c6b18a6b0a06dfe9fd4f6d6a5d4979f74ec861eaef4bc7868b5492b8a117",
+      "bytes": 126048
+    },
+    {
+      "path": "fonts/Geist-SemiBold.ttf",
+      "sha256": "b9f52322d6d20a7ff1e7fe1310ff12ec851aebb83d24f8b4f1d4149298f489b2",
+      "bytes": 127872
+    },
+    {
+      "path": "fonts/OFL.txt",
+      "sha256": "c683bfbcc7e087f5d37a54ef628f10387c451a83ddc459b151403a164ac46c90",
+      "bytes": 4383
+    },
+    {
+      "path": "fonts/README.md",
+      "sha256": "c6abf70ae45eaea5908935227341faa282c69f93043f423fb4d42c99db453ad7",
+      "bytes": 1230
+    },
+    {
+      "path": "fonts/SOURCE.json",
+      "sha256": "6867ef6b42707ad0bc34564fc49da8fc84a59ef003a089f9e0c2819c9e45360d",
+      "bytes": 1599
+    },
+    {
+      "path": "l10n/app_en.arb",
+      "sha256": "1df691a9e2374fa9d34e7bd5f33e4889b6247ec5521c6d1accb91cdcd219a058",
+      "bytes": 28091
+    },
+    {
+      "path": "l10n/app_tr.arb",
+      "sha256": "150768c1d8c170e83573ec690d8564f2a423a796b66a8959f7cf4db21e950259",
+      "bytes": 28619
+    },
+    {
+      "path": "l10n/migration.json",
+      "sha256": "efe928ee3c0a8d93fe7d0ebb068bffde1529a32bfb09aba1668e995748284232",
+      "bytes": 25788
+    },
+    {
+      "path": "l10n/v1.7.3-patch_en.arb",
+      "sha256": "7f10b395fe16ab6d07a1dc62384f87f447c3165b39fbf056e7addf842bd2c8fa",
+      "bytes": 243
+    },
+    {
+      "path": "l10n/v1.7.3-patch_tr.arb",
+      "sha256": "4675347947c9e5db4e346fd995b4f4bcf1eba36b00c93a56c6da8d7ed906f365",
+      "bytes": 247
+    },
+    {
+      "path": "screens/png/connections-open-closed--en--android--200.png",
+      "sha256": "498f83c65e698516e93821fbd18aaae1ba9617f8deee460f142b4f862733088f",
+      "bytes": 218047
+    },
+    {
+      "path": "screens/png/connections-open-closed--tr--ios--100.png",
+      "sha256": "82419aca83ccb60479492a98d7a307f59a0e9abbb6551588136ceaa9866c3ee3",
+      "bytes": 182066
+    },
+    {
+      "path": "screens/png/contact-last-withdrawn--en--android--200.png",
+      "sha256": "214e72463116ec24302bac4072977b02d808ccb6afd870c7ffe17213c088eb7e",
+      "bytes": 212290
+    },
+    {
+      "path": "screens/png/contact-last-withdrawn--tr--ios--100.png",
+      "sha256": "8f8a986a9e3b03eb08ffb0f22df85d2551cff2feb7cb614ca6dd07550a814d8c",
+      "bytes": 115962
+    },
+    {
+      "path": "screens/png/contact-own-empty--en--android--200.png",
+      "sha256": "7e0bd71dc812170f5cb844de855bfeb16a76791ad619933b910abaee5eed3b2e",
+      "bytes": 192120
+    },
+    {
+      "path": "screens/png/contact-own-empty--tr--ios--100.png",
+      "sha256": "1a06aab5dacf76012f4cf1e5948595198c874ae1e820eee324297ff469fe2c0b",
+      "bytes": 107240
+    },
+    {
+      "path": "screens/png/contact-update-success--en--android--200.png",
+      "sha256": "333321ae25459c686536b7596e2bc94ff84138fcdf7d093b1735353475bbc5dd",
+      "bytes": 242340
+    },
+    {
+      "path": "screens/png/contact-update-success--tr--ios--100.png",
+      "sha256": "c6e7bf632091bc57f52652f7c8b33eee1050d93073b7131907dd2f5040bc2396",
+      "bytes": 135523
+    },
+    {
+      "path": "screens/svg/connections-open-closed--en--android--100.svg",
+      "sha256": "ea67fd9a573001f146b93e0ce089a40286af1aa44fafbd9471eec91a54a5acff",
+      "bytes": 1606553
+    },
+    {
+      "path": "screens/svg/connections-open-closed--en--android--200.svg",
+      "sha256": "054ee7bb97eac6006730e83b2fabf55a5bcf31bbc96401993c2b6dedd91d5c63",
+      "bytes": 1606805
+    },
+    {
+      "path": "screens/svg/connections-open-closed--en--ios--100.svg",
+      "sha256": "7576ace0f2a244a310f22b00161b4497c5c68f10881cea40304c935080190b29",
+      "bytes": 1606575
+    },
+    {
+      "path": "screens/svg/connections-open-closed--en--ios--200.svg",
+      "sha256": "ec5d9f0ee2c5824b4a286d08e0108ce4d25694ebdda3cf1a51148d397a718c4f",
+      "bytes": 1606815
+    },
+    {
+      "path": "screens/svg/connections-open-closed--tr--android--100.svg",
+      "sha256": "92dcb086133d2edbf4765c5e7800f62410e5a57c2dbaab050bc521b5b9430d9b",
+      "bytes": 1606566
+    },
+    {
+      "path": "screens/svg/connections-open-closed--tr--android--200.svg",
+      "sha256": "aea23fa0a0d99186f0a931284d06f1ad960dd5ee1cfc45c123a2a22f5f2430a1",
+      "bytes": 1606560
+    },
+    {
+      "path": "screens/svg/connections-open-closed--tr--ios--100.svg",
+      "sha256": "b03fda4341f1db39f3b8c79af8d3736d936d97260f8de48ef93ba9683167c70a",
+      "bytes": 1606588
+    },
+    {
+      "path": "screens/svg/connections-open-closed--tr--ios--200.svg",
+      "sha256": "c601e077323095cec82fc8114d3cb6104934e5ed0c825c60a9a29bbc98f8749c",
+      "bytes": 1606828
+    },
+    {
+      "path": "screens/svg/contact-last-withdrawn--en--android--100.svg",
+      "sha256": "10a91a6877d1b0cd0e95de4d8d69b07ae2aa06dd2e146d48fee84bd5318eafba",
+      "bytes": 84313
+    },
+    {
+      "path": "screens/svg/contact-last-withdrawn--en--android--200.svg",
+      "sha256": "ea64749703d494562dea135501693c05c46f061433278a30118a367a16c3e24f",
+      "bytes": 85125
+    },
+    {
+      "path": "screens/svg/contact-last-withdrawn--en--ios--100.svg",
+      "sha256": "c5a14ceed4c5c8ec65b1006b66287c3c2f43f0ffa75cca6c77a9910da1b17eb3",
+      "bytes": 84299
+    },
+    {
+      "path": "screens/svg/contact-last-withdrawn--en--ios--200.svg",
+      "sha256": "124056a8866cb71febd1cce30fafffd9dfc860c9dcf04c3ed98f270596454681",
+      "bytes": 85126
+    },
+    {
+      "path": "screens/svg/contact-last-withdrawn--tr--android--100.svg",
+      "sha256": "4f1617d67fe2c86482691013f6f1ffe6733f54d9cf1edcb7d8861b98984f5b5f",
+      "bytes": 84260
+    },
+    {
+      "path": "screens/svg/contact-last-withdrawn--tr--android--200.svg",
+      "sha256": "f39ccd58abce0e9b5354d21f8210114431b9cc3fd5be72428be038671516373d",
+      "bytes": 85156
+    },
+    {
+      "path": "screens/svg/contact-last-withdrawn--tr--ios--100.svg",
+      "sha256": "305dd40e217583a6d8bc60bd58afd90ac18d27d8a187814752ccd865774edff8",
+      "bytes": 84428
+    },
+    {
+      "path": "screens/svg/contact-last-withdrawn--tr--ios--200.svg",
+      "sha256": "645088a44e697771533bdd4760556db426187087a55be9d08c3da2b60b13a639",
+      "bytes": 85623
+    },
+    {
+      "path": "screens/svg/contact-own-empty--en--android--100.svg",
+      "sha256": "781cfa16e084c2465b74e3d258e8e54ac8cce9d0b7062d76202ad2bd3a71f41c",
+      "bytes": 83860
+    },
+    {
+      "path": "screens/svg/contact-own-empty--en--android--200.svg",
+      "sha256": "a645fb9caeba2dbae8a085d7c9200e5ae0a318aab7d01c3c343c65f0d6e6c386",
+      "bytes": 84673
+    },
+    {
+      "path": "screens/svg/contact-own-empty--en--ios--100.svg",
+      "sha256": "c3af5f1ba74b694212284352ca44c3260e243522a09d9aa57ad6c713931fd2eb",
+      "bytes": 83824
+    },
+    {
+      "path": "screens/svg/contact-own-empty--en--ios--200.svg",
+      "sha256": "0b79010a45929725fb92ce22bb0741a53bee97261851fdbebcf8e0f8b43d3725",
+      "bytes": 84673
+    },
+    {
+      "path": "screens/svg/contact-own-empty--tr--android--100.svg",
+      "sha256": "dadf2b2c957e397d02848e16a82abe5cd9c3a460572df3360c88120e3617e170",
+      "bytes": 83859
+    },
+    {
+      "path": "screens/svg/contact-own-empty--tr--android--200.svg",
+      "sha256": "576fd0be9fa7de238bc2d8847ba0569c4c5d9542d14c727452bcd53b35acf58e",
+      "bytes": 84541
+    },
+    {
+      "path": "screens/svg/contact-own-empty--tr--ios--100.svg",
+      "sha256": "9285e3a8667a922a18629a085a168d90f2eb9640e94fa8c6c2cc826af98c1a68",
+      "bytes": 83944
+    },
+    {
+      "path": "screens/svg/contact-own-empty--tr--ios--200.svg",
+      "sha256": "23d4c5541bba5d3b0b6b4a72ddadde2c88c09b123e9dc551b0ec1c041bc23d8a",
+      "bytes": 84852
+    },
+    {
+      "path": "screens/svg/contact-update-success--en--android--100.svg",
+      "sha256": "29e5ba3a70ed346a593a18eff6654451dbd9c8adba03239dd6ef6fd35741a1f2",
+      "bytes": 84702
+    },
+    {
+      "path": "screens/svg/contact-update-success--en--android--200.svg",
+      "sha256": "d5e5ba756a1c2ee4f159c7e3befaa201b4acb87ee94b7d241d46a6c1e7dff2d6",
+      "bytes": 85345
+    },
+    {
+      "path": "screens/svg/contact-update-success--en--ios--100.svg",
+      "sha256": "619618bd78ce4567cdb8fc0d79154ad123195bc7ce236bcc7a23bfb165da8e44",
+      "bytes": 84700
+    },
+    {
+      "path": "screens/svg/contact-update-success--en--ios--200.svg",
+      "sha256": "44ed6d26d8ed28a2af1966a032f95d8fed8d6dff8c6926fa1c1fc8453c2e9e18",
+      "bytes": 85468
+    },
+    {
+      "path": "screens/svg/contact-update-success--tr--android--100.svg",
+      "sha256": "679aa4f814c6c66c633d4c071acf651d240487b6914209111edd7e5f709f18e1",
+      "bytes": 84678
+    },
+    {
+      "path": "screens/svg/contact-update-success--tr--android--200.svg",
+      "sha256": "262e7992de32ae46de666f23828d67415941bea396cf5c836a0899a0abb2e9d3",
+      "bytes": 85713
+    },
+    {
+      "path": "screens/svg/contact-update-success--tr--ios--100.svg",
+      "sha256": "e4030d9c0d82bdcc63047defdcb5a0f083b409e40e692bfbc260af43246d8e45",
+      "bytes": 84835
+    },
+    {
+      "path": "screens/svg/contact-update-success--tr--ios--200.svg",
+      "sha256": "940a6a59efe11d675a2451939797da8add73766cd03e5cc945c11930dd842226",
+      "bytes": 85780
+    },
+    {
+      "path": "specs/01-EKRAN-NOTLARI.md",
+      "sha256": "fb45e257914c6ab32d5b6c98eaab4c855bd7ed2b22075687c15f5031e564aebb",
+      "bytes": 3326
+    },
+    {
+      "path": "tokens/theme.tokens.json",
+      "sha256": "594c40b84df0abcdf579e0c84b8f225ba30d9498d5bde882612a7036206fc60c",
+      "bytes": 3574
+    }
+  ]
+}

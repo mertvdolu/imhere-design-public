@@ -1,0 +1,3402 @@
+[
+  {
+    "id": "contact-more-partial",
+    "group": "contact",
+    "title": "İki alan paylaşılmış / ek bilgi girişi",
+    "kind": "partial",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/contact-more-partial--tr--ios--100.svg",
+    "width": 390,
+    "height": 1099,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-partial",
+    "group": "contact",
+    "title": "İki alan paylaşılmış / ek bilgi girişi",
+    "kind": "partial",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/contact-more-partial--tr--ios--200.svg",
+    "width": 390,
+    "height": 1979,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-partial",
+    "group": "contact",
+    "title": "İki alan paylaşılmış / ek bilgi girişi",
+    "kind": "partial",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/contact-more-partial--tr--android--100.svg",
+    "width": 412,
+    "height": 1031,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-partial",
+    "group": "contact",
+    "title": "İki alan paylaşılmış / ek bilgi girişi",
+    "kind": "partial",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/contact-more-partial--tr--android--200.svg",
+    "width": 412,
+    "height": 1845,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-partial",
+    "group": "contact",
+    "title": "İki alan paylaşılmış / ek bilgi girişi",
+    "kind": "partial",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/contact-more-partial--en--ios--100.svg",
+    "width": 390,
+    "height": 1079,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-partial",
+    "group": "contact",
+    "title": "İki alan paylaşılmış / ek bilgi girişi",
+    "kind": "partial",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/contact-more-partial--en--ios--200.svg",
+    "width": 390,
+    "height": 1888,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-partial",
+    "group": "contact",
+    "title": "İki alan paylaşılmış / ek bilgi girişi",
+    "kind": "partial",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/contact-more-partial--en--android--100.svg",
+    "width": 412,
+    "height": 1047,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-partial",
+    "group": "contact",
+    "title": "İki alan paylaşılmış / ek bilgi girişi",
+    "kind": "partial",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/contact-more-partial--en--android--200.svg",
+    "width": 412,
+    "height": 1856,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-empty",
+    "group": "contact",
+    "title": "Ek alan seçimi / boş",
+    "kind": "empty",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/contact-more-empty--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": false
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-empty",
+    "group": "contact",
+    "title": "Ek alan seçimi / boş",
+    "kind": "empty",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/contact-more-empty--tr--ios--200.svg",
+    "width": 390,
+    "height": 1285,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": false
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-empty",
+    "group": "contact",
+    "title": "Ek alan seçimi / boş",
+    "kind": "empty",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/contact-more-empty--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": false
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-empty",
+    "group": "contact",
+    "title": "Ek alan seçimi / boş",
+    "kind": "empty",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/contact-more-empty--tr--android--200.svg",
+    "width": 412,
+    "height": 1253,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": false
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-empty",
+    "group": "contact",
+    "title": "Ek alan seçimi / boş",
+    "kind": "empty",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/contact-more-empty--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": false
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-empty",
+    "group": "contact",
+    "title": "Ek alan seçimi / boş",
+    "kind": "empty",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/contact-more-empty--en--ios--200.svg",
+    "width": 390,
+    "height": 1246,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": false
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-empty",
+    "group": "contact",
+    "title": "Ek alan seçimi / boş",
+    "kind": "empty",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/contact-more-empty--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": false
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-empty",
+    "group": "contact",
+    "title": "Ek alan seçimi / boş",
+    "kind": "empty",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/contact-more-empty--en--android--200.svg",
+    "width": 412,
+    "height": 1214,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": false
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-selected",
+    "group": "contact",
+    "title": "Ek alan seçimi / Instagram",
+    "kind": "selected",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/contact-more-selected--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": true
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-selected",
+    "group": "contact",
+    "title": "Ek alan seçimi / Instagram",
+    "kind": "selected",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/contact-more-selected--tr--ios--200.svg",
+    "width": 390,
+    "height": 1376,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": true
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-selected",
+    "group": "contact",
+    "title": "Ek alan seçimi / Instagram",
+    "kind": "selected",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/contact-more-selected--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": true
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-selected",
+    "group": "contact",
+    "title": "Ek alan seçimi / Instagram",
+    "kind": "selected",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/contact-more-selected--tr--android--200.svg",
+    "width": 412,
+    "height": 1344,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": true
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-selected",
+    "group": "contact",
+    "title": "Ek alan seçimi / Instagram",
+    "kind": "selected",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/contact-more-selected--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": true
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-selected",
+    "group": "contact",
+    "title": "Ek alan seçimi / Instagram",
+    "kind": "selected",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/contact-more-selected--en--ios--200.svg",
+    "width": 390,
+    "height": 1376,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": true
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-selected",
+    "group": "contact",
+    "title": "Ek alan seçimi / Instagram",
+    "kind": "selected",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/contact-more-selected--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": true
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-selected",
+    "group": "contact",
+    "title": "Ek alan seçimi / Instagram",
+    "kind": "selected",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/contact-more-selected--en--android--200.svg",
+    "width": 412,
+    "height": 1305,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": true
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-sharing",
+    "group": "contact",
+    "title": "Ek alan gönderiliyor",
+    "kind": "sharing",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/contact-more-sharing--tr--ios--100.svg",
+    "width": 390,
+    "height": 892,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": false
+      },
+      {
+        "key": "contactSkip",
+        "enabled": false
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-sharing",
+    "group": "contact",
+    "title": "Ek alan gönderiliyor",
+    "kind": "sharing",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/contact-more-sharing--tr--ios--200.svg",
+    "width": 390,
+    "height": 1527,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": false
+      },
+      {
+        "key": "contactSkip",
+        "enabled": false
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-sharing",
+    "group": "contact",
+    "title": "Ek alan gönderiliyor",
+    "kind": "sharing",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/contact-more-sharing--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": false
+      },
+      {
+        "key": "contactSkip",
+        "enabled": false
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-sharing",
+    "group": "contact",
+    "title": "Ek alan gönderiliyor",
+    "kind": "sharing",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/contact-more-sharing--tr--android--200.svg",
+    "width": 412,
+    "height": 1495,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": false
+      },
+      {
+        "key": "contactSkip",
+        "enabled": false
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-sharing",
+    "group": "contact",
+    "title": "Ek alan gönderiliyor",
+    "kind": "sharing",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/contact-more-sharing--en--ios--100.svg",
+    "width": 390,
+    "height": 872,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": false
+      },
+      {
+        "key": "contactSkip",
+        "enabled": false
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-sharing",
+    "group": "contact",
+    "title": "Ek alan gönderiliyor",
+    "kind": "sharing",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/contact-more-sharing--en--ios--200.svg",
+    "width": 390,
+    "height": 1488,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": false
+      },
+      {
+        "key": "contactSkip",
+        "enabled": false
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-sharing",
+    "group": "contact",
+    "title": "Ek alan gönderiliyor",
+    "kind": "sharing",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/contact-more-sharing--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": false
+      },
+      {
+        "key": "contactSkip",
+        "enabled": false
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-sharing",
+    "group": "contact",
+    "title": "Ek alan gönderiliyor",
+    "kind": "sharing",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/contact-more-sharing--en--android--200.svg",
+    "width": 412,
+    "height": 1456,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": false
+      },
+      {
+        "key": "contactSkip",
+        "enabled": false
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-failed",
+    "group": "contact",
+    "title": "Ek alan gönderilemedi",
+    "kind": "failed",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/contact-more-failed--tr--ios--100.svg",
+    "width": 390,
+    "height": 917,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": true
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-failed",
+    "group": "contact",
+    "title": "Ek alan gönderilemedi",
+    "kind": "failed",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/contact-more-failed--tr--ios--200.svg",
+    "width": 390,
+    "height": 1629,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": true
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-failed",
+    "group": "contact",
+    "title": "Ek alan gönderilemedi",
+    "kind": "failed",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/contact-more-failed--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": true
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-failed",
+    "group": "contact",
+    "title": "Ek alan gönderilemedi",
+    "kind": "failed",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/contact-more-failed--tr--android--200.svg",
+    "width": 412,
+    "height": 1597,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": true
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-failed",
+    "group": "contact",
+    "title": "Ek alan gönderilemedi",
+    "kind": "failed",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/contact-more-failed--en--ios--100.svg",
+    "width": 390,
+    "height": 898,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": true
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-failed",
+    "group": "contact",
+    "title": "Ek alan gönderilemedi",
+    "kind": "failed",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/contact-more-failed--en--ios--200.svg",
+    "width": 390,
+    "height": 1629,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": true
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-failed",
+    "group": "contact",
+    "title": "Ek alan gönderilemedi",
+    "kind": "failed",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/contact-more-failed--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": true
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-failed",
+    "group": "contact",
+    "title": "Ek alan gönderilemedi",
+    "kind": "failed",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/contact-more-failed--en--android--200.svg",
+    "width": 412,
+    "height": 1507,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": true
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-offline",
+    "group": "contact",
+    "title": "Ek alan / çevrimdışı",
+    "kind": "offline",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/contact-more-offline--tr--ios--100.svg",
+    "width": 390,
+    "height": 892,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": false
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-offline",
+    "group": "contact",
+    "title": "Ek alan / çevrimdışı",
+    "kind": "offline",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/contact-more-offline--tr--ios--200.svg",
+    "width": 390,
+    "height": 1527,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": false
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-offline",
+    "group": "contact",
+    "title": "Ek alan / çevrimdışı",
+    "kind": "offline",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/contact-more-offline--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": false
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-offline",
+    "group": "contact",
+    "title": "Ek alan / çevrimdışı",
+    "kind": "offline",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/contact-more-offline--tr--android--200.svg",
+    "width": 412,
+    "height": 1495,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": false
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-offline",
+    "group": "contact",
+    "title": "Ek alan / çevrimdışı",
+    "kind": "offline",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/contact-more-offline--en--ios--100.svg",
+    "width": 390,
+    "height": 872,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": false
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-offline",
+    "group": "contact",
+    "title": "Ek alan / çevrimdışı",
+    "kind": "offline",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/contact-more-offline--en--ios--200.svg",
+    "width": 390,
+    "height": 1436,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": false
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-offline",
+    "group": "contact",
+    "title": "Ek alan / çevrimdışı",
+    "kind": "offline",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/contact-more-offline--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": false
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-offline",
+    "group": "contact",
+    "title": "Ek alan / çevrimdışı",
+    "kind": "offline",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/contact-more-offline--en--android--200.svg",
+    "width": 412,
+    "height": 1404,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactShare",
+        "enabled": false
+      },
+      {
+        "key": "contactSkip",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone"
+    ],
+    "eligible": [
+      "contactInstagram",
+      "contactOther"
+    ],
+    "selected": [
+      "contactInstagram"
+    ],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": [
+      "contactInstagram"
+    ]
+  },
+  {
+    "id": "contact-more-saved",
+    "group": "contact",
+    "title": "Ek alan başarıyla paylaşıldı",
+    "kind": "saved",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/contact-more-saved--tr--ios--100.svg",
+    "width": 390,
+    "height": 1408,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone",
+      "contactInstagram"
+    ],
+    "eligible": [
+      "contactOther"
+    ],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-saved",
+    "group": "contact",
+    "title": "Ek alan başarıyla paylaşıldı",
+    "kind": "saved",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/contact-more-saved--tr--ios--200.svg",
+    "width": 390,
+    "height": 2469,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone",
+      "contactInstagram"
+    ],
+    "eligible": [
+      "contactOther"
+    ],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-saved",
+    "group": "contact",
+    "title": "Ek alan başarıyla paylaşıldı",
+    "kind": "saved",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/contact-more-saved--tr--android--100.svg",
+    "width": 412,
+    "height": 1340,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone",
+      "contactInstagram"
+    ],
+    "eligible": [
+      "contactOther"
+    ],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-saved",
+    "group": "contact",
+    "title": "Ek alan başarıyla paylaşıldı",
+    "kind": "saved",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/contact-more-saved--tr--android--200.svg",
+    "width": 412,
+    "height": 2335,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone",
+      "contactInstagram"
+    ],
+    "eligible": [
+      "contactOther"
+    ],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-saved",
+    "group": "contact",
+    "title": "Ek alan başarıyla paylaşıldı",
+    "kind": "saved",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/contact-more-saved--en--ios--100.svg",
+    "width": 390,
+    "height": 1414,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone",
+      "contactInstagram"
+    ],
+    "eligible": [
+      "contactOther"
+    ],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-saved",
+    "group": "contact",
+    "title": "Ek alan başarıyla paylaşıldı",
+    "kind": "saved",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/contact-more-saved--en--ios--200.svg",
+    "width": 390,
+    "height": 2430,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone",
+      "contactInstagram"
+    ],
+    "eligible": [
+      "contactOther"
+    ],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-saved",
+    "group": "contact",
+    "title": "Ek alan başarıyla paylaşıldı",
+    "kind": "saved",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/contact-more-saved--en--android--100.svg",
+    "width": 412,
+    "height": 1356,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone",
+      "contactInstagram"
+    ],
+    "eligible": [
+      "contactOther"
+    ],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-saved",
+    "group": "contact",
+    "title": "Ek alan başarıyla paylaşıldı",
+    "kind": "saved",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/contact-more-saved--en--android--200.svg",
+    "width": 412,
+    "height": 2398,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactAddDetails",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone",
+      "contactInstagram"
+    ],
+    "eligible": [
+      "contactOther"
+    ],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-all",
+    "group": "contact",
+    "title": "Tüm alanlar paylaşılmış",
+    "kind": "all",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/contact-more-all--tr--ios--100.svg",
+    "width": 390,
+    "height": 1506,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone",
+      "contactInstagram",
+      "contactOther"
+    ],
+    "eligible": [],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-all",
+    "group": "contact",
+    "title": "Tüm alanlar paylaşılmış",
+    "kind": "all",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/contact-more-all--tr--ios--200.svg",
+    "width": 390,
+    "height": 2635,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone",
+      "contactInstagram",
+      "contactOther"
+    ],
+    "eligible": [],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-all",
+    "group": "contact",
+    "title": "Tüm alanlar paylaşılmış",
+    "kind": "all",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/contact-more-all--tr--android--100.svg",
+    "width": 412,
+    "height": 1438,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone",
+      "contactInstagram",
+      "contactOther"
+    ],
+    "eligible": [],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-all",
+    "group": "contact",
+    "title": "Tüm alanlar paylaşılmış",
+    "kind": "all",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/contact-more-all--tr--android--200.svg",
+    "width": 412,
+    "height": 2501,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone",
+      "contactInstagram",
+      "contactOther"
+    ],
+    "eligible": [],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-all",
+    "group": "contact",
+    "title": "Tüm alanlar paylaşılmış",
+    "kind": "all",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/contact-more-all--en--ios--100.svg",
+    "width": 390,
+    "height": 1486,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone",
+      "contactInstagram",
+      "contactOther"
+    ],
+    "eligible": [],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-all",
+    "group": "contact",
+    "title": "Tüm alanlar paylaşılmış",
+    "kind": "all",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/contact-more-all--en--ios--200.svg",
+    "width": 390,
+    "height": 2544,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone",
+      "contactInstagram",
+      "contactOther"
+    ],
+    "eligible": [],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-all",
+    "group": "contact",
+    "title": "Tüm alanlar paylaşılmış",
+    "kind": "all",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/contact-more-all--en--android--100.svg",
+    "width": 412,
+    "height": 1454,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone",
+      "contactInstagram",
+      "contactOther"
+    ],
+    "eligible": [],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "contact-more-all",
+    "group": "contact",
+    "title": "Tüm alanlar paylaşılmış",
+    "kind": "all",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/contact-more-all--en--android--200.svg",
+    "width": 412,
+    "height": 2512,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      },
+      {
+        "key": "contactEdit",
+        "enabled": true
+      },
+      {
+        "key": "contactHide",
+        "enabled": true
+      }
+    ],
+    "published": [
+      "contactEmail",
+      "contactPhone",
+      "contactInstagram",
+      "contactOther"
+    ],
+    "eligible": [],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "continue-readonly-loading",
+    "group": "transition",
+    "title": "Karşılıklı EVET / salt okunura geçiş",
+    "kind": "loading",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/continue-readonly-loading--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "published": [],
+    "eligible": [],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "continue-readonly-loading",
+    "group": "transition",
+    "title": "Karşılıklı EVET / salt okunura geçiş",
+    "kind": "loading",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/continue-readonly-loading--tr--ios--200.svg",
+    "width": 390,
+    "height": 848,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "published": [],
+    "eligible": [],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "continue-readonly-loading",
+    "group": "transition",
+    "title": "Karşılıklı EVET / salt okunura geçiş",
+    "kind": "loading",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/continue-readonly-loading--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "published": [],
+    "eligible": [],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "continue-readonly-loading",
+    "group": "transition",
+    "title": "Karşılıklı EVET / salt okunura geçiş",
+    "kind": "loading",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/continue-readonly-loading--tr--android--200.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "published": [],
+    "eligible": [],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "continue-readonly-loading",
+    "group": "transition",
+    "title": "Karşılıklı EVET / salt okunura geçiş",
+    "kind": "loading",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/continue-readonly-loading--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "published": [],
+    "eligible": [],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "continue-readonly-loading",
+    "group": "transition",
+    "title": "Karşılıklı EVET / salt okunura geçiş",
+    "kind": "loading",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/continue-readonly-loading--en--ios--200.svg",
+    "width": 390,
+    "height": 899,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "published": [],
+    "eligible": [],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "continue-readonly-loading",
+    "group": "transition",
+    "title": "Karşılıklı EVET / salt okunura geçiş",
+    "kind": "loading",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/continue-readonly-loading--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "published": [],
+    "eligible": [],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "continue-readonly-loading",
+    "group": "transition",
+    "title": "Karşılıklı EVET / salt okunura geçiş",
+    "kind": "loading",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/continue-readonly-loading--en--android--200.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "published": [],
+    "eligible": [],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "continue-readonly-failed",
+    "group": "transition",
+    "title": "Salt okunur hedef / yükleme hatası",
+    "kind": "failed",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/continue-readonly-failed--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "checkInRetry",
+        "enabled": true
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "published": [],
+    "eligible": [],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "continue-readonly-failed",
+    "group": "transition",
+    "title": "Salt okunur hedef / yükleme hatası",
+    "kind": "failed",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/continue-readonly-failed--tr--ios--200.svg",
+    "width": 390,
+    "height": 1025,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "checkInRetry",
+        "enabled": true
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "published": [],
+    "eligible": [],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "continue-readonly-failed",
+    "group": "transition",
+    "title": "Salt okunur hedef / yükleme hatası",
+    "kind": "failed",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/continue-readonly-failed--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "checkInRetry",
+        "enabled": true
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "published": [],
+    "eligible": [],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "continue-readonly-failed",
+    "group": "transition",
+    "title": "Salt okunur hedef / yükleme hatası",
+    "kind": "failed",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/continue-readonly-failed--tr--android--200.svg",
+    "width": 412,
+    "height": 993,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "checkInRetry",
+        "enabled": true
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "published": [],
+    "eligible": [],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "continue-readonly-failed",
+    "group": "transition",
+    "title": "Salt okunur hedef / yükleme hatası",
+    "kind": "failed",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/continue-readonly-failed--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "checkInRetry",
+        "enabled": true
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "published": [],
+    "eligible": [],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "continue-readonly-failed",
+    "group": "transition",
+    "title": "Salt okunur hedef / yükleme hatası",
+    "kind": "failed",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/continue-readonly-failed--en--ios--200.svg",
+    "width": 390,
+    "height": 1076,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "checkInRetry",
+        "enabled": true
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "published": [],
+    "eligible": [],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "continue-readonly-failed",
+    "group": "transition",
+    "title": "Salt okunur hedef / yükleme hatası",
+    "kind": "failed",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/continue-readonly-failed--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "checkInRetry",
+        "enabled": true
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "published": [],
+    "eligible": [],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  },
+  {
+    "id": "continue-readonly-failed",
+    "group": "transition",
+    "title": "Salt okunur hedef / yükleme hatası",
+    "kind": "failed",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/continue-readonly-failed--en--android--200.svg",
+    "width": 412,
+    "height": 942,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "checkInRetry",
+        "enabled": true
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "published": [],
+    "eligible": [],
+    "selected": [],
+    "composerVisible": false,
+    "peerContinueChoice": null,
+    "mutationFields": []
+  }
+]

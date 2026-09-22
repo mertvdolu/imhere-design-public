@@ -1,0 +1,87 @@
+{
+  "version": "1.8",
+  "settingsApproval": "FOUNDER PENDING; current list explicitly authorized provisionally",
+  "settings": [
+    "settingsLanguage",
+    "settingsNotifications",
+    "settingsBlocked",
+    "settingsPrivacy",
+    "settingsTerms",
+    "deleteAccount",
+    "authSignOut"
+  ],
+  "settingsParent": "Profile, not a fifth tab",
+  "report": {
+    "categories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportOther"
+    ],
+    "selection": "single, initially empty",
+    "submit": "real report result only",
+    "followup": "separate optional block question only after report success",
+    "automaticallyBlocks": false,
+    "freeTextAdded": false
+  },
+  "block": {
+    "oneSided": true,
+    "immediateOnEffectiveBlock": [
+      "discovery",
+      "request",
+      "chat",
+      "contact",
+      "semantics",
+      "stale visible cache"
+    ],
+    "pending": "show progress without exposing peer content; never claim confirmed success before result",
+    "unblock": "does not reopen old chat or connection",
+    "managementList": "minimum identity solely to identify and unblock own blocked entry; not a profile/discovery surface"
+  },
+  "endConnection": {
+    "ownConfirm": "endConfirm",
+    "counterpartApproval": false,
+    "blocksPerson": false,
+    "success": "connectionEndedNeutral",
+    "closedChat": "existing read-only and access/retention conditions; no new duration"
+  },
+  "accountDeletion": {
+    "realDeletion": true,
+    "success": "only confirmed account deletion, never sign-out or request receipt alone",
+    "scopeCopy": "Latest Founder/Manager reply: irreversible real deletion; profile, photo, check-ins, requests, chats and shared contact leave user access; limited security/legal records may be retained, no invented duration or all-data-instant promise",
+    "reauth": "accepted email/password flow and authReauthRequired; successful reauth does not itself delete account",
+    "unknownResult": "reconcile existing operation before repeating; no false deleted or failed claim",
+    "offlineQueueAdded": false
+  },
+  "notifications": {
+    "permissionOptional": true,
+    "nativePrompt": "actual OS dialog, never a web imitation",
+    "deny": "continue app and core loop; no forced Settings redirect",
+    "ambient": {
+      "maxPerDay": 2,
+      "minimumHoursBetween": 3,
+      "personalInfo": false
+    },
+    "checkinReminder": {
+      "approxMinute": 25,
+      "maximumPerCheckin": 1,
+      "cta": "revalidate location, no automatic extension"
+    },
+    "direct": "outside ambient quota",
+    "categoryPreferenceTogglesAdded": false
+  },
+  "events": {
+    "placeholderOnly": true,
+    "fakeEvents": false,
+    "transactions": false,
+    "networkDependency": false,
+    "return": "navNearby"
+  },
+  "unresolvedProductionContent": [
+    "Founder final settings list",
+    "approved privacy and terms documents/URLs",
+    "privacy/terms URL binding at M11 PL-01"
+  ],
+  "appCodeModified": false
+}

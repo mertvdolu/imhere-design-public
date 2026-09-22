@@ -1,0 +1,794 @@
+[
+  {
+    "locale": "tr",
+    "key": "messagesConnections",
+    "text": "Bağlantılar",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "messagesRequests",
+    "text": "İstekler",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "messagesIncoming",
+    "text": "Gelen istekler",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "messagesOutgoing",
+    "text": "Giden istekler",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "messagesEmptyConnections",
+    "text": "Henüz bir bağlantın yok.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "messagesEmptyRequests",
+    "text": "Şu anda bir isteğin yok.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "messagesLoading",
+    "text": "Mesajların yükleniyor…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "messagesLoadFailed",
+    "text": "Mesajların yüklenemedi. Tekrar deneyebilirsin.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "messagesUnavailable",
+    "text": "Bu içerik şu anda kullanılamıyor.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "messagesReturn",
+    "text": "Mesajlara dön",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "messagesViewRequest",
+    "text": "İsteği görüntüle",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "requestSending",
+    "text": "İsteğin gönderiliyor…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "requestFailed",
+    "text": "İstek gönderilemedi. Tekrar deneyebilirsin.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "requestAccepting",
+    "text": "İsteği kabul ediyorsun…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "requestAcceptFailed",
+    "text": "İstek kabul edilemedi. Tekrar deneyebilirsin.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "requestDeclining",
+    "text": "İstek yanıtın kaydediliyor…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "requestDeclineFailed",
+    "text": "Yanıtın kaydedilemedi. Tekrar deneyebilirsin.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "requestCancelling",
+    "text": "İsteğin iptal ediliyor…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "requestCancelFailed",
+    "text": "İstek iptal edilemedi. Tekrar deneyebilirsin.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "requestCancelled",
+    "text": "İsteğin iptal edildi.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "requestClosed",
+    "text": "Bu istek sona erdi.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "requestUnavailable",
+    "text": "Bu istek şu anda kullanılamıyor.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "requestTimeLeft",
+    "text": "Kalan süre: {time}",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "matchLoading",
+    "text": "Bağlantın yükleniyor…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "matchLoadFailed",
+    "text": "Bağlantın yüklenemedi. Tekrar deneyebilirsin.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "matchOpenChat",
+    "text": "Sohbete geç",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "chatMessageLabel",
+    "text": "Mesajın",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "chatEmptyBody",
+    "text": "İlk merhaba senden gelebilir.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "chatCharacters",
+    "text": "{used}/500 karakter",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "chatTooLong",
+    "text": "Mesajın en fazla 500 karakter olabilir.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "chatLoading",
+    "text": "Sohbet yükleniyor…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "chatLoadFailed",
+    "text": "Sohbet yüklenemedi. Tekrar deneyebilirsin.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "chatSending",
+    "text": "Mesajın gönderiliyor…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "chatSendFailed",
+    "text": "Mesajın gönderilemedi. Tekrar deneyebilirsin.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "chatSendUnconfirmed",
+    "text": "Mesajının gönderilip gönderilmediği henüz doğrulanamadı.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "chatCountPending",
+    "text": "Kalan mesaj hakkın kontrol ediliyor…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "chatCheckResult",
+    "text": "Gönderim durumunu kontrol et",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "chatSoftPreview",
+    "text": "Göndermek istediğin mesaj",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "chatContactOpen",
+    "text": "İletişim bilgileri",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "continueSaving",
+    "text": "Tercihin kaydediliyor…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "continueSaveFailed",
+    "text": "Tercihin kaydedilemedi. Tekrar deneyebilirsin.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "continueWithdrawing",
+    "text": "Devam tercihin geri alınıyor…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "continueWithdrawFailed",
+    "text": "Tercihin geri alınamadı. Tekrar deneyebilirsin.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "continueNoFinal",
+    "text": "Devam etmemeyi seçersen bağlantı sona erer. Bu karar geri alınamaz.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "continueNoConfirm",
+    "text": "Devam etmemek istiyor musun?",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "continueNoSaving",
+    "text": "Kararın kaydediliyor…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "continueNoFailed",
+    "text": "Kararın kaydedilemedi. Tekrar deneyebilirsin.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "continueLoading",
+    "text": "Tercihin yükleniyor…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "continueLoadFailed",
+    "text": "Tercihin yüklenemedi. Tekrar deneyebilirsin.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "contactYourDetails",
+    "text": "Bu bağlantıda paylaştıkların",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "contactSharedWithYou",
+    "text": "Seninle paylaşılanlar",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "contactNothingShared",
+    "text": "Şu anda paylaşılan bir bilgi yok.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "contactExplicitOnly",
+    "text": "Bir alanı doldurmak onu paylaşmaz. Paylaşmak için seçip onayla.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "contactSeenNote",
+    "text": "Daha önce görülmüş veya kaydedilmiş bilgiler geri alınamaz.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "contactChooseDetails",
+    "text": "Paylaşacağın bilgileri seç",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "contactWithdrawConsequence",
+    "text": "Görünürlüğünü kaldırmak, daha önce görülmüş veya kaydedilmiş bilgileri geri almaz.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "contactLoading",
+    "text": "İletişim bilgileri yükleniyor…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "contactLoadFailed",
+    "text": "İletişim bilgileri yüklenemedi. Tekrar deneyebilirsin.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "contactSharing",
+    "text": "Seçtiğin bilgiler paylaşılıyor…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "contactShareFailed",
+    "text": "Bilgilerin paylaşılamadı. Tekrar deneyebilirsin.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "contactFieldInvalid",
+    "text": "Paylaşmak istediğin bilgiyi kontrol et.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "contactUpdating",
+    "text": "Değişikliğin paylaşılıyor…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "contactUpdateFailed",
+    "text": "Değişikliğin paylaşılamadı. Tekrar deneyebilirsin.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "contactWithdrawing",
+    "text": "Bilginin görünürlüğü kaldırılıyor…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "contactWithdrawFailed",
+    "text": "Bilginin görünürlüğü kaldırılamadı. Tekrar deneyebilirsin.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "tr",
+    "key": "contactWithdrawTitle",
+    "text": "Bu bilginin görünürlüğü kaldırılsın mı?",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "messagesConnections",
+    "text": "Connections",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "messagesRequests",
+    "text": "Requests",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "messagesIncoming",
+    "text": "Incoming requests",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "messagesOutgoing",
+    "text": "Outgoing requests",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "messagesEmptyConnections",
+    "text": "You don’t have any connections yet.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "messagesEmptyRequests",
+    "text": "You don’t have any requests right now.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "messagesLoading",
+    "text": "Loading your messages…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "messagesLoadFailed",
+    "text": "Your messages couldn’t be loaded. You can try again.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "messagesUnavailable",
+    "text": "This content isn’t available right now.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "messagesReturn",
+    "text": "Back to messages",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "messagesViewRequest",
+    "text": "View request",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "requestSending",
+    "text": "Sending your request…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "requestFailed",
+    "text": "Your request couldn’t be sent. You can try again.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "requestAccepting",
+    "text": "Accepting the request…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "requestAcceptFailed",
+    "text": "The request couldn’t be accepted. You can try again.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "requestDeclining",
+    "text": "Saving your response…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "requestDeclineFailed",
+    "text": "Your response couldn’t be saved. You can try again.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "requestCancelling",
+    "text": "Cancelling your request…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "requestCancelFailed",
+    "text": "The request couldn’t be cancelled. You can try again.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "requestCancelled",
+    "text": "Your request was cancelled.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "requestClosed",
+    "text": "This request has ended.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "requestUnavailable",
+    "text": "This request isn’t available right now.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "requestTimeLeft",
+    "text": "Time left: {time}",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "matchLoading",
+    "text": "Loading your connection…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "matchLoadFailed",
+    "text": "Your connection couldn’t be loaded. You can try again.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "matchOpenChat",
+    "text": "Open chat",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "chatMessageLabel",
+    "text": "Your message",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "chatEmptyBody",
+    "text": "You can be the first to say hello.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "chatCharacters",
+    "text": "{used}/500 characters",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "chatTooLong",
+    "text": "Your message can contain up to 500 characters.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "chatLoading",
+    "text": "Loading the conversation…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "chatLoadFailed",
+    "text": "The conversation couldn’t be loaded. You can try again.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "chatSending",
+    "text": "Sending your message…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "chatSendFailed",
+    "text": "Your message couldn’t be sent. You can try again.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "chatSendUnconfirmed",
+    "text": "We haven’t confirmed whether your message was sent.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "chatCountPending",
+    "text": "Checking your remaining messages…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "chatCheckResult",
+    "text": "Check sending status",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "chatSoftPreview",
+    "text": "The message you want to send",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "chatContactOpen",
+    "text": "Contact details",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "continueSaving",
+    "text": "Saving your preference…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "continueSaveFailed",
+    "text": "Your preference couldn’t be saved. You can try again.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "continueWithdrawing",
+    "text": "Withdrawing your continue preference…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "continueWithdrawFailed",
+    "text": "Your preference couldn’t be withdrawn. You can try again.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "continueNoFinal",
+    "text": "If you choose not to continue, the connection ends. This choice can’t be undone.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "continueNoConfirm",
+    "text": "Do you want to stop here?",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "continueNoSaving",
+    "text": "Saving your choice…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "continueNoFailed",
+    "text": "Your choice couldn’t be saved. You can try again.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "continueLoading",
+    "text": "Loading your preference…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "continueLoadFailed",
+    "text": "Your preference couldn’t be loaded. You can try again.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "contactYourDetails",
+    "text": "Your details shared in this connection",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "contactSharedWithYou",
+    "text": "Details shared with you",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "contactNothingShared",
+    "text": "No details are currently shared.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "contactExplicitOnly",
+    "text": "Filling in a field doesn’t share it. Select it and confirm to share.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "contactSeenNote",
+    "text": "Details already seen or saved can’t be recalled.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "contactChooseDetails",
+    "text": "Choose details to share",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "contactWithdrawConsequence",
+    "text": "Removing this detail from view won’t recall copies already seen or saved.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "contactLoading",
+    "text": "Loading contact details…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "contactLoadFailed",
+    "text": "Contact details couldn’t be loaded. You can try again.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "contactSharing",
+    "text": "Sharing your selected details…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "contactShareFailed",
+    "text": "Your details couldn’t be shared. You can try again.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "contactFieldInvalid",
+    "text": "Check the detail you want to share.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "contactUpdating",
+    "text": "Sharing your update…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "contactUpdateFailed",
+    "text": "Your update couldn’t be shared. You can try again.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "contactWithdrawing",
+    "text": "Removing this detail from view…",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "contactWithdrawFailed",
+    "text": "This detail couldn’t be removed from view. You can try again.",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  },
+  {
+    "locale": "en",
+    "key": "contactWithdrawTitle",
+    "text": "Stop showing this detail?",
+    "status": "NOT LOCKED UI wording; locked behavior unchanged"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "key": "dev-banner",
+    "flutter": "Key('dev-banner')",
+    "role": "Yalnız debug emulator modu; üretimde uid/teknik banner yok"
+  },
+  {
+    "key": "backend-unavailable",
+    "flutter": "Key('backend-unavailable')",
+    "role": "Backend yoksa açıklama; btn-checkin pasif"
+  },
+  {
+    "key": "checkin-status",
+    "flutter": "Key('checkin-status')",
+    "role": "Her zaman, ana durum metni"
+  },
+  {
+    "key": "checkin-remaining",
+    "flutter": "Key('checkin-remaining')",
+    "role": "Yalnız aktif/yenilenen oturumun sunucu saatli kalan süresi"
+  },
+  {
+    "key": "checkin-notice",
+    "flutter": "Key('checkin-notice')",
+    "role": "Durumdan sonra ayrı uyarı satırı"
+  },
+  {
+    "key": "btn-checkin",
+    "flutter": "Key('btn-checkin')",
+    "role": "Başlat / yeni deneme"
+  },
+  {
+    "key": "btn-cancel",
+    "flutter": "Key('btn-cancel')",
+    "role": "Konum aramasından vazgeç"
+  },
+  {
+    "key": "btn-renew",
+    "flutter": "Key('btn-renew')",
+    "role": "Kullanıcı başlatmalı yenileme"
+  },
+  {
+    "key": "btn-stop",
+    "flutter": "Key('btn-stop')",
+    "role": "Durdur"
+  },
+  {
+    "key": "btn-reconcile",
+    "flutter": "Key('btn-reconcile')",
+    "role": "Belirsiz aynı denemeyi sunucuda sorgula"
+  },
+  {
+    "key": "btn-open-settings",
+    "flutter": "Key('btn-open-settings')",
+    "role": "Kalıcı izin reddinde uygulama ayarları"
+  },
+  {
+    "key": "btn-location-settings",
+    "flutter": "Key('btn-location-settings')",
+    "role": "Konum servisi ayarları"
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "localFile": true,
+  "mainFlowCount": 13,
+  "allStateCount": 93,
+  "groups": [
+    {
+      "group": "messages",
+      "cards": 10,
+      "imagesLoaded": true
+    },
+    {
+      "group": "intents",
+      "cards": 12,
+      "imagesLoaded": true
+    },
+    {
+      "group": "requests",
+      "cards": 13,
+      "imagesLoaded": true
+    },
+    {
+      "group": "match",
+      "cards": 5,
+      "imagesLoaded": true
+    },
+    {
+      "group": "chat",
+      "cards": 18,
+      "imagesLoaded": true
+    },
+    {
+      "group": "continue",
+      "cards": 14,
+      "imagesLoaded": true
+    },
+    {
+      "group": "contact",
+      "cards": 21,
+      "imagesLoaded": true
+    }
+  ],
+  "pageErrors": [],
+  "networkRequests": [],
+  "note": "Local review shell; not app integration"
+}

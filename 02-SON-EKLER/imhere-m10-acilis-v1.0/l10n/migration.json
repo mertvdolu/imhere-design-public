@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "mergeKeys": [
+    "chatRetentionInfo",
+    "chatRetentionWarning",
+    "chatRetentionDeleted",
+    "nearbyLimited"
+  ],
+  "reuseExistingKeys": [
+    "messagesUnavailable",
+    "offline",
+    "checkInRetry"
+  ],
+  "rules": [
+    "Merge provided delta only; if these four keys are already present with the same values, no change is needed.",
+    "Do not overwrite whole ARBs; preserve visibilityHelp correction and other packages.",
+    "Existing screen keys are reference only."
+  ]
+}

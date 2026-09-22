@@ -1,0 +1,15 @@
+{
+  "authority": "Explicit current user instructions",
+  "v16Acceptance": "User accepted Package 2 v1.6",
+  "summaryAttachment": {
+    "version": "1.0.2",
+    "read": true,
+    "sourcePath": "/Users/velio/Desktop/Claude outputs/DESIGN_REQUIREMENTS_EXTRACT_v1.0.2.md",
+    "sha256": "679b69a0e0a9ac1d94b373547a021146651b68513974ba48d1fe49bcd7bc44ab",
+    "referenceCopy": "references/DESIGN_REQUIREMENTS_EXTRACT_v1.0.2.md",
+    "authorityScope": "Current design requirements summary; §2 checked against corrected Firebase email/password flow. Older summaries superseded. Prior explicit Founder clarifications on occupation visibility and own-action endConfirm remain in force."
+  },
+  "passwordInformation": "Minimum 8 characters; no type constraints or strength UI, confirmed in current user message.",
+  "scope": "UI/UX artifact patch only; no app/backend changes",
+  "preservedFrom": "v1.6 and original accepted profile v1.5"
+}

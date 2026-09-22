@@ -1,0 +1,22 @@
+{
+  "version": "1.4",
+  "intentOptions": [
+    "friendship",
+    "networking"
+  ],
+  "intentMin": 1,
+  "intentMax": 2,
+  "intentDefault": [],
+  "occupationInitiallyVisible": true,
+  "occupationMayHideInProfileEdit": true,
+  "navigationOrder": [
+    "Profil",
+    "Mesajlar",
+    "Yakındakiler",
+    "Etkinlikler"
+  ],
+  "initialTab": "Yakındakiler",
+  "settingsContents": "Pending Founder approval, package 4",
+  "closedChatRetention": "TBD M11; no duration shown",
+  "authority": "User explicitly relayed Manager corrections and Founder decisions in this task"
+}

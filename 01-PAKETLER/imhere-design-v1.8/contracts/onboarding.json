@@ -1,0 +1,55 @@
+{
+  "version": "1.6.1",
+  "authority": "DESIGN_REQUIREMENTS_EXTRACT_v1.0.2 §2 plus current explicit Founder/Manager password and canonical-key instructions",
+  "signup": [
+    "invitation",
+    "emailAndPasswordCreate",
+    "verificationEmailWaiting",
+    "verifiedAuthState",
+    "profile",
+    "firstCheckinUserAction"
+  ],
+  "existingUser": [
+    "emailAndPasswordSignIn",
+    "verifiedAuthStateOrVerificationWaiting",
+    "profileCompletionGateOrExistingAppRoute"
+  ],
+  "provider": "Firebase",
+  "authentication": "email+password",
+  "verification": "Email link verifies email; not passwordless sign-in",
+  "passwordRulesSource": "Founder-confirmed existing rule: minimum 8 characters, no character-type constraints, no strength indicator.",
+  "passwordStrengthUI": false,
+  "phoneSmsSocialAuth": false,
+  "passwordConfirmationFieldRequiredByDesign": false,
+  "reset": [
+    "emailAddress",
+    "existingPasswordResetRequest",
+    "neutralAcknowledgement",
+    "existingProviderResetLinkFlow",
+    "emailAndPasswordSignIn"
+  ],
+  "verificationResend": "Existing provider/backend eligibility; disabled/processing/error states, no timer, no invented cooldown",
+  "verificationCheck": "Re-read verified auth state through current auth layer; no checkbox or client flag grants access",
+  "accountCreatedButEmailSendFailed": "Remain in verification context and resend; never create another account for this failure",
+  "verifiedNext": "Based on real auth/profile state; existing completed users are not forced through profile again",
+  "invitationAcquisition": "R3 pending Founder; no new channel",
+  "logout": {
+    "entry": "Profile > Settings > Sign out",
+    "action": "Existing sign-out operation",
+    "success": "Signed-out navigation; protected screens no longer shown",
+    "failure": "No false signed-out success",
+    "offline": "Use actual operation result; do not add an internet prerequisite or claim check-in termination"
+  },
+  "checkin": "No auto check-in on registration/login/verification/reset/logout",
+  "profile": "Accepted v1.5 profile contract and layouts unchanged",
+  "passwordPolicy": {
+    "minimumCharacters": 8,
+    "characterTypeRequirement": false,
+    "strengthIndicator": false,
+    "helperKey": "authPasswordRule",
+    "helperTR": "En az 8 karakter.",
+    "helperEN": "At least 8 characters.",
+    "layout": "Single line below password field; normal and 200% variants. Current app length-counting semantics unchanged.",
+    "loginError": "authSignInFailed; never authPasswordWeak for wrong credentials"
+  }
+}

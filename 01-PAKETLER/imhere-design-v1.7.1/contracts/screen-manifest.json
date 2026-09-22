@@ -1,0 +1,1826 @@
+[
+  {
+    "id": "person-cooldown-visible",
+    "group": "person",
+    "title": "Cooldown / görünür alanlar",
+    "kind": "cooldown",
+    "visibility": "visible",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/person-cooldown-visible--tr--ios--100.svg",
+    "width": 390,
+    "height": 1037,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      }
+    ],
+    "displayedAge": 28,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-cooldown-visible",
+    "group": "person",
+    "title": "Cooldown / görünür alanlar",
+    "kind": "cooldown",
+    "visibility": "visible",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/person-cooldown-visible--tr--ios--200.svg",
+    "width": 390,
+    "height": 1499,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      }
+    ],
+    "displayedAge": 28,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-cooldown-visible",
+    "group": "person",
+    "title": "Cooldown / görünür alanlar",
+    "kind": "cooldown",
+    "visibility": "visible",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/person-cooldown-visible--tr--android--100.svg",
+    "width": 412,
+    "height": 1005,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      }
+    ],
+    "displayedAge": 28,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-cooldown-visible",
+    "group": "person",
+    "title": "Cooldown / görünür alanlar",
+    "kind": "cooldown",
+    "visibility": "visible",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/person-cooldown-visible--tr--android--200.svg",
+    "width": 412,
+    "height": 1467,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      }
+    ],
+    "displayedAge": 28,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-cooldown-visible",
+    "group": "person",
+    "title": "Cooldown / görünür alanlar",
+    "kind": "cooldown",
+    "visibility": "visible",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/person-cooldown-visible--en--ios--100.svg",
+    "width": 390,
+    "height": 1037,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      }
+    ],
+    "displayedAge": 28,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-cooldown-visible",
+    "group": "person",
+    "title": "Cooldown / görünür alanlar",
+    "kind": "cooldown",
+    "visibility": "visible",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/person-cooldown-visible--en--ios--200.svg",
+    "width": 390,
+    "height": 1499,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      }
+    ],
+    "displayedAge": 28,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-cooldown-visible",
+    "group": "person",
+    "title": "Cooldown / görünür alanlar",
+    "kind": "cooldown",
+    "visibility": "visible",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/person-cooldown-visible--en--android--100.svg",
+    "width": 412,
+    "height": 1005,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      }
+    ],
+    "displayedAge": 28,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-cooldown-visible",
+    "group": "person",
+    "title": "Cooldown / görünür alanlar",
+    "kind": "cooldown",
+    "visibility": "visible",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/person-cooldown-visible--en--android--200.svg",
+    "width": 412,
+    "height": 1467,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      }
+    ],
+    "displayedAge": 28,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-cooldown-hidden",
+    "group": "person",
+    "title": "Cooldown / gizli alanlar",
+    "kind": "cooldown",
+    "visibility": "hidden",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/person-cooldown-hidden--tr--ios--100.svg",
+    "width": 390,
+    "height": 968,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-cooldown-hidden",
+    "group": "person",
+    "title": "Cooldown / gizli alanlar",
+    "kind": "cooldown",
+    "visibility": "hidden",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/person-cooldown-hidden--tr--ios--200.svg",
+    "width": 390,
+    "height": 1384,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-cooldown-hidden",
+    "group": "person",
+    "title": "Cooldown / gizli alanlar",
+    "kind": "cooldown",
+    "visibility": "hidden",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/person-cooldown-hidden--tr--android--100.svg",
+    "width": 412,
+    "height": 936,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-cooldown-hidden",
+    "group": "person",
+    "title": "Cooldown / gizli alanlar",
+    "kind": "cooldown",
+    "visibility": "hidden",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/person-cooldown-hidden--tr--android--200.svg",
+    "width": 412,
+    "height": 1352,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-cooldown-hidden",
+    "group": "person",
+    "title": "Cooldown / gizli alanlar",
+    "kind": "cooldown",
+    "visibility": "hidden",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/person-cooldown-hidden--en--ios--100.svg",
+    "width": 390,
+    "height": 968,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-cooldown-hidden",
+    "group": "person",
+    "title": "Cooldown / gizli alanlar",
+    "kind": "cooldown",
+    "visibility": "hidden",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/person-cooldown-hidden--en--ios--200.svg",
+    "width": 390,
+    "height": 1384,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-cooldown-hidden",
+    "group": "person",
+    "title": "Cooldown / gizli alanlar",
+    "kind": "cooldown",
+    "visibility": "hidden",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/person-cooldown-hidden--en--android--100.svg",
+    "width": 412,
+    "height": 936,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-cooldown-hidden",
+    "group": "person",
+    "title": "Cooldown / gizli alanlar",
+    "kind": "cooldown",
+    "visibility": "hidden",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/person-cooldown-hidden--en--android--200.svg",
+    "width": 412,
+    "height": 1352,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-pending-visible",
+    "group": "person",
+    "title": "Bekleyen istek / görünür alanlar",
+    "kind": "pending",
+    "visibility": "visible",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/person-pending-visible--tr--ios--100.svg",
+    "width": 390,
+    "height": 1101,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesViewRequest",
+        "enabled": true
+      }
+    ],
+    "displayedAge": 28,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-pending-visible",
+    "group": "person",
+    "title": "Bekleyen istek / görünür alanlar",
+    "kind": "pending",
+    "visibility": "visible",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/person-pending-visible--tr--ios--200.svg",
+    "width": 390,
+    "height": 1574,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesViewRequest",
+        "enabled": true
+      }
+    ],
+    "displayedAge": 28,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-pending-visible",
+    "group": "person",
+    "title": "Bekleyen istek / görünür alanlar",
+    "kind": "pending",
+    "visibility": "visible",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/person-pending-visible--tr--android--100.svg",
+    "width": 412,
+    "height": 1069,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesViewRequest",
+        "enabled": true
+      }
+    ],
+    "displayedAge": 28,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-pending-visible",
+    "group": "person",
+    "title": "Bekleyen istek / görünür alanlar",
+    "kind": "pending",
+    "visibility": "visible",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/person-pending-visible--tr--android--200.svg",
+    "width": 412,
+    "height": 1542,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesViewRequest",
+        "enabled": true
+      }
+    ],
+    "displayedAge": 28,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-pending-visible",
+    "group": "person",
+    "title": "Bekleyen istek / görünür alanlar",
+    "kind": "pending",
+    "visibility": "visible",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/person-pending-visible--en--ios--100.svg",
+    "width": 390,
+    "height": 1121,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesViewRequest",
+        "enabled": true
+      }
+    ],
+    "displayedAge": 28,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-pending-visible",
+    "group": "person",
+    "title": "Bekleyen istek / görünür alanlar",
+    "kind": "pending",
+    "visibility": "visible",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/person-pending-visible--en--ios--200.svg",
+    "width": 390,
+    "height": 1613,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesViewRequest",
+        "enabled": true
+      }
+    ],
+    "displayedAge": 28,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-pending-visible",
+    "group": "person",
+    "title": "Bekleyen istek / görünür alanlar",
+    "kind": "pending",
+    "visibility": "visible",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/person-pending-visible--en--android--100.svg",
+    "width": 412,
+    "height": 1069,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesViewRequest",
+        "enabled": true
+      }
+    ],
+    "displayedAge": 28,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-pending-visible",
+    "group": "person",
+    "title": "Bekleyen istek / görünür alanlar",
+    "kind": "pending",
+    "visibility": "visible",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/person-pending-visible--en--android--200.svg",
+    "width": 412,
+    "height": 1581,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesViewRequest",
+        "enabled": true
+      }
+    ],
+    "displayedAge": 28,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-pending-hidden",
+    "group": "person",
+    "title": "Bekleyen istek / gizli alanlar",
+    "kind": "pending",
+    "visibility": "hidden",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/person-pending-hidden--tr--ios--100.svg",
+    "width": 390,
+    "height": 1032,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesViewRequest",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-pending-hidden",
+    "group": "person",
+    "title": "Bekleyen istek / gizli alanlar",
+    "kind": "pending",
+    "visibility": "hidden",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/person-pending-hidden--tr--ios--200.svg",
+    "width": 390,
+    "height": 1460,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesViewRequest",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-pending-hidden",
+    "group": "person",
+    "title": "Bekleyen istek / gizli alanlar",
+    "kind": "pending",
+    "visibility": "hidden",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/person-pending-hidden--tr--android--100.svg",
+    "width": 412,
+    "height": 1000,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesViewRequest",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-pending-hidden",
+    "group": "person",
+    "title": "Bekleyen istek / gizli alanlar",
+    "kind": "pending",
+    "visibility": "hidden",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/person-pending-hidden--tr--android--200.svg",
+    "width": 412,
+    "height": 1428,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesViewRequest",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-pending-hidden",
+    "group": "person",
+    "title": "Bekleyen istek / gizli alanlar",
+    "kind": "pending",
+    "visibility": "hidden",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/person-pending-hidden--en--ios--100.svg",
+    "width": 390,
+    "height": 1052,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesViewRequest",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-pending-hidden",
+    "group": "person",
+    "title": "Bekleyen istek / gizli alanlar",
+    "kind": "pending",
+    "visibility": "hidden",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/person-pending-hidden--en--ios--200.svg",
+    "width": 390,
+    "height": 1499,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesViewRequest",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-pending-hidden",
+    "group": "person",
+    "title": "Bekleyen istek / gizli alanlar",
+    "kind": "pending",
+    "visibility": "hidden",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/person-pending-hidden--en--android--100.svg",
+    "width": 412,
+    "height": 1000,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesViewRequest",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-pending-hidden",
+    "group": "person",
+    "title": "Bekleyen istek / gizli alanlar",
+    "kind": "pending",
+    "visibility": "hidden",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/person-pending-hidden--en--android--200.svg",
+    "width": 412,
+    "height": 1467,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesViewRequest",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-connected-visible",
+    "group": "person",
+    "title": "Zaten bağlantıdasınız / görünür alanlar",
+    "kind": "connected",
+    "visibility": "visible",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/person-connected-visible--tr--ios--100.svg",
+    "width": 390,
+    "height": 1101,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": 28,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-connected-visible",
+    "group": "person",
+    "title": "Zaten bağlantıdasınız / görünür alanlar",
+    "kind": "connected",
+    "visibility": "visible",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/person-connected-visible--tr--ios--200.svg",
+    "width": 390,
+    "height": 1535,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": 28,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-connected-visible",
+    "group": "person",
+    "title": "Zaten bağlantıdasınız / görünür alanlar",
+    "kind": "connected",
+    "visibility": "visible",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/person-connected-visible--tr--android--100.svg",
+    "width": 412,
+    "height": 1069,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": 28,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-connected-visible",
+    "group": "person",
+    "title": "Zaten bağlantıdasınız / görünür alanlar",
+    "kind": "connected",
+    "visibility": "visible",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/person-connected-visible--tr--android--200.svg",
+    "width": 412,
+    "height": 1503,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": 28,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-connected-visible",
+    "group": "person",
+    "title": "Zaten bağlantıdasınız / görünür alanlar",
+    "kind": "connected",
+    "visibility": "visible",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/person-connected-visible--en--ios--100.svg",
+    "width": 390,
+    "height": 1101,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": 28,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-connected-visible",
+    "group": "person",
+    "title": "Zaten bağlantıdasınız / görünür alanlar",
+    "kind": "connected",
+    "visibility": "visible",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/person-connected-visible--en--ios--200.svg",
+    "width": 390,
+    "height": 1535,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": 28,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-connected-visible",
+    "group": "person",
+    "title": "Zaten bağlantıdasınız / görünür alanlar",
+    "kind": "connected",
+    "visibility": "visible",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/person-connected-visible--en--android--100.svg",
+    "width": 412,
+    "height": 1069,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": 28,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-connected-visible",
+    "group": "person",
+    "title": "Zaten bağlantıdasınız / görünür alanlar",
+    "kind": "connected",
+    "visibility": "visible",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/person-connected-visible--en--android--200.svg",
+    "width": 412,
+    "height": 1503,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": 28,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-connected-hidden",
+    "group": "person",
+    "title": "Zaten bağlantıdasınız / gizli alanlar",
+    "kind": "connected",
+    "visibility": "hidden",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/person-connected-hidden--tr--ios--100.svg",
+    "width": 390,
+    "height": 1032,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-connected-hidden",
+    "group": "person",
+    "title": "Zaten bağlantıdasınız / gizli alanlar",
+    "kind": "connected",
+    "visibility": "hidden",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/person-connected-hidden--tr--ios--200.svg",
+    "width": 390,
+    "height": 1420,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-connected-hidden",
+    "group": "person",
+    "title": "Zaten bağlantıdasınız / gizli alanlar",
+    "kind": "connected",
+    "visibility": "hidden",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/person-connected-hidden--tr--android--100.svg",
+    "width": 412,
+    "height": 1000,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-connected-hidden",
+    "group": "person",
+    "title": "Zaten bağlantıdasınız / gizli alanlar",
+    "kind": "connected",
+    "visibility": "hidden",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/person-connected-hidden--tr--android--200.svg",
+    "width": 412,
+    "height": 1388,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-connected-hidden",
+    "group": "person",
+    "title": "Zaten bağlantıdasınız / gizli alanlar",
+    "kind": "connected",
+    "visibility": "hidden",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/person-connected-hidden--en--ios--100.svg",
+    "width": 390,
+    "height": 1032,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-connected-hidden",
+    "group": "person",
+    "title": "Zaten bağlantıdasınız / gizli alanlar",
+    "kind": "connected",
+    "visibility": "hidden",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/person-connected-hidden--en--ios--200.svg",
+    "width": 390,
+    "height": 1420,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-connected-hidden",
+    "group": "person",
+    "title": "Zaten bağlantıdasınız / gizli alanlar",
+    "kind": "connected",
+    "visibility": "hidden",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/person-connected-hidden--en--android--100.svg",
+    "width": 412,
+    "height": 1000,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "person-connected-hidden",
+    "group": "person",
+    "title": "Zaten bağlantıdasınız / gizli alanlar",
+    "kind": "connected",
+    "visibility": "hidden",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/person-connected-hidden--en--android--200.svg",
+    "width": 412,
+    "height": 1388,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 2,
+    "actions": [
+      {
+        "key": "requestSend",
+        "enabled": false
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "request-pending",
+    "group": "counter",
+    "title": "Bekleyen sayaç / 19–20",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/request-pending--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "requestCancel",
+        "enabled": true
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "request-pending",
+    "group": "counter",
+    "title": "Bekleyen sayaç / 19–20",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/request-pending--tr--ios--200.svg",
+    "width": 390,
+    "height": 886,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "requestCancel",
+        "enabled": true
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "request-pending",
+    "group": "counter",
+    "title": "Bekleyen sayaç / 19–20",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/request-pending--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "requestCancel",
+        "enabled": true
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "request-pending",
+    "group": "counter",
+    "title": "Bekleyen sayaç / 19–20",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/request-pending--tr--android--200.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "requestCancel",
+        "enabled": true
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "request-pending",
+    "group": "counter",
+    "title": "Bekleyen sayaç / 19–20",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/request-pending--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "requestCancel",
+        "enabled": true
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "request-pending",
+    "group": "counter",
+    "title": "Bekleyen sayaç / 19–20",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/request-pending--en--ios--200.svg",
+    "width": 390,
+    "height": 937,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "requestCancel",
+        "enabled": true
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "request-pending",
+    "group": "counter",
+    "title": "Bekleyen sayaç / 19–20",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/request-pending--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "requestCancel",
+        "enabled": true
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "request-pending",
+    "group": "counter",
+    "title": "Bekleyen sayaç / 19–20",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/request-pending--en--android--200.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "requestCancel",
+        "enabled": true
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "request-full",
+    "group": "counter",
+    "title": "Dolu sayaç / 20–20",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/request-full--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "requestCancel",
+        "enabled": true
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "request-full",
+    "group": "counter",
+    "title": "Dolu sayaç / 20–20",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/request-full--tr--ios--200.svg",
+    "width": 390,
+    "height": 1190,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "requestCancel",
+        "enabled": true
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "request-full",
+    "group": "counter",
+    "title": "Dolu sayaç / 20–20",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/request-full--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "requestCancel",
+        "enabled": true
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "request-full",
+    "group": "counter",
+    "title": "Dolu sayaç / 20–20",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/request-full--tr--android--200.svg",
+    "width": 412,
+    "height": 1107,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "requestCancel",
+        "enabled": true
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "request-full",
+    "group": "counter",
+    "title": "Dolu sayaç / 20–20",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/request-full--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "requestCancel",
+        "enabled": true
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "request-full",
+    "group": "counter",
+    "title": "Dolu sayaç / 20–20",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/request-full--en--ios--200.svg",
+    "width": 390,
+    "height": 1190,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "requestCancel",
+        "enabled": true
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "request-full",
+    "group": "counter",
+    "title": "Dolu sayaç / 20–20",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/request-full--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "requestCancel",
+        "enabled": true
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  },
+  {
+    "id": "request-full",
+    "group": "counter",
+    "title": "Dolu sayaç / 20–20",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/request-full--en--android--200.svg",
+    "width": 412,
+    "height": 1158,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": 1,
+    "actions": [
+      {
+        "key": "requestCancel",
+        "enabled": true
+      },
+      {
+        "key": "messagesReturn",
+        "enabled": true
+      }
+    ],
+    "displayedAge": null,
+    "cooldownDuration": null,
+    "cooldownReason": null,
+    "fixture": true
+  }
+]

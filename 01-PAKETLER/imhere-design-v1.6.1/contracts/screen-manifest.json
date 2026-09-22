@@ -1,0 +1,4922 @@
+[
+  {
+    "id": "register-empty",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Boş",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/register-empty--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 312.76000000000005,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 446.36000000000007,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-empty",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Boş",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/register-empty--tr--ios--200.svg",
+    "width": 390,
+    "height": 1148,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 648.24,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 878.6400000000001,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-empty",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Boş",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/register-empty--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 290.76000000000005,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 424.36000000000007,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-empty",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Boş",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/register-empty--tr--android--200.svg",
+    "width": 412,
+    "height": 1116,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 626.24,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 856.6400000000001,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-empty",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Boş",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/register-empty--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 312.76000000000005,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 446.36000000000007,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-empty",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Boş",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/register-empty--en--ios--200.svg",
+    "width": 390,
+    "height": 1168,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 668.96,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 899.3600000000001,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-empty",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Boş",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/register-empty--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 290.76000000000005,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 424.36000000000007,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-empty",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Boş",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/register-empty--en--android--200.svg",
+    "width": 412,
+    "height": 1064,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 575.04,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 805.44,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-filled",
+    "group": "kayit",
+    "title": "Hesap oluşturma / E-posta ve parola",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/register-filled--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 312.76000000000005,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 446.36000000000007,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-filled",
+    "group": "kayit",
+    "title": "Hesap oluşturma / E-posta ve parola",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/register-filled--tr--ios--200.svg",
+    "width": 390,
+    "height": 1148,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 648.24,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 878.6400000000001,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-filled",
+    "group": "kayit",
+    "title": "Hesap oluşturma / E-posta ve parola",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/register-filled--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 290.76000000000005,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 424.36000000000007,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-filled",
+    "group": "kayit",
+    "title": "Hesap oluşturma / E-posta ve parola",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/register-filled--tr--android--200.svg",
+    "width": 412,
+    "height": 1116,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 626.24,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 856.6400000000001,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-filled",
+    "group": "kayit",
+    "title": "Hesap oluşturma / E-posta ve parola",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/register-filled--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 312.76000000000005,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 446.36000000000007,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-filled",
+    "group": "kayit",
+    "title": "Hesap oluşturma / E-posta ve parola",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/register-filled--en--ios--200.svg",
+    "width": 390,
+    "height": 1168,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 668.96,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 899.3600000000001,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-filled",
+    "group": "kayit",
+    "title": "Hesap oluşturma / E-posta ve parola",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/register-filled--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 290.76000000000005,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 424.36000000000007,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-filled",
+    "group": "kayit",
+    "title": "Hesap oluşturma / E-posta ve parola",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/register-filled--en--android--200.svg",
+    "width": 412,
+    "height": 1064,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 575.04,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 805.44,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-email-invalid",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Adres hatası",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/register-email-invalid--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 312.76000000000005,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 473.9600000000001,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-email-invalid",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Adres hatası",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/register-email-invalid--tr--ios--200.svg",
+    "width": 390,
+    "height": 1234,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 648.24,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 965.0400000000001,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-email-invalid",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Adres hatası",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/register-email-invalid--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 290.76000000000005,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 451.9600000000001,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-email-invalid",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Adres hatası",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/register-email-invalid--tr--android--200.svg",
+    "width": 412,
+    "height": 1163,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 626.24,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 903.8400000000001,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-email-invalid",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Adres hatası",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/register-email-invalid--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 312.76000000000005,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 473.9600000000001,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-email-invalid",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Adres hatası",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/register-email-invalid--en--ios--200.svg",
+    "width": 390,
+    "height": 1255,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 668.96,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 985.7600000000001,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-email-invalid",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Adres hatası",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/register-email-invalid--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 290.76000000000005,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 451.9600000000001,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-email-invalid",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Adres hatası",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/register-email-invalid--en--android--200.svg",
+    "width": 412,
+    "height": 1112,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 575.04,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 852.6400000000001,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-password-rejected",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Mevcut doğrulama reddi",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/register-password-rejected--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 312.76000000000005,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 446.36000000000007,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-password-rejected",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Mevcut doğrulama reddi",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/register-password-rejected--tr--ios--200.svg",
+    "width": 390,
+    "height": 1234,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 648.24,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 878.6400000000001,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-password-rejected",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Mevcut doğrulama reddi",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/register-password-rejected--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 290.76000000000005,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 424.36000000000007,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-password-rejected",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Mevcut doğrulama reddi",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/register-password-rejected--tr--android--200.svg",
+    "width": 412,
+    "height": 1202,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 626.24,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 856.6400000000001,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-password-rejected",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Mevcut doğrulama reddi",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/register-password-rejected--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 312.76000000000005,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 446.36000000000007,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-password-rejected",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Mevcut doğrulama reddi",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/register-password-rejected--en--ios--200.svg",
+    "width": 390,
+    "height": 1255,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 668.96,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 899.3600000000001,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-password-rejected",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Mevcut doğrulama reddi",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/register-password-rejected--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 290.76000000000005,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 424.36000000000007,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-password-rejected",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Mevcut doğrulama reddi",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/register-password-rejected--en--android--200.svg",
+    "width": 412,
+    "height": 1151,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 575.04,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 805.44,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-creating",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Oluşturuluyor",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/register-creating--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 312.76000000000005,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 446.36000000000007,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-creating",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Oluşturuluyor",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/register-creating--tr--ios--200.svg",
+    "width": 390,
+    "height": 1298,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 648.24,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 878.6400000000001,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-creating",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Oluşturuluyor",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/register-creating--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 290.76000000000005,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 424.36000000000007,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-creating",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Oluşturuluyor",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/register-creating--tr--android--200.svg",
+    "width": 412,
+    "height": 1266,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 626.24,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 856.6400000000001,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-creating",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Oluşturuluyor",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/register-creating--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 312.76000000000005,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 446.36000000000007,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-creating",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Oluşturuluyor",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/register-creating--en--ios--200.svg",
+    "width": 390,
+    "height": 1319,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 668.96,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 899.3600000000001,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-creating",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Oluşturuluyor",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/register-creating--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 290.76000000000005,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 424.36000000000007,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-creating",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Oluşturuluyor",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/register-creating--en--android--200.svg",
+    "width": 412,
+    "height": 1215,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 575.04,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 805.44,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-failed",
+    "group": "kayit",
+    "title": "Hesap oluşturma / İşlem hatası",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/register-failed--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 312.76000000000005,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 446.36000000000007,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-failed",
+    "group": "kayit",
+    "title": "Hesap oluşturma / İşlem hatası",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/register-failed--tr--ios--200.svg",
+    "width": 390,
+    "height": 1452,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 648.24,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 878.6400000000001,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-failed",
+    "group": "kayit",
+    "title": "Hesap oluşturma / İşlem hatası",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/register-failed--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 290.76000000000005,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 424.36000000000007,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-failed",
+    "group": "kayit",
+    "title": "Hesap oluşturma / İşlem hatası",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/register-failed--tr--android--200.svg",
+    "width": 412,
+    "height": 1420,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 626.24,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 856.6400000000001,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-failed",
+    "group": "kayit",
+    "title": "Hesap oluşturma / İşlem hatası",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/register-failed--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 312.76000000000005,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 446.36000000000007,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-failed",
+    "group": "kayit",
+    "title": "Hesap oluşturma / İşlem hatası",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/register-failed--en--ios--200.svg",
+    "width": 390,
+    "height": 1472,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 668.96,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 899.3600000000001,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-failed",
+    "group": "kayit",
+    "title": "Hesap oluşturma / İşlem hatası",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/register-failed--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 290.76000000000005,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 424.36000000000007,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-failed",
+    "group": "kayit",
+    "title": "Hesap oluşturma / İşlem hatası",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/register-failed--en--android--200.svg",
+    "width": 412,
+    "height": 1317,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 575.04,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 805.44,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-offline",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Çevrimdışı",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/register-offline--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 312.76000000000005,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 446.36000000000007,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-offline",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Çevrimdışı",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/register-offline--tr--ios--200.svg",
+    "width": 390,
+    "height": 1298,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 648.24,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 878.6400000000001,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-offline",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Çevrimdışı",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/register-offline--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 290.76000000000005,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 424.36000000000007,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-offline",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Çevrimdışı",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/register-offline--tr--android--200.svg",
+    "width": 412,
+    "height": 1266,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 626.24,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 856.6400000000001,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-offline",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Çevrimdışı",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/register-offline--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 312.76000000000005,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 446.36000000000007,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-offline",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Çevrimdışı",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/register-offline--en--ios--200.svg",
+    "width": 390,
+    "height": 1267,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 668.96,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 899.3600000000001,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-offline",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Çevrimdışı",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/register-offline--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 290.76000000000005,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 424.36000000000007,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-offline",
+    "group": "kayit",
+    "title": "Hesap oluşturma / Çevrimdışı",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/register-offline--en--android--200.svg",
+    "width": 412,
+    "height": 1164,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 575.04,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 805.44,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-empty",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Boş",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/login-empty--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 287.16,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 394.76000000000005,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-empty",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Boş",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/login-empty--tr--ios--200.svg",
+    "width": 390,
+    "height": 989,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 494.63999999999993,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 645.04,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-empty",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Boş",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/login-empty--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 265.16,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 372.76000000000005,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-empty",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Boş",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/login-empty--tr--android--200.svg",
+    "width": 412,
+    "height": 957,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 472.63999999999993,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 623.04,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-empty",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Boş",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/login-empty--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 287.16,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 394.76000000000005,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-empty",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Boş",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/login-empty--en--ios--200.svg",
+    "width": 390,
+    "height": 917,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 422.71999999999997,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 573.12,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-empty",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Boş",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/login-empty--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 265.16,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 372.76000000000005,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-empty",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Boş",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/login-empty--en--android--200.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 400.71999999999997,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 551.12,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-filled",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Doldurulmuş",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/login-filled--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 287.16,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 394.76000000000005,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-filled",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Doldurulmuş",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/login-filled--tr--ios--200.svg",
+    "width": 390,
+    "height": 989,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 494.63999999999993,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 645.04,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-filled",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Doldurulmuş",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/login-filled--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 265.16,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 372.76000000000005,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-filled",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Doldurulmuş",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/login-filled--tr--android--200.svg",
+    "width": 412,
+    "height": 957,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 472.63999999999993,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 623.04,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-filled",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Doldurulmuş",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/login-filled--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 287.16,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 394.76000000000005,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-filled",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Doldurulmuş",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/login-filled--en--ios--200.svg",
+    "width": 390,
+    "height": 917,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 422.71999999999997,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 573.12,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-filled",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Doldurulmuş",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/login-filled--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 265.16,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 372.76000000000005,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-filled",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Doldurulmuş",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/login-filled--en--android--200.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 400.71999999999997,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 551.12,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-invalid",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Adres hatası",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/login-invalid--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 287.16,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 422.36000000000007,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-invalid",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Adres hatası",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/login-invalid--tr--ios--200.svg",
+    "width": 390,
+    "height": 1076,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 494.63999999999993,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 731.4399999999999,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-invalid",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Adres hatası",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/login-invalid--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 265.16,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 400.36000000000007,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-invalid",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Adres hatası",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/login-invalid--tr--android--200.svg",
+    "width": 412,
+    "height": 1004,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 472.63999999999993,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 670.24,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-invalid",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Adres hatası",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/login-invalid--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 287.16,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 422.36000000000007,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-invalid",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Adres hatası",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/login-invalid--en--ios--200.svg",
+    "width": 390,
+    "height": 1004,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 422.71999999999997,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 659.52,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-invalid",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Adres hatası",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/login-invalid--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 265.16,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 400.36000000000007,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-invalid",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Adres hatası",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/login-invalid--en--android--200.svg",
+    "width": 412,
+    "height": 932,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 400.71999999999997,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 598.32,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-submitting",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Giriş yapılıyor",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/login-submitting--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 287.16,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 394.76000000000005,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-submitting",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Giriş yapılıyor",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/login-submitting--tr--ios--200.svg",
+    "width": 390,
+    "height": 1088,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 494.63999999999993,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 645.04,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-submitting",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Giriş yapılıyor",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/login-submitting--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 265.16,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 372.76000000000005,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-submitting",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Giriş yapılıyor",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/login-submitting--tr--android--200.svg",
+    "width": 412,
+    "height": 1056,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 472.63999999999993,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 623.04,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-submitting",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Giriş yapılıyor",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/login-submitting--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 287.16,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 394.76000000000005,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-submitting",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Giriş yapılıyor",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/login-submitting--en--ios--200.svg",
+    "width": 390,
+    "height": 1016,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 422.71999999999997,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 573.12,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-submitting",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Giriş yapılıyor",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/login-submitting--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 265.16,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 372.76000000000005,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-submitting",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Giriş yapılıyor",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/login-submitting--en--android--200.svg",
+    "width": 412,
+    "height": 984,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 400.71999999999997,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 551.12,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-failed",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Giriş hatası",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/login-failed--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 287.16,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 394.76000000000005,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-failed",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Giriş hatası",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/login-failed--tr--ios--200.svg",
+    "width": 390,
+    "height": 1191,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 494.63999999999993,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 645.04,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-failed",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Giriş hatası",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/login-failed--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 265.16,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 372.76000000000005,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-failed",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Giriş hatası",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/login-failed--tr--android--200.svg",
+    "width": 412,
+    "height": 1159,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 472.63999999999993,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 623.04,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-failed",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Giriş hatası",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/login-failed--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 287.16,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 394.76000000000005,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-failed",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Giriş hatası",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/login-failed--en--ios--200.svg",
+    "width": 390,
+    "height": 1170,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 422.71999999999997,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 573.12,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-failed",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Giriş hatası",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/login-failed--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 265.16,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 372.76000000000005,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-failed",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Giriş hatası",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/login-failed--en--android--200.svg",
+    "width": 412,
+    "height": 1087,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 400.71999999999997,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 551.12,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-offline",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Çevrimdışı",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/login-offline--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 287.16,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 394.76000000000005,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-offline",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Çevrimdışı",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/login-offline--tr--ios--200.svg",
+    "width": 390,
+    "height": 1140,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 494.63999999999993,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 645.04,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-offline",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Çevrimdışı",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/login-offline--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 265.16,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 372.76000000000005,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-offline",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Çevrimdışı",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/login-offline--tr--android--200.svg",
+    "width": 412,
+    "height": 1108,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 472.63999999999993,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 623.04,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-offline",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Çevrimdışı",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/login-offline--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 287.16,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 394.76000000000005,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-offline",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Çevrimdışı",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/login-offline--en--ios--200.svg",
+    "width": 390,
+    "height": 1016,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 422.71999999999997,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 573.12,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-offline",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Çevrimdışı",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/login-offline--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 265.16,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 372.76000000000005,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-offline",
+    "group": "giris",
+    "title": "Mevcut kullanıcı / Çevrimdışı",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/login-offline--en--android--200.svg",
+    "width": 412,
+    "height": 984,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 400.71999999999997,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 551.12,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "reset-sent",
+    "group": "sifirlama",
+    "title": "Parola sıfırlama / İstek alındı",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/reset-sent--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": []
+  },
+  {
+    "id": "reset-sent",
+    "group": "sifirlama",
+    "title": "Parola sıfırlama / İstek alındı",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/reset-sent--tr--ios--200.svg",
+    "width": 390,
+    "height": 873,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": []
+  },
+  {
+    "id": "reset-sent",
+    "group": "sifirlama",
+    "title": "Parola sıfırlama / İstek alındı",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/reset-sent--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": []
+  },
+  {
+    "id": "reset-sent",
+    "group": "sifirlama",
+    "title": "Parola sıfırlama / İstek alındı",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/reset-sent--tr--android--200.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": []
+  },
+  {
+    "id": "reset-sent",
+    "group": "sifirlama",
+    "title": "Parola sıfırlama / İstek alındı",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/reset-sent--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": []
+  },
+  {
+    "id": "reset-sent",
+    "group": "sifirlama",
+    "title": "Parola sıfırlama / İstek alındı",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/reset-sent--en--ios--200.svg",
+    "width": 390,
+    "height": 976,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": []
+  },
+  {
+    "id": "reset-sent",
+    "group": "sifirlama",
+    "title": "Parola sıfırlama / İstek alındı",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/reset-sent--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": []
+  },
+  {
+    "id": "reset-sent",
+    "group": "sifirlama",
+    "title": "Parola sıfırlama / İstek alındı",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/reset-sent--en--android--200.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": []
+  },
+  {
+    "id": "register-email-unavailable",
+    "group": "kayit",
+    "title": "Kayıt / nötr e-posta işlem hatası",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/register-email-unavailable--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 312.76000000000005,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 446.36000000000007,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-email-unavailable",
+    "group": "kayit",
+    "title": "Kayıt / nötr e-posta işlem hatası",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/register-email-unavailable--tr--ios--200.svg",
+    "width": 390,
+    "height": 1400,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 648.24,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 878.6400000000001,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-email-unavailable",
+    "group": "kayit",
+    "title": "Kayıt / nötr e-posta işlem hatası",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/register-email-unavailable--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 290.76000000000005,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 424.36000000000007,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-email-unavailable",
+    "group": "kayit",
+    "title": "Kayıt / nötr e-posta işlem hatası",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/register-email-unavailable--tr--android--200.svg",
+    "width": 412,
+    "height": 1368,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 626.24,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 856.6400000000001,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-email-unavailable",
+    "group": "kayit",
+    "title": "Kayıt / nötr e-posta işlem hatası",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/register-email-unavailable--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 312.76000000000005,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 446.36000000000007,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-email-unavailable",
+    "group": "kayit",
+    "title": "Kayıt / nötr e-posta işlem hatası",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/register-email-unavailable--en--ios--200.svg",
+    "width": 390,
+    "height": 1472,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 668.96,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 899.3600000000001,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-email-unavailable",
+    "group": "kayit",
+    "title": "Kayıt / nötr e-posta işlem hatası",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/register-email-unavailable--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 290.76000000000005,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 424.36000000000007,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "register-email-unavailable",
+    "group": "kayit",
+    "title": "Kayıt / nötr e-posta işlem hatası",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/register-email-unavailable--en--android--200.svg",
+    "width": 412,
+    "height": 1317,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 575.04,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 805.44,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-too-many-attempts",
+    "group": "giris",
+    "title": "Giriş / süre belirtmeyen deneme sınırı",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/login-too-many-attempts--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 287.16,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 394.76000000000005,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-too-many-attempts",
+    "group": "giris",
+    "title": "Giriş / süre belirtmeyen deneme sınırı",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/login-too-many-attempts--tr--ios--200.svg",
+    "width": 390,
+    "height": 1242,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 494.63999999999993,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 645.04,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-too-many-attempts",
+    "group": "giris",
+    "title": "Giriş / süre belirtmeyen deneme sınırı",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/login-too-many-attempts--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 265.16,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 372.76000000000005,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-too-many-attempts",
+    "group": "giris",
+    "title": "Giriş / süre belirtmeyen deneme sınırı",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/login-too-many-attempts--tr--android--200.svg",
+    "width": 412,
+    "height": 1210,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 472.63999999999993,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 623.04,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-too-many-attempts",
+    "group": "giris",
+    "title": "Giriş / süre belirtmeyen deneme sınırı",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/login-too-many-attempts--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 287.16,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 394.76000000000005,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-too-many-attempts",
+    "group": "giris",
+    "title": "Giriş / süre belirtmeyen deneme sınırı",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/login-too-many-attempts--en--ios--200.svg",
+    "width": 390,
+    "height": 1170,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 422.71999999999997,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 573.12,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-too-many-attempts",
+    "group": "giris",
+    "title": "Giriş / süre belirtmeyen deneme sınırı",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/login-too-many-attempts--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 265.16,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 372.76000000000005,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "login-too-many-attempts",
+    "group": "giris",
+    "title": "Giriş / süre belirtmeyen deneme sınırı",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/login-too-many-attempts--en--android--200.svg",
+    "width": 412,
+    "height": 1138,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 400.71999999999997,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 551.12,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "reauth-required",
+    "group": "oturum",
+    "title": "Oturum / yeniden giriş gerekli",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/reauth-required--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": []
+  },
+  {
+    "id": "reauth-required",
+    "group": "oturum",
+    "title": "Oturum / yeniden giriş gerekli",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/reauth-required--tr--ios--200.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": []
+  },
+  {
+    "id": "reauth-required",
+    "group": "oturum",
+    "title": "Oturum / yeniden giriş gerekli",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/reauth-required--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": []
+  },
+  {
+    "id": "reauth-required",
+    "group": "oturum",
+    "title": "Oturum / yeniden giriş gerekli",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/reauth-required--tr--android--200.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": []
+  },
+  {
+    "id": "reauth-required",
+    "group": "oturum",
+    "title": "Oturum / yeniden giriş gerekli",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/reauth-required--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": []
+  },
+  {
+    "id": "reauth-required",
+    "group": "oturum",
+    "title": "Oturum / yeniden giriş gerekli",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/reauth-required--en--ios--200.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": []
+  },
+  {
+    "id": "reauth-required",
+    "group": "oturum",
+    "title": "Oturum / yeniden giriş gerekli",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/reauth-required--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "fields": []
+  },
+  {
+    "id": "reauth-required",
+    "group": "oturum",
+    "title": "Oturum / yeniden giriş gerekli",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/reauth-required--en--android--200.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "fields": []
+  }
+]

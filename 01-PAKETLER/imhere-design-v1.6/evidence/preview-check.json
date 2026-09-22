@@ -1,0 +1,53 @@
+{
+  "localFile": true,
+  "initialCards": 66,
+  "groups": [
+    {
+      "group": "davet",
+      "cards": 6,
+      "decoded": true
+    },
+    {
+      "group": "kayit",
+      "cards": 7,
+      "decoded": true
+    },
+    {
+      "group": "dogrulama",
+      "cards": 9,
+      "decoded": true
+    },
+    {
+      "group": "giris",
+      "cards": 6,
+      "decoded": true
+    },
+    {
+      "group": "sifirlama",
+      "cards": 7,
+      "decoded": true
+    },
+    {
+      "group": "cikis",
+      "cards": 4,
+      "decoded": true
+    },
+    {
+      "group": "profil",
+      "cards": 10,
+      "decoded": true
+    },
+    {
+      "group": "secimler",
+      "cards": 9,
+      "decoded": true
+    },
+    {
+      "group": "profiller",
+      "cards": 8,
+      "decoded": true
+    }
+  ],
+  "pageErrors": [],
+  "note": "Static review shell only; not native app testing"
+}

@@ -1,0 +1,25 @@
+{
+  "method": "sRGB relative luminance, opaque colors; local calculation; boundary acceptance >=3:1 from engineering S-1",
+  "pairs": [
+    {
+      "foreground": "#506D46",
+      "background": "#1C3221",
+      "ratio": 2.3678
+    },
+    {
+      "foreground": "#506D46",
+      "background": "#17251D",
+      "ratio": 2.7426
+    },
+    {
+      "foreground": "#637D5A",
+      "background": "#1C3221",
+      "ratio": 3.0189
+    },
+    {
+      "foreground": "#637D5A",
+      "background": "#17251D",
+      "ratio": 3.4968
+    }
+  ]
+}

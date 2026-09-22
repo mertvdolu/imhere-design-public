@@ -1,0 +1,16 @@
+{
+  "colorChanges": [
+    {
+      "path": "colors.inputBorder",
+      "from": "#506D46",
+      "to": "#637D5A",
+      "reason": "Authorized form boundary contrast correction S-1"
+    }
+  ],
+  "removed": [
+    "colors.flirting",
+    "colors.flirtingSurface"
+  ],
+  "unchanged": "All remaining visual tokens, typography, spacing, radii, motion and nativeLayout",
+  "metadata": "Version/provenance refreshed; no claim of current app state"
+}

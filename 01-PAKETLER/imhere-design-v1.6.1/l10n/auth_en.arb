@@ -1,0 +1,22 @@
+{
+  "@@locale": "en",
+  "authEmail": "Email address",
+  "authPassword": "Password",
+  "authPasswordRule": "At least 8 characters.",
+  "authPasswordShow": "Show password",
+  "authPasswordHide": "Hide password",
+  "authSignIn": "Sign in",
+  "authCreateAccount": "Create account",
+  "authForgotPassword": "Forgot password",
+  "authSignInFailed": "Couldn’t sign in. Check your details and try again.",
+  "authEmailInvalid": "Check your email address.",
+  "authPasswordWeak": "Password must be at least 8 characters.",
+  "authEmailUnavailable": "The action couldn’t be completed. Check your details and try again.",
+  "authTooManyAttempts": "We can’t complete this action right now. Please try again later.",
+  "authReauthRequired": "Sign in again to continue.",
+  "authResetTitle": "Reset your password",
+  "authResetBody": "Enter the email address you use for your account.",
+  "authResetSend": "Send reset email",
+  "authResetSent": "If this email address is registered, a password reset link has been sent.",
+  "authResetBackToSignIn": "Back to sign in"
+}

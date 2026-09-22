@@ -1,0 +1,7 @@
+{
+  "@@locale": "tr",
+  "contactAddDetails": "Ek bilgi paylaş",
+  "@contactAddDetails": {
+    "description": "Entry to explicitly share additional currently unpublished eligible contact fields. Does not edit or republish existing shared fields."
+  }
+}

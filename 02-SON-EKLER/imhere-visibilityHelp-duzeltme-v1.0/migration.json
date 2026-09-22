@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "scope": "visibilityHelp copy correction",
+  "modifiedKeys": [
+    "visibilityHelp"
+  ],
+  "newKeys": [],
+  "instructions": [
+    "Replace only visibilityHelp in each locale using the matching patch. Do not overwrite full live ARB files.",
+    "Preserve all other keys and metadata. This correction supersedes earlier package wording for visibilityHelp."
+  ]
+}

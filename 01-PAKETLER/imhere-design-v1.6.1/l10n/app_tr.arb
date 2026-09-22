@@ -1,0 +1,451 @@
+{
+  "@@locale": "tr",
+  "welcomeTitle": "Bir merhaba, çok şey değiştirir.",
+  "welcomeBody": "Şu anda yakınında, tanışmaya açık insanlarla bağlantı kur.",
+  "invitationTitle": "İyi ki geldin.",
+  "invitationCode": "Davet kodu",
+  "invitationUse": "Davetimi kullan",
+  "invitationInvalid": "Bu davet kodunu doğrulayamadık. Kontrol edip tekrar dene.",
+  "emailSend": "Doğrulama bağlantısı gönder",
+  "emailSent": "Doğrulama bağlantısını e-postana gönderdik.",
+  "emailPrivate": "E-posta adresin profilinde görünmez.",
+  "emailResend": "Bağlantıyı tekrar gönder",
+  "profileTitle": "Seni biraz tanıyalım.",
+  "photoAdd": "Bir profil fotoğrafı ekle",
+  "displayName": "Görünen ad",
+  "age": "Yaş",
+  "gender": "Cinsiyet",
+  "genderWoman": "Kadın",
+  "genderMan": "Erkek",
+  "genderNonbinary": "Non-binary",
+  "genderPrivate": "Belirtmek istemiyorum",
+  "occupation": "Meslek",
+  "bio": "Kısaca sen",
+  "interests": "İlgi alanları · 1–5 seç",
+  "languages": "Konuştuğun diller · İsteğe bağlı",
+  "showOnProfile": "Profilimde göster",
+  "profileSave": "Profilimi kaydet",
+  "nearbyEyebrow": "ŞİMDİ & BURADA",
+  "nearbyTitle": "Bir merhabaya ne dersin?",
+  "nearbyBody": "Görünür ol. Karşılaşmalara yer aç.",
+  "nearbyActiveTitle": "Güzel, buradasın.",
+  "nearbyPeople": "Yakınındaki insanlar",
+  "nearbyLocked": "Yakınındaki aktif profilleri görmek için Buradayım’a dokun.",
+  "nearbyEmpty": "Şimdilik yeni bir profil görünmüyor.",
+  "nearbyPrivacy": "Kesin konumun ve mesafen görünmez.",
+  "checkInStart": "Buradayım",
+  "checkInDuration": "30 dakika senin",
+  "checkInStop": "Durdur",
+  "checkInRenew": "Hâlâ buradayım",
+  "checkInReminderTitle": "Hâlâ buralarda mısın? 👀",
+  "checkInReminderBody": "Check-in’in birazdan sona erecek.",
+  "checkInRestart": "Yeniden Buradayım de",
+  "checkInRetry": "Tekrar dene",
+  "offline": "İnternet bağlantısı yok.",
+  "mapTitle": "Nerede hayat var?",
+  "mapBody": "Bölgelerin hareketliliğini keşfet.",
+  "densityBlue": "Sakin",
+  "densityYellow": "Canlı",
+  "densityGreen": "Hareketli",
+  "densityRed": "Çok hareketli",
+  "mapNoActivity": "Bu bölgede gösterilecek hareketlilik yok.",
+  "mapUnavailable": "Harita şu anda yüklenemiyor.",
+  "mapStale": "Gösterilen hareketlilik güncel olmayabilir.",
+  "intentQuestion": "Bu kişiyle neden bağlantı kurmak istiyorsun?",
+  "intentFriendship": "Arkadaşlık",
+  "intentNetworking": "Networking",
+  "intentHint": "Birini veya ikisini seç.",
+  "intentPrivate": "Seçimlerin bağlantı kurulana kadar gizli.",
+  "intentRequired": "En az bir niyet seç.",
+  "requestSend": "Bir merhaba gönder",
+  "requestIncoming": "Tanışmak istiyor.",
+  "requestAccept": "Tanışmak isterim",
+  "requestDecline": "Bu kez değil",
+  "requestPending": "Yanıt bekleniyor",
+  "requestCancel": "İsteği iptal et",
+  "requestExpired": "İsteğin süresi doldu.",
+  "requestFull": "Bekleyen isteklerin dolu. Bir istek sonuçlandığında yer açılır.",
+  "pendingHeading": "Bekleyen istekler",
+  "matchTitle": "Artık bağlantıdasınız.",
+  "matchYou": "Sen",
+  "matchThem": "Karşı taraf",
+  "matchCommon": "Ortak noktanız",
+  "matchNoCommon": "Farklı niyetler, yeni bir ihtimal.",
+  "chatPlaceholder": "Bir merhaba yaz…",
+  "chatSend": "Gönder",
+  "chatNoTimer": "Birbirinizi tanıyacak kadar. Zaman sınırı yok.",
+  "chatLimit": "Mesaj hakkın bitti. Devam kararını verebilirsin.",
+  "chatSoftTitle": "İletişim bilgisi paylaşmak üzeresin",
+  "chatSoftBody": "Mesajın iletişim bilgisi içeriyor olabilir. Gözden geçirebilir veya yine de gönderebilirsin.",
+  "chatSoftReview": "Mesajı gözden geçir",
+  "chatSoftSendAnyway": "Yine de gönder",
+  "continueTitle": "Bu bağlantıyı devam ettir",
+  "continueBody": "Kararın özel kalır. İkiniz de devam etmek isterseniz iletişim paylaşımı açılır.",
+  "continueYes": "Devam etmek istiyorum",
+  "continueSaved": "Tercihin kaydedildi.",
+  "continueBack": "Sohbete dön",
+  "continueNo": "Devam etmek istemiyorum",
+  "mutualTitle": "İkiniz de devam dediniz.",
+  "contactTitle": "Nereden devam edelim?",
+  "contactBody": "Paylaşmak istediğin bilgileri sen seç. Hiçbir alan zorunlu değil.",
+  "contactPhone": "Telefon",
+  "contactInstagram": "Instagram",
+  "contactEmail": "E-posta",
+  "contactOther": "Diğer",
+  "contactShare": "Seçtiklerimi paylaş",
+  "contactSkip": "Şimdi paylaşma",
+  "contactSaved": "Seçtiğin bilgiler paylaşıldı.",
+  "contactEmpty": "Henüz bir bilgi seçmedin. Şimdi paylaşmadan devam edebilirsin.",
+  "reportTitle": "Bir sorun mu var?",
+  "reportHarassment": "Taciz",
+  "reportSpam": "Spam",
+  "reportInappropriate": "Uygunsuz içerik",
+  "reportSafety": "Güvenlik endişesi",
+  "reportOther": "Diğer",
+  "reportSubmit": "Şikâyeti gönder",
+  "reportSent": "Şikâyetin alındı.",
+  "block": "Engelle",
+  "unblock": "Engeli kaldır",
+  "blockConfirm": "Bu kişiyi engellemek istiyor musun?",
+  "endConnection": "Bağlantıyı bitir",
+  "endConfirm": "Bu bağlantı burada bitsin mi?",
+  "deleteAccount": "Hesabımı sil",
+  "deleteConfirm": "Hesabını silmek istiyor musun?",
+  "deleteBody": "Bu işlemi onaylamadan önce hangi verilerin silineceğini incele.",
+  "cancel": "Vazgeç",
+  "settings": "Ayarlar",
+  "navNearby": "Yakındakiler",
+  "navProfile": "Profil",
+  "navEvents": "Etkinlikler",
+  "eventsPlaceholder": "Etkinlikler burada yerini alacak.",
+  "eventsPlaceholderBody": "Bu bölüm henüz kullanıma açık değil.",
+  "ambientNotification": "Yakınlarda aktif biri olabilir 👀",
+  "pendingSlots": "{used}/20 bekleyen istek",
+  "@pendingSlots": {
+    "placeholders": {
+      "used": {
+        "type": "int"
+      }
+    }
+  },
+  "pendingRemaining": "İstek süresi: {time}",
+  "@pendingRemaining": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatRemaining": "{remaining}/20 mesajın kaldı",
+  "@chatRemaining": {
+    "placeholders": {
+      "remaining": {
+        "type": "int"
+      }
+    }
+  },
+  "checkInStatusInactive": "Şu an check-in yapmadın.",
+  "checkInStatusAcquiring": "Konumunu buluyoruz…",
+  "checkInStatusVerifying": "Check-in durumunu doğruluyoruz.",
+  "checkInStatusActive": "Buradasın. Bitiş: {time}.",
+  "checkInStatusStopped": "Check-in durduruldu.",
+  "checkInStatusExpired": "Check-in süren doldu.",
+  "checkInMinutesRemaining": "{minutes} dk kaldı",
+  "checkInEndTime": "Bitiş: {time}",
+  "checkInCancel": "Vazgeç",
+  "checkInOpenSettings": "Ayarları aç",
+  "checkInLocationSettings": "Konum ayarları",
+  "checkInReconcile": "Tekrar dene",
+  "backendUnavailable": "Bu sürümde check-in bağlantısı yok.",
+  "profileNameHint": "2–30 karakter",
+  "profileNameError": "Adın 2–30 karakter olmalı.",
+  "profileBioRequired": "Kısa açıklamanı ekle.",
+  "profileOccupationRequired": "Mesleğini ekle.",
+  "profileBirthDate": "Doğum tarihi",
+  "profileBirthDateError": "Doğum tarihini doğrulayamadık. Kontrol edip tekrar dene.",
+  "profileOtherInterest": "Diğer",
+  "profileCharactersRemaining": "{remaining} karakter kaldı",
+  "profileSaveUnavailable": "Profil kaydetme bu sürümde henüz bağlı değil.",
+  "photoUnavailable": "Fotoğraf ekleme bu sürümde henüz bağlı değil.",
+  "requestSelectAccept": "Seç ve Kabul Et",
+  "requestIncomingInstead": "Bu kişiden bir isteğin var. İnceleyip kendi niyetlerini seçebilirsin.",
+  "requestReviewIncoming": "Gelen isteği incele",
+  "continueWithdraw": "Devam tercihimi geri al",
+  "continueWithdrawn": "Devam tercihin geri alındı.",
+  "connectionEndedNeutral": "Bağlantı sona erdi.",
+  "chatClosedReadOnly": "Bu sohbet şu anda salt okunur.",
+  "contactEdit": "Paylaşılan bilgiyi düzenle",
+  "contactHide": "Görünürlüğünü kaldır",
+  "contactHideNote": "Bu bilgi artık burada görünmez. Daha önce görülmüş veya kaydedilmiş kopyalar geri alınamaz.",
+  "contactPublishChange": "Değişikliği paylaş",
+  "contactHidden": "Bilginin görünürlüğü kaldırıldı.",
+  "reportAlsoBlock": "Bu kişiyi ayrıca engellemek ister misin?",
+  "reportNoBlock": "Şimdi değil",
+  "reportFailed": "Şikâyet gönderilemedi. Tekrar deneyebilirsin.",
+  "notificationDenied": "Bildirimler kapalı. Uygulamayı kullanmaya devam edebilirsin.",
+  "deviceLanguage": "Cihaz dili",
+  "languageTurkish": "Türkçe",
+  "languageEnglish": "English",
+  "navMessages": "Mesajlar",
+  "mapSnapshot": "Yoğunluk görünümü: {time}",
+  "mapSnapshotExplanation": "Bu görünüm bir anlık görüntüdür; kişilerin hâlâ orada olduğunu doğrulamaz.",
+  "checkInPresenceNote": "Check-in, sürekli konum takibi değildir.",
+  "locationPermissionRationale": "Konumun yalnızca sen check-in başlattığında veya yenilediğinde doğrulanır. Arka planda takip edilmez.",
+  "checkInNoticeNoFix": "Konumunu doğrulayamadık. Birkaç saniye sonra tekrar deneyebilirsin.",
+  "checkInNoticePermission": "Buradayım demek için bu adımda cihazının konum iznine ihtiyacımız var.",
+  "checkInNoticePermissionForever": "I’M HERE için konum izni kapalı. Uygulama ayarlarından açabilirsin.",
+  "checkInNoticeServicesOff": "Cihazının konum servisleri kapalı. Açıp tekrar deneyebilirsin.",
+  "checkInNoticePrecise": "Check-in için daha hassas konum gerekiyor.",
+  "checkInNoticeRenewalFailed": "Yenileyemedik. Mevcut check-in’in devam ediyor. Bitiş: {time}.",
+  "checkInNoticeOldExpiredVerifying": "Önceki check-in’in sona erdi. Konumunu doğruluyoruz.",
+  "checkInNoticeVerifying": "Check-in sonucunu doğruluyoruz.",
+  "checkInNoticeNetwork": "Bağlantı yok. İşlem tamamlanmadı; tekrar deneyebilirsin.",
+  "checkInNoticeServer": "Check-in tamamlanamadı. Tekrar deneyebilirsin.",
+  "checkInNoticeStopPending": "Durdurma henüz teyit edilmedi. Bağlantı gelince tekrar denenecek.",
+  "checkInNoticeStopSuperseded": "Yeni check-in’in aktif. Önceki durdurma isteği uygulanmadı.",
+  "@checkInStatusActive": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@checkInMinutesRemaining": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@checkInEndTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@profileCharactersRemaining": {
+    "placeholders": {
+      "remaining": {
+        "type": "int"
+      }
+    }
+  },
+  "@mapSnapshot": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@checkInNoticeRenewalFailed": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "mapPartial": "Hareketliliği görmek için yaklaştır",
+  "mapEmptyNoRegion": "Buradayım de ya da haritayı gez",
+  "profileSaved": "Profil kaydedildi.",
+  "profileIncomplete": "Profilini tamamlamak için bir fotoğraf ekle.",
+  "profileComplete": "Profilin tamam.",
+  "fieldInterests": "İlgi alanları",
+  "dobHelp": "I’M HERE’i kullanmak için 18 yaşında veya daha büyük olmalısın.",
+  "interestsHelp": "En az {min}, en fazla {max} tane seç.",
+  "charactersLeft": "{count} karakter kaldı",
+  "visibilityTitle": "Diğerlerinin görebildikleri",
+  "visibilityHelp": "Gizlediğin alanlar diğer kişilerin profil görünümünde yer almaz.",
+  "showAge": "Yaşım görünsün",
+  "showGender": "Cinsiyetim görünsün",
+  "showOccupation": "Mesleğim görünsün",
+  "photoTitle": "Profil fotoğrafı",
+  "photoNone": "Henüz fotoğraf yok",
+  "photoChoose": "Fotoğraf seç",
+  "photoReplace": "Fotoğrafı değiştir",
+  "photoPrivacyNote": "Fotoğrafın kaydedilmeden önce konum bilgisi temizlenir.",
+  "settingsLanguage": "Dil",
+  "errorRequired": "Bu alan zorunlu.",
+  "errorTextTooLong": "Bu metin çok uzun.",
+  "errorTextTooShort": "Bu metin çok kısa.",
+  "errorInterestsRange": "En az {min}, en fazla {max} ilgi alanı seç.",
+  "errorGenderRequired": "Lütfen bir seçim yap.",
+  "errorQualityInsufficient": "Bu fotoğraf kullanılamadı. Başka bir fotoğraf dene.",
+  "errorStateChanged": "Bir şey değişti. Lütfen tekrar dene.",
+  "errorNetwork": "Bağlantı yok. Lütfen tekrar dene.",
+  "interestMusic": "Müzik",
+  "interestLiveMusic": "Canlı müzik",
+  "interestFilmTv": "Film ve dizi",
+  "interestBooks": "Kitap",
+  "interestArtMuseums": "Sanat ve müze",
+  "interestPhotography": "Fotoğrafçılık",
+  "interestCoffee": "Kahve",
+  "interestFoodCooking": "Yemek ve mutfak",
+  "interestTravel": "Seyahat",
+  "interestNatureHiking": "Doğa ve yürüyüş",
+  "interestWatchingSports": "Spor izlemek",
+  "interestFitness": "Spor salonu",
+  "interestRunning": "Koşu",
+  "interestCycling": "Bisiklet",
+  "interestWaterSports": "Su sporları",
+  "interestYoga": "Yoga",
+  "interestDancing": "Dans",
+  "interestVideoGames": "Video oyunları",
+  "interestBoardGames": "Kutu oyunları",
+  "interestTechnology": "Teknoloji",
+  "interestEntrepreneurship": "Girişimcilik",
+  "interestDesign": "Tasarım",
+  "interestLanguages": "Diller",
+  "interestVolunteering": "Gönüllülük",
+  "interestAnimals": "Hayvanlar",
+  "interestGardening": "Bahçecilik",
+  "interestOther": "Diğer",
+  "checkInTitle": "Check-in",
+  "devEmulatorBanner": "DEV: yerel emülatör ({uid})",
+  "appTitle": "I’M HERE",
+  "mapOpen": "Bölge hareketliliği",
+  "mapLoading": "Harita yükleniyor…",
+  "mapOffline": "İnternet bağlantısı yok. Harita şu anda güncellenemiyor.",
+  "mapBack": "Yakındakiler’e dön",
+  "mapLegend": "Hareketlilik",
+  "mapZoomIn": "Yakınlaştır",
+  "mapZoomOut": "Uzaklaştır",
+  "nearbyLoading": "Profiller yükleniyor…",
+  "nearbyOffline": "İnternet bağlantısı yok. Profiller şu anda güncellenemiyor.",
+  "nearbyFailed": "Profiller yüklenemedi.",
+  "checkInRenewing": "Konumunu yeniden doğruluyoruz…",
+  "viewBack": "Geri",
+  "profileView": "Profili aç",
+  "@interestsHelp": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@charactersLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@errorInterestsRange": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@devEmulatorBanner": {
+    "placeholders": {
+      "uid": {
+        "type": "String"
+      }
+    }
+  },
+  "onboardingStart": "Başlayalım",
+  "onboardingIntro": "Davetinle başla. Bir merhabaya yer aç.",
+  "invitationHelp": "Davet kodunu girerek devam et.",
+  "invitationChecking": "Davet kodunu doğruluyoruz…",
+  "emailTitle": "Hesabını oluştur",
+  "emailHelp": "E-posta adresin ve parolanla hesabını oluştur. Ardından e-posta adresini doğrula.",
+  "emailSending": "Doğrulama bağlantısı gönderiliyor…",
+  "emailWaitingTitle": "E-postanı doğrula",
+  "emailWaitingHelp": "E-postadaki bağlantıya dokunarak adresini doğrula.",
+  "emailChange": "E-posta adresini değiştir",
+  "emailVerifying": "E-posta adresini doğruluyoruz…",
+  "emailVerifyFailed": "Bu bağlantıyla doğrulamayı tamamlayamadık. Yeni bir bağlantı isteyebilirsin.",
+  "profileEdit": "Profilimi düzenle",
+  "profileEditTitle": "Profilini düzenle",
+  "profileBasics": "Seni tanıyalım",
+  "profileAbout": "Kendinden biraz bahset",
+  "profileInterestsTitle": "İlgi alanların",
+  "profileInterestsChoose": "İlgi alanlarını seç",
+  "profileLanguagesChoose": "Konuştuğun dilleri seç",
+  "profileDobPrivacy": "Doğum tarihin profilinde gösterilmez.",
+  "profileGenderChoose": "Bir seçenek seç",
+  "profilePhotoRequired": "Profilini tamamlamak için bir fotoğraf seç.",
+  "profileSaving": "Profilin kaydediliyor…",
+  "profileLoading": "Profil yükleniyor…",
+  "profileLoadFailed": "Profil yüklenemedi.",
+  "profileSaveFailed": "Profil kaydedilemedi. Bilgilerini kontrol edip tekrar deneyebilirsin.",
+  "profileUnavailable": "Bu profil şu anda görüntülenemiyor.",
+  "profileNextCheckIn": "Buradayım’a geç",
+  "profileReadyBody": "Profilin hazır. Yakındakiler’den Buradayım diyebilirsin.",
+  "profileVisibilitySection": "Profilinde görünenler",
+  "profileVisibilityOn": "Görünür",
+  "profileVisibilityOff": "Gizli",
+  "photoSelecting": "Fotoğraf hazırlanıyor…",
+  "photoPermissionDenied": "Fotoğrafa erişilemiyor. Sistem izinlerini kontrol edip tekrar deneyebilirsin.",
+  "photoSelectionFailed": "Fotoğraf eklenemedi. Tekrar deneyebilirsin.",
+  "photoContinue": "Fotoğrafı kullan",
+  "selectionDone": "Tamam",
+  "selectionCount": "{selected}/{max} seçildi",
+  "@selectionCount": {
+    "placeholders": {
+      "selected": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "selectionMaxReached": "En fazla {max} ilgi alanı seçebilirsin. Yeni bir seçim için öncekilerden birini kaldır.",
+  "@selectionMaxReached": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "languageOptionalEmpty": "Henüz dil seçmedin. Bu alan isteğe bağlı.",
+  "profileNoDraftPromise": "Değişiklikler kaydettiğinde uygulanır.",
+  "profileNamePlaceholder": "Adın",
+  "occupationPlaceholder": "Mesleğin",
+  "bioPlaceholder": "Seni anlatan birkaç cümle",
+  "dobPlaceholder": "Doğum tarihini seç",
+  "profileLanguagesLabel": "Konuşulan diller",
+  "authCreateAccount": "Hesap oluştur",
+  "authPassword": "Parola",
+  "authCreating": "Hesabın oluşturuluyor…",
+  "authCreateFailed": "Hesap oluşturulamadı. Bilgilerini kontrol edip tekrar deneyebilirsin.",
+  "authSignInTitle": "Tekrar merhaba",
+  "authSignInBody": "E-posta adresin ve parolanla giriş yap.",
+  "authSignIn": "Giriş yap",
+  "authExistingAccount": "Hesabım var · Giriş yap",
+  "authSigningIn": "Giriş yapılıyor…",
+  "authSignInFailed": "Giriş yapılamadı. Bilgilerini kontrol edip tekrar dene.",
+  "authForgotPassword": "Parolamı unuttum",
+  "authResetTitle": "Parolanı sıfırla",
+  "authResetBody": "Hesabınla kullandığın e-posta adresini gir.",
+  "authResetSend": "Sıfırlama e-postası gönder",
+  "authResetSending": "Parola sıfırlama isteğin gönderiliyor…",
+  "authResetSent": "Bu e-posta adresi kayıtlıysa parola sıfırlama bağlantısı gönderildi.",
+  "authResetFailed": "Parola sıfırlama isteği tamamlanamadı. Tekrar deneyebilirsin.",
+  "authVerifyCheck": "Doğrulamayı kontrol et",
+  "authVerifyRequired": "Devam etmek için e-posta adresini doğrula.",
+  "authVerifyNotYet": "E-posta doğrulaması henüz onaylanmadı. Gelen kutundaki bağlantıya dokunup tekrar kontrol edebilirsin.",
+  "authVerifySendFailed": "Doğrulama e-postası gönderilemedi. Tekrar göndermeyi deneyebilirsin.",
+  "authVerifyResendUnavailable": "Doğrulama e-postası şu anda yeniden gönderilemiyor.",
+  "authSignOut": "Çıkış yap",
+  "authSigningOut": "Çıkış yapılıyor…",
+  "authSignOutFailed": "Çıkış yapılamadı. Tekrar deneyebilirsin.",
+  "authEmail": "E-posta adresi",
+  "authPasswordRule": "En az 8 karakter.",
+  "authPasswordShow": "Parolayı göster",
+  "authPasswordHide": "Parolayı gizle",
+  "authEmailInvalid": "E-posta adresini kontrol et.",
+  "authPasswordWeak": "Parola en az 8 karakter olmalı.",
+  "authEmailUnavailable": "İşlem tamamlanamadı. Bilgilerini kontrol edip tekrar dene.",
+  "authTooManyAttempts": "Şu anda işlemi tamamlayamıyoruz. Daha sonra tekrar dene.",
+  "authReauthRequired": "Devam etmek için yeniden giriş yap.",
+  "authResetBackToSignIn": "Girişe dön"
+}

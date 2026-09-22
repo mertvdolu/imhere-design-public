@@ -1,0 +1,20 @@
+{
+  "localFile": true,
+  "mainFlowCount": 6,
+  "allStateCount": 8,
+  "groups": [
+    {
+      "group": "person",
+      "cards": 6,
+      "imagesLoaded": true
+    },
+    {
+      "group": "counter",
+      "cards": 2,
+      "imagesLoaded": true
+    }
+  ],
+  "pageErrors": [],
+  "networkRequests": [],
+  "note": "Local review shell; not app integration"
+}

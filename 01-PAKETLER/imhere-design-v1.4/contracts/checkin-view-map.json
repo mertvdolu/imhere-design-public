@@ -1,0 +1,100 @@
+[
+  {
+    "view": 1,
+    "name": "Pasif",
+    "domain": "INACTIVE",
+    "statusKey": "checkInStatusInactive",
+    "actions": [
+      "btn-checkin"
+    ],
+    "remaining": false,
+    "notes": "Backend yoksa düğme pasif; backend-unavailable ayrı açıklama. İlk deneme başarısızlığı uyarı ile burada."
+  },
+  {
+    "view": 2,
+    "name": "Konum aranıyor",
+    "domain": "ACQUIRING",
+    "statusKey": "checkInStatusAcquiring",
+    "actions": [
+      "btn-cancel"
+    ],
+    "remaining": false,
+    "notes": "Vazgeç yalnız aramayı iptal eder. Başarı görünümü yok."
+  },
+  {
+    "view": 3,
+    "name": "Doğrulanıyor",
+    "domain": "VERIFYING_SERVER",
+    "statusKey": "checkInStatusVerifying",
+    "actions": [],
+    "remaining": false,
+    "notes": "Sunucu teyidi beklenir. Aktif eylem ve başarı animasyonu yok."
+  },
+  {
+    "view": 3,
+    "subview": "3b",
+    "name": "Sonuç belirsiz",
+    "domain": "RESULT_UNKNOWN",
+    "statusKey": "checkInStatusVerifying",
+    "actions": [
+      "btn-reconcile"
+    ],
+    "remaining": false,
+    "notes": "Aynı denemenin sonucunu sorgular. Yeni check-in başlatılmaz."
+  },
+  {
+    "view": 4,
+    "name": "Aktif",
+    "domain": "ACTIVE",
+    "statusKey": "checkInStatusActive",
+    "actions": [
+      "btn-renew",
+      "btn-stop"
+    ],
+    "remaining": true,
+    "notes": "Eski/bekleyen stop uyarıları statusun altında; stopPending aktifliği tek başına bitirmez."
+  },
+  {
+    "view": 5,
+    "name": "Yenileniyor",
+    "domain": "RENEWAL_ACQUIRING",
+    "statusKey": "checkInStatusActive",
+    "actions": [
+      "btn-cancel",
+      "btn-stop"
+    ],
+    "remaining": true,
+    "notes": "Önceki onaylı bitiş korunur. Vazgeç yalnız konum arama sürerken. Eski süre biterse EXPIRED + oldExpiredVerifying; yeni başarıya kadar aktif aralık yok."
+  },
+  {
+    "view": 6,
+    "name": "Durduruldu",
+    "domain": "STOPPED",
+    "statusKey": "checkInStatusStopped",
+    "actions": [
+      "btn-checkin"
+    ],
+    "remaining": false,
+    "notes": "Yenileme doğrulaması sürerken btn-checkin gizlidir."
+  },
+  {
+    "view": 7,
+    "name": "Süre doldu",
+    "domain": "EXPIRED",
+    "statusKey": "checkInStatusExpired",
+    "actions": [
+      "btn-checkin"
+    ],
+    "remaining": false,
+    "notes": "Yenileme doğrulaması sürerken btn-checkin gizlidir."
+  },
+  {
+    "view": null,
+    "name": "Ayrı görünüm yok",
+    "domain": "REPLACED",
+    "statusKey": null,
+    "actions": [],
+    "remaining": false,
+    "notes": "Yeni onaylı ACTIVE oturuma geç; eski oturum için ayrı son ekran yok."
+  }
+]

@@ -1,0 +1,354 @@
+{
+  "@@locale": "en",
+  "welcomeTitle": "One hello can change a lot.",
+  "welcomeBody": "Connect with people nearby who are open to meeting, right now.",
+  "invitationTitle": "You’re in good company.",
+  "invitationCode": "Invitation code",
+  "invitationUse": "Use my invitation",
+  "invitationInvalid": "We couldn’t verify this invitation code. Check it and try again.",
+  "emailLabel": "Email address",
+  "emailSend": "Send verification link",
+  "emailSent": "We sent a verification link to your email.",
+  "emailPrivate": "Your email address never appears on your profile.",
+  "emailResend": "Resend link",
+  "profileTitle": "A little about you.",
+  "photoAdd": "Add one profile photo",
+  "displayName": "Display name",
+  "age": "Age",
+  "gender": "Gender",
+  "genderWoman": "Woman",
+  "genderMan": "Man",
+  "genderNonbinary": "Non-binary",
+  "genderPrivate": "Prefer not to say",
+  "occupation": "Occupation",
+  "bio": "About you",
+  "interests": "Interests · Choose 1–5",
+  "languages": "Languages · Optional",
+  "showOnProfile": "Show on my profile",
+  "profileSave": "Save my profile",
+  "nearbyEyebrow": "HERE & NOW",
+  "nearbyTitle": "How about a hello?",
+  "nearbyBody": "Be present. Make room for a connection.",
+  "nearbyActiveTitle": "Good, you’re here.",
+  "nearbyPeople": "People nearby",
+  "nearbyLocked": "Tap I’m here to discover active people nearby.",
+  "nearbyEmpty": "No new profiles to show right now.",
+  "nearbyPrivacy": "Your exact location and distance stay private.",
+  "checkInStart": "I’m here",
+  "checkInDuration": "30 minutes, yours",
+  "checkInStop": "Stop",
+  "checkInRenew": "I’m still here",
+  "checkInReminderTitle": "Still around? 👀",
+  "checkInReminderBody": "Your check-in is ending soon.",
+  "checkInRestart": "Check in again",
+  "checkInRetry": "Try again",
+  "offline": "You’re offline.",
+  "mapTitle": "Where’s the energy?",
+  "mapBody": "Explore activity across areas.",
+  "densityBlue": "Quiet",
+  "densityYellow": "Lively",
+  "densityGreen": "Busy",
+  "densityRed": "Buzzing",
+  "mapNoActivity": "No activity to show in this area.",
+  "mapUnavailable": "The map can’t load right now.",
+  "mapStale": "The activity shown may be out of date.",
+  "intentQuestion": "Why would you like to connect with this person?",
+  "intentFriendship": "Friendship",
+  "intentNetworking": "Networking",
+  "intentHint": "Choose one or both.",
+  "intentPrivate": "Your choices stay private until you connect.",
+  "intentRequired": "Choose at least one intention.",
+  "requestSend": "Send a hello",
+  "requestIncoming": "Would like to connect.",
+  "requestAccept": "I’d like to connect",
+  "requestDecline": "Not this time",
+  "requestPending": "Awaiting a reply",
+  "requestCancel": "Cancel request",
+  "requestExpired": "The request has expired.",
+  "requestFull": "Your pending slots are full. A slot opens when a request resolves.",
+  "pendingHeading": "Pending requests",
+  "matchTitle": "You’re connected.",
+  "matchYou": "You",
+  "matchThem": "Other person",
+  "matchCommon": "You share",
+  "matchNoCommon": "Different intentions, a new possibility.",
+  "chatPlaceholder": "Write a hello…",
+  "chatSend": "Send",
+  "chatNoTimer": "Enough to get to know each other. No time limit.",
+  "chatLimit": "You’ve used your messages. You can choose whether to continue.",
+  "chatSoftTitle": "You’re about to share contact details",
+  "chatSoftBody": "Your message may contain contact details. You can review it or send it anyway.",
+  "chatSoftReview": "Review message",
+  "chatSoftSendAnyway": "Send Anyway",
+  "continueTitle": "Continue this connection",
+  "continueBody": "Your choice stays private. Contact sharing opens if you both want to continue.",
+  "continueYes": "I’d like to continue",
+  "continueSaved": "Your preference is saved.",
+  "continueBack": "Back to chat",
+  "continueNo": "I don't want to continue",
+  "mutualTitle": "You both chose to continue.",
+  "contactTitle": "Where do we go from here?",
+  "contactBody": "Choose which details to share. Every field is optional.",
+  "contactPhone": "Phone",
+  "contactInstagram": "Instagram",
+  "contactEmail": "Email",
+  "contactOther": "Other",
+  "contactShare": "Share selected details",
+  "contactSkip": "Not now",
+  "contactSaved": "Your selected details have been shared.",
+  "contactEmpty": "You haven’t selected any details. You can continue without sharing now.",
+  "reportTitle": "Something wrong?",
+  "reportHarassment": "Harassment",
+  "reportSpam": "Spam",
+  "reportInappropriate": "Inappropriate content",
+  "reportSafety": "Safety concern",
+  "reportOther": "Other",
+  "reportSubmit": "Submit report",
+  "reportSent": "Your report has been received.",
+  "block": "Block",
+  "unblock": "Unblock",
+  "blockConfirm": "Block this person?",
+  "endConnection": "End connection",
+  "endConfirm": "End this connection?",
+  "deleteAccount": "Delete my account",
+  "deleteConfirm": "Delete your account?",
+  "deleteBody": "Review which data will be deleted before confirming.",
+  "cancel": "Cancel",
+  "settings": "Settings",
+  "navNearby": "Nearby",
+  "navProfile": "Profile",
+  "navEvents": "Events",
+  "eventsPlaceholder": "Events will have a place here.",
+  "eventsPlaceholderBody": "This section isn’t available yet.",
+  "ambientNotification": "Someone nearby might be active 👀",
+  "pendingSlots": "{used}/20 pending requests",
+  "@pendingSlots": {
+    "placeholders": {
+      "used": {
+        "type": "int"
+      }
+    }
+  },
+  "pendingRemaining": "Request expires in {time}",
+  "@pendingRemaining": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatRemaining": "{remaining}/20 messages left",
+  "@chatRemaining": {
+    "placeholders": {
+      "remaining": {
+        "type": "int"
+      }
+    }
+  },
+  "checkInStatusInactive": "You’re not checked in.",
+  "checkInStatusAcquiring": "Finding your location…",
+  "checkInStatusVerifying": "Checking your check-in status.",
+  "checkInStatusActive": "You’re here. Ends at {time}.",
+  "checkInStatusStopped": "Check-in stopped.",
+  "checkInStatusExpired": "Your check-in has ended.",
+  "checkInMinutesRemaining": "{minutes} min left",
+  "checkInEndTime": "Ends at {time}",
+  "checkInCancel": "Cancel",
+  "checkInOpenSettings": "Open settings",
+  "checkInLocationSettings": "Location settings",
+  "checkInReconcile": "Try again",
+  "backendUnavailable": "Check-in isn’t connected in this build.",
+  "profileNameHint": "2–30 characters",
+  "profileNameError": "Your name must be 2–30 characters.",
+  "profileBioRequired": "Add your bio.",
+  "profileOccupationRequired": "Add your occupation.",
+  "profileBirthDate": "Date of birth",
+  "profileBirthDateError": "We couldn’t verify your date of birth. Check it and try again.",
+  "profileOtherInterest": "Other",
+  "profileCharactersRemaining": "{remaining} characters left",
+  "profileSaveUnavailable": "Profile saving isn’t connected in this build yet.",
+  "photoUnavailable": "Adding a photo isn’t connected in this build yet.",
+  "requestSelectAccept": "Choose and accept",
+  "requestIncomingInstead": "You have a request from this person. Review it and choose your own intentions.",
+  "requestReviewIncoming": "Review incoming request",
+  "continueWithdraw": "Withdraw my continue preference",
+  "continueWithdrawn": "Your continue preference has been withdrawn.",
+  "connectionEndedNeutral": "The connection has ended.",
+  "chatClosedReadOnly": "This conversation is currently read-only.",
+  "contactEdit": "Edit shared detail",
+  "contactHide": "Stop showing this detail",
+  "contactHideNote": "This detail will no longer appear here. Copies already seen or saved can’t be recalled.",
+  "contactPublishChange": "Share update",
+  "contactHidden": "The detail is no longer visible.",
+  "reportAlsoBlock": "Would you also like to block this person?",
+  "reportNoBlock": "Not now",
+  "reportFailed": "Your report wasn’t sent. You can try again.",
+  "notificationDenied": "Notifications are off. You can keep using the app.",
+  "deviceLanguage": "Device language",
+  "languageTurkish": "Türkçe",
+  "languageEnglish": "English",
+  "navMessages": "Messages",
+  "mapSnapshot": "Activity snapshot: {time}",
+  "mapSnapshotExplanation": "This is a snapshot; it doesn’t confirm that people are still there.",
+  "checkInPresenceNote": "A check-in isn’t continuous location tracking.",
+  "locationPermissionRationale": "Your location is verified only when you start or renew a check-in. It isn’t tracked in the background.",
+  "checkInNoticeNoFix": "We couldn’t verify your location. You can try again in a few seconds.",
+  "checkInNoticePermission": "To check in, we need your device’s location permission during this step.",
+  "checkInNoticePermissionForever": "Location access is off for I’M HERE. You can turn it on in app settings.",
+  "checkInNoticeServicesOff": "Your device’s location services are off. Turn them on and try again.",
+  "checkInNoticePrecise": "Check-in needs a more precise location.",
+  "checkInNoticeRenewalFailed": "We couldn’t renew. Your current check-in continues. Ends at {time}.",
+  "checkInNoticeOldExpiredVerifying": "Your previous check-in has ended. We’re verifying your location.",
+  "checkInNoticeVerifying": "We’re confirming your check-in result.",
+  "checkInNoticeNetwork": "No connection. The action wasn’t completed; you can try again.",
+  "checkInNoticeServer": "Check-in couldn’t be completed. You can try again.",
+  "checkInNoticeStopPending": "Stopping hasn’t been confirmed yet. We’ll retry when you’re back online.",
+  "checkInNoticeStopSuperseded": "Your newer check-in is active. The earlier stop request wasn’t applied.",
+  "@checkInStatusActive": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@checkInMinutesRemaining": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@checkInEndTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@profileCharactersRemaining": {
+    "placeholders": {
+      "remaining": {
+        "type": "int"
+      }
+    }
+  },
+  "@mapSnapshot": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@checkInNoticeRenewalFailed": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "mapPartial": "Zoom in to see activity",
+  "mapEmptyNoRegion": "Check in or explore the map",
+  "profileSaved": "Profile saved",
+  "profileIncomplete": "Add one photo to finish your profile",
+  "profileComplete": "Your profile is complete",
+  "fieldInterests": "Interests",
+  "dobHelp": "You must be 18 or older to use I’M HERE.",
+  "interestsHelp": "Choose between {min} and {max}.",
+  "@interestsHelp": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "charactersLeft": "{count} characters left",
+  "@charactersLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "visibilityTitle": "What others can see",
+  "visibilityHelp": "Fields you hide are not shown to other people on your profile.",
+  "showAge": "Show my age",
+  "showGender": "Show my gender",
+  "showOccupation": "Show my occupation",
+  "photoTitle": "Profile photo",
+  "photoNone": "No photo yet",
+  "photoChoose": "Choose photo",
+  "photoReplace": "Replace photo",
+  "photoPrivacyNote": "Location data is removed from your photo before it is saved.",
+  "settingsLanguage": "Language",
+  "errorRequired": "This field is required",
+  "errorTextTooLong": "This text is too long",
+  "errorTextTooShort": "This text is too short",
+  "errorInterestsRange": "Choose between {min} and {max} interests",
+  "@errorInterestsRange": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "errorGenderRequired": "Please choose an option",
+  "errorQualityInsufficient": "This photo could not be used. Try another one.",
+  "errorStateChanged": "Something changed. Please try again.",
+  "errorNetwork": "No connection. Please try again.",
+  "interestMusic": "Music",
+  "interestLiveMusic": "Live music",
+  "interestFilmTv": "Film and TV",
+  "interestBooks": "Books",
+  "interestArtMuseums": "Art and museums",
+  "interestPhotography": "Photography",
+  "interestCoffee": "Coffee",
+  "interestFoodCooking": "Food and cooking",
+  "interestTravel": "Travel",
+  "interestNatureHiking": "Nature and hiking",
+  "interestWatchingSports": "Watching sports",
+  "interestFitness": "Fitness",
+  "interestRunning": "Running",
+  "interestCycling": "Cycling",
+  "interestWaterSports": "Water sports",
+  "interestYoga": "Yoga",
+  "interestDancing": "Dancing",
+  "interestVideoGames": "Video games",
+  "interestBoardGames": "Board games",
+  "interestTechnology": "Technology",
+  "interestEntrepreneurship": "Entrepreneurship",
+  "interestDesign": "Design",
+  "interestLanguages": "Languages",
+  "interestVolunteering": "Volunteering",
+  "interestAnimals": "Animals",
+  "interestGardening": "Gardening",
+  "interestOther": "Other",
+  "checkInTitle": "Check-in",
+  "devEmulatorBanner": "DEV: local emulators ({uid})",
+  "@devEmulatorBanner": {
+    "placeholders": {
+      "uid": {
+        "type": "String"
+      }
+    }
+  },
+  "appTitle": "I’M HERE",
+  "mapOpen": "Area activity",
+  "mapLoading": "Loading the map…",
+  "mapOffline": "No internet connection. The map can’t update right now.",
+  "mapBack": "Back to Nearby",
+  "mapLegend": "Activity",
+  "mapZoomIn": "Zoom in",
+  "mapZoomOut": "Zoom out",
+  "nearbyLoading": "Loading profiles…",
+  "nearbyOffline": "No internet connection. Profiles can’t update right now.",
+  "nearbyFailed": "Profiles couldn’t be loaded.",
+  "checkInRenewing": "Verifying your location again…",
+  "viewBack": "Back",
+  "profileView": "View profile"
+}

@@ -1,0 +1,177 @@
+[
+  {
+    "notice": "noFix",
+    "arbKey": "checkInNoticeNoFix",
+    "tr": "Konumunu doğrulayamadık. Birkaç saniye sonra tekrar deneyebilirsin.",
+    "en": "We couldn’t verify your location. You can try again in a few seconds.",
+    "actionKeys": [
+      "btn-checkin"
+    ],
+    "statusSlot": "Key('checkin-status')",
+    "noticeSlot": "Key('checkin-notice')",
+    "note": "İzin veya servis hatası olarak yeniden etiketleme.",
+    "copyStatus": "NOT LOCKED",
+    "behaviorStatus": "LOCKED via engineering inventory",
+    "placeholders": {}
+  },
+  {
+    "notice": "permission",
+    "arbKey": "checkInNoticePermission",
+    "tr": "Buradayım demek için bu adımda cihazının konum iznine ihtiyacımız var.",
+    "en": "To check in, we need your device’s location permission during this step.",
+    "actionKeys": [
+      "btn-checkin"
+    ],
+    "statusSlot": "Key('checkin-status')",
+    "noticeSlot": "Key('checkin-notice')",
+    "note": "İzin yeniden istenebilir. Uygulamanın diğer bölümleri açık kalır.",
+    "copyStatus": "NOT LOCKED",
+    "behaviorStatus": "LOCKED via engineering inventory",
+    "placeholders": {}
+  },
+  {
+    "notice": "permissionForever",
+    "arbKey": "checkInNoticePermissionForever",
+    "tr": "I’M HERE için konum izni kapalı. Uygulama ayarlarından açabilirsin.",
+    "en": "Location access is off for I’M HERE. You can turn it on in app settings.",
+    "actionKeys": [
+      "btn-open-settings"
+    ],
+    "statusSlot": "Key('checkin-status')",
+    "noticeSlot": "Key('checkin-notice')",
+    "note": "Tekrar izin diyaloğu açma yerine uygulama ayarları.",
+    "copyStatus": "NOT LOCKED",
+    "behaviorStatus": "LOCKED via engineering inventory",
+    "placeholders": {}
+  },
+  {
+    "notice": "servicesOff",
+    "arbKey": "checkInNoticeServicesOff",
+    "tr": "Cihazının konum servisleri kapalı. Açıp tekrar deneyebilirsin.",
+    "en": "Your device’s location services are off. Turn them on and try again.",
+    "actionKeys": [
+      "btn-location-settings"
+    ],
+    "statusSlot": "Key('checkin-status')",
+    "noticeSlot": "Key('checkin-notice')",
+    "note": "Uygulama izni ile cihaz servis ayarı ayrı.",
+    "copyStatus": "NOT LOCKED",
+    "behaviorStatus": "LOCKED via engineering inventory",
+    "placeholders": {}
+  },
+  {
+    "notice": "precise",
+    "arbKey": "checkInNoticePrecise",
+    "tr": "Check-in için daha hassas konum gerekiyor.",
+    "en": "Check-in needs a more precise location.",
+    "actionKeys": [
+      "btn-checkin"
+    ],
+    "statusSlot": "Key('checkin-status')",
+    "noticeSlot": "Key('checkin-notice')",
+    "note": "Yaklaşık konum diğer uygulama bölümlerini kapatmaz; teşhis metresi gösterme.",
+    "copyStatus": "NOT LOCKED",
+    "behaviorStatus": "LOCKED via engineering inventory",
+    "placeholders": {}
+  },
+  {
+    "notice": "renewalFailed",
+    "arbKey": "checkInNoticeRenewalFailed",
+    "tr": "Yenileyemedik. Mevcut check-in’in devam ediyor. Bitiş: {time}.",
+    "en": "We couldn’t renew. Your current check-in continues. Ends at {time}.",
+    "actionKeys": [
+      "btn-renew"
+    ],
+    "statusSlot": "Key('checkin-status')",
+    "noticeSlot": "Key('checkin-notice')",
+    "note": "Eski expiresAt ve aktif kalan süre korunur.",
+    "copyStatus": "NOT LOCKED",
+    "behaviorStatus": "LOCKED via engineering inventory",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "meaning": "Confirmed old expiry, formatted in device locale"
+      }
+    }
+  },
+  {
+    "notice": "oldExpiredVerifying",
+    "arbKey": "checkInNoticeOldExpiredVerifying",
+    "tr": "Önceki check-in’in sona erdi. Konumunu doğruluyoruz.",
+    "en": "Your previous check-in has ended. We’re verifying your location.",
+    "actionKeys": [],
+    "statusSlot": "Key('checkin-status')",
+    "noticeSlot": "Key('checkin-notice')",
+    "note": "Eski süre doldu; yeni onaya kadar aktif sayılmaz.",
+    "copyStatus": "NOT LOCKED",
+    "behaviorStatus": "LOCKED via engineering inventory",
+    "placeholders": {}
+  },
+  {
+    "notice": "verifying",
+    "arbKey": "checkInNoticeVerifying",
+    "tr": "Check-in sonucunu doğruluyoruz.",
+    "en": "We’re confirming your check-in result.",
+    "actionKeys": [
+      "btn-reconcile"
+    ],
+    "statusSlot": "Key('checkin-status')",
+    "noticeSlot": "Key('checkin-notice')",
+    "note": "RESULT_UNKNOWN: aynı denemenin sonucunu sorgula; yeni deneme başlatma.",
+    "copyStatus": "NOT LOCKED",
+    "behaviorStatus": "LOCKED via engineering inventory",
+    "placeholders": {}
+  },
+  {
+    "notice": "network",
+    "arbKey": "checkInNoticeNetwork",
+    "tr": "Bağlantı yok. İşlem tamamlanmadı; tekrar deneyebilirsin.",
+    "en": "No connection. The action wasn’t completed; you can try again.",
+    "actionKeys": [],
+    "statusSlot": "Key('checkin-status')",
+    "noticeSlot": "Key('checkin-notice')",
+    "note": "Ağ hatasıdır. Sonuç belirsizliği verifying ile, durdurma belirsizliği stopPending ile temsil edilir. Aksiyon mevcut duruma bağlı.",
+    "copyStatus": "NOT LOCKED",
+    "behaviorStatus": "LOCKED via engineering inventory",
+    "placeholders": {}
+  },
+  {
+    "notice": "server",
+    "arbKey": "checkInNoticeServer",
+    "tr": "Check-in tamamlanamadı. Tekrar deneyebilirsin.",
+    "en": "Check-in couldn’t be completed. You can try again.",
+    "actionKeys": [],
+    "statusSlot": "Key('checkin-status')",
+    "noticeSlot": "Key('checkin-notice')",
+    "note": "Genel sunucu reddi. İzin/GPS teşhisi uydurma. Aksiyon mevcut duruma bağlı.",
+    "copyStatus": "NOT LOCKED",
+    "behaviorStatus": "LOCKED via engineering inventory",
+    "placeholders": {}
+  },
+  {
+    "notice": "stopPending",
+    "arbKey": "checkInNoticeStopPending",
+    "tr": "Durdurma henüz teyit edilmedi. Bağlantı gelince tekrar denenecek.",
+    "en": "Stopping hasn’t been confirmed yet. We’ll retry when you’re back online.",
+    "actionKeys": [],
+    "statusSlot": "Key('checkin-status')",
+    "noticeSlot": "Key('checkin-notice')",
+    "note": "Aktif görünüm ve eski kalan süre korunur. Durduruldu veya görünmezsin denmez.",
+    "copyStatus": "NOT LOCKED",
+    "behaviorStatus": "LOCKED via engineering inventory",
+    "placeholders": {}
+  },
+  {
+    "notice": "stopSuperseded",
+    "arbKey": "checkInNoticeStopSuperseded",
+    "tr": "Yeni check-in’in aktif. Önceki durdurma isteği uygulanmadı.",
+    "en": "Your newer check-in is active. The earlier stop request wasn’t applied.",
+    "actionKeys": [],
+    "statusSlot": "Key('checkin-status')",
+    "noticeSlot": "Key('checkin-notice')",
+    "note": "Yeni oturumun kalan süresi gösterilir; eski stop yeni oturumu kapatmaz.",
+    "copyStatus": "NOT LOCKED",
+    "behaviorStatus": "LOCKED via engineering inventory",
+    "placeholders": {}
+  }
+]

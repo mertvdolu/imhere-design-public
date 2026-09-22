@@ -1,0 +1,51 @@
+{
+  "version": "1.7",
+  "authority": "Extract v1.0.2 §8 + accepted engineering L-50..55",
+  "allow": [
+    "text",
+    "emoji",
+    "links"
+  ],
+  "forbid": [
+    "media attachments",
+    "photo",
+    "video",
+    "audio",
+    "file",
+    "GIF",
+    "sent-message edit",
+    "sent-message delete",
+    "message recall"
+  ],
+  "maximumPerParticipant": 20,
+  "maximumMessageGraphemes": 500,
+  "remainingCount": "Current user only; backend-confirmed. No combined40 target or peer quota.",
+  "zeroOwnMessages": "Disable compose/send; allow reading and private continue decision. Peer capacity does not alter own remaining quota.",
+  "chatTimer": false,
+  "checkinExpiryClosesChat": false,
+  "softWarning": {
+    "trigger": "Existing contact detection in draft; do not invent matching regex",
+    "title": "chatSoftTitle",
+    "body": "chatSoftBody",
+    "review": "chatSoftReview",
+    "sendAnyway": "chatSoftSendAnyway",
+    "hardBlock": false,
+    "sameLimitsStillApply": true,
+    "reviewEditsReevaluateCurrentDraft": true
+  },
+  "sending": "Lock duplicate submit of same operation. Submitted draft is not a confirmed bubble until authoritative result.",
+  "unknownResult": "Show chatSendUnconfirmed; status check via existing operation identity, no blind new-message retry or fabricated remaining count.",
+  "mutualContinue": {
+    "composer": false,
+    "readOnly": true,
+    "remainingRightsCannotBeUsed": true,
+    "contactEntry": "chatContactOpen"
+  },
+  "closed": {
+    "readOnly": true,
+    "retentionDurationShown": false,
+    "retentionPromise": false
+  },
+  "blocked": "No message/person/contact data in visual or semantics; neutral unavailable overrides read-only/cache",
+  "linkPresentation": "Text link only; no attachment/unfurl feature required by design"
+}

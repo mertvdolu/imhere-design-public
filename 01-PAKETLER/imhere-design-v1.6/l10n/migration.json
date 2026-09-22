@@ -1,0 +1,124 @@
+{
+  "baseline": "Accepted v1.3 and read-only local app ARBs, 2026-09-15",
+  "missingKeysObserved": 83,
+  "canonicalAliases": {
+    "chatReadOnly": "chatClosedReadOnly",
+    "chatSoftContactTitle": "chatSoftTitle",
+    "chatSoftContactBody": "chatSoftBody",
+    "navMap": "mapOpen"
+  },
+  "legacyAppAliases": {
+    "appTitle": "appTitle",
+    "fieldDisplayName": "displayName",
+    "fieldBio": "bio",
+    "fieldOccupation": "occupation",
+    "fieldGender": "gender",
+    "fieldDob": "profileBirthDate",
+    "fieldSpokenLanguages": "languages",
+    "genderWOMAN": "genderWoman",
+    "genderMAN": "genderMan",
+    "genderNON_BINARY": "genderNonbinary",
+    "genderPREFER_NOT_TO_SAY": "genderPrivate",
+    "settingsTitle": "settings",
+    "languageSystem": "deviceLanguage",
+    "checkInButton": "checkInStart",
+    "renewButton": "checkInRenew",
+    "stopButton": "checkInStop",
+    "retryButton": "checkInRetry",
+    "cancelButton": "checkInCancel",
+    "openSettingsButton": "checkInOpenSettings",
+    "openLocationSettingsButton": "checkInLocationSettings",
+    "statusInactive": "checkInStatusInactive",
+    "statusAcquiring": "checkInStatusAcquiring",
+    "statusVerifying": "checkInStatusVerifying",
+    "statusActiveUntil": "checkInStatusActive",
+    "statusRemaining": "checkInMinutesRemaining",
+    "statusStopped": "checkInStatusStopped",
+    "statusExpired": "checkInStatusExpired",
+    "errorAgeIneligible": "profileBirthDateError"
+  },
+  "deletedWithoutReplacement": [
+    "intentFlirting"
+  ],
+  "rules": [
+    "Replace call sites and both locales together; do not overwrite live ARB files wholesale.",
+    "navMap is a legacy alias for mapOpen ENTRY ACTION; mapTitle remains the map heading. Only four navigation labels.",
+    "chatClosedReadOnly is shared by mutual YES and closed conversations; no duration promise. Blocked content visibility overrides read-only UI.",
+    "Canonical chatSoftTitle/Body are the only soft-contact warning strings.",
+    "requestAccept opens independent intent selection; only requestSelectAccept confirms.",
+    "Do not delete app-only keys absent from a design package.",
+    "Keep existing generated localization API and parameterized limits; do not replace live {min}/{max} APIs with hardcoded constants.",
+    "devEmulatorBanner remains debug-only; never place it in production screens.",
+    "errorAgeIneligible maps to generic profileBirthDateError; no age-threshold disclosure in rejection text.",
+    "Add v1.5 UI keys by semantic merge, preserving v1.4 aliases and current app-only keys.",
+    "Profile visibility defaults true for age, gender, occupation; saved false remains false on future loads.",
+    "endConfirm is retained: confirmation from self, never permission from the other person."
+  ],
+  "parameterAdapters": {
+    "charactersLeft.count": "profileCharactersRemaining.remaining (only if caller semantics match)",
+    "statusActiveUntil.time": "checkInStatusActive.time",
+    "statusRemaining.minutes": "checkInMinutesRemaining.minutes"
+  },
+  "outOfScopePending": [
+    "Ayarlar content approval before package 4"
+  ],
+  "resolvedByFounder": {
+    "endConfirm": "Keep own-action confirmation; no approval from the other party required."
+  },
+  "package": "v1.6 / Package 2 auth correction; accepted profile unchanged",
+  "authRevision": {
+    "replaceFlows": {
+      "v1.5 emailLinkOnly": "Firebase email + password, then email verification"
+    },
+    "modifiedInPlace": [
+      "emailTitle",
+      "emailHelp",
+      "emailWaitingTitle"
+    ],
+    "newKeys": [
+      "authCreateAccount",
+      "authPassword",
+      "authShowPassword",
+      "authHidePassword",
+      "authPasswordInvalid",
+      "authCreating",
+      "authCreateFailed",
+      "authSignInTitle",
+      "authSignInBody",
+      "authSignIn",
+      "authExistingAccount",
+      "authBackToSignIn",
+      "authSigningIn",
+      "authSignInFailed",
+      "authForgotPassword",
+      "authResetTitle",
+      "authResetBody",
+      "authResetSend",
+      "authResetSending",
+      "authResetSent",
+      "authResetFailed",
+      "authVerifyCheck",
+      "authVerifyRequired",
+      "authVerifyNotYet",
+      "authVerifySendFailed",
+      "authVerifyResendUnavailable",
+      "authSignOut",
+      "authSigningOut",
+      "authSignOutFailed"
+    ],
+    "callsiteMoves": {
+      "emailSend": "Use authCreateAccount for registration submission; emailSend remains verification-email sending only.",
+      "emailChange": "Not offered after account creation on waiting view; do not imply account-email mutation. Changing a pre-submit field is ordinary editing.",
+      "emailTitle": "Registration heading only; login uses authSignInTitle, reset uses authResetTitle.",
+      "emailHelp": "Registration explanation only; no link sign-in meaning."
+    },
+    "prohibitedAPISemantics": [
+      "passwordless link sign-in",
+      "email-link click alone treated as authenticated/verified",
+      "client-side emailVerified flag as authority"
+    ],
+    "passwordPolicy": "Use the actual app/Firebase validation; no local min length, character rules, strength bar or synthetic strength vocabulary prescribed.",
+    "profileTextEdits": [],
+    "versioning": "Regular v1.6, no v1.5.1 delivery"
+  }
+}

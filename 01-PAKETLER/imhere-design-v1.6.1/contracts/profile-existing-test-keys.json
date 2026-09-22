@@ -1,0 +1,30 @@
+{
+  "source": "Read-only local profile_form_screen.dart at design preparation",
+  "keys": [
+    "completeness-hint",
+    "error-gender",
+    "error-interests",
+    "field-bio",
+    "field-displayName",
+    "field-dob",
+    "field-occupation",
+    "gender-$value",
+    "interest-$id",
+    "photo-button",
+    "photo-privacy-note",
+    "photo-state",
+    "profile-list",
+    "save-button",
+    "saved-message",
+    "section-dob",
+    "section-gender",
+    "section-interests",
+    "section-photo",
+    "section-visibility",
+    "server-error",
+    "toggle-showAge",
+    "toggle-showGender",
+    "toggle-showOccupation"
+  ],
+  "rule": "Preserve existing keys on actual controls/sections while restyling; dynamic gender-$value and interest-$id keep real IDs, not localized labels. New controls require engineering keys; no arbitrary replacement prescribed."
+}

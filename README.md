@@ -1,11 +1,19 @@
 # I'M HERE — Tasarım dosyaları
 
-## [Tüm tasarım paketini indir — v2.0 (384 MB)](https://github.com/mertvdolu/imhere-design-public/releases/download/v2.0/IM-HERE-TUM-TASARIM-v2.0.zip)
+Tüm tasarım dosyaları bu depoda klasörler halinde bulunur. Küçük güncellemeler ilgili dosyalara ayrı commit olarak uygulanır.
 
-[Duyuru ve sürüm notları](https://github.com/mertvdolu/imhere-design-public/releases/tag/v2.0)
+## Başlangıç
+- [Başlangıç rehberi](00-BURADAN-BASLA.md)
+- [Güncel kararlar](04-GUNCEL-KARARLAR.md)
+- [Güncel tema, fontlar ve TR/EN metinleri](03-GUNCEL-ORTAK/)
+- [Son ekler ve düzeltmeler](02-SON-EKLER/)
+- [Dört ana paket ve ekran dosyaları](01-PAKETLER/)
+- [Değişiklik kaydı](CHANGELOG.md)
 
-ZIP'i çıkardıktan sonra `00-BURADAN-BASLA.md` dosyasını okuyun; ekranlar için `ONIZLEME.html` dosyasını tarayıcıda açın.
+`ONIZLEME.html` dosyasını kullanmak için depoyu bilgisayarına indirip tarayıcıda aç. GitHub dosya görünümü HTML önizlemesini çalıştırmaz.
 
-Paket; tema, fontlar, dört ana tasarım paketi, sonraki ekler ve güncel TR/EN metinlerini içerir. Eski ekran çizimleri yeniden çizilmedi; son metin ve karar değişiklikleri güncel dosyalarda açıklanmıştır.
+## Güncellik
+Bu, v2.0 tasarım toplamasının dosya bazlı yayınıdır. Eski çizimler yeniden çizilmedi; son metin ve kararlar güncel dosyalarda açıklanmıştır. Uygulama kaynak kodu değildir.
 
-Bu depo uygulama kaynak kodunu değil, tasarım teslimini paylaşır.
+## Sonraki teslimler
+Her güncellemede sürüm, değişen dosya yolları, değişiklik özeti ve birleştirme notları CHANGELOG.md içine yazılır. Dosyalar commit geçmişinden izlenebilir. Büyük tek ZIP dosyası teslim yöntemi kullanılmaz.

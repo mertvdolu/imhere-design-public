@@ -1,0 +1,586 @@
+{
+  "baseline": "Accepted v1.3 and read-only local app ARBs, 2026-09-15",
+  "missingKeysObserved": 83,
+  "canonicalAliases": {
+    "chatReadOnly": "chatClosedReadOnly",
+    "chatSoftContactTitle": "chatSoftTitle",
+    "chatSoftContactBody": "chatSoftBody",
+    "navMap": "mapOpen",
+    "emailLabel": "authEmail",
+    "emailInvalid": "authEmailInvalid",
+    "authShowPassword": "authPasswordShow",
+    "authHidePassword": "authPasswordHide",
+    "authPasswordInvalid": "authPasswordWeak",
+    "authBackToSignIn": "authResetBackToSignIn"
+  },
+  "legacyAppAliases": {
+    "appTitle": "appTitle",
+    "fieldDisplayName": "displayName",
+    "fieldBio": "bio",
+    "fieldOccupation": "occupation",
+    "fieldGender": "gender",
+    "fieldDob": "profileBirthDate",
+    "fieldSpokenLanguages": "languages",
+    "genderWOMAN": "genderWoman",
+    "genderMAN": "genderMan",
+    "genderNON_BINARY": "genderNonbinary",
+    "genderPREFER_NOT_TO_SAY": "genderPrivate",
+    "settingsTitle": "settings",
+    "languageSystem": "deviceLanguage",
+    "checkInButton": "checkInStart",
+    "renewButton": "checkInRenew",
+    "stopButton": "checkInStop",
+    "retryButton": "checkInRetry",
+    "cancelButton": "checkInCancel",
+    "openSettingsButton": "checkInOpenSettings",
+    "openLocationSettingsButton": "checkInLocationSettings",
+    "statusInactive": "checkInStatusInactive",
+    "statusAcquiring": "checkInStatusAcquiring",
+    "statusVerifying": "checkInStatusVerifying",
+    "statusActiveUntil": "checkInStatusActive",
+    "statusRemaining": "checkInMinutesRemaining",
+    "statusStopped": "checkInStatusStopped",
+    "statusExpired": "checkInStatusExpired",
+    "errorAgeIneligible": "profileBirthDateError"
+  },
+  "deletedWithoutReplacement": [
+    "intentFlirting"
+  ],
+  "rules": [
+    "Replace call sites and both locales together; do not overwrite live ARB files wholesale.",
+    "navMap is a legacy alias for mapOpen ENTRY ACTION; mapTitle remains the map heading. Only four navigation labels.",
+    "chatClosedReadOnly is shared by mutual YES and closed conversations; no duration promise. Blocked content visibility overrides read-only UI.",
+    "Canonical chatSoftTitle/Body are the only soft-contact warning strings.",
+    "requestAccept opens independent intent selection; only requestSelectAccept confirms.",
+    "Do not delete app-only keys absent from a design package.",
+    "Keep existing generated localization API and parameterized limits; do not replace live {min}/{max} APIs with hardcoded constants.",
+    "devEmulatorBanner remains debug-only; never place it in production screens.",
+    "errorAgeIneligible maps to generic profileBirthDateError; no age-threshold disclosure in rejection text.",
+    "Add v1.5 UI keys by semantic merge, preserving v1.4 aliases and current app-only keys.",
+    "Profile visibility defaults true for age, gender, occupation; saved false remains false on future loads.",
+    "endConfirm is retained: confirmation from self, never permission from the other person.",
+    "v1.6.1 canonical auth key list and renamedAliases take precedence over historical authRevision names; compatibilityAliases remain for unmapped accepted UI states."
+  ],
+  "parameterAdapters": {
+    "charactersLeft.count": "profileCharactersRemaining.remaining (only if caller semantics match)",
+    "statusActiveUntil.time": "checkInStatusActive.time",
+    "statusRemaining.minutes": "checkInMinutesRemaining.minutes"
+  },
+  "outOfScopePending": [
+    "Ayarlar content approval before package 4"
+  ],
+  "resolvedByFounder": {
+    "endConfirm": "Keep own-action confirmation; no approval from the other party required."
+  },
+  "package": "v1.7.3 / M07 device review",
+  "authRevision": {
+    "replaceFlows": {
+      "v1.5 emailLinkOnly": "Firebase email + password, then email verification"
+    },
+    "modifiedInPlace": [
+      "emailTitle",
+      "emailHelp",
+      "emailWaitingTitle"
+    ],
+    "newKeys": [
+      "authCreateAccount",
+      "authPassword",
+      "authPasswordShow",
+      "authPasswordHide",
+      "authPasswordWeak",
+      "authCreating",
+      "authCreateFailed",
+      "authSignInTitle",
+      "authSignInBody",
+      "authSignIn",
+      "authExistingAccount",
+      "authResetBackToSignIn",
+      "authSigningIn",
+      "authSignInFailed",
+      "authForgotPassword",
+      "authResetTitle",
+      "authResetBody",
+      "authResetSend",
+      "authResetSending",
+      "authResetSent",
+      "authResetFailed",
+      "authVerifyCheck",
+      "authVerifyRequired",
+      "authVerifyNotYet",
+      "authVerifySendFailed",
+      "authVerifyResendUnavailable",
+      "authSignOut",
+      "authSigningOut",
+      "authSignOutFailed"
+    ],
+    "callsiteMoves": {
+      "emailSend": "Use authCreateAccount for registration submission; emailSend remains verification-email sending only.",
+      "emailChange": "Not offered after account creation on waiting view; do not imply account-email mutation. Changing a pre-submit field is ordinary editing.",
+      "emailTitle": "Registration heading only; login uses authSignInTitle, reset uses authResetTitle.",
+      "emailHelp": "Registration explanation only; no link sign-in meaning."
+    },
+    "prohibitedAPISemantics": [
+      "passwordless link sign-in",
+      "email-link click alone treated as authenticated/verified",
+      "client-side emailVerified flag as authority"
+    ],
+    "passwordPolicy": "Confirmed by Founder: minimum 8 characters; no character-type requirement, no strength UI. Use current length validation semantics.",
+    "profileTextEdits": [],
+    "versioning": "v1.6 accepted; v1.6.1 explicitly requested for this small patch."
+  },
+  "authKeyAlignment": {
+    "canonicalKeys": [
+      "authEmail",
+      "authPassword",
+      "authPasswordRule",
+      "authPasswordShow",
+      "authPasswordHide",
+      "authSignIn",
+      "authCreateAccount",
+      "authForgotPassword",
+      "authSignInFailed",
+      "authEmailInvalid",
+      "authPasswordWeak",
+      "authEmailUnavailable",
+      "authTooManyAttempts",
+      "authReauthRequired",
+      "authResetTitle",
+      "authResetBody",
+      "authResetSend",
+      "authResetSent",
+      "authResetBackToSignIn"
+    ],
+    "renamedAliases": {
+      "emailLabel": "authEmail",
+      "emailInvalid": "authEmailInvalid",
+      "authShowPassword": "authPasswordShow",
+      "authHidePassword": "authPasswordHide",
+      "authPasswordInvalid": "authPasswordWeak",
+      "authBackToSignIn": "authResetBackToSignIn"
+    },
+    "aliasScope": "Only authentication call sites. In other contexts, check semantics before renaming shared emailLabel/emailInvalid.",
+    "conditionalAliasRules": {
+      "authPasswordInvalid": "Map to authPasswordWeak only for registration minimum-length rejection. Wrong-password and account-not-found during sign-in both use authSignInFailed. Never infer policy weakness from login failure."
+    },
+    "compatibilityAliases": {
+      "emailSend": {
+        "canonicalTarget": null,
+        "retainKey": "emailSend",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      },
+      "emailSent": {
+        "canonicalTarget": null,
+        "retainKey": "emailSent",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      },
+      "emailPrivate": {
+        "canonicalTarget": null,
+        "retainKey": "emailPrivate",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      },
+      "emailResend": {
+        "canonicalTarget": null,
+        "retainKey": "emailResend",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      },
+      "emailTitle": {
+        "canonicalTarget": null,
+        "retainKey": "emailTitle",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      },
+      "emailHelp": {
+        "canonicalTarget": null,
+        "retainKey": "emailHelp",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      },
+      "emailSending": {
+        "canonicalTarget": null,
+        "retainKey": "emailSending",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      },
+      "emailWaitingTitle": {
+        "canonicalTarget": null,
+        "retainKey": "emailWaitingTitle",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      },
+      "emailWaitingHelp": {
+        "canonicalTarget": null,
+        "retainKey": "emailWaitingHelp",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      },
+      "emailChange": {
+        "canonicalTarget": null,
+        "retainKey": "emailChange",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      },
+      "emailVerifying": {
+        "canonicalTarget": null,
+        "retainKey": "emailVerifying",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      },
+      "emailVerifyFailed": {
+        "canonicalTarget": null,
+        "retainKey": "emailVerifyFailed",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      },
+      "authCreating": {
+        "canonicalTarget": null,
+        "retainKey": "authCreating",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      },
+      "authCreateFailed": {
+        "canonicalTarget": null,
+        "retainKey": "authCreateFailed",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      },
+      "authSignInTitle": {
+        "canonicalTarget": null,
+        "retainKey": "authSignInTitle",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      },
+      "authSignInBody": {
+        "canonicalTarget": null,
+        "retainKey": "authSignInBody",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      },
+      "authExistingAccount": {
+        "canonicalTarget": null,
+        "retainKey": "authExistingAccount",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      },
+      "authSigningIn": {
+        "canonicalTarget": null,
+        "retainKey": "authSigningIn",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      },
+      "authResetSending": {
+        "canonicalTarget": null,
+        "retainKey": "authResetSending",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      },
+      "authResetFailed": {
+        "canonicalTarget": null,
+        "retainKey": "authResetFailed",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      },
+      "authVerifyCheck": {
+        "canonicalTarget": null,
+        "retainKey": "authVerifyCheck",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      },
+      "authVerifyRequired": {
+        "canonicalTarget": null,
+        "retainKey": "authVerifyRequired",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      },
+      "authVerifyNotYet": {
+        "canonicalTarget": null,
+        "retainKey": "authVerifyNotYet",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      },
+      "authVerifySendFailed": {
+        "canonicalTarget": null,
+        "retainKey": "authVerifySendFailed",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      },
+      "authVerifyResendUnavailable": {
+        "canonicalTarget": null,
+        "retainKey": "authVerifyResendUnavailable",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      },
+      "authSignOut": {
+        "canonicalTarget": null,
+        "retainKey": "authSignOut",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      },
+      "authSigningOut": {
+        "canonicalTarget": null,
+        "retainKey": "authSigningOut",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      },
+      "authSignOutFailed": {
+        "canonicalTarget": null,
+        "retainKey": "authSignOutFailed",
+        "retainCopy": true,
+        "scope": "Accepted v1.6 UI compatibility alias; absent from the developer canonical list. Keep existing binding and text; no invented canonical target. Not a recursive alias."
+      }
+    },
+    "unmappedHandling": "Unmatched accepted UI copy remains available under its existing key in full reference ARBs and is listed as compatibilityAliases here. Do not generate a new canonical backend error name or map a progress/verification/logout message to an unrelated canonical error.",
+    "mergeOrder": [
+      "Merge auth_tr.arb/auth_en.arb into existing locales by key; do not overwrite live ARBs.",
+      "Update matching auth call sites using renamedAliases. Preserve existing localization metadata/API and non-auth uses.",
+      "Keep compatibilityAliases and unrelated app/profile strings. Remove a renamed old key only after verifying no remaining callers in either locale."
+    ],
+    "messages": {
+      "signIn": "One authSignInFailed for wrong password, nonexistent account and equivalent credential failures.",
+      "emailUnavailable": "Neutral operation failure; no account existence confirmation.",
+      "tooManyAttempts": "No duration, retry-after, threshold or attempt counter in user copy. Existing backend eligibility remains authority.",
+      "reauth": "Only actual existing auth reauthentication-required result; no new session-age rule.",
+      "resetSent": "Same conditional registered-if-sent message for registered and unregistered address results; real offline/request failures retain their error state."
+    }
+  },
+  "package3": {
+    "baseline": "Accepted v1.6.1; all existing334 keys and metadata preserved",
+    "newKeys": [
+      "messagesConnections",
+      "messagesRequests",
+      "messagesIncoming",
+      "messagesOutgoing",
+      "messagesEmptyConnections",
+      "messagesEmptyRequests",
+      "messagesLoading",
+      "messagesLoadFailed",
+      "messagesUnavailable",
+      "messagesReturn",
+      "messagesViewRequest",
+      "requestSending",
+      "requestFailed",
+      "requestAccepting",
+      "requestAcceptFailed",
+      "requestDeclining",
+      "requestDeclineFailed",
+      "requestCancelling",
+      "requestCancelFailed",
+      "requestCancelled",
+      "requestClosed",
+      "requestUnavailable",
+      "requestTimeLeft",
+      "matchLoading",
+      "matchLoadFailed",
+      "matchOpenChat",
+      "chatMessageLabel",
+      "chatEmptyBody",
+      "chatCharacters",
+      "chatTooLong",
+      "chatLoading",
+      "chatLoadFailed",
+      "chatSending",
+      "chatSendFailed",
+      "chatSendUnconfirmed",
+      "chatCountPending",
+      "chatCheckResult",
+      "chatSoftPreview",
+      "chatContactOpen",
+      "continueSaving",
+      "continueSaveFailed",
+      "continueWithdrawing",
+      "continueWithdrawFailed",
+      "continueNoFinal",
+      "continueNoConfirm",
+      "continueNoSaving",
+      "continueNoFailed",
+      "continueLoading",
+      "continueLoadFailed",
+      "contactYourDetails",
+      "contactSharedWithYou",
+      "contactNothingShared",
+      "contactExplicitOnly",
+      "contactSeenNote",
+      "contactChooseDetails",
+      "contactWithdrawConsequence",
+      "contactLoading",
+      "contactLoadFailed",
+      "contactSharing",
+      "contactShareFailed",
+      "contactFieldInvalid",
+      "contactUpdating",
+      "contactUpdateFailed",
+      "contactWithdrawing",
+      "contactWithdrawFailed",
+      "contactWithdrawTitle"
+    ],
+    "modifiedKeys": [],
+    "rules": [
+      "Merge v1.7 additions in both locales; never overwrite live ARBs.",
+      "Keep v1.6.1 canonical auth names and compatibilityAliases unchanged.",
+      "pendingSlots.used is server-confirmed outgoing pending count; max20 is not a purchase or daily quota. pendingRemaining.time is request remaining time, not a chat timer.",
+      "chatRemaining.remaining belongs only to the current user. Preserve current generated API, grapheme counting and backend authority.",
+      "requestAccept opens independent empty intent selection; requestSelectAccept submits selected own intents.",
+      "Chat and contact use different actions: no message edit/delete, contact edit/withdraw remains permitted.",
+      "checkInRetry is reused only as the existing localized retry label; bind each control to its own domain operation, never the check-in handler.",
+      "mutualTitle/chatNoTimer remain unchanged in the baseline dictionary but are not used as counterpart-decision badges or retention promises."
+    ],
+    "localizedCallsiteMoves": {
+      "pendingRemaining": "requestTimeLeft — same String time parameter; remaining request lifetime explicitly labelled. Legacy key/text remain unchanged.",
+      "contactShare": "Submit selected details only; contactChooseDetails is the separate entry into the form."
+    }
+  },
+  "package4": {
+    "baseline": "Accepted v1.7, all 400 keys and metadata unchanged",
+    "newKeys": [
+      "safetyTitle",
+      "settingsNotifications",
+      "settingsBlocked",
+      "settingsPrivacy",
+      "settingsTerms",
+      "settingsBack",
+      "safetyBack",
+      "safetyChooseCategory",
+      "safetyReportSending",
+      "safetyUnknown",
+      "safetyCheckResult",
+      "safetyUnavailable",
+      "blockBody",
+      "blockBusy",
+      "blockDone",
+      "blockFailed",
+      "blockedEmpty",
+      "blockedLoading",
+      "blockedFailed",
+      "unblockConfirm",
+      "unblockBody",
+      "unblockBusy",
+      "unblockDone",
+      "unblockFailed",
+      "endBody",
+      "endBusy",
+      "endFailed",
+      "notificationIntro",
+      "notificationOptional",
+      "notificationAllow",
+      "notificationLater",
+      "notificationOn",
+      "notificationChecking",
+      "notificationFailed",
+      "notificationSettingsFailed",
+      "notificationContinue",
+      "notificationDeviceSettings",
+      "legalLoading",
+      "legalFailed",
+      "legalUnavailable",
+      "deleteIrreversible",
+      "deleteAccessScope",
+      "deleteLimitedRetention",
+      "deleteReceived",
+      "deleteScope",
+      "deleteBusy",
+      "deleteFailed",
+      "deleteDone",
+      "deleteScopeUnavailable",
+      "eventsReturn",
+      "notificationRequestSample",
+      "notificationMessageSample"
+    ],
+    "modifiedKeys": [],
+    "rules": [
+      "Merge additions; never replace live ARBs. Keep all previous aliases and canonical auth names.",
+      "endConfirm is own-action confirmation; never require counterpart approval.",
+      "checkInRetry is only a shared label here: bind the current domain operation.",
+      "Notification sample keys are generic fallback examples; existing notification payload contract remains authoritative.",
+      "No legal text, URL or retention time invented. Account deletion copy implements the explicit Founder/Manager clarification; bind real received/completed/failed states.",
+      "settingsNotifications etc. remain provisional UI labels until Founder settings-list approval."
+    ],
+    "callSiteUpdates": [
+      {
+        "screen": "delete-confirm",
+        "retainedOldKey": "deleteBody",
+        "useInstead": [
+          "deleteIrreversible",
+          "deleteAccessScope",
+          "deleteLimitedRetention"
+        ],
+        "globalAlias": false,
+        "reason": "Approved explicit deletion scope provided by Founder/Manager in latest reply"
+      }
+    ]
+  },
+  "package3Supplement": {
+    "newKeys": [
+      "profileAgeYears",
+      "requestCooldown",
+      "requestAlreadyPending",
+      "requestAlreadyConnected"
+    ],
+    "modifiedKeys": [
+      "pendingSlots"
+    ],
+    "metadataUpdates": [
+      "@pendingSlots",
+      "@profileAgeYears",
+      "@requestCooldown",
+      "@requestAlreadyPending",
+      "@requestAlreadyConnected"
+    ],
+    "canonicalEngineeringKeys": [
+      "pendingSlots",
+      "profileAgeYears",
+      "requestCooldown"
+    ],
+    "designerNewKeys": [
+      "requestAlreadyPending",
+      "requestAlreadyConnected"
+    ],
+    "signatureChange": {
+      "pendingSlots": {
+        "old": [
+          "used:int"
+        ],
+        "new": [
+          "used:int",
+          "max:int"
+        ],
+        "maxSource": "limits.OUTGOING_PENDING_MAX",
+        "currentContractValue": 20
+      }
+    },
+    "merge": [
+      "Never replace live ARBs with full reference files. Apply only v1.7.1-patch in both locales.",
+      "If M06 canonical keys already match, no duplicate key: verify values and metadata.",
+      "Preserve all v1.8 additions, app-only keys and earlier auth aliases.",
+      "Find every pendingSlots call in Messages, outgoing pending and full states; pass used and max from the existing contract. Regenerate localization bindings and update callers together.",
+      "Replace literal public age text with profileAgeYears(age), only if public age exists. Do not compute hidden age from DOB.",
+      "requestSend label remains unchanged. New pending/connected keys are designer additions, not engineering canonical names supplied by section7.",
+      "STATE_CHANGED alone must never select connected, pending or cooldown. No status polling or server query added by this design."
+    ]
+  },
+  "package3ContactSupplement": {
+    "newKeys": [
+      "contactAddDetails"
+    ],
+    "modifiedKeys": [],
+    "rules": [
+      "Merge only v1.7.2-patch; never overwrite live ARBs with reference dictionaries.",
+      "Preserve v1.8 additions, v1.7.1 canonical keys and pendingSlots used/max signature.",
+      "contactAddDetails opens a fresh empty selector of eligible unpublished fields only. Existing published fields remain managed separately by edit/withdraw.",
+      "Reuse existing contactShare/Sharing/ShareFailed and chatLoading/chatClosedReadOnly labels. No new global aliases."
+    ]
+  },
+  "package3DeviceSupplement": {
+    "newKeys": [
+      "contactUpdated"
+    ],
+    "modifiedKeys": [],
+    "rules": [
+      "Merge only the v1.7.3 delta; full ARBs are reference only. Preserve earlier migrations and canonical keys.",
+      "Reuse contactNothingShared under contactYourDetails when own published fields are empty.",
+      "Reuse connectionEndedNeutral as the closed card status; do not infer a reason or change access."
+    ]
+  }
+}

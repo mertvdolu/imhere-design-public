@@ -1,0 +1,45 @@
+{
+  "version": "1.7",
+  "authority": "Extract v1.0.2 §8 + Founder clarified endConfirm, accepted L-60..65",
+  "continue": {
+    "private": true,
+    "peerDecisionVisible": false,
+    "peerBadgesCountsPrompts": false,
+    "automaticDecision": false,
+    "decisionTimer": false,
+    "earlyChoiceAllowed": true,
+    "yesWithdrawableBeforeMutual": true,
+    "noFinal": true,
+    "noRecipientResult": "connectionEndedNeutral, no reason or timestamp",
+    "selfNoConfirmation": "Own-action confirmation uses continueNoFinal; not other-party approval",
+    "mutualYes": "Read-only chat and separate contact UI; never expose one-sided choices",
+    "race": "Read actual current state after save/withdraw; if mutual won, route read-only/contact; if closed/unavailable, apply that state. Never fake withdrawal or expose peer vote."
+  },
+  "contact": {
+    "fields": [
+      "phone",
+      "instagram",
+      "email",
+      "other"
+    ],
+    "minSelected": 0,
+    "maxSelected": 4,
+    "defaultSelected": [],
+    "accountEmailPrefill": false,
+    "profileDataAutoShare": false,
+    "fillingEqualsPublishing": false,
+    "reciprocityRequired": false,
+    "publish": "Explicit contactShare with selected values; real result only",
+    "skip": "Remain unshared and return to unlocked contact/read-only context",
+    "edit": "Own published field only; changes become visible only after explicit contactPublishChange success",
+    "withdraw": "Remove current visibility, not previously seen/saved copies",
+    "honestyKey": "contactHideNote",
+    "remoteFields": "Only currently published allowed values; no private draft or hidden values",
+    "fieldValidation": "Use existing server/client contract; no new formats, length constraints or required universal field invented",
+    "blocked": "All contact content removed; never show cached hidden value",
+    "entryKey": "contactChooseDetails opens form; does not publish",
+    "preShareHonestyKey": "contactSeenNote",
+    "withdrawConfirmationKey": "contactWithdrawConsequence"
+  },
+  "surfaceSeparation": "Sent chat messages are immutable; contact records may be updated/withdrawn through separate actions."
+}

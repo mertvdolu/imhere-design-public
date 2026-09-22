@@ -1,0 +1,36 @@
+{
+  "version": "1.7.2",
+  "authority": "Current Founder-relayed Manager instruction referencing Master20.3; Master not opened",
+  "contact": {
+    "lateAdditionalSharingAllowed": true,
+    "entry": "contactAddDetails",
+    "eligible": "Currently unpublished fields allowed by existing authoritative contact state",
+    "allFields": [
+      "contactPhone",
+      "contactInstagram",
+      "contactEmail",
+      "contactOther"
+    ],
+    "initialSelection": [],
+    "existingPublishedValuesUntouched": true,
+    "save": "Explicit selected delta only, never a full replacement that clears existing fields",
+    "editAndWithdraw": "Keep original separate actions",
+    "emptyEligibleSet": "Hide add entry; existing edit/withdraw remain",
+    "race": "Revalidate eligibility before submission; if a selected field is now published do not silently overwrite; refresh eligible list and explain with existing operation feedback",
+    "unavailable": "Existing neutral unavailable overrides all content"
+  },
+  "transition": {
+    "trigger": "Confirmed mutual YES in the continuation flow, NOT initial match creation",
+    "readOnlyImmediately": true,
+    "composerVisible": false,
+    "continueActionsVisible": false,
+    "peerDecisionVisible": false,
+    "loadingKey": "chatLoading",
+    "readOnlyKey": "chatClosedReadOnly",
+    "failureKey": "chatLoadFailed",
+    "retry": "Reload authorized read-only destination, never resubmit the private vote",
+    "whenDataReady": "Direct transition, no forced spinner or delay",
+    "blockOrEndRace": "Apply actual authorized result; never show stale contact"
+  },
+  "nativeImplementationChanged": false
+}

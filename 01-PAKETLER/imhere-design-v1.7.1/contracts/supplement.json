@@ -1,0 +1,51 @@
+{
+  "version": "1.7.1",
+  "baseline": "Accepted v1.7; accepted v1.8 remains intact",
+  "states": [
+    "cooldown",
+    "pending",
+    "connected"
+  ],
+  "sendButton": {
+    "key": "requestSend",
+    "enabled": false,
+    "opensIntentSelection": false
+  },
+  "cooldown": {
+    "copy": "requestCooldown",
+    "placement": "below disabled send button",
+    "durationVisible": false,
+    "reasonVisible": false,
+    "clientCountdown": false,
+    "source": "Actual COOLDOWN_ACTIVE result; never infer or precompute. Existing M06 local return state; reentry server decides again."
+  },
+  "pending": {
+    "copy": "requestAlreadyPending",
+    "secondary": "messagesViewRequest",
+    "route": "Existing authorized request detail; incoming/outgoing from current request, no auto-accept"
+  },
+  "connected": {
+    "copy": "requestAlreadyConnected",
+    "secondary": "messagesReturn",
+    "chatCTAInM06": false,
+    "source": "Existing confirmed accessible non-closed connection only; never generic STATE_CHANGED"
+  },
+  "privacy": "Public DTO fields only; hide age, gender, occupation independently. Block/unavailable overrides all three states. No person status inferred from transport errors.",
+  "counter": {
+    "key": "pendingSlots",
+    "parameters": [
+      "used",
+      "max"
+    ],
+    "maxSource": "limits.OUTGOING_PENDING_MAX",
+    "fixtureMax": 20,
+    "quotaType": "current own outgoing pending requests"
+  },
+  "age": {
+    "key": "profileAgeYears",
+    "parameter": "age:int",
+    "fixture": 28,
+    "hiddenAgeRendered": false
+  },
+  "appCodeModified": false
+}

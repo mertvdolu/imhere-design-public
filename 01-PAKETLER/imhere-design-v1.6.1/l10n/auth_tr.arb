@@ -1,0 +1,22 @@
+{
+  "@@locale": "tr",
+  "authEmail": "E-posta adresi",
+  "authPassword": "Parola",
+  "authPasswordRule": "En az 8 karakter.",
+  "authPasswordShow": "Parolayı göster",
+  "authPasswordHide": "Parolayı gizle",
+  "authSignIn": "Giriş yap",
+  "authCreateAccount": "Hesap oluştur",
+  "authForgotPassword": "Parolamı unuttum",
+  "authSignInFailed": "Giriş yapılamadı. Bilgilerini kontrol edip tekrar dene.",
+  "authEmailInvalid": "E-posta adresini kontrol et.",
+  "authPasswordWeak": "Parola en az 8 karakter olmalı.",
+  "authEmailUnavailable": "İşlem tamamlanamadı. Bilgilerini kontrol edip tekrar dene.",
+  "authTooManyAttempts": "Şu anda işlemi tamamlayamıyoruz. Daha sonra tekrar dene.",
+  "authReauthRequired": "Devam etmek için yeniden giriş yap.",
+  "authResetTitle": "Parolanı sıfırla",
+  "authResetBody": "Hesabınla kullandığın e-posta adresini gir.",
+  "authResetSend": "Sıfırlama e-postası gönder",
+  "authResetSent": "Bu e-posta adresi kayıtlıysa parola sıfırlama bağlantısı gönderildi.",
+  "authResetBackToSignIn": "Girişe dön"
+}

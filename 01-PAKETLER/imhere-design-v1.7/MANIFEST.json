@@ -1,0 +1,4903 @@
+{
+  "version": "1.7",
+  "package": 3,
+  "status": "Designer delivery for Founder/Manager review",
+  "scope": "Requests/matching, chat, private continue decision and contact UI",
+  "baseline": "Accepted v1.6.1; prior packages unchanged",
+  "coverage": {
+    "states": 93,
+    "svg": 744,
+    "png": 186,
+    "locales": [
+      "tr",
+      "en"
+    ],
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "textScales": [
+      1,
+      2
+    ],
+    "newLocaleKeys": 66,
+    "totalLocaleKeys": 400
+  },
+  "files": [
+    {
+      "path": "00-BURADAN-BASLA.md",
+      "bytes": 3861,
+      "sha256": "49c47c5fa585dc9f406eef339632e199261305d210cc14fc16cf96d438306e64"
+    },
+    {
+      "path": "DEGISIKLIKLER.md",
+      "bytes": 1274,
+      "sha256": "f2442f03c89a1a0e306e9319ea91f33a15b3e646955bc69b79ca3716964cafc6"
+    },
+    {
+      "path": "DOGRULAMA.md",
+      "bytes": 3791,
+      "sha256": "ccb346213356e94ba29609944cdfae16f852e77178b3a3e5cf8a4139af215ec4"
+    },
+    {
+      "path": "MANAGER-NOTU.md",
+      "bytes": 1127,
+      "sha256": "51540774e2f126c83c95d83e5ac6d25c5024f03d3993cbe1e2667cbb8c337451"
+    },
+    {
+      "path": "ONIZLEME.html",
+      "bytes": 584629,
+      "sha256": "7ee1649c8f4cdcd3b01324e856b65dd32baaa665bc1fffebab71559f1a285c82"
+    },
+    {
+      "path": "assets/profile-deniz-preview.jpg",
+      "bytes": 79764,
+      "sha256": "f44a805abf320af9e614f13ed5fc97e0f2ef250e0a12f807907fbc2f2cc01a8a"
+    },
+    {
+      "path": "assets/profile-emre.png",
+      "bytes": 1062275,
+      "sha256": "e2ad967bd7259569789ce32bc63123f81d609815ef6ac1a7c77fc83b0cd006c5"
+    },
+    {
+      "path": "contracts/auth-key-contract.json",
+      "bytes": 2018,
+      "sha256": "bc70ac7ff9513ac505bedd1c395c3a04cdaf1192189aee41225064d970c72caa"
+    },
+    {
+      "path": "contracts/chat.json",
+      "bytes": 1773,
+      "sha256": "2da99e79461c7f9d474cf0296fa5ce8268dab5458732f59229e241906feace9e"
+    },
+    {
+      "path": "contracts/continue-contact.json",
+      "bytes": 2147,
+      "sha256": "f5f6636be2feef3b2170d3d0576983bea1925bca7589f9eaa2d5739f07caf771"
+    },
+    {
+      "path": "contracts/navigation.json",
+      "bytes": 420,
+      "sha256": "61e9e9cb87873d3bad168004559aea30e4450fc6df724e3230f48cfe515a5bf0"
+    },
+    {
+      "path": "contracts/onboarding.json",
+      "bytes": 2545,
+      "sha256": "a4292af26924b20be00f91791c25e2d731579e7712e5437e63700e0ecc5f324b"
+    },
+    {
+      "path": "contracts/profile.json",
+      "bytes": 1261,
+      "sha256": "d14a81793f62281e86e7e6ce1cc415abb27080e74bdbe88850adc2cc44965662"
+    },
+    {
+      "path": "contracts/requests.json",
+      "bytes": 1901,
+      "sha256": "32e44aebf4b0ea1c65c06c2bd4ffd32ba2873c6023f731728cf5c8b78f36bd3a"
+    },
+    {
+      "path": "contracts/screen-manifest.json",
+      "bytes": 757594,
+      "sha256": "4e4d42d2a88358114a24dc9cab08025713f9bb1bc75395a7c19c154d52d581ad"
+    },
+    {
+      "path": "evidence/preview-check.json",
+      "bytes": 777,
+      "sha256": "aa5f13201265a4f246491c4e007fff63c35e02fa696b80740a1a45ffd2300272"
+    },
+    {
+      "path": "evidence/source-and-baseline.json",
+      "bytes": 574,
+      "sha256": "8fd6514bd4f3b2cb4ce9243c97983b55561423c3945b6d2139270c479cd880b6"
+    },
+    {
+      "path": "evidence/validation.json",
+      "bytes": 1560172,
+      "sha256": "df9bbeebbfe7ca442df220b486cdbd0a7cc43314683c7ab4841964be5f9e5621"
+    },
+    {
+      "path": "fonts/Geist-Medium.ttf",
+      "bytes": 127660,
+      "sha256": "3a3b36f0d0b981f4857f7f00eeef4a5ee123605575d362ab31ee7c19e3d11f2f"
+    },
+    {
+      "path": "fonts/Geist-Regular.ttf",
+      "bytes": 126048,
+      "sha256": "85a1c6b18a6b0a06dfe9fd4f6d6a5d4979f74ec861eaef4bc7868b5492b8a117"
+    },
+    {
+      "path": "fonts/Geist-SemiBold.ttf",
+      "bytes": 127872,
+      "sha256": "b9f52322d6d20a7ff1e7fe1310ff12ec851aebb83d24f8b4f1d4149298f489b2"
+    },
+    {
+      "path": "fonts/OFL.txt",
+      "bytes": 4383,
+      "sha256": "c683bfbcc7e087f5d37a54ef628f10387c451a83ddc459b151403a164ac46c90"
+    },
+    {
+      "path": "fonts/README.md",
+      "bytes": 1230,
+      "sha256": "c6abf70ae45eaea5908935227341faa282c69f93043f423fb4d42c99db453ad7"
+    },
+    {
+      "path": "fonts/SOURCE.json",
+      "bytes": 1599,
+      "sha256": "6867ef6b42707ad0bc34564fc49da8fc84a59ef003a089f9e0c2819c9e45360d"
+    },
+    {
+      "path": "l10n/app_en.arb",
+      "bytes": 23425,
+      "sha256": "56298f2cf969872603aa0b7602a006445a327425c758548bd6bfecae404519a8"
+    },
+    {
+      "path": "l10n/app_tr.arb",
+      "bytes": 24046,
+      "sha256": "57e21ca022e731e260e118ca49d44d155bcbae2cb331c0bf234dc96578c92682"
+    },
+    {
+      "path": "l10n/migration.json",
+      "bytes": 20483,
+      "sha256": "3230923bb41eea7907d9773a4a69e0d21dd0e1372ca2aa2af78bfd1998382f82"
+    },
+    {
+      "path": "l10n/v1.7-additions.json",
+      "bytes": 23410,
+      "sha256": "fc4e516c40265b552e1fc018dd3025664e1ff1fea295165aee5399bcb23517f0"
+    },
+    {
+      "path": "l10n/v1.7-additions_en.arb",
+      "bytes": 4614,
+      "sha256": "c2b4a1a9138cadc42bac9d903421f7a2b46fb4456d62417d9765843e131f5fd5"
+    },
+    {
+      "path": "l10n/v1.7-additions_tr.arb",
+      "bytes": 4613,
+      "sha256": "0e79dff90cabc38eba061426303f3f765879f4311d8440d8887d3a8edbd57614"
+    },
+    {
+      "path": "references/DESIGN_REQUIREMENTS_EXTRACT_v1.0.2.md",
+      "bytes": 8850,
+      "sha256": "679b69a0e0a9ac1d94b373547a021146651b68513974ba48d1fe49bcd7bc44ab"
+    },
+    {
+      "path": "review/GENEL-BAKIS.png",
+      "bytes": 475184,
+      "sha256": "4aa2d33bbc75215f3f5dcc874b40ad612d93a69b02e454758feecd76d9aa78e6"
+    },
+    {
+      "path": "review/GIZLILIK-VE-PAYLASIM.png",
+      "bytes": 225352,
+      "sha256": "b3094f4aa2ef285dc502b851800741b71c3ba9dc82a058428a27826324f0bdb4"
+    },
+    {
+      "path": "screens/png/chat-active--en--android--200.png",
+      "bytes": 223859,
+      "sha256": "19c103842807d8f256f31c1f47e269de1bac9df29876b8e848f1c5f8a12710f3"
+    },
+    {
+      "path": "screens/png/chat-active--tr--ios--100.png",
+      "bytes": 159986,
+      "sha256": "c63b382715500a374a44120b9befdfe9b0ce9901ba46dd0442c3c70d2e67bc3e"
+    },
+    {
+      "path": "screens/png/chat-at-limit--en--android--200.png",
+      "bytes": 231155,
+      "sha256": "8d24544b7a59c5714fd03cd845f832d50052970c225f6de9d9f4f5956b578709"
+    },
+    {
+      "path": "screens/png/chat-at-limit--tr--ios--100.png",
+      "bytes": 162924,
+      "sha256": "79aa970c3a40c32c68f1852f3175e902244df6f4c5ed8034a0795c16bae2d169"
+    },
+    {
+      "path": "screens/png/chat-closed--en--android--200.png",
+      "bytes": 129683,
+      "sha256": "fc9f39bde76e8956f96fd8aa9553af961c629c98534feedb42cd41377b8b242a"
+    },
+    {
+      "path": "screens/png/chat-closed--tr--ios--100.png",
+      "bytes": 83442,
+      "sha256": "5ac6410eb1acf4e6ff99eea3e8058cc78ddd60d41d13f599403a06e7a7f61361"
+    },
+    {
+      "path": "screens/png/chat-composing--en--android--200.png",
+      "bytes": 215249,
+      "sha256": "4668072bf3435692e6c1c740346658f1c8d20b33c9961c54aaf6bdf8742518de"
+    },
+    {
+      "path": "screens/png/chat-composing--tr--ios--100.png",
+      "bytes": 151724,
+      "sha256": "97e848b4693fd2f8b9e58fbb747f847db500027bc770a2af28d1d46023e9720e"
+    },
+    {
+      "path": "screens/png/chat-empty--en--android--200.png",
+      "bytes": 190853,
+      "sha256": "b2c1df00c3e4d2342c0c8995ad6ff251b611cb63da0e7638da8d4925a62c47be"
+    },
+    {
+      "path": "screens/png/chat-empty--tr--ios--100.png",
+      "bytes": 142262,
+      "sha256": "07506e68436190afdf921c65637d8f345b7b19cd17e62a7c0e751e3c3e26ee3d"
+    },
+    {
+      "path": "screens/png/chat-failed--en--android--200.png",
+      "bytes": 106744,
+      "sha256": "c578af60fd8516d6f20c3232ee452739c5c1e48cb2831a3a39e4bf03e1fefd27"
+    },
+    {
+      "path": "screens/png/chat-failed--tr--ios--100.png",
+      "bytes": 72214,
+      "sha256": "a291759fc756ad9a03f774578ccafc9aee56fc7fcbb7901b0d4a3429ffb26240"
+    },
+    {
+      "path": "screens/png/chat-limit--en--android--200.png",
+      "bytes": 211271,
+      "sha256": "5616ff96f010d8103e48663c3c359034d2c001e5e984ec2570b7132ed1781d01"
+    },
+    {
+      "path": "screens/png/chat-limit--tr--ios--100.png",
+      "bytes": 145954,
+      "sha256": "ac6a576642000205795b4de94253cf6a65469771743fc9e73d6f27efb0ddebcd"
+    },
+    {
+      "path": "screens/png/chat-loading--en--android--200.png",
+      "bytes": 87738,
+      "sha256": "2d48fab45d721fa0bdb1171877a8ace736bbb0db300e3b25036dd75829cc2a47"
+    },
+    {
+      "path": "screens/png/chat-loading--tr--ios--100.png",
+      "bytes": 59699,
+      "sha256": "6f439a6f0a866054b0fdea2ea740aaf255f08adeb90a054c09456722356fc066"
+    },
+    {
+      "path": "screens/png/chat-mutual--en--android--200.png",
+      "bytes": 177162,
+      "sha256": "e4c56eff7ea0cebe0835dac1f8999d31a8a1b925726338af5a4a9a53d1bf94c2"
+    },
+    {
+      "path": "screens/png/chat-mutual--tr--ios--100.png",
+      "bytes": 135033,
+      "sha256": "fccd89eb326363efb9a47c7e48acc47ba557a44f7d7da50ff0ed6caa474386ca"
+    },
+    {
+      "path": "screens/png/chat-offline--en--android--200.png",
+      "bytes": 228993,
+      "sha256": "e5488972306703501a2ef7486dabeed306fd6192b89d5068514d462a26d4ad65"
+    },
+    {
+      "path": "screens/png/chat-offline--tr--ios--100.png",
+      "bytes": 164067,
+      "sha256": "9770ec4baf9cdd6b9d864aa79d1808560ab2531cc26f240c697e1f8a0c5c02ee"
+    },
+    {
+      "path": "screens/png/chat-over-limit--en--android--200.png",
+      "bytes": 246619,
+      "sha256": "1b55076f815e1b7fd07b6366cd5f28cb4942346f52ac5d34425d346b9d75477d"
+    },
+    {
+      "path": "screens/png/chat-over-limit--tr--ios--100.png",
+      "bytes": 172394,
+      "sha256": "5713ee832dab9d13cdf6e6aead68dc7a2d386a363edbeccfd239ad870e471864"
+    },
+    {
+      "path": "screens/png/chat-send-failed--en--android--200.png",
+      "bytes": 247520,
+      "sha256": "298381bae27e2daa63d7576d1cb7e7b052082d371876ce2f630f7fcd0643e1f7"
+    },
+    {
+      "path": "screens/png/chat-send-failed--tr--ios--100.png",
+      "bytes": 169000,
+      "sha256": "44a703624b3f975884da045007ac2cfc0741cf45916a22009f81de6f7fd5f429"
+    },
+    {
+      "path": "screens/png/chat-sending--en--android--200.png",
+      "bytes": 237404,
+      "sha256": "5397f24f912f273f873c41c3c136481df6069f856185e6b44e85fc9ae7ba280e"
+    },
+    {
+      "path": "screens/png/chat-sending--tr--ios--100.png",
+      "bytes": 164074,
+      "sha256": "307dcdeebe5c2fa82f360fa080fbb7c87e51966a4535c86c93a7c8442347eb37"
+    },
+    {
+      "path": "screens/png/chat-soft-failed--en--android--200.png",
+      "bytes": 249836,
+      "sha256": "56c6119c3a9c179359da9a142d7c2f54c014ee674e8c8ad13fc6462115f83fdc"
+    },
+    {
+      "path": "screens/png/chat-soft-failed--tr--ios--100.png",
+      "bytes": 129958,
+      "sha256": "c453cf237daa851603fde29a67a34fd013b31cb7c9aa4c04edb41bd497f33318"
+    },
+    {
+      "path": "screens/png/chat-soft-sending--en--android--200.png",
+      "bytes": 239997,
+      "sha256": "081feb9eccdd2087017d43d06b32b92dfb7517e9f67f4322a9d08ce864c47211"
+    },
+    {
+      "path": "screens/png/chat-soft-sending--tr--ios--100.png",
+      "bytes": 126106,
+      "sha256": "d7e51488ddde148f0fa6850b07a8070288bd89cf9a9cce8f6b88fdfc4d507ad3"
+    },
+    {
+      "path": "screens/png/chat-soft-warning--en--android--200.png",
+      "bytes": 216979,
+      "sha256": "46bb480c357f94456a22b7482f7c606edfaeef576b95bd2ebb5a726be4c64a19"
+    },
+    {
+      "path": "screens/png/chat-soft-warning--tr--ios--100.png",
+      "bytes": 117157,
+      "sha256": "4a4db3e8388fbe51e92aaead6d0c1214b9211918985a81053ddb659ffdfd45a2"
+    },
+    {
+      "path": "screens/png/chat-unavailable--en--android--200.png",
+      "bytes": 102121,
+      "sha256": "210f4035a91cf6d7fd9dcc8ccba49b8e696fc8bfcb3b9c0a1d0af5d425c6b070"
+    },
+    {
+      "path": "screens/png/chat-unavailable--tr--ios--100.png",
+      "bytes": 69325,
+      "sha256": "c591e05d8bfde56e8a1540d66ea3dbcba41e48e17d0bd9fd840dbab2ccb607d1"
+    },
+    {
+      "path": "screens/png/chat-unknown--en--android--200.png",
+      "bytes": 275420,
+      "sha256": "93ee905f246af8d8c3acc235a7c7c9509420a8ece5289f25cd19490da9376c80"
+    },
+    {
+      "path": "screens/png/chat-unknown--tr--ios--100.png",
+      "bytes": 184187,
+      "sha256": "f0bcf4face357484f979887db782b5850df5ecaaf5844c6b03e8439a4cb58ce6"
+    },
+    {
+      "path": "screens/png/contact-all--en--android--200.png",
+      "bytes": 292049,
+      "sha256": "196b9ceea213828bbb5ad49ce11eaea2b306fe7bea27c59e380f33c82e06a6db"
+    },
+    {
+      "path": "screens/png/contact-all--tr--ios--100.png",
+      "bytes": 171312,
+      "sha256": "cb1baf7a06c8a896ed40f254584385b4c835878e67e2aa7a8e318d10a3090e35"
+    },
+    {
+      "path": "screens/png/contact-edit--en--android--200.png",
+      "bytes": 170343,
+      "sha256": "1d657812ba4063c0c9ed9fd51d5262387e5661f7be54cd780997c1e43835a396"
+    },
+    {
+      "path": "screens/png/contact-edit--tr--ios--100.png",
+      "bytes": 108261,
+      "sha256": "8530134274765f77c8e5087bba7ea5758c1f42b33242c6140ddc113665a63baa"
+    },
+    {
+      "path": "screens/png/contact-empty--en--android--200.png",
+      "bytes": 263319,
+      "sha256": "2e6bc44c978f95badcf8d85c8ec494f70eddf166ca4a5e41ccc97b612115cd91"
+    },
+    {
+      "path": "screens/png/contact-empty--tr--ios--100.png",
+      "bytes": 153047,
+      "sha256": "78307e8c74183351eeeb2565bfa7e65b3f2d38fdf1e0237fe01e4aa84d880cfd"
+    },
+    {
+      "path": "screens/png/contact-failed--en--android--200.png",
+      "bytes": 133112,
+      "sha256": "2a76f2ea74a791938d7121c7b3ceb494e955496b0d4b712a757c6981251c08a9"
+    },
+    {
+      "path": "screens/png/contact-failed--tr--ios--100.png",
+      "bytes": 85603,
+      "sha256": "6370e0226dd737c3499f28cc9bb7cefeb28757577d494854d7305257c28964f2"
+    },
+    {
+      "path": "screens/png/contact-filled--en--android--200.png",
+      "bytes": 250019,
+      "sha256": "3c57735b4f115589a1122f8be5d043977b355fec0235b821ba1dafbce53a51cc"
+    },
+    {
+      "path": "screens/png/contact-filled--tr--ios--100.png",
+      "bytes": 152071,
+      "sha256": "3a00b71bf24c367986a2188531252e0693417925fd5251e13cf7bcc14104da79"
+    },
+    {
+      "path": "screens/png/contact-invalid--en--android--200.png",
+      "bytes": 255766,
+      "sha256": "4bfc209df5cfbb0c33c49a1269659ecd08babc289ec58adf5f1ab14bbfcc0865"
+    },
+    {
+      "path": "screens/png/contact-invalid--tr--ios--100.png",
+      "bytes": 157239,
+      "sha256": "9e8ac99d7b23578fc2528bd9dae49ed9e00a3aa21a684ecec4dc414fcaac26e8"
+    },
+    {
+      "path": "screens/png/contact-loading--en--android--200.png",
+      "bytes": 112007,
+      "sha256": "888e180ec72f6fae7c79e870876e2995bca594bd19ca6bd749f3a8e68ec132ce"
+    },
+    {
+      "path": "screens/png/contact-loading--tr--ios--100.png",
+      "bytes": 74522,
+      "sha256": "550cf6d581cdae913c236e12f9b3ea0ea996009071f780f7ed96488f7c33274a"
+    },
+    {
+      "path": "screens/png/contact-none--en--android--200.png",
+      "bytes": 186923,
+      "sha256": "f5795eb3b2e59caced68fbfa54aebbf1e0b9bbda595e56778a6b4ff36e12a76a"
+    },
+    {
+      "path": "screens/png/contact-none--tr--ios--100.png",
+      "bytes": 107602,
+      "sha256": "56a9c9c00828e8e7ce076d0d474923cb31fb876ca44c7acf7fbed3ff0311f321"
+    },
+    {
+      "path": "screens/png/contact-offline--en--android--200.png",
+      "bytes": 113462,
+      "sha256": "07d650801d0ed9d034bac84e4b2cff772b314a7812aa84fb79d12885443df14c"
+    },
+    {
+      "path": "screens/png/contact-offline--tr--ios--100.png",
+      "bytes": 79672,
+      "sha256": "f6237ea24964a8d19d3a1eefc7e3fa70d4665cdb25bc7cbda4de2ebad2113a81"
+    },
+    {
+      "path": "screens/png/contact-one--en--android--200.png",
+      "bytes": 235948,
+      "sha256": "f25982f7ecdb0f73010c0a005013d2bd46ff8e760a04c0e318c86bffb2d49bbc"
+    },
+    {
+      "path": "screens/png/contact-one--tr--ios--100.png",
+      "bytes": 142197,
+      "sha256": "dd6dffe5b0447f5bd24a0067c3f0cee9560e5ead84e6c3eb8c1971fdcebef1f2"
+    },
+    {
+      "path": "screens/png/contact-received--en--android--200.png",
+      "bytes": 188915,
+      "sha256": "22dd4ed0ddd17514936bd162cd54a3e5e070c3cb4dc266062bf159da837ca598"
+    },
+    {
+      "path": "screens/png/contact-received--tr--ios--100.png",
+      "bytes": 107281,
+      "sha256": "283f99004a3323d9af1246cd8cf602aa7746cc3360aa4655997b886b52191ff3"
+    },
+    {
+      "path": "screens/png/contact-share-failed--en--android--200.png",
+      "bytes": 283027,
+      "sha256": "282deb43e59ca11200d884426a3ceccd0a83374e0221c7cd75afefea1158be38"
+    },
+    {
+      "path": "screens/png/contact-share-failed--tr--ios--100.png",
+      "bytes": 168163,
+      "sha256": "bf675a0fa6a79e2f0f769b09fe3e6e4a7c4e86786864100ebb39639c772a9389"
+    },
+    {
+      "path": "screens/png/contact-shared--en--android--200.png",
+      "bytes": 304054,
+      "sha256": "a7bb215aab5b147483d1f195fcceba9f45f110e8e28cf6249a45befc02459d99"
+    },
+    {
+      "path": "screens/png/contact-shared--tr--ios--100.png",
+      "bytes": 171717,
+      "sha256": "5357c27f5d5e32487330cebc225fbda0a2d412e10f4cd9b4198f949d8b17f72e"
+    },
+    {
+      "path": "screens/png/contact-sharing--en--android--200.png",
+      "bytes": 273681,
+      "sha256": "54febde3b2c6003675a55d4e73219ad7f1baa0ad4ca42ef96ffd5456dd9a7dc8"
+    },
+    {
+      "path": "screens/png/contact-sharing--tr--ios--100.png",
+      "bytes": 165214,
+      "sha256": "e7e2b0a06e0d091ee8e6df1f23e0105b6bcaa12a0992fdf090ff1c7bdfedbcb1"
+    },
+    {
+      "path": "screens/png/contact-unavailable--en--android--200.png",
+      "bytes": 117719,
+      "sha256": "da6dd6457910d9406fedb8c8fb0a8ab6fe0bf79c13b41ff9f4fbc4d984550311"
+    },
+    {
+      "path": "screens/png/contact-unavailable--tr--ios--100.png",
+      "bytes": 76166,
+      "sha256": "9c4a8eac7f404ae161ea83e5b6637799709ea6433503fcafe7c0a548018699bf"
+    },
+    {
+      "path": "screens/png/contact-update-failed--en--android--200.png",
+      "bytes": 202261,
+      "sha256": "49fbaf849a27638b8cdd4db9091443b37ed5028160941974be99a57332e7f3bd"
+    },
+    {
+      "path": "screens/png/contact-update-failed--tr--ios--100.png",
+      "bytes": 124195,
+      "sha256": "5df14cd8d4e94206d3adf9a9747d020c87426a530bd0d6558b8424045c7e7ea2"
+    },
+    {
+      "path": "screens/png/contact-updating--en--android--200.png",
+      "bytes": 190331,
+      "sha256": "a3bece81975b9a0a83b20acb6906a9c02630519f747f7d8b8c5944b266d25899"
+    },
+    {
+      "path": "screens/png/contact-updating--tr--ios--100.png",
+      "bytes": 119529,
+      "sha256": "8e87e1662eb996abf1766d4041e90e9a33c26aadc0574e2cc15f069cf2a99693"
+    },
+    {
+      "path": "screens/png/contact-withdraw-confirm--en--android--200.png",
+      "bytes": 164438,
+      "sha256": "b79bd11e55d625abf3037bf390770cd4e08cb53be819e1edcc32b034a7aa84f2"
+    },
+    {
+      "path": "screens/png/contact-withdraw-confirm--tr--ios--100.png",
+      "bytes": 102152,
+      "sha256": "8edf82e424c782e5e3733e0a5758d2d10d3a25ef9aa7a64ab9963af622115a4d"
+    },
+    {
+      "path": "screens/png/contact-withdraw-failed--en--android--200.png",
+      "bytes": 163889,
+      "sha256": "7b1d3b829a323f9033ab291b59185e2b3778f56c28aedbfb84f472873cef32b6"
+    },
+    {
+      "path": "screens/png/contact-withdraw-failed--tr--ios--100.png",
+      "bytes": 98354,
+      "sha256": "59d26ba3adb01d1d0878a5b99759e855e78db1fc2eabebbfc40d8c5cc2035335"
+    },
+    {
+      "path": "screens/png/contact-withdrawing--en--android--200.png",
+      "bytes": 146267,
+      "sha256": "6ddd451d9879f58fc3ee8a96e2bc29edb7f603c86a75fa4a6de37f9ba81b4211"
+    },
+    {
+      "path": "screens/png/contact-withdrawing--tr--ios--100.png",
+      "bytes": 94586,
+      "sha256": "c574f35d0f206944745f5e2a7da6cf5fefd5f048943326bd989f2abd21f85b62"
+    },
+    {
+      "path": "screens/png/contact-withdrawn--en--android--200.png",
+      "bytes": 245249,
+      "sha256": "2dbc454c2e10114720f435417628109337f6a1da4e624a2940c24e2968aedec2"
+    },
+    {
+      "path": "screens/png/contact-withdrawn--tr--ios--100.png",
+      "bytes": 132171,
+      "sha256": "b073ee1c5a19fa419945ddaf32cf588745572e41ac73965e3d3fb179bc92e008"
+    },
+    {
+      "path": "screens/png/continue-choices--en--android--200.png",
+      "bytes": 180096,
+      "sha256": "f278f99444aa1a83a2883de116101b717ed7ac8481b88a74201e7c00670e44c5"
+    },
+    {
+      "path": "screens/png/continue-choices--tr--ios--100.png",
+      "bytes": 105157,
+      "sha256": "ddbc06ceed7375f3e8a93740aa355db35f1a3edb75e1bb99f1a04f7d1bb75fa5"
+    },
+    {
+      "path": "screens/png/continue-ended--en--android--200.png",
+      "bytes": 96637,
+      "sha256": "035483a6bcc790cf7d1acec1429336d7c03d54feb0feabb4d70ecf127a0079d8"
+    },
+    {
+      "path": "screens/png/continue-ended--tr--ios--100.png",
+      "bytes": 66885,
+      "sha256": "2ac4c700932a0f53ceee276702c6a14554ec203bf02455e6a0cf0a7228495648"
+    },
+    {
+      "path": "screens/png/continue-failed--en--android--200.png",
+      "bytes": 167420,
+      "sha256": "8692644a36befb02b04c4ca95a0fc73f43fec507916aab1065cd8a7f04d58e3b"
+    },
+    {
+      "path": "screens/png/continue-failed--tr--ios--100.png",
+      "bytes": 96930,
+      "sha256": "af97d7eaf84bdb1377b3bd9f2a632b57bb82afe6981841015d98a1deabedc7bb"
+    },
+    {
+      "path": "screens/png/continue-loading--en--android--200.png",
+      "bytes": 143315,
+      "sha256": "023713cd4fdc5939faf646bc6b9882d6c065439b6a466f6e8d8679597188fc0f"
+    },
+    {
+      "path": "screens/png/continue-loading--tr--ios--100.png",
+      "bytes": 85947,
+      "sha256": "697b0208500bc214fd2ffd4ae459c3b0ef44221064019212395cd953014820f3"
+    },
+    {
+      "path": "screens/png/continue-no-confirm--en--android--200.png",
+      "bytes": 176891,
+      "sha256": "c5005b90a761b6e658e2b6973bd1355076b942eed48ddd968268cfb1c70ce2ab"
+    },
+    {
+      "path": "screens/png/continue-no-confirm--tr--ios--100.png",
+      "bytes": 100358,
+      "sha256": "4a272e07475108b0d83e60105bd19e4d1c84bbf00b2b0e369eccfe6f01b2f0be"
+    },
+    {
+      "path": "screens/png/continue-no-failed--en--android--200.png",
+      "bytes": 208481,
+      "sha256": "865a9bc54ff7567421277fe55733fd0094f1e0729080a5f2bc91f0e73d666d33"
+    },
+    {
+      "path": "screens/png/continue-no-failed--tr--ios--100.png",
+      "bytes": 113356,
+      "sha256": "d14e9a66d5adce99ee61043c8e40d157227a525ffbc27b7d0ae5e0dfdac3bdea"
+    },
+    {
+      "path": "screens/png/continue-no-saving--en--android--200.png",
+      "bytes": 193291,
+      "sha256": "e5b37522acd2b43f7d383cdd3e91eb33655aeabcfd18af2b626ca91aec4167ef"
+    },
+    {
+      "path": "screens/png/continue-no-saving--tr--ios--100.png",
+      "bytes": 109139,
+      "sha256": "4737c54d5d6767e1984864ea531581ce5e3f989f7cb5c949ec696293ba3e85ab"
+    },
+    {
+      "path": "screens/png/continue-offline--en--android--200.png",
+      "bytes": 145634,
+      "sha256": "fea17b3552db4d619f77647d23bfd28d3b5ac333f2229a35a440eecef48aceb3"
+    },
+    {
+      "path": "screens/png/continue-offline--tr--ios--100.png",
+      "bytes": 92838,
+      "sha256": "1b3a72b966afc1f9fe57ee2403cb0a0ab05a00ab0ebd1bc0a2aa52f00e6f8ca5"
+    },
+    {
+      "path": "screens/png/continue-withdraw-failed--en--android--200.png",
+      "bytes": 210312,
+      "sha256": "a9c3fdc8d1fa9c46f7f688efe2d61488278c550fcfadf3849cbdfedf76e8ee49"
+    },
+    {
+      "path": "screens/png/continue-withdraw-failed--tr--ios--100.png",
+      "bytes": 108951,
+      "sha256": "03c984216b57c15e0d14cf834603595ef152890de7f6428e099c4d87a82b77a4"
+    },
+    {
+      "path": "screens/png/continue-withdraw-saving--en--android--200.png",
+      "bytes": 201861,
+      "sha256": "9a60f9e5c47820f94f00ce527ec492214104183b11caf8246b6765cdc460d123"
+    },
+    {
+      "path": "screens/png/continue-withdraw-saving--tr--ios--100.png",
+      "bytes": 106336,
+      "sha256": "fd1c530d88c94ae209b2e427ab5d79b42345ebdc1c7db36ac6603d8e0ffa702e"
+    },
+    {
+      "path": "screens/png/continue-withdrawn--en--android--200.png",
+      "bytes": 212125,
+      "sha256": "2d81addee0ec8c89973fc321c38fe69e0e1d15c57f0fb9c827a17ade47e0e480"
+    },
+    {
+      "path": "screens/png/continue-withdrawn--tr--ios--100.png",
+      "bytes": 114305,
+      "sha256": "4255fc24583e6a1331b62fd643f3684b9432c146cd4669ab61716a0382984058"
+    },
+    {
+      "path": "screens/png/continue-yes-failed--en--android--200.png",
+      "bytes": 214818,
+      "sha256": "5bd803d3d1877244d6994a456f5334be813ed9e31377058004d9d33b67580608"
+    },
+    {
+      "path": "screens/png/continue-yes-failed--tr--ios--100.png",
+      "bytes": 117851,
+      "sha256": "7f9b2edd39f65dbe20fc8eb9d91812c0e87878e91519d71564d1ecf1931ac08c"
+    },
+    {
+      "path": "screens/png/continue-yes-saved--en--android--200.png",
+      "bytes": 172083,
+      "sha256": "ba8b5d7966745392376f6d935c4caf723f443e4f5372e90a36cb46bfeea86aff"
+    },
+    {
+      "path": "screens/png/continue-yes-saved--tr--ios--100.png",
+      "bytes": 96586,
+      "sha256": "a7748b71898adb865a5298e35c7fb216016e2de1c82ed3dd5be6bf469b25185e"
+    },
+    {
+      "path": "screens/png/continue-yes-saving--en--android--200.png",
+      "bytes": 202626,
+      "sha256": "5b36c266df9715c2f07bc0c93008b25fda764fa4b1b29e7ad57d60eec26e1d06"
+    },
+    {
+      "path": "screens/png/continue-yes-saving--tr--ios--100.png",
+      "bytes": 114012,
+      "sha256": "f459566f920be022fb7f52f62535c84f78c491c5f1a106608f8379cec23d49d8"
+    },
+    {
+      "path": "screens/png/intent-accept-both--en--android--200.png",
+      "bytes": 217223,
+      "sha256": "c57be2dbab1a5635344daf189fa55fd51623522d8a774b4441c5a31e12d85ef2"
+    },
+    {
+      "path": "screens/png/intent-accept-both--tr--ios--100.png",
+      "bytes": 150596,
+      "sha256": "b23f730c32b0875c697622943f8b44472ad130eabbfffc254a599410f5c1c27b"
+    },
+    {
+      "path": "screens/png/intent-accept-empty--en--android--200.png",
+      "bytes": 218182,
+      "sha256": "da3467cf6760b74e4a143228c25156378c5cccc1babb80b34fef33ac99b65a24"
+    },
+    {
+      "path": "screens/png/intent-accept-empty--tr--ios--100.png",
+      "bytes": 151433,
+      "sha256": "a27dee8b3e8e100deda031199d38ce1cf980a08c06eb9fbca335a5f13987df46"
+    },
+    {
+      "path": "screens/png/intent-accept-failed--en--android--200.png",
+      "bytes": 253442,
+      "sha256": "1fde7daef824c9198729a764e507a9444c00b160b1e0b6db4f573de3886a26a6"
+    },
+    {
+      "path": "screens/png/intent-accept-failed--tr--ios--100.png",
+      "bytes": 165539,
+      "sha256": "77c00df4701bbb924f85674b6b8eaf41405e3fad6248e5eb26ef01b735b010ab"
+    },
+    {
+      "path": "screens/png/intent-accept-offline--en--android--200.png",
+      "bytes": 230663,
+      "sha256": "1d3cbced234a41d27d93b9c2a4037118f05a9ea173b657d343ee6d2a3e00840d"
+    },
+    {
+      "path": "screens/png/intent-accept-offline--tr--ios--100.png",
+      "bytes": 161822,
+      "sha256": "e91156739c79ddcb03a54961719b6443295fca7f1327c2a5642c18e0f7ff5af7"
+    },
+    {
+      "path": "screens/png/intent-accept-one--en--android--200.png",
+      "bytes": 216991,
+      "sha256": "66335f27bfc3f1218231cac2ac4cd4e5576fcbff5a89997d50931d2f2d3927d5"
+    },
+    {
+      "path": "screens/png/intent-accept-one--tr--ios--100.png",
+      "bytes": 150409,
+      "sha256": "32043aa3bfa0bbff21b00cc81fc1d2412577dbc5b38a143ea21614d3e68472b6"
+    },
+    {
+      "path": "screens/png/intent-accept-submitting--en--android--200.png",
+      "bytes": 237696,
+      "sha256": "22ca3264ce74fac980d86f56d6c6cb1a892e00c9b186d567be4de4fc124d0082"
+    },
+    {
+      "path": "screens/png/intent-accept-submitting--tr--ios--100.png",
+      "bytes": 161628,
+      "sha256": "add2c404d0c4f6bc430967243271b66797de3a604db56068e5704e06555daa67"
+    },
+    {
+      "path": "screens/png/intent-send-both--en--android--200.png",
+      "bytes": 214421,
+      "sha256": "df8ebcb363cbb938c9fb44263b524a909a800c9e9ead20a1d2163143e8a52cd9"
+    },
+    {
+      "path": "screens/png/intent-send-both--tr--ios--100.png",
+      "bytes": 151275,
+      "sha256": "e53962dd90ac1123de7618e883e74099129027eaaeb75c6e444f63b580ba3e79"
+    },
+    {
+      "path": "screens/png/intent-send-empty--en--android--200.png",
+      "bytes": 215389,
+      "sha256": "52ff8c81dc8879aac613d1312c651ce9907ed42364b2d30c78a35c6e159e3b9a"
+    },
+    {
+      "path": "screens/png/intent-send-empty--tr--ios--100.png",
+      "bytes": 152055,
+      "sha256": "e26d92b293f2832d21e4e1c5b6a466c1f6b05c37b74b72c6278a0b122270ea95"
+    },
+    {
+      "path": "screens/png/intent-send-failed--en--android--200.png",
+      "bytes": 245737,
+      "sha256": "bee295de9ee5549ae04acc0bb8296fc238210d7ea6196d9fd0eec822007ea22c"
+    },
+    {
+      "path": "screens/png/intent-send-failed--tr--ios--100.png",
+      "bytes": 166128,
+      "sha256": "cbb8d01c60b2c54522b5f4bdaa5df16671315990c82c776b095d90db6b83d0bc"
+    },
+    {
+      "path": "screens/png/intent-send-offline--en--android--200.png",
+      "bytes": 227984,
+      "sha256": "eaf5496f6148bfbe8bf6fc4e67ee255c5f712362c82778d0a1bf8db15d8eb0b4"
+    },
+    {
+      "path": "screens/png/intent-send-offline--tr--ios--100.png",
+      "bytes": 162574,
+      "sha256": "fa4f3ebc8af7e62432bf31010a48252d8199710a2b34f36a47e9cbb558f30523"
+    },
+    {
+      "path": "screens/png/intent-send-one--en--android--200.png",
+      "bytes": 214197,
+      "sha256": "457d2c7146e38f3f00fd98bf496fd4155ec2291f665e0f0ade2009b9e42f7fdb"
+    },
+    {
+      "path": "screens/png/intent-send-one--tr--ios--100.png",
+      "bytes": 151086,
+      "sha256": "a9fe0c1b5d7d7178f450ac7352b22438e23790e7fb757c2ad8a9de9390c62cc7"
+    },
+    {
+      "path": "screens/png/intent-send-submitting--en--android--200.png",
+      "bytes": 235396,
+      "sha256": "baa3f1bb7f3ac2fec4c074ec4231bdc7eb6ae41b5e59a289ad86e4d8d57f213e"
+    },
+    {
+      "path": "screens/png/intent-send-submitting--tr--ios--100.png",
+      "bytes": 162136,
+      "sha256": "f46ca63989e2a08a28ff4d5250a907141b9db60a69d7c6d186da2b1c5df096c4"
+    },
+    {
+      "path": "screens/png/match-different--en--android--200.png",
+      "bytes": 184685,
+      "sha256": "bdc496d1b736bf8acae001d7b0cd7740586619050963230b3845ca0a293420b4"
+    },
+    {
+      "path": "screens/png/match-different--tr--ios--100.png",
+      "bytes": 137093,
+      "sha256": "76be16b29dba6c72e87ae85007732d9771339c73e47a087cca156aeb3fdd9a82"
+    },
+    {
+      "path": "screens/png/match-failed--en--android--200.png",
+      "bytes": 103749,
+      "sha256": "b50945c15eb053223e5a7a770633bf1d84044801e66c66cea565ab2411649929"
+    },
+    {
+      "path": "screens/png/match-failed--tr--ios--100.png",
+      "bytes": 71421,
+      "sha256": "0c0c29bbcbbcf606ce464897b6bad9264bf5ee2eaa946c17733b176fb9f4787c"
+    },
+    {
+      "path": "screens/png/match-loading--en--android--200.png",
+      "bytes": 85380,
+      "sha256": "9a8ff6827390f2075233121d26d4674bb3664cb053b1f57c6079d0d6d3216b26"
+    },
+    {
+      "path": "screens/png/match-loading--tr--ios--100.png",
+      "bytes": 59458,
+      "sha256": "e4e2b8ed98b41ab5c91d04d31f1bf5d2a57c5dd93c13542a253e7e21beaed9ba"
+    },
+    {
+      "path": "screens/png/match-offline--en--android--200.png",
+      "bytes": 86781,
+      "sha256": "7ab33e0a7d0c541bb96e2704568876198961ea4fc0f59fc3e75d775dc6f4a67e"
+    },
+    {
+      "path": "screens/png/match-offline--tr--ios--100.png",
+      "bytes": 66126,
+      "sha256": "a431ea464b9ca7fe717458644f2639341614c8cedd4019e9bfc32f97d538c560"
+    },
+    {
+      "path": "screens/png/match-shared--en--android--200.png",
+      "bytes": 176299,
+      "sha256": "3edb7eef7af4a7ee8b433ae4f66aee4dfa2d4362ad9e2534abf4faae44ad8115"
+    },
+    {
+      "path": "screens/png/match-shared--tr--ios--100.png",
+      "bytes": 137982,
+      "sha256": "c34094604970f0ec00bb8c4d44ea95fe9e0d6f462def78b6a74c9e8aac8179f2"
+    },
+    {
+      "path": "screens/png/messages-connections-empty--en--android--200.png",
+      "bytes": 101247,
+      "sha256": "3d84bc03ec0c8c305cc603fa66a7c0845361078bfb295b2b29e5070fa3da1de6"
+    },
+    {
+      "path": "screens/png/messages-connections-empty--tr--ios--100.png",
+      "bytes": 66911,
+      "sha256": "1a74897054004c841b21bbed998e8c3f9ff6da7f6cc918208baf2fe1a24b564d"
+    },
+    {
+      "path": "screens/png/messages-connections-failed--en--android--200.png",
+      "bytes": 117974,
+      "sha256": "2a944c6cf27de91c638c96eeeb421adaa56c9e69a864a79788b95ac322c316c2"
+    },
+    {
+      "path": "screens/png/messages-connections-failed--tr--ios--100.png",
+      "bytes": 79267,
+      "sha256": "a708a3dc9d01ba4c24845b36f43a8313f59b9fa8b11c787bd887e4bc36279608"
+    },
+    {
+      "path": "screens/png/messages-connections-loading--en--android--200.png",
+      "bytes": 98445,
+      "sha256": "b62f0f80a8816a7d053aec523826c574ca61c9cabe0db8056e226de445cc8710"
+    },
+    {
+      "path": "screens/png/messages-connections-loading--tr--ios--100.png",
+      "bytes": 67619,
+      "sha256": "2199f756f6ed06356a25b4424db5c524fc4be2593a6b49f32380a12c31965023"
+    },
+    {
+      "path": "screens/png/messages-connections-offline--en--android--200.png",
+      "bytes": 99518,
+      "sha256": "a0e280c42d9b9cd4fc0816173781d819a6786140adc64af14b9dbe9267c5ee14"
+    },
+    {
+      "path": "screens/png/messages-connections-offline--tr--ios--100.png",
+      "bytes": 74100,
+      "sha256": "9f9807d094cd5a0ef1b93dc6687f464530d7278151f878bc8f164b8c9d4bfd1c"
+    },
+    {
+      "path": "screens/png/messages-connections-ready--en--android--200.png",
+      "bytes": 148958,
+      "sha256": "f132084ceefeeb6e28c6c1711888315dca95f7a969f9d490f8fc8e5f3a1abd6a"
+    },
+    {
+      "path": "screens/png/messages-connections-ready--tr--ios--100.png",
+      "bytes": 121504,
+      "sha256": "a0474cfa1843228daeb987459413c4f7256596274e32c5d7dde84468de1252a8"
+    },
+    {
+      "path": "screens/png/messages-requests-empty--en--android--200.png",
+      "bytes": 102280,
+      "sha256": "5d3122156598c78499fb5bfd09545813f20cae9d2d56e063df9aa85dd84defc6"
+    },
+    {
+      "path": "screens/png/messages-requests-empty--tr--ios--100.png",
+      "bytes": 67333,
+      "sha256": "b45db1a29719eda6c47a8fea71333e860f06314139a3f62262957d2efec26a21"
+    },
+    {
+      "path": "screens/png/messages-requests-failed--en--android--200.png",
+      "bytes": 117952,
+      "sha256": "8f0eda37d4b89a5134b33b8f524ffbe97a38286a7394e2b93873cf3b98331d72"
+    },
+    {
+      "path": "screens/png/messages-requests-failed--tr--ios--100.png",
+      "bytes": 79300,
+      "sha256": "5cd04d296778c516b8eeafb45c2db359f41a1dddd6028125e860f7ffc86c6e09"
+    },
+    {
+      "path": "screens/png/messages-requests-loading--en--android--200.png",
+      "bytes": 98416,
+      "sha256": "b9f7d52ebc667b2dc6bda6e267acb344f9b8bed726552a23f3e64d571cee55ae"
+    },
+    {
+      "path": "screens/png/messages-requests-loading--tr--ios--100.png",
+      "bytes": 67656,
+      "sha256": "a21cfbe52c245128a137fc5bf3dc6dd1fd317b2a36d1312fa66580713df3c789"
+    },
+    {
+      "path": "screens/png/messages-requests-offline--en--android--200.png",
+      "bytes": 99507,
+      "sha256": "c181638bcdf6ac0eda202040800fd56432cb414a752ab9517c099eea1e303b99"
+    },
+    {
+      "path": "screens/png/messages-requests-offline--tr--ios--100.png",
+      "bytes": 74139,
+      "sha256": "48c8ae01a1aa4e8c13d5a44d0a5af592c2d4f0e439511ab0452477c5e42baec2"
+    },
+    {
+      "path": "screens/png/messages-requests-ready--en--android--200.png",
+      "bytes": 271422,
+      "sha256": "e6b5e898679da455e6e0fa1515bc81f888734f9d9693b6c1ef823ab62954ffd4"
+    },
+    {
+      "path": "screens/png/messages-requests-ready--tr--ios--100.png",
+      "bytes": 204908,
+      "sha256": "25e98275e69621150be3228dab6cd59965e1dc69ecb7d6235f4ce876e5cec232"
+    },
+    {
+      "path": "screens/png/request-cancel-failed--en--android--200.png",
+      "bytes": 208670,
+      "sha256": "a7092d1be306403318617bd4b3c6e2265afdfb30de5e787105fbc88ea51522c3"
+    },
+    {
+      "path": "screens/png/request-cancel-failed--tr--ios--100.png",
+      "bytes": 147037,
+      "sha256": "2ec63fdb277f589420bbe9e07b5ad5bce39082847e8dbd73045f46295b4c884f"
+    },
+    {
+      "path": "screens/png/request-cancelled--en--android--200.png",
+      "bytes": 98565,
+      "sha256": "b6aad088df2b224cb56341ae63fe5c82fb6aec83e0fe6f24349d92514757b57f"
+    },
+    {
+      "path": "screens/png/request-cancelled--tr--ios--100.png",
+      "bytes": 65855,
+      "sha256": "4717902f9fc5b6af58c26f5be2ea9f7988ef13d276a257016401c79251d8908a"
+    },
+    {
+      "path": "screens/png/request-cancelling--en--android--200.png",
+      "bytes": 192285,
+      "sha256": "ffdc52cbd8ff04ae8a71c79eba08ff0aa5405f26038767da4d15953da1f8d36a"
+    },
+    {
+      "path": "screens/png/request-cancelling--tr--ios--100.png",
+      "bytes": 141443,
+      "sha256": "ee9d160e5ce727eb1570cd2174efb5949696cfb697aea5e4ed5f2ada0df66c86"
+    },
+    {
+      "path": "screens/png/request-crossed--en--android--200.png",
+      "bytes": 119595,
+      "sha256": "9f1b341299f7bf0818c4b6fca81eceb6d9516a1e56a16f871f46763101733db4"
+    },
+    {
+      "path": "screens/png/request-crossed--tr--ios--100.png",
+      "bytes": 73073,
+      "sha256": "a0ac8214f5a885a616ab264695dad250797eabcc7171f9f9c49a07074b194e16"
+    },
+    {
+      "path": "screens/png/request-decline-failed--en--android--200.png",
+      "bytes": 182886,
+      "sha256": "c5934181ede82e4672b62a70a037df44331edfe8233c3d2ef2f42552e2139c6d"
+    },
+    {
+      "path": "screens/png/request-decline-failed--tr--ios--100.png",
+      "bytes": 136312,
+      "sha256": "2ac4a7c6964a0aabe06c5dc94ff79ed0a8b47465e305ed8b0416e8490309d61e"
+    },
+    {
+      "path": "screens/png/request-declined--en--android--200.png",
+      "bytes": 96151,
+      "sha256": "2f1dd5744870d05ebe169c12c70523bb26b14e8e00069963046daa9b216299a5"
+    },
+    {
+      "path": "screens/png/request-declined--tr--ios--100.png",
+      "bytes": 65981,
+      "sha256": "ac9c36fd6aba7d4be50d3d8cd261b9cda72f1f2901dd327a0eec3125850b44da"
+    },
+    {
+      "path": "screens/png/request-declining--en--android--200.png",
+      "bytes": 170850,
+      "sha256": "5ba5f355e3860b5c6a4e4800e26fdf247358b6a9108cdb39c9973f66add2ad5c"
+    },
+    {
+      "path": "screens/png/request-declining--tr--ios--100.png",
+      "bytes": 133089,
+      "sha256": "2f81c2eed21d06aac61ab51ae29bb452f12404fb790416ff939a375e7d5de15d"
+    },
+    {
+      "path": "screens/png/request-expired--en--android--200.png",
+      "bytes": 96596,
+      "sha256": "0157fd3622687ff54b52f32533eb112807900ae3fed65c09aed525b835be0648"
+    },
+    {
+      "path": "screens/png/request-expired--tr--ios--100.png",
+      "bytes": 66617,
+      "sha256": "d460a3056b635021c1cede8dff74080b7a3dac3831c747155980e4a9730af930"
+    },
+    {
+      "path": "screens/png/request-full--en--android--200.png",
+      "bytes": 217257,
+      "sha256": "d68794f36b290d1411c982d2bcc97862dc5e2dc79ef47a8418b19614e7195ab6"
+    },
+    {
+      "path": "screens/png/request-full--tr--ios--100.png",
+      "bytes": 150276,
+      "sha256": "59851cadc5b0071847ea0fd16995092238545c350b9f6621aa46b303f103a753"
+    },
+    {
+      "path": "screens/png/request-incoming--en--android--200.png",
+      "bytes": 153844,
+      "sha256": "67d2aedb455291f5bf7e89c23ef4921b9e11eb5dbb448495f22d4380d95b0e72"
+    },
+    {
+      "path": "screens/png/request-incoming--tr--ios--100.png",
+      "bytes": 123786,
+      "sha256": "3a8a8c286e61b45f00fe5acba4895358b818b7108ba6511a1620e0bbedfadb2f"
+    },
+    {
+      "path": "screens/png/request-offline--en--android--200.png",
+      "bytes": 90440,
+      "sha256": "b885b5441d65d600a3dd66e4dc3a604a3b648ddb7db5657d00b08961d9178ac9"
+    },
+    {
+      "path": "screens/png/request-offline--tr--ios--100.png",
+      "bytes": 66593,
+      "sha256": "242833d78c07034252628d432a969104179b25d3a7e486c8bb1be6af58ae2f07"
+    },
+    {
+      "path": "screens/png/request-pending--en--android--200.png",
+      "bytes": 173818,
+      "sha256": "492afeb0229def5398fc10b0d4e02fc4f8d849e751c051f4bb3a15aab3a1e670"
+    },
+    {
+      "path": "screens/png/request-pending--tr--ios--100.png",
+      "bytes": 134491,
+      "sha256": "b61a7a91ba518e81c1aacb127f40565a41769e7726c39f1bfe417a0e23b8adec"
+    },
+    {
+      "path": "screens/png/request-unavailable--en--android--200.png",
+      "bytes": 100415,
+      "sha256": "5c6ce1b1aebfc7bc24282c7c184c4b703943741819ce8819d5d2f814460f6b7e"
+    },
+    {
+      "path": "screens/png/request-unavailable--tr--ios--100.png",
+      "bytes": 68159,
+      "sha256": "f08b4cfd48f4d8679b7e0f1d4fd7094d332891114b37c9d9db890262070faf3a"
+    },
+    {
+      "path": "screens/svg/chat-active--en--android--100.svg",
+      "bytes": 191123,
+      "sha256": "16e8f951f7f9fe01a9bf24e17c03160d5c6691a7c1e0d99e27e68142e19bf372"
+    },
+    {
+      "path": "screens/svg/chat-active--en--android--200.svg",
+      "bytes": 191462,
+      "sha256": "018d6386b42e93b68b7b914bd1cae2d629f65c85e90ddbe39e5b9d9bc1dd6e05"
+    },
+    {
+      "path": "screens/svg/chat-active--en--ios--100.svg",
+      "bytes": 191133,
+      "sha256": "432449627161f917107030bba9c215757577278f7708bcb5fa386514c45fa6d9"
+    },
+    {
+      "path": "screens/svg/chat-active--en--ios--200.svg",
+      "bytes": 191461,
+      "sha256": "64215703a8edc848cf14b7451001a39c73dc938346d2b17b4f476d1559ac7c97"
+    },
+    {
+      "path": "screens/svg/chat-active--tr--android--100.svg",
+      "bytes": 191091,
+      "sha256": "76f34686ae50832bfaad2bc17eb344f3a3f8842a5d1cfe01aceb74b57056f5ef"
+    },
+    {
+      "path": "screens/svg/chat-active--tr--android--200.svg",
+      "bytes": 191508,
+      "sha256": "c1bd47ef47b0e8ae167595597f75061a8696e19c2d9f3266830c9861665479a0"
+    },
+    {
+      "path": "screens/svg/chat-active--tr--ios--100.svg",
+      "bytes": 191148,
+      "sha256": "169f035d441edf8d270655c12c0dfd93d1b084a88f75b5bf3b5b9716f249b357"
+    },
+    {
+      "path": "screens/svg/chat-active--tr--ios--200.svg",
+      "bytes": 191772,
+      "sha256": "7e85d666d09430f63bc72920ad4c5a76c2bc978fcfa7eed3ed43e730ef170787"
+    },
+    {
+      "path": "screens/svg/chat-at-limit--en--android--100.svg",
+      "bytes": 191253,
+      "sha256": "9adf54d907b289c72ab7202f6bb51e6480dc86eef49f452a8abb6b3b7e8c5b1e"
+    },
+    {
+      "path": "screens/svg/chat-at-limit--en--android--200.svg",
+      "bytes": 191668,
+      "sha256": "17e4cb519365576c4a0eac9919e880fb07206ffb5bbf3a2aff376e88f2a87dae"
+    },
+    {
+      "path": "screens/svg/chat-at-limit--en--ios--100.svg",
+      "bytes": 191259,
+      "sha256": "f52af671881890ef30bf23a52489e654a9ce43be87d9ff23e334b167a2db4471"
+    },
+    {
+      "path": "screens/svg/chat-at-limit--en--ios--200.svg",
+      "bytes": 191645,
+      "sha256": "08224689aa60e46d386e51a2fd902d4c8bb15212fe2ead7fa2e6b441e0a7a1b5"
+    },
+    {
+      "path": "screens/svg/chat-at-limit--tr--android--100.svg",
+      "bytes": 191240,
+      "sha256": "683af13ba602652e5611614e2f317e712b0b8e9c728f6ac034c2d3c2a8310ce1"
+    },
+    {
+      "path": "screens/svg/chat-at-limit--tr--android--200.svg",
+      "bytes": 191545,
+      "sha256": "ac988d73ba615ac956616b56e96dd7ff66b8d4e513128798e952cbdb6d13c5da"
+    },
+    {
+      "path": "screens/svg/chat-at-limit--tr--ios--100.svg",
+      "bytes": 191271,
+      "sha256": "91ce63b22553391d17a86d1569d4ca42e474e31ab16c4b3757555207f5f3810f"
+    },
+    {
+      "path": "screens/svg/chat-at-limit--tr--ios--200.svg",
+      "bytes": 191858,
+      "sha256": "e3bf870283e09a2ed2eecf76518a62d2e66ce527ca32b3b07d16c799fc11e390"
+    },
+    {
+      "path": "screens/svg/chat-closed--en--android--100.svg",
+      "bytes": 83882,
+      "sha256": "22aa482385e1824e0d57c6e88c3ac3114aaaddee9969975aeb6e3ee1e5a22f19"
+    },
+    {
+      "path": "screens/svg/chat-closed--en--android--200.svg",
+      "bytes": 84235,
+      "sha256": "26fdd24d1aaf1af41613926af5afb943a1eb74d1e37b6bb757cbac8166ca6e89"
+    },
+    {
+      "path": "screens/svg/chat-closed--en--ios--100.svg",
+      "bytes": 83892,
+      "sha256": "a0afb7827e5a31c17ec73a6e8e14d9b785ca609df2280a7541e8d9a38a92e640"
+    },
+    {
+      "path": "screens/svg/chat-closed--en--ios--200.svg",
+      "bytes": 84221,
+      "sha256": "b1509cf7d882dfd11326511ceb0b30eef3593565f4b2ea269ccc169a4943c6d3"
+    },
+    {
+      "path": "screens/svg/chat-closed--tr--android--100.svg",
+      "bytes": 83803,
+      "sha256": "aa1f334071e0e8a84e320fd8511d5c5edace6827680c6c505d1b7888e4e8e721"
+    },
+    {
+      "path": "screens/svg/chat-closed--tr--android--200.svg",
+      "bytes": 84078,
+      "sha256": "04e600201f09c1221f39515900da00875418ebf0bcc070c34c96144c8f4fe35a"
+    },
+    {
+      "path": "screens/svg/chat-closed--tr--ios--100.svg",
+      "bytes": 83886,
+      "sha256": "6f51687f8326c808a5e764208162e0032a31e378d0d473255aa23d1694caf95f"
+    },
+    {
+      "path": "screens/svg/chat-closed--tr--ios--200.svg",
+      "bytes": 84296,
+      "sha256": "6cd818039899e7680d9722bd2171af3391023586047a9f46067806dd7af950e3"
+    },
+    {
+      "path": "screens/svg/chat-composing--en--android--100.svg",
+      "bytes": 190894,
+      "sha256": "80af9132b090068da97c3fd09d80a2be06228a0be8fb7c71143fd8559bc7cbf5"
+    },
+    {
+      "path": "screens/svg/chat-composing--en--android--200.svg",
+      "bytes": 191295,
+      "sha256": "a9aea8965b74afdbcbcbeb49e4ee14fb5cd447bf8bf70592313111b3c7028eea"
+    },
+    {
+      "path": "screens/svg/chat-composing--en--ios--100.svg",
+      "bytes": 190918,
+      "sha256": "42d34fbb6818b9f8fab9789eed9a69002bb83d999eaaa565ec91c602d744c7fa"
+    },
+    {
+      "path": "screens/svg/chat-composing--en--ios--200.svg",
+      "bytes": 191294,
+      "sha256": "6f209853ede6b897585e9ce61a9a8a0c520528625dfa034e4eda53fe5b45abb6"
+    },
+    {
+      "path": "screens/svg/chat-composing--tr--android--100.svg",
+      "bytes": 190859,
+      "sha256": "48e678e7de788ab50fc86796347cd786c9aec616bd440459777cf8d032b46fe3"
+    },
+    {
+      "path": "screens/svg/chat-composing--tr--android--200.svg",
+      "bytes": 191309,
+      "sha256": "42c9120e3d6b4384dd98cd72e4fa0ed84ece5a3bd1147d5abad867d9f0c1a6d4"
+    },
+    {
+      "path": "screens/svg/chat-composing--tr--ios--100.svg",
+      "bytes": 190927,
+      "sha256": "d2128d78808d8c1181a229896d6937c0578550328389fe64f01bc7ddd2bd006c"
+    },
+    {
+      "path": "screens/svg/chat-composing--tr--ios--200.svg",
+      "bytes": 191599,
+      "sha256": "49282daa3fb3520d600fa378ef00c8707c9b280eaf13143b96c88913568003d4"
+    },
+    {
+      "path": "screens/svg/chat-empty--en--android--100.svg",
+      "bytes": 190534,
+      "sha256": "7e4d38c9fc51e61036863f968812b08302052d3eada916b427dc8c1ae777b47c"
+    },
+    {
+      "path": "screens/svg/chat-empty--en--android--200.svg",
+      "bytes": 190906,
+      "sha256": "5e06b3f11abc1e654bd86a82ab94d0ec9b0969cfbec32c599894a5bdde739dfb"
+    },
+    {
+      "path": "screens/svg/chat-empty--en--ios--100.svg",
+      "bytes": 190543,
+      "sha256": "79ef2ea6856981254abb9f608fd57c18bb102b7296cce23b534f1281283701fc"
+    },
+    {
+      "path": "screens/svg/chat-empty--en--ios--200.svg",
+      "bytes": 190905,
+      "sha256": "dfc6a51ee4ff99be2cc6d550249cf7909421c863fc0acc4344b219b7330bf77d"
+    },
+    {
+      "path": "screens/svg/chat-empty--tr--android--100.svg",
+      "bytes": 190546,
+      "sha256": "80c3786e418391ea3ad8f2d8d0fba126228886dcf57472f065c3a00c9fec637d"
+    },
+    {
+      "path": "screens/svg/chat-empty--tr--android--200.svg",
+      "bytes": 190918,
+      "sha256": "5ba25b3807fd003aaedf18a3cf5542916cc25d9d2a489cda23e707cf1c245142"
+    },
+    {
+      "path": "screens/svg/chat-empty--tr--ios--100.svg",
+      "bytes": 190555,
+      "sha256": "2e15273f3563dce4ff99ed01e9b5a15bee7e9177d272542cbb8ae1d6ad2ae696"
+    },
+    {
+      "path": "screens/svg/chat-empty--tr--ios--200.svg",
+      "bytes": 190917,
+      "sha256": "21cb3e4e96fa799ca2e414b1cb4f617ad2e78841d051f33205cdc6fb489d273a"
+    },
+    {
+      "path": "screens/svg/chat-failed--en--android--100.svg",
+      "bytes": 83091,
+      "sha256": "fb9044afa3fdb59c12c6c784b02a36cbba41fcdbc2ccddd42645e282de2e6693"
+    },
+    {
+      "path": "screens/svg/chat-failed--en--android--200.svg",
+      "bytes": 83220,
+      "sha256": "713aa2b54d7a849832b6010ff9d9a502c4e4acee6fa3d780687ba896cb4c9c91"
+    },
+    {
+      "path": "screens/svg/chat-failed--en--ios--100.svg",
+      "bytes": 83102,
+      "sha256": "9d7f1492fb6d4dd07a746503e6ab041378c3a9c51b8f80ed5acf23485eed62c6"
+    },
+    {
+      "path": "screens/svg/chat-failed--en--ios--200.svg",
+      "bytes": 83327,
+      "sha256": "56ecaaeb5646035b8d25b7b6aa0a41e197e499130a396b5b9742c7f12446173b"
+    },
+    {
+      "path": "screens/svg/chat-failed--tr--android--100.svg",
+      "bytes": 83090,
+      "sha256": "14044c34f2e3d61fe6c79e6f1dde85e2ac831725086133e15c0b375fcb399061"
+    },
+    {
+      "path": "screens/svg/chat-failed--tr--android--200.svg",
+      "bytes": 83315,
+      "sha256": "b79e883aa1b3dc3f62400a9b07c6d16014d73f5508db8f0e166011d5819e83ed"
+    },
+    {
+      "path": "screens/svg/chat-failed--tr--ios--100.svg",
+      "bytes": 83101,
+      "sha256": "fa420cad66f36d08fad959d1782f51c9790e4ae1ccecae5c21439a6de08775cc"
+    },
+    {
+      "path": "screens/svg/chat-failed--tr--ios--200.svg",
+      "bytes": 83326,
+      "sha256": "ac1fde8dabfeb82261f0536b1c40297a82f5fd381bb58de998fa9c864357f3ba"
+    },
+    {
+      "path": "screens/svg/chat-limit--en--android--100.svg",
+      "bytes": 190797,
+      "sha256": "5d1dc777d5695a0cb527596c9120095b1481184292878263b581527830625c9e"
+    },
+    {
+      "path": "screens/svg/chat-limit--en--android--200.svg",
+      "bytes": 191299,
+      "sha256": "51c53040270aef36b1d26149b05b1fc0c17291ff2838775a3581592fedd81514"
+    },
+    {
+      "path": "screens/svg/chat-limit--en--ios--100.svg",
+      "bytes": 190807,
+      "sha256": "ed51c4dd11483be89bb326212f1fcf87dc9c3e9113e238dc3408821edf8ec7ac"
+    },
+    {
+      "path": "screens/svg/chat-limit--en--ios--200.svg",
+      "bytes": 191361,
+      "sha256": "d8293b7b68dce4e8cab11c55119bdd5e77eee06e4b3ef4dd0026690940b2c0de"
+    },
+    {
+      "path": "screens/svg/chat-limit--tr--android--100.svg",
+      "bytes": 190733,
+      "sha256": "c2452ee0503af2b963705853fff370f8b0812c9b746056f65e5d99acb1a44f8e"
+    },
+    {
+      "path": "screens/svg/chat-limit--tr--android--200.svg",
+      "bytes": 191266,
+      "sha256": "1910f8e4d8f200806a7433f6ef39f58d25aef7eda86ab667290bc20b6a7924ca"
+    },
+    {
+      "path": "screens/svg/chat-limit--tr--ios--100.svg",
+      "bytes": 190810,
+      "sha256": "3087121d5c9cfef4e12cdbac5794be3ec6ca437f2070b172c6818141c1246f3d"
+    },
+    {
+      "path": "screens/svg/chat-limit--tr--ios--200.svg",
+      "bytes": 191356,
+      "sha256": "d53569f5081b462bc45ca424813e9e06647611898272ea67cb9bd14c7f9e012c"
+    },
+    {
+      "path": "screens/svg/chat-loading--en--android--100.svg",
+      "bytes": 82699,
+      "sha256": "a8bbc757d8da7a4df14a81a2618c1f7c7f45e3b7a9d7e7b4b7fafc609e154ecb"
+    },
+    {
+      "path": "screens/svg/chat-loading--en--android--200.svg",
+      "bytes": 82799,
+      "sha256": "3c3ca991038d76887641d3461b50bd2a1c49a3bceaff994dfd7ac532dcbfc22d"
+    },
+    {
+      "path": "screens/svg/chat-loading--en--ios--100.svg",
+      "bytes": 82710,
+      "sha256": "457b591c94b880a2f3ab7fb812cac0dcff0bd30e5b6816f49d43943a71c84be8"
+    },
+    {
+      "path": "screens/svg/chat-loading--en--ios--200.svg",
+      "bytes": 82799,
+      "sha256": "af371fac6b0984b83853d9ab9c0063e91fec70db2600d2a00c77baf4f5089ffc"
+    },
+    {
+      "path": "screens/svg/chat-loading--tr--android--100.svg",
+      "bytes": 82704,
+      "sha256": "ade921184463dd4c039c9708050b2b7c17faed95b4fcd8ac0d6bbc2b6410fda8"
+    },
+    {
+      "path": "screens/svg/chat-loading--tr--android--200.svg",
+      "bytes": 82705,
+      "sha256": "1d2ac6b47a1437d8d61841b5ae76dc90170fd24cc299436d12c30d79d873c482"
+    },
+    {
+      "path": "screens/svg/chat-loading--tr--ios--100.svg",
+      "bytes": 82715,
+      "sha256": "5e886668c29a9767cb263f6d1bb1a2a33a7959f37d9f4affc3d03d8097118257"
+    },
+    {
+      "path": "screens/svg/chat-loading--tr--ios--200.svg",
+      "bytes": 82804,
+      "sha256": "976886882a95f6742b2f32f8597a35cdc25bff7c267e79d61e74f233779d3b47"
+    },
+    {
+      "path": "screens/svg/chat-mutual--en--android--100.svg",
+      "bytes": 190579,
+      "sha256": "fe1d83e5080267e4f0a4e00c0d21c17d5a945f58d127a4bac85a69041e0e5290"
+    },
+    {
+      "path": "screens/svg/chat-mutual--en--android--200.svg",
+      "bytes": 190885,
+      "sha256": "fd31bbd9cda0e4184e2f8fcb94f31f30a342416d87e5834fc6ea39f8d965553a"
+    },
+    {
+      "path": "screens/svg/chat-mutual--en--ios--100.svg",
+      "bytes": 190686,
+      "sha256": "e1b38aefdf0223937b631c29b9869856c8a6deafea84324e213ab6414f0a237e"
+    },
+    {
+      "path": "screens/svg/chat-mutual--en--ios--200.svg",
+      "bytes": 190867,
+      "sha256": "58359bc332443f691fdf41167a16ba78e212f5b1abbdfc91bac7792b4ac556c9"
+    },
+    {
+      "path": "screens/svg/chat-mutual--tr--android--100.svg",
+      "bytes": 190468,
+      "sha256": "54656417f70c90ce2aaf5b666fc32972b367b1800a29a2b6fe8b81722230d267"
+    },
+    {
+      "path": "screens/svg/chat-mutual--tr--android--200.svg",
+      "bytes": 190861,
+      "sha256": "4a8c2bd554add2833eb89398ecf1efa13d1f98b851b34d60d588921e5fa40a49"
+    },
+    {
+      "path": "screens/svg/chat-mutual--tr--ios--100.svg",
+      "bytes": 190594,
+      "sha256": "839a277c6222a7e3753c654709f0d4e082159686833d83a765366dbaeb64c1c8"
+    },
+    {
+      "path": "screens/svg/chat-mutual--tr--ios--200.svg",
+      "bytes": 190888,
+      "sha256": "4fff1e811f9fa2a1ad17e89dfba8b4c41a09d5dbe6c5f0e879f7b8c232e038d6"
+    },
+    {
+      "path": "screens/svg/chat-offline--en--android--100.svg",
+      "bytes": 191379,
+      "sha256": "a3a9523cc3a44aa4fd4e5fb26455288970ea43103bea28beec537944d417aa26"
+    },
+    {
+      "path": "screens/svg/chat-offline--en--android--200.svg",
+      "bytes": 191912,
+      "sha256": "c10297db3b2c794a3475b3399e2f1c9366743eba72778e676206c23c86c67c7d"
+    },
+    {
+      "path": "screens/svg/chat-offline--en--ios--100.svg",
+      "bytes": 191389,
+      "sha256": "11016e772c1223afa0e1c892ffc84869ca02edf607f1ad290d1a73d658574131"
+    },
+    {
+      "path": "screens/svg/chat-offline--en--ios--200.svg",
+      "bytes": 191911,
+      "sha256": "0671c47830c7d2869cca88fa63a73e8e4efbdc0fc146b96532bb611a25677e74"
+    },
+    {
+      "path": "screens/svg/chat-offline--tr--android--100.svg",
+      "bytes": 191378,
+      "sha256": "594e3695a5dbc93c2c9296f2ce0bf3ece9315b58adb067e505fbd37701d1fa15"
+    },
+    {
+      "path": "screens/svg/chat-offline--tr--android--200.svg",
+      "bytes": 192037,
+      "sha256": "a32e67014448028c150e67d53b0832af9d49f19a90a6f9ff900df791cb4ab0c5"
+    },
+    {
+      "path": "screens/svg/chat-offline--tr--ios--100.svg",
+      "bytes": 191409,
+      "sha256": "ce90c5e5c547a4e7c210a71cd312376ec9f94a9edf653e27af59f9e0d3ec003c"
+    },
+    {
+      "path": "screens/svg/chat-offline--tr--ios--200.svg",
+      "bytes": 192230,
+      "sha256": "c3e964f2eb1980892f8f01298796f14987919cf3c50c09d486066818be9c3075"
+    },
+    {
+      "path": "screens/svg/chat-over-limit--en--android--100.svg",
+      "bytes": 191434,
+      "sha256": "76b83ccdf190c126a2e6a154ee13df81ecf65419cd0eed659beaa0c64d0481f0"
+    },
+    {
+      "path": "screens/svg/chat-over-limit--en--android--200.svg",
+      "bytes": 191953,
+      "sha256": "c5c7ce650ed73f3ef1a8f4b3dc37405e0e625e844fe7de104747df319da41459"
+    },
+    {
+      "path": "screens/svg/chat-over-limit--en--ios--100.svg",
+      "bytes": 191440,
+      "sha256": "ddc21d657c2049ea7ca1fba36ff2b8f7f53223c569a1c31c9c244dc09a9d7f15"
+    },
+    {
+      "path": "screens/svg/chat-over-limit--en--ios--200.svg",
+      "bytes": 191961,
+      "sha256": "3d5d64b1d7e2c9c39d25597e82d4210104ba26ba5b22819a7df842e789dc7a5d"
+    },
+    {
+      "path": "screens/svg/chat-over-limit--tr--android--100.svg",
+      "bytes": 191440,
+      "sha256": "e38e419c0142b8bf71c03cbc1d4beca3cf1604be203dd631d92b7fae8849064b"
+    },
+    {
+      "path": "screens/svg/chat-over-limit--tr--android--200.svg",
+      "bytes": 191964,
+      "sha256": "d502c566c67b4c98bb1b087d70035b5cbc30e48c28ae764df58ad7992a331690"
+    },
+    {
+      "path": "screens/svg/chat-over-limit--tr--ios--100.svg",
+      "bytes": 191447,
+      "sha256": "f24df0897bfcd5a32112e6db10919afc7d537b20e5d9ac0d5e394fa9e0c3186c"
+    },
+    {
+      "path": "screens/svg/chat-over-limit--tr--ios--200.svg",
+      "bytes": 192157,
+      "sha256": "e8091dd9f9c4d1594b78b84cab21de5223e3272b30fea56c32de31ec3ece039e"
+    },
+    {
+      "path": "screens/svg/chat-send-failed--en--android--100.svg",
+      "bytes": 191447,
+      "sha256": "648fa59867923f137f3e0ea8fcea7d760f6e7be6df8edd675473a0f38d1d5200"
+    },
+    {
+      "path": "screens/svg/chat-send-failed--en--android--200.svg",
+      "bytes": 192117,
+      "sha256": "c1e32e6e2ece99b26e1fdb0a4100627a56bf7aa460d96064274f3773d4ba81bc"
+    },
+    {
+      "path": "screens/svg/chat-send-failed--en--ios--100.svg",
+      "bytes": 191457,
+      "sha256": "06f4d99f6962034264eb94f1c26213eb21b597d6767ef3c22de37ada3c877b0d"
+    },
+    {
+      "path": "screens/svg/chat-send-failed--en--ios--200.svg",
+      "bytes": 192117,
+      "sha256": "4b766dd02c82dba23397584aeaf8c0a396e9c86bc3d19527fb44869d0664621a"
+    },
+    {
+      "path": "screens/svg/chat-send-failed--tr--android--100.svg",
+      "bytes": 191589,
+      "sha256": "ba6de6821beb504245c98689a01101af460f81e1bfeeee73f2346ddb92d3d2bb"
+    },
+    {
+      "path": "screens/svg/chat-send-failed--tr--android--200.svg",
+      "bytes": 192225,
+      "sha256": "4471b524157593921eb8130a40499d026dc0ab18873f24862cd3b46faff9f9e7"
+    },
+    {
+      "path": "screens/svg/chat-send-failed--tr--ios--100.svg",
+      "bytes": 191462,
+      "sha256": "776dc80def1d7fd8cce325cac35b65ca4be1fa55c1559d75035669ef94b39986"
+    },
+    {
+      "path": "screens/svg/chat-send-failed--tr--ios--200.svg",
+      "bytes": 192418,
+      "sha256": "835350e7db8b436d727346953015971f4e8df7202bc011042493c67abf11e2ff"
+    },
+    {
+      "path": "screens/svg/chat-sending--en--android--100.svg",
+      "bytes": 191344,
+      "sha256": "8a2b9f2039b4551a9b7c951fc332ff6f9edd935cc9b74a464513319239cffa32"
+    },
+    {
+      "path": "screens/svg/chat-sending--en--android--200.svg",
+      "bytes": 191976,
+      "sha256": "29f6c53bfd57d7a9a2dc70f19da9de59ada4bbb38cf74fa7a6b285f83c5cb9e6"
+    },
+    {
+      "path": "screens/svg/chat-sending--en--ios--100.svg",
+      "bytes": 191354,
+      "sha256": "a6a8e00c4ce74370b42cea6cb7547734cc8fdebfb0d0d8eb476931278e810eb6"
+    },
+    {
+      "path": "screens/svg/chat-sending--en--ios--200.svg",
+      "bytes": 191975,
+      "sha256": "5d79a5f34ce007d4ae2334e0e2f155e69727fb6e93771e2351ede1c26e789629"
+    },
+    {
+      "path": "screens/svg/chat-sending--tr--android--100.svg",
+      "bytes": 191334,
+      "sha256": "7921291a93bd515c1ddbb7d792135d76e9d32b2bb4aaab5739f22940a769e51d"
+    },
+    {
+      "path": "screens/svg/chat-sending--tr--android--200.svg",
+      "bytes": 191993,
+      "sha256": "325e9f6842407549435136a1f5de5f49563a829965a35903b5e8fbd9f99d1e1e"
+    },
+    {
+      "path": "screens/svg/chat-sending--tr--ios--100.svg",
+      "bytes": 191365,
+      "sha256": "b51469eeadf97c35ab01bd274630d42a30503816d3b94f0b1f8fb3dbe76368f4"
+    },
+    {
+      "path": "screens/svg/chat-sending--tr--ios--200.svg",
+      "bytes": 192186,
+      "sha256": "1c65f0140bae26dd2ad3b8884589a14def14813fa74ad085b1ef1b8ef23e449c"
+    },
+    {
+      "path": "screens/svg/chat-soft-failed--en--android--100.svg",
+      "bytes": 84363,
+      "sha256": "dcd586eb1632635c1085b88b6dacb6aa5678868b2cfd1f9d97b635cf1392215d"
+    },
+    {
+      "path": "screens/svg/chat-soft-failed--en--android--200.svg",
+      "bytes": 85381,
+      "sha256": "376d71ff772bc95c566c3ac2a798642178430bbb6932aaa8a993a609ec0e0fa7"
+    },
+    {
+      "path": "screens/svg/chat-soft-failed--en--ios--100.svg",
+      "bytes": 84362,
+      "sha256": "a94668409081348e1d33003cbb43861ea975fe99d61e37cde68ecc810db6eb45"
+    },
+    {
+      "path": "screens/svg/chat-soft-failed--en--ios--200.svg",
+      "bytes": 85369,
+      "sha256": "ac7a00d92df0ff6fd8a17a9355d4cdcd3b0b23d6c0f8c731390aa6c4841b8d4a"
+    },
+    {
+      "path": "screens/svg/chat-soft-failed--tr--android--100.svg",
+      "bytes": 84407,
+      "sha256": "5daf30e6d46bc8e520c80b8ac2bc848a1c446002d4d597d270f7b016b89afead"
+    },
+    {
+      "path": "screens/svg/chat-soft-failed--tr--android--200.svg",
+      "bytes": 85435,
+      "sha256": "1f9a1771cffd0c75b738469383cfab28f75190a7979e69755cf2f0c834670d36"
+    },
+    {
+      "path": "screens/svg/chat-soft-failed--tr--ios--100.svg",
+      "bytes": 84406,
+      "sha256": "be5bea903c15f14a8a2c23e0637370bdc61337c0281dc5293bc3414e9c379c1d"
+    },
+    {
+      "path": "screens/svg/chat-soft-failed--tr--ios--200.svg",
+      "bytes": 85424,
+      "sha256": "fd65a882533b91aadce85a02031ad6c4128568d683c1b59bb61233f156703d89"
+    },
+    {
+      "path": "screens/svg/chat-soft-sending--en--android--100.svg",
+      "bytes": 84264,
+      "sha256": "acae6ca819da6a88d4aa6ea1bb05b8298cad6b5bdee480f52167fb70277a18eb"
+    },
+    {
+      "path": "screens/svg/chat-soft-sending--en--android--200.svg",
+      "bytes": 85245,
+      "sha256": "057014b6e06c1a2df30f6902198d6c5778829f20f36e287a6abbd8ab1adbc7ea"
+    },
+    {
+      "path": "screens/svg/chat-soft-sending--en--ios--100.svg",
+      "bytes": 84263,
+      "sha256": "75f43b82331430d5ebec7c632d759a8af0e391c06db5b15256f2ce331e11fa36"
+    },
+    {
+      "path": "screens/svg/chat-soft-sending--en--ios--200.svg",
+      "bytes": 85233,
+      "sha256": "e052e0036372a870bfc184f7b6435eb6e860c31f09c4b374c7db3c88b6f081e6"
+    },
+    {
+      "path": "screens/svg/chat-soft-sending--tr--android--100.svg",
+      "bytes": 84314,
+      "sha256": "9e9e09a61b75d9dddb5494a2081a0368f1cf29c72bc24ec5ab26b68792efec13"
+    },
+    {
+      "path": "screens/svg/chat-soft-sending--tr--android--200.svg",
+      "bytes": 85275,
+      "sha256": "f7f94eace28aa1a5c59f7ba19da78438cda7235dc7bb31545b18fcc527b90ba7"
+    },
+    {
+      "path": "screens/svg/chat-soft-sending--tr--ios--100.svg",
+      "bytes": 84313,
+      "sha256": "f33c0229c9527c0708a2372697ed6c1c4fef48cbb564f08aa9f2431d300202b4"
+    },
+    {
+      "path": "screens/svg/chat-soft-sending--tr--ios--200.svg",
+      "bytes": 85352,
+      "sha256": "f5f438348eaaf4caaed2299f8be1e65901bb2c00ca22e3f05fa5f72ba9d14429"
+    },
+    {
+      "path": "screens/svg/chat-soft-warning--en--android--100.svg",
+      "bytes": 83811,
+      "sha256": "b5a4806499ce2b5dfc90e3d8f93dbd736af0e4052e70b8385f5b7fd4775f3119"
+    },
+    {
+      "path": "screens/svg/chat-soft-warning--en--android--200.svg",
+      "bytes": 84573,
+      "sha256": "7402c05f74dc38816dca7da9aa72aaffc5ce954ffa8299d9ebfcfeafc12ec11c"
+    },
+    {
+      "path": "screens/svg/chat-soft-warning--en--ios--100.svg",
+      "bytes": 83810,
+      "sha256": "c54e865778c664c78dc9ff89deff76f629713a6655d71d6c953a78c95339ab72"
+    },
+    {
+      "path": "screens/svg/chat-soft-warning--en--ios--200.svg",
+      "bytes": 84561,
+      "sha256": "01d9b0b0ffaa3703e38886d689c0277d93f1467d02c936111eecd03ccbb0812d"
+    },
+    {
+      "path": "screens/svg/chat-soft-warning--tr--android--100.svg",
+      "bytes": 83859,
+      "sha256": "8df4c238d8bac7ed36dc4eee139e847e75fa7377da90f47862f02d68a4ba72ca"
+    },
+    {
+      "path": "screens/svg/chat-soft-warning--tr--android--200.svg",
+      "bytes": 84696,
+      "sha256": "d0e239e284149edd9c3e4d65ad08e5030b69c31f56fbdde3a8f7cb83b925232e"
+    },
+    {
+      "path": "screens/svg/chat-soft-warning--tr--ios--100.svg",
+      "bytes": 83858,
+      "sha256": "01b97871d3969a4c23ef1ac073192ffb756150d5387371fa629eb4e8d095ebd0"
+    },
+    {
+      "path": "screens/svg/chat-soft-warning--tr--ios--200.svg",
+      "bytes": 84685,
+      "sha256": "28b70c456c5b7bfb6cc3beeea4f23dc4a5d57ffe8ed4b29c25a53f62ce53ef75"
+    },
+    {
+      "path": "screens/svg/chat-unavailable--en--android--100.svg",
+      "bytes": 82989,
+      "sha256": "bf9c6c8c26c2e3f18537a2ba6d7e5df96228c1210abb4068c35390a3de67f2ef"
+    },
+    {
+      "path": "screens/svg/chat-unavailable--en--android--200.svg",
+      "bytes": 83105,
+      "sha256": "87e9240339794415c46eadcf71917c935e3e3a5ad86aac161ae55768a2972171"
+    },
+    {
+      "path": "screens/svg/chat-unavailable--en--ios--100.svg",
+      "bytes": 83000,
+      "sha256": "0c31ada78f00d81f7eb241eaf869096db2a06ffb0a8fa41dba6312f6ef39669d"
+    },
+    {
+      "path": "screens/svg/chat-unavailable--en--ios--200.svg",
+      "bytes": 83216,
+      "sha256": "6ded0cc26de263337bb199dc44b4863d1dee890086554d69d149ea6ad815b40e"
+    },
+    {
+      "path": "screens/svg/chat-unavailable--tr--android--100.svg",
+      "bytes": 82994,
+      "sha256": "2bf5275f1b4b3ddc7dc717d4672c3765cf51454d09c2e5157b7e5eb3cc6e4d79"
+    },
+    {
+      "path": "screens/svg/chat-unavailable--tr--android--200.svg",
+      "bytes": 83110,
+      "sha256": "9e417b0854067263c95d12c4b21a4116334cff780fbc1f50e71c8ee8834d0e97"
+    },
+    {
+      "path": "screens/svg/chat-unavailable--tr--ios--100.svg",
+      "bytes": 83005,
+      "sha256": "29a50b2f4f368bd797d4a5db64a73cc50566378a066125251108247234b8fed5"
+    },
+    {
+      "path": "screens/svg/chat-unavailable--tr--ios--200.svg",
+      "bytes": 83110,
+      "sha256": "76876ecb66268f07f296c665afacbadd574cf9340f0c3ebdaefcde4460dd3cb6"
+    },
+    {
+      "path": "screens/svg/chat-unknown--en--android--100.svg",
+      "bytes": 191755,
+      "sha256": "6505f3aca1bfc8380272845c60cdb1c4b4705f23c5e9b3e89b4b09f98e481d45"
+    },
+    {
+      "path": "screens/svg/chat-unknown--en--android--200.svg",
+      "bytes": 192562,
+      "sha256": "d9c51e7f439bf80a324c0adf0d9ebde5b73146ba002ad1d28ea3725e9ea6e631"
+    },
+    {
+      "path": "screens/svg/chat-unknown--en--ios--100.svg",
+      "bytes": 191770,
+      "sha256": "86f1d7a976b540754a9a0b270fe2d39bc3e62a45571d13d61d662702d7691c0e"
+    },
+    {
+      "path": "screens/svg/chat-unknown--en--ios--200.svg",
+      "bytes": 192648,
+      "sha256": "3ecb14c1259f552d4360606c2c97fedf4ef2d687f0c6eb83fde53b898fde6676"
+    },
+    {
+      "path": "screens/svg/chat-unknown--tr--android--100.svg",
+      "bytes": 191667,
+      "sha256": "412d421c13e4dc2a18142cd1a4ddcad5a27ac4069c2d5f5da2f20898a1287522"
+    },
+    {
+      "path": "screens/svg/chat-unknown--tr--android--200.svg",
+      "bytes": 192829,
+      "sha256": "a9aba2a6340db781473a2b564b1bc6c0bdcb354599de611442e14c852f208349"
+    },
+    {
+      "path": "screens/svg/chat-unknown--tr--ios--100.svg",
+      "bytes": 191801,
+      "sha256": "f6ea61b321e883e2119dd2fb9a1a740a273192747b40ea400ed69b1b8d423d4f"
+    },
+    {
+      "path": "screens/svg/chat-unknown--tr--ios--200.svg",
+      "bytes": 193073,
+      "sha256": "e48448ed0c31692715bc66f6ea4ff15fccc41d3bc387e0da71749d827434e320"
+    },
+    {
+      "path": "screens/svg/contact-all--en--android--100.svg",
+      "bytes": 86713,
+      "sha256": "ad12e6a251025e303a90fabbcdd7f0a3fb9de385889de0f526b72a973c151f7f"
+    },
+    {
+      "path": "screens/svg/contact-all--en--android--200.svg",
+      "bytes": 87625,
+      "sha256": "8b0b092ea134e5af42d7cf559e66bb301c53bb6c35bed873c926e6ba682c0aa8"
+    },
+    {
+      "path": "screens/svg/contact-all--en--ios--100.svg",
+      "bytes": 86800,
+      "sha256": "5b011bfdae2f9933000245664aca293e8fb4cf1459a8c124f68c47c67df78717"
+    },
+    {
+      "path": "screens/svg/contact-all--en--ios--200.svg",
+      "bytes": 87626,
+      "sha256": "1f50e64bb8363cf07818bd815cbfc5ca1ced4b165fb57affff943616853ed12f"
+    },
+    {
+      "path": "screens/svg/contact-all--tr--android--100.svg",
+      "bytes": 86590,
+      "sha256": "28092d8530d92431668e3b07edd176b906973ed7b15b257357e2f7d9d6470026"
+    },
+    {
+      "path": "screens/svg/contact-all--tr--android--200.svg",
+      "bytes": 87658,
+      "sha256": "ae76da904ca8738cbdff0dd389ae3516b1a25bbd2dcecd936598d4cd650c888f"
+    },
+    {
+      "path": "screens/svg/contact-all--tr--ios--100.svg",
+      "bytes": 86855,
+      "sha256": "9f37b1fadd3555b344a612d2d266d1f9aaf81b728890740c8763818976f69649"
+    },
+    {
+      "path": "screens/svg/contact-all--tr--ios--200.svg",
+      "bytes": 87659,
+      "sha256": "7f6364d2b1e9159aaba6f9a961af1589ed42b282c273235827424eaa7836fc9b"
+    },
+    {
+      "path": "screens/svg/contact-edit--en--android--100.svg",
+      "bytes": 83774,
+      "sha256": "96be3cd3bc775cde31fc335d637e2beeaba3cd3e44e74fc4a72564849597e1a9"
+    },
+    {
+      "path": "screens/svg/contact-edit--en--android--200.svg",
+      "bytes": 84333,
+      "sha256": "87ec0d7a37459ee91b5d62e7a3c7d15de3af57bc4de25d36a0f172c4dca29a6a"
+    },
+    {
+      "path": "screens/svg/contact-edit--en--ios--100.svg",
+      "bytes": 83784,
+      "sha256": "c436ad3e7493ce25dd9810ba2aebf900e9702fa8be0d3ed9830bf1060f9ff690"
+    },
+    {
+      "path": "screens/svg/contact-edit--en--ios--200.svg",
+      "bytes": 84332,
+      "sha256": "214d273ddf5dd1024d4d0759144f33fa90b5b7a510a2342c91b22c986c70cd47"
+    },
+    {
+      "path": "screens/svg/contact-edit--tr--android--100.svg",
+      "bytes": 84073,
+      "sha256": "a1b8544998ec425b1793ca911ad28775f8a0e5b90fc3c3c29b3e48b0210c1cc5"
+    },
+    {
+      "path": "screens/svg/contact-edit--tr--android--200.svg",
+      "bytes": 84578,
+      "sha256": "8b422f7b7f2fc0bc60ce1988bdcbda623ae32873c8d9133764b01f2b1eb1be93"
+    },
+    {
+      "path": "screens/svg/contact-edit--tr--ios--100.svg",
+      "bytes": 84061,
+      "sha256": "880f5245c910e80ccb487df234a8ede98b75b8330bfb2815e9d0ebf9ed83855a"
+    },
+    {
+      "path": "screens/svg/contact-edit--tr--ios--200.svg",
+      "bytes": 84589,
+      "sha256": "d55e416a821ed628c69451cb7012b00757243f194c657e700c8bc202294fdd86"
+    },
+    {
+      "path": "screens/svg/contact-empty--en--android--100.svg",
+      "bytes": 85527,
+      "sha256": "fa9a0082dcf8320fdf69643f72de237395ee4d697035cd18e80494a7fc4fef3b"
+    },
+    {
+      "path": "screens/svg/contact-empty--en--android--200.svg",
+      "bytes": 86445,
+      "sha256": "13da5b1f90abc63161f2d812709204fa3b588913da938157aea0c6ebd3b6c2bb"
+    },
+    {
+      "path": "screens/svg/contact-empty--en--ios--100.svg",
+      "bytes": 85527,
+      "sha256": "fe5062e288ecb6971443d184feb159746e1764abfba65deeacd315b514b2c5cc"
+    },
+    {
+      "path": "screens/svg/contact-empty--en--ios--200.svg",
+      "bytes": 86446,
+      "sha256": "a0112ba15c1e86639ac8d7521b96dbabc969eb26746ccd0a982a0b40afbb4410"
+    },
+    {
+      "path": "screens/svg/contact-empty--tr--android--100.svg",
+      "bytes": 85655,
+      "sha256": "8986bb522ecb0cba15d6d0963e6eaea7bcbd0609936723e0862b80d8548d907c"
+    },
+    {
+      "path": "screens/svg/contact-empty--tr--android--200.svg",
+      "bytes": 86322,
+      "sha256": "547d7fb36a8031afbe566c60effb880e0ea9ba41e98615c4d7d1c3bd7950cf0c"
+    },
+    {
+      "path": "screens/svg/contact-empty--tr--ios--100.svg",
+      "bytes": 85668,
+      "sha256": "9174ca666ba6e5014b54b2cc39d84252cb603e9a15cda0f6b7862aecc7ca32a2"
+    },
+    {
+      "path": "screens/svg/contact-empty--tr--ios--200.svg",
+      "bytes": 86323,
+      "sha256": "d7c505efc8d38d44476d92cc5baf5055b55c70fb96905779a2a00715534b0844"
+    },
+    {
+      "path": "screens/svg/contact-failed--en--android--100.svg",
+      "bytes": 83485,
+      "sha256": "d4e9358f704f4106131b332d786e3eb616a8688457bdc502979c8a8d618d0058"
+    },
+    {
+      "path": "screens/svg/contact-failed--en--android--200.svg",
+      "bytes": 83741,
+      "sha256": "ab36d748f5386703f89ea00b528c2d24269a9773a864a73b87f31fb539d75c4a"
+    },
+    {
+      "path": "screens/svg/contact-failed--en--ios--100.svg",
+      "bytes": 83472,
+      "sha256": "0fc39c104626c22dfa3e3341d3c1ac99e8baf2f1421ddce5bdde6113abcd997f"
+    },
+    {
+      "path": "screens/svg/contact-failed--en--ios--200.svg",
+      "bytes": 83950,
+      "sha256": "ff48f828cae3ad197e45c83668a9debc267e42ba1a246d863daa5e3b6cfbfc3b"
+    },
+    {
+      "path": "screens/svg/contact-failed--tr--android--100.svg",
+      "bytes": 83361,
+      "sha256": "9780d60bb4a2979d62d3d0b8cddd5b9de1aa8d6ade6661d60029a7fb5c1f9d26"
+    },
+    {
+      "path": "screens/svg/contact-failed--tr--android--200.svg",
+      "bytes": 83957,
+      "sha256": "c8f1f250cf8099510d08e418f74a8e1fbb0170b07bf270db50591082ec257644"
+    },
+    {
+      "path": "screens/svg/contact-failed--tr--ios--100.svg",
+      "bytes": 83482,
+      "sha256": "79ec97989cc7df781ff11c7300458c7a5540d6270f5cbb45acb87d9e6251d5f3"
+    },
+    {
+      "path": "screens/svg/contact-failed--tr--ios--200.svg",
+      "bytes": 83960,
+      "sha256": "4bdb6bfcb8973f2f72c43994a3b4453a134f76d7037fdc3740d4b33d0b37c00c"
+    },
+    {
+      "path": "screens/svg/contact-filled--en--android--100.svg",
+      "bytes": 85790,
+      "sha256": "64366d03ebf17d2ef6bc134db1a7266b5001c3b36fc2ca2e810a7b2d4295ed35"
+    },
+    {
+      "path": "screens/svg/contact-filled--en--android--200.svg",
+      "bytes": 86513,
+      "sha256": "621c03c8a3e798aa6045e3ef0cfce97dd6daced60054a0b8fd2a25e233177305"
+    },
+    {
+      "path": "screens/svg/contact-filled--en--ios--100.svg",
+      "bytes": 85792,
+      "sha256": "f20c55b2e6a606998a2ba6a205e98a37649f13574b972ad6f0a93b47afe75303"
+    },
+    {
+      "path": "screens/svg/contact-filled--en--ios--200.svg",
+      "bytes": 86514,
+      "sha256": "127d82378513cff80127fb38cd07b5bc82916d9bf4de8e08d7d8c2432d8655be"
+    },
+    {
+      "path": "screens/svg/contact-filled--tr--android--100.svg",
+      "bytes": 85856,
+      "sha256": "35e420284aa888a7f0fc8b5c75578eedbb45ee2e874b08a2f44b89bed632c352"
+    },
+    {
+      "path": "screens/svg/contact-filled--tr--android--200.svg",
+      "bytes": 86650,
+      "sha256": "1c9738c7c2d35628cc8a2f3573aab96970aca41760fd9a6df1e825be8f70a4d8"
+    },
+    {
+      "path": "screens/svg/contact-filled--tr--ios--100.svg",
+      "bytes": 85939,
+      "sha256": "41527127273122906409d795991f5432d0c88153a6f62053c82dc35ee4bedb2f"
+    },
+    {
+      "path": "screens/svg/contact-filled--tr--ios--200.svg",
+      "bytes": 86651,
+      "sha256": "be0716a58ebdb9188f7d4da39b494a3ccb476f5097698101daabd359f4003549"
+    },
+    {
+      "path": "screens/svg/contact-invalid--en--android--100.svg",
+      "bytes": 85876,
+      "sha256": "7bb8813b298f74d5b203be42cb6f4d42eeaa38b1c8e1a132300aa76eddb79fef"
+    },
+    {
+      "path": "screens/svg/contact-invalid--en--android--200.svg",
+      "bytes": 86638,
+      "sha256": "7c74353adeef7afc21c87c1cdd9805bbf454b2556c19204223aa8f64414457d9"
+    },
+    {
+      "path": "screens/svg/contact-invalid--en--ios--100.svg",
+      "bytes": 85874,
+      "sha256": "69ee20e85d10002d61109941c62257b42718b250ccd2775891cf669e30c451c9"
+    },
+    {
+      "path": "screens/svg/contact-invalid--en--ios--200.svg",
+      "bytes": 86639,
+      "sha256": "a81d13396187357d584427ae67f5862e598f7fb9bbfe833eb2e271ec540781d8"
+    },
+    {
+      "path": "screens/svg/contact-invalid--tr--android--100.svg",
+      "bytes": 85991,
+      "sha256": "5c5c71277bfbb886a11269815a8d1e23ee22bad693c87eb676bc54fd519d26a1"
+    },
+    {
+      "path": "screens/svg/contact-invalid--tr--android--200.svg",
+      "bytes": 86803,
+      "sha256": "a94e94baf5b73f29ce2e98d999316d819c46b96f0f63ca88c16d80e4ca0e7628"
+    },
+    {
+      "path": "screens/svg/contact-invalid--tr--ios--100.svg",
+      "bytes": 86033,
+      "sha256": "29dae3ba683f1542e74c5f407bbbe1268ecf0ef4e02afb45fe69c4748071c8de"
+    },
+    {
+      "path": "screens/svg/contact-invalid--tr--ios--200.svg",
+      "bytes": 86804,
+      "sha256": "d453215acffd2adf60a0bf4b29b0a857a778ebbb08888838cd94c5536611624f"
+    },
+    {
+      "path": "screens/svg/contact-loading--en--android--100.svg",
+      "bytes": 83081,
+      "sha256": "e56d97f21afeb2b5307f388fb92e4ff945f921fcef6cd5dc901427abc3e2d5af"
+    },
+    {
+      "path": "screens/svg/contact-loading--en--android--200.svg",
+      "bytes": 83295,
+      "sha256": "7feeaffd64a1b8163ec2e8032f50455db87b217770954195eba6d655c0610ae9"
+    },
+    {
+      "path": "screens/svg/contact-loading--en--ios--100.svg",
+      "bytes": 83068,
+      "sha256": "fe914ea5254094f9fdfc4b6755cff178ccb8aea24e102e39b0c6f3cc4d3b1b48"
+    },
+    {
+      "path": "screens/svg/contact-loading--en--ios--200.svg",
+      "bytes": 83295,
+      "sha256": "3a34425e87cb614a4d2f9d896707c6d87e90fcfdd13a8207aee5960d4125a2ba"
+    },
+    {
+      "path": "screens/svg/contact-loading--tr--android--100.svg",
+      "bytes": 82975,
+      "sha256": "e009be7b25dcb3e269d2dfc50ecb5322530d018915d00ab65c03e1dc6ccc1047"
+    },
+    {
+      "path": "screens/svg/contact-loading--tr--android--200.svg",
+      "bytes": 83311,
+      "sha256": "baa6181e453dbe8af62fdaeaf75ff2a0ecb2f5fa4087f5bc04cc15ed7cd1c459"
+    },
+    {
+      "path": "screens/svg/contact-loading--tr--ios--100.svg",
+      "bytes": 83084,
+      "sha256": "8dde0208027c9bcd3f164b7f2d55dcc458f9789a635e69404658602bbbe25527"
+    },
+    {
+      "path": "screens/svg/contact-loading--tr--ios--200.svg",
+      "bytes": 83311,
+      "sha256": "272b8565c1302904b3f6688bed60cb8ea27f1dd70701d861df52969fbde77fac"
+    },
+    {
+      "path": "screens/svg/contact-none--en--android--100.svg",
+      "bytes": 84053,
+      "sha256": "acfc29d5e6797bcc1aa0a345361467323ab82ed6256b24a4624527f4f2b03edd"
+    },
+    {
+      "path": "screens/svg/contact-none--en--android--200.svg",
+      "bytes": 84827,
+      "sha256": "808be8c769b58854c525640a7edee49f53e54844d308bf69e79ee3a08783680a"
+    },
+    {
+      "path": "screens/svg/contact-none--en--ios--100.svg",
+      "bytes": 84052,
+      "sha256": "203286e612052263b005ff8ffe0ff737a282092fcaca95e5e45e37c66164bbf9"
+    },
+    {
+      "path": "screens/svg/contact-none--en--ios--200.svg",
+      "bytes": 84796,
+      "sha256": "f4923eaaa6ed506ef546727e6f2a404f1a2090758e1b866cfca854601f2689e6"
+    },
+    {
+      "path": "screens/svg/contact-none--tr--android--100.svg",
+      "bytes": 84008,
+      "sha256": "1e0ab8b274ec6f7b7afa55ceaee4710c3e9835f8999343a05729383d13fbbb1e"
+    },
+    {
+      "path": "screens/svg/contact-none--tr--android--200.svg",
+      "bytes": 84725,
+      "sha256": "e8ad59a3eed5477ff97eb97ac3d9167f03bbc963e012e487ccdf1a2e0f982e4e"
+    },
+    {
+      "path": "screens/svg/contact-none--tr--ios--100.svg",
+      "bytes": 84069,
+      "sha256": "038fc74ac9f4997be409f55dd8915c6eca9e754fc2790ecbbc91be2f36d5aff2"
+    },
+    {
+      "path": "screens/svg/contact-none--tr--ios--200.svg",
+      "bytes": 85026,
+      "sha256": "085ae85ffbe934e180b67214f9adaf1108c56d6ce4b42c457cc67d6212cec6b5"
+    },
+    {
+      "path": "screens/svg/contact-offline--en--android--100.svg",
+      "bytes": 83351,
+      "sha256": "192ed4e9889f08803a7fecebd4ec263f30a6534b5d729f431baf7c49c611c14b"
+    },
+    {
+      "path": "screens/svg/contact-offline--en--android--200.svg",
+      "bytes": 83504,
+      "sha256": "e947b99373cbc745c1d1f772b902d000fb42de87e6be3afa01ffcc72748ff7eb"
+    },
+    {
+      "path": "screens/svg/contact-offline--en--ios--100.svg",
+      "bytes": 83338,
+      "sha256": "068e1d88c6ce17a38f2d1940d6b49ba3f9e122425e10542a3102b8e7f4e24ac2"
+    },
+    {
+      "path": "screens/svg/contact-offline--en--ios--200.svg",
+      "bytes": 83529,
+      "sha256": "bc4d90abad4f8e3c028affc41361b25ac3634707efdfedc287d7dfb39101dc57"
+    },
+    {
+      "path": "screens/svg/contact-offline--tr--android--100.svg",
+      "bytes": 83249,
+      "sha256": "82d5def76d006ab0b85ac2d5e541efd8291a9f68484befea2efb662c876e047a"
+    },
+    {
+      "path": "screens/svg/contact-offline--tr--android--200.svg",
+      "bytes": 83601,
+      "sha256": "be14bf71d1dafbdde6f959c2e04f235600f09fe36b01a563ef88ec545c63c29d"
+    },
+    {
+      "path": "screens/svg/contact-offline--tr--ios--100.svg",
+      "bytes": 83358,
+      "sha256": "d945f4b38d6f5dfe96799a86ce37cafebb77b6a6c38fc40c068049a18923efb2"
+    },
+    {
+      "path": "screens/svg/contact-offline--tr--ios--200.svg",
+      "bytes": 83626,
+      "sha256": "bc4ad5d810e4c6e880b53119fe0cf3409ad2b822192f79d34857d4c1f87f77d6"
+    },
+    {
+      "path": "screens/svg/contact-one--en--android--100.svg",
+      "bytes": 85342,
+      "sha256": "807dba25a17f629dc605367ee199f149ac02af07a5ecced23b272092126c42ec"
+    },
+    {
+      "path": "screens/svg/contact-one--en--android--200.svg",
+      "bytes": 86063,
+      "sha256": "158bff1fa9907d021acea95d7bbffbd7853de38d0e7ad23ca2efcd55109e54a9"
+    },
+    {
+      "path": "screens/svg/contact-one--en--ios--100.svg",
+      "bytes": 85339,
+      "sha256": "0cbc3ad6245a4a48176564ca9588d31fb9170a21762bcdb85f5ce9f50aa0ea14"
+    },
+    {
+      "path": "screens/svg/contact-one--en--ios--200.svg",
+      "bytes": 86064,
+      "sha256": "646c890e90b61c7c2b3ee4cf47fb0c629b4659f02406248f652ba739fd58d6d5"
+    },
+    {
+      "path": "screens/svg/contact-one--tr--android--100.svg",
+      "bytes": 85443,
+      "sha256": "de95e6f70458f78819444efd06c360a1e56c7e4e3a33c85f600d488ec457deda"
+    },
+    {
+      "path": "screens/svg/contact-one--tr--android--200.svg",
+      "bytes": 86178,
+      "sha256": "5d81ff007777c3c0014b1ee246097baf276e94b5156eb26f9f99f406e6a74931"
+    },
+    {
+      "path": "screens/svg/contact-one--tr--ios--100.svg",
+      "bytes": 85486,
+      "sha256": "543e0862ef36e6b590dd1914aa013b439943fb43c4be7a7a7941fa4f71432976"
+    },
+    {
+      "path": "screens/svg/contact-one--tr--ios--200.svg",
+      "bytes": 86179,
+      "sha256": "05c067dd28d9a607e860af57f83a3a9623a569f683493f6454333dde4d1e53d0"
+    },
+    {
+      "path": "screens/svg/contact-received--en--android--100.svg",
+      "bytes": 83970,
+      "sha256": "ab1c738c360619082f30db5530ed69a00d7f30d19fac58debd286a2b0ad8cd64"
+    },
+    {
+      "path": "screens/svg/contact-received--en--android--200.svg",
+      "bytes": 84581,
+      "sha256": "88f1adf5df1455ba11d9acb1d9887fe4719ed124ddcca47ad3356fe3bc357536"
+    },
+    {
+      "path": "screens/svg/contact-received--en--ios--100.svg",
+      "bytes": 83957,
+      "sha256": "4d8c0d8d406d3786f4554ec648a0281e2d7caa1d2bf4e72cd93a09137a4824f8"
+    },
+    {
+      "path": "screens/svg/contact-received--en--ios--200.svg",
+      "bytes": 84671,
+      "sha256": "64603991bd1c47bd18f9d3bcb4dae854a592c12c9bf72109d4b76c7db313ac9c"
+    },
+    {
+      "path": "screens/svg/contact-received--tr--android--100.svg",
+      "bytes": 83875,
+      "sha256": "60c57140b68b2710c6ab9cba1137f0382b94449f7ebc49d4e6dde6dd63cccdf3"
+    },
+    {
+      "path": "screens/svg/contact-received--tr--android--200.svg",
+      "bytes": 84576,
+      "sha256": "3ae8d19c84ab3e17ac2c0ede7f79dccd7b99dbb787a6ef7624370107b8bfe02f"
+    },
+    {
+      "path": "screens/svg/contact-received--tr--ios--100.svg",
+      "bytes": 83972,
+      "sha256": "9ec2ff044acbe8e4d4dec495b6120befdbc36142b16c4a4c295675fed57d3560"
+    },
+    {
+      "path": "screens/svg/contact-received--tr--ios--200.svg",
+      "bytes": 84908,
+      "sha256": "a049a3b6a8fcf06f1fba7a5b7a816ab96cd54927b42eaa7ddd6b6b94883d09d9"
+    },
+    {
+      "path": "screens/svg/contact-share-failed--en--android--100.svg",
+      "bytes": 86390,
+      "sha256": "db221dbb9c5aea4d520965517bdba9d94f7d703f0daf54928abfc8fa0eef5be1"
+    },
+    {
+      "path": "screens/svg/contact-share-failed--en--android--200.svg",
+      "bytes": 87253,
+      "sha256": "d3d60a1596e6eb051b753983cd70c54c10edde82ca6f6b637a620183c4c0c5dc"
+    },
+    {
+      "path": "screens/svg/contact-share-failed--en--ios--100.svg",
+      "bytes": 86389,
+      "sha256": "e3f75285b61c7a2d3032825ba32585daf1f7a9b0a529e6571c699e1eabf72404"
+    },
+    {
+      "path": "screens/svg/contact-share-failed--en--ios--200.svg",
+      "bytes": 87351,
+      "sha256": "fae6577e31db0f6c9e70a4cb1b26dfc1eb21daef945287c1d4e45cb110eb48ab"
+    },
+    {
+      "path": "screens/svg/contact-share-failed--tr--android--100.svg",
+      "bytes": 86457,
+      "sha256": "5d8aa9ee9250d50dae6aded388a358d6aaea73a69632b0a62ae52dfd95316430"
+    },
+    {
+      "path": "screens/svg/contact-share-failed--tr--android--200.svg",
+      "bytes": 87463,
+      "sha256": "3df918cad676aa4152a0d947e2b620464400faa0ed3a8129f4db474b854abdd0"
+    },
+    {
+      "path": "screens/svg/contact-share-failed--tr--ios--100.svg",
+      "bytes": 86534,
+      "sha256": "867191aa04c200de683a183951faccfe93ef6beca83f476cc13bbca29d643dd0"
+    },
+    {
+      "path": "screens/svg/contact-share-failed--tr--ios--200.svg",
+      "bytes": 87464,
+      "sha256": "ebcf8172519265f69257b757012967158af7ab20d86a96c118f38b1f709cc14b"
+    },
+    {
+      "path": "screens/svg/contact-shared--en--android--100.svg",
+      "bytes": 85791,
+      "sha256": "ac85829bf54072183120018506ef7958595ac17f64cd223a89a81d8b77370029"
+    },
+    {
+      "path": "screens/svg/contact-shared--en--android--200.svg",
+      "bytes": 86837,
+      "sha256": "74b69428cd902dbf9fcf78ad4652be177815d86a4811957d9c827d1447376cf2"
+    },
+    {
+      "path": "screens/svg/contact-shared--en--ios--100.svg",
+      "bytes": 85911,
+      "sha256": "586433f84758c4a655403dd783a6695abcfd15135e026cb149666450c538a90e"
+    },
+    {
+      "path": "screens/svg/contact-shared--en--ios--200.svg",
+      "bytes": 87094,
+      "sha256": "2efe4136a30a046337288d9edaec240ce58d58a00588ccf50cefe12893b11bf6"
+    },
+    {
+      "path": "screens/svg/contact-shared--tr--android--100.svg",
+      "bytes": 85751,
+      "sha256": "a30ad94fc48d0e4e47ec63c3d2800c9438f0f3d4ad14fd176151457c7135daac"
+    },
+    {
+      "path": "screens/svg/contact-shared--tr--android--200.svg",
+      "bytes": 86966,
+      "sha256": "8abbfb3534c17251f469df38708fcedba6fe59aa48b8f136f0f9bd06b8d80636"
+    },
+    {
+      "path": "screens/svg/contact-shared--tr--ios--100.svg",
+      "bytes": 85830,
+      "sha256": "6a067e474839794c09d7d7141fe4518b00825d5fe2a33d3183ed03095b5592e9"
+    },
+    {
+      "path": "screens/svg/contact-shared--tr--ios--200.svg",
+      "bytes": 87167,
+      "sha256": "ad41290a1e1eacf391ab017c1399247e0fab655b8771d476d1843456324fdf53"
+    },
+    {
+      "path": "screens/svg/contact-sharing--en--android--100.svg",
+      "bytes": 86273,
+      "sha256": "409fc4d8f41917e277c32928ac1e0c9667e43b21aedff12d41d1c0b30f2a8fec"
+    },
+    {
+      "path": "screens/svg/contact-sharing--en--android--200.svg",
+      "bytes": 87111,
+      "sha256": "e9fe9c465392c04a2a06887b644578a98b5346ebb64bbdecef2f5443a2e06651"
+    },
+    {
+      "path": "screens/svg/contact-sharing--en--ios--100.svg",
+      "bytes": 86271,
+      "sha256": "d97f29b48d40d9bc059fb1a36e782e58296ea3fddebb489795ba1e19da4402d1"
+    },
+    {
+      "path": "screens/svg/contact-sharing--en--ios--200.svg",
+      "bytes": 87112,
+      "sha256": "ddbc15c5dd31c24c536284b87e467c4b03c1a989e48f3ed6beb0e3635caa24e0"
+    },
+    {
+      "path": "screens/svg/contact-sharing--tr--android--100.svg",
+      "bytes": 86276,
+      "sha256": "b71d9efae64abf2fb1d48c1d390dc6c80f666c585c435a3f8a9b56a062278961"
+    },
+    {
+      "path": "screens/svg/contact-sharing--tr--android--200.svg",
+      "bytes": 87276,
+      "sha256": "abc1f5e77dfd59862f17d0f1a7b2c7b01bfc9b65f0afa2c3e9d9c35b4dab3b30"
+    },
+    {
+      "path": "screens/svg/contact-sharing--tr--ios--100.svg",
+      "bytes": 86424,
+      "sha256": "39ea895243e7eb889ebc842094c3138deff28d788ceded8e766194f514150296"
+    },
+    {
+      "path": "screens/svg/contact-sharing--tr--ios--200.svg",
+      "bytes": 87277,
+      "sha256": "f9254ac71fbfe05ab2352e8b4240aa89abfe34c1967d820466eca5f5c521e3cf"
+    },
+    {
+      "path": "screens/svg/contact-unavailable--en--android--100.svg",
+      "bytes": 83131,
+      "sha256": "3653391824472f6531503ab70e55e32732d8b0599448ba36139254c52bab73e3"
+    },
+    {
+      "path": "screens/svg/contact-unavailable--en--android--200.svg",
+      "bytes": 83345,
+      "sha256": "fde9247b687cd7d16f58fa6e0a985d5964811c355128b4f0e95c79cd414f97c9"
+    },
+    {
+      "path": "screens/svg/contact-unavailable--en--ios--100.svg",
+      "bytes": 83118,
+      "sha256": "e87b6ecd48313fea47b552ae7414a294f77023163393c84306fcaf3b4dc9c950"
+    },
+    {
+      "path": "screens/svg/contact-unavailable--en--ios--200.svg",
+      "bytes": 83481,
+      "sha256": "571649cf4c5698a36aa69b807cf75e18d30c19168df60f687f5ffffc97296ea8"
+    },
+    {
+      "path": "screens/svg/contact-unavailable--tr--android--100.svg",
+      "bytes": 83010,
+      "sha256": "cea5b812ad42a952f42e40c01b2921d32890a51353402199d77d158c502be0f6"
+    },
+    {
+      "path": "screens/svg/contact-unavailable--tr--android--200.svg",
+      "bytes": 83346,
+      "sha256": "b90231f2f0f1bd13884da007a48cf426ea2d003000c40d466a8a6a6c3511dc37"
+    },
+    {
+      "path": "screens/svg/contact-unavailable--tr--ios--100.svg",
+      "bytes": 83119,
+      "sha256": "43a23eaf14043d5926cba7ad320ebbdc88d76ef675f7b06e7030e41a68c1431d"
+    },
+    {
+      "path": "screens/svg/contact-unavailable--tr--ios--200.svg",
+      "bytes": 83346,
+      "sha256": "d7f4f0f2aeadb1cadb983fdc7f4a895d99fc67ec11327bd292bd55dbf6fc8ab4"
+    },
+    {
+      "path": "screens/svg/contact-update-failed--en--android--100.svg",
+      "bytes": 84359,
+      "sha256": "e48c22d95da0a67a01aa4127f09fedd4381ba6559e45faa680a1db9b762a0c59"
+    },
+    {
+      "path": "screens/svg/contact-update-failed--en--android--200.svg",
+      "bytes": 85022,
+      "sha256": "a7f36e02725a8f1b22193baed94caaad8e556d069ef5dc5f23c3941ef33cce40"
+    },
+    {
+      "path": "screens/svg/contact-update-failed--en--ios--100.svg",
+      "bytes": 84379,
+      "sha256": "7115554ccb0eefa02703704ddd39a09e314956f53698a442d24b1786117eed9c"
+    },
+    {
+      "path": "screens/svg/contact-update-failed--en--ios--200.svg",
+      "bytes": 85097,
+      "sha256": "09a33c8eb9571c6c80ac2cd6158efdffa8c29f94d501b337265688611d998466"
+    },
+    {
+      "path": "screens/svg/contact-update-failed--tr--android--100.svg",
+      "bytes": 84672,
+      "sha256": "86e7e93abbfcf8549b3bf609d2a1996ba0b49d52e25329ec49e01d6447f7a3ea"
+    },
+    {
+      "path": "screens/svg/contact-update-failed--tr--android--200.svg",
+      "bytes": 85468,
+      "sha256": "eb5b855a58e61f62e94712911930b990b41bbf901e82cddf37d225054fa8f078"
+    },
+    {
+      "path": "screens/svg/contact-update-failed--tr--ios--100.svg",
+      "bytes": 84806,
+      "sha256": "a89c44ac8891224dd472e7b8adc0a6ffe13e6c817e28d45ea810722c99285c80"
+    },
+    {
+      "path": "screens/svg/contact-update-failed--tr--ios--200.svg",
+      "bytes": 85413,
+      "sha256": "691b5407f3c76b064734456906228eb392b624caefc2479e3ccad69ce0a0d34c"
+    },
+    {
+      "path": "screens/svg/contact-updating--en--android--100.svg",
+      "bytes": 84208,
+      "sha256": "f7b637c2f8236c3f2cfd08c05fd6b773e6325a8d5a414952590a4dbc405f4397"
+    },
+    {
+      "path": "screens/svg/contact-updating--en--android--200.svg",
+      "bytes": 85000,
+      "sha256": "65acfd2a46d1db79c8bfc7ceac8df1c4a331431113f1a4b6859fb0f756c02a24"
+    },
+    {
+      "path": "screens/svg/contact-updating--en--ios--100.svg",
+      "bytes": 84217,
+      "sha256": "2a1bd29ada510664bb08cb4d11757b66203cd9a8d2c695d452ae1f34754be51a"
+    },
+    {
+      "path": "screens/svg/contact-updating--en--ios--200.svg",
+      "bytes": 85000,
+      "sha256": "6a646cf5a59ae950439e8415c1976d2d4f13172f4f5aaca0a36fc2efc3ee6140"
+    },
+    {
+      "path": "screens/svg/contact-updating--tr--android--100.svg",
+      "bytes": 84562,
+      "sha256": "a117efa2bce206ba64854b817a860152a7817ba1810bc99695739f248635a7cf"
+    },
+    {
+      "path": "screens/svg/contact-updating--tr--android--200.svg",
+      "bytes": 85137,
+      "sha256": "9d4e3d2ce7877cff84652d1d945740f459ce942cb9da8af55cbdc142b264e095"
+    },
+    {
+      "path": "screens/svg/contact-updating--tr--ios--100.svg",
+      "bytes": 84696,
+      "sha256": "0ce0e661c0c37b72a9c1b188fee6ae4faa95d9966635f82280f363ca83c3539b"
+    },
+    {
+      "path": "screens/svg/contact-updating--tr--ios--200.svg",
+      "bytes": 85159,
+      "sha256": "4fc8cdcdceda681cc19faae38b3cf09692881c9a64bf6246620d04a62d513cb6"
+    },
+    {
+      "path": "screens/svg/contact-withdraw-confirm--en--android--100.svg",
+      "bytes": 83536,
+      "sha256": "96203dab49597ba9fbe49793923da9383d91219f67d877c63611e54fd3ba23ab"
+    },
+    {
+      "path": "screens/svg/contact-withdraw-confirm--en--android--200.svg",
+      "bytes": 84155,
+      "sha256": "998443b7eddb8f47c35eac694b12de186f4c6e835f554e1124c6f53cf03f4f97"
+    },
+    {
+      "path": "screens/svg/contact-withdraw-confirm--en--ios--100.svg",
+      "bytes": 83535,
+      "sha256": "47608ae90da2a706b47867e69d0109a64054138d99ee3ddd5a0e471d8bd0760b"
+    },
+    {
+      "path": "screens/svg/contact-withdraw-confirm--en--ios--200.svg",
+      "bytes": 84277,
+      "sha256": "89d4f0b9c460a8aba7c1341d9a95edf6120d522a14961dc7706a3830fe3bc80c"
+    },
+    {
+      "path": "screens/svg/contact-withdraw-confirm--tr--android--100.svg",
+      "bytes": 83599,
+      "sha256": "1588ffd4c9ebf934ec74c640f80576dd0a4974ed2aea4c47d6bae077c6671d0d"
+    },
+    {
+      "path": "screens/svg/contact-withdraw-confirm--tr--android--200.svg",
+      "bytes": 84248,
+      "sha256": "cd5d1f62943121820bb8e91d92874f79356b3174d6eb1fa97b4a0cf503e7facf"
+    },
+    {
+      "path": "screens/svg/contact-withdraw-confirm--tr--ios--100.svg",
+      "bytes": 83720,
+      "sha256": "112c3764bef9efc63b0a75947ebef1be24cb5772985d5325c5662d1f27340491"
+    },
+    {
+      "path": "screens/svg/contact-withdraw-confirm--tr--ios--200.svg",
+      "bytes": 84250,
+      "sha256": "de963f29c9bb643b13c413bd2e960a9b1e708fcbc8a2f6480b899765f6d6fb68"
+    },
+    {
+      "path": "screens/svg/contact-withdraw-failed--en--android--100.svg",
+      "bytes": 83840,
+      "sha256": "0b394551fdfb267c6c77436a9642fabc6b1f209d3a8dee57d8398d5bf3476180"
+    },
+    {
+      "path": "screens/svg/contact-withdraw-failed--en--android--200.svg",
+      "bytes": 84436,
+      "sha256": "2d85e1cb2c4aeb798fefba62a01f1350d69cf17e2b40c0b8b42f5b0ab40c4f21"
+    },
+    {
+      "path": "screens/svg/contact-withdraw-failed--en--ios--100.svg",
+      "bytes": 83839,
+      "sha256": "8bb19d82d14634a11904641bd4307c220cbd3372275d7829a56966df7772279e"
+    },
+    {
+      "path": "screens/svg/contact-withdraw-failed--en--ios--200.svg",
+      "bytes": 84504,
+      "sha256": "6f5085b96af2b99180c0987abe166be701d17ce0ec4de09cabd1500f86889160"
+    },
+    {
+      "path": "screens/svg/contact-withdraw-failed--tr--android--100.svg",
+      "bytes": 83886,
+      "sha256": "e067e064707cb1f0ff723947854643ccc7749531a841615a993d5c0388892697"
+    },
+    {
+      "path": "screens/svg/contact-withdraw-failed--tr--android--200.svg",
+      "bytes": 84403,
+      "sha256": "046a5aae7f5c9b7f715c1c3778943a4e3de3d8e2306bdcad0e228fe7348fd115"
+    },
+    {
+      "path": "screens/svg/contact-withdraw-failed--tr--ios--100.svg",
+      "bytes": 83885,
+      "sha256": "d352a3e5873587f9107a8bddaeb26dab0604f566a9b67b1eaa13b5ee4cb76b85"
+    },
+    {
+      "path": "screens/svg/contact-withdraw-failed--tr--ios--200.svg",
+      "bytes": 84504,
+      "sha256": "1cc7f7483543564fe82269373d8e3ebdc72a6b76fa4fbef4840dfc28514e8f30"
+    },
+    {
+      "path": "screens/svg/contact-withdrawing--en--android--100.svg",
+      "bytes": 83722,
+      "sha256": "e015e6f25a85930e22c68ea51c3fb966f5de36453b17fdef4d801a03af559a54"
+    },
+    {
+      "path": "screens/svg/contact-withdrawing--en--android--200.svg",
+      "bytes": 84180,
+      "sha256": "262d6da554324b5ffbea73fc9a2e3c5e5217667153ec7a88942f9a7a1e59ab49"
+    },
+    {
+      "path": "screens/svg/contact-withdrawing--en--ios--100.svg",
+      "bytes": 83721,
+      "sha256": "2b8d4e4084bf27d7a5cdcf8e4ea50479a3909c94df232644ee071d86fb3fa571"
+    },
+    {
+      "path": "screens/svg/contact-withdrawing--en--ios--200.svg",
+      "bytes": 84218,
+      "sha256": "110191889e97946dc9d141dc5b2850e0744148c5d29ee17144056f5804827472"
+    },
+    {
+      "path": "screens/svg/contact-withdrawing--tr--android--100.svg",
+      "bytes": 83776,
+      "sha256": "a372630e53c620ddeb6a121265c273fc8b7956d680bfa02f6a867082278d0bf4"
+    },
+    {
+      "path": "screens/svg/contact-withdrawing--tr--android--200.svg",
+      "bytes": 84224,
+      "sha256": "77729dcad15116da394063c7644ec96ec5751951a3f6c73fec908e5c7533bc85"
+    },
+    {
+      "path": "screens/svg/contact-withdrawing--tr--ios--100.svg",
+      "bytes": 83775,
+      "sha256": "a97ed485357812f5063278571a4b5f1a1aa0a0b2a8b0d400cdcd1b4be6a9cec9"
+    },
+    {
+      "path": "screens/svg/contact-withdrawing--tr--ios--200.svg",
+      "bytes": 84318,
+      "sha256": "a573d6f46608d76f8af220263caa5c457fe8b64d8ef98c08ad3688e9e6fe5c0c"
+    },
+    {
+      "path": "screens/svg/contact-withdrawn--en--android--100.svg",
+      "bytes": 84839,
+      "sha256": "4372e19d179aeeb09857146e0b4e25a28d03e0b0e828b30f628b2a29d60015ea"
+    },
+    {
+      "path": "screens/svg/contact-withdrawn--en--android--200.svg",
+      "bytes": 85645,
+      "sha256": "3ccb58ffd29e295472eeaf7d1017e819358444623743cd679e2576b3ae876734"
+    },
+    {
+      "path": "screens/svg/contact-withdrawn--en--ios--100.svg",
+      "bytes": 84825,
+      "sha256": "d6e5f88cdc2a40649796c24458a604245ea9f4188955118565d3af1c9225c1fd"
+    },
+    {
+      "path": "screens/svg/contact-withdrawn--en--ios--200.svg",
+      "bytes": 85802,
+      "sha256": "b12de251a910a19cdfb15c02623972fb9826bf4d8b510b485ae33df1026172ef"
+    },
+    {
+      "path": "screens/svg/contact-withdrawn--tr--android--100.svg",
+      "bytes": 84683,
+      "sha256": "64730b49c05e6fc65b8104035a72e8c35938768f31af32819e86dc079167d7ef"
+    },
+    {
+      "path": "screens/svg/contact-withdrawn--tr--android--200.svg",
+      "bytes": 85739,
+      "sha256": "84321d360424d651eb7650f42b52c86130bfe00ed2a9de5016b816df07808121"
+    },
+    {
+      "path": "screens/svg/contact-withdrawn--tr--ios--100.svg",
+      "bytes": 84863,
+      "sha256": "e2af325b3357cdd8662e59ffcadf1ac6e0b7e218abe8100aab4ad6dee176e832"
+    },
+    {
+      "path": "screens/svg/contact-withdrawn--tr--ios--200.svg",
+      "bytes": 86539,
+      "sha256": "b6e01ff16f0c9cddd0488ceb9a761847f10cd46d08d7d8d2d037ca73931e8a3f"
+    },
+    {
+      "path": "screens/svg/continue-choices--en--android--100.svg",
+      "bytes": 83700,
+      "sha256": "c0d5ec97db974a8b6b06cb8e8cb967fd12ce51d25b07efaefb3406a8deb745f0"
+    },
+    {
+      "path": "screens/svg/continue-choices--en--android--200.svg",
+      "bytes": 84321,
+      "sha256": "b569a856a4fef5514b0a58b9dde4ccae6e253a62c0aaeb214f9f980ac9d5fa57"
+    },
+    {
+      "path": "screens/svg/continue-choices--en--ios--100.svg",
+      "bytes": 83710,
+      "sha256": "193e0455130cb2f5724c0109cf878d5c707c1d73612566e69916f85f35db5eb9"
+    },
+    {
+      "path": "screens/svg/continue-choices--en--ios--200.svg",
+      "bytes": 84400,
+      "sha256": "0bf5e55910d6ecb3e1841bc5d2547959ba613f5261134beef5a542cabe7ad740"
+    },
+    {
+      "path": "screens/svg/continue-choices--tr--android--100.svg",
+      "bytes": 83709,
+      "sha256": "8b3bddcd0228c79e72f9f6b316e38887ada2c76bfde0b87596d461c1e6e169f0"
+    },
+    {
+      "path": "screens/svg/continue-choices--tr--android--200.svg",
+      "bytes": 84310,
+      "sha256": "41bb88f10cf3fc9dc18e62d0985cf177205965c0775576d1f18bc5403e460d14"
+    },
+    {
+      "path": "screens/svg/continue-choices--tr--ios--100.svg",
+      "bytes": 83719,
+      "sha256": "e92c0b14f2b5938662be04732c4a17967cf755c39c72b65118b725e05d4fa4fa"
+    },
+    {
+      "path": "screens/svg/continue-choices--tr--ios--200.svg",
+      "bytes": 84565,
+      "sha256": "e7b01ff92299310e0b3ed142cc8ee4d1986f74d482b6070b53fc5443f2db2704"
+    },
+    {
+      "path": "screens/svg/continue-ended--en--android--100.svg",
+      "bytes": 82967,
+      "sha256": "9047c5be333ab4adec16ea6e8a0c7c0c2567eb7fa96689f0604cb75a858fde97"
+    },
+    {
+      "path": "screens/svg/continue-ended--en--android--200.svg",
+      "bytes": 83083,
+      "sha256": "427357caff45dee72e405e7d70926b3f66768868e4cbfc4ffc557a330fcb4030"
+    },
+    {
+      "path": "screens/svg/continue-ended--en--ios--100.svg",
+      "bytes": 82978,
+      "sha256": "83aff74eff2f3131f2722a868df4493429d301675be2bd46f1e0777e654357c4"
+    },
+    {
+      "path": "screens/svg/continue-ended--en--ios--200.svg",
+      "bytes": 83083,
+      "sha256": "bef2887ab022660dc221ee600fba2d3727687af1f6d61e7875e74d8bed5efbf1"
+    },
+    {
+      "path": "screens/svg/continue-ended--tr--android--100.svg",
+      "bytes": 82974,
+      "sha256": "8cf14b78139a2e1511b4311476dcf0e6d5bfc86c24a0ddcbcaa580c816810b6f"
+    },
+    {
+      "path": "screens/svg/continue-ended--tr--android--200.svg",
+      "bytes": 82991,
+      "sha256": "44dcbf79b84ed2aeda17906fc27faa2fb75800df780cf5d7f9f4db1b90f6d378"
+    },
+    {
+      "path": "screens/svg/continue-ended--tr--ios--100.svg",
+      "bytes": 82985,
+      "sha256": "f045aa23a3f1ecfd6ea42c838582a6d927ace0bc888dd7eb62463e39fc7c9b29"
+    },
+    {
+      "path": "screens/svg/continue-ended--tr--ios--200.svg",
+      "bytes": 82991,
+      "sha256": "1dbd18f41168f0ab15cdfd9fe576f22fe614efa235555531388500a734c02c7c"
+    },
+    {
+      "path": "screens/svg/continue-failed--en--android--100.svg",
+      "bytes": 83729,
+      "sha256": "be4c3d6e0bf4773121580ad794d08b7589fb3b8858d968f9ed30135d4da2e8af"
+    },
+    {
+      "path": "screens/svg/continue-failed--en--android--200.svg",
+      "bytes": 84202,
+      "sha256": "389b79a21c2e7ad9dcd706e802d6ab1874ad2a2d7fda93194507e7867bccfcd3"
+    },
+    {
+      "path": "screens/svg/continue-failed--en--ios--100.svg",
+      "bytes": 83728,
+      "sha256": "9176816a018d1a6176223e62703a128589da7bbd749f3dab7af9084b0a63a7aa"
+    },
+    {
+      "path": "screens/svg/continue-failed--en--ios--200.svg",
+      "bytes": 84291,
+      "sha256": "1509beee921e8cadb67480ff2fdb9086865717c7193c74c0bc2d3d1576929eae"
+    },
+    {
+      "path": "screens/svg/continue-failed--tr--android--100.svg",
+      "bytes": 83747,
+      "sha256": "6d1ddee7ac5068a415388ac903b8d730810d255db11dc9e396bc7468cf972835"
+    },
+    {
+      "path": "screens/svg/continue-failed--tr--android--200.svg",
+      "bytes": 84309,
+      "sha256": "353b7ae4d3eebb088dadf3424163567fbc20de5c3b496f8f7e81f68dcf09cf52"
+    },
+    {
+      "path": "screens/svg/continue-failed--tr--ios--100.svg",
+      "bytes": 83746,
+      "sha256": "db5455698969a377239e7de7c9366791cd2f47161e1d34be48d04ff1881c73ad"
+    },
+    {
+      "path": "screens/svg/continue-failed--tr--ios--200.svg",
+      "bytes": 84309,
+      "sha256": "91760372fe4264f206fbddd4a78aef18e287c0f31df9078aff1887c4d30cd447"
+    },
+    {
+      "path": "screens/svg/continue-loading--en--android--100.svg",
+      "bytes": 83356,
+      "sha256": "ef7baf6520e4fc91245095b8e1ed2478f61cd72c6007b6d31fbddfef263e314a"
+    },
+    {
+      "path": "screens/svg/continue-loading--en--android--200.svg",
+      "bytes": 83915,
+      "sha256": "1c8809f72d4d14b93e336c4f89257186a10d9b9f0ec7885521e3a657a49b4ca4"
+    },
+    {
+      "path": "screens/svg/continue-loading--en--ios--100.svg",
+      "bytes": 83355,
+      "sha256": "4a6b64c2fc16deff53d69a0930aa4540c540913a2d6ef43b660ebe275755eb3a"
+    },
+    {
+      "path": "screens/svg/continue-loading--en--ios--200.svg",
+      "bytes": 83906,
+      "sha256": "89a316e96a2f1cfd995bcea8d3d8b7f571cf0878ccb4333d3e00d440eb5b92b0"
+    },
+    {
+      "path": "screens/svg/continue-loading--tr--android--100.svg",
+      "bytes": 83380,
+      "sha256": "09e5dd80ad710d53c9c05f6db1f3589fdb28c6250ff363ef5709e82660409531"
+    },
+    {
+      "path": "screens/svg/continue-loading--tr--android--200.svg",
+      "bytes": 83837,
+      "sha256": "e7bae07333927104d8f5e8b087bf3286408c163b1af9d7a194d826e07aa14d58"
+    },
+    {
+      "path": "screens/svg/continue-loading--tr--ios--100.svg",
+      "bytes": 83379,
+      "sha256": "0eea5bc5a623fe8a982315cde02b49ad75368cfffbba00f5acbfce4033898a3f"
+    },
+    {
+      "path": "screens/svg/continue-loading--tr--ios--200.svg",
+      "bytes": 83930,
+      "sha256": "a0e847d4ad4666312111670bcd5fc415cc01bd5866bd261abf8b8d59649550f8"
+    },
+    {
+      "path": "screens/svg/continue-no-confirm--en--android--100.svg",
+      "bytes": 83447,
+      "sha256": "ce84dfbe365ef5414b9d605da62143da87b8029a3f0aecd9425e4525f0fba444"
+    },
+    {
+      "path": "screens/svg/continue-no-confirm--en--android--200.svg",
+      "bytes": 84004,
+      "sha256": "97f9edf2ec5edde5230f1a3ed5591498bdd0bb51fabf291830324e614b334e3f"
+    },
+    {
+      "path": "screens/svg/continue-no-confirm--en--ios--100.svg",
+      "bytes": 83446,
+      "sha256": "59af8f5a1a5bf33581771f9e69a8ea78754e4b07c764256acfba0a6beac90428"
+    },
+    {
+      "path": "screens/svg/continue-no-confirm--en--ios--200.svg",
+      "bytes": 84241,
+      "sha256": "3521a20ab6cb231808f05945bd62c9d2939c565fef54128ec5800669969f9e6c"
+    },
+    {
+      "path": "screens/svg/continue-no-confirm--tr--android--100.svg",
+      "bytes": 83457,
+      "sha256": "061e739e3243f3bcde73dc850ec29a354bf6c99ed50715c71324ad67641b494d"
+    },
+    {
+      "path": "screens/svg/continue-no-confirm--tr--android--200.svg",
+      "bytes": 84272,
+      "sha256": "7002ba94063add4bb74f56b9645fb0b8709819d3f477925d30c112b744fe7830"
+    },
+    {
+      "path": "screens/svg/continue-no-confirm--tr--ios--100.svg",
+      "bytes": 83456,
+      "sha256": "565926d06802ff1b6b0ea322ed05bff7ca36baf2dd67babdc17d33cf2935e30e"
+    },
+    {
+      "path": "screens/svg/continue-no-confirm--tr--ios--200.svg",
+      "bytes": 84393,
+      "sha256": "53217374e1e210b9e0bc3c693b478650cd53110de27946b385c8b2015e6c5bf8"
+    },
+    {
+      "path": "screens/svg/continue-no-failed--en--android--100.svg",
+      "bytes": 83987,
+      "sha256": "7338408fda755f4b5cab23efb119861040f12c42bad9a099b60bbfe08b14305f"
+    },
+    {
+      "path": "screens/svg/continue-no-failed--en--android--200.svg",
+      "bytes": 84686,
+      "sha256": "0b8a9d1ab735719b672a6cd087da46bb4f816abdb200d3771faa356ffcd65b23"
+    },
+    {
+      "path": "screens/svg/continue-no-failed--en--ios--100.svg",
+      "bytes": 83986,
+      "sha256": "aed7210d5bed8f6c579fb2b291fb5b018388845dbc25eab79a5a5312ca92459a"
+    },
+    {
+      "path": "screens/svg/continue-no-failed--en--ios--200.svg",
+      "bytes": 85062,
+      "sha256": "d9b2fd3ba38d179f3d1644f38e90d6dcf9614bc26a346a31cc8244f4ba4d329a"
+    },
+    {
+      "path": "screens/svg/continue-no-failed--tr--android--100.svg",
+      "bytes": 83992,
+      "sha256": "313eb474e52da1ef8d445c27a7590c229dfa406dcd7ebbb705907087c025da68"
+    },
+    {
+      "path": "screens/svg/continue-no-failed--tr--android--200.svg",
+      "bytes": 85009,
+      "sha256": "37c733dce43a0213353dd38f3c6e859646dbb3e1b087c29c6cbfeb849d4ea718"
+    },
+    {
+      "path": "screens/svg/continue-no-failed--tr--ios--100.svg",
+      "bytes": 83991,
+      "sha256": "d0e57bb989583fc6b582ad7b120b678c2fd5f665b3dde9253810761fc6ab301e"
+    },
+    {
+      "path": "screens/svg/continue-no-failed--tr--ios--200.svg",
+      "bytes": 85010,
+      "sha256": "563a6a08676b02cf8d752a1c73a21c8ee1e98f3640f7f7ffbf7cd704ffc21c74"
+    },
+    {
+      "path": "screens/svg/continue-no-saving--en--android--100.svg",
+      "bytes": 83921,
+      "sha256": "0dc080b0af6b95b815b25a465cabc591445788d1f5f18507d58cf6b9275ca48a"
+    },
+    {
+      "path": "screens/svg/continue-no-saving--en--android--200.svg",
+      "bytes": 84447,
+      "sha256": "a07e8cfde03e6fd1c8820c4088d5c4131167471834362339b35db5146c6ded53"
+    },
+    {
+      "path": "screens/svg/continue-no-saving--en--ios--100.svg",
+      "bytes": 83908,
+      "sha256": "ab265b71ffa1cc52c46c318eb9bdb3fc59c2898e5fa97ec97a73dd25030adfbf"
+    },
+    {
+      "path": "screens/svg/continue-no-saving--en--ios--200.svg",
+      "bytes": 84924,
+      "sha256": "9aa4691950f128eb3ed717b39bd3b91a50272fa783374b3c2e44b8466503c80b"
+    },
+    {
+      "path": "screens/svg/continue-no-saving--tr--android--100.svg",
+      "bytes": 83934,
+      "sha256": "74169dc7eeee6a3e8629086731ce1c29863d7caaaa4d78de14142f4db8a2ddc0"
+    },
+    {
+      "path": "screens/svg/continue-no-saving--tr--android--200.svg",
+      "bytes": 84969,
+      "sha256": "1e411a0335af165ce5e434c844340716f3ac779711bc11526ac3f11deb95bc42"
+    },
+    {
+      "path": "screens/svg/continue-no-saving--tr--ios--100.svg",
+      "bytes": 83921,
+      "sha256": "29c3b797a964a930431731fd498ed4290253dd0ae91d3c851a81136baeada5c9"
+    },
+    {
+      "path": "screens/svg/continue-no-saving--tr--ios--200.svg",
+      "bytes": 84970,
+      "sha256": "336a851a1deb536cecaa095f40695907485a8d2df55bbba1c3efb9aa0e8b8005"
+    },
+    {
+      "path": "screens/svg/continue-offline--en--android--100.svg",
+      "bytes": 83626,
+      "sha256": "3ccdb0adae0df5b1bcd3d9a9f9e6253ca50a321dbbb64e5790a589fd58d92f59"
+    },
+    {
+      "path": "screens/svg/continue-offline--en--android--200.svg",
+      "bytes": 84126,
+      "sha256": "e5cf8383a1c62dbd5fd784193063cdc9b3927a64b4363f9ef1a050c3fa3bfd7d"
+    },
+    {
+      "path": "screens/svg/continue-offline--en--ios--100.svg",
+      "bytes": 83625,
+      "sha256": "339a872a123eab70a5c3ff8411469a567ddb6f6968aa3d92e476ee1dface08b6"
+    },
+    {
+      "path": "screens/svg/continue-offline--en--ios--200.svg",
+      "bytes": 84126,
+      "sha256": "54cacbb2ef0c1596cf13bff94eb96a892ca1a499eabf83eb19eaab7cb92fdecc"
+    },
+    {
+      "path": "screens/svg/continue-offline--tr--android--100.svg",
+      "bytes": 83666,
+      "sha256": "dfe0fdc11dbe9506fb7be3107e93adf2e39a4f1e2982a42c66dd257d0dae4065"
+    },
+    {
+      "path": "screens/svg/continue-offline--tr--android--200.svg",
+      "bytes": 84146,
+      "sha256": "f122e97fd8da7448b451715e3bd54c49eaa667ae88c1fd876ef2c2512fcb4cf2"
+    },
+    {
+      "path": "screens/svg/continue-offline--tr--ios--100.svg",
+      "bytes": 83665,
+      "sha256": "a57112bc6322a3c2eeaa137f56ba3a90b518db636834cb3ba8539b7bffa285b0"
+    },
+    {
+      "path": "screens/svg/continue-offline--tr--ios--200.svg",
+      "bytes": 84148,
+      "sha256": "59be5891de817a826b972397b5ff77aad081429f213d03110d8a73983cfa0999"
+    },
+    {
+      "path": "screens/svg/continue-withdraw-failed--en--android--100.svg",
+      "bytes": 84313,
+      "sha256": "7a8b9f16392b152c46368a9988455ed7f50295cc2db12dbd507b67eb1df60aca"
+    },
+    {
+      "path": "screens/svg/continue-withdraw-failed--en--android--200.svg",
+      "bytes": 85208,
+      "sha256": "181884d2d711a31485f55cc1d0a61767975bb8aae53cd2d62233a235d44bd3fa"
+    },
+    {
+      "path": "screens/svg/continue-withdraw-failed--en--ios--100.svg",
+      "bytes": 84344,
+      "sha256": "df1298aa2bae55b69872a2ccf3cbdfb888e277350d020231cd76d8cfa2b269e1"
+    },
+    {
+      "path": "screens/svg/continue-withdraw-failed--en--ios--200.svg",
+      "bytes": 85208,
+      "sha256": "2687165204a7d9f917f48f3465730166216573eea5e62b946cbb24e95eab49a4"
+    },
+    {
+      "path": "screens/svg/continue-withdraw-failed--tr--android--100.svg",
+      "bytes": 84316,
+      "sha256": "1f936085e2e430d3d10ddaf8c21e39806a4d0a275175b7d5d37bdf4565531250"
+    },
+    {
+      "path": "screens/svg/continue-withdraw-failed--tr--android--200.svg",
+      "bytes": 84814,
+      "sha256": "ebd0d198bee5c1f2cb2ffe89644a700fa0d3e7bc8b8701855651aea94dd4d757"
+    },
+    {
+      "path": "screens/svg/continue-withdraw-failed--tr--ios--100.svg",
+      "bytes": 84347,
+      "sha256": "147631f30a32c0c7e03e45d36876568d1996fa018224956db82f813521000bd8"
+    },
+    {
+      "path": "screens/svg/continue-withdraw-failed--tr--ios--200.svg",
+      "bytes": 85081,
+      "sha256": "ade6a9429fb942cfc20276230144912c07a727ef0cc9f06a634cb8b297ac9cb1"
+    },
+    {
+      "path": "screens/svg/continue-withdraw-saving--en--android--100.svg",
+      "bytes": 84242,
+      "sha256": "e3df2c099a448eb3128110198abdd3e8dc0cbbb58473a65b95c963dacc2c1cb2"
+    },
+    {
+      "path": "screens/svg/continue-withdraw-saving--en--android--200.svg",
+      "bytes": 85117,
+      "sha256": "72fde49ecc599ca00a53fc72248dbad5ca2ca32cc4d9dc70c6b59156046e090c"
+    },
+    {
+      "path": "screens/svg/continue-withdraw-saving--en--ios--100.svg",
+      "bytes": 84350,
+      "sha256": "5b67247af4bd947d05f548754c4c16a017302e92103d771ae6b53a8bc0bbc333"
+    },
+    {
+      "path": "screens/svg/continue-withdraw-saving--en--ios--200.svg",
+      "bytes": 85117,
+      "sha256": "7d4b4e4050b77535901f0965fcf43ac2ae411deaa0d0fc84f319ebb445892224"
+    },
+    {
+      "path": "screens/svg/continue-withdraw-saving--tr--android--100.svg",
+      "bytes": 84249,
+      "sha256": "ebebe0c18a332e17a15af56638a0ddbdf1b50ace810e434cddcdc62e68ec0c9f"
+    },
+    {
+      "path": "screens/svg/continue-withdraw-saving--tr--android--200.svg",
+      "bytes": 84700,
+      "sha256": "a90a544f9b813861676dc638402bf8d7e3c9d0f00674475dd0c6e13609d845ca"
+    },
+    {
+      "path": "screens/svg/continue-withdraw-saving--tr--ios--100.svg",
+      "bytes": 84248,
+      "sha256": "f47f57a977b4cc040b199b89f8cfbd1ef3c308045692172ce56d41e27d7f162f"
+    },
+    {
+      "path": "screens/svg/continue-withdraw-saving--tr--ios--200.svg",
+      "bytes": 85078,
+      "sha256": "6ec376ef99cb846b0ed9c2811ccc5f6211b4d3701177e54c609c0d3ad96f551f"
+    },
+    {
+      "path": "screens/svg/continue-withdrawn--en--android--100.svg",
+      "bytes": 84255,
+      "sha256": "f97d0c11aff8521a799f57bd5fd7e85d12de4b110c1c5129001507a1e88416e4"
+    },
+    {
+      "path": "screens/svg/continue-withdrawn--en--android--200.svg",
+      "bytes": 84960,
+      "sha256": "f8b72f46fa5a39a7125578b38965ae50106cce51bba8219f60de6446792309a8"
+    },
+    {
+      "path": "screens/svg/continue-withdrawn--en--ios--100.svg",
+      "bytes": 84254,
+      "sha256": "80962efb1a1e29220dc37f337446ddd230a03d1cf41becbb3a7aee602e574e1e"
+    },
+    {
+      "path": "screens/svg/continue-withdrawn--en--ios--200.svg",
+      "bytes": 85094,
+      "sha256": "7cebfccf42567fc9132560bbecf5311349aa9277926b7884fc8c078f9109690a"
+    },
+    {
+      "path": "screens/svg/continue-withdrawn--tr--android--100.svg",
+      "bytes": 84196,
+      "sha256": "91b36380efb6b612ffc53ba0a94fda146418d93997f17b40048334012508dd26"
+    },
+    {
+      "path": "screens/svg/continue-withdrawn--tr--android--200.svg",
+      "bytes": 84866,
+      "sha256": "f6c2927805b8c619874819bbb6b81e08b34537561d9c34f1ef005342127cc75b"
+    },
+    {
+      "path": "screens/svg/continue-withdrawn--tr--ios--100.svg",
+      "bytes": 84195,
+      "sha256": "c792214d89d2d5365a94d95715a814222495ef1cb8dc0717e536b5f596b35795"
+    },
+    {
+      "path": "screens/svg/continue-withdrawn--tr--ios--200.svg",
+      "bytes": 85099,
+      "sha256": "8a69e2906083f44931002eb33a1d1cd3a04d60f1c8a22d7c1f4a55a55e1522d5"
+    },
+    {
+      "path": "screens/svg/continue-yes-failed--en--android--100.svg",
+      "bytes": 84267,
+      "sha256": "f8a3a57ba6ebbfc2d4e5c25522fa3c549c77f4ca8aa1dbff6fd5113e2244fd0e"
+    },
+    {
+      "path": "screens/svg/continue-yes-failed--en--android--200.svg",
+      "bytes": 84972,
+      "sha256": "b247759234ae5e6597a8dba6b0716fabbf8c3694616f6009aeea87acbd3e2add"
+    },
+    {
+      "path": "screens/svg/continue-yes-failed--en--ios--100.svg",
+      "bytes": 84266,
+      "sha256": "9d7626b8fa58b90f2015364b08878cd65a34dd97e2d6927f49c58a001a2146b6"
+    },
+    {
+      "path": "screens/svg/continue-yes-failed--en--ios--200.svg",
+      "bytes": 85106,
+      "sha256": "74d9c2ad44e8bd2d5947606e61d489a673134f96771180c7c14239db732ea154"
+    },
+    {
+      "path": "screens/svg/continue-yes-failed--tr--android--100.svg",
+      "bytes": 84267,
+      "sha256": "100df0d8e6330c78254ce14a6ba02cf0845cd13cb7c9d13021c9c4036726eeca"
+    },
+    {
+      "path": "screens/svg/continue-yes-failed--tr--android--200.svg",
+      "bytes": 85082,
+      "sha256": "b5d633ae5fff5e8847222b988321eae884978e0c702f211d34f687e303c5929e"
+    },
+    {
+      "path": "screens/svg/continue-yes-failed--tr--ios--100.svg",
+      "bytes": 84266,
+      "sha256": "c020f16060761e25529c8ca9dd5ef269ca2c5dd5193798ddf4f8a3d427d460b9"
+    },
+    {
+      "path": "screens/svg/continue-yes-failed--tr--ios--200.svg",
+      "bytes": 85426,
+      "sha256": "b6dc400d2e70e6f6c04d8e3c9dd9b4fef7091cf0bcda132ca2a0af6a5f553468"
+    },
+    {
+      "path": "screens/svg/continue-yes-saved--en--android--100.svg",
+      "bytes": 83747,
+      "sha256": "41fdc806962db5ba8020cf2cf29d9d95ab14363433e369d5bff6408f23d4e063"
+    },
+    {
+      "path": "screens/svg/continue-yes-saved--en--android--200.svg",
+      "bytes": 84296,
+      "sha256": "2103e540990f96f8080ae09b06964ec5cd27828e70c86e4a9e92e2abb0131577"
+    },
+    {
+      "path": "screens/svg/continue-yes-saved--en--ios--100.svg",
+      "bytes": 83734,
+      "sha256": "99f0996aa588b65e3860cba14eae62dbc6e2952ce9aaeb1a49826bca20a86825"
+    },
+    {
+      "path": "screens/svg/continue-yes-saved--en--ios--200.svg",
+      "bytes": 84296,
+      "sha256": "9745482fd9343c711cf8d054963777cf2c902afd465abeaaabc12bb62873346d"
+    },
+    {
+      "path": "screens/svg/continue-yes-saved--tr--android--100.svg",
+      "bytes": 83760,
+      "sha256": "f018222c30231740004fe69e36d0efd7311f5c94a02df98e36eeb7ca59bad55d"
+    },
+    {
+      "path": "screens/svg/continue-yes-saved--tr--android--200.svg",
+      "bytes": 84236,
+      "sha256": "9f4a97e6d857d4f3afb17735d2a9edc0e7676324ce33f986b5e50f92eb0efb88"
+    },
+    {
+      "path": "screens/svg/continue-yes-saved--tr--ios--100.svg",
+      "bytes": 83747,
+      "sha256": "40bd48c3fd90b46a03c9ff5dbe628474816bda5e4b122f85e76c74dd05dee03a"
+    },
+    {
+      "path": "screens/svg/continue-yes-saved--tr--ios--200.svg",
+      "bytes": 84530,
+      "sha256": "27025652fa6aeab9a8adc601e47634444b73e699ce229211b9dfb6d907e56cfc"
+    },
+    {
+      "path": "screens/svg/continue-yes-saving--en--android--100.svg",
+      "bytes": 84191,
+      "sha256": "42e7f24d7215214b7edcf74eb0ca0a3cc65ed742e07910fbf22441d86b977836"
+    },
+    {
+      "path": "screens/svg/continue-yes-saving--en--android--200.svg",
+      "bytes": 84869,
+      "sha256": "d0666341950443c51642fc99194de845d7b38e7f00b423246754ef2cefe48546"
+    },
+    {
+      "path": "screens/svg/continue-yes-saving--en--ios--100.svg",
+      "bytes": 84190,
+      "sha256": "98d0a5ab28216f421261b42d1c4a12f06cf64d424540e603b7344b1ce0423f0a"
+    },
+    {
+      "path": "screens/svg/continue-yes-saving--en--ios--200.svg",
+      "bytes": 84993,
+      "sha256": "8bec85ef558d4228ecc881e783cf7157c59d956f557f758b3c68f8ec8371ad38"
+    },
+    {
+      "path": "screens/svg/continue-yes-saving--tr--android--100.svg",
+      "bytes": 84199,
+      "sha256": "78230eb8a30e2d67fd9e8bd77fc3aa927709e0965b19baee91090f8be2e52486"
+    },
+    {
+      "path": "screens/svg/continue-yes-saving--tr--android--200.svg",
+      "bytes": 85000,
+      "sha256": "2033a31ae6e08aa9dac2bc02cde208408e22d3bf2eac0a00eaa1ba3ccaf0a0f0"
+    },
+    {
+      "path": "screens/svg/continue-yes-saving--tr--ios--100.svg",
+      "bytes": 84198,
+      "sha256": "5ebd59f7526b91f103c1c03b1c9745cfb5a48eb2e55d7d7b59d843ea5f96dec7"
+    },
+    {
+      "path": "screens/svg/continue-yes-saving--tr--ios--200.svg",
+      "bytes": 85102,
+      "sha256": "b507c8eb643ca781b989c4c97f79b24e643581901252197591ffaaa5d69f435a"
+    },
+    {
+      "path": "screens/svg/intent-accept-both--en--android--100.svg",
+      "bytes": 189601,
+      "sha256": "a94d504f82f8e1c5b0df8cdf2aa45bab3b3a8d17bb8d4c7baf014c5f9bcc3f17"
+    },
+    {
+      "path": "screens/svg/intent-accept-both--en--android--200.svg",
+      "bytes": 189995,
+      "sha256": "a297599b865398dac158ecd11de984f67a03a9b3d3cf394006da3420252979bc"
+    },
+    {
+      "path": "screens/svg/intent-accept-both--en--ios--100.svg",
+      "bytes": 189591,
+      "sha256": "3cf25de3576ab15fd9c65a1214cc531a46550b0f097f31a07994cb5d8770d87f"
+    },
+    {
+      "path": "screens/svg/intent-accept-both--en--ios--200.svg",
+      "bytes": 189998,
+      "sha256": "9e5ca09add1432aa4aebcc3caa999f4a50130270f2ac1c9f7824343f59e01433"
+    },
+    {
+      "path": "screens/svg/intent-accept-both--tr--android--100.svg",
+      "bytes": 189609,
+      "sha256": "b512a4e3df28c8781213ca03ada5f59a4ee9d84742d779c52d246661e94fb08b"
+    },
+    {
+      "path": "screens/svg/intent-accept-both--tr--android--200.svg",
+      "bytes": 190003,
+      "sha256": "346959ee1ba81537107ce36158265a8ab846d946878ef637a241cb685e9d1c38"
+    },
+    {
+      "path": "screens/svg/intent-accept-both--tr--ios--100.svg",
+      "bytes": 189599,
+      "sha256": "a4d1330e2e5126953a37a5ad2456c4540dadd04efd8f2dbeab6d1a54ff6d7ba8"
+    },
+    {
+      "path": "screens/svg/intent-accept-both--tr--ios--200.svg",
+      "bytes": 190006,
+      "sha256": "a8f651f1fdf1239496f844eb847a9aed8d91a65e26dd43f6a99c55b38bae0782"
+    },
+    {
+      "path": "screens/svg/intent-accept-empty--en--android--100.svg",
+      "bytes": 189256,
+      "sha256": "ff85abb7bf21f187b37543fbfd29bedd559f0db161d91dc40b9287597ccd330b"
+    },
+    {
+      "path": "screens/svg/intent-accept-empty--en--android--200.svg",
+      "bytes": 189640,
+      "sha256": "ca103ad842110220c5be87547ff36473ab2a6edfcae34f8b3eb5d6b92f2f0822"
+    },
+    {
+      "path": "screens/svg/intent-accept-empty--en--ios--100.svg",
+      "bytes": 189246,
+      "sha256": "013b908a64f48b51ccb3212cce62ffff078f5624a43b4ab5637e74173ba27143"
+    },
+    {
+      "path": "screens/svg/intent-accept-empty--en--ios--200.svg",
+      "bytes": 189643,
+      "sha256": "d057f3621c90b2247040aade20982f4b2748181cd84eeb35f776ff4ecc6647d9"
+    },
+    {
+      "path": "screens/svg/intent-accept-empty--tr--android--100.svg",
+      "bytes": 189264,
+      "sha256": "f332d2306849900273a69479469472246f189398ab9ccde14334ddbf7c87ed84"
+    },
+    {
+      "path": "screens/svg/intent-accept-empty--tr--android--200.svg",
+      "bytes": 189648,
+      "sha256": "e8a826afd839429a757715a14f45b08176eccd6b2b5f4a84ec9ce1c1e8dab60c"
+    },
+    {
+      "path": "screens/svg/intent-accept-empty--tr--ios--100.svg",
+      "bytes": 189254,
+      "sha256": "da109de0b148acf95e1ea36cccc9bf9a18fe85bc054ef41ebb0b0b3c55850a47"
+    },
+    {
+      "path": "screens/svg/intent-accept-empty--tr--ios--200.svg",
+      "bytes": 189651,
+      "sha256": "c23153b4bcb4cf8f78cc2692388dc7f6828bde70ef14d05e5e40e217ae70ab6a"
+    },
+    {
+      "path": "screens/svg/intent-accept-failed--en--android--100.svg",
+      "bytes": 190202,
+      "sha256": "3ca44c097de7f61a07a8c6bcc9a23073e018d442b321f0b251e22b04a88ea3b6"
+    },
+    {
+      "path": "screens/svg/intent-accept-failed--en--android--200.svg",
+      "bytes": 190846,
+      "sha256": "818e373d86da9a45a03984dc94897ee9944c970e22215fd1d1508fa399cdb73e"
+    },
+    {
+      "path": "screens/svg/intent-accept-failed--en--ios--100.svg",
+      "bytes": 190220,
+      "sha256": "d77e3b78d080f9a8a76817081794acf955b4bc180b455739be05b1e1ecc547bb"
+    },
+    {
+      "path": "screens/svg/intent-accept-failed--en--ios--200.svg",
+      "bytes": 190849,
+      "sha256": "a6051ad50e2e7e67af62ba34a788edf0f101ffd28d9f91e4220182a300f5f3c6"
+    },
+    {
+      "path": "screens/svg/intent-accept-failed--tr--android--100.svg",
+      "bytes": 190202,
+      "sha256": "73248b56bc933e684f5dbf8805fcb92bc518813fb8f2cf72a4641ac392ad2160"
+    },
+    {
+      "path": "screens/svg/intent-accept-failed--tr--android--200.svg",
+      "bytes": 190737,
+      "sha256": "f0487d23188ba19c812deb6ce43803ac599234c6bd89249ff4e3ec0e6b3c1947"
+    },
+    {
+      "path": "screens/svg/intent-accept-failed--tr--ios--100.svg",
+      "bytes": 190220,
+      "sha256": "8142c99c5eb2738e658bcad60bf5bf5c1534ca992872dd20601235c6d48b70d4"
+    },
+    {
+      "path": "screens/svg/intent-accept-failed--tr--ios--200.svg",
+      "bytes": 190740,
+      "sha256": "8e1fd784c568da148ee836fdf7d9f0a196a4a4aff7e0359193e839f5a0806ac9"
+    },
+    {
+      "path": "screens/svg/intent-accept-offline--en--android--100.svg",
+      "bytes": 190124,
+      "sha256": "025ad9fa63f2478304ed2625a1779cab466403c6240a039526a7e025a2b8aa56"
+    },
+    {
+      "path": "screens/svg/intent-accept-offline--en--android--200.svg",
+      "bytes": 190486,
+      "sha256": "6b062b8531b8e4026ec02b17a2a35cb8a5c03c5e06c5f384c6a842ef01ac64c4"
+    },
+    {
+      "path": "screens/svg/intent-accept-offline--en--ios--100.svg",
+      "bytes": 190142,
+      "sha256": "3395df1a85a86a6014c9c4ce94b600ca809fcdd487de98dd83d491d1291976c4"
+    },
+    {
+      "path": "screens/svg/intent-accept-offline--en--ios--200.svg",
+      "bytes": 190489,
+      "sha256": "472568ec635d0fde8b25a575c71aef43a09e2a0cbd1ddac6a4c971b72837efb1"
+    },
+    {
+      "path": "screens/svg/intent-accept-offline--tr--android--100.svg",
+      "bytes": 190143,
+      "sha256": "4f7d899615963bb5844160f009b21ca41f42fc0f633b7eedbdebb88f2c83e4d9"
+    },
+    {
+      "path": "screens/svg/intent-accept-offline--tr--android--200.svg",
+      "bytes": 190640,
+      "sha256": "cd79fdb12a7777b6498a802b3c6a7f6c2d4b371d14c4e4207addf7df3aee79b3"
+    },
+    {
+      "path": "screens/svg/intent-accept-offline--tr--ios--100.svg",
+      "bytes": 190161,
+      "sha256": "84342001b2b348e80edea602b8dd44891c034927999d2a9b03409d8d8b5f7554"
+    },
+    {
+      "path": "screens/svg/intent-accept-offline--tr--ios--200.svg",
+      "bytes": 190643,
+      "sha256": "b1f6b33eb96d40e111edb3aa886dab1eca20b5ba6c2dc34f35e2e50e2384417f"
+    },
+    {
+      "path": "screens/svg/intent-accept-one--en--android--100.svg",
+      "bytes": 189410,
+      "sha256": "9f67de2743da09afb1004bb83d680ad84cd589b970bf1e08be994eb45df1d77b"
+    },
+    {
+      "path": "screens/svg/intent-accept-one--en--android--200.svg",
+      "bytes": 189793,
+      "sha256": "3eb3d11ad823f3ec5ee9edf5ffd1f29e98eb666745d7544777f555a0773a3200"
+    },
+    {
+      "path": "screens/svg/intent-accept-one--en--ios--100.svg",
+      "bytes": 189400,
+      "sha256": "f687bb6e160bedc6a7283a24825c4b73c1c1044675abb01472a42b14e96c6ae5"
+    },
+    {
+      "path": "screens/svg/intent-accept-one--en--ios--200.svg",
+      "bytes": 189796,
+      "sha256": "95968c84890ed5c71a2e18b4ef1a402373427f5e7051501a1185bfe6177de109"
+    },
+    {
+      "path": "screens/svg/intent-accept-one--tr--android--100.svg",
+      "bytes": 189418,
+      "sha256": "37b8e255e85ef55b3499b1b3efc1496ab07eaa6b2ea73fb6e4d84270cd266cd1"
+    },
+    {
+      "path": "screens/svg/intent-accept-one--tr--android--200.svg",
+      "bytes": 189801,
+      "sha256": "e6b6c2ccfba45b6c770aceaa80fcfc6fd9ba068a74baf06bd17d4e809338289e"
+    },
+    {
+      "path": "screens/svg/intent-accept-one--tr--ios--100.svg",
+      "bytes": 189408,
+      "sha256": "f0c685a4fd4d93eddca62ebeb2c3ca8bfac62cca5dcb11615f1416500746301d"
+    },
+    {
+      "path": "screens/svg/intent-accept-one--tr--ios--200.svg",
+      "bytes": 189804,
+      "sha256": "2a0fdcd8513699e46a5ac2c1df29e5d142e2cb137f821b3672776fba6cbc1c69"
+    },
+    {
+      "path": "screens/svg/intent-accept-submitting--en--android--100.svg",
+      "bytes": 190093,
+      "sha256": "b9aec1473c637085c58d140777be60aa57e11ec2516071ad926b7fd5097d6b0b"
+    },
+    {
+      "path": "screens/svg/intent-accept-submitting--en--android--200.svg",
+      "bytes": 190590,
+      "sha256": "a94ee6ba4a4c55d0a6cb9e353422fc9f6ff2f2e252648268b0db59bc973fa9e7"
+    },
+    {
+      "path": "screens/svg/intent-accept-submitting--en--ios--100.svg",
+      "bytes": 190111,
+      "sha256": "d4afc9b88bde978803801efb66e9fff02b898355fc894b70858364bb01155524"
+    },
+    {
+      "path": "screens/svg/intent-accept-submitting--en--ios--200.svg",
+      "bytes": 190593,
+      "sha256": "8972439bef519b8ce4c6e8109da7829d3873b7342d0c278d6beb5c32fe2b85c8"
+    },
+    {
+      "path": "screens/svg/intent-accept-submitting--tr--android--100.svg",
+      "bytes": 190104,
+      "sha256": "f484b66037e354f6b2433d5e7c41b1617c64a9d18b4b4cc9b10037a87ef1fc30"
+    },
+    {
+      "path": "screens/svg/intent-accept-submitting--tr--android--200.svg",
+      "bytes": 190601,
+      "sha256": "cd8a510d2072e0e3d248a433466e6df8ac44ff5d2ee9a854f646e84a1f1fbd05"
+    },
+    {
+      "path": "screens/svg/intent-accept-submitting--tr--ios--100.svg",
+      "bytes": 190122,
+      "sha256": "9a63edfd08c98eb15c529185cebb3c44d3096ec4df8bc3a6672995db9cb9dc59"
+    },
+    {
+      "path": "screens/svg/intent-accept-submitting--tr--ios--200.svg",
+      "bytes": 190604,
+      "sha256": "272819384cc4075b40471e558ceecddd0d0c25d175baeb16986810f689f9a7f5"
+    },
+    {
+      "path": "screens/svg/intent-send-both--en--android--100.svg",
+      "bytes": 189594,
+      "sha256": "976461ea4a5387e040e5bc611c23d6e02e8f269040956c7b4ce117d681a5ddcd"
+    },
+    {
+      "path": "screens/svg/intent-send-both--en--android--200.svg",
+      "bytes": 189988,
+      "sha256": "28d370a609de30617f686aad0c3b377e7e2bf6607e3a88e5ffc1402f7584bdf6"
+    },
+    {
+      "path": "screens/svg/intent-send-both--en--ios--100.svg",
+      "bytes": 189584,
+      "sha256": "8af86705bf182b22a6d14e2e3b6bba9ef1fbec0cd8599209cbe63b989bed9bbb"
+    },
+    {
+      "path": "screens/svg/intent-send-both--en--ios--200.svg",
+      "bytes": 189991,
+      "sha256": "907f30dc6c1b840156d27e2605c0735a2d60060c971f429d852750eb5bd9d7b4"
+    },
+    {
+      "path": "screens/svg/intent-send-both--tr--android--100.svg",
+      "bytes": 189610,
+      "sha256": "c817ce41cf5d518375c584ce95bb8ab9c0554dcd2c61ba9ce970718bd00feb9b"
+    },
+    {
+      "path": "screens/svg/intent-send-both--tr--android--200.svg",
+      "bytes": 190004,
+      "sha256": "ca2aa3b062abfbebc92735ceb7653992ee2742c88e059216a8568fbf51fee38f"
+    },
+    {
+      "path": "screens/svg/intent-send-both--tr--ios--100.svg",
+      "bytes": 189600,
+      "sha256": "c0447626557f06c74c64a6e4f674ab554b6ba661d62c922957ae6f625887aca2"
+    },
+    {
+      "path": "screens/svg/intent-send-both--tr--ios--200.svg",
+      "bytes": 190007,
+      "sha256": "64b6757507744db6dc0a07d80ce4a76757d12d5ad7ce16dbf97afd038aba6ae9"
+    },
+    {
+      "path": "screens/svg/intent-send-empty--en--android--100.svg",
+      "bytes": 189249,
+      "sha256": "315d2b54a6e915d0d75fab224a86c7c385afaf04ee5e5fe7ca96b26d812fe038"
+    },
+    {
+      "path": "screens/svg/intent-send-empty--en--android--200.svg",
+      "bytes": 189633,
+      "sha256": "37c250203167c1fa198b4f2e7874fd8fcddc58c7571f52ab434c4dcb749d271c"
+    },
+    {
+      "path": "screens/svg/intent-send-empty--en--ios--100.svg",
+      "bytes": 189239,
+      "sha256": "960d9305305ee661b4d829208d54b5ae5b52e40640a98cc5457995df37276585"
+    },
+    {
+      "path": "screens/svg/intent-send-empty--en--ios--200.svg",
+      "bytes": 189636,
+      "sha256": "482881acf16db7d93dfa95a07bcaeccffb0c0af35429540627ccb4aa15e29538"
+    },
+    {
+      "path": "screens/svg/intent-send-empty--tr--android--100.svg",
+      "bytes": 189265,
+      "sha256": "08494266488f1e08c88534a6b00d8d240da7fd9b1db8aa1a3f0b36e972f757da"
+    },
+    {
+      "path": "screens/svg/intent-send-empty--tr--android--200.svg",
+      "bytes": 189649,
+      "sha256": "be810dcf0c72164079ec3cbe63b0bcee3a08e976d14bc31d7b3e88ce43da9fb0"
+    },
+    {
+      "path": "screens/svg/intent-send-empty--tr--ios--100.svg",
+      "bytes": 189255,
+      "sha256": "423130f6bbfdd2e038a0410241fedb8e35246b67de9543ca71df3de1b4089aec"
+    },
+    {
+      "path": "screens/svg/intent-send-empty--tr--ios--200.svg",
+      "bytes": 189652,
+      "sha256": "d4d67c96fb483d46c4d6b7eb68e1197de8e6e5e7606897b8cd02e637661f1fc5"
+    },
+    {
+      "path": "screens/svg/intent-send-failed--en--android--100.svg",
+      "bytes": 190192,
+      "sha256": "7821064ab0f48e42977d16d14ec00d31ab09e0ef54f7497fb764ec01291d151c"
+    },
+    {
+      "path": "screens/svg/intent-send-failed--en--android--200.svg",
+      "bytes": 190727,
+      "sha256": "a8328489d3547a12c08c1c30d824ae931f57d8742c6e746868846762a4a7b55a"
+    },
+    {
+      "path": "screens/svg/intent-send-failed--en--ios--100.svg",
+      "bytes": 190210,
+      "sha256": "c47e0260e5edebca700bc446f0681d5b3b23d4fd68fc62863b7618d68080cb50"
+    },
+    {
+      "path": "screens/svg/intent-send-failed--en--ios--200.svg",
+      "bytes": 190730,
+      "sha256": "06bee63ed3ff2fd8bb2acfbaeab7cf5df9f263b3c22b216e0286332ea058e650"
+    },
+    {
+      "path": "screens/svg/intent-send-failed--tr--android--100.svg",
+      "bytes": 190202,
+      "sha256": "0b60fefa341f5bbec281f46fb8fc22b3ecdd40ca5b304a3c9ce9d77d8f1d6a0c"
+    },
+    {
+      "path": "screens/svg/intent-send-failed--tr--android--200.svg",
+      "bytes": 190846,
+      "sha256": "ca1cb3ff5f0d3c11be9fd43c2c491336d878871609fb88f3e93fc6f0307ad1aa"
+    },
+    {
+      "path": "screens/svg/intent-send-failed--tr--ios--100.svg",
+      "bytes": 190220,
+      "sha256": "c54d04b24e9b0c8577864e831465980f16dda99b418990fef3dcb1e3e86240d7"
+    },
+    {
+      "path": "screens/svg/intent-send-failed--tr--ios--200.svg",
+      "bytes": 190849,
+      "sha256": "20cd3a644903d4ce5bd98b6158684386b6d627bb0bbfe77f9ffa97c30872f496"
+    },
+    {
+      "path": "screens/svg/intent-send-offline--en--android--100.svg",
+      "bytes": 190117,
+      "sha256": "bb8f0e530687a7fc5d1b8b9b45eda7c197f2abc6d0337fbd66c3c7d46440e7a1"
+    },
+    {
+      "path": "screens/svg/intent-send-offline--en--android--200.svg",
+      "bytes": 190479,
+      "sha256": "55cf6587ae4068f88a75dee693c3bc06076d8ac089181507dc70b496e7d6eb64"
+    },
+    {
+      "path": "screens/svg/intent-send-offline--en--ios--100.svg",
+      "bytes": 190135,
+      "sha256": "5b21562415c6eaf3d2c245a036d1032be68568e9d0665b6a8c1e2b9d34b466b7"
+    },
+    {
+      "path": "screens/svg/intent-send-offline--en--ios--200.svg",
+      "bytes": 190482,
+      "sha256": "45bf23de913267a836d526cae286dad859962f15b0c8077f70e3599fd0764090"
+    },
+    {
+      "path": "screens/svg/intent-send-offline--tr--android--100.svg",
+      "bytes": 190144,
+      "sha256": "9a9199b578376ef709f9c5a001b1109c3a5a4c91b6e7769755749aeba56ba5c3"
+    },
+    {
+      "path": "screens/svg/intent-send-offline--tr--android--200.svg",
+      "bytes": 190641,
+      "sha256": "0a21393700ac1690b314e4d76f5ec86f3acea4dd4123b04207631c0e67fd39bf"
+    },
+    {
+      "path": "screens/svg/intent-send-offline--tr--ios--100.svg",
+      "bytes": 190162,
+      "sha256": "f895d8c4f3773061392accbbfaf5266b544b17e30f0dc1667953de9c43ffd99f"
+    },
+    {
+      "path": "screens/svg/intent-send-offline--tr--ios--200.svg",
+      "bytes": 190644,
+      "sha256": "c6319b5e663121e59009e41ae55bf2317dcce56119408dabdefbe092d6a2772a"
+    },
+    {
+      "path": "screens/svg/intent-send-one--en--android--100.svg",
+      "bytes": 189403,
+      "sha256": "4637cfc0651e9022a90d88f3d3a3a1f42b905cd6137148512318d1fdeea05860"
+    },
+    {
+      "path": "screens/svg/intent-send-one--en--android--200.svg",
+      "bytes": 189786,
+      "sha256": "6c1097812825c262f3effb60bc36db52a545bcd2502c657efd76fa290eae1fa5"
+    },
+    {
+      "path": "screens/svg/intent-send-one--en--ios--100.svg",
+      "bytes": 189393,
+      "sha256": "ff36253613dab1c180502004b058d941e02fde0319373785907ed63e372cb255"
+    },
+    {
+      "path": "screens/svg/intent-send-one--en--ios--200.svg",
+      "bytes": 189789,
+      "sha256": "d6cd6f9ab6470455c3ec1ac69a0824bb750697fe0680993b12e9432ef6cb5c8b"
+    },
+    {
+      "path": "screens/svg/intent-send-one--tr--android--100.svg",
+      "bytes": 189419,
+      "sha256": "74251fec307abe1957241c6a42e009386225be630ba63107c8ee94a2c423275a"
+    },
+    {
+      "path": "screens/svg/intent-send-one--tr--android--200.svg",
+      "bytes": 189802,
+      "sha256": "1a83977cee9464ed554a5550b2cc11bf2adde1102709f149f4432c3cae715bf6"
+    },
+    {
+      "path": "screens/svg/intent-send-one--tr--ios--100.svg",
+      "bytes": 189409,
+      "sha256": "1b792b85d25934f1e8ddd616140ea37accd67fe5ace2c4a8cc9c8f63d719dd3c"
+    },
+    {
+      "path": "screens/svg/intent-send-one--tr--ios--200.svg",
+      "bytes": 189805,
+      "sha256": "ea7e3cfba1e8e95b0242f1ef8cc4008cd1f1bf16b09380beaca577278c797674"
+    },
+    {
+      "path": "screens/svg/intent-send-submitting--en--android--100.svg",
+      "bytes": 190085,
+      "sha256": "fd6660ab39884a7df8cd5f634e74633ba1db705071db30f9de1aedb20b3a0380"
+    },
+    {
+      "path": "screens/svg/intent-send-submitting--en--android--200.svg",
+      "bytes": 190582,
+      "sha256": "eb98195ba1ee334f22c157ca9db91e08bad2e8303696a848eb79c78b1a1a9cc9"
+    },
+    {
+      "path": "screens/svg/intent-send-submitting--en--ios--100.svg",
+      "bytes": 190103,
+      "sha256": "ad6ef8caf4a3218d12981efd56be244ffd5ab4fc8d99580beab7d6addea94cec"
+    },
+    {
+      "path": "screens/svg/intent-send-submitting--en--ios--200.svg",
+      "bytes": 190585,
+      "sha256": "cbf71203cc193fb0a4e19fb2bff439d9566572daaff03cdc696c542aaba8bfb5"
+    },
+    {
+      "path": "screens/svg/intent-send-submitting--tr--android--100.svg",
+      "bytes": 190104,
+      "sha256": "b134b3cf9457c61018d3a11eed26841326d4b5c27e1e0a94956eed04c4a48be6"
+    },
+    {
+      "path": "screens/svg/intent-send-submitting--tr--android--200.svg",
+      "bytes": 190601,
+      "sha256": "61dc3645e62b8998aa3429af8fb78ffeef37552e1d57f762c70e043781ee6f34"
+    },
+    {
+      "path": "screens/svg/intent-send-submitting--tr--ios--100.svg",
+      "bytes": 190122,
+      "sha256": "7befd106ad591b1b9657ab29ab7e2ac2301c87f7754cb8c8f7392e295466b52b"
+    },
+    {
+      "path": "screens/svg/intent-send-submitting--tr--ios--200.svg",
+      "bytes": 190604,
+      "sha256": "0b1f0d20ee18cbc898193a9d869f0bc265f7123d88f1cc5a413a930417054278"
+    },
+    {
+      "path": "screens/svg/match-different--en--android--100.svg",
+      "bytes": 190032,
+      "sha256": "30824f29bb6386aae8a84b05d90965510ef2481938960b8f4e2ce10f093dc71d"
+    },
+    {
+      "path": "screens/svg/match-different--en--android--200.svg",
+      "bytes": 190421,
+      "sha256": "8542e74de0d1ea5292c25487ecb4bda3691be8ea9d75e1816e2003b2442b49a8"
+    },
+    {
+      "path": "screens/svg/match-different--en--ios--100.svg",
+      "bytes": 190041,
+      "sha256": "1af5f454d07c1930a5c2e38dd0d91f2955a4ac12de141df4eb12c86ec18f8e56"
+    },
+    {
+      "path": "screens/svg/match-different--en--ios--200.svg",
+      "bytes": 190434,
+      "sha256": "afa56bdcc5d18426146cf83ee4fbd3c9b9c61de60581de4602f6d01aeef46998"
+    },
+    {
+      "path": "screens/svg/match-different--tr--android--100.svg",
+      "bytes": 190052,
+      "sha256": "0a53ffd76d884f686aa365a42b5bad72e9d5ae11987b102bf5f4461ff9fd837c"
+    },
+    {
+      "path": "screens/svg/match-different--tr--android--200.svg",
+      "bytes": 190450,
+      "sha256": "f752653a814e6bde30cd51a05f483f7a5f2d63a142a2b42d4f03785fbf37ae2e"
+    },
+    {
+      "path": "screens/svg/match-different--tr--ios--100.svg",
+      "bytes": 190061,
+      "sha256": "f9dfdd6189990b1a649d2ebe6cd1fde9f44c3ddae0a43cc00a6183fc1456dbb0"
+    },
+    {
+      "path": "screens/svg/match-different--tr--ios--200.svg",
+      "bytes": 190471,
+      "sha256": "a1913a48e384a59a884b6f9ee14f5771c0f4459c761e64d2fdbbfd6d1175c5a2"
+    },
+    {
+      "path": "screens/svg/match-failed--en--android--100.svg",
+      "bytes": 82818,
+      "sha256": "9e75f92fa78c55759d4d103fa37d7b6f79a9dbcbbc5f72dea5ec8cc9b3574ae6"
+    },
+    {
+      "path": "screens/svg/match-failed--en--android--200.svg",
+      "bytes": 83094,
+      "sha256": "e78c40466cf69c0aee8882773bccbfb4a67e606cec110c1ed3f7973e3165513e"
+    },
+    {
+      "path": "screens/svg/match-failed--en--ios--100.svg",
+      "bytes": 82816,
+      "sha256": "e6bf444272d47f2343dd8aae97b58128ced8980e6527644dcb47c1dcfee6c98c"
+    },
+    {
+      "path": "screens/svg/match-failed--en--ios--200.svg",
+      "bytes": 83200,
+      "sha256": "da4e114682b589b79d35dde9f073de83fcdbd60e91c7aaf55d593a959c2f5f36"
+    },
+    {
+      "path": "screens/svg/match-failed--tr--android--100.svg",
+      "bytes": 82825,
+      "sha256": "76e1f1c7019c40dd2d812360743274b7abb1a8d1d67924114a9a35f9a1dda3da"
+    },
+    {
+      "path": "screens/svg/match-failed--tr--android--200.svg",
+      "bytes": 83087,
+      "sha256": "174ea262bae9e969affc4d7ecee7c72142ef6b9dab542e60d96be7f8c62186e7"
+    },
+    {
+      "path": "screens/svg/match-failed--tr--ios--100.svg",
+      "bytes": 82823,
+      "sha256": "636d18d3991d2e8c828bd3c0abfa39b7644fc6db9326c15c178692bc7e785fad"
+    },
+    {
+      "path": "screens/svg/match-failed--tr--ios--200.svg",
+      "bytes": 83086,
+      "sha256": "e35085022a8ceaecd91798bd5558bc41f16179a1f0e1c0ef81f30d76b2985e48"
+    },
+    {
+      "path": "screens/svg/match-loading--en--android--100.svg",
+      "bytes": 82433,
+      "sha256": "67740b70f6e9a39ade272bbf2be0dfb6f6e4bea188e258596f5ca6285605c6f0"
+    },
+    {
+      "path": "screens/svg/match-loading--en--android--200.svg",
+      "bytes": 82668,
+      "sha256": "ed0497fcab9cd8050bd28a206e6e2dc39fc3f0f5d895fc87d503293e7aa71c9f"
+    },
+    {
+      "path": "screens/svg/match-loading--en--ios--100.svg",
+      "bytes": 82443,
+      "sha256": "8835a26847afcdc8818da2ff3d8971e261c39c547925b893cacdd5f63b5bad7c"
+    },
+    {
+      "path": "screens/svg/match-loading--en--ios--200.svg",
+      "bytes": 82679,
+      "sha256": "c771688f3d7e4bf05d7e5c68220c3febc6ddb33ef7a04528df3c11ae8a4cc3f0"
+    },
+    {
+      "path": "screens/svg/match-loading--tr--android--100.svg",
+      "bytes": 82446,
+      "sha256": "f2480fa995fe5c384c784166a380cb351729041404ed78b8115bced9c6803379"
+    },
+    {
+      "path": "screens/svg/match-loading--tr--android--200.svg",
+      "bytes": 82582,
+      "sha256": "9dc53a90c9d5407cf938fdb7c7208701b622469aaaa542bfba42a03977e44876"
+    },
+    {
+      "path": "screens/svg/match-loading--tr--ios--100.svg",
+      "bytes": 82456,
+      "sha256": "ea83900fa97f42ba2dbf60457b6da4c7d3b912df65ed893e9cbd0433129d6e0b"
+    },
+    {
+      "path": "screens/svg/match-loading--tr--ios--200.svg",
+      "bytes": 82581,
+      "sha256": "85edfd7e9b93ec128220250f6f2a29fec4fa4afc3790038e0268a0be5aa35d74"
+    },
+    {
+      "path": "screens/svg/match-offline--en--android--100.svg",
+      "bytes": 82703,
+      "sha256": "0f57ee2ad65ee058b3e77f4b4e59b2094c39d6d86f02b84a891630d4104df263"
+    },
+    {
+      "path": "screens/svg/match-offline--en--android--200.svg",
+      "bytes": 82855,
+      "sha256": "e696ca2c581fe7c54d2d91144214dc59b037e1b52f184674df5eaf2e3a5a0d89"
+    },
+    {
+      "path": "screens/svg/match-offline--en--ios--100.svg",
+      "bytes": 82713,
+      "sha256": "4d144e5895cc6bc43eade86a4796bc3834072d235f7f7ef02657c1b0d6280261"
+    },
+    {
+      "path": "screens/svg/match-offline--en--ios--200.svg",
+      "bytes": 82866,
+      "sha256": "1c0da0a03e1c619fbd0c0a0e9d8f430c6aaa6ed9ccf5641f9594e81c3f70d13f"
+    },
+    {
+      "path": "screens/svg/match-offline--tr--android--100.svg",
+      "bytes": 82729,
+      "sha256": "a50854b0737986d41463e60ddbc3a6ca8877a6fc4d005d8dd16c0b34e2d5b6cc"
+    },
+    {
+      "path": "screens/svg/match-offline--tr--android--200.svg",
+      "bytes": 82905,
+      "sha256": "25113334f01655fa842b2912690e847ef89ca68576e2d8308e630b2c7d6827b4"
+    },
+    {
+      "path": "screens/svg/match-offline--tr--ios--100.svg",
+      "bytes": 82739,
+      "sha256": "9c7b1184607669cd6c536b832406ce4421c90de3a6cc96d809c2e558693e71f6"
+    },
+    {
+      "path": "screens/svg/match-offline--tr--ios--200.svg",
+      "bytes": 82904,
+      "sha256": "a0d993d59a12eb8069828e21b80825b0665a12605dd66f399c9bac47cbf674a1"
+    },
+    {
+      "path": "screens/svg/match-shared--en--android--100.svg",
+      "bytes": 189798,
+      "sha256": "1f9a6de787236717577a13e6c6285b8ed4d0178a743d24966ea86bb688807998"
+    },
+    {
+      "path": "screens/svg/match-shared--en--android--200.svg",
+      "bytes": 189952,
+      "sha256": "0b1e8e92d725208c8ffafb486210e12e8ff3dda41135747ed9d1886f077b6d83"
+    },
+    {
+      "path": "screens/svg/match-shared--en--ios--100.svg",
+      "bytes": 189807,
+      "sha256": "1f6620d2b2e0d9d5af584b277b0487669c3e6c16f61197ac1fe3d828f64753a1"
+    },
+    {
+      "path": "screens/svg/match-shared--en--ios--200.svg",
+      "bytes": 190163,
+      "sha256": "97dcfe5283d5974dad9c34cca31b90d99411b3c87d4517a053aa7c877e855e11"
+    },
+    {
+      "path": "screens/svg/match-shared--tr--android--100.svg",
+      "bytes": 189833,
+      "sha256": "e9ad57d58f3418bc1bea94df541863d7ff910609580cad1a01d0823428428e2c"
+    },
+    {
+      "path": "screens/svg/match-shared--tr--android--200.svg",
+      "bytes": 190163,
+      "sha256": "6e21d6386dd267eabd32729497fc8d4c876b4cb2c010d2ffa7e79ad6eabecdb2"
+    },
+    {
+      "path": "screens/svg/match-shared--tr--ios--100.svg",
+      "bytes": 189842,
+      "sha256": "8ec91e098f0916da6b98cf8fd463caa352c92335194e790df411463d28fa7bb6"
+    },
+    {
+      "path": "screens/svg/match-shared--tr--ios--200.svg",
+      "bytes": 190297,
+      "sha256": "03fb93bef1469fd4b0ad9831b3964476556491f343e41f4936510d07d81a1b0d"
+    },
+    {
+      "path": "screens/svg/messages-connections-empty--en--android--100.svg",
+      "bytes": 82939,
+      "sha256": "7335850801069e50aac063b3ac7f63601414be4a195340e66ee85b39467a7363"
+    },
+    {
+      "path": "screens/svg/messages-connections-empty--en--android--200.svg",
+      "bytes": 83086,
+      "sha256": "0ac78973d834fdf1acb0323556feb7aa55271ebc197c7f4eeb6b11ae953813ef"
+    },
+    {
+      "path": "screens/svg/messages-connections-empty--en--ios--100.svg",
+      "bytes": 82973,
+      "sha256": "7ed0a83a468efa5467d2a09a13130758494f1a71d5eeee43b104de2f212199b5"
+    },
+    {
+      "path": "screens/svg/messages-connections-empty--en--ios--200.svg",
+      "bytes": 83196,
+      "sha256": "a39eeae002e29350cb452a63f99d50fe216345103f4eaf9abf541d40817900e4"
+    },
+    {
+      "path": "screens/svg/messages-connections-empty--tr--android--100.svg",
+      "bytes": 82943,
+      "sha256": "2a49f009a26bec8bf92198cf0e12d114df8edfed33e0a0971cb5ef7637d1c491"
+    },
+    {
+      "path": "screens/svg/messages-connections-empty--tr--android--200.svg",
+      "bytes": 83090,
+      "sha256": "95fc55e5b6f52fefcd2c1a695c6db2cf85f8dbdcba73b2480d6058446ac75672"
+    },
+    {
+      "path": "screens/svg/messages-connections-empty--tr--ios--100.svg",
+      "bytes": 82977,
+      "sha256": "f8598ef80f7be8d0d7e14c7b22e9fa526bdc09700bdffe981541bf5507deefdf"
+    },
+    {
+      "path": "screens/svg/messages-connections-empty--tr--ios--200.svg",
+      "bytes": 83089,
+      "sha256": "08df633d069faef254efff2948e69bf633e02dcba2309c6fd1360c76963a60ac"
+    },
+    {
+      "path": "screens/svg/messages-connections-failed--en--android--100.svg",
+      "bytes": 83302,
+      "sha256": "d0f3d7708d3030f357ba178114ae738c0873b82183c6946534c38cd62ff796e2"
+    },
+    {
+      "path": "screens/svg/messages-connections-failed--en--android--200.svg",
+      "bytes": 83500,
+      "sha256": "caaa893b65501828de47c21cae9d0242b5ecf67c38b0e490c3e8a62adf48018f"
+    },
+    {
+      "path": "screens/svg/messages-connections-failed--en--ios--100.svg",
+      "bytes": 83348,
+      "sha256": "b03dfb0b8a458456b9d4bdeea08c97952098e3bf2d66041c128c5b114f519c33"
+    },
+    {
+      "path": "screens/svg/messages-connections-failed--en--ios--200.svg",
+      "bytes": 83719,
+      "sha256": "6977eadc83b99193edcfe8bfd14ecd7f4ca6bfcb762c70b60f7aaed2cc1861dc"
+    },
+    {
+      "path": "screens/svg/messages-connections-failed--tr--android--100.svg",
+      "bytes": 83312,
+      "sha256": "88f2de7ecafa721aa1ee3ea93fe782d69f753624381869711866053452adb791"
+    },
+    {
+      "path": "screens/svg/messages-connections-failed--tr--android--200.svg",
+      "bytes": 83584,
+      "sha256": "8a5a7b9d681b87cc71ff94fa5fa2a10d4213ee05d11be064efa1a43fb0e3c793"
+    },
+    {
+      "path": "screens/svg/messages-connections-failed--tr--ios--100.svg",
+      "bytes": 83358,
+      "sha256": "2573da958cf9c16edfb0ca412a0fbb8a18c13d6c6d4f25daa6e97046771e23c4"
+    },
+    {
+      "path": "screens/svg/messages-connections-failed--tr--ios--200.svg",
+      "bytes": 83729,
+      "sha256": "5f229124eb2af927f6205b69a5921b4d055c62ea98591caacca2cb2b65ca8681"
+    },
+    {
+      "path": "screens/svg/messages-connections-loading--en--android--100.svg",
+      "bytes": 82929,
+      "sha256": "9fda90ee7c8a86592712e7b7037ee990881c7d8736160113290cdeaf409565d4"
+    },
+    {
+      "path": "screens/svg/messages-connections-loading--en--android--200.svg",
+      "bytes": 83076,
+      "sha256": "609227fd9973657ed102951d76bc3959ebb7d24bed5112109b4f8c5ad8c205e8"
+    },
+    {
+      "path": "screens/svg/messages-connections-loading--en--ios--100.svg",
+      "bytes": 82963,
+      "sha256": "770ba394741b38981c75da3a185e43ac6be9303bc6ba6b82d16098ea14cfc493"
+    },
+    {
+      "path": "screens/svg/messages-connections-loading--en--ios--200.svg",
+      "bytes": 83075,
+      "sha256": "c03b2133b748ceaed534e50d98dcdebfa8573b9fa2fc5b516ae350484ab3d0c5"
+    },
+    {
+      "path": "screens/svg/messages-connections-loading--tr--android--100.svg",
+      "bytes": 82945,
+      "sha256": "60f47f059f3a6dd6c4f2435f6d3517349eacb9a79e310e19f7c29dbe7e23d558"
+    },
+    {
+      "path": "screens/svg/messages-connections-loading--tr--android--200.svg",
+      "bytes": 83092,
+      "sha256": "9825011b206598fec7bba60ed890df6e1f5687bc086cabba854f0bded44a7e73"
+    },
+    {
+      "path": "screens/svg/messages-connections-loading--tr--ios--100.svg",
+      "bytes": 82979,
+      "sha256": "2bbe5a8a75986e53275867d7cc49b509464f9e08afe57c713b7a9b9ad00fcb80"
+    },
+    {
+      "path": "screens/svg/messages-connections-loading--tr--ios--200.svg",
+      "bytes": 83091,
+      "sha256": "8b6ad9bec194706bfa87e5afab17f6dff60e9a61b1820aed81603c9757e80ec4"
+    },
+    {
+      "path": "screens/svg/messages-connections-offline--en--android--100.svg",
+      "bytes": 83201,
+      "sha256": "53dec2262193174296edc63b8d1638077c2f4d533e5d8b4a17302a01d365bcbe"
+    },
+    {
+      "path": "screens/svg/messages-connections-offline--en--android--200.svg",
+      "bytes": 83265,
+      "sha256": "bbf3ef2332e3a8ef77bfa3db9e44ecf4d564882a430c9acceb2d31ff328632f0"
+    },
+    {
+      "path": "screens/svg/messages-connections-offline--en--ios--100.svg",
+      "bytes": 83235,
+      "sha256": "8843225c3bf3c60ecc58bc2377e9ba45ca935b5a25f88183f51c4709d6876088"
+    },
+    {
+      "path": "screens/svg/messages-connections-offline--en--ios--200.svg",
+      "bytes": 83264,
+      "sha256": "6b1275c2aff055e15b826d9ee965c120a17273e1cc724b0434404e79e4bf5485"
+    },
+    {
+      "path": "screens/svg/messages-connections-offline--tr--android--100.svg",
+      "bytes": 83228,
+      "sha256": "7c4b3baa19f1a44e75517bb25e8c362b40c677f1088fce0f31ae30c24f802754"
+    },
+    {
+      "path": "screens/svg/messages-connections-offline--tr--android--200.svg",
+      "bytes": 83391,
+      "sha256": "9f3e7c9b064cbf2935786588757654795537393b260c1c32ed26f51280089485"
+    },
+    {
+      "path": "screens/svg/messages-connections-offline--tr--ios--100.svg",
+      "bytes": 83262,
+      "sha256": "990f60a95810152e1fcdbfa1b2314ecc1bcb0bc9ad66d843d4bba6e85d1ec01b"
+    },
+    {
+      "path": "screens/svg/messages-connections-offline--tr--ios--200.svg",
+      "bytes": 83390,
+      "sha256": "59b7e4a4718762f9299b15f52756353776838d2939ba7b59a3aa1813b2cbd625"
+    },
+    {
+      "path": "screens/svg/messages-connections-ready--en--android--100.svg",
+      "bytes": 189557,
+      "sha256": "f156456f00b367097147822ce757defd0884c7ca43fef6dd0a0944e93265737d"
+    },
+    {
+      "path": "screens/svg/messages-connections-ready--en--android--200.svg",
+      "bytes": 189597,
+      "sha256": "696a9f44e563ffdddb56a7ce0a101a915d9bf8ed76ce5254da74b0268fc2a83e"
+    },
+    {
+      "path": "screens/svg/messages-connections-ready--en--ios--100.svg",
+      "bytes": 189579,
+      "sha256": "75f145798f338fd20ce67578fc77d8a9c8be3e98427b6bac2e620760e52e1a6d"
+    },
+    {
+      "path": "screens/svg/messages-connections-ready--en--ios--200.svg",
+      "bytes": 189607,
+      "sha256": "a124e3ec6f78e7ee42b809a4938224f3969235062dbb9e25e685417dd93e48aa"
+    },
+    {
+      "path": "screens/svg/messages-connections-ready--tr--android--100.svg",
+      "bytes": 189574,
+      "sha256": "b56421c7c581a0879cd5eb3c3a590230edd87cb7a7dc83ab2dd8ff3ac3061937"
+    },
+    {
+      "path": "screens/svg/messages-connections-ready--tr--android--200.svg",
+      "bytes": 189614,
+      "sha256": "31914c1825e766ef4869afd99113a9cf33ccec4044a50edc44953f9d5e2b287a"
+    },
+    {
+      "path": "screens/svg/messages-connections-ready--tr--ios--100.svg",
+      "bytes": 189596,
+      "sha256": "7e12b960f0d247902b591efda45bb53525561c1d057153642b35286d10a55685"
+    },
+    {
+      "path": "screens/svg/messages-connections-ready--tr--ios--200.svg",
+      "bytes": 189624,
+      "sha256": "653224a65bb1125d250efdd21d6c46d4bb09e94f1ff43a264af7a4e969a003ea"
+    },
+    {
+      "path": "screens/svg/messages-requests-empty--en--android--100.svg",
+      "bytes": 82939,
+      "sha256": "35e2ea0554ba59aa5bbc11c0999572bf12d23d6a29ac56b734148e445deb4f0b"
+    },
+    {
+      "path": "screens/svg/messages-requests-empty--en--android--200.svg",
+      "bytes": 83086,
+      "sha256": "eec2d9bd12a892286757b0566f3efef4d6588030f7f82c2235cd2c44786399ce"
+    },
+    {
+      "path": "screens/svg/messages-requests-empty--en--ios--100.svg",
+      "bytes": 83083,
+      "sha256": "9c929c97b2fc46ef4d3f9b4ea069d58bc73ab8b958fa0f0f7e37c9597ae5cc78"
+    },
+    {
+      "path": "screens/svg/messages-requests-empty--en--ios--200.svg",
+      "bytes": 83196,
+      "sha256": "6f447415d9e1887fe7afbecce269cfdb887bb354cdac53b4bc9ee6604d713491"
+    },
+    {
+      "path": "screens/svg/messages-requests-empty--tr--android--100.svg",
+      "bytes": 82939,
+      "sha256": "f8516b786b0d55d63730f2d00fee84631928a64351e899e60f912d5f8bb862eb"
+    },
+    {
+      "path": "screens/svg/messages-requests-empty--tr--android--200.svg",
+      "bytes": 83086,
+      "sha256": "c22baa5b1ba22d15ba2749a86dcf46aeb16370e621057e82aab8a01b815e2897"
+    },
+    {
+      "path": "screens/svg/messages-requests-empty--tr--ios--100.svg",
+      "bytes": 82973,
+      "sha256": "4116c71bb2d22a988781d4bdba09231a47bfe071f9f754042ee5a4e96cdb16d6"
+    },
+    {
+      "path": "screens/svg/messages-requests-empty--tr--ios--200.svg",
+      "bytes": 83085,
+      "sha256": "d0e9808d1e69a5bf54cc84ae8f32a3900996aa020f906e19e4a80943cd9b5ede"
+    },
+    {
+      "path": "screens/svg/messages-requests-failed--en--android--100.svg",
+      "bytes": 83299,
+      "sha256": "1d174c993238c4ef1e5539e4096fbd80075f9ff67214a9fc8f1bb49c58b960d2"
+    },
+    {
+      "path": "screens/svg/messages-requests-failed--en--android--200.svg",
+      "bytes": 83497,
+      "sha256": "1d1ee027eb9a5149833b95fa09452ab5865e32144e60882024ecf64e0e8a5df8"
+    },
+    {
+      "path": "screens/svg/messages-requests-failed--en--ios--100.svg",
+      "bytes": 83345,
+      "sha256": "74f9b13c01251fd90bedbe3d3aa982f4518a3be6a0b793f73ecbbd62eada6988"
+    },
+    {
+      "path": "screens/svg/messages-requests-failed--en--ios--200.svg",
+      "bytes": 83716,
+      "sha256": "a59c7b8553c1befaf1524f8f0ae488f1f3c05a83ece9abd874b6fd2c08a798ae"
+    },
+    {
+      "path": "screens/svg/messages-requests-failed--tr--android--100.svg",
+      "bytes": 83309,
+      "sha256": "365cc65c3208c29cd01d1e123666e987dad60bf0352a64003a2fca7039506cad"
+    },
+    {
+      "path": "screens/svg/messages-requests-failed--tr--android--200.svg",
+      "bytes": 83581,
+      "sha256": "93395cee6483fd3784b2a6ab349368ad49c03e11cfac392cea1cb2001e015ef6"
+    },
+    {
+      "path": "screens/svg/messages-requests-failed--tr--ios--100.svg",
+      "bytes": 83355,
+      "sha256": "fd17e0a020dea7ab6b9906edb10d487b7af21228bf96a3497b3186a16344aac3"
+    },
+    {
+      "path": "screens/svg/messages-requests-failed--tr--ios--200.svg",
+      "bytes": 83726,
+      "sha256": "03618cebd29383edcc3fa2c1907f95e70e616859429a01691023668551e92976"
+    },
+    {
+      "path": "screens/svg/messages-requests-loading--en--android--100.svg",
+      "bytes": 82926,
+      "sha256": "e15a3dab0731bf5bfb2980e73d6b128a5c6b8588093f0f7c54b08c4cd4a0ab49"
+    },
+    {
+      "path": "screens/svg/messages-requests-loading--en--android--200.svg",
+      "bytes": 83073,
+      "sha256": "67bcb363a3e34fb421e4c142ed67fe51830f8e890556b0adf1b34971f6a89f1a"
+    },
+    {
+      "path": "screens/svg/messages-requests-loading--en--ios--100.svg",
+      "bytes": 82960,
+      "sha256": "6282d9586fc74d2e5744ec0a1242e41f848450008b357320f7bf08e17001eee5"
+    },
+    {
+      "path": "screens/svg/messages-requests-loading--en--ios--200.svg",
+      "bytes": 83072,
+      "sha256": "5d49fdee2d48bcb005d0eb1ce97c0f4a771112aeefdd391b2b9db8dbbec86142"
+    },
+    {
+      "path": "screens/svg/messages-requests-loading--tr--android--100.svg",
+      "bytes": 82942,
+      "sha256": "5ff0104cfde516d80dc8422ff856ce6eda3b0b8c519b10ffa12d80036fb5becc"
+    },
+    {
+      "path": "screens/svg/messages-requests-loading--tr--android--200.svg",
+      "bytes": 83089,
+      "sha256": "11add4a1b7859c292fc8c5c895e9fe60212214a44023afba543e4f76236fe325"
+    },
+    {
+      "path": "screens/svg/messages-requests-loading--tr--ios--100.svg",
+      "bytes": 82976,
+      "sha256": "f7637e65d0c88b7b129b2e406bd7f5e7e328a8f0dc4a60dab2a74b5eb937baf0"
+    },
+    {
+      "path": "screens/svg/messages-requests-loading--tr--ios--200.svg",
+      "bytes": 83088,
+      "sha256": "ac870cc86eb625dd50788a452de07ef32f8fd0609fb935a2dca6e22953fb5d13"
+    },
+    {
+      "path": "screens/svg/messages-requests-offline--en--android--100.svg",
+      "bytes": 83198,
+      "sha256": "a49ac410af482d7e897df4fc093124b86530fde79cd33a6fbcbc0aefc6f6d26a"
+    },
+    {
+      "path": "screens/svg/messages-requests-offline--en--android--200.svg",
+      "bytes": 83262,
+      "sha256": "c171c651900bc38c917293467beb897e3896addfb920a014cea1f9e0fa26e096"
+    },
+    {
+      "path": "screens/svg/messages-requests-offline--en--ios--100.svg",
+      "bytes": 83232,
+      "sha256": "b453242ea58fac3274279fcd67dc7b0eda49b0a10a780c81f549a803d7b5a2bc"
+    },
+    {
+      "path": "screens/svg/messages-requests-offline--en--ios--200.svg",
+      "bytes": 83261,
+      "sha256": "828043c7fedc4bb089041036fa334318c3cf4016f18824c6e1f3f71fad4cd807"
+    },
+    {
+      "path": "screens/svg/messages-requests-offline--tr--android--100.svg",
+      "bytes": 83225,
+      "sha256": "fdfc45b6541056b5ef457f5bbaf14cc7b457a556d5b061c2f4b0034e0b09622d"
+    },
+    {
+      "path": "screens/svg/messages-requests-offline--tr--android--200.svg",
+      "bytes": 83388,
+      "sha256": "46a7b5dd29701ac1b8cf496a3b9cf9b51ea18b7996bf056ad13664ab5171e70f"
+    },
+    {
+      "path": "screens/svg/messages-requests-offline--tr--ios--100.svg",
+      "bytes": 83259,
+      "sha256": "3c34b09016d9df131ef2edee0f07c1199e7ff719845dd57e33b527f17c6991ee"
+    },
+    {
+      "path": "screens/svg/messages-requests-offline--tr--ios--200.svg",
+      "bytes": 83387,
+      "sha256": "6539e6c91ba1fc1547f94f544dfc364c7ebfd01174d6fa61d388d4361b40f491"
+    },
+    {
+      "path": "screens/svg/messages-requests-ready--en--android--100.svg",
+      "bytes": 1607202,
+      "sha256": "ced6f1c203d3030183027e62410df984ea7f9d9a8514edd47245f9999db1d966"
+    },
+    {
+      "path": "screens/svg/messages-requests-ready--en--android--200.svg",
+      "bytes": 1607639,
+      "sha256": "e2491a9c21fd2954267da7b0f8fc06e62d7eb8fc8503d1fb6078dc64d7d982e8"
+    },
+    {
+      "path": "screens/svg/messages-requests-ready--en--ios--100.svg",
+      "bytes": 1607224,
+      "sha256": "e5a8ef485a98802ee329687dc25185e0418f6df06b1646a040a1397c4eda87f5"
+    },
+    {
+      "path": "screens/svg/messages-requests-ready--en--ios--200.svg",
+      "bytes": 1607637,
+      "sha256": "0dabf117c67e26b778305f381d8c77864fe347d1c06d0418e11a841610204eb2"
+    },
+    {
+      "path": "screens/svg/messages-requests-ready--tr--android--100.svg",
+      "bytes": 1607224,
+      "sha256": "cbd2b2a4e47e39866641c1ab1a737c7bbeb271504f3fcf878f6883e85d032eda"
+    },
+    {
+      "path": "screens/svg/messages-requests-ready--tr--android--200.svg",
+      "bytes": 1607457,
+      "sha256": "456b7023bb5dfef3a302a4c34102bd581520b1e6284fdf5370d1acda874de901"
+    },
+    {
+      "path": "screens/svg/messages-requests-ready--tr--ios--100.svg",
+      "bytes": 1607246,
+      "sha256": "e72cf588a1d0dfdbd3e034396f62da8757cd33d8f94de4bfc29cb41a9f931330"
+    },
+    {
+      "path": "screens/svg/messages-requests-ready--tr--ios--200.svg",
+      "bytes": 1607455,
+      "sha256": "6d85bcf1ba76a1cd47bff985d06dbc29a4ebd10c44411a76570543a9773a0ac1"
+    },
+    {
+      "path": "screens/svg/request-cancel-failed--en--android--100.svg",
+      "bytes": 190523,
+      "sha256": "83b9ffb8dee6297caa74f5b8480aacb88d123d9655755b1a0ebd0abc0b093134"
+    },
+    {
+      "path": "screens/svg/request-cancel-failed--en--android--200.svg",
+      "bytes": 190976,
+      "sha256": "962a61d98139b14f81cb7609e83ade2715e4e3cfb1d62dea252c5b3fb1d7f5bc"
+    },
+    {
+      "path": "screens/svg/request-cancel-failed--en--ios--100.svg",
+      "bytes": 190534,
+      "sha256": "436fdc68cc325bf665fb45f4db9a0ff963b0163eca22d4c80934d3831fb76329"
+    },
+    {
+      "path": "screens/svg/request-cancel-failed--en--ios--200.svg",
+      "bytes": 191076,
+      "sha256": "e5c1f567b608ebc9f14cf2ca0ceb462ba89c2e2aa2ab05b60672923858d3a54c"
+    },
+    {
+      "path": "screens/svg/request-cancel-failed--tr--android--100.svg",
+      "bytes": 190528,
+      "sha256": "ff309e44f804f60a8e99f048c4b7025fd7885ddc149138fea49874cde552870a"
+    },
+    {
+      "path": "screens/svg/request-cancel-failed--tr--android--200.svg",
+      "bytes": 190916,
+      "sha256": "0b1ccf1b3497d605f1aaa50fd2398af45b3748da4b6ad6fce204d62e275a58ae"
+    },
+    {
+      "path": "screens/svg/request-cancel-failed--tr--ios--100.svg",
+      "bytes": 190539,
+      "sha256": "73ce90dde3e243880d0b06121928436f449e147e9d54ba8094447f9bf44ca18a"
+    },
+    {
+      "path": "screens/svg/request-cancel-failed--tr--ios--200.svg",
+      "bytes": 190860,
+      "sha256": "c0d7e6ef8d5df4fb7bde7c120d7ee294426812289fc9a4ac0f8463ae9acabd31"
+    },
+    {
+      "path": "screens/svg/request-cancelled--en--android--100.svg",
+      "bytes": 82976,
+      "sha256": "aba6b1d631ed2a34036e62501abaedf94880be66f5d555dd26a3df2e5ff0e66e"
+    },
+    {
+      "path": "screens/svg/request-cancelled--en--android--200.svg",
+      "bytes": 83092,
+      "sha256": "e4f355170c1b9a21baa6b8d920d5699a842c066e6e3f7ebfec083f63d9e883ad"
+    },
+    {
+      "path": "screens/svg/request-cancelled--en--ios--100.svg",
+      "bytes": 82987,
+      "sha256": "fb98e1d34e2ed768c4efab8e7ea0414975de1f7fa53835fb623de487f9ca599c"
+    },
+    {
+      "path": "screens/svg/request-cancelled--en--ios--200.svg",
+      "bytes": 83092,
+      "sha256": "258cb35e3d408c65bae72189411e508f622e9ed69caf219d6437cf66fb2b07a2"
+    },
+    {
+      "path": "screens/svg/request-cancelled--tr--android--100.svg",
+      "bytes": 82982,
+      "sha256": "ee93e70eaf0dd757918c1a61053e85b709c3b9c7131397bc1cfa425c3ba54746"
+    },
+    {
+      "path": "screens/svg/request-cancelled--tr--android--200.svg",
+      "bytes": 82999,
+      "sha256": "b3ff7adc6fc4a73f00487793179351c1b0822a569773375cc8723f7f2f652b42"
+    },
+    {
+      "path": "screens/svg/request-cancelled--tr--ios--100.svg",
+      "bytes": 82993,
+      "sha256": "24a4b0b62f761d4f922c6f958f2a4a105adf63d8ed3806f0991b9f5750886e4b"
+    },
+    {
+      "path": "screens/svg/request-cancelled--tr--ios--200.svg",
+      "bytes": 82999,
+      "sha256": "9f62800fec055746d8a825dbd22de3b6ce9b100bf47fb45593581937c447a490"
+    },
+    {
+      "path": "screens/svg/request-cancelling--en--android--100.svg",
+      "bytes": 190354,
+      "sha256": "654edb58870647ca41096703b13623fa8d2c902313f43153590c448457f2c20e"
+    },
+    {
+      "path": "screens/svg/request-cancelling--en--android--200.svg",
+      "bytes": 190705,
+      "sha256": "e1e16405c8940bce44d0a790c41ff301615d3a7c477beed47aabb05e64e9f4bb"
+    },
+    {
+      "path": "screens/svg/request-cancelling--en--ios--100.svg",
+      "bytes": 190365,
+      "sha256": "d716eb5e314a790e686fcd97dd5ec694b0005cf545752a1ce159e8ca34b0e0a5"
+    },
+    {
+      "path": "screens/svg/request-cancelling--en--ios--200.svg",
+      "bytes": 190782,
+      "sha256": "c9ee1d7c80fa4244d19d9155da3d4ad392c7d3f6079a6fca3c6f17bbf90cdeba"
+    },
+    {
+      "path": "screens/svg/request-cancelling--tr--android--100.svg",
+      "bytes": 190369,
+      "sha256": "a7e8d69b4fcba9d6cafe472159de9f65eef4bed7029a86a2a6dae3292b831f86"
+    },
+    {
+      "path": "screens/svg/request-cancelling--tr--android--200.svg",
+      "bytes": 190720,
+      "sha256": "418ab77fbea0655ee3f00c3adddb076a915c6f2044fe555b8c00b74a96a6af40"
+    },
+    {
+      "path": "screens/svg/request-cancelling--tr--ios--100.svg",
+      "bytes": 190380,
+      "sha256": "deacb1c4085cdec273106f293d4b45ab458a7532ca9aa2cc4050de80d3c1b5be"
+    },
+    {
+      "path": "screens/svg/request-cancelling--tr--ios--200.svg",
+      "bytes": 190676,
+      "sha256": "f36cc115f192d704d6f85f670e0bbd139fe96e9d1b2e68e6b4e53b1c4f430244"
+    },
+    {
+      "path": "screens/svg/request-crossed--en--android--100.svg",
+      "bytes": 83180,
+      "sha256": "ff38c49f1f30a99a3ff1fed40646f57400425498664a491c5e81fddb1a94a4fc"
+    },
+    {
+      "path": "screens/svg/request-crossed--en--android--200.svg",
+      "bytes": 83502,
+      "sha256": "3979b04de8d50b5798483d2dc2f7a2af581e81261b38d9edf5edb0365348a222"
+    },
+    {
+      "path": "screens/svg/request-crossed--en--ios--100.svg",
+      "bytes": 83191,
+      "sha256": "3ac45536030d8844d32c0a24b2767dd79c6750f438844a564db472e44772a1b8"
+    },
+    {
+      "path": "screens/svg/request-crossed--en--ios--200.svg",
+      "bytes": 83538,
+      "sha256": "35b820c302c4c440ccb98db217d93a397d685e560cd8a0f20267abe1bbee6573"
+    },
+    {
+      "path": "screens/svg/request-crossed--tr--android--100.svg",
+      "bytes": 83072,
+      "sha256": "df528cda6b92f04950f88adedb792ed55f15a41025a27d9950e867c2d3b0c1dd"
+    },
+    {
+      "path": "screens/svg/request-crossed--tr--android--200.svg",
+      "bytes": 83384,
+      "sha256": "aa444ef87edcd49323300521a494cada4a9cd83eeb6686f2bfe71cb842c223a6"
+    },
+    {
+      "path": "screens/svg/request-crossed--tr--ios--100.svg",
+      "bytes": 83083,
+      "sha256": "53171f0d793511876de454b76c540a406362be8e33a382f00b574c73de4cf5ad"
+    },
+    {
+      "path": "screens/svg/request-crossed--tr--ios--200.svg",
+      "bytes": 83541,
+      "sha256": "0a74d24c8259e36b3225aef42659ec365427394ddfa67d7225fe22dd65b89445"
+    },
+    {
+      "path": "screens/svg/request-decline-failed--en--android--100.svg",
+      "bytes": 190291,
+      "sha256": "a7f7b60cf6e6890d7dc4707c1d6bf42f7c1a8510bdc500cc894e62e89abde780"
+    },
+    {
+      "path": "screens/svg/request-decline-failed--en--android--200.svg",
+      "bytes": 190695,
+      "sha256": "b7bcc71bcff12cdbdf15cc1cb0c968fb773fa2f27a21874d4f117c635e46dfe3"
+    },
+    {
+      "path": "screens/svg/request-decline-failed--en--ios--100.svg",
+      "bytes": 190313,
+      "sha256": "ba4fa7e971d319214ecc047cfe489b48aed41bd0da8c74b11f908702aa1f1c2d"
+    },
+    {
+      "path": "screens/svg/request-decline-failed--en--ios--200.svg",
+      "bytes": 190697,
+      "sha256": "78822a1c6c82b816b472d2edce446e85cd0931104f4e49eed36fa2ca2f120ec7"
+    },
+    {
+      "path": "screens/svg/request-decline-failed--tr--android--100.svg",
+      "bytes": 190291,
+      "sha256": "c674c62c96e96035432c5544be80d47ed9691bcc1df00a6de0834f364e81e436"
+    },
+    {
+      "path": "screens/svg/request-decline-failed--tr--android--200.svg",
+      "bytes": 190609,
+      "sha256": "153d179ff89890abb0a9bfe8f2b0ebf735433a19d3e5bd0783798c2d86375826"
+    },
+    {
+      "path": "screens/svg/request-decline-failed--tr--ios--100.svg",
+      "bytes": 190313,
+      "sha256": "a53cfdba18d0277c7e062453ed196dc24f6b385adc35969ac85d7fda7089e9cb"
+    },
+    {
+      "path": "screens/svg/request-decline-failed--tr--ios--200.svg",
+      "bytes": 190611,
+      "sha256": "b10fd490ec3fab006c3dcb9993699a9765ba2e688859077491054e34d4a1bf42"
+    },
+    {
+      "path": "screens/svg/request-declined--en--android--100.svg",
+      "bytes": 82971,
+      "sha256": "e9ea8a9e7f97618da1204cb109dd414531e4474163f4caf03d364f6344655c02"
+    },
+    {
+      "path": "screens/svg/request-declined--en--android--200.svg",
+      "bytes": 83087,
+      "sha256": "13240a90103c51fe41d12010ea7bbf7a469f0d5657b55ee7e7c7a0d6134f51c4"
+    },
+    {
+      "path": "screens/svg/request-declined--en--ios--100.svg",
+      "bytes": 82982,
+      "sha256": "a5d0e0b102aa1e098eae4bc4252b816597c301d3c7d05f2ea6135e85b22f24c8"
+    },
+    {
+      "path": "screens/svg/request-declined--en--ios--200.svg",
+      "bytes": 83087,
+      "sha256": "36bf1b7acd55a4f060d67573a7d2a610b444657030c045439a453b949524907b"
+    },
+    {
+      "path": "screens/svg/request-declined--tr--android--100.svg",
+      "bytes": 82977,
+      "sha256": "88df09b835570d8f5e56bff37a304c37240291c7675a6bced533814ae2909e72"
+    },
+    {
+      "path": "screens/svg/request-declined--tr--android--200.svg",
+      "bytes": 82994,
+      "sha256": "74c7799a8b5cd74df986be3c98d4eb25da74ec432a9bd2d9c5fea3db53f815a3"
+    },
+    {
+      "path": "screens/svg/request-declined--tr--ios--100.svg",
+      "bytes": 82988,
+      "sha256": "aa9c4481e2447265bdcf4cd028dc1df0b3f03954a53e52f9a12e94f2ce1ff5ad"
+    },
+    {
+      "path": "screens/svg/request-declined--tr--ios--200.svg",
+      "bytes": 82994,
+      "sha256": "ce9ffa48a0103ba6b2f9e612a5763c9c34838732d6530a5ec55110889d9c9c8c"
+    },
+    {
+      "path": "screens/svg/request-declining--en--android--100.svg",
+      "bytes": 190220,
+      "sha256": "1bc9c0c3f6bf21fe1eec459943034d3de5d6b97ccfaf9320e0f54f825970d2a5"
+    },
+    {
+      "path": "screens/svg/request-declining--en--android--200.svg",
+      "bytes": 190465,
+      "sha256": "2b69d58a8da622d025d2db28d0e37818816db60153641575acd48b9c3aef54a5"
+    },
+    {
+      "path": "screens/svg/request-declining--en--ios--100.svg",
+      "bytes": 190231,
+      "sha256": "06aaeb1c33da52275289b85b3d4cd7266aedde3716ab0e341590f8b6d92a0a6e"
+    },
+    {
+      "path": "screens/svg/request-declining--en--ios--200.svg",
+      "bytes": 190465,
+      "sha256": "740daac965b27adcce56f1c88622b21177b68d2dc6a95fe261b5baf20ba06b4a"
+    },
+    {
+      "path": "screens/svg/request-declining--tr--android--100.svg",
+      "bytes": 190235,
+      "sha256": "8570096f725de2fac2ebe580aec21a18add6dcb14b7101f978ae53641d1c49b0"
+    },
+    {
+      "path": "screens/svg/request-declining--tr--android--200.svg",
+      "bytes": 190295,
+      "sha256": "30611ec7db95fd1fbb2cca06056de6eef21d05b096dd7be196f706435d18822d"
+    },
+    {
+      "path": "screens/svg/request-declining--tr--ios--100.svg",
+      "bytes": 190246,
+      "sha256": "0129f698c98628db09857a5ef79f9d5f95ab2ebb7cbb58a340a1604a41adf663"
+    },
+    {
+      "path": "screens/svg/request-declining--tr--ios--200.svg",
+      "bytes": 190320,
+      "sha256": "70a59d470d42f6d641556e36a5375fd8d25f43878276e3269b1172301e14c4bd"
+    },
+    {
+      "path": "screens/svg/request-expired--en--android--100.svg",
+      "bytes": 82971,
+      "sha256": "57f8aae0fe4d041356e058bbfea5a54e134a6c296beb1d8a03f4f5a46742fa41"
+    },
+    {
+      "path": "screens/svg/request-expired--en--android--200.svg",
+      "bytes": 83087,
+      "sha256": "9caab5f2ec143608fb31e01e0cbcfe547cd9b628881f568d4726a7749fd4f336"
+    },
+    {
+      "path": "screens/svg/request-expired--en--ios--100.svg",
+      "bytes": 82982,
+      "sha256": "ab0de7ad0ef7110c3b314e832f8ef55f3cf919ad81e6ad9336ed0a1d65a5fa1e"
+    },
+    {
+      "path": "screens/svg/request-expired--en--ios--200.svg",
+      "bytes": 83087,
+      "sha256": "1102118c2a466d69ef5effc05d55a48d637e912384eb529f9f888d764ea3fd67"
+    },
+    {
+      "path": "screens/svg/request-expired--tr--android--100.svg",
+      "bytes": 82981,
+      "sha256": "52c9bee65223377804fe3545c5a6175880b97b6d7471fb4ed58c2f1231e905f5"
+    },
+    {
+      "path": "screens/svg/request-expired--tr--android--200.svg",
+      "bytes": 82998,
+      "sha256": "e3c425871e7409b803478db07872de929448b3611398bfc5313f3120d7a84b2a"
+    },
+    {
+      "path": "screens/svg/request-expired--tr--ios--100.svg",
+      "bytes": 82992,
+      "sha256": "0fd668793a340fcc60865d01def670a4c71903f31e2065a34b4a95af6b69d512"
+    },
+    {
+      "path": "screens/svg/request-expired--tr--ios--200.svg",
+      "bytes": 83097,
+      "sha256": "b4295449b6ae7ffd16a939e20f1cbc6a87f613deb70c1a487ddec28d43b92d43"
+    },
+    {
+      "path": "screens/svg/request-full--en--android--100.svg",
+      "bytes": 190525,
+      "sha256": "a309b8d112f2d90888ed525f65dc13accf355cd1cae75aba2daf11cf899855c9"
+    },
+    {
+      "path": "screens/svg/request-full--en--android--200.svg",
+      "bytes": 191076,
+      "sha256": "a0dcdd488e212579fbfaa5c97b50f347e792c2ac6019a1148e2e484d714237e3"
+    },
+    {
+      "path": "screens/svg/request-full--en--ios--100.svg",
+      "bytes": 190536,
+      "sha256": "134c4f2ef2bb26b0529c6bf6cfc65a09e49e140b21e2fcaf4657c11bf1396762"
+    },
+    {
+      "path": "screens/svg/request-full--en--ios--200.svg",
+      "bytes": 191078,
+      "sha256": "875be1a1e588f1071dc38cd158e7e38863ef0086abdbd6f3b317350d46fb1eb4"
+    },
+    {
+      "path": "screens/svg/request-full--tr--android--100.svg",
+      "bytes": 190543,
+      "sha256": "1194dacbb307975cdf5f901f5be880482db6963a9b774c946c092ebef9494a16"
+    },
+    {
+      "path": "screens/svg/request-full--tr--android--200.svg",
+      "bytes": 190996,
+      "sha256": "c77f77f699507297c1430cf73ec2ec1c57173ee92ec5f7807601baecadcb310a"
+    },
+    {
+      "path": "screens/svg/request-full--tr--ios--100.svg",
+      "bytes": 190554,
+      "sha256": "6e4080fa666b6cfb151b3e25627be2280c03f02c35b362b1fdd8b26e581be8b5"
+    },
+    {
+      "path": "screens/svg/request-full--tr--ios--200.svg",
+      "bytes": 190954,
+      "sha256": "f45017b9f7c65ef1746e9f45339fb491b0bd3145894630c6dd87708c3cb849b1"
+    },
+    {
+      "path": "screens/svg/request-incoming--en--android--100.svg",
+      "bytes": 189742,
+      "sha256": "cb8a86b9a5c16b5ec94ef741883c7dd00d7d4651034936c83a6fb6f0198fad5c"
+    },
+    {
+      "path": "screens/svg/request-incoming--en--android--200.svg",
+      "bytes": 189888,
+      "sha256": "76525768d9b8bf13271cc3ae858e22933f5eebb56074921d8946e27db9972f34"
+    },
+    {
+      "path": "screens/svg/request-incoming--en--ios--100.svg",
+      "bytes": 189753,
+      "sha256": "e35eebd5db413fcd48a0718ecec79d3e512b5bba8fb522287921e09038e03671"
+    },
+    {
+      "path": "screens/svg/request-incoming--en--ios--200.svg",
+      "bytes": 189887,
+      "sha256": "cbb9892017ffcc230285ec5fa6513840baacb62ad4215e76e0c55a8ca0bc764c"
+    },
+    {
+      "path": "screens/svg/request-incoming--tr--android--100.svg",
+      "bytes": 189748,
+      "sha256": "bc0a98bbc0090bbabd4108ff1253873cdb1fe8aad6ff418e80568abf6a342d10"
+    },
+    {
+      "path": "screens/svg/request-incoming--tr--android--200.svg",
+      "bytes": 189723,
+      "sha256": "15a767d9f4d3e7b8d11e481ae82f47d3111558696dc45ca1c276996434ae880f"
+    },
+    {
+      "path": "screens/svg/request-incoming--tr--ios--100.svg",
+      "bytes": 189759,
+      "sha256": "817796878c8172b8e3cf1ed7784157fd08bdcf5329895768daf1f078d0ac4417"
+    },
+    {
+      "path": "screens/svg/request-incoming--tr--ios--200.svg",
+      "bytes": 189734,
+      "sha256": "7d240ebd50bfc37977edc3cbf2dfd0618bcf6f379371262175d39b4c2d181554"
+    },
+    {
+      "path": "screens/svg/request-offline--en--android--100.svg",
+      "bytes": 82978,
+      "sha256": "44d50287767fa9ce77899de569f4322d94732d22fa5450521c71dce734dfe39a"
+    },
+    {
+      "path": "screens/svg/request-offline--en--android--200.svg",
+      "bytes": 82995,
+      "sha256": "49e3177d7020b8a1b258421af52f081e2a38cab1c110bbd6d7ffe0771c4f47e5"
+    },
+    {
+      "path": "screens/svg/request-offline--en--ios--100.svg",
+      "bytes": 82989,
+      "sha256": "986aa3a34f70a211c13d0a483eddab788be2bb5d0fefc6f13116a7918b5c7b79"
+    },
+    {
+      "path": "screens/svg/request-offline--en--ios--200.svg",
+      "bytes": 82995,
+      "sha256": "c844ea1adca94590885b97e5c08d501e537f533c70b8e69f414a76490a2c3111"
+    },
+    {
+      "path": "screens/svg/request-offline--tr--android--100.svg",
+      "bytes": 82999,
+      "sha256": "4bed0bf159e6caf74093d842b27b10f6248664603c7abfc368ab447600f48d97"
+    },
+    {
+      "path": "screens/svg/request-offline--tr--android--200.svg",
+      "bytes": 83115,
+      "sha256": "34964924446d3536e4a821724da8c79efab6855c140a10a749151a8223385b84"
+    },
+    {
+      "path": "screens/svg/request-offline--tr--ios--100.svg",
+      "bytes": 83010,
+      "sha256": "434a0df59d80d511c71cfb13afdf0e755f3e4aa7acc3df526d29bcf17b3f2908"
+    },
+    {
+      "path": "screens/svg/request-offline--tr--ios--200.svg",
+      "bytes": 83115,
+      "sha256": "557fe1efa39eb9d5225c96be584096c244ee9b6021bc4fed69609b217802920e"
+    },
+    {
+      "path": "screens/svg/request-pending--en--android--100.svg",
+      "bytes": 189941,
+      "sha256": "dcb261548028a03943c22af2db3aa3f7dd7b968eb63c09bc954557f950ed03bd"
+    },
+    {
+      "path": "screens/svg/request-pending--en--android--200.svg",
+      "bytes": 190045,
+      "sha256": "a4ccae82bc4a8f3ba800e5c0e7b15fdffeb9aaf0c893cce7c7dbc31bf10330fa"
+    },
+    {
+      "path": "screens/svg/request-pending--en--ios--100.svg",
+      "bytes": 189952,
+      "sha256": "2abc711e7be234abe8af1db47db0e643a45bad939b3bcc5e004e7f29004410e1"
+    },
+    {
+      "path": "screens/svg/request-pending--en--ios--200.svg",
+      "bytes": 190111,
+      "sha256": "1345cd408cdc7997d4bff8adde7e714e34a20835bdbbd683f60f925885bbbdbc"
+    },
+    {
+      "path": "screens/svg/request-pending--tr--android--100.svg",
+      "bytes": 189955,
+      "sha256": "bc110e0812143c3c390ff25482b1627bb0751dacf8463c97f530be31433f7649"
+    },
+    {
+      "path": "screens/svg/request-pending--tr--android--200.svg",
+      "bytes": 190059,
+      "sha256": "045df34ddff555e19de04ae29bc941f7494ff5e1115c1e0f5a02bbf65982cd00"
+    },
+    {
+      "path": "screens/svg/request-pending--tr--ios--100.svg",
+      "bytes": 189966,
+      "sha256": "b183a3452dbe53f103a25afb34f6a0501fdf649bd0805201116c23ffd7e16385"
+    },
+    {
+      "path": "screens/svg/request-pending--tr--ios--200.svg",
+      "bytes": 190061,
+      "sha256": "3c5219f2faafa45e6505f5c43d1465356bc682eedb86d60d0e5a46138135f194"
+    },
+    {
+      "path": "screens/svg/request-unavailable--en--android--100.svg",
+      "bytes": 82992,
+      "sha256": "baa8ea910ebb56bb5e29122a47fec9967cad93a11f112d09d456dccea32a93f2"
+    },
+    {
+      "path": "screens/svg/request-unavailable--en--android--200.svg",
+      "bytes": 83108,
+      "sha256": "996a5e7962d13cce3b1708c890c2a40c533ddf75af27e478d6674e4a523cab04"
+    },
+    {
+      "path": "screens/svg/request-unavailable--en--ios--100.svg",
+      "bytes": 83003,
+      "sha256": "379603bc2d41c30ba5ef10cdb2eb9bb3799efbae9d32d558b8ae77153a586fd7"
+    },
+    {
+      "path": "screens/svg/request-unavailable--en--ios--200.svg",
+      "bytes": 83219,
+      "sha256": "7216044197c7d553dae11b41646a93798ebb899a21560ddf61711d9d8d212c0a"
+    },
+    {
+      "path": "screens/svg/request-unavailable--tr--android--100.svg",
+      "bytes": 82996,
+      "sha256": "44e947afbfea0074c28ac437c25083ffbc3b8e75d15d36000dacdc4cd23d6261"
+    },
+    {
+      "path": "screens/svg/request-unavailable--tr--android--200.svg",
+      "bytes": 83112,
+      "sha256": "38f0ea5aa999c41bf64c5797e31731269aec94bc04d64c7372d32aed0736f03a"
+    },
+    {
+      "path": "screens/svg/request-unavailable--tr--ios--100.svg",
+      "bytes": 83007,
+      "sha256": "4ee5366427a661d5f5a091a8565c6d66cb9e31b8c8fb0f4b471ff418360e209a"
+    },
+    {
+      "path": "screens/svg/request-unavailable--tr--ios--200.svg",
+      "bytes": 83112,
+      "sha256": "2103d39bb4ed1ff29b91e1d783e42d9c3a6aa4283925aa3ab169d3af3df9e479"
+    },
+    {
+      "path": "specs/00-AKIS-HARITASI.md",
+      "bytes": 1980,
+      "sha256": "5a09798b2e1e800110bac01afed2e2ad101f237a73244b9d35c0cdcf0e7a18e1"
+    },
+    {
+      "path": "specs/01-ISTEK-ESLESME.md",
+      "bytes": 4375,
+      "sha256": "9bd94e53b5368fa2a1acc7895f933aa35d03b7f462257d32f44d5e4196b27878"
+    },
+    {
+      "path": "specs/02-SOHBET.md",
+      "bytes": 4733,
+      "sha256": "40cdba5514fb8b75e872df9a9f0042d403a61fda4ed573cdd10d401dfc514c0a"
+    },
+    {
+      "path": "specs/03-DEVAM.md",
+      "bytes": 3261,
+      "sha256": "285550ddb03185bb9bd4069587cceaf0c423d01a78062f11ac059e757bd79dc8"
+    },
+    {
+      "path": "specs/04-CONTACT.md",
+      "bytes": 4434,
+      "sha256": "a5667ec0ef4e0e232488ccd578e218b343908f4c7b794383cbbba7b671189a1d"
+    },
+    {
+      "path": "specs/05-DURUMLAR-PLATFORM.md",
+      "bytes": 4197,
+      "sha256": "3ae051ec6af4c812da76c658ccdb2358a05cf69f0aff2f3d5f71de94dc0447a2"
+    },
+    {
+      "path": "specs/06-BIRLESTIRME.md",
+      "bytes": 3363,
+      "sha256": "2f24b1d3fe3786a2a14c5a56d9a0731262b02d4e291f43aaee6a9235d8a44158"
+    },
+    {
+      "path": "specs/EKRAN-LISTESI.md",
+      "bytes": 5561,
+      "sha256": "db36852e6155a71ccc20e698f7fd1176e3438eee6d14b822597a861b6c3646e7"
+    },
+    {
+      "path": "tokens/theme.tokens.json",
+      "bytes": 3574,
+      "sha256": "594c40b84df0abcdf579e0c84b8f225ba30d9498d5bde882612a7036206fc60c"
+    },
+    {
+      "path": "v1.4-kabul-eki/01-YERLESIM.md",
+      "bytes": 4272,
+      "sha256": "810f8cf3f06a4ed9ef09858b7581a59ed69a52cdd4d32781a80f425f191714a1"
+    },
+    {
+      "path": "v1.4-kabul-eki/KABUL-EKI.md",
+      "bytes": 916,
+      "sha256": "4d9a0ab0d55549f31d547043d4e170986f58d17c5fd5714ca2d232c34ddee466"
+    },
+    {
+      "path": "v1.4-kabul-eki/migration.json",
+      "bytes": 2911,
+      "sha256": "ba985da0c0bf56e7693acac7e69728eff3740a5ff32a6321232d6dec160e661f"
+    }
+  ]
+}

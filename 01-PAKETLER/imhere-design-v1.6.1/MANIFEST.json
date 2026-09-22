@@ -1,0 +1,1052 @@
+{
+  "version": "1.6.1",
+  "package": 2,
+  "deliveryType": "patch to accepted v1.6; standalone patch preview",
+  "canonicalAuthKeys": 19,
+  "statesInPatch": 17,
+  "svg": 136,
+  "png": 34,
+  "profileScreens": "Use unchanged accepted v1.6 profile files; not duplicated in this small archive.",
+  "files": [
+    {
+      "path": "00-BURADAN-BASLA.md",
+      "bytes": 3356,
+      "sha256": "9a1cb76cb0531571dc82457257aa687812bfbd9990b5605e87b1e74de7b53cc6"
+    },
+    {
+      "path": "DEGISIKLIKLER.md",
+      "bytes": 1094,
+      "sha256": "4182fe5fe2ef8ca836a9ea017d8ea806475475a5b9f4a2018e8c55fa472394ad"
+    },
+    {
+      "path": "DOGRULAMA.md",
+      "bytes": 1755,
+      "sha256": "aa8c92b0b5a5e0c55577914553f69d004bf455791e229d2bb688e90bba577280"
+    },
+    {
+      "path": "MANAGER-NOTU.md",
+      "bytes": 747,
+      "sha256": "1eee99a9e3f584e65af941a823e714b145e4a9f52e622f010af599981e78b70d"
+    },
+    {
+      "path": "ONIZLEME.html",
+      "bytes": 88875,
+      "sha256": "30ec02dd7b0fdd376eedba62af0542e679c6ca19a09b53666c876ee3d762a30c"
+    },
+    {
+      "path": "contracts/auth-key-contract.json",
+      "bytes": 2018,
+      "sha256": "bc70ac7ff9513ac505bedd1c395c3a04cdaf1192189aee41225064d970c72caa"
+    },
+    {
+      "path": "contracts/navigation.json",
+      "bytes": 420,
+      "sha256": "61e9e9cb87873d3bad168004559aea30e4450fc6df724e3230f48cfe515a5bf0"
+    },
+    {
+      "path": "contracts/onboarding.json",
+      "bytes": 2545,
+      "sha256": "a4292af26924b20be00f91791c25e2d731579e7712e5437e63700e0ecc5f324b"
+    },
+    {
+      "path": "contracts/profile-existing-test-keys.json",
+      "bytes": 855,
+      "sha256": "afe05c6d985dfd69aca579ea3f8bfc5b25e927338de6ad561061daea3935656f"
+    },
+    {
+      "path": "contracts/profile.json",
+      "bytes": 1261,
+      "sha256": "d14a81793f62281e86e7e6ce1cc415abb27080e74bdbe88850adc2cc44965662"
+    },
+    {
+      "path": "contracts/screen-manifest.json",
+      "bytes": 115578,
+      "sha256": "376b5401b5ee34727203fed67a5692ca848ad615e1a07641f419616999d0527e"
+    },
+    {
+      "path": "evidence/accepted-profile-manifest.json",
+      "bytes": 43450,
+      "sha256": "4da82ee6886f24da2b66e904f24d82119b90cfa7c345c78f36694aa86948dad6"
+    },
+    {
+      "path": "evidence/preview-check.json",
+      "bytes": 458,
+      "sha256": "da76e55b7b73d6e82665cc8a96d881dca699ce9fcce10c53a36b4551bcdcec54"
+    },
+    {
+      "path": "evidence/source-status.json",
+      "bytes": 931,
+      "sha256": "7d6975d0abedb853900fb1db0ec90cca0b92ec5e3bd61bdb8b5dc637b4b1e51a"
+    },
+    {
+      "path": "evidence/validation.json",
+      "bytes": 232752,
+      "sha256": "69bd34abd228ae8aab35688f6a1afe57eb8cdee274d6af63b6d5cba4ed1410e4"
+    },
+    {
+      "path": "fonts/Geist-Medium.ttf",
+      "bytes": 127660,
+      "sha256": "3a3b36f0d0b981f4857f7f00eeef4a5ee123605575d362ab31ee7c19e3d11f2f"
+    },
+    {
+      "path": "fonts/Geist-Regular.ttf",
+      "bytes": 126048,
+      "sha256": "85a1c6b18a6b0a06dfe9fd4f6d6a5d4979f74ec861eaef4bc7868b5492b8a117"
+    },
+    {
+      "path": "fonts/Geist-SemiBold.ttf",
+      "bytes": 127872,
+      "sha256": "b9f52322d6d20a7ff1e7fe1310ff12ec851aebb83d24f8b4f1d4149298f489b2"
+    },
+    {
+      "path": "fonts/OFL.txt",
+      "bytes": 4383,
+      "sha256": "c683bfbcc7e087f5d37a54ef628f10387c451a83ddc459b151403a164ac46c90"
+    },
+    {
+      "path": "fonts/README.md",
+      "bytes": 1230,
+      "sha256": "c6abf70ae45eaea5908935227341faa282c69f93043f423fb4d42c99db453ad7"
+    },
+    {
+      "path": "fonts/SOURCE.json",
+      "bytes": 1599,
+      "sha256": "6867ef6b42707ad0bc34564fc49da8fc84a59ef003a089f9e0c2819c9e45360d"
+    },
+    {
+      "path": "l10n/ANAHTAR-ESLEMELERI.md",
+      "bytes": 3725,
+      "sha256": "6de37036458e945a4a3fe7f70a59b035ccd16a4fb581e9a509ae396a687fe0f5"
+    },
+    {
+      "path": "l10n/app_en.arb",
+      "bytes": 18834,
+      "sha256": "4115664b7273d36a182f6e76b969e7f91fb5cc23eb0b87475a2dffec0fbc4fad"
+    },
+    {
+      "path": "l10n/app_tr.arb",
+      "bytes": 19456,
+      "sha256": "2e28aa9cf1fe09b660662ed219d939d6011d2cacf861a3d274838aee52ba9835"
+    },
+    {
+      "path": "l10n/auth_en.arb",
+      "bytes": 1061,
+      "sha256": "307fda527d24af23d52ce642555cf67a1f9f922a47f7c8cbca5d35150edf5b0f"
+    },
+    {
+      "path": "l10n/auth_tr.arb",
+      "bytes": 1075,
+      "sha256": "6b160a4fa1359e0af248a1b1e3334133bd5b0e0e97bf542aabc5630e95011e52"
+    },
+    {
+      "path": "l10n/migration.json",
+      "bytes": 17254,
+      "sha256": "c67438c8480a103d7f72e423d787b862bf1bbeef2d7500bd098d8dd21657f24c"
+    },
+    {
+      "path": "l10n/v1.6.1-auth-diff.json",
+      "bytes": 5042,
+      "sha256": "4c447870f3c65310b36f35d35b5ab032990a65923f9450d05989f3a9b08cd1c8"
+    },
+    {
+      "path": "references/DESIGN_REQUIREMENTS_EXTRACT_v1.0.2.md",
+      "bytes": 8850,
+      "sha256": "679b69a0e0a9ac1d94b373547a021146651b68513974ba48d1fe49bcd7bc44ab"
+    },
+    {
+      "path": "review/GENEL-BAKIS.png",
+      "bytes": 162854,
+      "sha256": "fd524bc30bc37b975f95bbc502a0ad28c78815c8c816fb7ba5a048cff6041941"
+    },
+    {
+      "path": "screens/png/login-empty--en--android--200.png",
+      "bytes": 110200,
+      "sha256": "efb8c126c75fc1cf8577b33930d4663651aaac99004d5ae9e14e4452bbc4d288"
+    },
+    {
+      "path": "screens/png/login-empty--tr--ios--100.png",
+      "bytes": 77659,
+      "sha256": "a950ec540a625184451363124933261063fec7874c01b804eaccdc88f492cb64"
+    },
+    {
+      "path": "screens/png/login-failed--en--android--200.png",
+      "bytes": 151363,
+      "sha256": "6b32e9cac4ef258fff9d0a5c838b8b495251998694f72a0685e8222a112ef960"
+    },
+    {
+      "path": "screens/png/login-failed--tr--ios--100.png",
+      "bytes": 96390,
+      "sha256": "686478c485fddb2e68168af2b77eb4f153ad025ff8e45e5ca60159adb9c98dbd"
+    },
+    {
+      "path": "screens/png/login-filled--en--android--200.png",
+      "bytes": 119461,
+      "sha256": "0d1600117a56028f0f32221812a39584692e8eb7503be35fce62f6505b2f90f9"
+    },
+    {
+      "path": "screens/png/login-filled--tr--ios--100.png",
+      "bytes": 82196,
+      "sha256": "b0ac9f6aafefe428a28a68f79c2326faeed7f2e23cae669d1c963968d1935110"
+    },
+    {
+      "path": "screens/png/login-invalid--en--android--200.png",
+      "bytes": 125397,
+      "sha256": "9929f6b7f5f8ac976d371da50689be325bbc74f89f94e72831475e677811fc47"
+    },
+    {
+      "path": "screens/png/login-invalid--tr--ios--100.png",
+      "bytes": 84776,
+      "sha256": "6f90a8f359913540f02a1db878250482a7a0cb87dec75c109ab0ea1342061f65"
+    },
+    {
+      "path": "screens/png/login-offline--en--android--200.png",
+      "bytes": 133019,
+      "sha256": "5b9d54d37a5439c7f3798e46da782e62242fc24be3aa056d06d2d25fb478d87f"
+    },
+    {
+      "path": "screens/png/login-offline--tr--ios--100.png",
+      "bytes": 91552,
+      "sha256": "58b4e36d7005b68ca8bb70ed25a37275df28aa1da5ff6f624e00585476feaafa"
+    },
+    {
+      "path": "screens/png/login-submitting--en--android--200.png",
+      "bytes": 131273,
+      "sha256": "bcd1c645ae92e61cdebb87ab473befd1cee0689b1fed3ffd789006b069a98dc3"
+    },
+    {
+      "path": "screens/png/login-submitting--tr--ios--100.png",
+      "bytes": 89890,
+      "sha256": "e848e979375b1380ee4fbd002baceb19c65d672debbdbbb8513f31555523fdb6"
+    },
+    {
+      "path": "screens/png/login-too-many-attempts--en--android--200.png",
+      "bytes": 160414,
+      "sha256": "9424bd5b5a956b6d4f50dfce39fcee6140c12dfe2ce237c742a335d1269a5b42"
+    },
+    {
+      "path": "screens/png/login-too-many-attempts--tr--ios--100.png",
+      "bytes": 99341,
+      "sha256": "769a55e01cadcec58426eab03bcda929df91e835a9bdef981abc88d19566548e"
+    },
+    {
+      "path": "screens/png/reauth-required--en--android--200.png",
+      "bytes": 66640,
+      "sha256": "9093e7be8350dcca2c8da1503e6d0b0a8f6d09532b9bf91664a59af60db992be"
+    },
+    {
+      "path": "screens/png/reauth-required--tr--ios--100.png",
+      "bytes": 55874,
+      "sha256": "bb7ca5e0fc8a8c0824c0f923ebe15b7b0a2cadb541255aa5aa9670df29d3d239"
+    },
+    {
+      "path": "screens/png/register-creating--en--android--200.png",
+      "bytes": 179538,
+      "sha256": "a28490e87b2082a3b8efc304e84de2e20f88bf7bb5b2194da64e3ba1ef5e731d"
+    },
+    {
+      "path": "screens/png/register-creating--tr--ios--100.png",
+      "bytes": 98985,
+      "sha256": "cbfabcec2605ada58163be167ca6409aa69dc292d9e9f55aaa44b4cf1a061979"
+    },
+    {
+      "path": "screens/png/register-email-invalid--en--android--200.png",
+      "bytes": 164774,
+      "sha256": "767a1b850b7766b7749f6b37987425e725a85d58cc3cd932fdce743050e8f991"
+    },
+    {
+      "path": "screens/png/register-email-invalid--tr--ios--100.png",
+      "bytes": 91807,
+      "sha256": "dc514a6255973133036b5a820e000b55a3f8de9ca1306b5b3586187b70bf2045"
+    },
+    {
+      "path": "screens/png/register-email-unavailable--en--android--200.png",
+      "bytes": 200347,
+      "sha256": "b2516bdd78b64095099cf4b94f1fe7aedacc7305a462cd3b2eb505071e83d44a"
+    },
+    {
+      "path": "screens/png/register-email-unavailable--tr--ios--100.png",
+      "bytes": 104414,
+      "sha256": "6e36cf8e0943db92b775391aa0e68c86d9495cb132130300e3a122db985e1ced"
+    },
+    {
+      "path": "screens/png/register-empty--en--android--200.png",
+      "bytes": 148762,
+      "sha256": "ba17ceb5b9fa63ab891a70cb044b06ea5d8a72ad31e3b30f90976923b2de8785"
+    },
+    {
+      "path": "screens/png/register-empty--tr--ios--100.png",
+      "bytes": 85705,
+      "sha256": "b8f93aa6a624a86a77100b246a2e95bdac5176d9366580a8e9cc9e703be858c7"
+    },
+    {
+      "path": "screens/png/register-failed--en--android--200.png",
+      "bytes": 200158,
+      "sha256": "38a8a30168e80c95d5caf72a087c7be47accdf7dde503e9784af665998d42ad5"
+    },
+    {
+      "path": "screens/png/register-failed--tr--ios--100.png",
+      "bytes": 106036,
+      "sha256": "c9157e102c6f03557bd8d9a377850af089f0f35e83abd166017f2b3aecd52440"
+    },
+    {
+      "path": "screens/png/register-filled--en--android--200.png",
+      "bytes": 158484,
+      "sha256": "4f57ce11f8a0f5bf1a5505c40600e7f994974c4759aa177fcbf4880a658f02f8"
+    },
+    {
+      "path": "screens/png/register-filled--tr--ios--100.png",
+      "bytes": 89701,
+      "sha256": "f4464508bc1af76641ca4c5a0ce5102daddeacbd9fc3cf2a5a05dcc8043dc62f"
+    },
+    {
+      "path": "screens/png/register-offline--en--android--200.png",
+      "bytes": 172293,
+      "sha256": "f87d4bbc6b8b4603cf19b51e58abaf1070363c6b529acca3b3a6a4bb7df2bc23"
+    },
+    {
+      "path": "screens/png/register-offline--tr--ios--100.png",
+      "bytes": 99283,
+      "sha256": "e7b5cb0e77845fd3759341e063b70dae2d77bb4163c9ff342566bad35ac56a19"
+    },
+    {
+      "path": "screens/png/register-password-rejected--en--android--200.png",
+      "bytes": 176972,
+      "sha256": "20532f7dea864367e47463646b102391427d539340f2379753b1011040abe626"
+    },
+    {
+      "path": "screens/png/register-password-rejected--tr--ios--100.png",
+      "bytes": 95006,
+      "sha256": "408ff3614b19666be36e7ca78ebd9eddcfa9d053a5737558c65f737e077fc677"
+    },
+    {
+      "path": "screens/png/reset-sent--en--android--200.png",
+      "bytes": 125832,
+      "sha256": "09648e5ab04882dbfb4f2059e5bd550b3da86f81e2c2ea0bbf071ccc080f7bda"
+    },
+    {
+      "path": "screens/png/reset-sent--tr--ios--100.png",
+      "bytes": 72710,
+      "sha256": "62ba0ab020f81e4399e799d87e2d2603d444132c40c174509e28dd5078d0db0c"
+    },
+    {
+      "path": "screens/svg/login-empty--en--android--100.svg",
+      "bytes": 82537,
+      "sha256": "95f1e0ccd79bdcc12a25d851b6673be4da8104fb0f937b89f256d359961a19fe"
+    },
+    {
+      "path": "screens/svg/login-empty--en--android--200.svg",
+      "bytes": 82623,
+      "sha256": "a807ac1ecf7c9dfcb855934e6408a1cda7bd34d64dbbb025665894f23ed8eae0"
+    },
+    {
+      "path": "screens/svg/login-empty--en--ios--100.svg",
+      "bytes": 82527,
+      "sha256": "ce2df778b239c9662506edb1ac7add8fc49c1b5da6c68be245149c7822c9e1bb"
+    },
+    {
+      "path": "screens/svg/login-empty--en--ios--200.svg",
+      "bytes": 82631,
+      "sha256": "cc5beecc3cf4f260d40e78b88460dca6bd5715563e3c60aaf0b637d508ab2f48"
+    },
+    {
+      "path": "screens/svg/login-empty--tr--android--100.svg",
+      "bytes": 82546,
+      "sha256": "7b3646f8ab4ca95b11e8ad4e102b257661edcb6264980d2ea6597cae98a118dc"
+    },
+    {
+      "path": "screens/svg/login-empty--tr--android--200.svg",
+      "bytes": 82804,
+      "sha256": "aacab281e4e62970403e66e1e626d737bffd38e41bf9bd678cf29c10ccd5abad"
+    },
+    {
+      "path": "screens/svg/login-empty--tr--ios--100.svg",
+      "bytes": 82536,
+      "sha256": "732bb2cc98510242fae76bfffce60e05f592ad7354bf2ef93efe6c3f14299e8d"
+    },
+    {
+      "path": "screens/svg/login-empty--tr--ios--200.svg",
+      "bytes": 82806,
+      "sha256": "9ad2ee1f7b3869ec90400611df3555917668f8f69972201f0a7799706211660c"
+    },
+    {
+      "path": "screens/svg/login-failed--en--android--100.svg",
+      "bytes": 83100,
+      "sha256": "19e2087f2eeaee02a8d6450701d8e8f5486b7f73b8df64f0b5814a51dd3bec7a"
+    },
+    {
+      "path": "screens/svg/login-failed--en--android--200.svg",
+      "bytes": 83374,
+      "sha256": "fe95556438f059babb2ca5a1c25bb12ac2a79f048c1aab76ff07f9e0111f6bb7"
+    },
+    {
+      "path": "screens/svg/login-failed--en--ios--100.svg",
+      "bytes": 83078,
+      "sha256": "834270352b4fa11cf4d72fba011c5ca4e8436c37d8d008bddd3469e4bc16dd34"
+    },
+    {
+      "path": "screens/svg/login-failed--en--ios--200.svg",
+      "bytes": 83474,
+      "sha256": "bd7a687602f77dcdbaee0a79c2ec3feeec5ec07b66f1d855770176f3f8d185c9"
+    },
+    {
+      "path": "screens/svg/login-failed--tr--android--100.svg",
+      "bytes": 83114,
+      "sha256": "dca92e23bd0b06045b71ed3be5a2687df711f2ecd359b8d3642e9f9e46905f83"
+    },
+    {
+      "path": "screens/svg/login-failed--tr--android--200.svg",
+      "bytes": 83457,
+      "sha256": "fd4a54207d1cca3cd7176d450a86bb490e6a3f7c35aae3242473555b40e34169"
+    },
+    {
+      "path": "screens/svg/login-failed--tr--ios--100.svg",
+      "bytes": 83092,
+      "sha256": "2f98e1ec654f9b362f5c54fcad1b4fb24af2a647a7c66711d9c7a84906b7bc16"
+    },
+    {
+      "path": "screens/svg/login-failed--tr--ios--200.svg",
+      "bytes": 83470,
+      "sha256": "723bd9883460707a299130d108044c881de0577446b419dbeca87760a7ba4fe8"
+    },
+    {
+      "path": "screens/svg/login-filled--en--android--100.svg",
+      "bytes": 82545,
+      "sha256": "54f57f7879a4fd99932633493bb21f8efcd28cbd652aa9754f5a285eadcdb200"
+    },
+    {
+      "path": "screens/svg/login-filled--en--android--200.svg",
+      "bytes": 82631,
+      "sha256": "f228577160ef5d2795c452f34deff145aa08a0640cc294e9c9f6ac266d31ff7b"
+    },
+    {
+      "path": "screens/svg/login-filled--en--ios--100.svg",
+      "bytes": 82535,
+      "sha256": "1a099ef47cfccb037aee42ba95ae0f24b89d9966fcf11b0547c6891254397609"
+    },
+    {
+      "path": "screens/svg/login-filled--en--ios--200.svg",
+      "bytes": 82639,
+      "sha256": "0e5d2b823aa3e0af3064c52af0a21cd0b70059a2e4927b2a3258ee865b519484"
+    },
+    {
+      "path": "screens/svg/login-filled--tr--android--100.svg",
+      "bytes": 82554,
+      "sha256": "ea5e952678bb20116b94cd4de71a269fed29c2568d645d183fb412e918efc6af"
+    },
+    {
+      "path": "screens/svg/login-filled--tr--android--200.svg",
+      "bytes": 82812,
+      "sha256": "ad207584ca00660a21e03da300a64a65b824f31cb8a3229b3a9aad9b4f38e94e"
+    },
+    {
+      "path": "screens/svg/login-filled--tr--ios--100.svg",
+      "bytes": 82544,
+      "sha256": "bcc69c0a25d4f5fbcebda887c3f9fb6adf2660653384c188689184dec2a3f37d"
+    },
+    {
+      "path": "screens/svg/login-filled--tr--ios--200.svg",
+      "bytes": 82814,
+      "sha256": "cad5a0845fff045a32246e0f3eb89b05b19407e937bd59572f9b639b0e7a359f"
+    },
+    {
+      "path": "screens/svg/login-invalid--en--android--100.svg",
+      "bytes": 82692,
+      "sha256": "2e87189598096f7eb049abc8668befa8fc632cac0763265326255e6b7138019b"
+    },
+    {
+      "path": "screens/svg/login-invalid--en--android--200.svg",
+      "bytes": 82817,
+      "sha256": "bacf18fa8cdb0714d9d07845c6b333510e7998b981f88699edac8a0dd7a1e392"
+    },
+    {
+      "path": "screens/svg/login-invalid--en--ios--100.svg",
+      "bytes": 82693,
+      "sha256": "e23c696e7dfdf52f13f6f185f8a3c66cbc1d90c4d1d3f2c2ef87d70bbf79d29b"
+    },
+    {
+      "path": "screens/svg/login-invalid--en--ios--200.svg",
+      "bytes": 82908,
+      "sha256": "947809b8eb3619f9227de3b562333cf2a6b871cf58bfaaac3d2ff04b8a753005"
+    },
+    {
+      "path": "screens/svg/login-invalid--tr--android--100.svg",
+      "bytes": 82704,
+      "sha256": "ad891762a53d995aae9abf0e56fc493e5aee90555194f83b86ed2033600d9542"
+    },
+    {
+      "path": "screens/svg/login-invalid--tr--android--200.svg",
+      "bytes": 82953,
+      "sha256": "d87e37500db48a68e0349c7919ac7ed320a19644f7d6f3dcc18a0300592a65c7"
+    },
+    {
+      "path": "screens/svg/login-invalid--tr--ios--100.svg",
+      "bytes": 82705,
+      "sha256": "c385014aae269237ea85ada15ac14deb288f8b9d745ae1460112ea9c580e0790"
+    },
+    {
+      "path": "screens/svg/login-invalid--tr--ios--200.svg",
+      "bytes": 83066,
+      "sha256": "d3914e803cb8677cfd832a4392c73f42afcb69d24f356253a092522a1db4760d"
+    },
+    {
+      "path": "screens/svg/login-offline--en--android--100.svg",
+      "bytes": 83034,
+      "sha256": "3997154ef4e998a7a5947eb8bd8bcfad95762b30dfa86be3ed42c7dd0d3a3ccf"
+    },
+    {
+      "path": "screens/svg/login-offline--en--android--200.svg",
+      "bytes": 83158,
+      "sha256": "4ba090b291826c79088fe1939aba813247e3909226a26fbebafcd7f51d02ecc0"
+    },
+    {
+      "path": "screens/svg/login-offline--en--ios--100.svg",
+      "bytes": 83012,
+      "sha256": "5ad9accb2cfa235ffd36702b5381f32465e0bfae0d5f499eff40798711a3aca4"
+    },
+    {
+      "path": "screens/svg/login-offline--en--ios--200.svg",
+      "bytes": 83163,
+      "sha256": "27b4adcd60cbf305704dd5372db15ea3d758c027c4d2112ee93c0c1b37d9f6fd"
+    },
+    {
+      "path": "screens/svg/login-offline--tr--android--100.svg",
+      "bytes": 83054,
+      "sha256": "3ddf500911e6a8a0cc9204dd107cf56f0695f67078b26cb90dc3b8395ac88821"
+    },
+    {
+      "path": "screens/svg/login-offline--tr--android--200.svg",
+      "bytes": 83393,
+      "sha256": "f34f3d4f5c2493086150949637b1ddd9798275b58ad581c720dc5ad43484ef53"
+    },
+    {
+      "path": "screens/svg/login-offline--tr--ios--100.svg",
+      "bytes": 83032,
+      "sha256": "0f4d4c3d89b0309d8653a3e993905697ed4d9fbe9b09a0a7c2c83528d11d51ab"
+    },
+    {
+      "path": "screens/svg/login-offline--tr--ios--200.svg",
+      "bytes": 83396,
+      "sha256": "52e2876be2d210d3159364ad3b461bd8b958f7b72c7951cce94088240987537b"
+    },
+    {
+      "path": "screens/svg/login-submitting--en--android--100.svg",
+      "bytes": 82992,
+      "sha256": "c2677414b5aa00ad4bb058e7e4446dbca36a7d5b1bb60604c7d43855597056f9"
+    },
+    {
+      "path": "screens/svg/login-submitting--en--android--200.svg",
+      "bytes": 83116,
+      "sha256": "8e7d8cfc14e79ba7677004509bc0b8fee41da286303c9c47410f083c96e31292"
+    },
+    {
+      "path": "screens/svg/login-submitting--en--ios--100.svg",
+      "bytes": 82970,
+      "sha256": "e525bdd37b3884cfe3d639f338d8376b06493aba1928690003ec0ba144633637"
+    },
+    {
+      "path": "screens/svg/login-submitting--en--ios--200.svg",
+      "bytes": 83121,
+      "sha256": "a28cab7e912dcaf9b59abeec755f2142eff92f7f863713d28d15425e1dca1240"
+    },
+    {
+      "path": "screens/svg/login-submitting--tr--android--100.svg",
+      "bytes": 83009,
+      "sha256": "d7903f2ec7a6687913f34c9d66783b3495833bcfa9b5025e2293d9db2ab0e60d"
+    },
+    {
+      "path": "screens/svg/login-submitting--tr--android--200.svg",
+      "bytes": 83281,
+      "sha256": "292592c6c8c8671d83d999da52c311cce2d9ea6ce9e51bb2cd04dda6838fb53b"
+    },
+    {
+      "path": "screens/svg/login-submitting--tr--ios--100.svg",
+      "bytes": 82987,
+      "sha256": "b4524fe153006a12a36310a58d42e7bc5f1cef60e2c9f3d6fb7b9691ea22db09"
+    },
+    {
+      "path": "screens/svg/login-submitting--tr--ios--200.svg",
+      "bytes": 83284,
+      "sha256": "cec2241f7b75d49924884f51ee29e47feddfc3b0a2aa8582fa05811a398a8a2c"
+    },
+    {
+      "path": "screens/svg/login-too-many-attempts--en--android--100.svg",
+      "bytes": 83158,
+      "sha256": "7f0b73775f6e24bb8c846fa93a753809201a09e86b853504b3e0455e1fb52289"
+    },
+    {
+      "path": "screens/svg/login-too-many-attempts--en--android--200.svg",
+      "bytes": 83529,
+      "sha256": "f5b5ddb7275ca2cae6fbd29f1aca79098be978e4c971b918ff77f5ad5185a0a4"
+    },
+    {
+      "path": "screens/svg/login-too-many-attempts--en--ios--100.svg",
+      "bytes": 83136,
+      "sha256": "0ca5674646224c1c36c6eec0c1eb4262dde6278e5cef1f942213e9be5728c0a1"
+    },
+    {
+      "path": "screens/svg/login-too-many-attempts--en--ios--200.svg",
+      "bytes": 83532,
+      "sha256": "1ef2681219db847544d6c67ebb24058965c3952b43e8178186b591f1604e2e66"
+    },
+    {
+      "path": "screens/svg/login-too-many-attempts--tr--android--100.svg",
+      "bytes": 83160,
+      "sha256": "80295be9e89559f2e0e34fbbcc27f41d56088fce02e6dc3829725d0d3473c596"
+    },
+    {
+      "path": "screens/svg/login-too-many-attempts--tr--android--200.svg",
+      "bytes": 83589,
+      "sha256": "9063a9a80b626cd094925397c3629d0e120f363b3f79fb433804e60646467972"
+    },
+    {
+      "path": "screens/svg/login-too-many-attempts--tr--ios--100.svg",
+      "bytes": 83138,
+      "sha256": "b6cecd8caba3015bcbfc747b575657dcef375d88d44b8baf787fe03175146626"
+    },
+    {
+      "path": "screens/svg/login-too-many-attempts--tr--ios--200.svg",
+      "bytes": 83592,
+      "sha256": "d52654d32cf07263407751b68825046206d90a3d3112d2a0fe39649e002f5169"
+    },
+    {
+      "path": "screens/svg/reauth-required--en--android--100.svg",
+      "bytes": 81224,
+      "sha256": "5ad7ee727b7ed3710c35726c781e69d886c819f6a6f5f26d96cc045449c02cf1"
+    },
+    {
+      "path": "screens/svg/reauth-required--en--android--200.svg",
+      "bytes": 81399,
+      "sha256": "2f63f06ebe533c31a7ddb70c9950bcebb4a59660132f6fdcba566a4b61eea46e"
+    },
+    {
+      "path": "screens/svg/reauth-required--en--ios--100.svg",
+      "bytes": 81225,
+      "sha256": "470c5b9da546b432bf3c1fd7b4ff9339a23fbada20e80369035f61c9a1bd61cd"
+    },
+    {
+      "path": "screens/svg/reauth-required--en--ios--200.svg",
+      "bytes": 81400,
+      "sha256": "e602e0f0fbf53695f41eb485b59abe456d96d1e75001f66253b36db650db2c4a"
+    },
+    {
+      "path": "screens/svg/reauth-required--tr--android--100.svg",
+      "bytes": 81241,
+      "sha256": "f4741160617b91d6e04f907b4ceb262001e3be63bdd4b7247ed815f25450b508"
+    },
+    {
+      "path": "screens/svg/reauth-required--tr--android--200.svg",
+      "bytes": 81416,
+      "sha256": "5c5280f824a0111b90dfe7776cc10d550748074cfc0673876b4cc5513807a594"
+    },
+    {
+      "path": "screens/svg/reauth-required--tr--ios--100.svg",
+      "bytes": 81242,
+      "sha256": "69491fa3bcddd70d0325851e2a2b71f6d2742c334cdc5540c40004f4d716bb9c"
+    },
+    {
+      "path": "screens/svg/reauth-required--tr--ios--200.svg",
+      "bytes": 81417,
+      "sha256": "aa22bda083669dc41bf3190f63716a161ad138e5431c8b51d4b1a4018e0b6b15"
+    },
+    {
+      "path": "screens/svg/register-creating--en--android--100.svg",
+      "bytes": 83132,
+      "sha256": "1414e13afb21377daa88ce6ff0fd6d50c950289655e68d05c68603b1773adc6e"
+    },
+    {
+      "path": "screens/svg/register-creating--en--android--200.svg",
+      "bytes": 83663,
+      "sha256": "6badfaaff3f1e0dd340a333c87437ec4c886661016627ac10bfa0a9847f1c00d"
+    },
+    {
+      "path": "screens/svg/register-creating--en--ios--100.svg",
+      "bytes": 83133,
+      "sha256": "72679778143f263ba1f1ad844b6abfc581e533604aabf62feb0826e3f164b86e"
+    },
+    {
+      "path": "screens/svg/register-creating--en--ios--200.svg",
+      "bytes": 83798,
+      "sha256": "4743149bc698137d97c13994694cbee6265c0b45c4dbb72325926e36a6b13816"
+    },
+    {
+      "path": "screens/svg/register-creating--tr--android--100.svg",
+      "bytes": 83126,
+      "sha256": "3e4d5815713b99692110663d9cdc031ea4ce1d28d8c9dd1cf7a7743814dfd9c3"
+    },
+    {
+      "path": "screens/svg/register-creating--tr--android--200.svg",
+      "bytes": 83779,
+      "sha256": "4e16db63d5ec6ef28c9aa534b247d4d4ed4c5348f79fefa18373ab1e38e44c2a"
+    },
+    {
+      "path": "screens/svg/register-creating--tr--ios--100.svg",
+      "bytes": 83127,
+      "sha256": "dbacfb6a78100dfa98414bc02154c2d5f6a349852c71e814e3c8cce9a8de335b"
+    },
+    {
+      "path": "screens/svg/register-creating--tr--ios--200.svg",
+      "bytes": 83781,
+      "sha256": "d3b7269e88b6256c6b4646c18c66fc2b90ca1cdcafcc390808e6fe4a9c124c99"
+    },
+    {
+      "path": "screens/svg/register-email-invalid--en--android--100.svg",
+      "bytes": 82750,
+      "sha256": "f01629145fb738bc26ad5df4b53a6c5f1a0f06917e0ead1bfbaa55f105e04519"
+    },
+    {
+      "path": "screens/svg/register-email-invalid--en--android--200.svg",
+      "bytes": 83215,
+      "sha256": "10af69144866d70717a9feb92b2a2c0dcea66b60e4d5579bb6129bd1177b14e8"
+    },
+    {
+      "path": "screens/svg/register-email-invalid--en--ios--100.svg",
+      "bytes": 82752,
+      "sha256": "1aed5c0f5c4c198b026de2d792dec0f247b77ed4536905028f3826a28a0f70b9"
+    },
+    {
+      "path": "screens/svg/register-email-invalid--en--ios--200.svg",
+      "bytes": 83394,
+      "sha256": "f1969f4aab3fca943907d182bee2e53ca474b17d99a7d8391b87cdb852ef706c"
+    },
+    {
+      "path": "screens/svg/register-email-invalid--tr--android--100.svg",
+      "bytes": 82745,
+      "sha256": "3ae6c758a60bb852e86abda2b18f5d98140ea41d26239e2e81a769d365d716de"
+    },
+    {
+      "path": "screens/svg/register-email-invalid--tr--android--200.svg",
+      "bytes": 83321,
+      "sha256": "42a715cdbe484498b65267498326abfcfc7bccca9d27cc82d0f09d81a3ff1232"
+    },
+    {
+      "path": "screens/svg/register-email-invalid--tr--ios--100.svg",
+      "bytes": 82747,
+      "sha256": "f48c74bfa37c0f7ab02a76a052848d1f17c814b79846f016d607ed7fc1491c8d"
+    },
+    {
+      "path": "screens/svg/register-email-invalid--tr--ios--200.svg",
+      "bytes": 83367,
+      "sha256": "c977202403ad6a0f666a1114b0f0a7003798929ca978ecb715721e23b50e42de"
+    },
+    {
+      "path": "screens/svg/register-email-unavailable--en--android--100.svg",
+      "bytes": 83269,
+      "sha256": "f2f9a19c59d245653aa9003ca947a3fd371e2273c77b40e614238fc58bb1265d"
+    },
+    {
+      "path": "screens/svg/register-email-unavailable--en--android--200.svg",
+      "bytes": 83867,
+      "sha256": "086aac60cce41f49d49876399e9c828b77ea76dc65c132a3e3447462d4d3582e"
+    },
+    {
+      "path": "screens/svg/register-email-unavailable--en--ios--100.svg",
+      "bytes": 83270,
+      "sha256": "f68927e8c866c84447c4dc27820ae566ae076015860dbf44f97353f3db31f431"
+    },
+    {
+      "path": "screens/svg/register-email-unavailable--en--ios--200.svg",
+      "bytes": 84156,
+      "sha256": "b198fd84b233ab6f38aadff2f8a18c7ac22b2b0548dfb99537c8921220468672"
+    },
+    {
+      "path": "screens/svg/register-email-unavailable--tr--android--100.svg",
+      "bytes": 83253,
+      "sha256": "f128b2a07aa3c521e8b048ecea3b1d00ed9ed21c6fda0ab0731934d85c35e0a4"
+    },
+    {
+      "path": "screens/svg/register-email-unavailable--tr--android--200.svg",
+      "bytes": 83984,
+      "sha256": "278338622290e23a2022e37b26a8d5dbefb32a19bb82f2e2b673e937a45dee95"
+    },
+    {
+      "path": "screens/svg/register-email-unavailable--tr--ios--100.svg",
+      "bytes": 83254,
+      "sha256": "9335d30f922b8205c795ac7cbf501ec8d0f80e38ba5936dd226e67a4e9ff2408"
+    },
+    {
+      "path": "screens/svg/register-email-unavailable--tr--ios--200.svg",
+      "bytes": 83986,
+      "sha256": "4b7ca002080c04259a34ed36456abfb60c325cdd58052eec378ebf6cc8b10682"
+    },
+    {
+      "path": "screens/svg/register-empty--en--android--100.svg",
+      "bytes": 82647,
+      "sha256": "1af3d8d1883666eed97b0484e8e0ec60434b0219dc86ae9ff4f0d8868604a7fb"
+    },
+    {
+      "path": "screens/svg/register-empty--en--android--200.svg",
+      "bytes": 83064,
+      "sha256": "4fcac9f757508dfd7dda77cc20f9101268630166d25cd2187bef72d5646c8b8e"
+    },
+    {
+      "path": "screens/svg/register-empty--en--ios--100.svg",
+      "bytes": 82648,
+      "sha256": "50bf57643704724b5aa1075837341b4ab8bcf011bd0a3d9b2fccd6de1ca53db7"
+    },
+    {
+      "path": "screens/svg/register-empty--en--ios--200.svg",
+      "bytes": 83199,
+      "sha256": "2100e8a5c191ab90beaf7a7f58d294addab17f2f76b2215edd1a6ff8968e3658"
+    },
+    {
+      "path": "screens/svg/register-empty--tr--android--100.svg",
+      "bytes": 82639,
+      "sha256": "c7efec9aeba46155250f8d2cd626438fc304cd68e71b297489ebb1da10826327"
+    },
+    {
+      "path": "screens/svg/register-empty--tr--android--200.svg",
+      "bytes": 83178,
+      "sha256": "88a9eacab5983107a96c53346e3c5a0728250ed74da8e540f608852ab17a9b95"
+    },
+    {
+      "path": "screens/svg/register-empty--tr--ios--100.svg",
+      "bytes": 82640,
+      "sha256": "3bd47cecd225a793dc761dd81a1f7ae1a1f1d44dfc49461095f7059a4c22e433"
+    },
+    {
+      "path": "screens/svg/register-empty--tr--ios--200.svg",
+      "bytes": 83180,
+      "sha256": "e9a929129041d2e236ea45be78685dc91b8e9f92d17f1df3c1f1f6b7f65ed171"
+    },
+    {
+      "path": "screens/svg/register-failed--en--android--100.svg",
+      "bytes": 83258,
+      "sha256": "6b0b947564dab8c8be9003028e9acf407973689196b0dd9c9bcdd28d3b29e41c"
+    },
+    {
+      "path": "screens/svg/register-failed--en--android--200.svg",
+      "bytes": 83856,
+      "sha256": "1799c931710d6539188cccf6364739b22fe333ea674ad087b29737ce909a1849"
+    },
+    {
+      "path": "screens/svg/register-failed--en--ios--100.svg",
+      "bytes": 83259,
+      "sha256": "e39008d2e89948392a3fe3eeb82f46ccd525e72bf61cb8f7c65e992841a7cc87"
+    },
+    {
+      "path": "screens/svg/register-failed--en--ios--200.svg",
+      "bytes": 84145,
+      "sha256": "d56db8dacbcc7f34f77562ab1106b55e8194071c849f8c09f8c60952442cbe47"
+    },
+    {
+      "path": "screens/svg/register-failed--tr--android--100.svg",
+      "bytes": 83252,
+      "sha256": "f79135b4b1c78d40c9af7795969902a71d991052db5ca7770e894f07af385cc7"
+    },
+    {
+      "path": "screens/svg/register-failed--tr--android--200.svg",
+      "bytes": 84104,
+      "sha256": "0f0b8b99a0b23cb361d3baa2abdf88e9e086ffc0b0f367b4fde5f55e11a8da98"
+    },
+    {
+      "path": "screens/svg/register-failed--tr--ios--100.svg",
+      "bytes": 83253,
+      "sha256": "715051380e4af5ad2871f019c3dea9c02fe7e0f27dee7c0a148351d75e47a6f0"
+    },
+    {
+      "path": "screens/svg/register-failed--tr--ios--200.svg",
+      "bytes": 84106,
+      "sha256": "6a2ba013968a47c2e874a867f6eb32d62960d54de4f3b0307b08e6031cac7e9f"
+    },
+    {
+      "path": "screens/svg/register-filled--en--android--100.svg",
+      "bytes": 82655,
+      "sha256": "0ca5b0cfa11b01795c4744da5e54abc9124e47edabab7e31d601c7048eb636c3"
+    },
+    {
+      "path": "screens/svg/register-filled--en--android--200.svg",
+      "bytes": 83072,
+      "sha256": "87d793a8d9f2746980b9abc3f7e3ef1795961da88de6bfe3b920a280e92f3557"
+    },
+    {
+      "path": "screens/svg/register-filled--en--ios--100.svg",
+      "bytes": 82656,
+      "sha256": "15fddd7f5c22c7a5f5e48baac2126bbe9ff9e4b0babb1a79899b68c2c31f469e"
+    },
+    {
+      "path": "screens/svg/register-filled--en--ios--200.svg",
+      "bytes": 83207,
+      "sha256": "efa9d8a5538ba6118417c66e3747c4e7d24f0d5f6f32fddb1c8ca7f6f7cb8c4e"
+    },
+    {
+      "path": "screens/svg/register-filled--tr--android--100.svg",
+      "bytes": 82647,
+      "sha256": "a0817d40fe2fdfc6cd1487695e7e7eb03ccdce4c538c328b47071800f338a40b"
+    },
+    {
+      "path": "screens/svg/register-filled--tr--android--200.svg",
+      "bytes": 83186,
+      "sha256": "68298bd1d056d3367878ee1443e1a21de8e6719b211456bac2fa9a380563e5a7"
+    },
+    {
+      "path": "screens/svg/register-filled--tr--ios--100.svg",
+      "bytes": 82648,
+      "sha256": "437cc7ce1351a048a6b2735f82377b611f3c81e0294fe3c379f8436137d4e5b2"
+    },
+    {
+      "path": "screens/svg/register-filled--tr--ios--200.svg",
+      "bytes": 83188,
+      "sha256": "39efc5efc9fba450da690faab0323d7675891a56f476077906c1eae963f3a1c6"
+    },
+    {
+      "path": "screens/svg/register-offline--en--android--100.svg",
+      "bytes": 83165,
+      "sha256": "db8a692859abd3d1ec71a1d6167cc67f2c26bb30298234eb64dcb0b1f1fa708f"
+    },
+    {
+      "path": "screens/svg/register-offline--en--android--200.svg",
+      "bytes": 83585,
+      "sha256": "276990bffa09b21d7d2f7618888ce1381d7ef23061f5779b8dde9fbfb947fba9"
+    },
+    {
+      "path": "screens/svg/register-offline--en--ios--100.svg",
+      "bytes": 83166,
+      "sha256": "ca2a6dce24f52b6e2f7f78c35d4abd78f5288012497f1db65c575e5472821e78"
+    },
+    {
+      "path": "screens/svg/register-offline--en--ios--200.svg",
+      "bytes": 83720,
+      "sha256": "27f61f716bd00db777b118e5abae276475b7f1e714611c0bad8a92302da3d48b"
+    },
+    {
+      "path": "screens/svg/register-offline--tr--android--100.svg",
+      "bytes": 83168,
+      "sha256": "95b6bbe572b182afad54a0007740e04a0dec4a11c9ccc544e8e180dfb78b9e9d"
+    },
+    {
+      "path": "screens/svg/register-offline--tr--android--200.svg",
+      "bytes": 83821,
+      "sha256": "b597ba4dfa071c7772900f0c509ddf3e3a437a61fb98435bf73691675a5c5796"
+    },
+    {
+      "path": "screens/svg/register-offline--tr--ios--100.svg",
+      "bytes": 83169,
+      "sha256": "44e74b04bf4fb40428bf6be710f79c7d2c6401890eb2ae8a61374d5f87ff344b"
+    },
+    {
+      "path": "screens/svg/register-offline--tr--ios--200.svg",
+      "bytes": 83823,
+      "sha256": "6e026e5b2f756f5b70b941bd4f815e88b2d3e71c2cbd2b9a9a54fb6fba03251e"
+    },
+    {
+      "path": "screens/svg/register-password-rejected--en--android--100.svg",
+      "bytes": 82815,
+      "sha256": "64ffb25be19870416b12b03880fabbb360fb71464e4d5109d497caf8bac10bc4"
+    },
+    {
+      "path": "screens/svg/register-password-rejected--en--android--200.svg",
+      "bytes": 83300,
+      "sha256": "c7e22d197f172690da5e77b8679093d70c4c6124baa73de71f31972e0e5298ac"
+    },
+    {
+      "path": "screens/svg/register-password-rejected--en--ios--100.svg",
+      "bytes": 82816,
+      "sha256": "27774dfee0104abaed58210c7b85b5012369986a1db96fa6079bfd5b7f5b5357"
+    },
+    {
+      "path": "screens/svg/register-password-rejected--en--ios--200.svg",
+      "bytes": 83478,
+      "sha256": "cc0d5d0f1cdec08960d8a72ef434062487599c6ae1254cea970933bd189e0c4f"
+    },
+    {
+      "path": "screens/svg/register-password-rejected--tr--android--100.svg",
+      "bytes": 82800,
+      "sha256": "846baa5f739cc72abf33ab3237795156a3a0438d90e3fe79c9bfa9503a716324"
+    },
+    {
+      "path": "screens/svg/register-password-rejected--tr--android--200.svg",
+      "bytes": 83450,
+      "sha256": "32abcd03186e421602bef4c245e5273409880e974392f91a4db4c342e1becf9e"
+    },
+    {
+      "path": "screens/svg/register-password-rejected--tr--ios--100.svg",
+      "bytes": 82801,
+      "sha256": "b6531f9a49cad9d56a776ccc7d24af33795c859944672b0cba246b745f7cd9c1"
+    },
+    {
+      "path": "screens/svg/register-password-rejected--tr--ios--200.svg",
+      "bytes": 83452,
+      "sha256": "68f8592b2b923cfed07cdd57a9c33a89705657a6e27612e29b9e2a60dbb9599f"
+    },
+    {
+      "path": "screens/svg/reset-sent--en--android--100.svg",
+      "bytes": 81892,
+      "sha256": "2dda949616233a559e9e5b6044174e4d58df45d385eabaf0159664317e834a49"
+    },
+    {
+      "path": "screens/svg/reset-sent--en--android--200.svg",
+      "bytes": 82423,
+      "sha256": "8b2969bae03c66ef8f230006af9689754f76d7e73b97527360596f7f15fa9355"
+    },
+    {
+      "path": "screens/svg/reset-sent--en--ios--100.svg",
+      "bytes": 81894,
+      "sha256": "b5ce58d2c0a15be867d592269102040f8cd095492de7660623297313ee88583e"
+    },
+    {
+      "path": "screens/svg/reset-sent--en--ios--200.svg",
+      "bytes": 82542,
+      "sha256": "e54d3dcb94a4ce72257d2aa015dfa8626bf025fb2fcfa32f8177d8d75c388bfe"
+    },
+    {
+      "path": "screens/svg/reset-sent--tr--android--100.svg",
+      "bytes": 81780,
+      "sha256": "464853d6153e4a07beec43644b9a2427d7fc1353b0945e291cb60d4669aa3be3"
+    },
+    {
+      "path": "screens/svg/reset-sent--tr--android--200.svg",
+      "bytes": 82260,
+      "sha256": "3028bae2f51a064f26cc9fc1e0cf2b1cc699ba1fea9ddf5443de544f54a1cd49"
+    },
+    {
+      "path": "screens/svg/reset-sent--tr--ios--100.svg",
+      "bytes": 81782,
+      "sha256": "ccd5fc06020c985ba1ea45ed849847abd491efc7abd431cb36652c565555a01b"
+    },
+    {
+      "path": "screens/svg/reset-sent--tr--ios--200.svg",
+      "bytes": 82410,
+      "sha256": "450b794b3490039851bd913b23db228e35dbf48444d481d044e7a6d76ea0486a"
+    },
+    {
+      "path": "specs/01-PATCH.md",
+      "bytes": 4376,
+      "sha256": "91999dd5ccd1efca7fc2d26065125fb692fa74d4ea8ae5993cf8d61eb2835966"
+    },
+    {
+      "path": "specs/02-PROFIL.md",
+      "bytes": 4736,
+      "sha256": "c3ebf09f36102dabc3393de4586a60aca043e534bc9160a3fa545c7cedd0a68d"
+    },
+    {
+      "path": "specs/04-PLATFORM.md",
+      "bytes": 2880,
+      "sha256": "b8d6c25239468d0484a32ee52db46c464955af1d660c4ed7e9b917a431141af7"
+    },
+    {
+      "path": "specs/06-CIKIS.md",
+      "bytes": 2228,
+      "sha256": "ee5f4b77498870d5ae1496561a450a2b2cc7989f70c0aadc5d5c6548caf8d723"
+    },
+    {
+      "path": "tokens/theme.tokens.json",
+      "bytes": 3574,
+      "sha256": "594c40b84df0abcdf579e0c84b8f225ba30d9498d5bde882612a7036206fc60c"
+    },
+    {
+      "path": "v1.4-kabul-eki/01-YERLESIM.md",
+      "bytes": 4272,
+      "sha256": "810f8cf3f06a4ed9ef09858b7581a59ed69a52cdd4d32781a80f425f191714a1"
+    },
+    {
+      "path": "v1.4-kabul-eki/KABUL-EKI.md",
+      "bytes": 916,
+      "sha256": "4d9a0ab0d55549f31d547043d4e170986f58d17c5fd5714ca2d232c34ddee466"
+    },
+    {
+      "path": "v1.4-kabul-eki/migration.json",
+      "bytes": 2911,
+      "sha256": "ba985da0c0bf56e7693acac7e69728eff3740a5ff32a6321232d6dec160e661f"
+    }
+  ]
+}

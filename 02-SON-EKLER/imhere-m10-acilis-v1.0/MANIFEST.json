@@ -1,0 +1,173 @@
+{
+  "version": "1.0",
+  "files": [
+    {
+      "path": "EKRAN-NOTLARI.md",
+      "sha256": "147d0977384178e733bb64743719b5e18317bd935d3b3872c3855fa35b3a9be2"
+    },
+    {
+      "path": "MANAGER-NOTU.md",
+      "sha256": "4abc4d9983d237a2e574640d2717224022492c50a35e920542588dd218556304"
+    },
+    {
+      "path": "ONIZLEME.html",
+      "sha256": "9434361f07678184d99c2998aefd6f0ff008e1cbee62cdb76c48b4f802b6c132"
+    },
+    {
+      "path": "assets/profile-deniz-preview.jpg",
+      "sha256": "f44a805abf320af9e614f13ed5fc97e0f2ef250e0a12f807907fbc2f2cc01a8a"
+    },
+    {
+      "path": "assets/profile-emre.png",
+      "sha256": "e2ad967bd7259569789ce32bc63123f81d609815ef6ac1a7c77fc83b0cd006c5"
+    },
+    {
+      "path": "contracts/screen-manifest.json",
+      "sha256": "290572ebed1861b7394acf18e7070316b8dca7a43a8dba824744d4b6e3930b1b"
+    },
+    {
+      "path": "evidence/preview-check.json",
+      "sha256": "19a15fc3798014f2cb6d8dd83747f7c7a534115a641a8ba206c64a85350ab02e"
+    },
+    {
+      "path": "evidence/validation.json",
+      "sha256": "e68a914d0b3277fdca9b8e19ce5ecd2e137f8bb1a3fac7445fe2391fb19fe194"
+    },
+    {
+      "path": "fonts/Geist-Medium.ttf",
+      "sha256": "3a3b36f0d0b981f4857f7f00eeef4a5ee123605575d362ab31ee7c19e3d11f2f"
+    },
+    {
+      "path": "fonts/Geist-Regular.ttf",
+      "sha256": "85a1c6b18a6b0a06dfe9fd4f6d6a5d4979f74ec861eaef4bc7868b5492b8a117"
+    },
+    {
+      "path": "fonts/Geist-SemiBold.ttf",
+      "sha256": "b9f52322d6d20a7ff1e7fe1310ff12ec851aebb83d24f8b4f1d4149298f489b2"
+    },
+    {
+      "path": "fonts/OFL.txt",
+      "sha256": "c683bfbcc7e087f5d37a54ef628f10387c451a83ddc459b151403a164ac46c90"
+    },
+    {
+      "path": "fonts/README.md",
+      "sha256": "c6abf70ae45eaea5908935227341faa282c69f93043f423fb4d42c99db453ad7"
+    },
+    {
+      "path": "fonts/SOURCE.json",
+      "sha256": "6867ef6b42707ad0bc34564fc49da8fc84a59ef003a089f9e0c2819c9e45360d"
+    },
+    {
+      "path": "l10n/existing-screen-keys_en.json",
+      "sha256": "1643446020669e361743d00cc532d350115e6bd964fa4ebafca2b791311882aa"
+    },
+    {
+      "path": "l10n/existing-screen-keys_tr.json",
+      "sha256": "05bf68c66c9a532bb2e2458dad96bbe201ae429eb6778e4f269aa04a4f4b3495"
+    },
+    {
+      "path": "l10n/migration.json",
+      "sha256": "e9cbd1ef468beb4b42f3da2f2e5e533e9c66d67fd436656ac9ccb028007518f3"
+    },
+    {
+      "path": "l10n/patch_en.arb",
+      "sha256": "ac210601ab8d233bdba860972841df9d340df0e0332a4a43e09aa114c81922d5"
+    },
+    {
+      "path": "l10n/patch_tr.arb",
+      "sha256": "77ab1beb5dd0d39cbd1a92ba00e55f44c8f06f86b13ec46bff9ad335b4f5e145"
+    },
+    {
+      "path": "metin-notlari/M09.md",
+      "sha256": "2cb5b9ab6fa987e3d341f83cc1382c32058591f4a390827d160254cedced6834"
+    },
+    {
+      "path": "metin-notlari/M10.md",
+      "sha256": "b27dc5f501c2483e0dbf5ed6a710972bbe6472e20f4fa655ad0c27d4c329b79b"
+    },
+    {
+      "path": "screens/png/startup-offline--en--android--200.png",
+      "sha256": "282ac01944dce539bfc1772612b98177225b48152f2547f7b8f9f7bd0d32fa78"
+    },
+    {
+      "path": "screens/png/startup-offline--tr--ios--100.png",
+      "sha256": "c2717efeaca4dd0d9ead6495fa5d04281413f8dbf80aea973a3aa99d53c3e946"
+    },
+    {
+      "path": "screens/png/startup-unreachable--en--android--200.png",
+      "sha256": "242c91b22a79343d8d7963d0cc66f4588c5751f69a5bafac02a34f95cc6e3e9f"
+    },
+    {
+      "path": "screens/png/startup-unreachable--tr--ios--100.png",
+      "sha256": "5f8515ddd23436427ac08aca28ee18e35d8d75f24b8675272c646c3a07c6f4f0"
+    },
+    {
+      "path": "screens/svg/startup-offline--en--android--100.svg",
+      "sha256": "a0105637ec4e05427593957b4b2520160a6842343161b0bf6c11a08804ac098f"
+    },
+    {
+      "path": "screens/svg/startup-offline--en--android--200.svg",
+      "sha256": "adace3e9247e5190927104bdf614fda43bc66387c504162cb82a6060d4e4a712"
+    },
+    {
+      "path": "screens/svg/startup-offline--en--ios--100.svg",
+      "sha256": "8dc55985ca30e7d767e707d6f777e142870cad07fb93fbf12b40d218fcd12544"
+    },
+    {
+      "path": "screens/svg/startup-offline--en--ios--200.svg",
+      "sha256": "cb53fc19215301cfe8185f113f64a7fd7b42615abbceb49d338a7d7ae7879509"
+    },
+    {
+      "path": "screens/svg/startup-offline--tr--android--100.svg",
+      "sha256": "11d8ae74e6fb75af004bcb370049dc721d3c6bba65854522870164c5c36eedc4"
+    },
+    {
+      "path": "screens/svg/startup-offline--tr--android--200.svg",
+      "sha256": "6c6433d9021750c67c6827ef994d5c08649ef1a0d36245995920821be676c9d6"
+    },
+    {
+      "path": "screens/svg/startup-offline--tr--ios--100.svg",
+      "sha256": "54d7358568f1e3852d25d45ed9e306abd620bcdf56e01c411da701d02cd0c9f6"
+    },
+    {
+      "path": "screens/svg/startup-offline--tr--ios--200.svg",
+      "sha256": "05ceee00b55e40c9f72913396c6928ea495effc3b4e8b643b31195f82a03b748"
+    },
+    {
+      "path": "screens/svg/startup-unreachable--en--android--100.svg",
+      "sha256": "164bfd2f49f30e95d2d722cf777775d5ae642e5a00c3574de481216bb57e9160"
+    },
+    {
+      "path": "screens/svg/startup-unreachable--en--android--200.svg",
+      "sha256": "92f76a0087ee0f3d549e9f66883a2cf7c9adb89246b03ed169a381804fbb96da"
+    },
+    {
+      "path": "screens/svg/startup-unreachable--en--ios--100.svg",
+      "sha256": "52e11cf3ed09e640ce2a59d55f2327920db36f362a962f579045b3f210e091b4"
+    },
+    {
+      "path": "screens/svg/startup-unreachable--en--ios--200.svg",
+      "sha256": "a8f75921a085080c6212f2853c8d21b66d99063f7ea46fd2764e3fe164f04fa4"
+    },
+    {
+      "path": "screens/svg/startup-unreachable--tr--android--100.svg",
+      "sha256": "929cd4e721b80959077d5807ce5da0c532cd87c866fa53c0d68c8538edf0e6aa"
+    },
+    {
+      "path": "screens/svg/startup-unreachable--tr--android--200.svg",
+      "sha256": "830e1e6f328784deb41e927b408e210a40298c32b72125bd52b08399a36a44f5"
+    },
+    {
+      "path": "screens/svg/startup-unreachable--tr--ios--100.svg",
+      "sha256": "d9bd72d76ec740059e32e96b221865ed4f2b449612e864ae19bd54abd6a6c8f7"
+    },
+    {
+      "path": "screens/svg/startup-unreachable--tr--ios--200.svg",
+      "sha256": "184c07b566b02f43ccfb1d935f73ca04647e3742cb76f70ecb9e330aa4df9ba1"
+    },
+    {
+      "path": "tokens/theme.tokens.json",
+      "sha256": "594c40b84df0abcdf579e0c84b8f225ba30d9498d5bde882612a7036206fc60c"
+    }
+  ]
+}

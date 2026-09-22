@@ -1,0 +1,16 @@
+{
+  "tabs": [
+    "navProfile",
+    "navMessages",
+    "navNearby",
+    "navEvents"
+  ],
+  "initial": "navNearby",
+  "mapParent": "navNearby",
+  "mapEntry": "mapOpen",
+  "mapHeading": "mapTitle",
+  "mapAvailableWithoutCheckin": true,
+  "settingsParent": "navProfile",
+  "otherTabContent": "Packages 2-4; this package specifies shell only",
+  "popMap": "Return to Nearby without changing check-in reference or session"
+}

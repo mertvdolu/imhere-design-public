@@ -1,0 +1,258 @@
+[
+  {
+    "id": "startup-unreachable",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/startup-unreachable--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "actions": [
+      {
+        "key": "checkInRetry",
+        "enabled": true
+      }
+    ],
+    "noticeKey": "messagesUnavailable"
+  },
+  {
+    "id": "startup-unreachable",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/startup-unreachable--tr--ios--200.svg",
+    "width": 390,
+    "height": 844,
+    "actions": [
+      {
+        "key": "checkInRetry",
+        "enabled": true
+      }
+    ],
+    "noticeKey": "messagesUnavailable"
+  },
+  {
+    "id": "startup-unreachable",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/startup-unreachable--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "actions": [
+      {
+        "key": "checkInRetry",
+        "enabled": true
+      }
+    ],
+    "noticeKey": "messagesUnavailable"
+  },
+  {
+    "id": "startup-unreachable",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/startup-unreachable--tr--android--200.svg",
+    "width": 412,
+    "height": 915,
+    "actions": [
+      {
+        "key": "checkInRetry",
+        "enabled": true
+      }
+    ],
+    "noticeKey": "messagesUnavailable"
+  },
+  {
+    "id": "startup-unreachable",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/startup-unreachable--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "actions": [
+      {
+        "key": "checkInRetry",
+        "enabled": true
+      }
+    ],
+    "noticeKey": "messagesUnavailable"
+  },
+  {
+    "id": "startup-unreachable",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/startup-unreachable--en--ios--200.svg",
+    "width": 390,
+    "height": 844,
+    "actions": [
+      {
+        "key": "checkInRetry",
+        "enabled": true
+      }
+    ],
+    "noticeKey": "messagesUnavailable"
+  },
+  {
+    "id": "startup-unreachable",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/startup-unreachable--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "actions": [
+      {
+        "key": "checkInRetry",
+        "enabled": true
+      }
+    ],
+    "noticeKey": "messagesUnavailable"
+  },
+  {
+    "id": "startup-unreachable",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/startup-unreachable--en--android--200.svg",
+    "width": 412,
+    "height": 915,
+    "actions": [
+      {
+        "key": "checkInRetry",
+        "enabled": true
+      }
+    ],
+    "noticeKey": "messagesUnavailable"
+  },
+  {
+    "id": "startup-offline",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/startup-offline--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "actions": [
+      {
+        "key": "checkInRetry",
+        "enabled": true
+      }
+    ],
+    "noticeKey": "offline"
+  },
+  {
+    "id": "startup-offline",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/startup-offline--tr--ios--200.svg",
+    "width": 390,
+    "height": 844,
+    "actions": [
+      {
+        "key": "checkInRetry",
+        "enabled": true
+      }
+    ],
+    "noticeKey": "offline"
+  },
+  {
+    "id": "startup-offline",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/startup-offline--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "actions": [
+      {
+        "key": "checkInRetry",
+        "enabled": true
+      }
+    ],
+    "noticeKey": "offline"
+  },
+  {
+    "id": "startup-offline",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/startup-offline--tr--android--200.svg",
+    "width": 412,
+    "height": 915,
+    "actions": [
+      {
+        "key": "checkInRetry",
+        "enabled": true
+      }
+    ],
+    "noticeKey": "offline"
+  },
+  {
+    "id": "startup-offline",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "file": "screens/svg/startup-offline--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "actions": [
+      {
+        "key": "checkInRetry",
+        "enabled": true
+      }
+    ],
+    "noticeKey": "offline"
+  },
+  {
+    "id": "startup-offline",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "file": "screens/svg/startup-offline--en--ios--200.svg",
+    "width": 390,
+    "height": 844,
+    "actions": [
+      {
+        "key": "checkInRetry",
+        "enabled": true
+      }
+    ],
+    "noticeKey": "offline"
+  },
+  {
+    "id": "startup-offline",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "file": "screens/svg/startup-offline--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "actions": [
+      {
+        "key": "checkInRetry",
+        "enabled": true
+      }
+    ],
+    "noticeKey": "offline"
+  },
+  {
+    "id": "startup-offline",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "file": "screens/svg/startup-offline--en--android--200.svg",
+    "width": 412,
+    "height": 915,
+    "actions": [
+      {
+        "key": "checkInRetry",
+        "enabled": true
+      }
+    ],
+    "noticeKey": "offline"
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "version": "1.6",
+  "authority": "Explicit user-relayed Manager correction; referenced v1.0.2 attachment not found locally; no claim of having read it",
+  "signup": [
+    "invitation",
+    "emailAndPasswordCreate",
+    "verificationEmailWaiting",
+    "verifiedAuthState",
+    "profile",
+    "firstCheckinUserAction"
+  ],
+  "existingUser": [
+    "emailAndPasswordSignIn",
+    "verifiedAuthStateOrVerificationWaiting",
+    "profileCompletionGateOrExistingAppRoute"
+  ],
+  "provider": "Firebase",
+  "authentication": "email+password",
+  "verification": "Email link verifies email; not passwordless sign-in",
+  "passwordRulesSource": "Existing app/provider validation only. Founder will supply current copy; until then no policy hint or strength UI, as explicitly requested.",
+  "passwordStrengthUI": false,
+  "phoneSmsSocialAuth": false,
+  "passwordConfirmationFieldRequiredByDesign": false,
+  "reset": [
+    "emailAddress",
+    "existingPasswordResetRequest",
+    "neutralAcknowledgement",
+    "existingProviderResetLinkFlow",
+    "emailAndPasswordSignIn"
+  ],
+  "verificationResend": "Existing provider/backend eligibility; disabled/processing/error states, no timer, no invented cooldown",
+  "verificationCheck": "Re-read verified auth state through current auth layer; no checkbox or client flag grants access",
+  "accountCreatedButEmailSendFailed": "Remain in verification context and resend; never create another account for this failure",
+  "verifiedNext": "Based on real auth/profile state; existing completed users are not forced through profile again",
+  "invitationAcquisition": "R3 pending Founder; no new channel",
+  "logout": {
+    "entry": "Profile > Settings > Sign out",
+    "action": "Existing sign-out operation",
+    "success": "Signed-out navigation; protected screens no longer shown",
+    "failure": "No false signed-out success",
+    "offline": "Use actual operation result; do not add an internet prerequisite or claim check-in termination"
+  },
+  "checkin": "No auto check-in on registration/login/verification/reset/logout",
+  "profile": "Accepted v1.5 profile contract and layouts unchanged"
+}

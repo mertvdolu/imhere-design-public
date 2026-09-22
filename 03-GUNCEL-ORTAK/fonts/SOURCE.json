@@ -1,0 +1,35 @@
+{
+  "repository": "https://github.com/vercel/geist-font",
+  "commit": "10dc7658f13c38a474cde201bb09a4617267545b",
+  "modified": false,
+  "files": [
+    {
+      "file": "fonts/Geist-Regular.ttf",
+      "source": "https://raw.githubusercontent.com/vercel/geist-font/10dc7658f13c38a474cde201bb09a4617267545b/fonts/Geist/ttf/Geist-Regular.ttf",
+      "bytes": 126048,
+      "sha256": "85a1c6b18a6b0a06dfe9fd4f6d6a5d4979f74ec861eaef4bc7868b5492b8a117",
+      "gitBlobSha1": "71cb8160a35149c54c83f5ea92f034f3bae67e61"
+    },
+    {
+      "file": "fonts/Geist-Medium.ttf",
+      "source": "https://raw.githubusercontent.com/vercel/geist-font/10dc7658f13c38a474cde201bb09a4617267545b/fonts/Geist/ttf/Geist-Medium.ttf",
+      "bytes": 127660,
+      "sha256": "3a3b36f0d0b981f4857f7f00eeef4a5ee123605575d362ab31ee7c19e3d11f2f",
+      "gitBlobSha1": "492b319a5ecd257d01264061522224a144564b0c"
+    },
+    {
+      "file": "fonts/Geist-SemiBold.ttf",
+      "source": "https://raw.githubusercontent.com/vercel/geist-font/10dc7658f13c38a474cde201bb09a4617267545b/fonts/Geist/ttf/Geist-SemiBold.ttf",
+      "bytes": 127872,
+      "sha256": "b9f52322d6d20a7ff1e7fe1310ff12ec851aebb83d24f8b4f1d4149298f489b2",
+      "gitBlobSha1": "4e62f374c9cd9b5282a7ac25dab2d17c4ebf922e"
+    },
+    {
+      "file": "fonts/OFL.txt",
+      "source": "https://raw.githubusercontent.com/vercel/geist-font/10dc7658f13c38a474cde201bb09a4617267545b/OFL.txt",
+      "bytes": 4383,
+      "sha256": "c683bfbcc7e087f5d37a54ef628f10387c451a83ddc459b151403a164ac46c90",
+      "gitBlobSha1": "04e95fc550855eb44416b9db1f6722f5cb7342db"
+    }
+  ]
+}

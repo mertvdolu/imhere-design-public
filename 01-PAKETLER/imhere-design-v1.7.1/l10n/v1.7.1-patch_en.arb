@@ -1,0 +1,36 @@
+{
+  "@@locale": "en",
+  "profileAgeYears": "{age} years old",
+  "requestCooldown": "You can’t send a request to this person right now.",
+  "requestAlreadyPending": "There’s a pending request between you and this person.",
+  "requestAlreadyConnected": "You’re already connected.",
+  "pendingSlots": "{used}/{max} pending requests",
+  "@pendingSlots": {
+    "description": "Current user effective outgoing pending count. max comes from limits.OUTGOING_PENDING_MAX; not credits or a daily quota.",
+    "placeholders": {
+      "used": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@profileAgeYears": {
+    "description": "Display only the age provided by the allowed public profile. Never expose hidden age or birth date.",
+    "placeholders": {
+      "age": {
+        "type": "int"
+      }
+    }
+  },
+  "@requestCooldown": {
+    "description": "Neutral cooldown message below disabled requestSend. No duration, cause or expiry hint."
+  },
+  "@requestAlreadyPending": {
+    "description": "Designer UI addition for an already confirmed accessible relationship state; never infer from generic STATE_CHANGED."
+  },
+  "@requestAlreadyConnected": {
+    "description": "Designer UI addition for an already confirmed accessible relationship state; never infer from generic STATE_CHANGED."
+  }
+}

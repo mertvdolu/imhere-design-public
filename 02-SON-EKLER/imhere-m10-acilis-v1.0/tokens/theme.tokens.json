@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "name": "IM HERE / Forest & Mint",
+    "version": "1.4",
+    "date": "2026-09-15",
+    "baseline": "Accepted v1.3 + M05 theme package",
+    "requirements": "Designer extract v1.0.1 + Founder relayed decisions; Master not read",
+    "units": "Flutter logical pixels; text sizes before system scaling",
+    "delivery": "Package 1 design handoff; not implemented app"
+  },
+  "colors": {
+    "background": "#080E0C",
+    "surface": "#17251D",
+    "card": "#132019",
+    "popover": "#15221C",
+    "primary": "#C3F5CE",
+    "onPrimary": "#142319",
+    "text": "#F2F5ED",
+    "textSecondary": "#A7B8AE",
+    "border": "#2A3B30",
+    "input": "#1C3221",
+    "inputBorder": "#637D5A",
+    "navigation": "#14221A",
+    "nearbyCard": "#23372A",
+    "nearbyCardBorder": "#405943",
+    "heroTop": "#263D2C",
+    "heroBottom": "#111E16",
+    "orbLight": "#E7FFC7",
+    "orbDark": "#B8EB9D",
+    "orbText": "#18391C",
+    "orbStroke": "#F2FFDA",
+    "danger": "#F4A9A9",
+    "friendship": "#C8E4F2",
+    "friendshipSurface": "#293E43",
+    "networking": "#D0C9F1",
+    "networkingSurface": "#343347",
+    "messageOwn": "#C6E7B9",
+    "messageOwnText": "#26452B",
+    "messageOther": "#2F4532",
+    "messageOtherText": "#D2E2CD",
+    "densityBlue": "#64A8FF",
+    "densityYellow": "#F7D46A",
+    "densityGreen": "#7DDEAC",
+    "densityRed": "#EE8985"
+  },
+  "typography": {
+    "family": "Geist",
+    "headline": {
+      "size": 31,
+      "height": 1.16,
+      "weight": 500,
+      "letterSpacing": -1.2
+    },
+    "body": {
+      "size": 16,
+      "height": 1.6,
+      "weight": 400
+    },
+    "label": {
+      "size": 14,
+      "height": 1.4,
+      "weight": 500
+    },
+    "metadata": {
+      "size": 12,
+      "height": 1.5,
+      "weight": 400
+    },
+    "orbLabel": {
+      "size": 18,
+      "weight": 600
+    },
+    "editorialOnly": {
+      "family": "Georgia",
+      "italic": true
+    }
+  },
+  "spacing": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    32,
+    40,
+    48
+  ],
+  "radius": {
+    "input": 12,
+    "card": 16,
+    "nearbyPreview": 18,
+    "sheet": 24,
+    "button": 28,
+    "pill": 999
+  },
+  "nativeLayout": {
+    "pageInset": 24,
+    "minTapTarget": 48,
+    "orbDiameter": 160,
+    "orbRegionHeight": 244,
+    "orbInnerRingOffset": 18,
+    "orbOuterRingOffset": 37
+  },
+  "referenceMeasurements": {
+    "heroOrbDiameter": 143,
+    "interactiveOrbDiameter": 142,
+    "heroOrbRegionHeight": 218,
+    "interactiveOrbRegionHeight": 216,
+    "heroContentPadding": 22,
+    "interactiveContentPaddingDesktop": 20,
+    "interactiveContentPaddingMobile": 16
+  },
+  "motion": {
+    "screenEnterMs": 250,
+    "interactionMs": 180,
+    "orbBreatheMs": 5000,
+    "respectReduceMotion": true,
+    "orbMeaning": "Decorative only; never ongoing GPS tracking or pre-confirmation success"
+  },
+  "policy": {
+    "useDynamicColor": false,
+    "themeMode": "dark",
+    "approvedScreen": "Nearby / I am here",
+    "densityBandZoomInvariant": true,
+    "navigation": {
+      "status": "LOCKED",
+      "tabs": [
+        "Profil",
+        "Mesajlar",
+        "Yakındakiler",
+        "Etkinlikler"
+      ],
+      "internalPlacement": "APPROVED: O-01 accepted by founder in v1.2; see decision record"
+    },
+    "riverpod": "Not verified by this inventory; preserve StatefulWidget/controller integration",
+    "mapProvider": "Mapbox candidate, not installed, not final",
+    "intents": {
+      "values": [
+        "friendship",
+        "networking"
+      ],
+      "minimum": 1,
+      "maximum": 2,
+      "default": [],
+      "authority": "Founder / FD-75"
+    }
+  }
+}

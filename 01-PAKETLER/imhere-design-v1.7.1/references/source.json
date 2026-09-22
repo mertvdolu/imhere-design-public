@@ -1,0 +1,8 @@
+{
+  "source": "/Users/velio/Desktop/here/imhere/docs/design-handoff.md",
+  "sha256": "f639fe7f361e32c478d1bb7dbea328f832948069b4ce3f39f07dbf214dcffbe0",
+  "section": "7",
+  "implementationReadOnly": "app/lib/screens/other_profile_screen.dart, intent_select_screen.dart, app/lib/l10n/app_{tr,en}.arb",
+  "limitSource": "contracts/founder-constants.json: limits.OUTGOING_PENDING_MAX",
+  "masterRead": false
+}

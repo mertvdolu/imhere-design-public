@@ -1,0 +1,630 @@
+{
+  "@@locale": "en",
+  "welcomeTitle": "One hello can change a lot.",
+  "welcomeBody": "Connect with people nearby who are open to meeting, right now.",
+  "invitationTitle": "You’re in good company.",
+  "invitationCode": "Invitation code",
+  "invitationUse": "Use my invitation",
+  "invitationInvalid": "We couldn’t verify this invitation code. Check it and try again.",
+  "emailSend": "Send verification link",
+  "emailSent": "We sent a verification link to your email.",
+  "emailPrivate": "Your email address never appears on your profile.",
+  "emailResend": "Resend link",
+  "profileTitle": "A little about you.",
+  "photoAdd": "Add one profile photo",
+  "displayName": "Display name",
+  "age": "Age",
+  "gender": "Gender",
+  "genderWoman": "Woman",
+  "genderMan": "Man",
+  "genderNonbinary": "Non-binary",
+  "genderPrivate": "Prefer not to say",
+  "occupation": "Occupation",
+  "bio": "About you",
+  "interests": "Interests · Choose 1–5",
+  "languages": "Languages · Optional",
+  "showOnProfile": "Show on my profile",
+  "profileSave": "Save my profile",
+  "nearbyEyebrow": "HERE & NOW",
+  "nearbyTitle": "How about a hello?",
+  "nearbyBody": "Be present. Make room for a connection.",
+  "nearbyActiveTitle": "Good, you’re here.",
+  "nearbyPeople": "People nearby",
+  "nearbyLocked": "Tap I’m here to discover active people nearby.",
+  "nearbyEmpty": "No new profiles to show right now.",
+  "nearbyPrivacy": "Your exact location and distance stay private.",
+  "checkInStart": "I’m here",
+  "checkInDuration": "30 minutes, yours",
+  "checkInStop": "Stop",
+  "checkInRenew": "I’m still here",
+  "checkInReminderTitle": "Still around? 👀",
+  "checkInReminderBody": "Your check-in is ending soon.",
+  "checkInRestart": "Check in again",
+  "checkInRetry": "Try again",
+  "offline": "You’re offline.",
+  "mapTitle": "Where’s the energy?",
+  "mapBody": "Explore activity across areas.",
+  "densityBlue": "Quiet",
+  "densityYellow": "Lively",
+  "densityGreen": "Busy",
+  "densityRed": "Buzzing",
+  "mapNoActivity": "No activity to show in this area.",
+  "mapUnavailable": "The map can’t load right now.",
+  "mapStale": "The activity shown may be out of date.",
+  "intentQuestion": "Why would you like to connect with this person?",
+  "intentFriendship": "Friendship",
+  "intentNetworking": "Networking",
+  "intentHint": "Choose one or both.",
+  "intentPrivate": "Your choices stay private until you connect.",
+  "intentRequired": "Choose at least one intention.",
+  "requestSend": "Send a hello",
+  "requestIncoming": "Would like to connect.",
+  "requestAccept": "I’d like to connect",
+  "requestDecline": "Not this time",
+  "requestPending": "Awaiting a reply",
+  "requestCancel": "Cancel request",
+  "requestExpired": "The request has expired.",
+  "requestFull": "Your pending slots are full. A slot opens when a request resolves.",
+  "pendingHeading": "Pending requests",
+  "matchTitle": "You’re connected.",
+  "matchYou": "You",
+  "matchThem": "Other person",
+  "matchCommon": "You share",
+  "matchNoCommon": "Different intentions, a new possibility.",
+  "chatPlaceholder": "Write a hello…",
+  "chatSend": "Send",
+  "chatNoTimer": "Enough to get to know each other. No time limit.",
+  "chatLimit": "You’ve used your messages. You can choose whether to continue.",
+  "chatSoftTitle": "You’re about to share contact details",
+  "chatSoftBody": "Your message may contain contact details. You can review it or send it anyway.",
+  "chatSoftReview": "Review message",
+  "chatSoftSendAnyway": "Send Anyway",
+  "continueTitle": "Continue this connection",
+  "continueBody": "Your choice stays private. Contact sharing opens if you both want to continue.",
+  "continueYes": "I’d like to continue",
+  "continueSaved": "Your preference is saved.",
+  "continueBack": "Back to chat",
+  "continueNo": "I don't want to continue",
+  "mutualTitle": "You both chose to continue.",
+  "contactTitle": "Where do we go from here?",
+  "contactBody": "Choose which details to share. Every field is optional.",
+  "contactPhone": "Phone",
+  "contactInstagram": "Instagram",
+  "contactEmail": "Email",
+  "contactOther": "Other",
+  "contactShare": "Share selected details",
+  "contactSkip": "Not now",
+  "contactSaved": "Your selected details have been shared.",
+  "contactEmpty": "You haven’t selected any details. You can continue without sharing now.",
+  "reportTitle": "Something wrong?",
+  "reportHarassment": "Harassment",
+  "reportSpam": "Spam",
+  "reportInappropriate": "Inappropriate content",
+  "reportSafety": "Safety concern",
+  "reportOther": "Other",
+  "reportSubmit": "Submit report",
+  "reportSent": "Your report has been received.",
+  "block": "Block",
+  "unblock": "Unblock",
+  "blockConfirm": "Block this person?",
+  "endConnection": "End connection",
+  "endConfirm": "End this connection?",
+  "deleteAccount": "Delete my account",
+  "deleteConfirm": "Delete your account?",
+  "deleteBody": "Review which data will be deleted before confirming.",
+  "cancel": "Cancel",
+  "settings": "Settings",
+  "navNearby": "Nearby",
+  "navProfile": "Profile",
+  "navEvents": "Events",
+  "eventsPlaceholder": "Events will have a place here.",
+  "eventsPlaceholderBody": "This section isn’t available yet.",
+  "ambientNotification": "Someone nearby might be active 👀",
+  "pendingSlots": "{used}/{max} pending requests",
+  "@pendingSlots": {
+    "description": "Current user effective outgoing pending count. max comes from limits.OUTGOING_PENDING_MAX; not credits or a daily quota.",
+    "placeholders": {
+      "used": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "pendingRemaining": "Request expires in {time}",
+  "@pendingRemaining": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatRemaining": "{remaining}/20 messages left",
+  "@chatRemaining": {
+    "placeholders": {
+      "remaining": {
+        "type": "int"
+      }
+    }
+  },
+  "checkInStatusInactive": "You’re not checked in.",
+  "checkInStatusAcquiring": "Finding your location…",
+  "checkInStatusVerifying": "Checking your check-in status.",
+  "checkInStatusActive": "You’re here. Ends at {time}.",
+  "checkInStatusStopped": "Check-in stopped.",
+  "checkInStatusExpired": "Your check-in has ended.",
+  "checkInMinutesRemaining": "{minutes} min left",
+  "checkInEndTime": "Ends at {time}",
+  "checkInCancel": "Cancel",
+  "checkInOpenSettings": "Open settings",
+  "checkInLocationSettings": "Location settings",
+  "checkInReconcile": "Try again",
+  "backendUnavailable": "Check-in isn’t connected in this build.",
+  "profileNameHint": "2–30 characters",
+  "profileNameError": "Your name must be 2–30 characters.",
+  "profileBioRequired": "Add your bio.",
+  "profileOccupationRequired": "Add your occupation.",
+  "profileBirthDate": "Date of birth",
+  "profileBirthDateError": "We couldn’t verify your date of birth. Check it and try again.",
+  "profileOtherInterest": "Other",
+  "profileCharactersRemaining": "{remaining} characters left",
+  "profileSaveUnavailable": "Profile saving isn’t connected in this build yet.",
+  "photoUnavailable": "Adding a photo isn’t connected in this build yet.",
+  "requestSelectAccept": "Choose and accept",
+  "requestIncomingInstead": "You have a request from this person. Review it and choose your own intentions.",
+  "requestReviewIncoming": "Review incoming request",
+  "continueWithdraw": "Withdraw my continue preference",
+  "continueWithdrawn": "Your continue preference has been withdrawn.",
+  "connectionEndedNeutral": "The connection has ended.",
+  "chatClosedReadOnly": "This conversation is currently read-only.",
+  "contactEdit": "Edit shared detail",
+  "contactHide": "Stop showing this detail",
+  "contactHideNote": "This detail will no longer appear here. Copies already seen or saved can’t be recalled.",
+  "contactPublishChange": "Share update",
+  "contactHidden": "The detail is no longer visible.",
+  "reportAlsoBlock": "Would you also like to block this person?",
+  "reportNoBlock": "Not now",
+  "reportFailed": "Your report wasn’t sent. You can try again.",
+  "notificationDenied": "Notifications are off. You can keep using the app.",
+  "deviceLanguage": "Device language",
+  "languageTurkish": "Türkçe",
+  "languageEnglish": "English",
+  "navMessages": "Messages",
+  "mapSnapshot": "Activity snapshot: {time}",
+  "mapSnapshotExplanation": "This is a snapshot; it doesn’t confirm that people are still there.",
+  "checkInPresenceNote": "A check-in isn’t continuous location tracking.",
+  "locationPermissionRationale": "Your location is verified only when you start or renew a check-in. It isn’t tracked in the background.",
+  "checkInNoticeNoFix": "We couldn’t verify your location. You can try again in a few seconds.",
+  "checkInNoticePermission": "To check in, we need your device’s location permission during this step.",
+  "checkInNoticePermissionForever": "Location access is off for I’M HERE. You can turn it on in app settings.",
+  "checkInNoticeServicesOff": "Your device’s location services are off. Turn them on and try again.",
+  "checkInNoticePrecise": "Check-in needs a more precise location.",
+  "checkInNoticeRenewalFailed": "We couldn’t renew. Your current check-in continues. Ends at {time}.",
+  "checkInNoticeOldExpiredVerifying": "Your previous check-in has ended. We’re verifying your location.",
+  "checkInNoticeVerifying": "We’re confirming your check-in result.",
+  "checkInNoticeNetwork": "No connection. The action wasn’t completed; you can try again.",
+  "checkInNoticeServer": "Check-in couldn’t be completed. You can try again.",
+  "checkInNoticeStopPending": "Stopping hasn’t been confirmed yet. We’ll retry when you’re back online.",
+  "checkInNoticeStopSuperseded": "Your newer check-in is active. The earlier stop request wasn’t applied.",
+  "@checkInStatusActive": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@checkInMinutesRemaining": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@checkInEndTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@profileCharactersRemaining": {
+    "placeholders": {
+      "remaining": {
+        "type": "int"
+      }
+    }
+  },
+  "@mapSnapshot": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@checkInNoticeRenewalFailed": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "mapPartial": "Zoom in to see activity",
+  "mapEmptyNoRegion": "Check in or explore the map",
+  "profileSaved": "Profile saved",
+  "profileIncomplete": "Add one photo to finish your profile",
+  "profileComplete": "Your profile is complete",
+  "fieldInterests": "Interests",
+  "dobHelp": "You must be 18 or older to use I’M HERE.",
+  "interestsHelp": "Choose between {min} and {max}.",
+  "@interestsHelp": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "charactersLeft": "{count} characters left",
+  "@charactersLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "visibilityTitle": "What others can see",
+  "visibilityHelp": "Hidden fields are removed on the server from the data sent to other people, not just hidden in the app.",
+  "showAge": "Show my age",
+  "showGender": "Show my gender",
+  "showOccupation": "Show my occupation",
+  "photoTitle": "Profile photo",
+  "photoNone": "No photo yet",
+  "photoChoose": "Choose photo",
+  "photoReplace": "Replace photo",
+  "photoPrivacyNote": "Location data is removed from your photo before it is saved.",
+  "settingsLanguage": "Language",
+  "errorRequired": "This field is required",
+  "errorTextTooLong": "This text is too long",
+  "errorTextTooShort": "This text is too short",
+  "errorInterestsRange": "Choose between {min} and {max} interests",
+  "@errorInterestsRange": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "errorGenderRequired": "Please choose an option",
+  "errorQualityInsufficient": "This photo could not be used. Try another one.",
+  "errorStateChanged": "Something changed. Please try again.",
+  "errorNetwork": "No connection. Please try again.",
+  "interestMusic": "Music",
+  "interestLiveMusic": "Live music",
+  "interestFilmTv": "Film and TV",
+  "interestBooks": "Books",
+  "interestArtMuseums": "Art and museums",
+  "interestPhotography": "Photography",
+  "interestCoffee": "Coffee",
+  "interestFoodCooking": "Food and cooking",
+  "interestTravel": "Travel",
+  "interestNatureHiking": "Nature and hiking",
+  "interestWatchingSports": "Watching sports",
+  "interestFitness": "Fitness",
+  "interestRunning": "Running",
+  "interestCycling": "Cycling",
+  "interestWaterSports": "Water sports",
+  "interestYoga": "Yoga",
+  "interestDancing": "Dancing",
+  "interestVideoGames": "Video games",
+  "interestBoardGames": "Board games",
+  "interestTechnology": "Technology",
+  "interestEntrepreneurship": "Entrepreneurship",
+  "interestDesign": "Design",
+  "interestLanguages": "Languages",
+  "interestVolunteering": "Volunteering",
+  "interestAnimals": "Animals",
+  "interestGardening": "Gardening",
+  "interestOther": "Other",
+  "checkInTitle": "Check-in",
+  "devEmulatorBanner": "DEV: local emulators ({uid})",
+  "@devEmulatorBanner": {
+    "placeholders": {
+      "uid": {
+        "type": "String"
+      }
+    }
+  },
+  "appTitle": "I’M HERE",
+  "mapOpen": "Area activity",
+  "mapLoading": "Loading the map…",
+  "mapOffline": "No internet connection. The map can’t update right now.",
+  "mapBack": "Back to Nearby",
+  "mapLegend": "Activity",
+  "mapZoomIn": "Zoom in",
+  "mapZoomOut": "Zoom out",
+  "nearbyLoading": "Loading profiles…",
+  "nearbyOffline": "No internet connection. Profiles can’t update right now.",
+  "nearbyFailed": "Profiles couldn’t be loaded.",
+  "checkInRenewing": "Verifying your location again…",
+  "viewBack": "Back",
+  "profileView": "View profile",
+  "onboardingStart": "Let’s begin",
+  "onboardingIntro": "Start with your invitation. Make room for a hello.",
+  "invitationHelp": "Enter your invitation code to continue.",
+  "invitationChecking": "Checking your invitation code…",
+  "emailTitle": "Create your account",
+  "emailHelp": "Create your account with your email and password. Then verify your email address.",
+  "emailSending": "Sending the verification link…",
+  "emailWaitingTitle": "Verify your email",
+  "emailWaitingHelp": "Tap the link in the email to verify your address.",
+  "emailChange": "Change email address",
+  "emailVerifying": "Verifying your email address…",
+  "emailVerifyFailed": "We couldn’t finish verification with this link. You can request a new one.",
+  "profileEdit": "Edit my profile",
+  "profileEditTitle": "Edit your profile",
+  "profileBasics": "A little about you",
+  "profileAbout": "Tell us a little about yourself",
+  "profileInterestsTitle": "Your interests",
+  "profileInterestsChoose": "Choose interests",
+  "profileLanguagesChoose": "Choose languages you speak",
+  "profileDobPrivacy": "Your date of birth is not shown on your profile.",
+  "profileGenderChoose": "Choose an option",
+  "profilePhotoRequired": "Choose one photo to complete your profile.",
+  "profileSaving": "Saving your profile…",
+  "profileLoading": "Loading the profile…",
+  "profileLoadFailed": "The profile couldn’t be loaded.",
+  "profileSaveFailed": "Your profile couldn’t be saved. Check your details and try again.",
+  "profileUnavailable": "This profile isn’t available right now.",
+  "profileNextCheckIn": "Go to check-in",
+  "profileReadyBody": "Your profile is ready. You can check in from Nearby.",
+  "profileVisibilitySection": "Visible on your profile",
+  "profileVisibilityOn": "Visible",
+  "profileVisibilityOff": "Hidden",
+  "photoSelecting": "Preparing your photo…",
+  "photoPermissionDenied": "The photo can’t be accessed. Check system permissions and try again.",
+  "photoSelectionFailed": "The photo couldn’t be added. You can try again.",
+  "photoContinue": "Use this photo",
+  "selectionDone": "Done",
+  "selectionCount": "{selected}/{max} selected",
+  "@selectionCount": {
+    "placeholders": {
+      "selected": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "selectionMaxReached": "You can choose up to {max} interests. Remove one before choosing another.",
+  "@selectionMaxReached": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "languageOptionalEmpty": "No languages selected yet. This field is optional.",
+  "profileNoDraftPromise": "Changes apply when you save.",
+  "profileNamePlaceholder": "Your name",
+  "occupationPlaceholder": "Your occupation",
+  "bioPlaceholder": "A few words about you",
+  "dobPlaceholder": "Choose your date of birth",
+  "profileLanguagesLabel": "Languages spoken",
+  "authCreateAccount": "Create account",
+  "authPassword": "Password",
+  "authCreating": "Creating your account…",
+  "authCreateFailed": "Your account couldn’t be created. Check your details and try again.",
+  "authSignInTitle": "Hello again",
+  "authSignInBody": "Sign in with your email and password.",
+  "authSignIn": "Sign in",
+  "authExistingAccount": "I have an account · Sign in",
+  "authSigningIn": "Signing in…",
+  "authSignInFailed": "Couldn’t sign in. Check your details and try again.",
+  "authForgotPassword": "Forgot password",
+  "authResetTitle": "Reset your password",
+  "authResetBody": "Enter the email address you use for your account.",
+  "authResetSend": "Send reset email",
+  "authResetSending": "Sending your password reset request…",
+  "authResetSent": "If this email address is registered, a password reset link has been sent.",
+  "authResetFailed": "Your password reset request couldn’t be completed. You can try again.",
+  "authVerifyCheck": "Check verification",
+  "authVerifyRequired": "Verify your email address to continue.",
+  "authVerifyNotYet": "Email verification hasn’t been confirmed yet. Tap the link in your inbox and check again.",
+  "authVerifySendFailed": "The verification email couldn’t be sent. You can try sending it again.",
+  "authVerifyResendUnavailable": "The verification email can’t be resent right now.",
+  "authSignOut": "Sign out",
+  "authSigningOut": "Signing out…",
+  "authSignOutFailed": "You couldn’t be signed out. You can try again.",
+  "authEmail": "Email address",
+  "authPasswordRule": "At least 8 characters.",
+  "authPasswordShow": "Show password",
+  "authPasswordHide": "Hide password",
+  "authEmailInvalid": "Check your email address.",
+  "authPasswordWeak": "Password must be at least 8 characters.",
+  "authEmailUnavailable": "The action couldn’t be completed. Check your details and try again.",
+  "authTooManyAttempts": "We can’t complete this action right now. Please try again later.",
+  "authReauthRequired": "Sign in again to continue.",
+  "authResetBackToSignIn": "Back to sign in",
+  "messagesConnections": "Connections",
+  "messagesRequests": "Requests",
+  "messagesIncoming": "Incoming requests",
+  "messagesOutgoing": "Outgoing requests",
+  "messagesEmptyConnections": "You don’t have any connections yet.",
+  "messagesEmptyRequests": "You don’t have any requests right now.",
+  "messagesLoading": "Loading your messages…",
+  "messagesLoadFailed": "Your messages couldn’t be loaded. You can try again.",
+  "messagesUnavailable": "This content isn’t available right now.",
+  "messagesReturn": "Back to messages",
+  "messagesViewRequest": "View request",
+  "requestSending": "Sending your request…",
+  "requestFailed": "Your request couldn’t be sent. You can try again.",
+  "requestAccepting": "Accepting the request…",
+  "requestAcceptFailed": "The request couldn’t be accepted. You can try again.",
+  "requestDeclining": "Saving your response…",
+  "requestDeclineFailed": "Your response couldn’t be saved. You can try again.",
+  "requestCancelling": "Cancelling your request…",
+  "requestCancelFailed": "The request couldn’t be cancelled. You can try again.",
+  "requestCancelled": "Your request was cancelled.",
+  "requestClosed": "This request has ended.",
+  "requestUnavailable": "This request isn’t available right now.",
+  "requestTimeLeft": "Time left: {time}",
+  "matchLoading": "Loading your connection…",
+  "matchLoadFailed": "Your connection couldn’t be loaded. You can try again.",
+  "matchOpenChat": "Open chat",
+  "chatMessageLabel": "Your message",
+  "chatEmptyBody": "You can be the first to say hello.",
+  "chatCharacters": "{used}/500 characters",
+  "chatTooLong": "Your message can contain up to 500 characters.",
+  "chatLoading": "Loading the conversation…",
+  "chatLoadFailed": "The conversation couldn’t be loaded. You can try again.",
+  "chatSending": "Sending your message…",
+  "chatSendFailed": "Your message couldn’t be sent. You can try again.",
+  "chatSendUnconfirmed": "We haven’t confirmed whether your message was sent.",
+  "chatCountPending": "Checking your remaining messages…",
+  "chatCheckResult": "Check sending status",
+  "chatSoftPreview": "The message you want to send",
+  "chatContactOpen": "Contact details",
+  "continueSaving": "Saving your preference…",
+  "continueSaveFailed": "Your preference couldn’t be saved. You can try again.",
+  "continueWithdrawing": "Withdrawing your continue preference…",
+  "continueWithdrawFailed": "Your preference couldn’t be withdrawn. You can try again.",
+  "continueNoFinal": "If you choose not to continue, the connection ends. This choice can’t be undone.",
+  "continueNoConfirm": "Do you want to stop here?",
+  "continueNoSaving": "Saving your choice…",
+  "continueNoFailed": "Your choice couldn’t be saved. You can try again.",
+  "continueLoading": "Loading your preference…",
+  "continueLoadFailed": "Your preference couldn’t be loaded. You can try again.",
+  "contactYourDetails": "Your details shared in this connection",
+  "contactSharedWithYou": "Details shared with you",
+  "contactNothingShared": "No details are currently shared.",
+  "contactExplicitOnly": "Filling in a field doesn’t share it. Select it and confirm to share.",
+  "contactSeenNote": "Details already seen or saved can’t be recalled.",
+  "contactChooseDetails": "Choose details to share",
+  "contactWithdrawConsequence": "Removing this detail from view won’t recall copies already seen or saved.",
+  "contactLoading": "Loading contact details…",
+  "contactLoadFailed": "Contact details couldn’t be loaded. You can try again.",
+  "contactSharing": "Sharing your selected details…",
+  "contactShareFailed": "Your details couldn’t be shared. You can try again.",
+  "contactFieldInvalid": "Check the detail you want to share.",
+  "contactUpdating": "Sharing your update…",
+  "contactUpdateFailed": "Your update couldn’t be shared. You can try again.",
+  "contactWithdrawing": "Removing this detail from view…",
+  "contactWithdrawFailed": "This detail couldn’t be removed from view. You can try again.",
+  "contactWithdrawTitle": "Stop showing this detail?",
+  "@chatCharacters": {
+    "description": "Visible draft grapheme count. The locked maximum is500. No other person message quota is disclosed.",
+    "placeholders": {
+      "used": {
+        "type": "int"
+      }
+    }
+  },
+  "@requestTimeLeft": {
+    "description": "Remaining request lifetime from actual server expiry, never a chat timer. Reuse the existing formatted String time argument.",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "safetyTitle": "Safety",
+  "settingsNotifications": "Notifications",
+  "settingsBlocked": "Blocked users",
+  "settingsPrivacy": "Privacy policy",
+  "settingsTerms": "Terms",
+  "settingsBack": "Back to settings",
+  "safetyBack": "Go back",
+  "safetyChooseCategory": "Choose a category.",
+  "safetyReportSending": "Sending your report…",
+  "safetyUnknown": "The outcome hasn’t been confirmed yet.",
+  "safetyCheckResult": "Check operation status",
+  "safetyUnavailable": "This action isn’t available right now.",
+  "blockBody": "This person will no longer appear in discovery, requests, chats or contact sharing.",
+  "blockBusy": "Blocking…",
+  "blockDone": "This person is blocked.",
+  "blockFailed": "This person couldn’t be blocked. You can try again.",
+  "blockedEmpty": "You haven’t blocked anyone.",
+  "blockedLoading": "Loading blocked users…",
+  "blockedFailed": "Blocked users couldn’t be loaded.",
+  "unblockConfirm": "Unblock this person?",
+  "unblockBody": "Unblocking won’t reopen the old chat or connection.",
+  "unblockBusy": "Unblocking…",
+  "unblockDone": "This person is unblocked.",
+  "unblockFailed": "This person couldn’t be unblocked. You can try again.",
+  "endBody": "The connection will end. This won’t block the person.",
+  "endBusy": "Ending the connection…",
+  "endFailed": "The connection couldn’t be ended. You can try again.",
+  "notificationIntro": "Stay informed about requests and messages.",
+  "notificationOptional": "You can use the app without allowing notifications.",
+  "notificationAllow": "Allow notifications",
+  "notificationLater": "Not now",
+  "notificationOn": "Notifications are allowed.",
+  "notificationChecking": "Checking notification permission…",
+  "notificationFailed": "Notification permission couldn’t be checked.",
+  "notificationSettingsFailed": "Device settings couldn’t be opened.",
+  "notificationContinue": "Continue to the app",
+  "notificationDeviceSettings": "Device notification settings",
+  "legalLoading": "Loading the document…",
+  "legalFailed": "The document couldn’t be loaded. You can try again.",
+  "legalUnavailable": "This document isn’t available right now.",
+  "deleteIrreversible": "Deleting your account can’t be undone.",
+  "deleteAccessScope": "You’ll lose access to your profile, photo, check-in records, requests, chats and shared contact details.",
+  "deleteLimitedRetention": "Limited records may be retained to meet legal requirements.",
+  "deleteReceived": "Your account deletion request has been received. Deletion isn’t complete yet.",
+  "deleteScope": "Data deletion details",
+  "deleteBusy": "Deleting your account…",
+  "deleteFailed": "Your account couldn’t be deleted. You can try again.",
+  "deleteDone": "Your account has been deleted.",
+  "deleteScopeUnavailable": "Data deletion details can’t be loaded right now. Please try again.",
+  "eventsReturn": "Back to Nearby",
+  "notificationRequestSample": "You have a new connection request.",
+  "notificationMessageSample": "You have a new message.",
+  "profileAgeYears": "{age} years old",
+  "requestCooldown": "You can’t send a request to this person right now.",
+  "requestAlreadyPending": "There’s a pending request between you and this person.",
+  "requestAlreadyConnected": "You’re already connected.",
+  "@profileAgeYears": {
+    "description": "Display only the age provided by the allowed public profile. Never expose hidden age or birth date.",
+    "placeholders": {
+      "age": {
+        "type": "int"
+      }
+    }
+  },
+  "@requestCooldown": {
+    "description": "Neutral cooldown message below disabled requestSend. No duration, cause or expiry hint."
+  },
+  "@requestAlreadyPending": {
+    "description": "Designer UI addition for an already confirmed accessible relationship state; never infer from generic STATE_CHANGED."
+  },
+  "@requestAlreadyConnected": {
+    "description": "Designer UI addition for an already confirmed accessible relationship state; never infer from generic STATE_CHANGED."
+  },
+  "contactAddDetails": "Share more details",
+  "@contactAddDetails": {
+    "description": "Entry to explicitly share additional currently unpublished eligible contact fields. Does not edit or republish existing shared fields."
+  },
+  "contactUpdated": "Your shared detail was updated.",
+  "@contactUpdated": {
+    "description": "Success feedback only after confirmed update of an already shared contact field. Not initial sharing or withdrawal."
+  },
+  "chatRetentionInfo": "Messages are kept for up to 30 days after this chat becomes read-only.",
+  "chatRetentionWarning": "These messages will be deleted soon. If contact details have been shared, you can save any you need.",
+  "chatRetentionDeleted": "The messages in this chat were deleted because their retention period ended.",
+  "nearbyLimited": "Some of the people nearby are shown here.",
+  "photoUploaded": "Photo uploaded.",
+  "@photoUploaded": {
+    "description": "Persistent status below the profile photo after successful upload is confirmed. Separate from the photoReplace action label."
+  },
+  "settingsContact": "Contact us",
+  "supportEmailUnavailable": "The email app couldn’t open. You can copy the address below and write to us.",
+  "notificationChannelUpdates": "Updates",
+  "notificationChannelCheckInReminders": "Check-in reminders"
+}

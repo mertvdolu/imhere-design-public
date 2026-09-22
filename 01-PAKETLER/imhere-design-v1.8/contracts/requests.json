@@ -1,0 +1,57 @@
+{
+  "version": "1.7",
+  "authority": "Current Founder instruction and extract v1.0.2 §7; legacy L-40 three-intent inventory superseded by FD-75",
+  "messagesTab": {
+    "children": [
+      "messagesConnections",
+      "messagesRequests"
+    ],
+    "primaryNavigationIndex": 1,
+    "initialAppTab": "navNearby",
+    "requestsSections": [
+      "messagesIncoming",
+      "messagesOutgoing"
+    ]
+  },
+  "intents": {
+    "options": [
+      "friendship",
+      "networking"
+    ],
+    "minimum": 1,
+    "maximum": 2,
+    "initial": [],
+    "recipientInitial": [],
+    "persistentProfileMode": false,
+    "senderSetVisibleBeforeMatch": false,
+    "senderSetLeakedToPreviewPushCacheSemantics": false
+  },
+  "acceptFlow": [
+    "requestAccept entry",
+    "independent empty recipient selection",
+    "requestSelectAccept submission",
+    "authoritative single match result"
+  ],
+  "pending": {
+    "maximumOutgoing": 20,
+    "fixtureUsed": 19,
+    "labelKey": "pendingSlots",
+    "lifetimeMinutes": 15,
+    "remainingKey": "requestTimeLeft",
+    "clockSource": "Actual request expiry/server time; not a fresh15 minutes each time the view opens",
+    "purchasesCreditsDailyQuota": false,
+    "legacyRemainingKey": "pendingRemaining retained unchanged; use new explicit remaining-time label in Package3"
+  },
+  "simultaneousReverseRequest": "Redirect second attempt to incoming request and empty accept selection; no auto-match",
+  "results": [
+    "accepted",
+    "declined",
+    "expired",
+    "cancelled",
+    "unavailable"
+  ],
+  "blocked": "Remove identity and all request content; neutral unavailable, never identify block reason",
+  "transport": "No optimistic accepted/matched/sent/cancelled success. Preserve current idempotency and reconcile unknown responses before repeating mutation.",
+  "cooldowns": "Existing backend eligibility; no new timer, new durations or bypass",
+  "fixtureOnly": true
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.7",
+  "acceptedBaseline": "v1.6.1",
+  "requirements": {
+    "path": "references/DESIGN_REQUIREMENTS_EXTRACT_v1.0.2.md",
+    "sha256": "679b69a0e0a9ac1d94b373547a021146651b68513974ba48d1fe49bcd7bc44ab",
+    "sections": [
+      "§7 Requests/matching",
+      "§8 Chat/continue/contact"
+    ]
+  },
+  "readOnlyEngineeringInventory": "Legacy handoff L-41..65 read for existing behavior; L-40 Flirting superseded by latest Founder/FD-75 two intentions. Master not read.",
+  "existingPackageFilesModified": false,
+  "appCodeModified": false,
+  "newUIKeys": 66
+}

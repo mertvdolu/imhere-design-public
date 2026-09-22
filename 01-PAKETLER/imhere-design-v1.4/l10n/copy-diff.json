@@ -1,0 +1,982 @@
+[
+  {
+    "locale": "tr",
+    "key": "intentHint",
+    "old": "Birini, ikisini veya üçünü seç.",
+    "new": "Birini veya ikisini seç.",
+    "kind": "changed"
+  },
+  {
+    "locale": "tr",
+    "key": "profileSaved",
+    "old": null,
+    "new": "Profil kaydedildi.",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "profileIncomplete",
+    "old": null,
+    "new": "Profilini tamamlamak için bir fotoğraf ekle.",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "profileComplete",
+    "old": null,
+    "new": "Profilin tamam.",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "fieldInterests",
+    "old": null,
+    "new": "İlgi alanları",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "dobHelp",
+    "old": null,
+    "new": "I’M HERE’i kullanmak için 18 yaşında veya daha büyük olmalısın.",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestsHelp",
+    "old": null,
+    "new": "En az {min}, en fazla {max} tane seç.",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "charactersLeft",
+    "old": null,
+    "new": "{count} karakter kaldı",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "visibilityTitle",
+    "old": null,
+    "new": "Diğerlerinin görebildikleri",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "visibilityHelp",
+    "old": null,
+    "new": "Gizlediğin alanlar diğer kişilerin profil görünümünde yer almaz.",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "showAge",
+    "old": null,
+    "new": "Yaşım görünsün",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "showGender",
+    "old": null,
+    "new": "Cinsiyetim görünsün",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "showOccupation",
+    "old": null,
+    "new": "Mesleğim görünsün",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "photoTitle",
+    "old": null,
+    "new": "Profil fotoğrafı",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "photoNone",
+    "old": null,
+    "new": "Henüz fotoğraf yok",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "photoChoose",
+    "old": null,
+    "new": "Fotoğraf seç",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "photoReplace",
+    "old": null,
+    "new": "Fotoğrafı değiştir",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "photoPrivacyNote",
+    "old": null,
+    "new": "Fotoğrafın kaydedilmeden önce konum bilgisi temizlenir.",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "settingsLanguage",
+    "old": null,
+    "new": "Dil",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "errorRequired",
+    "old": null,
+    "new": "Bu alan zorunlu.",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "errorTextTooLong",
+    "old": null,
+    "new": "Bu metin çok uzun.",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "errorTextTooShort",
+    "old": null,
+    "new": "Bu metin çok kısa.",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "errorInterestsRange",
+    "old": null,
+    "new": "En az {min}, en fazla {max} ilgi alanı seç.",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "errorGenderRequired",
+    "old": null,
+    "new": "Lütfen bir seçim yap.",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "errorQualityInsufficient",
+    "old": null,
+    "new": "Bu fotoğraf kullanılamadı. Başka bir fotoğraf dene.",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "errorStateChanged",
+    "old": null,
+    "new": "Bir şey değişti. Lütfen tekrar dene.",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "errorNetwork",
+    "old": null,
+    "new": "Bağlantı yok. Lütfen tekrar dene.",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestMusic",
+    "old": null,
+    "new": "Müzik",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestLiveMusic",
+    "old": null,
+    "new": "Canlı müzik",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestFilmTv",
+    "old": null,
+    "new": "Film ve dizi",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestBooks",
+    "old": null,
+    "new": "Kitap",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestArtMuseums",
+    "old": null,
+    "new": "Sanat ve müze",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestPhotography",
+    "old": null,
+    "new": "Fotoğrafçılık",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestCoffee",
+    "old": null,
+    "new": "Kahve",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestFoodCooking",
+    "old": null,
+    "new": "Yemek ve mutfak",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestTravel",
+    "old": null,
+    "new": "Seyahat",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestNatureHiking",
+    "old": null,
+    "new": "Doğa ve yürüyüş",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestWatchingSports",
+    "old": null,
+    "new": "Spor izlemek",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestFitness",
+    "old": null,
+    "new": "Spor salonu",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestRunning",
+    "old": null,
+    "new": "Koşu",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestCycling",
+    "old": null,
+    "new": "Bisiklet",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestWaterSports",
+    "old": null,
+    "new": "Su sporları",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestYoga",
+    "old": null,
+    "new": "Yoga",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestDancing",
+    "old": null,
+    "new": "Dans",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestVideoGames",
+    "old": null,
+    "new": "Video oyunları",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestBoardGames",
+    "old": null,
+    "new": "Kutu oyunları",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestTechnology",
+    "old": null,
+    "new": "Teknoloji",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestEntrepreneurship",
+    "old": null,
+    "new": "Girişimcilik",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestDesign",
+    "old": null,
+    "new": "Tasarım",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestLanguages",
+    "old": null,
+    "new": "Diller",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestVolunteering",
+    "old": null,
+    "new": "Gönüllülük",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestAnimals",
+    "old": null,
+    "new": "Hayvanlar",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestGardening",
+    "old": null,
+    "new": "Bahçecilik",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "interestOther",
+    "old": null,
+    "new": "Diğer",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "checkInTitle",
+    "old": null,
+    "new": "Check-in",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "devEmulatorBanner",
+    "old": null,
+    "new": "DEV: yerel emülatör ({uid})",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "appTitle",
+    "old": null,
+    "new": "I’M HERE",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "mapOpen",
+    "old": null,
+    "new": "Bölge hareketliliği",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "mapLoading",
+    "old": null,
+    "new": "Harita yükleniyor…",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "mapOffline",
+    "old": null,
+    "new": "İnternet bağlantısı yok. Harita şu anda güncellenemiyor.",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "mapBack",
+    "old": null,
+    "new": "Yakındakiler’e dön",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "mapLegend",
+    "old": null,
+    "new": "Hareketlilik",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "mapZoomIn",
+    "old": null,
+    "new": "Yakınlaştır",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "mapZoomOut",
+    "old": null,
+    "new": "Uzaklaştır",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "nearbyLoading",
+    "old": null,
+    "new": "Profiller yükleniyor…",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "nearbyOffline",
+    "old": null,
+    "new": "İnternet bağlantısı yok. Profiller şu anda güncellenemiyor.",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "nearbyFailed",
+    "old": null,
+    "new": "Profiller yüklenemedi.",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "checkInRenewing",
+    "old": null,
+    "new": "Konumunu yeniden doğruluyoruz…",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "viewBack",
+    "old": null,
+    "new": "Geri",
+    "kind": "added"
+  },
+  {
+    "locale": "tr",
+    "key": "profileView",
+    "old": null,
+    "new": "Profili aç",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "intentHint",
+    "old": "Choose one, two or all three.",
+    "new": "Choose one or both.",
+    "kind": "changed"
+  },
+  {
+    "locale": "en",
+    "key": "profileSaved",
+    "old": null,
+    "new": "Profile saved",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "profileIncomplete",
+    "old": null,
+    "new": "Add one photo to finish your profile",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "profileComplete",
+    "old": null,
+    "new": "Your profile is complete",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "fieldInterests",
+    "old": null,
+    "new": "Interests",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "dobHelp",
+    "old": null,
+    "new": "You must be 18 or older to use I’M HERE.",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestsHelp",
+    "old": null,
+    "new": "Choose between {min} and {max}.",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "charactersLeft",
+    "old": null,
+    "new": "{count} characters left",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "visibilityTitle",
+    "old": null,
+    "new": "What others can see",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "visibilityHelp",
+    "old": null,
+    "new": "Fields you hide are not shown to other people on your profile.",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "showAge",
+    "old": null,
+    "new": "Show my age",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "showGender",
+    "old": null,
+    "new": "Show my gender",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "showOccupation",
+    "old": null,
+    "new": "Show my occupation",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "photoTitle",
+    "old": null,
+    "new": "Profile photo",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "photoNone",
+    "old": null,
+    "new": "No photo yet",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "photoChoose",
+    "old": null,
+    "new": "Choose photo",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "photoReplace",
+    "old": null,
+    "new": "Replace photo",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "photoPrivacyNote",
+    "old": null,
+    "new": "Location data is removed from your photo before it is saved.",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "settingsLanguage",
+    "old": null,
+    "new": "Language",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "errorRequired",
+    "old": null,
+    "new": "This field is required",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "errorTextTooLong",
+    "old": null,
+    "new": "This text is too long",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "errorTextTooShort",
+    "old": null,
+    "new": "This text is too short",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "errorInterestsRange",
+    "old": null,
+    "new": "Choose between {min} and {max} interests",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "errorGenderRequired",
+    "old": null,
+    "new": "Please choose an option",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "errorQualityInsufficient",
+    "old": null,
+    "new": "This photo could not be used. Try another one.",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "errorStateChanged",
+    "old": null,
+    "new": "Something changed. Please try again.",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "errorNetwork",
+    "old": null,
+    "new": "No connection. Please try again.",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestMusic",
+    "old": null,
+    "new": "Music",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestLiveMusic",
+    "old": null,
+    "new": "Live music",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestFilmTv",
+    "old": null,
+    "new": "Film and TV",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestBooks",
+    "old": null,
+    "new": "Books",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestArtMuseums",
+    "old": null,
+    "new": "Art and museums",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestPhotography",
+    "old": null,
+    "new": "Photography",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestCoffee",
+    "old": null,
+    "new": "Coffee",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestFoodCooking",
+    "old": null,
+    "new": "Food and cooking",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestTravel",
+    "old": null,
+    "new": "Travel",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestNatureHiking",
+    "old": null,
+    "new": "Nature and hiking",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestWatchingSports",
+    "old": null,
+    "new": "Watching sports",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestFitness",
+    "old": null,
+    "new": "Fitness",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestRunning",
+    "old": null,
+    "new": "Running",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestCycling",
+    "old": null,
+    "new": "Cycling",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestWaterSports",
+    "old": null,
+    "new": "Water sports",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestYoga",
+    "old": null,
+    "new": "Yoga",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestDancing",
+    "old": null,
+    "new": "Dancing",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestVideoGames",
+    "old": null,
+    "new": "Video games",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestBoardGames",
+    "old": null,
+    "new": "Board games",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestTechnology",
+    "old": null,
+    "new": "Technology",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestEntrepreneurship",
+    "old": null,
+    "new": "Entrepreneurship",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestDesign",
+    "old": null,
+    "new": "Design",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestLanguages",
+    "old": null,
+    "new": "Languages",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestVolunteering",
+    "old": null,
+    "new": "Volunteering",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestAnimals",
+    "old": null,
+    "new": "Animals",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestGardening",
+    "old": null,
+    "new": "Gardening",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "interestOther",
+    "old": null,
+    "new": "Other",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "checkInTitle",
+    "old": null,
+    "new": "Check-in",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "devEmulatorBanner",
+    "old": null,
+    "new": "DEV: local emulators ({uid})",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "appTitle",
+    "old": null,
+    "new": "I’M HERE",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "mapOpen",
+    "old": null,
+    "new": "Area activity",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "mapLoading",
+    "old": null,
+    "new": "Loading the map…",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "mapOffline",
+    "old": null,
+    "new": "No internet connection. The map can’t update right now.",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "mapBack",
+    "old": null,
+    "new": "Back to Nearby",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "mapLegend",
+    "old": null,
+    "new": "Activity",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "mapZoomIn",
+    "old": null,
+    "new": "Zoom in",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "mapZoomOut",
+    "old": null,
+    "new": "Zoom out",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "nearbyLoading",
+    "old": null,
+    "new": "Loading profiles…",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "nearbyOffline",
+    "old": null,
+    "new": "No internet connection. Profiles can’t update right now.",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "nearbyFailed",
+    "old": null,
+    "new": "Profiles couldn’t be loaded.",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "checkInRenewing",
+    "old": null,
+    "new": "Verifying your location again…",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "viewBack",
+    "old": null,
+    "new": "Back",
+    "kind": "added"
+  },
+  {
+    "locale": "en",
+    "key": "profileView",
+    "old": null,
+    "new": "View profile",
+    "kind": "added"
+  }
+]

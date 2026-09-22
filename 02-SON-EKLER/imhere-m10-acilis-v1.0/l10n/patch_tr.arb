@@ -1,0 +1,7 @@
+{
+  "@@locale": "tr",
+  "chatRetentionInfo": "Bu sohbet yazmaya kapandıktan sonra mesajlar en fazla 30 gün saklanır.",
+  "chatRetentionWarning": "Bu yazışma yakında silinecek. Paylaşılmış iletişim bilgileri varsa, ihtiyacın olanları kaydedebilirsin.",
+  "chatRetentionDeleted": "Saklama süresi dolduğu için bu yazışmadaki mesajlar silindi.",
+  "nearbyLimited": "Yakındaki kişilerin bir kısmı burada gösteriliyor."
+}

@@ -1,0 +1,7 @@
+{
+  "@@locale": "tr",
+  "photoUploaded": "Fotoğraf yüklendi.",
+  "@photoUploaded": {
+    "description": "Persistent status below the profile photo after successful upload is confirmed. Separate from the photoReplace action label."
+  }
+}
