@@ -1,5 +1,17 @@
 # Değişiklik kaydı
 
+## Cream & Ink v2.2 — bütün mobil tasarım tamamlandı
+
+- [Tam paket](02-SON-EKLER/imhere-cream-complete-v2.2/): eski 287 durumun tamamı yeniden çizildi; 8 güncel ekle 295 durum, 2360 SVG, 590 PNG. TR/EN, iOS/Android, %100/%200.
+- Kök ONIZLEME.html ve EKRAN-KATALOGU.json artık yalnız yeni krem/siyah ekrana yönlenir; eski yeşil paketler arşivde korunur.
+- Tüm giriş/profil, Nearby/check-in, istek/eşleşme, sohbet/devam/contact, güvenlik, Ayarlar, bildirim ve Events durumları ortak yeni görsel dilde.
+- Harita cihaz ekranını kaplar; açıklama sheet’i ayrı. MapLibre/OpenFreeMap attribution ve dört semantik band korunur.
+- Orijinal iki daireli logo; açık uygulama simgesi, splash ve doğrudan işaretten türetilmiş saydam beyaz Android küçük simgesi.
+- Son metin/yerleşim ekleri çizimlerde: saklama bilgileri, nearbyLimited, visibilityHelp, photoUploaded, onboarding authSignOut, destek satırı, kapalı kart ve ek contact paylaşımı.
+- Yeni iki yardımcı metin: supportCopyEmail / supportEmailCopied; delta + migration.json, tam ARB üzerine yazılmaz. Ortak token sürümü 2.2; büyük başlık satır yüksekliği 1.12, büyük metin alt barı 184.
+- [Manager notu](02-SON-EKLER/imhere-cream-complete-v2.2/MANAGER-NOTU.md), [tasarım devri](02-SON-EKLER/imhere-cream-complete-v2.2/specs/TASARIM-DEVRI.md), manifest, SVG sınır/kapsam kontrolleri ve masaüstü/mobil HTML kanıtları eklendi. Live map önizlemesi yüklendi.
+- Flutter/backend değiştirilmedi; fiziksel cihaz/native entegrasyon testi bu tasarım kontrolüyle tamamlandı sayılmaz. Dosyalar tek tek yüklenir.
+
 ## Cream HTML v1.1 — Founder logosu
 
 - Kullanıcının gönderdiği orijinal iki daireli logo krem HTML başlığına ve uygulama üst alanlarına eklendi.

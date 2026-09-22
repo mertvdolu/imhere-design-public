@@ -1,0 +1,15 @@
+{
+  "contrastRatios": {
+    "text/background": 15.49,
+    "textSecondary/background": 4.85,
+    "onPrimary/primary": 16.76,
+    "inputBorder/input": 3.54,
+    "inputBorder/card": 4.0
+  },
+  "appIconOpaque1024": true,
+  "notificationMaskWhiteWithTransparency": true,
+  "mapStyleVersion8": true,
+  "basemapLayers": 10,
+  "fixtureDataInShippedStyle": false,
+  "realDeviceRenderingVerified": false
+}

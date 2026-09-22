@@ -1,1 +1,3 @@
-Bu sözlük v1.7.3 tam referansının üstüne son metin eklerinin sırayla birleştirilmiş hâlidir. Canlı ARB üzerine yazılmaz; uygulamaya özel anahtar/metadata korunarak birleştirilir. Önceki alias ve placeholder kuralları 01-PAKETLER içindeki migration.json dosyalarında korunmuştur. İngilizce aktif; Türkçe hazır ancak ürün kararıyla kapalıdır. Teslim, önceki metin önerilerine yeni ürün onayı vermez.
+# Güncel referans sözlükleri / Cream & Ink v2.2
+
+Bu klasör tam referanstır; canlı ARB üzerine yazılmaz. Önceki M09/M10 düzeltmeleri korunur. Yeni ek yalnız supportCopyEmail ve supportEmailCopied anahtarlarıdır. `02-SON-EKLER/imhere-cream-complete-v2.2/l10n/cream-v2.2-patch_*.arb` ve aynı klasördeki migration.json ile birleştirilir. Önceki alias ve placeholder sözleşmeleri korunur. EN aktif, TR hazırlığı korunur fakat kapalıdır.

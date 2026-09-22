@@ -1,31 +1,24 @@
-# I'M HERE — Tasarım dosyaları
+# IM HERE — Cream & Ink
 
-Tüm tasarım dosyaları bu depoda klasörler halinde bulunur. Küçük güncellemeler ilgili dosyalara ayrı commit olarak uygulanır.
+**Güncel tasarım: v2.2.** Founder onayıyla bütün mobil uygulama tasarımı krem/siyah temaya geçti.
 
-## Son teslim: uygulama simgesi v1.0
+## Güncel teslim
 
-[İki simge adayını karşılaştır](02-SON-EKLER/imhere-app-icon-v1.0/README.md) — IM HERE yazılı ve yazısız. Founder B-symbol seçti; A arşivde.
+- [295 durumun tam tasarım paketi](02-SON-EKLER/imhere-cream-complete-v2.2/): 2360 SVG, TR/EN, iOS/Android, %100/%200 ve 590 PNG.
+- [Görsel bakış](02-SON-EKLER/imhere-cream-complete-v2.2/review/experience-desktop.png) · [HTML katalog](02-SON-EKLER/imhere-cream-complete-v2.2/ONIZLEME.html) · [Tasarım devri](02-SON-EKLER/imhere-cream-complete-v2.2/specs/TASARIM-DEVRI.md)
+- [Manager’a iletilecek not](02-SON-EKLER/imhere-cream-complete-v2.2/MANAGER-NOTU.md) · [Doğrulama](02-SON-EKLER/imhere-cream-complete-v2.2/evidence/validation.json) · [Dosya manifesti](02-SON-EKLER/imhere-cream-complete-v2.2/MANIFEST.json)
+- [Güncel ortak token ve metinler](03-GUNCEL-ORTAK/) · [Değişiklik kaydı](CHANGELOG.md)
 
-## Yeni teslim: A4 devam v1.0
+Tam ekran harita, gönderilen iki daireli logo, açık simge/splash, bildirim maskesi ve son M09/M10 ekleri bu teslimde. Dört semantik harita rengi ürün anlamını korur. İngilizce aktif; Türkçe kaynaklar hazır, dil seçimi askıdadır.
 
-[Resmî küçük simge, yerel açılış ve koyu harita](02-SON-EKLER/imhere-a4-suite-v1.0/) · [Soru bloklarının kapanışı](02-SON-EKLER/imhere-a4-suite-v1.0/KARAR-KAPANISLARI.md)
+## Önizlemeyi açmak
 
-## Aktif tema: Cream & Ink — Founder onaylı
+Depoyu indirip kökteki `ONIZLEME.html` dosyasını tarayıcıda aç. Tek güncel krem/siyah kataloğa gider. GitHub’ın dosya sayfası HTML uygulamasını çalıştırmaz. Katalog internetsiz açılır; etkileşimli deneyimin canlı haritası internet ister.
 
-[Altı ekranı incele](02-SON-EKLER/imhere-cream-study-v1.0/REVIEW.png) · [HTML ve dosyalar](02-SON-EKLER/imhere-cream-study-v1.0/) — seçilen krem/siyah tema. [Geçiş kaynakları](02-SON-EKLER/imhere-cream-theme-v1.0/).
+## Arşiv
 
-## Başlangıç
-- [Başlangıç rehberi](00-BURADAN-BASLA.md)
-- [Güncel kararlar](04-GUNCEL-KARARLAR.md)
-- [Güncel tema, fontlar ve TR/EN metinleri](03-GUNCEL-ORTAK/)
-- [Son ekler ve düzeltmeler](02-SON-EKLER/)
-- [Dört ana paket ve ekran dosyaları](01-PAKETLER/)
-- [Değişiklik kaydı](CHANGELOG.md)
+`01-PAKETLER/` ve `02-SON-EKLER/` içindeki eski sürümler kabul/sözleşme geçmişidir. Eski yeşil ekranlar, B-symbol ve koyu splash/harita güncel görsel hedef değildir. Önceki dosyalar korunur; aktif katalog onlara yönlenmez. `TOPLAMA-MANIFEST.json` eski v2.0 toplamasına aittir; yeni paketin manifesti kendi klasöründedir.
 
-`ONIZLEME.html` dosyasını kullanmak için depoyu bilgisayarına indirip tarayıcıda aç. GitHub dosya görünümü HTML önizlemesini çalıştırmaz.
+## Teslim sınırı
 
-## Güncellik
-Bu, v2.0 tasarım toplamasının dosya bazlı yayınıdır. Eski çizimler yeniden çizilmedi; son metin ve kararlar güncel dosyalarda açıklanmıştır. Uygulama kaynak kodu değildir.
-
-## Sonraki teslimler
-Her güncellemede sürüm, değişen dosya yolları, değişiklik özeti ve birleştirme notları CHANGELOG.md içine yazılır. Dosyalar commit geçmişinden izlenebilir. Büyük tek ZIP dosyası teslim yöntemi kullanılmaz.
+Bu depo tasarım kaynaklarıdır. **Flutter/backend değiştirilmedi; uygulamaya entegrasyon ve gerçek cihaz turu ayrı adımdır.** Dosyalar tek tek sürümlenir; büyük bir ZIP ile güncelleme yapılmaz. Tanıtım sitesi bu mobil tasarım deposundan ayrı projedir.

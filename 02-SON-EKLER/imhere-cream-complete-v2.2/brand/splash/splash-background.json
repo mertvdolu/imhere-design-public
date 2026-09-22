@@ -1,0 +1,10 @@
+{
+  "ios": "#F4F1E9",
+  "android": "#F4F1E9",
+  "android12IconBackground": "#F4F1E9",
+  "markSource": "splash-mark.svg",
+  "noText": true,
+  "noGradient": true,
+  "noDelay": true,
+  "applicationLabel": "IM HERE"
+}

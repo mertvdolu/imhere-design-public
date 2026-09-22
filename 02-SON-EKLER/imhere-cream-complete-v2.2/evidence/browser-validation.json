@@ -1,0 +1,18 @@
+{
+  "catalogDesktop": true,
+  "catalogMobile": true,
+  "localFileOfflineCatalog": true,
+  "filtersAndPagination": true,
+  "dormantLanguageHidden": true,
+  "experienceIntentInitiallyEmpty": true,
+  "experienceGraphemeLimit": true,
+  "experienceNoMessageSent": true,
+  "mobileAndLargeNoHorizontalOverflow": true,
+  "liveMapLoaded": true,
+  "liveMapLayers": 11,
+  "liveMapErrorOverlay": 0,
+  "consoleErrors": [],
+  "nativeDeviceQA": false,
+  "paginationNextPreviousVerified": true,
+  "representativeSvgBrowserBoundsVerified": true
+}

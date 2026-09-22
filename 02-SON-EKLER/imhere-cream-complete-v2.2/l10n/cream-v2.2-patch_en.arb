@@ -1,0 +1,11 @@
+{
+  "@@locale": "en",
+  "supportCopyEmail": "Copy email address",
+  "supportEmailCopied": "Address copied.",
+  "@supportCopyEmail": {
+    "description": "Accessible support email copy action"
+  },
+  "@supportEmailCopied": {
+    "description": "Announce only after clipboard copy succeeds"
+  }
+}

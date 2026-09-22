@@ -1,4 +1,8 @@
-# Son kararlar ve eski çizimlere üstün gelen ekler
+# Güncel tasarım kaynağı: Cream & Ink v2.2
+
+Bütün güncel mobil çizimler `02-SON-EKLER/imhere-cream-complete-v2.2/` altında tamamlandı. Aşağıdaki numaralı kayıtlar kronolojiktir; son karar önceliklidir. Eski "çizim yok / geçiş bekliyor" ifadelerinin yerini bu paket alır. Uygulama koduna entegrasyon ayrı adımdır.
+
+## Karar geçmişi
 
 1. İngilizce aktif; TR hazır fakat kapalı. L-93 askıda. Dil satırı gizli ve boşluksuz; Türkçe açıldığında ilk sıraya döner. TR kaynakları korunur.
 2. Aktif Ayarlar sırası: Bildirimler, Engellenenler, Gizlilik, Şartlar, Bize yaz, Hesabımı sil, Çıkış yap. Tam sıra Dil ile başlar. Bize yaz / Contact us → info@useimhere.com; açılmazsa adres gösterilir ve kopyalanabilir.
@@ -22,3 +26,5 @@ Bu not konuşmadaki son Founder/Manager bildirimlerini bir araya getirir; ürün
 15. Founder son kararı: Cream & Ink ana tema. Forest & Mint ve koyu harita/splash yönü tarihsel arşiv; güncel ortak token v2.1 ve imhere-cream-theme-v1.0 geçiş notu esas alınır. Dört harita bandı rengi korunur. Tema onayı native uygulama tamamlandı anlamına gelmez. Yeni logo koordinasyonu Manager'dadır.
 
 16. Founder tam ekran harita yerleşimini ayrıca onayladı: açılınca ekranı kaplar, geri Yakındakiler’e döner, kontroller/attribution görünür kalır. Krem HTML v1.1 içinde gönderilen iki daireli logo kullanılır; native logo uygulaması Manager koordinasyonunda kalır.
+
+17. Founder bütün uygulama tasarımının Cream & Ink olmasını açıkça onayladı. v2.2 eski 287 durumun tamamını ve 8 son ek durumu (295 toplam) TR/EN × iOS/Android × %100/%200 olarak teslim eder. Aktif katalog artık yalnız krem/siyah çizimlere gider. Onboarding çıkışı, saklama durumları, destek/kopyalama ve yüklenmiş fotoğraf satırı artık çizilmiştir. Kaynak logo son gönderilen iki daireli işarettir; açık simge/splash ve beyaz Android bildirim maskesi aynı pakette. Dört harita rengi korunur; harita tam ekran. Native uygulama/depolama/yayın davranışı bu teslimde değiştirilmedi.

@@ -1,0 +1,94 @@
+{
+  "version": "1.1",
+  "status": "Founder approved cream direction; original supplied mark added to HTML",
+  "files": [
+    {
+      "path": "APPROVAL.md",
+      "sha256": "7d8d3b2e73ff169dfe30e8c81f944ac2294bd6b30f0cc0009e08081de9085141"
+    },
+    {
+      "path": "LOGO-GUNCELLEMESI-v1.1.md",
+      "sha256": "844df2a1f55224b4ba7e9d2ddeed88d69575d2e2f5d2e0bfc4014a4ed8d8dc89"
+    },
+    {
+      "path": "MANAGER-NOTU.md",
+      "sha256": "f67dfb7eff1bf681b6742edcf3a5ddef905744cc2b9d5ad93f479fb137036f6f"
+    },
+    {
+      "path": "NOTLAR.md",
+      "sha256": "6817a6fd0e43e5d3d9771e95fe298a63fb5b2070a56392201da68f2aaf1046e0"
+    },
+    {
+      "path": "ONIZLEME.html",
+      "sha256": "ceb88b08203b62d8787126446592b99b17f2c77dd3424420fa69228c0e83c332"
+    },
+    {
+      "path": "REVIEW.png",
+      "sha256": "ca0b6110b8cc27bdbe714a92ca7d65fc8549966034531eb3eea416d98ce9d3ce"
+    },
+    {
+      "path": "app.js",
+      "sha256": "d7972c56d56b5b956a51d39b474d8c85fce8e1b30d68479695adc0b6acd5c0a9"
+    },
+    {
+      "path": "assets/Geist-Medium.ttf",
+      "sha256": "3a3b36f0d0b981f4857f7f00eeef4a5ee123605575d362ab31ee7c19e3d11f2f"
+    },
+    {
+      "path": "assets/Geist-Regular.ttf",
+      "sha256": "85a1c6b18a6b0a06dfe9fd4f6d6a5d4979f74ec861eaef4bc7868b5492b8a117"
+    },
+    {
+      "path": "assets/Geist-SemiBold.ttf",
+      "sha256": "b9f52322d6d20a7ff1e7fe1310ff12ec851aebb83d24f8b4f1d4149298f489b2"
+    },
+    {
+      "path": "assets/MAPLIBRE-LICENSE.txt",
+      "sha256": "ee5fc05a0677eaf69601d2c7db0d9ecd6cc27c3abc1d0733bc9ed34707cf8ef2"
+    },
+    {
+      "path": "assets/OFL.txt",
+      "sha256": "c683bfbcc7e087f5d37a54ef628f10387c451a83ddc459b151403a164ac46c90"
+    },
+    {
+      "path": "assets/copy.js",
+      "sha256": "a51e7c449cee14d5ca50856496973c508d041e8da59b51f19f8e3c2a09125af3"
+    },
+    {
+      "path": "assets/deniz.jpg",
+      "sha256": "f44a805abf320af9e614f13ed5fc97e0f2ef250e0a12f807907fbc2f2cc01a8a"
+    },
+    {
+      "path": "assets/emre.png",
+      "sha256": "e2ad967bd7259569789ce32bc63123f81d609815ef6ac1a7c77fc83b0cd006c5"
+    },
+    {
+      "path": "assets/imhere-mark-icon-weight.svg",
+      "sha256": "2ab93326b0dc88965527e8a2552495ce45e75df6a1da949752072379e60ff663"
+    },
+    {
+      "path": "assets/imhere-mark.svg",
+      "sha256": "0d29aa7456df49d7b659279ac2fd7b108ae022edab058364405c52f02bf983ee"
+    },
+    {
+      "path": "assets/map-style.js",
+      "sha256": "b39ed5641a4e6b55cc2d1ebec73e44ee9e343625e10e16f3441ad28fd7e6ec03"
+    },
+    {
+      "path": "assets/maplibre-gl.css",
+      "sha256": "792ac997dcf6ae6f643eb4e2dee4630c85e7056526bd8fb85ffe83c67d6c41b4"
+    },
+    {
+      "path": "assets/maplibre-gl.js",
+      "sha256": "07e6ca71a5b6d835a7c3803fb484f0a6e5f0dcbfa131407666edb9e9316564f9"
+    },
+    {
+      "path": "style.css",
+      "sha256": "87f85cc384f2191ec054d29405883cbc9b5cf920f51b2e6955b1e4294e175e37"
+    },
+    {
+      "path": "validation.json",
+      "sha256": "9b788956617ed4020c8b895ae9601b15b47aceedf4ec24f007d787f30a392396"
+    }
+  ]
+}
