@@ -46,7 +46,7 @@ Messages = Connections + Requests. İki niyet: Friendship / Networking; başlang
 
 Sohbet metin + emoji + link, en çok 500 grapheme, 20 kendi gönderim hakkı. Medya/düzenleme/silme yok. Yumuşak iletişim uyarısı ve Yine de gönder korunur. Kapalı/salt okunurda composer yok; kapalı kart kilit ve nötr `connectionEndedNeutral` ile ayırt edilir. Salt okunur olmak tek başına sona ermiş bağlantı değildir.
 
-Saklama: erişilebilir yazışmalarda sakin `chatRetentionInfo`; uyarı yalnız mevcut gerçek backend eşiğiyle, silinmiş durum yalnız doğrulanmış sonuçla. Sayaç veya tam saat vaadi yok; profiller kalır. Yazılabilirlik bitiş tetikleyicileri son Manager kuralından gelir, tasarım yeniden tanımlamaz. Erişim/engel sonucu saklama mesajlarından önceliklidir; eski veri gösterilmez.
+Saklama (ENG-M10-08(5)): `chatRetentionInfo` yalnız salt-okunur sohbette gösterilir; yazılabilir sohbette gösterilmez. Gönderim, geçici çevrimdışı olma veya belirsiz sonuç tek başına salt-okunur durum sayılmaz; uyarı yalnız mevcut gerçek backend eşiğiyle, silinmiş durum yalnız doğrulanmış sonuçla. Sayaç veya tam saat vaadi yok; profiller kalır. Yazılabilirlik bitiş tetikleyicileri son Manager kuralından gelir, tasarım yeniden tanımlamaz. Erişim/engel sonucu saklama mesajlarından önceliklidir; eski veri gösterilmez.
 
 Devam tercihi özel; karşı karar gösterilmez. HAYIR final, kendi onayı korunur. EVET+EVET → mevcut salt okunur/contact geçişi. Geçişin loading/failed çizimleri korunur; yapay gecikme eklenmez.
 

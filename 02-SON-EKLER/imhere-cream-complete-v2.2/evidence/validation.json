@@ -40,14 +40,16 @@
     "retentionWarningAndDeleted": true,
     "supportCopyAction": true,
     "originalLogoByteIdentical": true,
-    "textWithinHorizontalBounds": true
+    "textWithinHorizontalBounds": true,
+    "retentionInfoHiddenInWritableChat": true,
+    "retentionInfoPreservedInReadOnlyChat": true
   },
   "textBoundsIssues": [],
   "unresolvedPlaceholders": [],
   "colors": {
     "#191A17": 45870,
     "#F4F1E9": 3552,
-    "#696A62": 14544,
+    "#696A62": 14364,
     "#FCFAF5": 12376,
     "#D9D5CB": 3888,
     "#7C7D73": 4168,
@@ -64,5 +66,26 @@
     "Automated SVG geometry, package and browser checks are design evidence, not native or physical-device QA.",
     "Full SVGs represent scrollable content; fixed navigation and keyboard behavior need native layout verification.",
     "Live map tiles depend on network; band shapes in screen samples are fixtures only."
-  ]
+  ],
+  "retentionVisibilityCorrection": {
+    "rule": "ENG-M10-08(5)",
+    "writableStatesUpdated": 9,
+    "svgVariantsUpdated": 72,
+    "pngVariantsUpdated": 18,
+    "allChatVariantsChecked": 160,
+    "readOnlyFixturesUnchanged": true,
+    "betaCatalogUnchanged": true,
+    "copyTokensAndActionsUnchanged": true,
+    "browser": {
+      "writableExperienceRetentionHidden": true,
+      "validDraftSendEnabled": true,
+      "largeMobileNoHorizontalOverflow": true,
+      "reviewImagesUpdated": [
+        "experience-desktop.png",
+        "experience-mobile-large.png"
+      ],
+      "liveMapLoaded": true,
+      "consoleErrors": []
+    }
+  }
 }
