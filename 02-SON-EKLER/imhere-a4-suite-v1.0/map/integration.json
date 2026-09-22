@@ -1,0 +1,22 @@
+{
+  "activeLanguage": "en",
+  "dormantLanguage": "tr",
+  "provider": "MapLibre + OpenFreeMap",
+  "activityLayerOwner": "existing app adapter",
+  "suggestedInsertBefore": "road-labels",
+  "requiredAttribution": "© OpenStreetMap contributors · OpenFreeMap",
+  "additionalSourceCredit": "© OpenMapTiles",
+  "bandColors": {
+    "BLUE": "#64A8FF",
+    "YELLOW": "#F7D46A",
+    "GREEN": "#7DDEAC",
+    "RED": "#EE8985"
+  },
+  "preserveCurrentOverlay": {
+    "fill-opacity": 0.45,
+    "fill-outline-color": "rgba(255,255,255,0.35)"
+  },
+  "changesToThresholdsOrGeometry": false,
+  "userMarkers": false,
+  "distanceOrCountUI": false
+}

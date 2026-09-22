@@ -1,0 +1,14 @@
+{
+  "en": {
+    "loaded": true,
+    "tiles": true,
+    "features": 3069,
+    "errors": [],
+    "attribution": "© OpenStreetMap contributors · OpenFreeMap · © OpenMapTiles"
+  },
+  "tr": {
+    "features": 3069,
+    "errors": []
+  },
+  "nativeDeviceTest": false
+}

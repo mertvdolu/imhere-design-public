@@ -135,11 +135,15 @@
     },
     {
       "path": "README.md",
-      "sha256": "f0449efc6f5658aee0eec7c22bd8d2c09a7a9ee366debec12245c2813a3b2912"
+      "sha256": "6cbe9cfb4e8141f5e69dc20488c0981f8fac25f4fa406dc575d73da88ee124fc"
+    },
+    {
+      "path": "SELECTION.md",
+      "sha256": "2a9a800a48682b0da1410fb46022a042898a923fcf3b04271823a7a9460f356c"
     },
     {
       "path": "spec.json",
-      "sha256": "938e626d93e73a26b4c462548843d4719d47f001e1608a213070fbfcaf13850f"
+      "sha256": "b20e21fc4f2606fe55dfd3094ee319d688fc8b92dc5d45e9f03adbebed1546e0"
     },
     {
       "path": "validation.json",

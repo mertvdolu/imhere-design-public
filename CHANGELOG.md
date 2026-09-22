@@ -1,5 +1,14 @@
 # Değişiklik kaydı
 
+## A4 devam v1.0 — B seçimi sonrası
+
+- Founder B-symbol seçti; A uygulanmayacak. Simge klasörünün seçim kaydı, README, spec ve manifesti güncellendi; simge geometrisi aynı.
+- [Yeni teslim](02-SON-EKLER/imhere-a4-suite-v1.0/): resmî bildirim küçük simgesi, B ile yerel açılış varlıkları ve EN/TR koyu OpenFreeMap MapLibre stilleri.
+- Code türetmesi görülmedi; yerine resmî küçük simge sağlandı.
+- Dil, panel ve bildirim soru yanıtları KARAR-KAPANISLARI.md içinde.
+- Map EN/TR tarayıcı çizimi geçti; native entegrasyon/görüntü karşılaştırması bekliyor.
+
+
 ## Uygulama simgesi v1.0 — 2026-09-22
 
 - Founder kararı: telefondaki ad **IM HERE**, büyük harf ve kesme işaretsiz.

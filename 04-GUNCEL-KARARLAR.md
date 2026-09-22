@@ -16,3 +16,5 @@
 Bu not konuşmadaki son Founder/Manager bildirimlerini bir araya getirir; ürün kuralı değiştirmez ve önceki teslimlerin kabul durumunu yükseltmez.
 
 13. Founder kararı: telefondaki uygulama adı IM HERE (kesme işaretsiz, büyük harf). Simge v1.0 A/B adayları 02-SON-EKLER/imhere-app-icon-v1.0 altında; seçim bekleniyor. Nihai simge, splash ve bildirim küçük simgesi tamamlandı sayılmaz.
+
+14. Son Founder kararı: B-symbol seçildi, A uygulanmayacak. 13. maddedeki seçim bekliyor ifadesinin yerini bu karar alır. A4 devam v1.0 resmî küçük simge, splash tasarım varlıkları ve koyu OpenFreeMap stil dosyalarını teslim eder; native entegrasyon onayı değildir. Açık soru bloklarının tasarım yanıtları aynı teslimde KARAR-KAPANISLARI.md içindedir.

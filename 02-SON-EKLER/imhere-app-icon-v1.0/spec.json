@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "status": "Founder selection pending",
+  "status": "Founder selected B-symbol",
   "displayName": "IM HERE",
   "variants": [
     "A-wordmark",
@@ -13,5 +13,7 @@
   "font": "Geist SemiBold, converted to vector outlines",
   "scope": "Launcher app icon only; notification small icon, native splash and dark map deferred",
   "androidForegroundCanvas": 1024,
-  "androidForegroundScale": 0.7
+  "androidForegroundScale": 0.7,
+  "selectedVariant": "B-symbol",
+  "archivedVariant": "A-wordmark"
 }

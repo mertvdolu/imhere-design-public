@@ -1,6 +1,6 @@
 # IM HERE — Uygulama simgesi v1.0
 
-**Durum: Founder seçimi bekleniyor.** Telefon altında görünen uygulama adı: **IM HERE**. Kesme işareti yok; tüm harfler büyük. İsim kararı onaylıdır, A/B simge seçimi henüz yapılmamıştır.
+**Durum: Founder B-symbol seçti; A uygulanmayacak.** Telefon altında görünen uygulama adı: **IM HERE**. Kesme işareti yok; tüm harfler büyük. İsim ve B-symbol seçimi onaylıdır.
 
 ![İki seçeneğin karşılaştırması](KARSILASTIRMA.png)
 
@@ -10,7 +10,7 @@
 ## B — Yazısız
 `B-symbol/`: v1.3 marka referansındaki halka, merkez noktası ve dört kısa çizgi korunarak küçük boyutta okunabilecek kalınlıkta çizildi. Yeni bir harita kullanıcı işareti değildir; yalnız uygulama simgesidir.
 
-**Tasarımcı tercihi: B.** Küçük boyutta daha kolay ayırt ediliyor; uygulama adı zaten işletim sisteminin simge altındaki etiketinde IM HERE olarak görünecek. Son karar Founder'ın.
+**Tasarımcı tercihi: B.** Küçük boyutta daha kolay ayırt ediliyor; uygulama adı zaten işletim sisteminin simge altındaki etiketinde IM HERE olarak görünecek. Founder B-symbol seçimini yaptı.
 
 ## Dosyalar
 Her seçenek altında:

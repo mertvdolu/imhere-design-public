@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "ic_stat_im_here-96.png: transparent + monochrome",
+    "ic_stat_im_here-36.png: transparent + monochrome",
+    "ic_stat_im_here-24.png: transparent + monochrome",
+    "ic_stat_im_here-48.png: transparent + monochrome",
+    "ic_stat_im_here-72.png: transparent + monochrome"
+  ],
+  "xmlParsed": true,
+  "nativeBuildTest": false
+}

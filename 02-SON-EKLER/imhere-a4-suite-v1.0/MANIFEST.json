@@ -1,0 +1,137 @@
+{
+  "version": "1.0",
+  "files": [
+    {
+      "path": "KARAR-KAPANISLARI.md",
+      "sha256": "cca48b96e2bc5735a79a8d8b543c1626afe55b59fdc622a85c620b48860b13ee"
+    },
+    {
+      "path": "MANAGER-NOTU.md",
+      "sha256": "1eb94075ca378e47d438a5cb2ba31c652f5bcfbeec3b37de01ca171ca45fbf80"
+    },
+    {
+      "path": "README.md",
+      "sha256": "06b11ee724d229a09f4f3c0dbf88ec99d70b98b9e66f5978ab90c6543de39544"
+    },
+    {
+      "path": "evidence/asset-validation.json",
+      "sha256": "360fb695257a81e491709b8d8b75bd6195cf9f4f09d03c374ffbde649d1cddef"
+    },
+    {
+      "path": "evidence/map-validation.json",
+      "sha256": "6f2d7936fd2c4d56ec26b768dfd0321b047e19188e2e041068a41d9bc919c97c"
+    },
+    {
+      "path": "map/MAPLIBRE-LICENSE.txt",
+      "sha256": "ee5fc05a0677eaf69601d2c7db0d9ecd6cc27c3abc1d0733bc9ed34707cf8ef2"
+    },
+    {
+      "path": "map/PREVIEW.html",
+      "sha256": "f2a4dd95feb42391895a0dc3d3d2462a995ce0b79bab4ff5e9a09a7beaa3b1fb"
+    },
+    {
+      "path": "map/SPEC.md",
+      "sha256": "1455752b2be2e506cd3573db1d6c632ca58fe776a785900c5e37fd23b7394aa2"
+    },
+    {
+      "path": "map/imhere-forest-night-en.json",
+      "sha256": "9a2862c5aa48cac10e04b986ee83b7463e183232417a9b21e7b579af35623d98"
+    },
+    {
+      "path": "map/imhere-forest-night-tr.json",
+      "sha256": "64983e6c378630926f1639baaee77b7dd15cb7af12e28da7826dc0c142c9af65"
+    },
+    {
+      "path": "map/integration.json",
+      "sha256": "a4b109f13d0134a3605d83bc399accaf05a6f6a565c0f39b9b8b2514bbb61f1a"
+    },
+    {
+      "path": "map/maplibre-gl.css",
+      "sha256": "792ac997dcf6ae6f643eb4e2dee4630c85e7056526bd8fb85ffe83c67d6c41b4"
+    },
+    {
+      "path": "map/maplibre-gl.js",
+      "sha256": "07e6ca71a5b6d835a7c3803fb484f0a6e5f0dcbfa131407666edb9e9316564f9"
+    },
+    {
+      "path": "notification/SPEC.md",
+      "sha256": "e5e55a62b6df51ee29400133d0640f6140019940984308984491f273a192d8db"
+    },
+    {
+      "path": "notification/ic_stat_im_here-24.png",
+      "sha256": "155a3f8d52d527eaff9a502c194a30c2c9e6423b3523d125570d58d84e9f659d"
+    },
+    {
+      "path": "notification/ic_stat_im_here-36.png",
+      "sha256": "061a32262cfb7e4c1e91c658da15b40e855c6529b5464a93d233cfc2dae025b3"
+    },
+    {
+      "path": "notification/ic_stat_im_here-48.png",
+      "sha256": "9454adcd83a88081cd99a107ec87e0c69be0e19253a3bab579e3fcc567dd07db"
+    },
+    {
+      "path": "notification/ic_stat_im_here-72.png",
+      "sha256": "9d439a0d5d3fee3d54926d88110e72aabadf739224561be723013fcb86a868fc"
+    },
+    {
+      "path": "notification/ic_stat_im_here-96.png",
+      "sha256": "5f51332d2e5c3ab21d3a78d9e55796019ba7f2ecec921710d6cf58e555193639"
+    },
+    {
+      "path": "notification/ic_stat_im_here.svg",
+      "sha256": "ea0eaecea687335f5bb4cad41c78e7603698cfeee011da5aaccaef993aa2778f"
+    },
+    {
+      "path": "notification/ic_stat_im_here.xml",
+      "sha256": "ff44ea42addf577520423bc8b60bdd98bd92e8a95afab52471d36fa442f8e9db"
+    },
+    {
+      "path": "review/launch-and-notification.png",
+      "sha256": "8be6d1e63885142f1257ddb39d9fc4337b3074eb5dbf39c4a70683673335cf82"
+    },
+    {
+      "path": "review/map-en.png",
+      "sha256": "5e609973599f44411ec30bec4e2ce06b94286435495c6d743933ec83ad06adcc"
+    },
+    {
+      "path": "review/map-tr.png",
+      "sha256": "a1080607902f993bc951ff40699afaaa6a0bbdae85d515ce0349cb8d74341e33"
+    },
+    {
+      "path": "splash/SPEC.md",
+      "sha256": "b43b66cc3a5671471c414e374e7a5d9da66a5f7f3661fde8d14d4ac7d776a446"
+    },
+    {
+      "path": "splash/android-preview.png",
+      "sha256": "6512fdd2d4477d943253ea446ab74285876dc11996ffa5a1918fc0ffe5bbd5ee"
+    },
+    {
+      "path": "splash/android-preview.svg",
+      "sha256": "4cac4308eab1444d6b20d52de4a019c708635ab35304dd42bd18209598dbebe7"
+    },
+    {
+      "path": "splash/ios-preview.png",
+      "sha256": "e75bf254011ae83a95848c74344c1cedadd038cd867733b3c21ad27459ba8339"
+    },
+    {
+      "path": "splash/ios-preview.svg",
+      "sha256": "647d0a1cbdf6708c796c56cf5d54cd721917e8e5b720fd982c7146cb74729233"
+    },
+    {
+      "path": "splash/launch-mark-288.png",
+      "sha256": "486842c7af48a03329b66d753604ae9b5f382247093e05df3f89df198c58effe"
+    },
+    {
+      "path": "splash/launch-mark-576.png",
+      "sha256": "7d31a7c525cae962e70163a2e4fdb682465e9017c60a6658efa45f741d4dd58a"
+    },
+    {
+      "path": "splash/launch-mark-864.png",
+      "sha256": "014b6d1190b535284e11c837b29b536f44278e3b0c51aa1f2a65cd7a6255453d"
+    },
+    {
+      "path": "splash/launch-mark.svg",
+      "sha256": "7b6ec3d8de166fa5d8bc30ccdcd43ed7959ca22a91a559179180959ca1c75f42"
+    }
+  ]
+}

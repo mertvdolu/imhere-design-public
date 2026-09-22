@@ -4,7 +4,11 @@ Tüm tasarım dosyaları bu depoda klasörler halinde bulunur. Küçük güncell
 
 ## Son teslim: uygulama simgesi v1.0
 
-[İki simge adayını karşılaştır](02-SON-EKLER/imhere-app-icon-v1.0/README.md) — IM HERE yazılı ve yazısız. Founder seçimi bekleniyor.
+[İki simge adayını karşılaştır](02-SON-EKLER/imhere-app-icon-v1.0/README.md) — IM HERE yazılı ve yazısız. Founder B-symbol seçti; A arşivde.
+
+## Yeni teslim: A4 devam v1.0
+
+[Resmî küçük simge, yerel açılış ve koyu harita](02-SON-EKLER/imhere-a4-suite-v1.0/) · [Soru bloklarının kapanışı](02-SON-EKLER/imhere-a4-suite-v1.0/KARAR-KAPANISLARI.md)
 
 ## Başlangıç
 - [Başlangıç rehberi](00-BURADAN-BASLA.md)
