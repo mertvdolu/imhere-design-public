@@ -1,0 +1,78 @@
+{
+  "version": "1.0",
+  "status": "Visual experiment; Founder approval pending",
+  "files": [
+    {
+      "path": "MANAGER-NOTU.md",
+      "sha256": "f67dfb7eff1bf681b6742edcf3a5ddef905744cc2b9d5ad93f479fb137036f6f"
+    },
+    {
+      "path": "NOTLAR.md",
+      "sha256": "4018aa9639c9a59a8697ee28e441baf76b99841f32ea910d3f702b08d917600f"
+    },
+    {
+      "path": "ONIZLEME.html",
+      "sha256": "eea4360d7fdc765afe74e6223b58e5395cb5f333a3aacff18731c8a21267adc9"
+    },
+    {
+      "path": "REVIEW.png",
+      "sha256": "6456815c97a56e7cff5111d3c80c20c47c7f967713f2c23f62fcba2a64b6a735"
+    },
+    {
+      "path": "app.js",
+      "sha256": "a5fb1fb0a3e1858eca3f4bdb79453d2a542379308ab78f19efce8484caa992a4"
+    },
+    {
+      "path": "assets/Geist-Medium.ttf",
+      "sha256": "3a3b36f0d0b981f4857f7f00eeef4a5ee123605575d362ab31ee7c19e3d11f2f"
+    },
+    {
+      "path": "assets/Geist-Regular.ttf",
+      "sha256": "85a1c6b18a6b0a06dfe9fd4f6d6a5d4979f74ec861eaef4bc7868b5492b8a117"
+    },
+    {
+      "path": "assets/Geist-SemiBold.ttf",
+      "sha256": "b9f52322d6d20a7ff1e7fe1310ff12ec851aebb83d24f8b4f1d4149298f489b2"
+    },
+    {
+      "path": "assets/MAPLIBRE-LICENSE.txt",
+      "sha256": "ee5fc05a0677eaf69601d2c7db0d9ecd6cc27c3abc1d0733bc9ed34707cf8ef2"
+    },
+    {
+      "path": "assets/OFL.txt",
+      "sha256": "c683bfbcc7e087f5d37a54ef628f10387c451a83ddc459b151403a164ac46c90"
+    },
+    {
+      "path": "assets/copy.js",
+      "sha256": "a51e7c449cee14d5ca50856496973c508d041e8da59b51f19f8e3c2a09125af3"
+    },
+    {
+      "path": "assets/deniz.jpg",
+      "sha256": "f44a805abf320af9e614f13ed5fc97e0f2ef250e0a12f807907fbc2f2cc01a8a"
+    },
+    {
+      "path": "assets/emre.png",
+      "sha256": "e2ad967bd7259569789ce32bc63123f81d609815ef6ac1a7c77fc83b0cd006c5"
+    },
+    {
+      "path": "assets/map-style.js",
+      "sha256": "b39ed5641a4e6b55cc2d1ebec73e44ee9e343625e10e16f3441ad28fd7e6ec03"
+    },
+    {
+      "path": "assets/maplibre-gl.css",
+      "sha256": "792ac997dcf6ae6f643eb4e2dee4630c85e7056526bd8fb85ffe83c67d6c41b4"
+    },
+    {
+      "path": "assets/maplibre-gl.js",
+      "sha256": "07e6ca71a5b6d835a7c3803fb484f0a6e5f0dcbfa131407666edb9e9316564f9"
+    },
+    {
+      "path": "style.css",
+      "sha256": "f201fad08e81c4c690b890de6c066548afa0ac205ff6094b6e67f28e23b6b7f7"
+    },
+    {
+      "path": "validation.json",
+      "sha256": "9b788956617ed4020c8b895ae9601b15b47aceedf4ec24f007d787f30a392396"
+    }
+  ]
+}

@@ -1,5 +1,13 @@
 # Değişiklik kaydı
 
+## Cream study v1.0 — Görsel alternatif
+
+- Founder talebiyle krem/siyah tema için [altı ekranın HTML denemesi](02-SON-EKLER/imhere-cream-study-v1.0/) eklendi.
+- Yakındakiler, tam ekran harita, Bağlantılar, Sohbet, Profil, Ayarlar; Krem/Beyaz ve ×1,55 metin seçenekleri.
+- Ana tema, logo dosyaları, ürün kuralları ve uygulama kodu değişmedi. Onay bekleyen görsel alternatif; native final paket değil.
+- [Manager notu](02-SON-EKLER/imhere-cream-study-v1.0/MANAGER-NOTU.md) ve REVIEW.png içerir.
+
+
 ## A4 devam v1.0 — B seçimi sonrası
 
 - Founder B-symbol seçti; A uygulanmayacak. Simge klasörünün seçim kaydı, README, spec ve manifesti güncellendi; simge geometrisi aynı.

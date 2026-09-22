@@ -1,0 +1,8 @@
+{
+  "desktop": true,
+  "mobile": true,
+  "largeText": true,
+  "intentInitiallyEmpty": true,
+  "noBackendMutations": true,
+  "errors": []
+}
