@@ -32,6 +32,8 @@ Fotoğraf form durum satırı: yüklenmişse `photoUploaded`, boşsa `photoNone`
 
 ## 5. Yakındakiler ve tam ekran harita
 
+`nearby-failed`, `nearby-offline`, `map-failed`, `map-offline`: mevcut `checkInRetry` (EN: Try again / TR: Tekrar dene) ikincil düğmesi hata/çevrimdışı açıklamasının altında görünür. Haritada alt sheet içinde, hareketlilik açıklaması ve attribution’dan önce yer alır. Mevcut yeniden deneme eylemini temsil eder; ürün davranışı veya yeni metin anahtarı eklemez.
+
 Harita açılınca sayfanın tamamını kaplar; alt sekmeler görünmez. Geri Nearby’a döner. Üstte geri + kısa harita başlığı; sağda zoom hedefleri. Alt yüzeyde gerçek duruma uygun bilgi, varsa snapshot zamanı ve açıklaması, açılabilir hareketlilik açıklaması, attribution. Kişisel konum, pin, kişi sayısı veya mesafe yok.
 
 Normal çizimler cihaz boyundadır; büyük metinde alt sheet içeriği taşarsa sheet kendi içinde kaydırılır, harita sabit viewport’ta kalır. Tam içerik SVG’de ayrıca okunabilir. `map-legend` açıklama sheet’ini gösterir. Harita üstündeki demo alanları temsili sabit hücre örnekleridir, kişilere ait alanlar veya canlı veri değildir. Stil JSON’larında bu örnekler yoktur.

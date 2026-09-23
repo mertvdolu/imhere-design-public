@@ -59748,6 +59748,13 @@
         "h": 48
       },
       {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 707.0,
+        "w": 364,
+        "h": 52
+      },
+      {
         "key": "mapLegend",
         "x": 24,
         "y": 771.0,
@@ -59785,6 +59792,13 @@
         "y": 44,
         "w": 48,
         "h": 48
+      },
+      {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 616.6,
+        "w": 364,
+        "h": 63.199999999999996
       },
       {
         "key": "mapLegend",
@@ -59826,6 +59840,13 @@
         "h": 48
       },
       {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 626.0,
+        "w": 342,
+        "h": 52
+      },
+      {
         "key": "mapLegend",
         "x": 24,
         "y": 690.0,
@@ -59863,6 +59884,13 @@
         "y": 66,
         "w": 48,
         "h": 48
+      },
+      {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 535.6,
+        "w": 342,
+        "h": 63.199999999999996
       },
       {
         "key": "mapLegend",
@@ -59904,6 +59932,13 @@
         "h": 48
       },
       {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 707.0,
+        "w": 364,
+        "h": 52
+      },
+      {
         "key": "mapLegend",
         "x": 24,
         "y": 771.0,
@@ -59941,6 +59976,13 @@
         "y": 44,
         "w": 48,
         "h": 48
+      },
+      {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 616.6,
+        "w": 364,
+        "h": 63.199999999999996
       },
       {
         "key": "mapLegend",
@@ -59982,6 +60024,13 @@
         "h": 48
       },
       {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 626.0,
+        "w": 342,
+        "h": 52
+      },
+      {
         "key": "mapLegend",
         "x": 24,
         "y": 690.0,
@@ -60019,6 +60068,13 @@
         "y": 66,
         "w": 48,
         "h": 48
+      },
+      {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 535.6,
+        "w": 342,
+        "h": 63.199999999999996
       },
       {
         "key": "mapLegend",
@@ -60676,6 +60732,13 @@
         "h": 48
       },
       {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 707.0,
+        "w": 364,
+        "h": 52
+      },
+      {
         "key": "mapLegend",
         "x": 24,
         "y": 771.0,
@@ -60715,9 +60778,16 @@
         "h": 48
       },
       {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 616.6,
+        "w": 364,
+        "h": 63.199999999999996
+      },
+      {
         "key": "mapLegend",
         "x": 24,
-        "y": 691.8000000000001,
+        "y": 691.8,
         "w": 364,
         "h": 55.199999999999996
       }
@@ -60752,6 +60822,13 @@
         "y": 66,
         "w": 48,
         "h": 48
+      },
+      {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 626.0,
+        "w": 342,
+        "h": 52
       },
       {
         "key": "mapLegend",
@@ -60793,9 +60870,16 @@
         "h": 48
       },
       {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 535.6,
+        "w": 342,
+        "h": 63.199999999999996
+      },
+      {
         "key": "mapLegend",
         "x": 24,
-        "y": 610.8000000000001,
+        "y": 610.8,
         "w": 342,
         "h": 55.199999999999996
       }
@@ -60830,6 +60914,13 @@
         "y": 44,
         "w": 48,
         "h": 48
+      },
+      {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 707.0,
+        "w": 364,
+        "h": 52
       },
       {
         "key": "mapLegend",
@@ -60871,9 +60962,16 @@
         "h": 48
       },
       {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 616.6,
+        "w": 364,
+        "h": 63.199999999999996
+      },
+      {
         "key": "mapLegend",
         "x": 24,
-        "y": 691.8000000000001,
+        "y": 691.8,
         "w": 364,
         "h": 55.199999999999996
       }
@@ -60908,6 +61006,13 @@
         "y": 66,
         "w": 48,
         "h": 48
+      },
+      {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 626.0,
+        "w": 342,
+        "h": 52
       },
       {
         "key": "mapLegend",
@@ -60949,9 +61054,16 @@
         "h": 48
       },
       {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 535.6,
+        "w": 342,
+        "h": 63.199999999999996
+      },
+      {
         "key": "mapLegend",
         "x": 24,
-        "y": 610.8000000000001,
+        "y": 610.8,
         "w": 342,
         "h": 55.199999999999996
       }
@@ -66705,6 +66817,13 @@
         "y": 395.52000000000004,
         "w": 364,
         "h": 52
+      },
+      {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 620.32,
+        "w": 364,
+        "h": 52
       }
     ],
     "peerContinueChoice": null,
@@ -66724,7 +66843,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-failed--en--android--200.svg",
     "width": 412,
-    "height": 1358,
+    "height": 1433,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -66742,6 +66861,13 @@
         "key": "btn-stop",
         "x": 24,
         "y": 653.28,
+        "w": 364,
+        "h": 63.199999999999996
+      },
+      {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 1045.28,
         "w": 364,
         "h": 63.199999999999996
       }
@@ -66763,7 +66889,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-failed--en--ios--100.svg",
     "width": 390,
-    "height": 844,
+    "height": 871,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -66781,6 +66907,13 @@
         "key": "btn-stop",
         "x": 24,
         "y": 417.52000000000004,
+        "w": 342,
+        "h": 52
+      },
+      {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 642.32,
         "w": 342,
         "h": 52
       }
@@ -66802,7 +66935,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-failed--en--ios--200.svg",
     "width": 390,
-    "height": 1470,
+    "height": 1546,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -66820,6 +66953,13 @@
         "key": "btn-stop",
         "x": 24,
         "y": 755.9200000000001,
+        "w": 342,
+        "h": 63.199999999999996
+      },
+      {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 1147.92,
         "w": 342,
         "h": 63.199999999999996
       }
@@ -66861,6 +67001,13 @@
         "y": 395.52000000000004,
         "w": 364,
         "h": 52
+      },
+      {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 620.32,
+        "w": 364,
+        "h": 52
       }
     ],
     "peerContinueChoice": null,
@@ -66880,7 +67027,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-failed--tr--android--200.svg",
     "width": 412,
-    "height": 1307,
+    "height": 1382,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -66898,6 +67045,13 @@
         "key": "btn-stop",
         "x": 24,
         "y": 602.0799999999999,
+        "w": 364,
+        "h": 63.199999999999996
+      },
+      {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 994.0799999999999,
         "w": 364,
         "h": 63.199999999999996
       }
@@ -66919,7 +67073,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-failed--tr--ios--100.svg",
     "width": 390,
-    "height": 844,
+    "height": 871,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -66937,6 +67091,13 @@
         "key": "btn-stop",
         "x": 24,
         "y": 417.52000000000004,
+        "w": 342,
+        "h": 52
+      },
+      {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 642.32,
         "w": 342,
         "h": 52
       }
@@ -66958,7 +67119,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-failed--tr--ios--200.svg",
     "width": 390,
-    "height": 1390,
+    "height": 1465,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -66976,6 +67137,13 @@
         "key": "btn-stop",
         "x": 24,
         "y": 675.28,
+        "w": 342,
+        "h": 63.199999999999996
+      },
+      {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 1067.28,
         "w": 342,
         "h": 63.199999999999996
       }
@@ -67593,6 +67761,13 @@
         "y": 395.52000000000004,
         "w": 364,
         "h": 52
+      },
+      {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 645.9200000000001,
+        "w": 364,
+        "h": 52
       }
     ],
     "peerContinueChoice": null,
@@ -67612,7 +67787,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-offline--en--android--200.svg",
     "width": 412,
-    "height": 1460,
+    "height": 1535,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -67630,6 +67805,13 @@
         "key": "btn-stop",
         "x": 24,
         "y": 653.28,
+        "w": 364,
+        "h": 63.199999999999996
+      },
+      {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 1147.68,
         "w": 364,
         "h": 63.199999999999996
       }
@@ -67651,7 +67833,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-offline--en--ios--100.svg",
     "width": 390,
-    "height": 844,
+    "height": 896,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -67669,6 +67851,13 @@
         "key": "btn-stop",
         "x": 24,
         "y": 417.52000000000004,
+        "w": 342,
+        "h": 52
+      },
+      {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 667.9200000000001,
         "w": 342,
         "h": 52
       }
@@ -67690,7 +67879,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-offline--en--ios--200.svg",
     "width": 390,
-    "height": 1573,
+    "height": 1648,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -67708,6 +67897,13 @@
         "key": "btn-stop",
         "x": 24,
         "y": 755.9200000000001,
+        "w": 342,
+        "h": 63.199999999999996
+      },
+      {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 1250.3200000000002,
         "w": 342,
         "h": 63.199999999999996
       }
@@ -67749,6 +67945,13 @@
         "y": 395.52000000000004,
         "w": 364,
         "h": 52
+      },
+      {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 645.9200000000001,
+        "w": 364,
+        "h": 52
       }
     ],
     "peerContinueChoice": null,
@@ -67768,7 +67971,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-offline--tr--android--200.svg",
     "width": 412,
-    "height": 1409,
+    "height": 1484,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -67786,6 +67989,13 @@
         "key": "btn-stop",
         "x": 24,
         "y": 602.0799999999999,
+        "w": 364,
+        "h": 63.199999999999996
+      },
+      {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 1096.48,
         "w": 364,
         "h": 63.199999999999996
       }
@@ -67807,7 +68017,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-offline--tr--ios--100.svg",
     "width": 390,
-    "height": 844,
+    "height": 896,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -67825,6 +68035,13 @@
         "key": "btn-stop",
         "x": 24,
         "y": 417.52000000000004,
+        "w": 342,
+        "h": 52
+      },
+      {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 667.9200000000001,
         "w": 342,
         "h": 52
       }
@@ -67846,7 +68063,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-offline--tr--ios--200.svg",
     "width": 390,
-    "height": 1492,
+    "height": 1567,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -67864,6 +68081,13 @@
         "key": "btn-stop",
         "x": 24,
         "y": 675.28,
+        "w": 342,
+        "h": 63.199999999999996
+      },
+      {
+        "key": "checkInRetry",
+        "x": 24,
+        "y": 1169.68,
         "w": 342,
         "h": 63.199999999999996
       }

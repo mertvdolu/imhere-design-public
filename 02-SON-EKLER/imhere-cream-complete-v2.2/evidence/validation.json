@@ -42,15 +42,16 @@
     "originalLogoByteIdentical": true,
     "textWithinHorizontalBounds": true,
     "retentionInfoHiddenInWritableChat": true,
-    "retentionInfoPreservedInReadOnlyChat": true
+    "retentionInfoPreservedInReadOnlyChat": true,
+    "nearbyAndMapFailureRetryVisible": true
   },
   "textBoundsIssues": [],
   "unresolvedPlaceholders": [],
   "colors": {
-    "#191A17": 45870,
+    "#191A17": 45934,
     "#F4F1E9": 3552,
     "#696A62": 14364,
-    "#FCFAF5": 12376,
+    "#FCFAF5": 12408,
     "#D9D5CB": 3888,
     "#7C7D73": 4168,
     "#F0ECE3": 992,
@@ -87,5 +88,569 @@
       "liveMapLoaded": true,
       "consoleErrors": []
     }
+  },
+  "retryButtonCorrection": {
+    "states": [
+      "nearby-failed",
+      "nearby-offline",
+      "map-failed",
+      "map-offline"
+    ],
+    "svgVariantsUpdated": 32,
+    "pngVariantsUpdated": 8,
+    "buttonKey": "checkInRetry",
+    "style": "secondary",
+    "textAndTargetBoundsPass": true,
+    "normalMapViewportPreserved": true,
+    "mapAttributionBelowRetry": true,
+    "allOtherCatalogStatesUnchanged": true,
+    "betaCatalogUnchanged": true,
+    "nativeImplementationChanged": false,
+    "variants": [
+      {
+        "id": "map-failed",
+        "lang": "en",
+        "platform": "android",
+        "textScale": 1,
+        "key": "checkInRetry",
+        "label": "Try again",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 707.0,
+          "w": 364,
+          "h": 52
+        },
+        "height": 915
+      },
+      {
+        "id": "map-failed",
+        "lang": "en",
+        "platform": "android",
+        "textScale": 2,
+        "key": "checkInRetry",
+        "label": "Try again",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 616.6,
+          "w": 364,
+          "h": 63.199999999999996
+        },
+        "height": 915
+      },
+      {
+        "id": "map-failed",
+        "lang": "en",
+        "platform": "ios",
+        "textScale": 1,
+        "key": "checkInRetry",
+        "label": "Try again",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 626.0,
+          "w": 342,
+          "h": 52
+        },
+        "height": 844
+      },
+      {
+        "id": "map-failed",
+        "lang": "en",
+        "platform": "ios",
+        "textScale": 2,
+        "key": "checkInRetry",
+        "label": "Try again",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 535.6,
+          "w": 342,
+          "h": 63.199999999999996
+        },
+        "height": 844
+      },
+      {
+        "id": "map-failed",
+        "lang": "tr",
+        "platform": "android",
+        "textScale": 1,
+        "key": "checkInRetry",
+        "label": "Tekrar dene",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 707.0,
+          "w": 364,
+          "h": 52
+        },
+        "height": 915
+      },
+      {
+        "id": "map-failed",
+        "lang": "tr",
+        "platform": "android",
+        "textScale": 2,
+        "key": "checkInRetry",
+        "label": "Tekrar dene",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 616.6,
+          "w": 364,
+          "h": 63.199999999999996
+        },
+        "height": 915
+      },
+      {
+        "id": "map-failed",
+        "lang": "tr",
+        "platform": "ios",
+        "textScale": 1,
+        "key": "checkInRetry",
+        "label": "Tekrar dene",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 626.0,
+          "w": 342,
+          "h": 52
+        },
+        "height": 844
+      },
+      {
+        "id": "map-failed",
+        "lang": "tr",
+        "platform": "ios",
+        "textScale": 2,
+        "key": "checkInRetry",
+        "label": "Tekrar dene",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 535.6,
+          "w": 342,
+          "h": 63.199999999999996
+        },
+        "height": 844
+      },
+      {
+        "id": "map-offline",
+        "lang": "en",
+        "platform": "android",
+        "textScale": 1,
+        "key": "checkInRetry",
+        "label": "Try again",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 707.0,
+          "w": 364,
+          "h": 52
+        },
+        "height": 915
+      },
+      {
+        "id": "map-offline",
+        "lang": "en",
+        "platform": "android",
+        "textScale": 2,
+        "key": "checkInRetry",
+        "label": "Try again",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 616.6,
+          "w": 364,
+          "h": 63.199999999999996
+        },
+        "height": 915
+      },
+      {
+        "id": "map-offline",
+        "lang": "en",
+        "platform": "ios",
+        "textScale": 1,
+        "key": "checkInRetry",
+        "label": "Try again",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 626.0,
+          "w": 342,
+          "h": 52
+        },
+        "height": 844
+      },
+      {
+        "id": "map-offline",
+        "lang": "en",
+        "platform": "ios",
+        "textScale": 2,
+        "key": "checkInRetry",
+        "label": "Try again",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 535.6,
+          "w": 342,
+          "h": 63.199999999999996
+        },
+        "height": 844
+      },
+      {
+        "id": "map-offline",
+        "lang": "tr",
+        "platform": "android",
+        "textScale": 1,
+        "key": "checkInRetry",
+        "label": "Tekrar dene",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 707.0,
+          "w": 364,
+          "h": 52
+        },
+        "height": 915
+      },
+      {
+        "id": "map-offline",
+        "lang": "tr",
+        "platform": "android",
+        "textScale": 2,
+        "key": "checkInRetry",
+        "label": "Tekrar dene",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 616.6,
+          "w": 364,
+          "h": 63.199999999999996
+        },
+        "height": 915
+      },
+      {
+        "id": "map-offline",
+        "lang": "tr",
+        "platform": "ios",
+        "textScale": 1,
+        "key": "checkInRetry",
+        "label": "Tekrar dene",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 626.0,
+          "w": 342,
+          "h": 52
+        },
+        "height": 844
+      },
+      {
+        "id": "map-offline",
+        "lang": "tr",
+        "platform": "ios",
+        "textScale": 2,
+        "key": "checkInRetry",
+        "label": "Tekrar dene",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 535.6,
+          "w": 342,
+          "h": 63.199999999999996
+        },
+        "height": 844
+      },
+      {
+        "id": "nearby-failed",
+        "lang": "en",
+        "platform": "android",
+        "textScale": 1,
+        "key": "checkInRetry",
+        "label": "Try again",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 620.32,
+          "w": 364,
+          "h": 52
+        },
+        "height": 915
+      },
+      {
+        "id": "nearby-failed",
+        "lang": "en",
+        "platform": "android",
+        "textScale": 2,
+        "key": "checkInRetry",
+        "label": "Try again",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 1045.28,
+          "w": 364,
+          "h": 63.199999999999996
+        },
+        "height": 1433
+      },
+      {
+        "id": "nearby-failed",
+        "lang": "en",
+        "platform": "ios",
+        "textScale": 1,
+        "key": "checkInRetry",
+        "label": "Try again",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 642.32,
+          "w": 342,
+          "h": 52
+        },
+        "height": 871
+      },
+      {
+        "id": "nearby-failed",
+        "lang": "en",
+        "platform": "ios",
+        "textScale": 2,
+        "key": "checkInRetry",
+        "label": "Try again",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 1147.92,
+          "w": 342,
+          "h": 63.199999999999996
+        },
+        "height": 1546
+      },
+      {
+        "id": "nearby-failed",
+        "lang": "tr",
+        "platform": "android",
+        "textScale": 1,
+        "key": "checkInRetry",
+        "label": "Tekrar dene",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 620.32,
+          "w": 364,
+          "h": 52
+        },
+        "height": 915
+      },
+      {
+        "id": "nearby-failed",
+        "lang": "tr",
+        "platform": "android",
+        "textScale": 2,
+        "key": "checkInRetry",
+        "label": "Tekrar dene",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 994.0799999999999,
+          "w": 364,
+          "h": 63.199999999999996
+        },
+        "height": 1382
+      },
+      {
+        "id": "nearby-failed",
+        "lang": "tr",
+        "platform": "ios",
+        "textScale": 1,
+        "key": "checkInRetry",
+        "label": "Tekrar dene",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 642.32,
+          "w": 342,
+          "h": 52
+        },
+        "height": 871
+      },
+      {
+        "id": "nearby-failed",
+        "lang": "tr",
+        "platform": "ios",
+        "textScale": 2,
+        "key": "checkInRetry",
+        "label": "Tekrar dene",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 1067.28,
+          "w": 342,
+          "h": 63.199999999999996
+        },
+        "height": 1465
+      },
+      {
+        "id": "nearby-offline",
+        "lang": "en",
+        "platform": "android",
+        "textScale": 1,
+        "key": "checkInRetry",
+        "label": "Try again",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 645.9200000000001,
+          "w": 364,
+          "h": 52
+        },
+        "height": 915
+      },
+      {
+        "id": "nearby-offline",
+        "lang": "en",
+        "platform": "android",
+        "textScale": 2,
+        "key": "checkInRetry",
+        "label": "Try again",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 1147.68,
+          "w": 364,
+          "h": 63.199999999999996
+        },
+        "height": 1535
+      },
+      {
+        "id": "nearby-offline",
+        "lang": "en",
+        "platform": "ios",
+        "textScale": 1,
+        "key": "checkInRetry",
+        "label": "Try again",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 667.9200000000001,
+          "w": 342,
+          "h": 52
+        },
+        "height": 896
+      },
+      {
+        "id": "nearby-offline",
+        "lang": "en",
+        "platform": "ios",
+        "textScale": 2,
+        "key": "checkInRetry",
+        "label": "Try again",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 1250.3200000000002,
+          "w": 342,
+          "h": 63.199999999999996
+        },
+        "height": 1648
+      },
+      {
+        "id": "nearby-offline",
+        "lang": "tr",
+        "platform": "android",
+        "textScale": 1,
+        "key": "checkInRetry",
+        "label": "Tekrar dene",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 645.9200000000001,
+          "w": 364,
+          "h": 52
+        },
+        "height": 915
+      },
+      {
+        "id": "nearby-offline",
+        "lang": "tr",
+        "platform": "android",
+        "textScale": 2,
+        "key": "checkInRetry",
+        "label": "Tekrar dene",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 1096.48,
+          "w": 364,
+          "h": 63.199999999999996
+        },
+        "height": 1484
+      },
+      {
+        "id": "nearby-offline",
+        "lang": "tr",
+        "platform": "ios",
+        "textScale": 1,
+        "key": "checkInRetry",
+        "label": "Tekrar dene",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 667.9200000000001,
+          "w": 342,
+          "h": 52
+        },
+        "height": 896
+      },
+      {
+        "id": "nearby-offline",
+        "lang": "tr",
+        "platform": "ios",
+        "textScale": 2,
+        "key": "checkInRetry",
+        "label": "Tekrar dene",
+        "secondaryButton": true,
+        "target": {
+          "key": "checkInRetry",
+          "x": 24,
+          "y": 1169.68,
+          "w": 342,
+          "h": 63.199999999999996
+        },
+        "height": 1567
+      }
+    ]
   }
 }

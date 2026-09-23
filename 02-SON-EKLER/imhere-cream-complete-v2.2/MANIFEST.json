@@ -224,8 +224,8 @@
     },
     {
       "file": "catalog.js",
-      "bytes": 1586579,
-      "sha256": "9608fec4d31f451f2a36ada0028c0fc57973b80bf972b5470cb0dcdbb38e38ba"
+      "bytes": 1588636,
+      "sha256": "012432eb91ee8091b4aaebcb33bc90d1a3e60f375be79ae38c0235676658c526"
     },
     {
       "file": "contracts/checkin-notices.json",
@@ -234,8 +234,8 @@
     },
     {
       "file": "contracts/screen-manifest.json",
-      "bytes": 2240061,
-      "sha256": "d79506aa6dade5744d380cb57f263cdcb7595b9ee48749ba58fbc63240048dbe"
+      "bytes": 2244166,
+      "sha256": "4208161acbbda17a39d69f79384c11552415801b634da655fd92de497ef52f3b"
     },
     {
       "file": "evidence/assets-validation.json",
@@ -249,8 +249,8 @@
     },
     {
       "file": "evidence/validation.json",
-      "bytes": 2713,
-      "sha256": "3e021626af974b112233da2367d49bd6a2c0c2e05b0aaec73a696fccf1e290e9"
+      "bytes": 15855,
+      "sha256": "0478c70ada7a72250bb0a45b7a936fdc53ee12f10b382093e536defcafe61892"
     },
     {
       "file": "experience/ONIZLEME.html",
@@ -2049,13 +2049,13 @@
     },
     {
       "file": "screens/png/map-failed--en--ios--100.png",
-      "bytes": 109168,
-      "sha256": "9bdbc67456a5ef2c201425f06c3a29d06c4cd93fe689e6bed9b982222a72d1c2"
+      "bytes": 108792,
+      "sha256": "fd3ea1e34b5499daea4759e0fcc11b92934d45beffb2d49c0a0076140aa64786"
     },
     {
       "file": "screens/png/map-failed--tr--android--200.png",
-      "bytes": 141906,
-      "sha256": "6db6620f2f7acda49714bdce65621bc8a0be5978f6da4edbfbc78ef185bdd088"
+      "bytes": 141740,
+      "sha256": "71ede33ade60f1ad7818dda24d332c9735b2770509d2ec114abaa317748317d8"
     },
     {
       "file": "screens/png/map-legend--en--ios--100.png",
@@ -2079,13 +2079,13 @@
     },
     {
       "file": "screens/png/map-offline--en--ios--100.png",
-      "bytes": 111738,
-      "sha256": "af12961e9cbc1aeaffd4ab51b86845ae94c67a638f5612a47fe0de9a550bf34b"
+      "bytes": 111106,
+      "sha256": "26fcd560dab70fe52b70941503feaa1bb5160e43046e5c9d47e0e33bf13e5a00"
     },
     {
       "file": "screens/png/map-offline--tr--android--200.png",
-      "bytes": 146903,
-      "sha256": "58ec822c33c1519cfd338c1ad9a974ff5c8e9b9b9991f91a701f7177a0a84eff"
+      "bytes": 146888,
+      "sha256": "d6e2b6b163044a8d4f71256a1ece96213aa4b0feeb82d893eee6dc057b8b8911"
     },
     {
       "file": "screens/png/map-partial--en--ios--100.png",
@@ -2279,13 +2279,13 @@
     },
     {
       "file": "screens/png/nearby-failed--en--ios--100.png",
-      "bytes": 102980,
-      "sha256": "9b2c5d20457b1fddb86e68c198e33234df32abc92528fbef40983de57ca70a14"
+      "bytes": 108362,
+      "sha256": "9013ad35e71ddf212b410e3646adbc441abb2eb7d215f5ac2be58e89ad1c987e"
     },
     {
       "file": "screens/png/nearby-failed--tr--android--200.png",
-      "bytes": 176795,
-      "sha256": "4ae12b97d968f0200acc0346adab60d0e6dc4651664ce64b2da564a8666ad8df"
+      "bytes": 186457,
+      "sha256": "43f949134297b461f385199872f3204d2e43e5fee8f408352d63c5cf8dd46ac4"
     },
     {
       "file": "screens/png/nearby-limited--en--ios--100.png",
@@ -2309,13 +2309,13 @@
     },
     {
       "file": "screens/png/nearby-offline--en--ios--100.png",
-      "bytes": 107980,
-      "sha256": "68275ab41f4d471b76e239f7fbc822cba3cb8f6e585010400d486bd6557d6eed"
+      "bytes": 114033,
+      "sha256": "c8ba5bc2b0e834872373d86e0f644d3c42dd055a97511df6b348fc47cf2c0680"
     },
     {
       "file": "screens/png/nearby-offline--tr--android--200.png",
-      "bytes": 196792,
-      "sha256": "f6f89466513710a1c8ea19f99bc6274d15647cf128bda71acb7ca335a06f622e"
+      "bytes": 206424,
+      "sha256": "96166ba68a52a82dd52b905a520ddfe7870dd5c736bb0e83c1d632fd3b7507fd"
     },
     {
       "file": "screens/png/notice-network--en--ios--100.png",
@@ -9829,43 +9829,43 @@
     },
     {
       "file": "screens/svg/map-failed--en--android--100.svg",
-      "bytes": 84839,
-      "sha256": "4eef296fba6d689ba5cc54f518b24f622ea313d9e39711846c01aa77fdd7488b"
+      "bytes": 85066,
+      "sha256": "551b63ab1208e64538b3b9c1514b775153c267eebcc00078c3d6b8ef24a06512"
     },
     {
       "file": "screens/svg/map-failed--en--android--200.svg",
-      "bytes": 85155,
-      "sha256": "2d1ff095ceab3946cfc57d19195636a70b8c9238a43b16f829582ca8cf13763d"
+      "bytes": 85563,
+      "sha256": "94d92bbd851d3a73b5db87c383f8f94e05188ffce16f47b0a165dd77515dd22d"
     },
     {
       "file": "screens/svg/map-failed--en--ios--100.svg",
-      "bytes": 84840,
-      "sha256": "746ceff9d646e280373b331284eb8964d6f1d66613bc674e2daaeff93316a697"
+      "bytes": 85067,
+      "sha256": "160f92d65c3846d123ca6524823f3bddcf4b5fc92ec2b3643e547e028025ac10"
     },
     {
       "file": "screens/svg/map-failed--en--ios--200.svg",
-      "bytes": 85157,
-      "sha256": "bdd08420ef9a5c7fe6c102f646b87e5f8ee1509adba9fe7b39ac7176ede7a854"
+      "bytes": 85565,
+      "sha256": "14741cd189a6297ec9ff6bc874f9c458df8e9c49f3ea1beadc07ee0e81d5f938"
     },
     {
       "file": "screens/svg/map-failed--tr--android--100.svg",
-      "bytes": 84838,
-      "sha256": "1e0a9298c3fb6106d46aa62f70041a95942be689c18410fb275fbac4332ae22a"
+      "bytes": 85067,
+      "sha256": "22932ff4284fe05473b94e89b0de57ada56ab8149f7d8bf57b9c6cd46347f9d7"
     },
     {
       "file": "screens/svg/map-failed--tr--android--200.svg",
-      "bytes": 85057,
-      "sha256": "daf1068ca41dc114464f45a1318744d0464284383ffa93dc215723034d2aec8a"
+      "bytes": 85467,
+      "sha256": "4a4543507231a9e4a1e7c37453565037ad8fddcc8ad289d154d64daccc85c8a2"
     },
     {
       "file": "screens/svg/map-failed--tr--ios--100.svg",
-      "bytes": 84839,
-      "sha256": "3974e3f49dfd3dfb545df0158a8b768126adb29c7750e827b4ec113f17b1233d"
+      "bytes": 85068,
+      "sha256": "89ab042dcaa33959192c46da72f4e1a88093a638ca878b5b91641a4088f983f1"
     },
     {
       "file": "screens/svg/map-failed--tr--ios--200.svg",
-      "bytes": 85059,
-      "sha256": "478b96579810cf0626abf92f6dceee78b0e6cd6733a25b14dbf09210dd50f08b"
+      "bytes": 85469,
+      "sha256": "58d1dcd0677ae6c812e3ded7d89ade039db80f0ab5d2ea6c2454c333797a6da9"
     },
     {
       "file": "screens/svg/map-legend--en--android--100.svg",
@@ -9949,43 +9949,43 @@
     },
     {
       "file": "screens/svg/map-offline--en--android--100.svg",
-      "bytes": 85078,
-      "sha256": "ef5fd38f936296b2555509dac1882e131e82dffc8c8c2465ca226e28eb9b2589"
+      "bytes": 85262,
+      "sha256": "39b6652f6e97a9737eaf8deeb357011b297e403e7b59b41fe03cb56f621897fe"
     },
     {
       "file": "screens/svg/map-offline--en--android--200.svg",
-      "bytes": 85404,
-      "sha256": "9faf3a888003c9c281d6010725cddfebb467c5703de4ce50227ed7a6978190e2"
+      "bytes": 85578,
+      "sha256": "1d7ab6d43c4b318bb513be432ac33c95685d815ded17119684972676ebd5705a"
     },
     {
       "file": "screens/svg/map-offline--en--ios--100.svg",
-      "bytes": 85079,
-      "sha256": "41b455f9371ed85c2e96bab1b4c8a9e74542552f79720a0340bc60a4fcbefe74"
+      "bytes": 85263,
+      "sha256": "a9fd758a0f5cdfc81171a41d6c73d2c34115b1cab6f9f1bd8e8a8fcaf42acd75"
     },
     {
       "file": "screens/svg/map-offline--en--ios--200.svg",
-      "bytes": 85432,
-      "sha256": "a2121bdd036d2fff9ba54055a88b0033131b5af0d8addeca0305f736522191ec"
+      "bytes": 85580,
+      "sha256": "bc0c287a931c8466bf96b9ac6b2db2d193ea377c6102858a596c9df484ce7f1d"
     },
     {
       "file": "screens/svg/map-offline--tr--android--100.svg",
-      "bytes": 85083,
-      "sha256": "f47152f5e3846d28e798e57aafe97845a21526cc97aa8b1c9b9136317a1943e4"
+      "bytes": 85269,
+      "sha256": "452537e23a4f1df9aa2cfb3322b294308eb062bb9681e296e56f6976dc423bf9"
     },
     {
       "file": "screens/svg/map-offline--tr--android--200.svg",
-      "bytes": 85312,
-      "sha256": "1245b6ce5bc8a2a0bf34a08490659c882ad7e60c91cfeb1c45ffe4909f036b85"
+      "bytes": 85488,
+      "sha256": "df15d8bef17131250db78c452af8fda98150965c2329289357d0574fae36ff45"
     },
     {
       "file": "screens/svg/map-offline--tr--ios--100.svg",
-      "bytes": 85084,
-      "sha256": "d7c815fec5ffa58bbbd471ac7116d41ed014ac87f9e26e317e2c32cdc41c6c56"
+      "bytes": 85270,
+      "sha256": "9affc01724d4e9d5ea9e1c1acf0be891423e899f62c66b37859a8e425e7bcc65"
     },
     {
       "file": "screens/svg/map-offline--tr--ios--200.svg",
-      "bytes": 85340,
-      "sha256": "0d275327f4ed82415afe55968fa83411bb3b478436c3d375fe1f5b660a3d4ea3"
+      "bytes": 85490,
+      "sha256": "79fdc0c80ed37f8cb4f19a844c4bec7c14cce162da9d69514855201e34f366cb"
     },
     {
       "file": "screens/svg/map-partial--en--android--100.svg",
@@ -10749,43 +10749,43 @@
     },
     {
       "file": "screens/svg/nearby-failed--en--android--100.svg",
-      "bytes": 84465,
-      "sha256": "9b9651fa3d947d7eabac7a1f494c48ca531f795d1a2d38ae8d53a25317ce55e3"
+      "bytes": 84703,
+      "sha256": "1e781b7692c5835f84a132a46e42c9690849c7b30878666f9f1d29949cc71ced"
     },
     {
       "file": "screens/svg/nearby-failed--en--android--200.svg",
-      "bytes": 85033,
-      "sha256": "a240749a660bcdf6734d5a3fea9e73fa443c12538c3c0d429def7459a9767bfc"
+      "bytes": 85289,
+      "sha256": "c38da5af181f73c0d84e57b211e30fbc68babc086b64ca911f6fb320b30f51b8"
     },
     {
       "file": "screens/svg/nearby-failed--en--ios--100.svg",
-      "bytes": 84475,
-      "sha256": "9c104e90f704405a3f419b1c00f37f95ccc26003ca5a58ac2e97d3cd64fea727"
+      "bytes": 84741,
+      "sha256": "acfebd8b0a5ee42ad8c03e212c6150ec4d28b4abf97032def6d7a8161e0b6d23"
     },
     {
       "file": "screens/svg/nearby-failed--en--ios--200.svg",
-      "bytes": 85297,
-      "sha256": "a7545f648492db6233efb7d46588556a971561f3075d637cee94e0cdffaa5258"
+      "bytes": 85707,
+      "sha256": "56306a6c58d45e0a263452309705cccc0cac02dcdafea9d55fcc499f1fdd17d4"
     },
     {
       "file": "screens/svg/nearby-failed--tr--android--100.svg",
-      "bytes": 84477,
-      "sha256": "64be753830be6ca1f8f5a43a674bf95caf9048b1ce7a3ceec6b579c1e999041a"
+      "bytes": 84717,
+      "sha256": "2da472af1de858e5eb28a0da34ddf0ddeca8a716c4bf9a6c3fd9dbb4a6a144d9"
     },
     {
       "file": "screens/svg/nearby-failed--tr--android--200.svg",
-      "bytes": 84980,
-      "sha256": "8a9dc40f5abe0d332ac4415a6353f5c32c3cf15e1117c95339e5cccdca878f9a"
+      "bytes": 85237,
+      "sha256": "e95c9466a1ccfa652b9071cd5c1fb569e7b0adb8b1a500d003b8d0f174706f9e"
     },
     {
       "file": "screens/svg/nearby-failed--tr--ios--100.svg",
-      "bytes": 84487,
-      "sha256": "415d9a881512045b0f6668ebb1fd81610e7eb7feef7ac9b4479f12133755445f"
+      "bytes": 84755,
+      "sha256": "4da98f948a91b56dc69195b78d7afe945449104bd12f7da23a97e08495a20d3a"
     },
     {
       "file": "screens/svg/nearby-failed--tr--ios--200.svg",
-      "bytes": 85056,
-      "sha256": "6e9e8ba29593dc8780d1cc849ec43bc3196f66fc5bae3af6b65c34e02c1a3ff3"
+      "bytes": 85314,
+      "sha256": "6057c616bb3eaac70298596fc94365a059e0e8a47e7bb01e1380f5975d9c89b2"
     },
     {
       "file": "screens/svg/nearby-limited--en--android--100.svg",
@@ -10869,43 +10869,43 @@
     },
     {
       "file": "screens/svg/nearby-offline--en--android--100.svg",
-      "bytes": 84637,
-      "sha256": "d9eb0d4964ca2382abc722816f509ab3b85ffbc0d34098c3e3c1c2f0257cc685"
+      "bytes": 84897,
+      "sha256": "ca01ddf49aa10ca93f3da83da01465110c521210fde9eeac11c11b941324cde7"
     },
     {
       "file": "screens/svg/nearby-offline--en--android--200.svg",
-      "bytes": 85294,
-      "sha256": "f3b77798f8f518ea9857712e8795131e130a3e1651f8ea3b7d0d27c992aeeb8b"
+      "bytes": 85550,
+      "sha256": "e338e63757bf17aed9359968f7b1f6995cabaa1f7075ecd0c2232b9e6af6e65f"
     },
     {
       "file": "screens/svg/nearby-offline--en--ios--100.svg",
-      "bytes": 84647,
-      "sha256": "1ec0e0b1bc880ecbca8d39cebb457b8388b09a3457a5f547a8b0319fadd608b4"
+      "bytes": 85067,
+      "sha256": "6e2c41feb881bd5869f8e911e1520587da047c936f2bacfde23beb7c6f0a30e7"
     },
     {
       "file": "screens/svg/nearby-offline--en--ios--200.svg",
-      "bytes": 85712,
-      "sha256": "a2fe7db7df5c303495912afacf8360302292f75a1f0c012fb903aa49d73aa323"
+      "bytes": 85990,
+      "sha256": "10f561bbc126918a37a2287ec5b859d0d7e66273585d343c2960630937921c6a"
     },
     {
       "file": "screens/svg/nearby-offline--tr--android--100.svg",
-      "bytes": 84663,
-      "sha256": "306eb846300d704bad1398c5a2c75e94a946dc83e9cbbd4a8f3bffbba49c6dbe"
+      "bytes": 84925,
+      "sha256": "0f85fc93d47236a86f030d0be4715bc478bd85135890cc5c0ca9b069d2a3b91a"
     },
     {
       "file": "screens/svg/nearby-offline--tr--android--200.svg",
-      "bytes": 85254,
-      "sha256": "6d33727275492ac19f23753f05473210030e364527a0039d05715c9cf641cd33"
+      "bytes": 85512,
+      "sha256": "1bfd8f0406f4a0596b7c6147a05f8e726e302bde38874afc7da185605872e770"
     },
     {
       "file": "screens/svg/nearby-offline--tr--ios--100.svg",
-      "bytes": 84673,
-      "sha256": "a415dcf7a3dbf4c7160384c6d61013754c9c2d4d60b89194be6a5fbcf3657667"
+      "bytes": 85095,
+      "sha256": "960387b4e9f6236ccd27c94c75e2bc06c41ac0b97f2cd752cc97302e5e9be806"
     },
     {
       "file": "screens/svg/nearby-offline--tr--ios--200.svg",
-      "bytes": 85331,
-      "sha256": "5e0262a7f93d283a84ab90beb4be1f905f8d5bb379c2319f08306519cf24260b"
+      "bytes": 85589,
+      "sha256": "179adc29364b3bba2cc0a9eeab2a4e390b160aa84873e6537802e8c96b9120aa"
     },
     {
       "file": "screens/svg/notice-network--en--android--100.svg",
@@ -15194,8 +15194,8 @@
     },
     {
       "file": "specs/TASARIM-DEVRI.md",
-      "bytes": 9856,
-      "sha256": "4a5cbfa272a82fa8358484f845a11cff76cb664a790a4fd91ae89af80a894cd1"
+      "bytes": 10246,
+      "sha256": "0654605af0a5059344e5e3da7b78efa2545bc7ccc7f08694b05c660299f73a97"
     },
     {
       "file": "tokens/theme.tokens.json",

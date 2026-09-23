@@ -1,5 +1,11 @@
 # Değişiklik kaydı
 
+## Cream & Ink v2.2 — hata ekranlarında yeniden deneme · 2026-09-23
+
+- `nearby-failed`, `nearby-offline`, `map-failed`, `map-offline` çizimlerine mevcut `checkInRetry` anahtarıyla ikincil **Try again / Tekrar dene** düğmesi eklendi.
+- TR/EN, iOS/Android ve %100/%200 metin boyutlarında 32 SVG ile 8 PNG güncellendi. Haritada düğme alt panelde, hata açıklamasından sonra ve attribution’dan önce yer alır.
+- Ekran manifesti, tasarım devri ve doğrulama kayıtları güncellendi. Ürün davranışı, diğer durumlar ve beta işaretleri korunur.
+
 ## Mağaza görselleri v1.0 — 2026-09-23
 
 - [03-MAGAZA/imhere-store-v1.0](03-MAGAZA/imhere-store-v1.0/): App Store 1320×2868 ve 1242×2688 için altışar kare; Google Play 1080×1920 için altı kare ve 1024×500 öne çıkan görsel. Toplam 19 PNG + 19 düzenlenebilir SVG.
