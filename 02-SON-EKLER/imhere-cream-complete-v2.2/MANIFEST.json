@@ -2,10 +2,10 @@
   "version": "2.2",
   "name": "IM HERE / Cream & Ink complete design",
   "date": "2026-09-22",
-  "files": 3039,
-  "screenStates": 295,
-  "svgVariants": 2360,
-  "pngVariants": 590,
+  "files": 3050,
+  "screenStates": 296,
+  "svgVariants": 2368,
+  "pngVariants": 592,
   "entries": [
     {
       "file": "DENEYIM.html",
@@ -14,8 +14,8 @@
     },
     {
       "file": "MANAGER-NOTU.md",
-      "bytes": 1877,
-      "sha256": "d867792672ca26baa8b6730819c6afe7f4e916ed9c1a4c9dcbea00f7cbe1afc2"
+      "bytes": 2044,
+      "sha256": "2796ea5ad349e298216e462da872a76bc0596171b910906a5431674ea99c8876"
     },
     {
       "file": "ONIZLEME.html",
@@ -24,8 +24,8 @@
     },
     {
       "file": "README.md",
-      "bytes": 1367,
-      "sha256": "460d9082d1d24143c76dbf6648a6b58c524a31a038a22c29c60d3f6e36a2b29f"
+      "bytes": 1461,
+      "sha256": "abdebf56be3da8f8402b6ba058515486261a019992034ceb3486a732ff297776"
     },
     {
       "file": "assets/city-evening.webp",
@@ -224,8 +224,8 @@
     },
     {
       "file": "catalog.js",
-      "bytes": 1588636,
-      "sha256": "012432eb91ee8091b4aaebcb33bc90d1a3e60f375be79ae38c0235676658c526"
+      "bytes": 1595868,
+      "sha256": "9041dc99563e895438d3d9298fc5a8b5602bb4847c9aca2eb78bc9cc55ab6e7f"
     },
     {
       "file": "contracts/checkin-notices.json",
@@ -234,8 +234,8 @@
     },
     {
       "file": "contracts/screen-manifest.json",
-      "bytes": 2244166,
-      "sha256": "4208161acbbda17a39d69f79384c11552415801b634da655fd92de497ef52f3b"
+      "bytes": 2255174,
+      "sha256": "9cbb0af0641f37ca889177bb82509b71c65069ae09b0a44e44028a6d006bf768"
     },
     {
       "file": "evidence/assets-validation.json",
@@ -249,8 +249,8 @@
     },
     {
       "file": "evidence/validation.json",
-      "bytes": 15855,
-      "sha256": "0478c70ada7a72250bb0a45b7a936fdc53ee12f10b382093e536defcafe61892"
+      "bytes": 21821,
+      "sha256": "8d604d3bee45a36f2846b2042c581a706d68935fe9829b8b93a05f95b869640d"
     },
     {
       "file": "experience/ONIZLEME.html",
@@ -364,28 +364,28 @@
     },
     {
       "file": "l10n/app_en.arb",
-      "bytes": 29264,
-      "sha256": "0ff869dae5807b7578dbbef0915df5e92bfb574a72752c027a1926535387db55"
+      "bytes": 29480,
+      "sha256": "7ed430ae783e5cc9ba2a45eb2343fbe1d8d4dc322e559455efb83975edecb8d2"
     },
     {
       "file": "l10n/app_tr.arb",
-      "bytes": 29844,
-      "sha256": "0650556c44ea9ff3ea1da30e8d6e3695af1be8159dff513cf0afd2abc6b69d82"
+      "bytes": 30072,
+      "sha256": "80ae43413b0e51a410a1a53bc952541674bc456c59c2ef9feab08ca8d6dd8605"
     },
     {
       "file": "l10n/cream-v2.2-patch_en.arb",
-      "bytes": 295,
-      "sha256": "9f2eb3af8a07d762fb054bb53768117fc5dd33d93be7ff7ebd58b117da08c743"
+      "bytes": 610,
+      "sha256": "17eac2a053a08890d151e1f69a2bf21ea45587d6236624bcc890d36944f286c5"
     },
     {
       "file": "l10n/cream-v2.2-patch_tr.arb",
-      "bytes": 304,
-      "sha256": "88353ae726065d6b9929f26009e0c5d71b7c73a1a8e2ef60730303a8f7e27953"
+      "bytes": 623,
+      "sha256": "c7bddef0e56b435c01cd62d911eee499032a2e3b1d95014fae7ae7016719b4d5"
     },
     {
       "file": "l10n/migration.json",
-      "bytes": 26263,
-      "sha256": "0e81a10e7f45fc6dde373c765c836a3061f31a4b999cf8d917b7cbc399e3ab74"
+      "bytes": 27096,
+      "sha256": "1de5478b511417907ce70b0e542ebb52a760b388feff01fc0360035b3ac9a55b"
     },
     {
       "file": "map/map-cream-en.json",
@@ -2689,13 +2689,13 @@
     },
     {
       "file": "screens/png/register-email-unavailable--en--ios--100.png",
-      "bytes": 111873,
-      "sha256": "0a52c05763b0ac57e4de5d3e84483d7e1eaa92e61ff14a528308fbd4a9a204a3"
+      "bytes": 123719,
+      "sha256": "062be0667a00ef96250408e88d318ff01c14b7e33e3431754062104d8be0be20"
     },
     {
       "file": "screens/png/register-email-unavailable--tr--android--200.png",
-      "bytes": 191817,
-      "sha256": "1f09d37cbc577e55bc0f8fb70e68ee51b986f5243004baa40ba9467cbc42aeb2"
+      "bytes": 216418,
+      "sha256": "af9a1c9c05bc077eac474beaa8d1f9af53e56092ea88c9a68e9932aacb02651f"
     },
     {
       "file": "screens/png/register-empty--en--ios--100.png",
@@ -2746,6 +2746,16 @@
       "file": "screens/png/register-password-rejected--tr--android--200.png",
       "bytes": 168906,
       "sha256": "0387af4d9d47ddd0cfc4a7941d85eb56c785802774c6223a158eb68d1f98a636"
+    },
+    {
+      "file": "screens/png/register-too-many-attempts--en--ios--100.png",
+      "sha256": "2f62394cec99083b91d1ef073d8b928f9c7cbcbc7af0c915e96449ca00d58eac",
+      "bytes": 111878
+    },
+    {
+      "file": "screens/png/register-too-many-attempts--tr--android--200.png",
+      "sha256": "3a06fd12c27be991e5f1386d0249e04f688d47782a72f59d740f91762cce0125",
+      "bytes": 196067
     },
     {
       "file": "screens/png/report-block-busy--en--ios--100.png",
@@ -3229,13 +3239,13 @@
     },
     {
       "file": "screens/png/verify-resend-busy--en--ios--100.png",
-      "bytes": 83214,
-      "sha256": "7ddc7fda1c6ad9b8874b3db622c0ed8b166c96a34caeb11d987e62452278bc27"
+      "bytes": 83696,
+      "sha256": "442009dd6996758f5775e92d83ebb9699032367b5f45ed3acc82f7e43b8cd1e4"
     },
     {
       "file": "screens/png/verify-resend-busy--tr--android--200.png",
-      "bytes": 150720,
-      "sha256": "c3c2dab4492d5f766c3f0932d466e569b7caf839d8441a466d5d426ceb09b19c"
+      "bytes": 152384,
+      "sha256": "cb10c6527bd9b837b803c26c3489b43934f95517b6706e432db6fa59cb86055f"
     },
     {
       "file": "screens/png/verify-resend-disabled--en--ios--100.png",
@@ -12389,43 +12399,43 @@
     },
     {
       "file": "screens/svg/register-email-unavailable--en--android--100.svg",
-      "bytes": 83616,
-      "sha256": "b2e15ec6d492b8ad40773e0ee4bb6d47dfb8173d30b8ba746cf98f7b5880589b"
+      "bytes": 84001,
+      "sha256": "21399d7caafbdad0a06a1aae9071fb40ea82cff2fe17c6ee0c8fc687d784d912"
     },
     {
       "file": "screens/svg/register-email-unavailable--en--android--200.svg",
-      "bytes": 84619,
-      "sha256": "83572c7180b66f9f454ce527514388ebe164d853d51d40dc533f2c7bfd18e16b"
+      "bytes": 85187,
+      "sha256": "11842886d9e0c481faebfd0ab31d424a4443f388eedf87864c6850504b179a3c"
     },
     {
       "file": "screens/svg/register-email-unavailable--en--ios--100.svg",
-      "bytes": 83617,
-      "sha256": "2564ec78a7d42827fc439e0832a6c56a154b04694426b987bdd13b98e1c780b6"
+      "bytes": 84008,
+      "sha256": "15a58ea843d070a8594bd42a9eae0d520d484a222fdde461baa1fff8ed208ed6"
     },
     {
       "file": "screens/svg/register-email-unavailable--en--ios--200.svg",
-      "bytes": 84731,
-      "sha256": "59b97098eb933f21ee05654d205d0d0cf5f78afd9f96263794f2ab2140537c98"
+      "bytes": 85312,
+      "sha256": "6d9ac4c195adeb7da4a9e8d8e9af32303e21a066b37a360f76480b291f5efd7b"
     },
     {
       "file": "screens/svg/register-email-unavailable--tr--android--100.svg",
-      "bytes": 83600,
-      "sha256": "9e89c7d85c3b8899b9e3e49ebfd45706f97e4e738ae7d2e96128fa05a33d5fb5"
+      "bytes": 83976,
+      "sha256": "96d98aac368f60cdf8e98096fa84b4ef050e5343d1fc24edaa855efa534d1a5c"
     },
     {
       "file": "screens/svg/register-email-unavailable--tr--android--200.svg",
-      "bytes": 84536,
-      "sha256": "a486ff8f052998343a3296ef15e1cba00484278d73c79a1dfe9c37f4e9769539"
+      "bytes": 84961,
+      "sha256": "67db9078489b21d4e0cb6723f2c722e459f8f10e53f2894273bdbbd7a23b34c4"
     },
     {
       "file": "screens/svg/register-email-unavailable--tr--ios--100.svg",
-      "bytes": 83601,
-      "sha256": "302090581b77d899619028f6c60200a653137246dbb289c337392fb3f4f23c1d"
+      "bytes": 83983,
+      "sha256": "261a62f3dcb3d78ac1e149a5a00bf8b1c0bb7c67dea0c644db18750729056596"
     },
     {
       "file": "screens/svg/register-email-unavailable--tr--ios--200.svg",
-      "bytes": 84537,
-      "sha256": "54d41917bfa79d643ab534050900e9d87e3a127ced265457981d87da174efbcf"
+      "bytes": 84962,
+      "sha256": "cd3b4204b00566eb9ff8488c6aaee1683d3783c788da9c1274193fbd5d9d7b2e"
     },
     {
       "file": "screens/svg/register-empty--en--android--100.svg",
@@ -12626,6 +12636,46 @@
       "file": "screens/svg/register-password-rejected--tr--ios--200.svg",
       "bytes": 83981,
       "sha256": "6c058d6bc093a4266f4028ace677c0c25fc2cf53cfad4ee422979b3c08f63bf9"
+    },
+    {
+      "file": "screens/svg/register-too-many-attempts--en--android--100.svg",
+      "sha256": "cc517a2c2bedc38b15c58efdc8dcd9814f0eae44c29bcc65ab0b54df16987e41",
+      "bytes": 83647
+    },
+    {
+      "file": "screens/svg/register-too-many-attempts--en--android--200.svg",
+      "sha256": "4e5bf5af46ecccc7a9afb6dac29e6ee3806eab21b5ec3bcd7381647f9db29a32",
+      "bytes": 84553
+    },
+    {
+      "file": "screens/svg/register-too-many-attempts--en--ios--100.svg",
+      "sha256": "2b1f678fdb352ef95bdc48c769baa5d0da3c11e20a773af5009ce5faf052aa7a",
+      "bytes": 83648
+    },
+    {
+      "file": "screens/svg/register-too-many-attempts--en--ios--200.svg",
+      "sha256": "79ad859f482c3226fdb59ea2c033d1225f6687004d8743fe63bf807f74c19f0f",
+      "bytes": 84652
+    },
+    {
+      "file": "screens/svg/register-too-many-attempts--tr--android--100.svg",
+      "sha256": "33f10a1af77c8474cbadcc334932d2f32a347da4f41c82db3114b2af5b8ad636",
+      "bytes": 83632
+    },
+    {
+      "file": "screens/svg/register-too-many-attempts--tr--android--200.svg",
+      "sha256": "cd256251f5b2ff8743b191a203a120e2f583f732b88e8aab3e78dfb9a0814a59",
+      "bytes": 84568
+    },
+    {
+      "file": "screens/svg/register-too-many-attempts--tr--ios--100.svg",
+      "sha256": "0839b96838b8cba217bc39cacdbbfa3de54b7c62db641818469f9c9d524218fc",
+      "bytes": 83633
+    },
+    {
+      "file": "screens/svg/register-too-many-attempts--tr--ios--200.svg",
+      "sha256": "a50ecea60ad53457f5f72464fb153ccd8718f28f5cb45080a7f64a8159c3c80e",
+      "bytes": 84569
     },
     {
       "file": "screens/svg/report-block-busy--en--android--100.svg",
@@ -14549,43 +14599,43 @@
     },
     {
       "file": "screens/svg/verify-resend-busy--en--android--100.svg",
-      "bytes": 82680,
-      "sha256": "b6976aa7bf14f1443ea667bf9b39b5dc3f1f25694ce24d10fd07ba8c9910196a"
+      "bytes": 82682,
+      "sha256": "c01874d52aefb5485efcd16f23579eb8184b23992bf49b9665954298f8dc2161"
     },
     {
       "file": "screens/svg/verify-resend-busy--en--android--200.svg",
-      "bytes": 83130,
-      "sha256": "84e486c9d6525e98317f2cef7b06c04ccd01d2491922e0e69bee00c17b462786"
+      "bytes": 83132,
+      "sha256": "ebe95c49319775d0aad51f8017fee98a48fedd64398db7cc74a5adfe68dc3f3a"
     },
     {
       "file": "screens/svg/verify-resend-busy--en--ios--100.svg",
-      "bytes": 82815,
-      "sha256": "73cd4bc3f5932bc583a9c7092a2362afcb9739815487d2a342d2ee8e14d68101"
+      "bytes": 82817,
+      "sha256": "a6db33349295b757601ec5e0113a3695030feb8ff253115cbb586cad4f60c6d5"
     },
     {
       "file": "screens/svg/verify-resend-busy--en--ios--200.svg",
-      "bytes": 83255,
-      "sha256": "6557c446ecd0e87eb7bf10419810ecede783f624ab3f8420a3093bf489cf6ad3"
+      "bytes": 83257,
+      "sha256": "cd3017e79d97efabfebefffee7230af465b16fe7d11e4f9e9939cb3978f51c5e"
     },
     {
       "file": "screens/svg/verify-resend-busy--tr--android--100.svg",
-      "bytes": 82869,
-      "sha256": "50ef6e70661b574458c2655a2a63ac0b6c1cd05af5b86b0b26dad914642e38b2"
+      "bytes": 82971,
+      "sha256": "273870d58d944bfdf35e34755bf75c35cc603fd520e545ef6f3d2dba9efacb95"
     },
     {
       "file": "screens/svg/verify-resend-busy--tr--android--200.svg",
-      "bytes": 83442,
-      "sha256": "e1987132ebfe2220fbedaa082244ab1fdfc3bdf448276b6fae4bb09524d37552"
+      "bytes": 83449,
+      "sha256": "74b580b6a94e927387d1489fa4744ee86756e32328b76edc19c7d61a15b23c43"
     },
     {
       "file": "screens/svg/verify-resend-busy--tr--ios--100.svg",
-      "bytes": 82858,
-      "sha256": "4a17903836574e82578851478c0e243e32b1bb3459760f449f2b82ed247b182e"
+      "bytes": 82983,
+      "sha256": "c50b699130eead1601a5765115c83d9996a2b6587f5e5b99ac52ca6da8ef0121"
     },
     {
       "file": "screens/svg/verify-resend-busy--tr--ios--200.svg",
-      "bytes": 83688,
-      "sha256": "c70911d5fa0416271a2a26fc4612757b663a182f8ff4accf203b7afeef45e859"
+      "bytes": 83652,
+      "sha256": "3c7f935d901a93896e0cf8c09bbb3d523a6f2309ea4e071aa462932dddf61bfa"
     },
     {
       "file": "screens/svg/verify-resend-disabled--en--android--100.svg",
@@ -15188,19 +15238,24 @@
       "sha256": "e4ad807fe802cc9d9ae5299341d00b6037c175200b1ffb89f2aeef0dde68895d"
     },
     {
+      "file": "specs/CODE-SORULARI-CH138-ERT050.md",
+      "sha256": "64f222f2dbc2f586e7b0a297d507bfdbe5626371a874a95be036eec229dcdd8f",
+      "bytes": 4833
+    },
+    {
       "file": "specs/KAPSAM.md",
-      "bytes": 1063,
-      "sha256": "3dfd0c171931915fd3203691391acd07abf89bb4ade01bcb4ed38176b2094924"
+      "bytes": 1109,
+      "sha256": "698e23870281b7fd1fe8c5f240d55d171c25ef802ea45ed5d782dc104c1d74ca"
     },
     {
       "file": "specs/TASARIM-DEVRI.md",
-      "bytes": 10246,
-      "sha256": "0654605af0a5059344e5e3da7b78efa2545bc7ccc7f08694b05c660299f73a97"
+      "bytes": 11519,
+      "sha256": "d3ce4951046fca9e5b68b80bdd5edd2289849646f48f7b58ee4b4734ff31f690"
     },
     {
       "file": "tokens/theme.tokens.json",
-      "bytes": 3856,
-      "sha256": "25b28976b483413113b7c0003a51be22ac2f2a3e848449de6446a80e6743f956"
+      "bytes": 4108,
+      "sha256": "efbef6b9c2e75170d9a0dfe1d7fb06df5cbaa45b8904fec9b74d9a371271eb89"
     }
   ]
 }

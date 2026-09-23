@@ -1,3 +1,9 @@
+# ESKİ — kullanma
+
+Bu paketteki A-wordmark ve B-symbol güncel simge değildir. [Güncel Google Play simgesi](../../03-MAGAZA/imhere-store-v1.0/google-play/app-icon-512.png) kullanılmalıdır. Aşağıdaki içerik önceki teslimin tarihsel kaydıdır.
+
+---
+
 # IM HERE — Uygulama simgesi v1.0
 
 **Durum: Founder B-symbol seçti; A uygulanmayacak.** Telefon altında görünen uygulama adı: **IM HERE**. Kesme işareti yok; tüm harfler büyük. İsim ve B-symbol seçimi onaylıdır.

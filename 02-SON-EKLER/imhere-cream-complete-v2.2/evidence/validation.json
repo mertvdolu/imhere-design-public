@@ -1,7 +1,7 @@
 {
   "package": "Cream & Ink v2.2",
-  "screenStates": 295,
-  "svgVariants": 2360,
+  "screenStates": 296,
+  "svgVariants": 2368,
   "previousStates": 287,
   "newStates": [
     "chat-retention-deleted",
@@ -9,11 +9,12 @@
     "invite-retry",
     "map-legend",
     "nearby-limited",
+    "register-too-many-attempts",
     "splash",
     "support-email-copied",
     "support-email-unavailable"
   ],
-  "localeKeysEach": 469,
+  "localeKeysEach": 470,
   "checks": {
     "allPriorVariantsCovered": true,
     "eightVariantsPerState": true,
@@ -43,18 +44,22 @@
     "textWithinHorizontalBounds": true,
     "retentionInfoHiddenInWritableChat": true,
     "retentionInfoPreservedInReadOnlyChat": true,
-    "nearbyAndMapFailureRetryVisible": true
+    "nearbyAndMapFailureRetryVisible": true,
+    "registerEmailUnavailableCH138": true,
+    "registrationRateLimitCounterpart": true,
+    "verificationResendDistinctFromInitialSend": true,
+    "missingTypeTokensMatchExistingValues": true
   },
   "textBoundsIssues": [],
   "unresolvedPlaceholders": [],
   "colors": {
-    "#191A17": 45934,
-    "#F4F1E9": 3552,
-    "#696A62": 14364,
-    "#FCFAF5": 12408,
-    "#D9D5CB": 3888,
-    "#7C7D73": 4168,
-    "#F0ECE3": 992,
+    "#191A17": 46111,
+    "#F4F1E9": 3568,
+    "#696A62": 14418,
+    "#FCFAF5": 12432,
+    "#D9D5CB": 3896,
+    "#7C7D73": 4192,
+    "#F0ECE3": 1008,
     "#E9E5DA": 144,
     "#E8E3D7": 64,
     "#D7DBD5": 64,
@@ -650,6 +655,230 @@
           "h": 63.199999999999996
         },
         "height": 1567
+      }
+    ]
+  },
+  "codeQuestionsCorrection": {
+    "scope": [
+      "CH-138",
+      "ERT-050",
+      "verification resend copy",
+      "three type tokens",
+      "Material icon approvals",
+      "ERT-046 verification",
+      "Google Play icon packaging"
+    ],
+    "svgVariantsWritten": 24,
+    "newSvgVariants": 8,
+    "pngVariantsWritten": 6,
+    "newPngVariants": 2,
+    "betaRequiredStates": 289,
+    "betaDeferredStates": 7,
+    "previousBetaDecisionsUnchanged": true,
+    "ERT046AlreadyInCommit": "8078bfb",
+    "ERT046VariantsVerifiedUnchanged": 32,
+    "unchangedPriorScreenFilesVerified": 2930,
+    "newLocalizationKeys": [
+      "authVerifyResending"
+    ],
+    "changedExistingLocalizationKeys": [
+      "authEmailUnavailable"
+    ],
+    "allButtonTextInsideTargets": true,
+    "nativeImplementationChanged": false,
+    "visualReview": "24 variants rendered; normal and large-text registration/resend views inspected",
+    "variants": [
+      {
+        "id": "register-email-unavailable",
+        "lang": "en",
+        "platform": "android",
+        "textScale": 1,
+        "height": 915,
+        "visibleCopyAndButtonBounds": true
+      },
+      {
+        "id": "register-email-unavailable",
+        "lang": "en",
+        "platform": "android",
+        "textScale": 2,
+        "height": 1621,
+        "visibleCopyAndButtonBounds": true
+      },
+      {
+        "id": "register-email-unavailable",
+        "lang": "en",
+        "platform": "ios",
+        "textScale": 1,
+        "height": 896,
+        "visibleCopyAndButtonBounds": true
+      },
+      {
+        "id": "register-email-unavailable",
+        "lang": "en",
+        "platform": "ios",
+        "textScale": 2,
+        "height": 1704,
+        "visibleCopyAndButtonBounds": true
+      },
+      {
+        "id": "register-email-unavailable",
+        "lang": "tr",
+        "platform": "android",
+        "textScale": 1,
+        "height": 915,
+        "visibleCopyAndButtonBounds": true
+      },
+      {
+        "id": "register-email-unavailable",
+        "lang": "tr",
+        "platform": "android",
+        "textScale": 2,
+        "height": 1552,
+        "visibleCopyAndButtonBounds": true
+      },
+      {
+        "id": "register-email-unavailable",
+        "lang": "tr",
+        "platform": "ios",
+        "textScale": 1,
+        "height": 896,
+        "visibleCopyAndButtonBounds": true
+      },
+      {
+        "id": "register-email-unavailable",
+        "lang": "tr",
+        "platform": "ios",
+        "textScale": 2,
+        "height": 1623,
+        "visibleCopyAndButtonBounds": true
+      },
+      {
+        "id": "register-too-many-attempts",
+        "lang": "en",
+        "platform": "android",
+        "textScale": 1,
+        "height": 915,
+        "visibleCopyAndButtonBounds": true
+      },
+      {
+        "id": "register-too-many-attempts",
+        "lang": "en",
+        "platform": "android",
+        "textScale": 2,
+        "height": 1440,
+        "visibleCopyAndButtonBounds": true
+      },
+      {
+        "id": "register-too-many-attempts",
+        "lang": "en",
+        "platform": "ios",
+        "textScale": 1,
+        "height": 844,
+        "visibleCopyAndButtonBounds": true
+      },
+      {
+        "id": "register-too-many-attempts",
+        "lang": "en",
+        "platform": "ios",
+        "textScale": 2,
+        "height": 1523,
+        "visibleCopyAndButtonBounds": true
+      },
+      {
+        "id": "register-too-many-attempts",
+        "lang": "tr",
+        "platform": "android",
+        "textScale": 1,
+        "height": 915,
+        "visibleCopyAndButtonBounds": true
+      },
+      {
+        "id": "register-too-many-attempts",
+        "lang": "tr",
+        "platform": "android",
+        "textScale": 2,
+        "height": 1462,
+        "visibleCopyAndButtonBounds": true
+      },
+      {
+        "id": "register-too-many-attempts",
+        "lang": "tr",
+        "platform": "ios",
+        "textScale": 1,
+        "height": 844,
+        "visibleCopyAndButtonBounds": true
+      },
+      {
+        "id": "register-too-many-attempts",
+        "lang": "tr",
+        "platform": "ios",
+        "textScale": 2,
+        "height": 1494,
+        "visibleCopyAndButtonBounds": true
+      },
+      {
+        "id": "verify-resend-busy",
+        "lang": "en",
+        "platform": "android",
+        "textScale": 1,
+        "height": 915,
+        "visibleCopyAndButtonBounds": true
+      },
+      {
+        "id": "verify-resend-busy",
+        "lang": "en",
+        "platform": "android",
+        "textScale": 2,
+        "height": 979,
+        "visibleCopyAndButtonBounds": true
+      },
+      {
+        "id": "verify-resend-busy",
+        "lang": "en",
+        "platform": "ios",
+        "textScale": 1,
+        "height": 844,
+        "visibleCopyAndButtonBounds": true
+      },
+      {
+        "id": "verify-resend-busy",
+        "lang": "en",
+        "platform": "ios",
+        "textScale": 2,
+        "height": 1063,
+        "visibleCopyAndButtonBounds": true
+      },
+      {
+        "id": "verify-resend-busy",
+        "lang": "tr",
+        "platform": "android",
+        "textScale": 1,
+        "height": 915,
+        "visibleCopyAndButtonBounds": true
+      },
+      {
+        "id": "verify-resend-busy",
+        "lang": "tr",
+        "platform": "android",
+        "textScale": 2,
+        "height": 1082,
+        "visibleCopyAndButtonBounds": true
+      },
+      {
+        "id": "verify-resend-busy",
+        "lang": "tr",
+        "platform": "ios",
+        "textScale": 1,
+        "height": 844,
+        "visibleCopyAndButtonBounds": true
+      },
+      {
+        "id": "verify-resend-busy",
+        "lang": "tr",
+        "platform": "ios",
+        "textScale": 2,
+        "height": 1192,
+        "visibleCopyAndButtonBounds": true
       }
     ]
   }

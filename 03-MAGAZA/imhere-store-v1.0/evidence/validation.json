@@ -203,5 +203,17 @@
     "https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications",
     "https://developer.apple.com/app-store/review/guidelines/#accurate-metadata",
     "https://support.google.com/googleplay/android-developer/answer/9866151?hl=en-GB"
-  ]
+  ],
+  "appIcon": {
+    "file": "google-play/app-icon-512.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGBA",
+    "sha256": "01c219cf673725c89617bf015905456107bb0763b8d76e95a63879c10dd7c9bb",
+    "byteIdenticalToApprovedSource": true,
+    "resizedOrReencoded": false
+  },
+  "storeReadyAssetCount": 20
 }

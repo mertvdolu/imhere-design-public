@@ -448,7 +448,7 @@
   "authPasswordHide": "Parolayı gizle",
   "authEmailInvalid": "E-posta adresini kontrol et.",
   "authPasswordWeak": "Parola en az 8 karakter olmalı.",
-  "authEmailUnavailable": "İşlem tamamlanamadı. Bilgilerini kontrol edip tekrar dene.",
+  "authEmailUnavailable": "Bu e-posta ile yeni hesap oluşturulamıyor. Zaten bir hesabın varsa giriş yap.",
   "authTooManyAttempts": "Şu anda işlemi tamamlayamıyoruz. Daha sonra tekrar dene.",
   "authReauthRequired": "Devam etmek için yeniden giriş yap.",
   "authResetBackToSignIn": "Girişe dön",
@@ -634,5 +634,9 @@
   },
   "@supportEmailCopied": {
     "description": "Announce only after clipboard copy succeeds"
+  },
+  "authVerifyResending": "Doğrulama bağlantısı tekrar gönderiliyor…",
+  "@authVerifyResending": {
+    "description": "Verification-link resend is in progress; no timer or delivery-success claim."
   }
 }

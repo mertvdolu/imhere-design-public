@@ -2,6 +2,10 @@
   "version": "1.0",
   "files": [
     {
+      "path": "A-wordmark/ESKI-KULLANMA.md",
+      "sha256": "a7d2f4935c45d8fe92ef134bf07ceab957c9da1da5eeca409d6525540e78361f"
+    },
+    {
       "path": "A-wordmark/android-background-1024.png",
       "sha256": "d9532a1caba147f3354257bef5f0e4e7e0a197c58d568197dac8e276131442af"
     },
@@ -60,6 +64,10 @@
     {
       "path": "A-wordmark/icon-master.svg",
       "sha256": "8a56ef30852efc9dfce25742c7d7d2f85989d0839b523114126b9b9fa12240b8"
+    },
+    {
+      "path": "B-symbol/ESKI-KULLANMA.md",
+      "sha256": "b5f7cc633d24438433f4021db8c59771ad004b7b832e95195fc715a90a94a92b"
     },
     {
       "path": "B-symbol/android-background-1024.png",
@@ -135,7 +143,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "6cbe9cfb4e8141f5e69dc20488c0981f8fac25f4fa406dc575d73da88ee124fc"
+      "sha256": "993f31c3b4af5b04d722186cbc7ece749c391d0098ad12a24af6f63abed292ee"
     },
     {
       "path": "SELECTION.md",

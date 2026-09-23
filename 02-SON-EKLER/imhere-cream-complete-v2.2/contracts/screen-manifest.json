@@ -78728,7 +78728,15 @@
         }
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "key": "authExistingAccount",
+        "x": 24,
+        "y": 755.52,
+        "w": 364,
+        "h": 52
+      }
+    ],
     "peerContinueChoice": null,
     "family": "Giriş"
   },
@@ -78742,7 +78750,7 @@
     "source": "imhere-design-v1.6.1",
     "file": "screens/svg/register-email-unavailable--en--android--200.svg",
     "width": 412,
-    "height": 1455,
+    "height": 1621,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": null,
@@ -78773,7 +78781,15 @@
         }
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "key": "authExistingAccount",
+        "x": 24,
+        "y": 1461.9200000000003,
+        "w": 364,
+        "h": 102.39999999999999
+      }
+    ],
     "peerContinueChoice": null,
     "family": "Giriş"
   },
@@ -78787,7 +78803,7 @@
     "source": "imhere-design-v1.6.1",
     "file": "screens/svg/register-email-unavailable--en--ios--100.svg",
     "width": 390,
-    "height": 844,
+    "height": 896,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": null,
@@ -78818,7 +78834,15 @@
         }
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "key": "authExistingAccount",
+        "x": 24,
+        "y": 777.52,
+        "w": 342,
+        "h": 52
+      }
+    ],
     "peerContinueChoice": null,
     "family": "Giriş"
   },
@@ -78832,7 +78856,7 @@
     "source": "imhere-design-v1.6.1",
     "file": "screens/svg/register-email-unavailable--en--ios--200.svg",
     "width": 390,
-    "height": 1538,
+    "height": 1704,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": null,
@@ -78863,7 +78887,15 @@
         }
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "key": "authExistingAccount",
+        "x": 24,
+        "y": 1535.1200000000003,
+        "w": 342,
+        "h": 102.39999999999999
+      }
+    ],
     "peerContinueChoice": null,
     "family": "Giriş"
   },
@@ -78908,7 +78940,15 @@
         }
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "key": "authExistingAccount",
+        "x": 24,
+        "y": 755.52,
+        "w": 364,
+        "h": 52
+      }
+    ],
     "peerContinueChoice": null,
     "family": "Giriş"
   },
@@ -78922,7 +78962,7 @@
     "source": "imhere-design-v1.6.1",
     "file": "screens/svg/register-email-unavailable--tr--android--200.svg",
     "width": 412,
-    "height": 1426,
+    "height": 1552,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": null,
@@ -78953,7 +78993,15 @@
         }
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "key": "authExistingAccount",
+        "x": 24,
+        "y": 1432.4800000000002,
+        "w": 364,
+        "h": 63.199999999999996
+      }
+    ],
     "peerContinueChoice": null,
     "family": "Giriş"
   },
@@ -78967,7 +79015,7 @@
     "source": "imhere-design-v1.6.1",
     "file": "screens/svg/register-email-unavailable--tr--ios--100.svg",
     "width": 390,
-    "height": 844,
+    "height": 896,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": null,
@@ -78998,7 +79046,15 @@
         }
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "key": "authExistingAccount",
+        "x": 24,
+        "y": 777.52,
+        "w": 342,
+        "h": 52
+      }
+    ],
     "peerContinueChoice": null,
     "family": "Giriş"
   },
@@ -79012,7 +79068,7 @@
     "source": "imhere-design-v1.6.1",
     "file": "screens/svg/register-email-unavailable--tr--ios--200.svg",
     "width": 390,
-    "height": 1458,
+    "height": 1623,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": null,
@@ -79043,7 +79099,15 @@
         }
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "key": "authExistingAccount",
+        "x": 24,
+        "y": 1454.4800000000002,
+        "w": 342,
+        "h": 102.39999999999999
+      }
+    ],
     "peerContinueChoice": null,
     "family": "Giriş"
   },
@@ -80846,6 +80910,422 @@
     "regions": [],
     "peerContinueChoice": null,
     "family": "Giriş"
+  },
+  {
+    "id": "register-too-many-attempts",
+    "group": "kayit",
+    "title": "Kayıt / süre belirtmeyen deneme sınırı",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "source": "ERT-050",
+    "file": "screens/svg/register-too-many-attempts--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "blocks": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 327.12,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 460.72,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Giriş",
+    "actions": [
+      {
+        "key": "authCreateAccount",
+        "enabled": false,
+        "presentation": "primary-disabled"
+      }
+    ]
+  },
+  {
+    "id": "register-too-many-attempts",
+    "group": "kayit",
+    "title": "Kayıt / süre belirtmeyen deneme sınırı",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "source": "ERT-050",
+    "file": "screens/svg/register-too-many-attempts--en--android--200.svg",
+    "width": 412,
+    "height": 1440,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "blocks": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 705.1200000000001,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 935.5200000000002,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Giriş",
+    "actions": [
+      {
+        "key": "authCreateAccount",
+        "enabled": false,
+        "presentation": "primary-disabled"
+      }
+    ]
+  },
+  {
+    "id": "register-too-many-attempts",
+    "group": "kayit",
+    "title": "Kayıt / süre belirtmeyen deneme sınırı",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "source": "ERT-050",
+    "file": "screens/svg/register-too-many-attempts--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "blocks": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 349.12,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 482.72,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Giriş",
+    "actions": [
+      {
+        "key": "authCreateAccount",
+        "enabled": false,
+        "presentation": "primary-disabled"
+      }
+    ]
+  },
+  {
+    "id": "register-too-many-attempts",
+    "group": "kayit",
+    "title": "Kayıt / süre belirtmeyen deneme sınırı",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "source": "ERT-050",
+    "file": "screens/svg/register-too-many-attempts--en--ios--200.svg",
+    "width": 390,
+    "height": 1523,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "blocks": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 727.1200000000001,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 957.5200000000002,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Giriş",
+    "actions": [
+      {
+        "key": "authCreateAccount",
+        "enabled": false,
+        "presentation": "primary-disabled"
+      }
+    ]
+  },
+  {
+    "id": "register-too-many-attempts",
+    "group": "kayit",
+    "title": "Kayıt / süre belirtmeyen deneme sınırı",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "source": "ERT-050",
+    "file": "screens/svg/register-too-many-attempts--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "blocks": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 327.12,
+        "width": 364,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 460.72,
+        "width": 364,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Giriş",
+    "actions": [
+      {
+        "key": "authCreateAccount",
+        "enabled": false,
+        "presentation": "primary-disabled"
+      }
+    ]
+  },
+  {
+    "id": "register-too-many-attempts",
+    "group": "kayit",
+    "title": "Kayıt / süre belirtmeyen deneme sınırı",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "source": "ERT-050",
+    "file": "screens/svg/register-too-many-attempts--tr--android--200.svg",
+    "width": 412,
+    "height": 1462,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "blocks": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 675.6800000000001,
+        "width": 364,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 906.0800000000002,
+        "width": 364,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Giriş",
+    "actions": [
+      {
+        "key": "authCreateAccount",
+        "enabled": false,
+        "presentation": "primary-disabled"
+      }
+    ]
+  },
+  {
+    "id": "register-too-many-attempts",
+    "group": "kayit",
+    "title": "Kayıt / süre belirtmeyen deneme sınırı",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "source": "ERT-050",
+    "file": "screens/svg/register-too-many-attempts--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "blocks": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 349.12,
+        "width": 342,
+        "height": 56
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 482.72,
+        "width": 342,
+        "height": 56,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Giriş",
+    "actions": [
+      {
+        "key": "authCreateAccount",
+        "enabled": false,
+        "presentation": "primary-disabled"
+      }
+    ]
+  },
+  {
+    "id": "register-too-many-attempts",
+    "group": "kayit",
+    "title": "Kayıt / süre belirtmeyen deneme sınırı",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "source": "ERT-050",
+    "file": "screens/svg/register-too-many-attempts--tr--ios--200.svg",
+    "width": 390,
+    "height": 1494,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "blocks": [
+      {
+        "kind": "field",
+        "key": "authEmail",
+        "x": 24,
+        "y": 697.6800000000001,
+        "width": 342,
+        "height": 79.2
+      },
+      {
+        "kind": "password",
+        "key": "authPassword",
+        "x": 24,
+        "y": 928.0800000000002,
+        "width": 342,
+        "height": 79.2,
+        "obscured": true,
+        "policyHint": "authPasswordRule",
+        "visibilityControl": {
+          "labelKey": "authPasswordShow",
+          "targetWidth": 48,
+          "targetHeight": 48
+        }
+      }
+    ],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Giriş",
+    "actions": [
+      {
+        "key": "authCreateAccount",
+        "enabled": false,
+        "presentation": "primary-disabled"
+      }
+    ]
   },
   {
     "id": "report-block-busy",
@@ -95436,7 +95916,7 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/verify-resend-busy--tr--ios--200.svg",
     "width": 390,
-    "height": 1153,
+    "height": 1192,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": null,

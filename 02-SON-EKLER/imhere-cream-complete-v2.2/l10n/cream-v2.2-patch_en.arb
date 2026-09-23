@@ -7,5 +7,10 @@
   },
   "@supportEmailCopied": {
     "description": "Announce only after clipboard copy succeeds"
+  },
+  "authEmailUnavailable": "This email can't be used to create a new account. If you already have one, sign in instead.",
+  "authVerifyResending": "Resending the verification link…",
+  "@authVerifyResending": {
+    "description": "Verification-link resend is in progress; no timer or delivery-success claim."
   }
 }

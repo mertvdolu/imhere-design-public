@@ -193,6 +193,18 @@
       "title": "Common interests. New connections.",
       "sourceType": "marketing-composition",
       "nativeCaptureVerified": false
+    },
+    {
+      "file": "google-play/app-icon-512.png",
+      "width": 512,
+      "height": 512,
+      "platform": "android",
+      "shot": "app-icon",
+      "sourceType": "approved-app-icon-copy",
+      "mode": "RGBA",
+      "sourceFile": "02-SON-EKLER/imhere-cream-complete-v2.2/brand/app-icon/master-1024-512.png",
+      "sourceSha256": "01c219cf673725c89617bf015905456107bb0763b8d76e95a63879c10dd7c9bb",
+      "byteIdenticalToSource": true
     }
   ],
   "status": "design-complete; native-capture comparison required before store submission"

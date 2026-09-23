@@ -1,6 +1,6 @@
 # IM HERE — Mağaza görselleri v1.0
 
-Cream & Ink **v2.2** için İngilizce mağaza tasarım teslimi. **19 PNG + 19 düzenlenebilir SVG.** Dosyalar ayrı ayrı sürümlenir.
+Cream & Ink **v2.2** için İngilizce mağaza tasarım teslimi. **19 tanıtım PNG + 19 düzenlenebilir SVG + güncel 512×512 Play simgesi.** Dosyalar ayrı ayrı sürümlenir.
 
 ## Başlangıç
 
@@ -19,7 +19,7 @@ Cream & Ink **v2.2** için İngilizce mağaza tasarım teslimi. **19 PNG + 19 d�
 | Google Play telefon | `google-play/phone/` | 1080×1920 | 6 |
 | Google Play öne çıkan görsel | `google-play/feature-graphic.png` | 1024×500 | 1 |
 
-PNG'ler opak, 8 bit/kanal RGB (24 bit), sRGB. Mağaza panellerine yalnız PNG'ler yüklenir; yanlarındaki SVG'ler düzenlenebilir kaynaklardır. Telefon karelerinin sırası: **01 açılış/niyet · 02 Yakındakiler · 03 tam ekran harita · 04 Bağlantılar · 05 Sohbet · 06 Profil**.
+Ekran görüntüsü ve öne çıkan görsel PNG'leri opak, 8 bit/kanal RGB (24 bit), sRGB. Uygulama simgesi ayrı olarak 512×512 RGBA'dır. Mağaza panellerine yalnız PNG'ler yüklenir; yanlarındaki SVG'ler düzenlenebilir kaynaklardır. Telefon karelerinin sırası: **01 açılış/niyet · 02 Yakındakiler · 03 tam ekran harita · 04 Bağlantılar · 05 Sohbet · 06 Profil**.
 
 Açılış karesi, uygulamanın niyet seçimini gösteren tanıtım girişidir; yerel splash ekranını veya onboarding davranışını değiştirmez. App Store'da yalnız logo/splash yerine uygulamanın kullanımını gösterir.
 
@@ -48,3 +48,7 @@ Açılış karesi, uygulamanın niyet seçimini gösteren tanıtım girişidir; 
 - [Google Play görsel gereksinimleri](https://support.google.com/googleplay/android-developer/answer/9866151?hl=en-GB): öne çıkan görsel 1024×500; telefon seti 9:16, 1080×1920; opak RGB PNG.
 
 Teknik ölçü ve tasarım kontrolleri mağaza kabulü veya fiziksel cihaz doğrulaması anlamına gelmez.
+
+## Güncel Google Play simgesi
+
+Mağaza yüklemesinde [google-play/app-icon-512.png](google-play/app-icon-512.png) kullanılır: **512×512, RGBA**, güncel Cream & Ink v2.2 simgesinin yeniden boyutlandırılmamış, yeniden kodlanmamış birebir kopyası. Paket 19 tanıtım karesi + 1 uygulama simgesi içerir. Eski A-wordmark ve B-symbol kullanılmaz.

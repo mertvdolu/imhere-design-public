@@ -1,5 +1,14 @@
 # Değişiklik kaydı
 
+## Cream & Ink v2.2 — CH-138, ERT-050 ve Code soruları · 2026-09-23
+
+- CH-138: e-posta kartı canlı TR/EN metinlerine hizalandı; mevcut ikincil giriş düğmesi eklendi. ERT-050: kayıt deneme sınırı için 8 varyant ve beta işareti eklendi.
+- Tekrar doğrulama gönderimi `authVerifyResending` metniyle ilk gönderimden ayrıldı. Toplam 24 SVG ve 6 PNG üretildi/güncellendi; katalog 296 durum / 2368 SVG / 592 PNG.
+- `sectionTitle` 18/500, `status` 16/500, `helper` 14/400 tokenları eklendi; beş Material ikon eşlemesi onaylandı.
+- ERT-046'nın dört durumu da `8078bfb` içinde mevcut; 32 varyant kontrol edildi, çizimleri değişmedi. [Yedi madde için devir notu](02-SON-EKLER/imhere-cream-complete-v2.2/specs/CODE-SORULARI-CH138-ERT050.md).
+- Güncel 512×512 RGBA Play simgesi mağaza paketine birebir kopyalandı; eski A-wordmark ve B-symbol klasörleri “ESKİ — kullanma” olarak işaretlendi.
+- Referans metinler, delta/migration, kataloglar ve doğrulama güncel. Yerel commit teslimi; GitHub aktarımını Code yapar.
+
 ## Cream & Ink v2.2 — hata ekranlarında yeniden deneme · 2026-09-23
 
 - `nearby-failed`, `nearby-offline`, `map-failed`, `map-offline` çizimlerine mevcut `checkInRetry` anahtarıyla ikincil **Try again / Tekrar dene** düğmesi eklendi.

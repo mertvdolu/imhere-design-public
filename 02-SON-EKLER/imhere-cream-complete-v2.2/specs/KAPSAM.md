@@ -16,6 +16,8 @@
 
 ## Yeni çizimler
 
+- register-too-many-attempts (ERT-050; beta)
+
 - chat-retention-deleted
 - chat-retention-warning
 - invite-retry
@@ -25,4 +27,4 @@
 - support-email-copied
 - support-email-unavailable
 
-Toplam: **295 durum / 2360 SVG**. Dil ayarına ait üç durum askıda ve varsayılan katalogda gizlidir.
+Toplam: **296 durum / 2368 SVG**. Dil ayarına ait üç durum askıda ve varsayılan katalogda gizlidir.

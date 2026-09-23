@@ -6,6 +6,10 @@ Founder’ın son onayı: krem/siyah tüm uygulamanın tek aktif temasıdır. Bu
 
 ## 2. Ortak görünüm
 
+- Ek tipografi tokenları: `sectionTitle` 18/500, height 1.4; `status` 16/500, height 1.6; `helper` 14/400, height 1.4. Çizimlerdeki mevcut değerlerin adlandırılmış karşılıklarıdır; eski tokenlar korunur.
+
+Material eşlemeleri onaylı: geri → `chevron_left`; gelen kutusu → `inbox_outlined`; sohbet balonu → `chat_bubble_outline`; uyarı → `warning_amber_outlined`; harita → `map_outlined`. Mevcut boyut, renk, etiket ve dokunma alanı korunur.
+
 - Zemin #F4F1E9, açık yüzey #FCFAF5, metin/ana eylem #191A17, ikincil metin #696A62.
 - Geist: başlık 36/1.12, medium 500, harf aralığı −1.8; gövde 16/1.6; etiket 14/1.4; yardımcı metin 12/1.5. Başlık satır yüksekliği uzun TR/EN ve %200 yerleşiminde 1.12 olarak tamamlandı.
 - Form kenarlığı #7C7D73; #D9D5CB yalnız dekoratif ayırıcı/kart sınırı. İnce çizgi 1; ikon çizgisi 1.8. Hata/kapalı/seçili ayrımı yalnız renge dayanmaz: anlamlı metin, simge ve durum da gerekir.
@@ -23,6 +27,10 @@ Sayfa kenarı 24 mantıksal birim. Eylem hedefi en az 48×48; küçük ikonun et
 Klavye açılınca form/sohbet içerikleri klavye yüksekliğine göre kaydırılır. Gönder düğmesi ve odaklanan alan erişilebilir kalır. Cihazda klavye yerleşimi yazılım/M10 doğrulamasıdır; bu tasarım teslimi klavye sorununun kodda çözüldüğünü iddia etmez. Ekran okuyucu sırası görsel sıra; yükleme/hata/başarı mesajları uygun canlı bildirimle duyurulur. Reduce Motion açıkken geçiş ve dekoratif hareket kaldırılır. Erişim, sonuç, seçim, sunucu verisi veya süre tasarımdan türetilmez.
 
 ## 4. Giriş ve profil
+
+`register-too-many-attempts` (ERT-050), girişteki deneme sınırının kayıt karşılığıdır: mevcut `authTooManyAttempts` kartı, pasif `authCreateAccount`; süre/eşik/sayaç yok. `verify-sending` ilk gönderimde `emailSending`, `verify-resend-busy` tekrar gönderimde `authVerifyResending` kullanır; meşgul eylemleri ve çıkış yerleşimi aynı kalır.
+
+`register-email-unavailable` (CH-138): kart `authEmailUnavailable` için uygulamada canlı olan TR/EN metnini kullanır. `authCreateAccount` ana düğmesinin altında `authExistingAccount` ikincil düğmesi bulunur (EN: I have an account · Sign in / TR: Hesabım var · Giriş yap). Mevcut giriş ekranına gider; yeni hesap/oturum davranışı eklemez. Büyük metinde kart ve düğmeler içerikle büyür, form kaydırılabilir kalır.
 
 Davet → e-posta + parola → e-posta doğrulama bağlantısını bekleme → profil. Mevcut kullanıcı girişi ve e-posta ile parola sıfırlama korunur. Parola en az 8 karakter; tür şartı ve güç göstergesi yok. Giriş hatası tek genel mesaj, sıfırlama sonucu koşullu; resend mevcut backend durumundan gelir, sayaç yok.
 

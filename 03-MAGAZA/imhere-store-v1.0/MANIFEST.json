@@ -1,27 +1,27 @@
 {
   "version": "1.0",
   "theme": "Cream & Ink v2.2",
-  "files": 75,
+  "files": 76,
   "entries": [
     {
       "file": "DELIVERY.json",
-      "bytes": 5562,
-      "sha256": "f0500423445af110e92e075d6f59e8079071cbaef6991983dd3277bcda89bf63"
+      "bytes": 6009,
+      "sha256": "5f6c83429130b6b81cee5f1f2588cb93bce0caaf4a078871f05ad110d0b237f1"
     },
     {
       "file": "MANAGER-NOTU.md",
-      "bytes": 1492,
-      "sha256": "c0956b91d670879044f22d3cdc10e61ca08af92515ac5c3eafe86365a4ca9fda"
+      "bytes": 1848,
+      "sha256": "fa25486610fc5f42b4375e481c8a0554dd44e6efa42800166816351399cd509b"
     },
     {
       "file": "ONIZLEME.html",
-      "bytes": 9853,
-      "sha256": "84aed946500a3ab6fffafe19e1fdb4bd5968d214817913e3e212c02d37d0dc3b"
+      "bytes": 10352,
+      "sha256": "7a0ff00afa25ffd58f6ef84ba2b844e068f5c12de0840bb3b6df25fa5dd48ded"
     },
     {
       "file": "README.md",
-      "bytes": 4930,
-      "sha256": "43efa546fba659f879eebaa80bcbfa0f8487079700b9db516611e1f9889042af"
+      "bytes": 5423,
+      "sha256": "73393ce27c0ffb659fedc537ce9a05db2131bd62b5099e4f8cdd4fcac3a583e4"
     },
     {
       "file": "app-store/iphone-6.5/01-opening.png",
@@ -230,8 +230,13 @@
     },
     {
       "file": "evidence/validation.json",
-      "bytes": 4835,
-      "sha256": "45289616e1a5127d2be9d5476f5095f9b121b0c6ee809b78639591b2e0675f98"
+      "bytes": 5154,
+      "sha256": "0926a2ba5e955200ae98651b29bd98c02a77426ee031f4ba9407cc8646dad916"
+    },
+    {
+      "file": "google-play/app-icon-512.png",
+      "sha256": "01c219cf673725c89617bf015905456107bb0763b8d76e95a63879c10dd7c9bb",
+      "bytes": 16158
     },
     {
       "file": "google-play/feature-graphic.png",

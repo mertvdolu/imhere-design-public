@@ -16,3 +16,7 @@ Konum: `03-MAGAZA/imhere-store-v1.0/`
 
 İnceleme: `ONIZLEME.html`, `review/app-store-contact-sheet.png`, `review/google-play-contact-sheet.png`.
 Yüklenecek dosyalar: ilgili platform klasöründeki `.png` dosyaları; SVG/kaynak/inceleme dosyaları mağazaya yüklenmez.
+
+## Güncel Google Play simgesi
+
+Mağaza yüklemesinde [google-play/app-icon-512.png](google-play/app-icon-512.png) kullanılır: **512×512, RGBA**, güncel Cream & Ink v2.2 simgesinin yeniden boyutlandırılmamış, yeniden kodlanmamış birebir kopyası. Paket 19 tanıtım karesi + 1 uygulama simgesi içerir. Eski A-wordmark ve B-symbol kullanılmaz.

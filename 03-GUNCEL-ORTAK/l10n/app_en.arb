@@ -448,7 +448,7 @@
   "authPasswordHide": "Hide password",
   "authEmailInvalid": "Check your email address.",
   "authPasswordWeak": "Password must be at least 8 characters.",
-  "authEmailUnavailable": "The action couldn’t be completed. Check your details and try again.",
+  "authEmailUnavailable": "This email can't be used to create a new account. If you already have one, sign in instead.",
   "authTooManyAttempts": "We can’t complete this action right now. Please try again later.",
   "authReauthRequired": "Sign in again to continue.",
   "authResetBackToSignIn": "Back to sign in",
@@ -634,5 +634,9 @@
   },
   "@supportEmailCopied": {
     "description": "Announce only after clipboard copy succeeds"
+  },
+  "authVerifyResending": "Resending the verification link…",
+  "@authVerifyResending": {
+    "description": "Verification-link resend is in progress; no timer or delivery-success claim."
   }
 }

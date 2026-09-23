@@ -586,13 +586,33 @@
   "cream22": {
     "newKeys": [
       "supportCopyEmail",
-      "supportEmailCopied"
+      "supportEmailCopied",
+      "authVerifyResending"
     ],
-    "changedExistingCopy": [],
-    "referenceARBs": "Never overwrite application ARBs; merge the two-key delta and verify previous M09/M10 patches independently.",
+    "changedExistingCopy": [
+      "authEmailUnavailable"
+    ],
+    "referenceARBs": "Never overwrite application ARBs; merge the listed delta and verify previous M09/M10 patches independently.",
     "themeTokens": "Replace the active visual token values with tokens/theme.tokens.json; retain adapter and runtime behavior.",
     "activeLocale": "en",
     "turkish": "retained but disabled",
     "behaviorChanged": false
+  },
+  "CH-138": {
+    "state": "register-email-unavailable",
+    "changedExistingCopy": [
+      "authEmailUnavailable"
+    ],
+    "newKeys": [],
+    "existingSecondaryAction": "authExistingAccount",
+    "copySource": "Manager-provided live application copy, CH-138",
+    "merge": "Update only authEmailUnavailable in both locales; keep authExistingAccount and all other keys unchanged. Application already contains this change; this delivery aligns design references."
+  },
+  "verificationResend": {
+    "newKeys": [
+      "authVerifyResending"
+    ],
+    "callsite": "verify-resend-busy uses authVerifyResending; verify-sending keeps emailSending.",
+    "behavior": "Existing sending/resending states retained; no new timer, resend availability rule or success claim."
   }
 }

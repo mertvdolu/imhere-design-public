@@ -7,5 +7,10 @@
   },
   "@supportEmailCopied": {
     "description": "Announce only after clipboard copy succeeds"
+  },
+  "authEmailUnavailable": "Bu e-posta ile yeni hesap oluşturulamıyor. Zaten bir hesabın varsa giriş yap.",
+  "authVerifyResending": "Doğrulama bağlantısı tekrar gönderiliyor…",
+  "@authVerifyResending": {
+    "description": "Verification-link resend is in progress; no timer or delivery-success claim."
   }
 }
