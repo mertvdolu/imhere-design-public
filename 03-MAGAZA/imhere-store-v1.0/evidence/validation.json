@@ -1,0 +1,207 @@
+{
+  "version": "1.0",
+  "date": "2026-09-23",
+  "status": "PASS — design asset checks",
+  "exports": [
+    {
+      "file": "app-store/iphone-6.9/01-opening.png",
+      "dimensions": [
+        1320,
+        2868
+      ],
+      "mode": "RGB",
+      "productAndDisclosureChecks": true
+    },
+    {
+      "file": "app-store/iphone-6.9/02-nearby.png",
+      "dimensions": [
+        1320,
+        2868
+      ],
+      "mode": "RGB",
+      "productAndDisclosureChecks": true
+    },
+    {
+      "file": "app-store/iphone-6.9/03-full-screen-map.png",
+      "dimensions": [
+        1320,
+        2868
+      ],
+      "mode": "RGB",
+      "productAndDisclosureChecks": true
+    },
+    {
+      "file": "app-store/iphone-6.9/04-connections.png",
+      "dimensions": [
+        1320,
+        2868
+      ],
+      "mode": "RGB",
+      "productAndDisclosureChecks": true
+    },
+    {
+      "file": "app-store/iphone-6.9/05-chat.png",
+      "dimensions": [
+        1320,
+        2868
+      ],
+      "mode": "RGB",
+      "productAndDisclosureChecks": true
+    },
+    {
+      "file": "app-store/iphone-6.9/06-profile.png",
+      "dimensions": [
+        1320,
+        2868
+      ],
+      "mode": "RGB",
+      "productAndDisclosureChecks": true
+    },
+    {
+      "file": "app-store/iphone-6.5/01-opening.png",
+      "dimensions": [
+        1242,
+        2688
+      ],
+      "mode": "RGB",
+      "productAndDisclosureChecks": true
+    },
+    {
+      "file": "app-store/iphone-6.5/02-nearby.png",
+      "dimensions": [
+        1242,
+        2688
+      ],
+      "mode": "RGB",
+      "productAndDisclosureChecks": true
+    },
+    {
+      "file": "app-store/iphone-6.5/03-full-screen-map.png",
+      "dimensions": [
+        1242,
+        2688
+      ],
+      "mode": "RGB",
+      "productAndDisclosureChecks": true
+    },
+    {
+      "file": "app-store/iphone-6.5/04-connections.png",
+      "dimensions": [
+        1242,
+        2688
+      ],
+      "mode": "RGB",
+      "productAndDisclosureChecks": true
+    },
+    {
+      "file": "app-store/iphone-6.5/05-chat.png",
+      "dimensions": [
+        1242,
+        2688
+      ],
+      "mode": "RGB",
+      "productAndDisclosureChecks": true
+    },
+    {
+      "file": "app-store/iphone-6.5/06-profile.png",
+      "dimensions": [
+        1242,
+        2688
+      ],
+      "mode": "RGB",
+      "productAndDisclosureChecks": true
+    },
+    {
+      "file": "google-play/phone/01-opening.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "productAndDisclosureChecks": true
+    },
+    {
+      "file": "google-play/phone/02-nearby.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "productAndDisclosureChecks": true
+    },
+    {
+      "file": "google-play/phone/03-full-screen-map.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "productAndDisclosureChecks": true
+    },
+    {
+      "file": "google-play/phone/04-connections.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "productAndDisclosureChecks": true
+    },
+    {
+      "file": "google-play/phone/05-chat.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "productAndDisclosureChecks": true
+    },
+    {
+      "file": "google-play/phone/06-profile.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "productAndDisclosureChecks": true
+    },
+    {
+      "file": "google-play/feature-graphic.png",
+      "dimensions": [
+        1024,
+        500
+      ],
+      "mode": "RGB",
+      "productAndDisclosureChecks": true
+    }
+  ],
+  "count": 19,
+  "svgTextBounds": "PASS (Pillow Geist metrics, see layout-validation.json)",
+  "logoSourceUnchanged": true,
+  "mapSourceUnchanged": true,
+  "fictionalPortraitSource": "built-in image_gen; prompts and original PNGs included",
+  "profilesAreExamples": true,
+  "noPersonalMapMarkers": true,
+  "noMapPeopleCountsOrDistances": true,
+  "fourMapColoursPreserved": true,
+  "mapAttributionVisible": true,
+  "writableChatRetentionHidden": true,
+  "noProductBehaviourChanges": true,
+  "englishHeadlines": true,
+  "localPreviewReferencesResolve": true,
+  "manualVisualReview": [
+    "App Store 6.9 contact sheet",
+    "App Store 6.5 representative frames",
+    "Google Play contact sheet",
+    "Feature graphic"
+  ],
+  "nativeDeviceScreenshots": false,
+  "nativeCaptureComparison": "required before store submission",
+  "storeUploadPerformed": false,
+  "sourcesVerifiedOn": "2026-09-23",
+  "sources": [
+    "https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications",
+    "https://developer.apple.com/app-store/review/guidelines/#accurate-metadata",
+    "https://support.google.com/googleplay/android-developer/answer/9866151?hl=en-GB"
+  ]
+}

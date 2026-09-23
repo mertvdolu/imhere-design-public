@@ -1,0 +1,14 @@
+{
+  "tool": "built-in image_gen",
+  "purpose": "Wholly synthetic sample profiles; no real person or source photograph used",
+  "portraits": [
+    {
+      "asset": "assets/maya-synthetic-original.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: a single fictional profile portrait for IM HERE mobile app store screenshots. Create one wholly invented adult woman, around 30 years old, not based on any real person or celebrity. Editorial black-and-white photography, warm approachable neutral expression, short natural curly dark hair, simple black crewneck shirt, no jewelry, shoulders visible. Clean light neutral studio background, soft window light, natural skin texture, premium understated portrait. Square composition, face centered, generous headroom, face and shoulders occupy middle 70 percent so usable as small circle or large profile crop. Black-and-white only. No text, watermarks, logos, collage, phone, UI, multiple people. This is synthetic illustrative sample profile content, never a real user."
+    },
+    {
+      "asset": "assets/alex-synthetic-original.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: fictional profile portrait for the IM HERE app store design pack. Create ONE completely invented adult man, around 32, no reference to any real person or celebrity. Friendly thoughtful expression with a slight natural smile, short textured dark hair, medium brown skin, clean shaven, plain cream crewneck shirt. Editorial black-and-white photographic style, natural face texture, gentle studio window light, very light neutral background. Square portrait head and shoulders, centered face with generous headroom, face within middle 60 percent for circular avatar use. No accessories, objects, logos, text, watermarks, UI or multiple people. No real user; this is synthetic illustrative profile content."
+    }
+  ]
+}

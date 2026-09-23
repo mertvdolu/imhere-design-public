@@ -1,0 +1,197 @@
+{
+  "exports": [
+    {
+      "file": "app-store/iphone-6.9/01-opening.png",
+      "width": 1320,
+      "height": 2868,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 143938
+    },
+    {
+      "file": "app-store/iphone-6.9/02-nearby.png",
+      "width": 1320,
+      "height": 2868,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 488607
+    },
+    {
+      "file": "app-store/iphone-6.9/03-full-screen-map.png",
+      "width": 1320,
+      "height": 2868,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 195445
+    },
+    {
+      "file": "app-store/iphone-6.9/04-connections.png",
+      "width": 1320,
+      "height": 2868,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 179727
+    },
+    {
+      "file": "app-store/iphone-6.9/05-chat.png",
+      "width": 1320,
+      "height": 2868,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 158877
+    },
+    {
+      "file": "app-store/iphone-6.9/06-profile.png",
+      "width": 1320,
+      "height": 2868,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 515060
+    },
+    {
+      "file": "app-store/iphone-6.5/01-opening.png",
+      "width": 1242,
+      "height": 2688,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 132402
+    },
+    {
+      "file": "app-store/iphone-6.5/02-nearby.png",
+      "width": 1242,
+      "height": 2688,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 426290
+    },
+    {
+      "file": "app-store/iphone-6.5/03-full-screen-map.png",
+      "width": 1242,
+      "height": 2688,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 180703
+    },
+    {
+      "file": "app-store/iphone-6.5/04-connections.png",
+      "width": 1242,
+      "height": 2688,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 162742
+    },
+    {
+      "file": "app-store/iphone-6.5/05-chat.png",
+      "width": 1242,
+      "height": 2688,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 145360
+    },
+    {
+      "file": "app-store/iphone-6.5/06-profile.png",
+      "width": 1242,
+      "height": 2688,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 451698
+    },
+    {
+      "file": "google-play/phone/01-opening.png",
+      "width": 1080,
+      "height": 1920,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 85738
+    },
+    {
+      "file": "google-play/phone/02-nearby.png",
+      "width": 1080,
+      "height": 1920,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 273082
+    },
+    {
+      "file": "google-play/phone/03-full-screen-map.png",
+      "width": 1080,
+      "height": 1920,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 144657
+    },
+    {
+      "file": "google-play/phone/04-connections.png",
+      "width": 1080,
+      "height": 1920,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 98507
+    },
+    {
+      "file": "google-play/phone/05-chat.png",
+      "width": 1080,
+      "height": 1920,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 94901
+    },
+    {
+      "file": "google-play/phone/06-profile.png",
+      "width": 1080,
+      "height": 1920,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 292346
+    },
+    {
+      "file": "google-play/feature-graphic.png",
+      "width": 1024,
+      "height": 500,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 51437
+    }
+  ],
+  "allOpaque": true,
+  "allRGB": true,
+  "count": 19
+}

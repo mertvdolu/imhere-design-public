@@ -1,0 +1,244 @@
+[
+  {
+    "file": "app-store/iphone-6.9/01-opening.svg",
+    "textBoundsPass": true,
+    "artboard": [
+      1320,
+      2868
+    ],
+    "appViewport": [
+      390,
+      844
+    ],
+    "deviceFrameFullyVisible": true
+  },
+  {
+    "file": "app-store/iphone-6.9/02-nearby.svg",
+    "textBoundsPass": true,
+    "artboard": [
+      1320,
+      2868
+    ],
+    "appViewport": [
+      390,
+      844
+    ],
+    "deviceFrameFullyVisible": true
+  },
+  {
+    "file": "app-store/iphone-6.9/03-full-screen-map.svg",
+    "textBoundsPass": true,
+    "artboard": [
+      1320,
+      2868
+    ],
+    "appViewport": [
+      390,
+      844
+    ],
+    "deviceFrameFullyVisible": true
+  },
+  {
+    "file": "app-store/iphone-6.9/04-connections.svg",
+    "textBoundsPass": true,
+    "artboard": [
+      1320,
+      2868
+    ],
+    "appViewport": [
+      390,
+      844
+    ],
+    "deviceFrameFullyVisible": true
+  },
+  {
+    "file": "app-store/iphone-6.9/05-chat.svg",
+    "textBoundsPass": true,
+    "artboard": [
+      1320,
+      2868
+    ],
+    "appViewport": [
+      390,
+      844
+    ],
+    "deviceFrameFullyVisible": true
+  },
+  {
+    "file": "app-store/iphone-6.9/06-profile.svg",
+    "textBoundsPass": true,
+    "artboard": [
+      1320,
+      2868
+    ],
+    "appViewport": [
+      390,
+      844
+    ],
+    "deviceFrameFullyVisible": true
+  },
+  {
+    "file": "app-store/iphone-6.5/01-opening.svg",
+    "textBoundsPass": true,
+    "artboard": [
+      1242,
+      2688
+    ],
+    "appViewport": [
+      390,
+      844
+    ],
+    "deviceFrameFullyVisible": true
+  },
+  {
+    "file": "app-store/iphone-6.5/02-nearby.svg",
+    "textBoundsPass": true,
+    "artboard": [
+      1242,
+      2688
+    ],
+    "appViewport": [
+      390,
+      844
+    ],
+    "deviceFrameFullyVisible": true
+  },
+  {
+    "file": "app-store/iphone-6.5/03-full-screen-map.svg",
+    "textBoundsPass": true,
+    "artboard": [
+      1242,
+      2688
+    ],
+    "appViewport": [
+      390,
+      844
+    ],
+    "deviceFrameFullyVisible": true
+  },
+  {
+    "file": "app-store/iphone-6.5/04-connections.svg",
+    "textBoundsPass": true,
+    "artboard": [
+      1242,
+      2688
+    ],
+    "appViewport": [
+      390,
+      844
+    ],
+    "deviceFrameFullyVisible": true
+  },
+  {
+    "file": "app-store/iphone-6.5/05-chat.svg",
+    "textBoundsPass": true,
+    "artboard": [
+      1242,
+      2688
+    ],
+    "appViewport": [
+      390,
+      844
+    ],
+    "deviceFrameFullyVisible": true
+  },
+  {
+    "file": "app-store/iphone-6.5/06-profile.svg",
+    "textBoundsPass": true,
+    "artboard": [
+      1242,
+      2688
+    ],
+    "appViewport": [
+      390,
+      844
+    ],
+    "deviceFrameFullyVisible": true
+  },
+  {
+    "file": "google-play/phone/01-opening.svg",
+    "textBoundsPass": true,
+    "artboard": [
+      1080,
+      1920
+    ],
+    "appViewport": [
+      412,
+      915
+    ],
+    "deviceFrameFullyVisible": true
+  },
+  {
+    "file": "google-play/phone/02-nearby.svg",
+    "textBoundsPass": true,
+    "artboard": [
+      1080,
+      1920
+    ],
+    "appViewport": [
+      412,
+      915
+    ],
+    "deviceFrameFullyVisible": true
+  },
+  {
+    "file": "google-play/phone/03-full-screen-map.svg",
+    "textBoundsPass": true,
+    "artboard": [
+      1080,
+      1920
+    ],
+    "appViewport": [
+      412,
+      915
+    ],
+    "deviceFrameFullyVisible": true
+  },
+  {
+    "file": "google-play/phone/04-connections.svg",
+    "textBoundsPass": true,
+    "artboard": [
+      1080,
+      1920
+    ],
+    "appViewport": [
+      412,
+      915
+    ],
+    "deviceFrameFullyVisible": true
+  },
+  {
+    "file": "google-play/phone/05-chat.svg",
+    "textBoundsPass": true,
+    "artboard": [
+      1080,
+      1920
+    ],
+    "appViewport": [
+      412,
+      915
+    ],
+    "deviceFrameFullyVisible": true
+  },
+  {
+    "file": "google-play/phone/06-profile.svg",
+    "textBoundsPass": true,
+    "artboard": [
+      1080,
+      1920
+    ],
+    "appViewport": [
+      412,
+      915
+    ],
+    "deviceFrameFullyVisible": true
+  },
+  {
+    "file": "google-play/feature-graphic.svg",
+    "textBoundsPass": true,
+    "artboard": [
+      1024,
+      500
+    ]
+  }
+]

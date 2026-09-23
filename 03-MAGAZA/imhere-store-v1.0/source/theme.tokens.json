@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "name": "IM HERE / Cream & Ink",
+    "version": "2.2",
+    "date": "2026-09-22",
+    "baseline": "Founder selected Cream study v1.0; supersedes Forest & Mint visual direction",
+    "requirements": "Designer extract v1.0.1 + Founder relayed decisions; Master not read",
+    "units": "Flutter logical pixels; text sizes before system scaling",
+    "delivery": "Complete Cream & Ink design catalog; native implementation and device QA remain separate",
+    "scopeNote": "Every current screen redrawn; latest additions included. Historical packages remain archived."
+  },
+  "colors": {
+    "background": "#F4F1E9",
+    "surface": "#FCFAF5",
+    "card": "#FCFAF5",
+    "popover": "#FCFAF5",
+    "primary": "#191A17",
+    "onPrimary": "#FCFAF5",
+    "text": "#191A17",
+    "textSecondary": "#696A62",
+    "border": "#D9D5CB",
+    "input": "#F0ECE3",
+    "inputBorder": "#7C7D73",
+    "navigation": "#FCFAF5",
+    "nearbyCard": "#FCFAF5",
+    "nearbyCardBorder": "#D9D5CB",
+    "heroTop": "#F4F1E9",
+    "heroBottom": "#F4F1E9",
+    "orbLight": "#191A17",
+    "orbDark": "#191A17",
+    "orbText": "#FCFAF5",
+    "orbStroke": "#191A17",
+    "danger": "#191A17",
+    "friendship": "#191A17",
+    "friendshipSurface": "#E9E5DA",
+    "networking": "#191A17",
+    "networkingSurface": "#E9E5DA",
+    "messageOwn": "#191A17",
+    "messageOwnText": "#FCFAF5",
+    "messageOther": "#FCFAF5",
+    "messageOtherText": "#191A17",
+    "densityBlue": "#64A8FF",
+    "densityYellow": "#F7D46A",
+    "densityGreen": "#7DDEAC",
+    "densityRed": "#EE8985"
+  },
+  "typography": {
+    "family": "Geist",
+    "headline": {
+      "size": 36,
+      "height": 1.12,
+      "weight": 500,
+      "letterSpacing": -1.8
+    },
+    "body": {
+      "size": 16,
+      "height": 1.6,
+      "weight": 400
+    },
+    "label": {
+      "size": 14,
+      "height": 1.4,
+      "weight": 500
+    },
+    "metadata": {
+      "size": 12,
+      "height": 1.5,
+      "weight": 400
+    },
+    "orbLabel": {
+      "size": 18,
+      "weight": 600
+    }
+  },
+  "spacing": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    32,
+    40,
+    48
+  ],
+  "radius": {
+    "input": 12,
+    "card": 15,
+    "nearbyPreview": 15,
+    "sheet": 24,
+    "button": 12,
+    "pill": 999
+  },
+  "nativeLayout": {
+    "pageInset": 24,
+    "minTapTarget": 48,
+    "orbDiameter": 160,
+    "orbRegionHeight": 244,
+    "orbInnerRingOffset": 18,
+    "orbOuterRingOffset": 37,
+    "mapFullscreen": true
+  },
+  "referenceMeasurements": {
+    "heroOrbDiameter": 143,
+    "interactiveOrbDiameter": 142,
+    "heroOrbRegionHeight": 218,
+    "interactiveOrbRegionHeight": 216,
+    "heroContentPadding": 22,
+    "interactiveContentPaddingDesktop": 20,
+    "interactiveContentPaddingMobile": 16,
+    "creamPageInset": 22
+  },
+  "motion": {
+    "screenEnterMs": 250,
+    "interactionMs": 180,
+    "orbBreatheMs": 0,
+    "respectReduceMotion": true,
+    "orbMeaning": "No orb animation in the current theme."
+  },
+  "policy": {
+    "useDynamicColor": false,
+    "themeMode": "light",
+    "approvedScreen": "Founder-approved Cream & Ink applied across the entire current design catalog",
+    "densityBandZoomInvariant": true,
+    "navigation": {
+      "status": "LOCKED",
+      "tabs": [
+        "Profil",
+        "Mesajlar",
+        "Yakındakiler",
+        "Etkinlikler"
+      ],
+      "internalPlacement": "APPROVED: O-01 accepted by founder in v1.2; see decision record"
+    },
+    "riverpod": "Not verified by this inventory; preserve StatefulWidget/controller integration",
+    "mapProvider": "MapLibre + OpenFreeMap",
+    "intents": {
+      "values": [
+        "friendship",
+        "networking"
+      ],
+      "minimum": 1,
+      "maximum": 2,
+      "default": [],
+      "authority": "Founder / FD-75"
+    },
+    "activeLocale": "en",
+    "trStatus": "ready but disabled by Founder; language settings row hidden"
+  }
+}

@@ -11,6 +11,10 @@
 
 Tam ekran harita, gönderilen iki daireli logo, açık simge/splash, bildirim maskesi ve son M09/M10 ekleri bu teslimde. Dört semantik harita rengi ürün anlamını korur. İngilizce aktif; Türkçe kaynaklar hazır, dil seçimi askıdadır.
 
+## Mağaza görselleri
+
+[Mağaza paketi v1.0](03-MAGAZA/imhere-store-v1.0/): App Store iki boyutta altışar kare, Google Play altı telefon karesi ve 1024×500 öne çıkan görsel. İngilizce, Cream & Ink v2.2. [Toplu bakış](03-MAGAZA/imhere-store-v1.0/review/app-store-contact-sheet.png). Native ekran karşılaştırması yayın öncesi yapılır.
+
 ## Önizlemeyi açmak
 
 Depoyu indirip kökteki `ONIZLEME.html` dosyasını tarayıcıda aç. Tek güncel krem/siyah kataloğa gider. GitHub’ın dosya sayfası HTML uygulamasını çalıştırmaz. Katalog internetsiz açılır; etkileşimli deneyimin canlı haritası internet ister.

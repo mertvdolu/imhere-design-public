@@ -1,5 +1,11 @@
 # Değişiklik kaydı
 
+## Mağaza görselleri v1.0 — 2026-09-23
+
+- [03-MAGAZA/imhere-store-v1.0](03-MAGAZA/imhere-store-v1.0/): App Store 1320×2868 ve 1242×2688 için altışar kare; Google Play 1080×1920 için altı kare ve 1024×500 öne çıkan görsel. Toplam 19 PNG + 19 düzenlenebilir SVG.
+- Cream & Ink v2.2; İngilizce başlıklar; kurmaca profil/fotoğraf açıklamaları; tam ekran harita, dört renk ve zorunlu attribution. Yazılabilir sohbette saklama satırı yok.
+- Yerel HTML önizleme, toplu bakışlar, kaynak/üretim dosyaları, manifest ve doğrulama eklendi. Native çekim karşılaştırması yayın öncesi adımdır; uygulama ve mağaza kaydı değiştirilmedi.
+
 ## Cream & Ink v2.2 — bütün mobil tasarım tamamlandı
 
 - [Tam paket](02-SON-EKLER/imhere-cream-complete-v2.2/): eski 287 durumun tamamı yeniden çizildi; 8 güncel ekle 295 durum, 2360 SVG, 590 PNG. TR/EN, iOS/Android, %100/%200.

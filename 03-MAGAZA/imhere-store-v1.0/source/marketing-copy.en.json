@@ -1,0 +1,83 @@
+{
+  "version": "1.0",
+  "shots": [
+    {
+      "id": "01-opening",
+      "kind": "opening",
+      "title": [
+        "A hello",
+        "starts here."
+      ],
+      "sub": "Friendship and networking, nearby.",
+      "playTitle": [
+        "A hello starts here."
+      ]
+    },
+    {
+      "id": "02-nearby",
+      "kind": "nearby",
+      "title": [
+        "People.",
+        "Closer to you."
+      ],
+      "sub": "Find a shared interest. Send a hello.",
+      "playTitle": [
+        "People. Closer to you."
+      ]
+    },
+    {
+      "id": "03-full-screen-map",
+      "kind": "map",
+      "title": [
+        "A wider view",
+        "of nearby."
+      ],
+      "sub": "Explore activity on a full-screen map.",
+      "playTitle": [
+        "Explore nearby."
+      ]
+    },
+    {
+      "id": "04-connections",
+      "kind": "connections",
+      "title": [
+        "Connections,",
+        "in one place."
+      ],
+      "sub": "Your connections and requests, together.",
+      "playTitle": [
+        "Your connections."
+      ]
+    },
+    {
+      "id": "05-chat",
+      "kind": "chat",
+      "title": [
+        "Start with",
+        "a conversation."
+      ],
+      "sub": "Text, emoji and links. Keep it simple.",
+      "playTitle": [
+        "Start a conversation."
+      ]
+    },
+    {
+      "id": "06-profile",
+      "kind": "profile",
+      "title": [
+        "A little",
+        "about you."
+      ],
+      "sub": "Your photo. Your interests. Your choice.",
+      "playTitle": [
+        "A little about you."
+      ]
+    }
+  ],
+  "feature": {
+    "title": "Common interests. New connections.",
+    "sub": "Friendship and networking, nearby."
+  },
+  "profileDisclosure": "Fictional profiles · Illustrative content",
+  "mapDisclosure": "Illustrative map · Not live data"
+}

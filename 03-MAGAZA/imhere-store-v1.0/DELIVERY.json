@@ -1,0 +1,199 @@
+{
+  "version": "1.0",
+  "themeVersion": "2.2",
+  "sourceCommit": "f3dbd40bdedad4ec0b3ed06f38b72d1c1cfcebf2",
+  "language": "en",
+  "assets": [
+    {
+      "file": "app-store/iphone-6.9/01-opening.png",
+      "width": 1320,
+      "height": 2868,
+      "platform": "ios",
+      "shot": "01-opening",
+      "title": "A hello starts here.",
+      "sourceType": "design-render",
+      "nativeCaptureVerified": false
+    },
+    {
+      "file": "app-store/iphone-6.9/02-nearby.png",
+      "width": 1320,
+      "height": 2868,
+      "platform": "ios",
+      "shot": "02-nearby",
+      "title": "People. Closer to you.",
+      "sourceType": "design-render",
+      "nativeCaptureVerified": false
+    },
+    {
+      "file": "app-store/iphone-6.9/03-full-screen-map.png",
+      "width": 1320,
+      "height": 2868,
+      "platform": "ios",
+      "shot": "03-full-screen-map",
+      "title": "A wider view of nearby.",
+      "sourceType": "design-render",
+      "nativeCaptureVerified": false
+    },
+    {
+      "file": "app-store/iphone-6.9/04-connections.png",
+      "width": 1320,
+      "height": 2868,
+      "platform": "ios",
+      "shot": "04-connections",
+      "title": "Connections, in one place.",
+      "sourceType": "design-render",
+      "nativeCaptureVerified": false
+    },
+    {
+      "file": "app-store/iphone-6.9/05-chat.png",
+      "width": 1320,
+      "height": 2868,
+      "platform": "ios",
+      "shot": "05-chat",
+      "title": "Start with a conversation.",
+      "sourceType": "design-render",
+      "nativeCaptureVerified": false
+    },
+    {
+      "file": "app-store/iphone-6.9/06-profile.png",
+      "width": 1320,
+      "height": 2868,
+      "platform": "ios",
+      "shot": "06-profile",
+      "title": "A little about you.",
+      "sourceType": "design-render",
+      "nativeCaptureVerified": false
+    },
+    {
+      "file": "app-store/iphone-6.5/01-opening.png",
+      "width": 1242,
+      "height": 2688,
+      "platform": "ios",
+      "shot": "01-opening",
+      "title": "A hello starts here.",
+      "sourceType": "design-render",
+      "nativeCaptureVerified": false
+    },
+    {
+      "file": "app-store/iphone-6.5/02-nearby.png",
+      "width": 1242,
+      "height": 2688,
+      "platform": "ios",
+      "shot": "02-nearby",
+      "title": "People. Closer to you.",
+      "sourceType": "design-render",
+      "nativeCaptureVerified": false
+    },
+    {
+      "file": "app-store/iphone-6.5/03-full-screen-map.png",
+      "width": 1242,
+      "height": 2688,
+      "platform": "ios",
+      "shot": "03-full-screen-map",
+      "title": "A wider view of nearby.",
+      "sourceType": "design-render",
+      "nativeCaptureVerified": false
+    },
+    {
+      "file": "app-store/iphone-6.5/04-connections.png",
+      "width": 1242,
+      "height": 2688,
+      "platform": "ios",
+      "shot": "04-connections",
+      "title": "Connections, in one place.",
+      "sourceType": "design-render",
+      "nativeCaptureVerified": false
+    },
+    {
+      "file": "app-store/iphone-6.5/05-chat.png",
+      "width": 1242,
+      "height": 2688,
+      "platform": "ios",
+      "shot": "05-chat",
+      "title": "Start with a conversation.",
+      "sourceType": "design-render",
+      "nativeCaptureVerified": false
+    },
+    {
+      "file": "app-store/iphone-6.5/06-profile.png",
+      "width": 1242,
+      "height": 2688,
+      "platform": "ios",
+      "shot": "06-profile",
+      "title": "A little about you.",
+      "sourceType": "design-render",
+      "nativeCaptureVerified": false
+    },
+    {
+      "file": "google-play/phone/01-opening.png",
+      "width": 1080,
+      "height": 1920,
+      "platform": "android",
+      "shot": "01-opening",
+      "title": "A hello starts here.",
+      "sourceType": "design-render",
+      "nativeCaptureVerified": false
+    },
+    {
+      "file": "google-play/phone/02-nearby.png",
+      "width": 1080,
+      "height": 1920,
+      "platform": "android",
+      "shot": "02-nearby",
+      "title": "People. Closer to you.",
+      "sourceType": "design-render",
+      "nativeCaptureVerified": false
+    },
+    {
+      "file": "google-play/phone/03-full-screen-map.png",
+      "width": 1080,
+      "height": 1920,
+      "platform": "android",
+      "shot": "03-full-screen-map",
+      "title": "Explore nearby.",
+      "sourceType": "design-render",
+      "nativeCaptureVerified": false
+    },
+    {
+      "file": "google-play/phone/04-connections.png",
+      "width": 1080,
+      "height": 1920,
+      "platform": "android",
+      "shot": "04-connections",
+      "title": "Your connections.",
+      "sourceType": "design-render",
+      "nativeCaptureVerified": false
+    },
+    {
+      "file": "google-play/phone/05-chat.png",
+      "width": 1080,
+      "height": 1920,
+      "platform": "android",
+      "shot": "05-chat",
+      "title": "Start a conversation.",
+      "sourceType": "design-render",
+      "nativeCaptureVerified": false
+    },
+    {
+      "file": "google-play/phone/06-profile.png",
+      "width": 1080,
+      "height": 1920,
+      "platform": "android",
+      "shot": "06-profile",
+      "title": "A little about you.",
+      "sourceType": "design-render",
+      "nativeCaptureVerified": false
+    },
+    {
+      "file": "google-play/feature-graphic.png",
+      "width": 1024,
+      "height": 500,
+      "platform": "android",
+      "shot": "feature",
+      "title": "Common interests. New connections.",
+      "sourceType": "marketing-composition",
+      "nativeCaptureVerified": false
+    }
+  ],
+  "status": "design-complete; native-capture comparison required before store submission"
+}
