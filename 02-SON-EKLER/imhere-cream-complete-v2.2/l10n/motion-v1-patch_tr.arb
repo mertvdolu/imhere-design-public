@@ -1,0 +1,7 @@
+{
+  "@@locale": "tr",
+  "motionHelloSent": "Merhaba gönderildi",
+  "@motionHelloSent": {
+    "description": "Show only after confirmed successful outgoing hello request. Not while sending, unknown or offline. Reveal animation must not change semantics."
+  }
+}

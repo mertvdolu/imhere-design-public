@@ -657,5 +657,16 @@
       "reportOther"
     ],
     "helperKey": null
+  },
+  "motionV1": {
+    "newKeys": [
+      "motionHelloSent"
+    ],
+    "deltaFiles": [
+      "motion-v1-patch_en.arb",
+      "motion-v1-patch_tr.arb"
+    ],
+    "merge": "new key only; do not overwrite live ARBs",
+    "scope": "Founder-approved plan §5.5 success label"
   }
 }

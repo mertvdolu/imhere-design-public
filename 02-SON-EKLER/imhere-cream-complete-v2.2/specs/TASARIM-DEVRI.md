@@ -91,3 +91,7 @@ Kullanıcı gizlediği yaş, cinsiyet ve mesleğini kendi profilinde görür; il
 | `profileHiddenToOthers` | Not visible to others | Başkalarına görünmez |
 
 İki own-profile durumu × TR/EN × iOS/Android × %100/%200 = 16 güncellenmiş çizim. Toplam durum sayısı değişmedi.
+
+## Hareket ve His v1 — güncel hareket kaynağı
+
+Önceki durağan hareket kuralları yerine Founder onaylı [v1 hareket spesifikasyonu](../motion/hareket-ve-his-v1/SPEC.md) geçerlidir. Harita kişisel işaret içermez; dalga viewport kenarından başlar. Renk, ürün ve gizlilik kuralları korunur. Hareketi azalt:150ms opaklık, döngü yok; açılış logosu doğrudan. Native uygulanmış kabul edilmez.

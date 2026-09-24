@@ -1,0 +1,1403 @@
+{
+  "version": "1.0",
+  "rules": {
+    "base-route": "normal standard spring with opacity150 and at most8dp vertical travel; gesture driven routes follow OS; reduced opacity150. Never block inputs. Tab underline uses standard with measured center-to-center offset, selectionClick once per user selection; at200% follow actual 2x2 bounds, no diagonal screen fly.",
+    "form-focus-error": "focus border crossfade150; new validation error on attempted submit: x=[0,2,-2,2,-2,0] at[0,40,80,120,160,200]ms, one mediumImpact at0. No shake on each keystroke, rebuild or passive load. Reduced no shake, opacity150. Error text remains until real resolution.",
+    "photo-progress": "actual bytesTransferred/totalBytes only when total>0; ring arc=2pi*p, clamp0..1. Updates reflect actual snapshot values, not elapsed time. Unknown total => indeterminate ring, no percentage. Processing rotation1200ms only while actual processing, no completion claim. Success confirmed => standard scale.98→1 plus photoUploaded. Reduced static processing label, determinate ring jumps to actual p; no loop.",
+    "native-date-picker": "platform wheel/calendar owns motion and accessibility; do not replace or simulate native gesture; read-only field, no text keyboard. Existing age rules unchanged.",
+    "own-profile-edit": "pencil input opens form through150ms opacity only; lock markers fade150 when visibility changes/own view appears. No Hero or hidden-field animation on someone else profile.",
+    "keyboard-follow": "composer + counter + Send + Done follow current OS viewInsets, no second spring/tween; background tap/scroll dismiss. Never animate a keyboard that OS is not showing. Large text can grow composer vertically, controls48dp.",
+    "safety-minimal": "opacity150 only, no ring, confetti, hero or celebration. Report received only on server confirmation. A single light success feedback permitted on confirmed submit, mediumImpact on new failure; no repetitive feedback.",
+    "deletion-minimal": "no scale/spatial flourish, opacity150 at confirmed received/completed/failure states; do not equate request received with deleted. No celebration or manipulation, no haptic.",
+    "settings-contact-minimal": "standard route or reduced150 fade; no loop. Address copied indicator only after clipboard operation succeeds; no mailto. Contact retained values and observed information rules unchanged.",
+    "closed-card-preserved": "after confirmed end, open-only detail area height→0 over150ms ease-out and closed label opacity150. Closed row and profile stay in list, neutral cause-free label preserved. Do not collapse the entire row or suggest messages erased.",
+    "empty-breathe": "one existing decorative glyph opacity .55..70 over4000ms cosine; do not add a person dot or activity indication. Disabled when error/offline/loading, hidden tab or background. Reduced static .65. Never indicate hidden people.",
+    "error-strip": "only existing error/status container: offsetY -4→0 and opacity0→1 over150ms. Resolution fades150ms; never dismiss by timer or cover Retry. Reduced opacity only. Existing startup error screens retain their single action, no extra UI required.",
+    "tab-indicator": "selected underline slides standard spring between actual tab label centers; logical selected state and accessibility update immediately. One selectionClick at input, none on initial route. Reduced old/new underline crossfade150."
+  },
+  "states": {
+    "block-busy": [
+      "base-route",
+      "safety-minimal"
+    ],
+    "block-confirm": [
+      "base-route",
+      "safety-minimal"
+    ],
+    "block-done": [
+      "base-route",
+      "safety-minimal"
+    ],
+    "block-failed": [
+      "base-route",
+      "safety-minimal",
+      "error-strip"
+    ],
+    "block-offline": [
+      "base-route",
+      "safety-minimal",
+      "error-strip"
+    ],
+    "block-unknown": [
+      "base-route",
+      "safety-minimal",
+      "error-strip"
+    ],
+    "blocked-empty": [
+      "base-route",
+      "empty-breathe"
+    ],
+    "blocked-failed": [
+      "base-route",
+      "error-strip"
+    ],
+    "blocked-loading": [
+      "base-route"
+    ],
+    "blocked-offline": [
+      "base-route",
+      "error-strip"
+    ],
+    "blocked-ready": [
+      "base-route"
+    ],
+    "chat-active": [
+      "base-route",
+      "07-paper-message",
+      "keyboard-follow",
+      "tab-indicator"
+    ],
+    "chat-at-limit": [
+      "base-route",
+      "07-paper-message",
+      "keyboard-follow",
+      "tab-indicator"
+    ],
+    "chat-closed": [
+      "base-route",
+      "07-paper-message",
+      "keyboard-follow",
+      "tab-indicator"
+    ],
+    "chat-composing": [
+      "base-route",
+      "07-paper-message",
+      "keyboard-follow",
+      "tab-indicator"
+    ],
+    "chat-empty": [
+      "base-route",
+      "07-paper-message",
+      "keyboard-follow",
+      "empty-breathe",
+      "tab-indicator"
+    ],
+    "chat-failed": [
+      "base-route",
+      "07-paper-message",
+      "keyboard-follow",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "chat-limit": [
+      "base-route",
+      "07-paper-message",
+      "keyboard-follow",
+      "tab-indicator"
+    ],
+    "chat-loading": [
+      "base-route",
+      "07-paper-message",
+      "keyboard-follow",
+      "tab-indicator"
+    ],
+    "chat-mutual": [
+      "base-route",
+      "07-paper-message",
+      "keyboard-follow",
+      "tab-indicator"
+    ],
+    "chat-offline": [
+      "base-route",
+      "07-paper-message",
+      "keyboard-follow",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "chat-over-limit": [
+      "base-route",
+      "07-paper-message",
+      "keyboard-follow",
+      "tab-indicator"
+    ],
+    "chat-retention-deleted": [
+      "base-route",
+      "07-paper-message",
+      "keyboard-follow",
+      "tab-indicator"
+    ],
+    "chat-retention-warning": [
+      "base-route",
+      "07-paper-message",
+      "keyboard-follow",
+      "tab-indicator"
+    ],
+    "chat-send-failed": [
+      "base-route",
+      "07-paper-message",
+      "keyboard-follow",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "chat-sending": [
+      "base-route",
+      "07-paper-message",
+      "keyboard-follow",
+      "tab-indicator"
+    ],
+    "chat-soft-failed": [
+      "base-route",
+      "07-paper-message",
+      "keyboard-follow",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "chat-soft-sending": [
+      "base-route",
+      "07-paper-message",
+      "keyboard-follow",
+      "tab-indicator"
+    ],
+    "chat-soft-warning": [
+      "base-route",
+      "07-paper-message",
+      "keyboard-follow",
+      "tab-indicator"
+    ],
+    "chat-unavailable": [
+      "base-route",
+      "07-paper-message",
+      "keyboard-follow",
+      "tab-indicator"
+    ],
+    "chat-unknown": [
+      "base-route",
+      "07-paper-message",
+      "keyboard-follow",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "checkin-01-inactive": [
+      "base-route",
+      "02-presence-boundary",
+      "tab-indicator"
+    ],
+    "checkin-02-acquiring": [
+      "base-route",
+      "02-presence-boundary",
+      "tab-indicator"
+    ],
+    "checkin-03-verifying": [
+      "base-route",
+      "02-presence-boundary",
+      "tab-indicator"
+    ],
+    "checkin-03b-unknown": [
+      "base-route",
+      "02-presence-boundary",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "checkin-04-active": [
+      "base-route",
+      "02-presence-boundary",
+      "tab-indicator",
+      "03-paper-list"
+    ],
+    "checkin-05-renewing": [
+      "base-route",
+      "02-presence-boundary",
+      "tab-indicator"
+    ],
+    "checkin-06-stopped": [
+      "base-route",
+      "02-presence-boundary",
+      "tab-indicator"
+    ],
+    "checkin-07-expired": [
+      "base-route",
+      "02-presence-boundary",
+      "tab-indicator"
+    ],
+    "checkin-backend-unavailable": [
+      "base-route",
+      "02-presence-boundary",
+      "tab-indicator"
+    ],
+    "component-input": [
+      "base-route",
+      "tab-indicator"
+    ],
+    "connections-open-closed": [
+      "base-route",
+      "03-paper-list",
+      "closed-card-preserved",
+      "tab-indicator"
+    ],
+    "contact-all": [
+      "base-route",
+      "settings-contact-minimal",
+      "tab-indicator"
+    ],
+    "contact-edit": [
+      "base-route",
+      "settings-contact-minimal",
+      "tab-indicator"
+    ],
+    "contact-empty": [
+      "base-route",
+      "settings-contact-minimal",
+      "tab-indicator"
+    ],
+    "contact-failed": [
+      "base-route",
+      "settings-contact-minimal",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "contact-filled": [
+      "base-route",
+      "settings-contact-minimal",
+      "tab-indicator"
+    ],
+    "contact-invalid": [
+      "base-route",
+      "settings-contact-minimal",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "contact-last-withdrawn": [
+      "base-route",
+      "settings-contact-minimal",
+      "tab-indicator"
+    ],
+    "contact-loading": [
+      "base-route",
+      "settings-contact-minimal",
+      "tab-indicator"
+    ],
+    "contact-more-all": [
+      "base-route",
+      "settings-contact-minimal",
+      "tab-indicator"
+    ],
+    "contact-more-empty": [
+      "base-route",
+      "settings-contact-minimal",
+      "tab-indicator"
+    ],
+    "contact-more-failed": [
+      "base-route",
+      "settings-contact-minimal",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "contact-more-offline": [
+      "base-route",
+      "settings-contact-minimal",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "contact-more-partial": [
+      "base-route",
+      "settings-contact-minimal",
+      "tab-indicator"
+    ],
+    "contact-more-saved": [
+      "base-route",
+      "settings-contact-minimal",
+      "tab-indicator"
+    ],
+    "contact-more-selected": [
+      "base-route",
+      "settings-contact-minimal",
+      "tab-indicator"
+    ],
+    "contact-more-sharing": [
+      "base-route",
+      "settings-contact-minimal",
+      "tab-indicator"
+    ],
+    "contact-none": [
+      "base-route",
+      "settings-contact-minimal",
+      "tab-indicator"
+    ],
+    "contact-offline": [
+      "base-route",
+      "settings-contact-minimal",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "contact-one": [
+      "base-route",
+      "settings-contact-minimal",
+      "tab-indicator"
+    ],
+    "contact-own-empty": [
+      "base-route",
+      "settings-contact-minimal",
+      "tab-indicator"
+    ],
+    "contact-received": [
+      "base-route",
+      "settings-contact-minimal",
+      "tab-indicator"
+    ],
+    "contact-share-failed": [
+      "base-route",
+      "settings-contact-minimal",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "contact-shared": [
+      "base-route",
+      "settings-contact-minimal",
+      "tab-indicator"
+    ],
+    "contact-sharing": [
+      "base-route",
+      "settings-contact-minimal",
+      "tab-indicator"
+    ],
+    "contact-unavailable": [
+      "base-route",
+      "settings-contact-minimal",
+      "tab-indicator"
+    ],
+    "contact-update-failed": [
+      "base-route",
+      "settings-contact-minimal",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "contact-update-success": [
+      "base-route",
+      "settings-contact-minimal",
+      "tab-indicator"
+    ],
+    "contact-updating": [
+      "base-route",
+      "settings-contact-minimal",
+      "tab-indicator"
+    ],
+    "contact-withdraw-confirm": [
+      "base-route",
+      "settings-contact-minimal",
+      "tab-indicator"
+    ],
+    "contact-withdraw-failed": [
+      "base-route",
+      "settings-contact-minimal",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "contact-withdrawing": [
+      "base-route",
+      "settings-contact-minimal",
+      "tab-indicator"
+    ],
+    "contact-withdrawn": [
+      "base-route",
+      "settings-contact-minimal",
+      "tab-indicator"
+    ],
+    "continue-choices": [
+      "base-route",
+      "tab-indicator"
+    ],
+    "continue-ended": [
+      "base-route",
+      "tab-indicator"
+    ],
+    "continue-failed": [
+      "base-route",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "continue-loading": [
+      "base-route",
+      "tab-indicator"
+    ],
+    "continue-no-confirm": [
+      "base-route",
+      "tab-indicator"
+    ],
+    "continue-no-failed": [
+      "base-route",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "continue-no-saving": [
+      "base-route",
+      "tab-indicator"
+    ],
+    "continue-offline": [
+      "base-route",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "continue-readonly-failed": [
+      "base-route",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "continue-readonly-loading": [
+      "base-route",
+      "tab-indicator"
+    ],
+    "continue-withdraw-failed": [
+      "base-route",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "continue-withdraw-saving": [
+      "base-route",
+      "tab-indicator"
+    ],
+    "continue-withdrawn": [
+      "base-route",
+      "tab-indicator"
+    ],
+    "continue-yes-failed": [
+      "base-route",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "continue-yes-saved": [
+      "base-route",
+      "tab-indicator"
+    ],
+    "continue-yes-saving": [
+      "base-route",
+      "tab-indicator"
+    ],
+    "delete-busy": [
+      "deletion-minimal"
+    ],
+    "delete-confirm": [
+      "deletion-minimal"
+    ],
+    "delete-done": [
+      "deletion-minimal"
+    ],
+    "delete-failed": [
+      "deletion-minimal",
+      "error-strip"
+    ],
+    "delete-offline": [
+      "deletion-minimal",
+      "error-strip"
+    ],
+    "delete-reauth": [
+      "deletion-minimal"
+    ],
+    "delete-received": [
+      "deletion-minimal"
+    ],
+    "delete-scope-unavailable": [
+      "deletion-minimal"
+    ],
+    "delete-unknown": [
+      "deletion-minimal",
+      "error-strip"
+    ],
+    "end-busy": [
+      "base-route",
+      "safety-minimal"
+    ],
+    "end-confirm": [
+      "base-route",
+      "safety-minimal"
+    ],
+    "end-done": [
+      "base-route",
+      "safety-minimal",
+      "closed-card-preserved"
+    ],
+    "end-failed": [
+      "base-route",
+      "safety-minimal",
+      "error-strip"
+    ],
+    "end-offline": [
+      "base-route",
+      "safety-minimal",
+      "error-strip"
+    ],
+    "end-unknown": [
+      "base-route",
+      "safety-minimal",
+      "error-strip"
+    ],
+    "events-offline": [
+      "base-route",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "events-placeholder": [
+      "base-route",
+      "tab-indicator"
+    ],
+    "form-edit": [
+      "base-route",
+      "form-focus-error",
+      "native-date-picker",
+      "tab-indicator"
+    ],
+    "form-empty": [
+      "base-route",
+      "form-focus-error",
+      "native-date-picker"
+    ],
+    "form-filled": [
+      "base-route",
+      "form-focus-error",
+      "native-date-picker"
+    ],
+    "form-invalid": [
+      "base-route",
+      "form-focus-error",
+      "native-date-picker",
+      "error-strip"
+    ],
+    "form-offline": [
+      "base-route",
+      "form-focus-error",
+      "native-date-picker",
+      "error-strip"
+    ],
+    "form-save-failed": [
+      "base-route",
+      "form-focus-error",
+      "native-date-picker",
+      "error-strip"
+    ],
+    "form-saving": [
+      "base-route",
+      "form-focus-error",
+      "native-date-picker"
+    ],
+    "gender": [
+      "base-route",
+      "native-date-picker"
+    ],
+    "intent-accept-both": [
+      "base-route"
+    ],
+    "intent-accept-empty": [
+      "base-route"
+    ],
+    "intent-accept-failed": [
+      "base-route",
+      "error-strip"
+    ],
+    "intent-accept-offline": [
+      "base-route",
+      "error-strip"
+    ],
+    "intent-accept-one": [
+      "base-route"
+    ],
+    "intent-accept-submitting": [
+      "base-route"
+    ],
+    "intent-send-both": [
+      "base-route",
+      "05-hello-ink"
+    ],
+    "intent-send-empty": [
+      "base-route",
+      "05-hello-ink"
+    ],
+    "intent-send-failed": [
+      "base-route",
+      "05-hello-ink",
+      "error-strip"
+    ],
+    "intent-send-offline": [
+      "base-route",
+      "05-hello-ink",
+      "error-strip"
+    ],
+    "intent-send-one": [
+      "base-route",
+      "05-hello-ink"
+    ],
+    "intent-send-submitting": [
+      "base-route",
+      "05-hello-ink"
+    ],
+    "interests-empty": [
+      "base-route"
+    ],
+    "interests-max": [
+      "base-route"
+    ],
+    "interests-selected": [
+      "base-route"
+    ],
+    "invite-checking": [
+      "base-route",
+      "form-focus-error"
+    ],
+    "invite-empty": [
+      "base-route",
+      "form-focus-error"
+    ],
+    "invite-filled": [
+      "base-route",
+      "form-focus-error"
+    ],
+    "invite-invalid": [
+      "base-route",
+      "form-focus-error",
+      "error-strip"
+    ],
+    "invite-offline": [
+      "base-route",
+      "form-focus-error",
+      "error-strip"
+    ],
+    "invite-retry": [
+      "base-route",
+      "form-focus-error"
+    ],
+    "language-device": [
+      "base-route",
+      "settings-contact-minimal"
+    ],
+    "language-en": [
+      "base-route",
+      "settings-contact-minimal"
+    ],
+    "language-tr": [
+      "base-route",
+      "settings-contact-minimal"
+    ],
+    "languages-empty": [
+      "base-route"
+    ],
+    "legal-privacy-failed": [
+      "base-route",
+      "settings-contact-minimal",
+      "error-strip"
+    ],
+    "legal-privacy-loading": [
+      "base-route",
+      "settings-contact-minimal"
+    ],
+    "legal-privacy-offline": [
+      "base-route",
+      "settings-contact-minimal",
+      "error-strip"
+    ],
+    "legal-privacy-unavailable": [
+      "base-route",
+      "settings-contact-minimal"
+    ],
+    "legal-terms-failed": [
+      "base-route",
+      "settings-contact-minimal",
+      "error-strip"
+    ],
+    "legal-terms-loading": [
+      "base-route",
+      "settings-contact-minimal"
+    ],
+    "legal-terms-offline": [
+      "base-route",
+      "settings-contact-minimal",
+      "error-strip"
+    ],
+    "legal-terms-unavailable": [
+      "base-route",
+      "settings-contact-minimal"
+    ],
+    "login-empty": [
+      "base-route",
+      "form-focus-error"
+    ],
+    "login-failed": [
+      "base-route",
+      "form-focus-error",
+      "error-strip"
+    ],
+    "login-filled": [
+      "base-route",
+      "form-focus-error"
+    ],
+    "login-invalid": [
+      "base-route",
+      "form-focus-error",
+      "error-strip"
+    ],
+    "login-offline": [
+      "base-route",
+      "form-focus-error",
+      "error-strip"
+    ],
+    "login-submitting": [
+      "base-route",
+      "form-focus-error"
+    ],
+    "login-too-many-attempts": [
+      "base-route",
+      "form-focus-error"
+    ],
+    "logout-busy": [
+      "base-route",
+      "settings-contact-minimal",
+      "tab-indicator"
+    ],
+    "logout-failed": [
+      "base-route",
+      "settings-contact-minimal",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "logout-offline": [
+      "base-route",
+      "settings-contact-minimal",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "logout-ready": [
+      "base-route",
+      "settings-contact-minimal",
+      "tab-indicator"
+    ],
+    "map-empty": [
+      "base-route",
+      "02-presence-boundary"
+    ],
+    "map-empty-no-region": [
+      "base-route",
+      "02-presence-boundary"
+    ],
+    "map-failed": [
+      "base-route",
+      "02-presence-boundary",
+      "error-strip"
+    ],
+    "map-legend": [
+      "base-route",
+      "02-presence-boundary"
+    ],
+    "map-loading": [
+      "base-route",
+      "02-presence-boundary"
+    ],
+    "map-offline": [
+      "base-route",
+      "02-presence-boundary",
+      "error-strip"
+    ],
+    "map-partial": [
+      "base-route",
+      "02-presence-boundary"
+    ],
+    "map-ready": [
+      "base-route",
+      "02-presence-boundary"
+    ],
+    "map-stale": [
+      "base-route",
+      "02-presence-boundary"
+    ],
+    "match-different": [
+      "base-route",
+      "06-two-points",
+      "tab-indicator"
+    ],
+    "match-failed": [
+      "base-route",
+      "06-two-points",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "match-loading": [
+      "base-route",
+      "06-two-points",
+      "tab-indicator"
+    ],
+    "match-offline": [
+      "base-route",
+      "06-two-points",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "match-shared": [
+      "base-route",
+      "06-two-points",
+      "tab-indicator"
+    ],
+    "messages-connections-empty": [
+      "base-route",
+      "03-paper-list",
+      "empty-breathe",
+      "tab-indicator"
+    ],
+    "messages-connections-failed": [
+      "base-route",
+      "03-paper-list",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "messages-connections-loading": [
+      "base-route",
+      "03-paper-list",
+      "tab-indicator"
+    ],
+    "messages-connections-offline": [
+      "base-route",
+      "03-paper-list",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "messages-connections-ready": [
+      "base-route",
+      "03-paper-list",
+      "tab-indicator"
+    ],
+    "messages-requests-empty": [
+      "base-route",
+      "03-paper-list",
+      "empty-breathe",
+      "tab-indicator"
+    ],
+    "messages-requests-failed": [
+      "base-route",
+      "03-paper-list",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "messages-requests-loading": [
+      "base-route",
+      "03-paper-list",
+      "tab-indicator"
+    ],
+    "messages-requests-offline": [
+      "base-route",
+      "03-paper-list",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "messages-requests-ready": [
+      "base-route",
+      "03-paper-list",
+      "tab-indicator"
+    ],
+    "nearby-empty": [
+      "base-route",
+      "empty-breathe",
+      "tab-indicator"
+    ],
+    "nearby-failed": [
+      "base-route",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "nearby-limited": [
+      "base-route",
+      "03-paper-list",
+      "tab-indicator"
+    ],
+    "nearby-loading": [
+      "base-route",
+      "tab-indicator"
+    ],
+    "nearby-offline": [
+      "base-route",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "notice-network": [
+      "base-route",
+      "02-presence-boundary",
+      "tab-indicator"
+    ],
+    "notice-noFix": [
+      "base-route",
+      "02-presence-boundary",
+      "tab-indicator"
+    ],
+    "notice-oldExpiredVerifying": [
+      "base-route",
+      "02-presence-boundary",
+      "tab-indicator"
+    ],
+    "notice-permission": [
+      "base-route",
+      "02-presence-boundary",
+      "tab-indicator"
+    ],
+    "notice-permissionForever": [
+      "base-route",
+      "02-presence-boundary",
+      "tab-indicator"
+    ],
+    "notice-precise": [
+      "base-route",
+      "02-presence-boundary",
+      "tab-indicator"
+    ],
+    "notice-renewalFailed": [
+      "base-route",
+      "02-presence-boundary",
+      "tab-indicator"
+    ],
+    "notice-server": [
+      "base-route",
+      "02-presence-boundary",
+      "tab-indicator"
+    ],
+    "notice-servicesOff": [
+      "base-route",
+      "02-presence-boundary",
+      "tab-indicator"
+    ],
+    "notice-stopPending": [
+      "base-route",
+      "02-presence-boundary",
+      "tab-indicator"
+    ],
+    "notice-stopSuperseded": [
+      "base-route",
+      "02-presence-boundary",
+      "tab-indicator"
+    ],
+    "notice-verifying": [
+      "base-route",
+      "02-presence-boundary",
+      "tab-indicator"
+    ],
+    "notifications-allowed": [
+      "base-route"
+    ],
+    "notifications-checking": [
+      "base-route"
+    ],
+    "notifications-denied": [
+      "base-route"
+    ],
+    "notifications-failed": [
+      "base-route",
+      "error-strip"
+    ],
+    "notifications-intro": [
+      "base-route"
+    ],
+    "notifications-offline": [
+      "base-route",
+      "error-strip"
+    ],
+    "notifications-settings-failed": [
+      "base-route",
+      "error-strip"
+    ],
+    "person-connected-hidden": [
+      "base-route",
+      "04-photo-hero",
+      "safety-minimal",
+      "tab-indicator"
+    ],
+    "person-connected-visible": [
+      "base-route",
+      "04-photo-hero",
+      "safety-minimal",
+      "tab-indicator"
+    ],
+    "person-cooldown-hidden": [
+      "base-route",
+      "04-photo-hero",
+      "safety-minimal",
+      "tab-indicator"
+    ],
+    "person-cooldown-visible": [
+      "base-route",
+      "04-photo-hero",
+      "safety-minimal",
+      "tab-indicator"
+    ],
+    "person-pending-hidden": [
+      "base-route",
+      "04-photo-hero",
+      "safety-minimal",
+      "tab-indicator"
+    ],
+    "person-pending-visible": [
+      "base-route",
+      "04-photo-hero",
+      "safety-minimal",
+      "tab-indicator"
+    ],
+    "photo-denied": [
+      "base-route",
+      "photo-progress"
+    ],
+    "photo-failed": [
+      "base-route",
+      "photo-progress",
+      "error-strip"
+    ],
+    "photo-preparing": [
+      "base-route",
+      "photo-progress"
+    ],
+    "photo-processing": [
+      "base-route",
+      "photo-progress"
+    ],
+    "photo-selected": [
+      "base-route",
+      "photo-progress"
+    ],
+    "photo-uploading": [
+      "base-route",
+      "photo-progress"
+    ],
+    "profile-complete": [
+      "base-route"
+    ],
+    "push-ambient": [
+      "base-route"
+    ],
+    "push-message": [
+      "base-route"
+    ],
+    "push-reminder": [
+      "base-route"
+    ],
+    "push-request": [
+      "base-route"
+    ],
+    "reauth-required": [
+      "base-route"
+    ],
+    "register-creating": [
+      "base-route",
+      "form-focus-error"
+    ],
+    "register-email-invalid": [
+      "base-route",
+      "form-focus-error",
+      "error-strip"
+    ],
+    "register-email-unavailable": [
+      "base-route",
+      "form-focus-error"
+    ],
+    "register-empty": [
+      "base-route",
+      "form-focus-error"
+    ],
+    "register-failed": [
+      "base-route",
+      "form-focus-error",
+      "error-strip"
+    ],
+    "register-filled": [
+      "base-route",
+      "form-focus-error"
+    ],
+    "register-offline": [
+      "base-route",
+      "form-focus-error",
+      "error-strip"
+    ],
+    "register-password-rejected": [
+      "base-route",
+      "form-focus-error"
+    ],
+    "register-too-many-attempts": [
+      "base-route",
+      "form-focus-error"
+    ],
+    "report-block-busy": [
+      "base-route",
+      "safety-minimal"
+    ],
+    "report-block-done": [
+      "base-route",
+      "safety-minimal"
+    ],
+    "report-block-failed": [
+      "base-route",
+      "safety-minimal",
+      "error-strip"
+    ],
+    "report-empty": [
+      "base-route",
+      "safety-minimal"
+    ],
+    "report-failed": [
+      "base-route",
+      "safety-minimal",
+      "error-strip"
+    ],
+    "report-offline": [
+      "base-route",
+      "safety-minimal",
+      "error-strip"
+    ],
+    "report-selected": [
+      "base-route",
+      "safety-minimal"
+    ],
+    "report-sending": [
+      "base-route",
+      "safety-minimal"
+    ],
+    "report-sent": [
+      "base-route",
+      "safety-minimal"
+    ],
+    "report-unknown": [
+      "base-route",
+      "safety-minimal",
+      "error-strip"
+    ],
+    "request-cancel-failed": [
+      "base-route",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "request-cancelled": [
+      "base-route",
+      "tab-indicator"
+    ],
+    "request-cancelling": [
+      "base-route",
+      "tab-indicator"
+    ],
+    "request-crossed": [
+      "base-route",
+      "tab-indicator"
+    ],
+    "request-decline-failed": [
+      "base-route",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "request-declined": [
+      "base-route",
+      "tab-indicator"
+    ],
+    "request-declining": [
+      "base-route",
+      "tab-indicator"
+    ],
+    "request-expired": [
+      "base-route",
+      "tab-indicator"
+    ],
+    "request-full": [
+      "base-route",
+      "tab-indicator"
+    ],
+    "request-incoming": [
+      "base-route",
+      "tab-indicator"
+    ],
+    "request-offline": [
+      "base-route",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "request-pending": [
+      "base-route",
+      "05-hello-ink",
+      "tab-indicator"
+    ],
+    "request-unavailable": [
+      "base-route",
+      "tab-indicator"
+    ],
+    "reset-empty": [
+      "base-route",
+      "form-focus-error"
+    ],
+    "reset-failed": [
+      "base-route",
+      "form-focus-error",
+      "error-strip"
+    ],
+    "reset-filled": [
+      "base-route",
+      "form-focus-error"
+    ],
+    "reset-invalid": [
+      "base-route",
+      "form-focus-error",
+      "error-strip"
+    ],
+    "reset-offline": [
+      "base-route",
+      "form-focus-error",
+      "error-strip"
+    ],
+    "reset-sending": [
+      "base-route",
+      "form-focus-error"
+    ],
+    "reset-sent": [
+      "base-route",
+      "form-focus-error"
+    ],
+    "safety-menu": [
+      "base-route",
+      "safety-minimal"
+    ],
+    "safety-unavailable": [
+      "base-route",
+      "safety-minimal"
+    ],
+    "settings-root": [
+      "base-route",
+      "settings-contact-minimal",
+      "tab-indicator"
+    ],
+    "splash": [
+      "01-ink-signature"
+    ],
+    "startup-offline": [
+      "base-route",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "startup-unreachable": [
+      "base-route",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "support-email-copied": [
+      "base-route",
+      "settings-contact-minimal"
+    ],
+    "support-email-unavailable": [
+      "base-route",
+      "settings-contact-minimal"
+    ],
+    "unblock-busy": [
+      "base-route",
+      "safety-minimal"
+    ],
+    "unblock-confirm": [
+      "base-route",
+      "safety-minimal"
+    ],
+    "unblock-done": [
+      "base-route",
+      "safety-minimal"
+    ],
+    "unblock-failed": [
+      "base-route",
+      "safety-minimal",
+      "error-strip"
+    ],
+    "unblock-offline": [
+      "base-route",
+      "safety-minimal",
+      "error-strip"
+    ],
+    "unblock-unknown": [
+      "base-route",
+      "safety-minimal",
+      "error-strip"
+    ],
+    "verify-checking": [
+      "base-route"
+    ],
+    "verify-invalid-link": [
+      "base-route",
+      "error-strip"
+    ],
+    "verify-not-yet": [
+      "base-route"
+    ],
+    "verify-offline": [
+      "base-route",
+      "error-strip"
+    ],
+    "verify-resend-busy": [
+      "base-route"
+    ],
+    "verify-resend-disabled": [
+      "base-route"
+    ],
+    "verify-send-failed": [
+      "base-route",
+      "error-strip"
+    ],
+    "verify-sending": [
+      "base-route"
+    ],
+    "verify-waiting": [
+      "base-route"
+    ],
+    "view-failed": [
+      "base-route",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "view-loading": [
+      "base-route",
+      "tab-indicator"
+    ],
+    "view-offline": [
+      "base-route",
+      "error-strip",
+      "tab-indicator"
+    ],
+    "view-other-hidden": [
+      "base-route",
+      "04-photo-hero",
+      "safety-minimal",
+      "tab-indicator"
+    ],
+    "view-other-visible": [
+      "base-route",
+      "04-photo-hero",
+      "safety-minimal",
+      "tab-indicator"
+    ],
+    "view-own-hidden": [
+      "base-route",
+      "own-profile-edit",
+      "tab-indicator"
+    ],
+    "view-own-visible": [
+      "base-route",
+      "own-profile-edit",
+      "tab-indicator"
+    ],
+    "view-unavailable": [
+      "base-route",
+      "tab-indicator"
+    ],
+    "visibility-default": [
+      "base-route",
+      "native-date-picker"
+    ],
+    "visibility-hidden": [
+      "base-route",
+      "native-date-picker"
+    ],
+    "welcome": [
+      "base-route"
+    ]
+  },
+  "signatureRefs": "signature-moments.json",
+  "runtimeGuards": "A reference identifies possible transitions, not unconditional play on every state. Error/loading/offline states never run success motions."
+}

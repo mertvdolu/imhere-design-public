@@ -1,0 +1,80 @@
+{
+  "version": "1.0",
+  "units": {
+    "time": "ms",
+    "distance": "logical pixels (Flutter dp)",
+    "angles": "radians",
+    "opacity": "0..1"
+  },
+  "quick": {
+    "durationMs": 150,
+    "curve": "easeOutCubic",
+    "cubic": [
+      0.215,
+      0.61,
+      0.355,
+      1
+    ]
+  },
+  "standard": {
+    "mass": 1,
+    "dampingRatio": 0.9,
+    "responseSeconds": 0.35,
+    "stiffness": 322.27279677026473,
+    "damping": 32.313524436923586,
+    "initialVelocity": 0,
+    "settleReferenceMs": 483.3333333333333
+  },
+  "expressive": {
+    "mass": 1,
+    "dampingRatio": 0.75,
+    "responseSeconds": 0.45,
+    "stiffness": 194.9551486634935,
+    "damping": 20.943951023931955,
+    "initialVelocity": 0,
+    "settleReferenceMs": 650
+  },
+  "stagger": {
+    "intervalMs": 40,
+    "maxItems": 6,
+    "maxTotalDelayMs": 200
+  },
+  "reduced": {
+    "durationMs": 150,
+    "property": "opacity",
+    "curve": "linear",
+    "spatialMotion": false,
+    "loops": false,
+    "stagger": false,
+    "coldStartLogo": "visible immediately"
+  },
+  "springConvention": {
+    "responseMeaning": "undamped natural period; not an animation duration",
+    "formula": "omega=2*pi/response; stiffness=mass*omega^2; damping=2*dampingRatio*mass*omega",
+    "tolerance": {
+      "distanceNormalized": 0.001,
+      "velocityNormalizedPerSecond": 0.01
+    },
+    "retarget": "current position and velocity; avoid restarting at zero",
+    "fixedDuration": "for constrained 150ms/500ms tracks use stated curve, not a cut spring"
+  },
+  "haptics": {
+    "selection": "HapticFeedback.selectionClick",
+    "success": "HapticFeedback.lightImpact",
+    "error": "HapticFeedback.mediumImpact",
+    "scroll": "none",
+    "deduplicate": "one per committed event ID, not per rebuild; no catch-up when returning to foreground",
+    "timing": "request time relative to actual event; platform scheduling is not sample-accurate",
+    "reduced": "meaningful single feedback retained; respect platform setting; never a repeating pattern"
+  },
+  "global": {
+    "noNewRuntimeDependencies": true,
+    "motionMustNotGateActions": "Never delay backend work, a navigation already requested, or a safety action. Match CTA has the explicit850..1000ms visual cue from the approved plan; reduced150ms.",
+    "offscreenControllersPaused": true,
+    "backgroundControllersPaused": true,
+    "reducedReadAtRuntime": "AccessibilityFeatures.reduceMotion OR disableAnimations, plus MediaQuery disableAnimations; update live",
+    "maxDecorativeLoopsPerScreen": 1,
+    "functionalPendingReduced": "static status and determinate jumps, no rotating spinner per approved plan",
+    "performance": "60fps target, not a measured result"
+  }
+}

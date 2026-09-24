@@ -2,7 +2,7 @@
   "version": "2.2",
   "name": "IM HERE / Cream & Ink complete design",
   "date": "2026-09-24",
-  "files": 3076,
+  "files": 3110,
   "screenStates": 298,
   "svgVariants": 2384,
   "pngVariants": 596,
@@ -19,13 +19,13 @@
     },
     {
       "file": "ONIZLEME.html",
-      "bytes": 2363,
-      "sha256": "a9d6efb4e3c8a7a876ff7b3f3687b2315895b686125a9ce3e14df2e65badccb1"
+      "bytes": 2441,
+      "sha256": "f898c1d5a589156ef40dfa4e3605c2e11556f765d0a0922d1efb378d244e0fe3"
     },
     {
       "file": "README.md",
-      "bytes": 1528,
-      "sha256": "21f8ee0c072d7c06298676651df9bb5505ea2dbd250f5c9f52b37907b717185b"
+      "bytes": 1770,
+      "sha256": "18a86358550b4d09368cb963dd0cfca684235eeb485a9418fda8fd392ab115cc"
     },
     {
       "file": "assets/city-evening.webp",
@@ -214,8 +214,8 @@
     },
     {
       "file": "catalog-ui.js",
-      "bytes": 2885,
-      "sha256": "ecdde0b671f0b474210b941d6db20ee1bd22e807845c226cc15e60bc64fe3f17"
+      "bytes": 3107,
+      "sha256": "8ea7baf656725a395b34f9c92272a10b0950728b7f17bc0f1943666f4ff60ab6"
     },
     {
       "file": "catalog.css",
@@ -224,8 +224,8 @@
     },
     {
       "file": "catalog.js",
-      "bytes": 1653084,
-      "sha256": "71e120a005a422845563c647eacd5d945137ce75555b9c73448cbb2d4794e2c7"
+      "bytes": 2195156,
+      "sha256": "e22ea4878a0b8c0e399576481f50cf3f111ae5fd1ec8c545f2ab1d0c0fb22059"
     },
     {
       "file": "contracts/checkin-notices.json",
@@ -239,8 +239,8 @@
     },
     {
       "file": "contracts/screen-manifest.json",
-      "bytes": 2335582,
-      "sha256": "ad0e6cef84942065ab0061e56519c2fdaad04a31a0e4414dff8b35d0daf17b50"
+      "bytes": 3053374,
+      "sha256": "f0c1cd5faa819d4ab51e6e001b72779c7a394862e9584ac84962cb1a483c7ba6"
     },
     {
       "file": "evidence/assets-validation.json",
@@ -254,8 +254,8 @@
     },
     {
       "file": "evidence/validation.json",
-      "bytes": 23558,
-      "sha256": "6c58a58446a4e85de9e93fb5081d0f28a022c68a5284ad1e94efb4348450ac70"
+      "bytes": 25902,
+      "sha256": "2513a1798bfb94284a65744de3252430a601dd255225d0987f4bcc5c93d18a17"
     },
     {
       "file": "experience/ONIZLEME.html",
@@ -399,8 +399,18 @@
     },
     {
       "file": "l10n/migration.json",
-      "bytes": 28366,
-      "sha256": "f05914c2ee07161b8fcd460869a726c87632d2ec57913285a4c08b3743f51fea"
+      "bytes": 28639,
+      "sha256": "97ae7adbb45ee065ad74d9218245ada2a3da113ed20425d73956089a0bf37bfb"
+    },
+    {
+      "file": "l10n/motion-v1-patch_en.arb",
+      "bytes": 252,
+      "sha256": "34f93b1e5a27e6a1a44bc5ed1b777faf1f9bef55243acf2d1530ff099f14d715"
+    },
+    {
+      "file": "l10n/motion-v1-patch_tr.arb",
+      "bytes": 261,
+      "sha256": "2440071d14bf0e7998cabf5532818aa5268c798b5ad5d893bd3d468e6f0eda28"
     },
     {
       "file": "map/map-cream-en.json",
@@ -411,6 +421,166 @@
       "file": "map/map-cream-tr.json",
       "bytes": 5282,
       "sha256": "616575362608dd47d518a7419aca010d2c93f942e479e8f09d9f3a2c6313e653"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/MANAGER-NOTU.md",
+      "bytes": 1165,
+      "sha256": "96f69037b97d399a5d50f1d4491688f14f3b3fa4b4ffdf63c2249c7f4247d8fb"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/ONIZLEME.html",
+      "bytes": 11215,
+      "sha256": "a84f2f31381f2ca7820f42c5c935466a41d5de6d2dc05d377e3e073f11ffe9f0"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/SPEC.md",
+      "bytes": 15870,
+      "sha256": "f670386711dced0554121146ddc71035283379f81ba54c3c42da60241f3acc53"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/frames/01-ink-signature.csv",
+      "bytes": 2088,
+      "sha256": "f3a80e6143ebeabfc96bd0f9efd000bb7553843cd81809e227cb0d107cad0719"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/frames/02-presence-boundary.csv",
+      "bytes": 14039,
+      "sha256": "84d01960cb201dd5f7a50e57f6c1b42da0f74c994e75f5f130498aa01c80dcd5"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/frames/03-paper-list.csv",
+      "bytes": 6488,
+      "sha256": "a6ed22de2e07788749034785c4865fa43292c6a56c391123eafe70fcb5a9b4c1"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/frames/04-photo-hero.csv",
+      "bytes": 2315,
+      "sha256": "72c61d17610dd74a3c7a6e1372d6fb0e6950a2e912a7ef2baa20d6bf2b3ff05a"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/frames/05-hello-ink.csv",
+      "bytes": 2651,
+      "sha256": "26bc47e2440013584fee1313f0351e4479c111c68df98e2efb8a059ee7a80db3"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/frames/06-two-points.csv",
+      "bytes": 3667,
+      "sha256": "745563cf12537a89e190f9fffcb242b13b0cc969044d0dc45d6c51606eef8445"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/frames/07-paper-message.csv",
+      "bytes": 4341,
+      "sha256": "e9c57160d0a6d3f3a5855074da7fdaf694954ad39a3bb70954579da8f0822a2c"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/motion.tokens.json",
+      "bytes": 2680,
+      "sha256": "b13f890c4680f89fa27791921e70568a82485a39d74d7c3031942470911774c0"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/previews/01-ink-signature-poster.png",
+      "bytes": 23836,
+      "sha256": "e433bf51983555691b4d88dcfa8e021bac71ab88bbf9f1f6c1976c48930452fd"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/previews/01-ink-signature.gif",
+      "bytes": 643558,
+      "sha256": "5069af1a99bd5eab946a8110831c8d46d7e1ce26d59ef859c2d7bc7a3be24dc4"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/previews/02-presence-boundary-poster.png",
+      "bytes": 33266,
+      "sha256": "baa285f482539bf519864fe04be836de1d8ab249d4d29e314dc7bde4f59b4f22"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/previews/02-presence-boundary.gif",
+      "bytes": 3950482,
+      "sha256": "35351dbdb0341cd70214121a20f8e20096f09af38545b8d447b93194db987d35"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/previews/03-paper-list-poster.png",
+      "bytes": 28197,
+      "sha256": "5e7cfb04c24a87c8096b377e035dc9b8364e5001c521b114a4ea1afe2f6749c3"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/previews/03-paper-list.gif",
+      "bytes": 822994,
+      "sha256": "ee5e7cbc32537c9fbd3d9375ff89ccff72dd54b657db0debf896120e4888d290"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/previews/04-photo-hero-poster.png",
+      "bytes": 25169,
+      "sha256": "4dc1c905f361dcc1e11938f67930e64113713ddb71cd405f914e58da68b5df64"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/previews/04-photo-hero.gif",
+      "bytes": 909797,
+      "sha256": "d3748cffec900d1d6a7bf3feea15e114fefdc6df0baffa4fae3e391cd26e2f53"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/previews/05-hello-ink-poster.png",
+      "bytes": 26354,
+      "sha256": "bf4c3c8ec87b8bb747fa87f3f50b1a2c12008a7802aaca0ebc09245ee8014ff9"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/previews/05-hello-ink.gif",
+      "bytes": 915732,
+      "sha256": "d95c27286d1329b71947a14477afee767b2a93c08703b09e9eca0d754333726b"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/previews/06-two-points-poster.png",
+      "bytes": 28418,
+      "sha256": "3d979ca209c76483007369cff66fd57a1f705c0e569008d7b97ce5e0e5e56dcf"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/previews/06-two-points.gif",
+      "bytes": 909267,
+      "sha256": "daeef13591db756d89f88bc6b2279c39e6d2c91a20bd5a86a9252d2fcbe5fdd0"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/previews/07-paper-message-poster.png",
+      "bytes": 27013,
+      "sha256": "fecac542601840d07d53916f73f91b5ae8664fb02bb1b46ce8ce796de54608aa"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/previews/07-paper-message.gif",
+      "bytes": 1010673,
+      "sha256": "4d683d4a3d72328c2fe1cd6a0b320241ab898542c55b0ccba3e704c86aa8745f"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/reference/README.md",
+      "bytes": 766,
+      "sha256": "912a9a0bc84f6bf75e406aec55f8df3da08794c8b0c8612c60b6c383e3d40d2b"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/reference/motion_primitives.dart",
+      "bytes": 4843,
+      "sha256": "311cc0ee18ce82faab0953d6c7fc072668273c37fd0bfc08e88e20c09a35c3d0"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/reference/motion_primitives_test.dart",
+      "bytes": 1678,
+      "sha256": "fa16eedb6d0d62445c326bcdfd4c04a2ee2684510d80d1b2d1475ee190d4ce19"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/screen-motion-map.json",
+      "bytes": 31358,
+      "sha256": "04af9e34be0f6dbb55c1e2b72977e23e76cc9440ae707e2a065417c2d7eb15c3"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/signature-moments.json",
+      "bytes": 14703,
+      "sha256": "d186d42e2dd3a8afca7d507fbbccb6ad8ebce03de503d619b1013f9f052f95b9"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/source/hareket-ve-his-plani-v1.md",
+      "bytes": 9609,
+      "sha256": "f48aa67d5607e9bd692e2c51b934550bed64478b656ef986083208427bce554d"
+    },
+    {
+      "file": "motion/hareket-ve-his-v1/validation.json",
+      "bytes": 2161,
+      "sha256": "f55610e74c93d44b2f637b96dce5fffcb56927c35dc7019cdf7d14adcbb9fa9f"
     },
     {
       "file": "review/brand-review.png",
@@ -15374,8 +15544,8 @@
     },
     {
       "file": "specs/TASARIM-DEVRI.md",
-      "bytes": 13083,
-      "sha256": "70467f253745a8be6702f86fe3ac765b78b136ca379d176e111070d49aca4892"
+      "bytes": 13496,
+      "sha256": "a7d0078fd8c48063fbd6e934bba3e03deeb8915ede1ad9e795804deb9c61cfce"
     },
     {
       "file": "specs/TELEFON-TURU-2026-09-24.md",
@@ -15384,8 +15554,8 @@
     },
     {
       "file": "tokens/theme.tokens.json",
-      "bytes": 4108,
-      "sha256": "efbef6b9c2e75170d9a0dfe1d7fb06df5cbaa45b8904fec9b74d9a371271eb89"
+      "bytes": 6002,
+      "sha256": "7111e16032f07e9c40ae3eff5879fd8960476c64db2faf3b4253376a5153e509"
     }
   ]
 }

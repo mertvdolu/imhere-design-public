@@ -932,5 +932,90 @@
     "ownProfilesUnchanged": true,
     "betaAndCountUnchanged": true,
     "nativeBackendVerification": false
+  },
+  "motionV1": {
+    "date": "2026-09-24",
+    "scope": "design reference only",
+    "sevenPreviews": [
+      {
+        "id": "01-ink-signature",
+        "gifFrames": 36,
+        "gifDurationMs": 1440,
+        "csvFrames": 85,
+        "normalAndReduced": true
+      },
+      {
+        "id": "02-presence-boundary",
+        "gifFrames": 143,
+        "gifDurationMs": 5720,
+        "csvFrames": 343,
+        "normalAndReduced": true
+      },
+      {
+        "id": "03-paper-list",
+        "gifFrames": 36,
+        "gifDurationMs": 1440,
+        "csvFrames": 85,
+        "normalAndReduced": true
+      },
+      {
+        "id": "04-photo-hero",
+        "gifFrames": 46,
+        "gifDurationMs": 1840,
+        "csvFrames": 109,
+        "normalAndReduced": true
+      },
+      {
+        "id": "05-hello-ink",
+        "gifFrames": 43,
+        "gifDurationMs": 1720,
+        "csvFrames": 103,
+        "normalAndReduced": true
+      },
+      {
+        "id": "06-two-points",
+        "gifFrames": 41,
+        "gifDurationMs": 1640,
+        "csvFrames": 97,
+        "normalAndReduced": true
+      },
+      {
+        "id": "07-paper-message",
+        "gifFrames": 48,
+        "gifDurationMs": 1920,
+        "csvFrames": 115,
+        "normalAndReduced": true
+      }
+    ],
+    "all298StatesMapped": true,
+    "priorStatesBetaCopyAndStaticVisualsPreserved": true,
+    "staticFilesVerified": 3017,
+    "tokenPhysicsVerified": true,
+    "flutterVersion": "3.47.3",
+    "referenceAnalyze": "no issues",
+    "referenceTests": {
+      "passed": 3,
+      "cases": [
+        "spring tolerance and frame timing",
+        "iOS and Android reduce flags independently",
+        "no pending/replayed/background/restored success"
+      ]
+    },
+    "browser": {
+      "sevenMoments": true,
+      "noAutoplay": true,
+      "playStop": true,
+      "reducedMotionStopsAndDisables": true,
+      "mobileOverflow": false,
+      "catalogLinks": true,
+      "pageErrors": []
+    },
+    "visualReview": "All seven four-frame contact sheets inspected; normal/reduced and boundary-origin checked.",
+    "limits": [
+      "No native app integration performed.",
+      "No physical device FPS/jank, accessibility or haptic measurement claimed.",
+      "GIF25fps is a preview; reference samples60fps.",
+      "Map geometry is a viewport edge, never geographic/person data."
+    ]
   }
 }

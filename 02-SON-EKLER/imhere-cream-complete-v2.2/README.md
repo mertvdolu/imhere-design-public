@@ -17,3 +17,7 @@ Founder’ın bütün temayı krem/siyaha geçirme onayıyla hazırlanan **tam g
 - `evidence/validation.json`: doğrulamanın gerçek kapsamı; `MANIFEST.json`: dosya bütünlüğü.
 
 Bu teslim tasarımı tamamlar. Flutter, sunucu veya mağaza derlemesi değiştirilmedi. Native entegrasyon ve gerçek cihaz doğrulaması ayrı adımdır. Eski yeşil paketler sürüm geçmişi/arşivdir; aktif görsel kaynak değildir.
+
+## Hareket ve His v1
+
+[Önizleme](motion/hareket-ve-his-v1/ONIZLEME.html) · [Spesifikasyon](motion/hareket-ve-his-v1/SPEC.md). 7 imza an, azaltılmış karşılıkları ve tüm298 durum için hareket notları. Native entegrasyon değildir.

@@ -126,11 +126,69 @@
     "creamPageInset": 22
   },
   "motion": {
-    "screenEnterMs": 250,
-    "interactionMs": 180,
-    "orbBreatheMs": 0,
+    "specVersion": "1.0",
+    "source": "motion/hareket-ve-his-v1/motion.tokens.json",
+    "quick": {
+      "durationMs": 150,
+      "curve": "easeOutCubic",
+      "cubic": [
+        0.215,
+        0.61,
+        0.355,
+        1
+      ]
+    },
+    "standard": {
+      "mass": 1,
+      "dampingRatio": 0.9,
+      "responseSeconds": 0.35,
+      "stiffness": 322.27279677026473,
+      "damping": 32.313524436923586,
+      "initialVelocity": 0,
+      "settleReferenceMs": 483.3333333333333
+    },
+    "expressive": {
+      "mass": 1,
+      "dampingRatio": 0.75,
+      "responseSeconds": 0.45,
+      "stiffness": 194.9551486634935,
+      "damping": 20.943951023931955,
+      "initialVelocity": 0,
+      "settleReferenceMs": 650
+    },
+    "stagger": {
+      "intervalMs": 40,
+      "maxItems": 6,
+      "maxTotalDelayMs": 200
+    },
+    "reduced": {
+      "durationMs": 150,
+      "property": "opacity",
+      "curve": "linear",
+      "spatialMotion": false,
+      "loops": false,
+      "stagger": false,
+      "coldStartLogo": "visible immediately"
+    },
+    "haptics": {
+      "selection": "HapticFeedback.selectionClick",
+      "success": "HapticFeedback.lightImpact",
+      "error": "HapticFeedback.mediumImpact",
+      "scroll": "none",
+      "deduplicate": "one per committed event ID, not per rebuild; no catch-up when returning to foreground",
+      "timing": "request time relative to actual event; platform scheduling is not sample-accurate",
+      "reduced": "meaningful single feedback retained; respect platform setting; never a repeating pattern"
+    },
     "respectReduceMotion": true,
-    "orbMeaning": "No orb animation in the current theme."
+    "screenEnterMs": 150,
+    "interactionMs": 150,
+    "orbBreatheMs": 0,
+    "legacyAliases": {
+      "screenEnterMs": "motion.reduced duration fallback; use standard spring for normal routes",
+      "interactionMs": "motion.quick.durationMs",
+      "orbBreatheMs": "disabled; presence lives at map viewport boundary, never an orb or location marker"
+    },
+    "orbMeaning": "No personal map marker. Founder clarification: waves originate at the map boundary."
   },
   "policy": {
     "useDynamicColor": false,

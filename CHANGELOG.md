@@ -1,5 +1,12 @@
 # Değişiklik kaydı
 
+## Cream & Ink v2.2 — Hareket ve His v1.0 · 2026-09-24
+
+- 5 motion token grubu, kesin Flutter yay katsayıları; 7 imza an için zamanlama, titreşim, veri tetikleyicisi, iptal ve azaltılmış karşılık.
+- 7 karşılaştırmalı GIF, 7 poster,60fps CSV kare tabloları ve yerel önizleme. Bütün298 katalog durumuna hareket referansı.
+- Founder açıklaması: varlık dalgası harita kenarından; kişisel konum noktası yok. Kapalı bağlantı kartı korunur.
+- `motionHelloSent` TR/EN ayrı delta; canlı ARB üzerine yazılmaz. Yeni runtime bağımlılığı ve native uygulama değişikliği yok. Yerel commit, aktarım Code.
+
 ## Cream & Ink v2.2 — Profilden şikâyet · 2026-09-24
 
 - 8 kişi/profil durumu, 64 SVG / 16 PNG: sağ üst bayrak → mevcut altı kategorili şikâyet formu. Hedef 48×48, mevcut `reportTitle` erişilebilir adı. Kendi profilinde gösterilmez.

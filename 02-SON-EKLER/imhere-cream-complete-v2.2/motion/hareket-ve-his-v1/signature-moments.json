@@ -1,0 +1,335 @@
+{
+  "version": "1.0",
+  "theme": "Cream & Ink v2.2",
+  "status": "design handoff; not native implementation",
+  "source": "source/hareket-ve-his-plani-v1.md",
+  "clarifications": [
+    "No personal location point. Presence begins at viewport boundary, per Founder reply.",
+    "Closed connection card stays; only open-only subcontent collapses, per Founder reply.",
+    "Profile report path confirmed; delivered before motion in e1f4bbe."
+  ],
+  "moments": [
+    {
+      "id": "01-ink-signature",
+      "name": "Mürekkep imzası",
+      "durationMs": 800,
+      "previewDurationMs": 1400,
+      "spring": null,
+      "trigger": "first Flutter frame of cold process start; never warm resume",
+      "haptics": [],
+      "tracks": [
+        {
+          "fromMs": 0,
+          "toMs": 620,
+          "property": "canonical logo contour reveal",
+          "from": 0,
+          "to": 1,
+          "curve": "linear cumulative path length",
+          "note": "two existing circle contours, no connector; retain brand geometry"
+        },
+        {
+          "fromMs": 620,
+          "toMs": 760,
+          "property": "canonical intersection fill opacity",
+          "from": 0,
+          "to": 0.92,
+          "curve": "quick"
+        },
+        {
+          "fromMs": 760,
+          "toMs": 800,
+          "property": "hold canonical mark",
+          "from": 1,
+          "to": 1,
+          "curve": "none"
+        }
+      ],
+      "reducedOverride": "canonical logo fully visible at 0; no stroke reveal",
+      "interrupt": "if routing ready before 800ms, stop reveal and crossfade to destination in 150ms; never delay authentication or network error",
+      "flutter": "CustomPainter Path.computeMetrics / extractPath and clipPath; static native launch screen, animate only first Flutter frame",
+      "shared": {
+        "hapticPolicy": "request at stated event-relative ms; deduplicate; respect system; preview cannot reproduce tactile feedback",
+        "reduced": "150ms linear opacity only, no scale/translation/mask/loop/stagger; logo visible at 0ms exception",
+        "dataGate": "never use animation completion as evidence of a backend transition"
+      }
+    },
+    {
+      "id": "02-presence-boundary",
+      "name": "Varlık dalgası — kenardan",
+      "durationMs": 1200,
+      "previewDurationMs": 5700,
+      "spring": "expressive",
+      "trigger": "authoritative check-in active state confirmed; no wave during acquiring/verifying/unknown",
+      "haptics": [
+        {
+          "event": "active confirmation",
+          "atMs": 0,
+          "type": "lightImpact"
+        }
+      ],
+      "tracks": [
+        {
+          "fromMs": 0,
+          "toMs": 960,
+          "property": "first viewport contour inset",
+          "from": 0,
+          "to": "10% of shortest viewport side",
+          "curve": "expressive position; opacity .12*(1-progress)"
+        },
+        {
+          "fromMs": 240,
+          "toMs": 1200,
+          "property": "second viewport contour inset",
+          "from": 0,
+          "to": "10% of shortest viewport side",
+          "curve": "expressive position; opacity .12*(1-progress)"
+        },
+        {
+          "fromMs": 1200,
+          "toMs": 5200,
+          "property": "active boundary opacity",
+          "from": 0.04,
+          "to": 0.08,
+          "curve": "one 4000ms cosine breathing cycle, repeats only while active/foreground"
+        },
+        {
+          "fromMs": 5200,
+          "toMs": 5350,
+          "property": "confirmed stop: boundary opacity",
+          "from": "current",
+          "to": 0,
+          "curve": "linear150; contracting inset toward viewport edge"
+        }
+      ],
+      "reducedOverride": "active status appears at 0..150ms; boundary remains static .06 while confirmed active, no rings/breathing; stop disappears within150ms",
+      "interrupt": "stop input cancels decoration immediately; only authoritative stopped state gets completion presentation. Failed/unknown stop uses existing state; no deletion claim. Lose access/expiry/offline => stop loops immediately.",
+      "flutter": "CustomPainter two clipped rounded-rectangle contours inside map viewport, IgnorePointer, no location coordinates; fixed border is decorative, not a geographic boundary",
+      "clarification": "Founder 2026-09-24: start at boundaries, not point zero. No own dot; four map colors and attribution unchanged.",
+      "shared": {
+        "hapticPolicy": "request at stated event-relative ms; deduplicate; respect system; preview cannot reproduce tactile feedback",
+        "reduced": "150ms linear opacity only, no scale/translation/mask/loop/stagger; logo visible at 0ms exception",
+        "dataGate": "never use animation completion as evidence of a backend transition"
+      }
+    },
+    {
+      "id": "03-paper-list",
+      "name": "Kâğıt yerleşmesi",
+      "durationMs": 684,
+      "previewDurationMs": 1400,
+      "spring": "standard",
+      "trigger": "committed visible list diff; new real IDs only",
+      "haptics": [],
+      "tracks": [
+        {
+          "fromMs": 0,
+          "toMs": 684,
+          "property": "item i translateY",
+          "from": 8,
+          "to": 0,
+          "curve": "standard spring; start min(i,5)*40ms for first six; remaining appear directly"
+        },
+        {
+          "fromMs": 0,
+          "toMs": 350,
+          "property": "item opacity",
+          "from": 0,
+          "to": 1,
+          "curve": "150ms linear per same start offset"
+        }
+      ],
+      "reducedOverride": "all new items opacity0→1 simultaneously150ms; no translation or stagger",
+      "interrupt": "same ID content update, sort, scroll/rebuild or cached restoration must not replay. Removed users disappear from accessible data immediately; never retain for exit animation.",
+      "flutter": "stable ValueKey IDs, AnimationController + Transform.translate + FadeTransition; no global list rebuild per frame",
+      "shared": {
+        "hapticPolicy": "request at stated event-relative ms; deduplicate; respect system; preview cannot reproduce tactile feedback",
+        "reduced": "150ms linear opacity only, no scale/translation/mask/loop/stagger; logo visible at 0ms exception",
+        "dataGate": "never use animation completion as evidence of a backend transition"
+      }
+    },
+    {
+      "id": "04-photo-hero",
+      "name": "Fotoğraf kahramanı",
+      "durationMs": 484,
+      "previewDurationMs": 1800,
+      "spring": "standard (programmatic only)",
+      "trigger": "tap on accessible profile with the same authorized cached photo at source and destination",
+      "haptics": [],
+      "tracks": [
+        {
+          "fromMs": 0,
+          "toMs": 484,
+          "property": "photo rect",
+          "from": "measured source rect",
+          "to": "measured destination rect",
+          "curve": "standard normalized SpringSimulation; clamp rect extent to avoid exposing outside clip"
+        },
+        {
+          "fromMs": 0,
+          "toMs": 150,
+          "property": "destination content opacity",
+          "from": 0,
+          "to": 1,
+          "curve": "linear"
+        },
+        {
+          "fromMs": 1000,
+          "toMs": 1484,
+          "property": "return photo rect in preview",
+          "from": "destination",
+          "to": "source",
+          "curve": "standard; actual gesture follows OS progress, not this clock"
+        }
+      ],
+      "reducedOverride": "disable Hero flight; destination opacity150ms, no resizing/motion; preserve back gesture and navigation",
+      "interrupt": "missing source, recycled card, denied photo, changed photo ID => simple150ms fade, never fly another user photo. Predictive back cancel returns to unchanged profile without route commit.",
+      "flutter": "Hero with stable tag + clipped same child; built-in platform route/predictive back. Never run a second scale animation over OS interactive back.",
+      "shared": {
+        "hapticPolicy": "request at stated event-relative ms; deduplicate; respect system; preview cannot reproduce tactile feedback",
+        "reduced": "150ms linear opacity only, no scale/translation/mask/loop/stagger; logo visible at 0ms exception",
+        "dataGate": "never use animation completion as evidence of a backend transition"
+      }
+    },
+    {
+      "id": "05-hello-ink",
+      "name": "Merhaba — el yazısı",
+      "durationMs": 500,
+      "previewDurationMs": 1700,
+      "spring": null,
+      "trigger": "request success acknowledgement, unique operation ID. Network waiting is unbounded.",
+      "haptics": [
+        {
+          "event": "successful request acknowledgement",
+          "atMs": 0,
+          "type": "lightImpact"
+        }
+      ],
+      "tracks": [
+        {
+          "fromMs": -150,
+          "toMs": 0,
+          "property": "tap compression (separate input clock)",
+          "from": 1,
+          "to": 0.98,
+          "curve": "quick; release back to1 in150ms, never tied to server duration"
+        },
+        {
+          "fromMs": 0,
+          "toMs": 500,
+          "property": "success text reveal mask",
+          "from": 0,
+          "to": 1,
+          "curve": "linear left-to-right clipping of fully laid out text; do not type individual glyphs"
+        }
+      ],
+      "reducedOverride": "full success label fades150ms after same acknowledgement; pending status static; no mask/compression",
+      "interrupt": "failed/offline/unknown => no sent reveal and no success haptic. Timeout is not success. Very fast response may skip pending flicker. Rebuild/reentry does not replay.",
+      "flutter": "ClipRect/CustomPainter mask over complete Text, one Semantics liveRegion announcement of complete text at acknowledgement; new delta motionHelloSent; existing requestSending while pending",
+      "shared": {
+        "hapticPolicy": "request at stated event-relative ms; deduplicate; respect system; preview cannot reproduce tactile feedback",
+        "reduced": "150ms linear opacity only, no scale/translation/mask/loop/stagger; logo visible at 0ms exception",
+        "dataGate": "never use animation completion as evidence of a backend transition"
+      }
+    },
+    {
+      "id": "06-two-points",
+      "name": "Bağlantı — iki portre",
+      "durationMs": 1000,
+      "previewDurationMs": 1600,
+      "spring": "expressive",
+      "trigger": "server confirms connection created, not just current user accepting. Play once for new connection ID; not on ordinary existing-chat open.",
+      "haptics": [
+        {
+          "event": "confirmed new connection",
+          "atMs": 300,
+          "type": "lightImpact",
+          "note": "cancel delayed haptic if leaving/backgrounded; never wait for haptic to enable action"
+        }
+      ],
+      "tracks": [
+        {
+          "fromMs": 0,
+          "toMs": 650,
+          "property": "portrait horizontal offset each",
+          "from": "±28dp",
+          "to": 0,
+          "curve": "expressive; final72dp circles touch at centers distance72dp; clip/clamp to avoid overlap"
+        },
+        {
+          "fromMs": 300,
+          "toMs": 1000,
+          "property": "single ink ring radius",
+          "from": 42,
+          "to": 104,
+          "curve": "easeOutCubic; opacity .12→0"
+        },
+        {
+          "fromMs": 850,
+          "toMs": 1000,
+          "property": "existing open-chat CTA opacity",
+          "from": 0,
+          "to": 1,
+          "curve": "linear; visual reveal only, no automatic navigation or state mutation"
+        }
+      ],
+      "reducedOverride": "portraits static, no ring; full content and CTA fade150ms from confirmed event; one light haptic at0ms",
+      "interrupt": "Open-chat presentation fades850..1000ms after confirmation, as in approved plan. Existing navigation/back is never blocked; no automatic navigation or backend wait is introduced. Reduced motion exposes the CTA within150ms. If route is already being opened, skip the scene. Missing authorized portraits use existing placeholders.",
+      "flutter": "Transform.translate+ClipOval, CustomPainter ring; no new people photos or mutual intent inference",
+      "shared": {
+        "hapticPolicy": "request at stated event-relative ms; deduplicate; respect system; preview cannot reproduce tactile feedback",
+        "reduced": "150ms linear opacity only, no scale/translation/mask/loop/stagger; logo visible at 0ms exception",
+        "dataGate": "never use animation completion as evidence of a backend transition"
+      }
+    },
+    {
+      "id": "07-paper-message",
+      "name": "Mesaj — yerine oturan kâğıt",
+      "durationMs": 484,
+      "previewDurationMs": 1900,
+      "spring": "standard",
+      "trigger": "outgoing: acknowledged message ID inserted; incoming: actual newly received authorized message ID",
+      "haptics": [],
+      "tracks": [
+        {
+          "fromMs": 0,
+          "toMs": 484,
+          "property": "outgoing bubble offset",
+          "from": "min(24dp, distance from composer top to final slot)",
+          "to": 0,
+          "curve": "standard; pending stays pending until confirmed"
+        },
+        {
+          "fromMs": 0,
+          "toMs": 150,
+          "property": "outgoing opacity",
+          "from": 0,
+          "to": 1,
+          "curve": "linear"
+        },
+        {
+          "fromMs": 800,
+          "toMs": 1284,
+          "property": "incoming bubble offset in preview",
+          "from": -12,
+          "to": 0,
+          "curve": "standard; actual receipt has its own t=0"
+        },
+        {
+          "fromMs": 800,
+          "toMs": 950,
+          "property": "incoming opacity in preview",
+          "from": 0,
+          "to": 1,
+          "curve": "linear"
+        }
+      ],
+      "reducedOverride": "confirmed bubble opacity150ms only; no travel; composer uses current actual keyboard inset without additional tween",
+      "interrupt": "failed/unknown messages never get success flight. Existing optimistic bubble reconciles by stable ID, no duplicate. History load/rebuild/scroll not a new message. Do not move history or auto-scroll away from someone reading.",
+      "flutter": "AnimatedBuilder/Transform/FadeTransition; composer follows actual viewInsets.bottom per frame, no independent spring. Counter and Send stay attached; read receipt opacity only if a real supported read event exists, never from delivery.",
+      "shared": {
+        "hapticPolicy": "request at stated event-relative ms; deduplicate; respect system; preview cannot reproduce tactile feedback",
+        "reduced": "150ms linear opacity only, no scale/translation/mask/loop/stagger; logo visible at 0ms exception",
+        "dataGate": "never use animation completion as evidence of a backend transition"
+      }
+    }
+  ]
+}
