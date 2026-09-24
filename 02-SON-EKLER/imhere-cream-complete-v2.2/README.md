@@ -1,10 +1,10 @@
 # IM HERE — Cream & Ink v2.2
 
-Son güncelleme: [CH-138 / ERT-050 / Code soruları](specs/CODE-SORULARI-CH138-ERT050.md).
+Son güncelleme: [Founder telefon turu](specs/TELEFON-TURU-2026-09-24.md). Önceki: [CH-138 / ERT-050 / Code soruları](specs/CODE-SORULARI-CH138-ERT050.md).
 
 Founder’ın bütün temayı krem/siyaha geçirme onayıyla hazırlanan **tam güncel tasarım paketi**.
 
-- **296 ekran durumu / 2368 SVG**: TR + EN × iOS + Android × %100 + %200.
+- **298 ekran durumu / 2384 SVG**: TR + EN × iOS + Android × %100 + %200.
 - Önceki güncel katalogdaki 287 durumun tamamı kapsanır; son ekler ayrıca çizilir.
 - Her durum için EN/iOS/%100 ve TR/Android/%200 PNG önizlemeleri.
 - `ONIZLEME.html`: bütün ekranların aranabilir, filtrelenebilir kataloğu. İnternetsiz açılır.

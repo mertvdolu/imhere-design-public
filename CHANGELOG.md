@@ -1,5 +1,14 @@
 # Değişiklik kaydı
 
+## Cream & Ink v2.2 — Founder telefon turu · 2026-09-24
+
+- Own-profile: sağ üstte kalem ve dişli; alt düzenleme düğmesi kaldırıldı. 16 çizim güncellendi. `profileHiddenToOthers`: EN “Not visible to others” / TR “Başkalarına görünmez”; yalnız kendi gizli alanlarının altında.
+
+- Fotoğraf yükleme ve işleme ayrı durumlar olarak eklendi: 16 SVG / 4 PNG, TR/EN, iOS/Android, normal/büyük metin. İki yeni anahtar: `photoUploading`, `photoProcessing`; başarı için mevcut `photoUploaded` korunur.
+- Klavye kapatma ve Done çubuğu, iOS çark / Android takvim kararları `contracts/profile-inputs.json` ve [telefon turu devrine](02-SON-EKLER/imhere-cream-complete-v2.2/specs/TELEFON-TURU-2026-09-24.md) işlendi. 56 tarih alanı tanımı okunur, yazı girdisi almayan platform seçicisi olarak belirtildi.
+- Yeni durumlar beta: true. Toplam 298 durum / 2384 SVG / 596 PNG; own-profile dışındaki mevcut ekran görselleri ve önceki beta kararları değişmedi.
+- Yerel teslim; GitHub aktarımını Code yapar. Native uygulama değiştirilmedi.
+
 ## Cream & Ink v2.2 — CH-138, ERT-050 ve Code soruları · 2026-09-23
 
 - CH-138: e-posta kartı canlı TR/EN metinlerine hizalandı; mevcut ikincil giriş düğmesi eklendi. ERT-050: kayıt deneme sınırı için 8 varyant ve beta işareti eklendi.

@@ -1,7 +1,7 @@
 {
   "package": "Cream & Ink v2.2",
-  "screenStates": 296,
-  "svgVariants": 2368,
+  "screenStates": 298,
+  "svgVariants": 2384,
   "previousStates": 287,
   "newStates": [
     "chat-retention-deleted",
@@ -881,5 +881,34 @@
         "visibleCopyAndButtonBounds": true
       }
     ]
+  },
+  "phoneTour20260924": {
+    "baselineCommit": "65576330941b5be7d85a4d779d0914373bbfa5d9",
+    "changedSvgVariants": 32,
+    "newStates": [
+      "photo-processing",
+      "photo-uploading"
+    ],
+    "updatedStates": [
+      "view-own-hidden",
+      "view-own-visible"
+    ],
+    "newPngVariants": 4,
+    "updatedPngVariants": 4,
+    "localizedKeys": [
+      "photoUploading",
+      "photoProcessing",
+      "profileHiddenToOthers"
+    ],
+    "birthDateFieldContracts": 56,
+    "priorScreenFilesUnchanged": 2940,
+    "priorBetaFlagsPreserved": true,
+    "betaStates": 291,
+    "deferredStates": 7,
+    "textBounds": "pass at 100% and 200%, TR/EN, iOS/Android",
+    "headerTargets": "48x48 each, pencil left of gear",
+    "ownHiddenMarkers": "3; other-user profile assets unchanged",
+    "visualReview": "Rendered four variants per state per text scale; inspected large-text uploading, processing and own-hidden plus normal own-visible.",
+    "nativeDeviceVerification": "Not performed; design artifacts only."
   }
 }

@@ -16,6 +16,9 @@
 
 ## Yeni çizimler
 
+- photo-uploading (Founder telefon turu; beta)
+- photo-processing (Founder telefon turu; beta)
+
 - register-too-many-attempts (ERT-050; beta)
 
 - chat-retention-deleted
@@ -27,4 +30,4 @@
 - support-email-copied
 - support-email-unavailable
 
-Toplam: **296 durum / 2368 SVG**. Dil ayarına ait üç durum askıda ve varsayılan katalogda gizlidir.
+Toplam: **298 durum / 2384 SVG**. Dil ayarına ait üç durum askıda ve varsayılan katalogda gizlidir.

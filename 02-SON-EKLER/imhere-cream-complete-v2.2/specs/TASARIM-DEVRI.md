@@ -28,6 +28,8 @@ Klavye açılınca form/sohbet içerikleri klavye yüksekliğine göre kaydırı
 
 ## 4. Giriş ve profil
 
+Founder telefon turu (24 Eylül 2026): klavye boş alana dokununca/kaydırınca kapanır; üstünde `selectionDone` (Done / Tamam) çubuğu bulunur, bu eylem kaydetmez veya göndermez. Fotoğraf `photo-uploading` (`photoUploading`) → `photo-processing` (`photoProcessing`) → yalnız doğrulanmış başarıda mevcut `photoUploaded` sırasını gösterir; gerçek ilerleme yoksa belirsiz gösterge kullanılır. Doğum tarihi metin girişi almaz: iOS çark, Android takvim; alan okunur tarih gösterir (ör. 24 Sep 1995). Ayrıntılar: `contracts/profile-inputs.json` ve `specs/TELEFON-TURU-2026-09-24.md`.
+
 `register-too-many-attempts` (ERT-050), girişteki deneme sınırının kayıt karşılığıdır: mevcut `authTooManyAttempts` kartı, pasif `authCreateAccount`; süre/eşik/sayaç yok. `verify-sending` ilk gönderimde `emailSending`, `verify-resend-busy` tekrar gönderimde `authVerifyResending` kullanır; meşgul eylemleri ve çıkış yerleşimi aynı kalır.
 
 `register-email-unavailable` (CH-138): kart `authEmailUnavailable` için uygulamada canlı olan TR/EN metnini kullanır. `authCreateAccount` ana düğmesinin altında `authExistingAccount` ikincil düğmesi bulunur (EN: I have an account · Sign in / TR: Hesabım var · Giriş yap). Mevcut giriş ekranına gider; yeni hesap/oturum davranışı eklemez. Büyük metinde kart ve düğmeler içerikle büyür, form kaydırılabilir kalır.
@@ -77,3 +79,15 @@ Events yalnız placeholder. Hesap durumu açılışta okunamıyorsa sakin ulaş�
 ## 8. Uygulama sınırı ve devir
 
 Dosyalar ayrı ayrı GitHub’a yüklenir. Canlı ARB’ler tam referansla ezilmez; `migration.json` ve delta ile birleştirilir. Önceki alias ve parametre sözleşmeleri korunur. Bu paketteki PNG/SVG/HTML kontrolleri native ekran okuyucu, fiziksel cihaz, klavye, OEM launcher, push teslimi veya sunucu testleri değildir. Bunlar M10 uygulama turunda doğrulanır. Founder’a gönderilecek özet `MANAGER-NOTU.md` içindedir.
+
+## Founder ek kararı — kendi profilinden düzenlemeye geçiş
+
+Profile sekmesinin giriş görünümü kendi profili: `view-own-visible` / `view-own-hidden`. Alt taraftaki `Edit my profile` düğmesi kaldırıldı. Üst sağda kalem, hemen sağında ayarlar dişlisi bulunur. Her hedef 48×48; kalem `form-edit` açar. Erişilebilir adlar mevcut `profileEdit` ve `settings` anahtarlarıdır. Marka işareti x=37 ve 40 birim olarak korunur.
+
+Kullanıcı gizlediği yaş, cinsiyet ve mesleğini kendi profilinde görür; ilgili alanın altındaki kilit işareti ve açıklama yalnız kendisine gösterilir. Başkalarının görünümünde gizli alan tamamen yoktur; boş satır veya gizlilik işareti eklenmez.
+
+| Anahtar | EN | TR |
+|---|---|---|
+| `profileHiddenToOthers` | Not visible to others | Başkalarına görünmez |
+
+İki own-profile durumu × TR/EN × iOS/Android × %100/%200 = 16 güncellenmiş çizim. Toplam durum sayısı değişmedi.

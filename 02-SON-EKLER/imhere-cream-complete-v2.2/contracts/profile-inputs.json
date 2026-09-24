@@ -1,0 +1,79 @@
+{
+  "source": "Founder phone tour, relayed by Manager on 2026-09-24",
+  "keyboard": {
+    "dismissOnBlankAreaTap": true,
+    "dismissOnScroll": true,
+    "accessoryBar": "above keyboard",
+    "doneLabelKey": "selectionDone",
+    "doneAction": "dismiss keyboard only; no save, send or form submission",
+    "doneTargetMinHeight": 48,
+    "largeText": "toolbar grows with label; do not clip or cover focused content",
+    "chat": "Keep composer, counter and Send above the keyboard; accessory bar must not cover them."
+  },
+  "photo": {
+    "states": [
+      "photo-uploading",
+      "photo-processing"
+    ],
+    "statusKeys": {
+      "uploading": "photoUploading",
+      "processing": "photoProcessing",
+      "confirmedSuccess": "photoUploaded"
+    },
+    "uploadedReferenceState": "form-filled",
+    "preparingState": "photo-preparing is local preparation, not server processing",
+    "uploadProgress": "Use real upload progress if available. Otherwise indeterminate; the illustration contains no numeric percentage or completion claim.",
+    "processing": "Indeterminate spinner; do not infer completion from transfer completion or elapsed time.",
+    "success": "Show photoUploaded only after the application confirms the upload/processing success.",
+    "errors": "Keep the existing error and retry behavior; this design adds no cancellation, retry policy or backend states."
+  },
+  "birthDate": {
+    "fieldKey": "profileBirthDate",
+    "readOnly": true,
+    "keyboardInput": false,
+    "pickerByPlatform": {
+      "ios": "native wheel",
+      "android": "native calendar"
+    },
+    "display": "localized readable day, month name/abbreviation and year",
+    "examples": {
+      "en": "24 Sep 1995",
+      "tr": "24 Eyl 1995"
+    },
+    "examplesAreFixtures": true,
+    "validation": "Existing age eligibility, date validation and visibility rules remain unchanged."
+  },
+  "ownProfile": {
+    "tabEntry": "view-own-visible or view-own-hidden according to own field visibility",
+    "editAction": {
+      "key": "profileEdit",
+      "placement": "top right, immediately left of settings",
+      "icon": "pencil",
+      "destination": "form-edit",
+      "minimumTarget": [
+        48,
+        48
+      ]
+    },
+    "settingsAction": {
+      "key": "settings",
+      "placement": "top right",
+      "icon": "gear",
+      "minimumTarget": [
+        48,
+        48
+      ]
+    },
+    "bottomEditButton": false,
+    "hiddenFields": {
+      "key": "profileHiddenToOthers",
+      "fields": [
+        "age",
+        "gender",
+        "occupation"
+      ],
+      "showOwnValues": true,
+      "otherProfile": "Continue omitting hidden fields completely; no marker or blank placeholder."
+    }
+  }
+}

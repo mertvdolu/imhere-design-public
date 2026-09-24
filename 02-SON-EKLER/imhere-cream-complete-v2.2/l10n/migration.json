@@ -587,7 +587,10 @@
     "newKeys": [
       "supportCopyEmail",
       "supportEmailCopied",
-      "authVerifyResending"
+      "authVerifyResending",
+      "photoUploading",
+      "photoProcessing",
+      "profileHiddenToOthers"
     ],
     "changedExistingCopy": [
       "authEmailUnavailable"
@@ -614,5 +617,26 @@
     ],
     "callsite": "verify-resend-busy uses authVerifyResending; verify-sending keeps emailSending.",
     "behavior": "Existing sending/resending states retained; no new timer, resend availability rule or success claim."
+  },
+  "phoneTour20260924": {
+    "newKeys": [
+      "photoUploading",
+      "photoProcessing",
+      "profileHiddenToOthers"
+    ],
+    "reusedKeys": [
+      "photoUploaded",
+      "selectionDone",
+      "profileEdit",
+      "settings"
+    ],
+    "callsiteRules": {
+      "photoUploading": "upload in progress",
+      "photoProcessing": "processing in progress after transfer",
+      "photoUploaded": "confirmed success only",
+      "selectionDone": "keyboard accessory: dismiss focus only; keep existing selection call sites unchanged",
+      "profileHiddenToOthers": "Own profile hidden age/gender/occupation only; never other profiles."
+    },
+    "merge": "Merge only these three new keys in TR/EN; do not overwrite live ARBs."
   }
 }

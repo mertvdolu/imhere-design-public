@@ -638,5 +638,17 @@
   "authVerifyResending": "Resending the verification link…",
   "@authVerifyResending": {
     "description": "Verification-link resend is in progress; no timer or delivery-success claim."
+  },
+  "photoUploading": "Uploading photo…",
+  "@photoUploading": {
+    "description": "Profile photo transfer is in progress; no completed upload or processing claim."
+  },
+  "photoProcessing": "Processing photo…",
+  "@photoProcessing": {
+    "description": "Photo transfer is complete but processing is still in progress; not yet a successful upload."
+  },
+  "profileHiddenToOthers": "Not visible to others",
+  "@profileHiddenToOthers": {
+    "description": "Own profile only: marker beside a hidden age, gender or occupation. Never sent or shown on another person's profile."
   }
 }

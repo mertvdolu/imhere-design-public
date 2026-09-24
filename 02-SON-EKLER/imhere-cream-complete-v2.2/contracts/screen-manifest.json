@@ -39782,7 +39782,12 @@
         "x": 24,
         "y": 725.5200000000001,
         "width": 364,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -39860,7 +39865,12 @@
         "x": 24,
         "y": 1068.48,
         "width": 364,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -39938,7 +39948,12 @@
         "x": 24,
         "y": 747.5200000000001,
         "width": 342,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -40016,7 +40031,12 @@
         "x": 24,
         "y": 1090.4800000000002,
         "width": 342,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -40094,7 +40114,12 @@
         "x": 24,
         "y": 725.5200000000001,
         "width": 364,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -40172,7 +40197,12 @@
         "x": 24,
         "y": 1068.48,
         "width": 364,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -40250,7 +40280,12 @@
         "x": 24,
         "y": 747.5200000000001,
         "width": 342,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -40328,7 +40363,12 @@
         "x": 24,
         "y": 1090.4800000000002,
         "width": 342,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -40406,7 +40446,12 @@
         "x": 24,
         "y": 725.5200000000001,
         "width": 364,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -40484,7 +40529,12 @@
         "x": 24,
         "y": 1068.48,
         "width": 364,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -40562,7 +40612,12 @@
         "x": 24,
         "y": 747.5200000000001,
         "width": 342,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -40640,7 +40695,12 @@
         "x": 24,
         "y": 1090.4800000000002,
         "width": 342,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -40718,7 +40778,12 @@
         "x": 24,
         "y": 725.5200000000001,
         "width": 364,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -40796,7 +40861,12 @@
         "x": 24,
         "y": 1068.48,
         "width": 364,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -40874,7 +40944,12 @@
         "x": 24,
         "y": 747.5200000000001,
         "width": 342,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -40952,7 +41027,12 @@
         "x": 24,
         "y": 1090.4800000000002,
         "width": 342,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -41030,7 +41110,12 @@
         "x": 24,
         "y": 725.5200000000001,
         "width": 364,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -41108,7 +41193,12 @@
         "x": 24,
         "y": 1068.48,
         "width": 364,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -41186,7 +41276,12 @@
         "x": 24,
         "y": 747.5200000000001,
         "width": 342,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -41264,7 +41359,12 @@
         "x": 24,
         "y": 1090.4800000000002,
         "width": 342,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -41342,7 +41442,12 @@
         "x": 24,
         "y": 725.5200000000001,
         "width": 364,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -41420,7 +41525,12 @@
         "x": 24,
         "y": 1068.48,
         "width": 364,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -41498,7 +41608,12 @@
         "x": 24,
         "y": 747.5200000000001,
         "width": 342,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -41576,7 +41691,12 @@
         "x": 24,
         "y": 1090.4800000000002,
         "width": 342,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -41654,7 +41774,12 @@
         "x": 24,
         "y": 784.7200000000001,
         "width": 364,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -41732,7 +41857,12 @@
         "x": 24,
         "y": 1245.2800000000002,
         "width": 364,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -41810,7 +41940,12 @@
         "x": 24,
         "y": 806.7200000000001,
         "width": 342,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -41888,7 +42023,12 @@
         "x": 24,
         "y": 1267.2800000000002,
         "width": 342,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -41966,7 +42106,12 @@
         "x": 24,
         "y": 784.7200000000001,
         "width": 364,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -42044,7 +42189,12 @@
         "x": 24,
         "y": 1206.0800000000002,
         "width": 364,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -42122,7 +42272,12 @@
         "x": 24,
         "y": 806.7200000000001,
         "width": 342,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -42200,7 +42355,12 @@
         "x": 24,
         "y": 1267.2800000000002,
         "width": 342,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -42278,7 +42438,12 @@
         "x": 24,
         "y": 725.5200000000001,
         "width": 364,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -42356,7 +42521,12 @@
         "x": 24,
         "y": 1068.48,
         "width": 364,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -42434,7 +42604,12 @@
         "x": 24,
         "y": 747.5200000000001,
         "width": 342,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -42512,7 +42687,12 @@
         "x": 24,
         "y": 1090.4800000000002,
         "width": 342,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -42590,7 +42770,12 @@
         "x": 24,
         "y": 725.5200000000001,
         "width": 364,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -42668,7 +42853,12 @@
         "x": 24,
         "y": 1068.48,
         "width": 364,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -42746,7 +42936,12 @@
         "x": 24,
         "y": 747.5200000000001,
         "width": 342,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -42824,7 +43019,12 @@
         "x": 24,
         "y": 1090.4800000000002,
         "width": 342,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -42902,7 +43102,12 @@
         "x": 24,
         "y": 725.5200000000001,
         "width": 364,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -42980,7 +43185,12 @@
         "x": 24,
         "y": 1068.48,
         "width": 364,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -43058,7 +43268,12 @@
         "x": 24,
         "y": 747.5200000000001,
         "width": 342,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -43136,7 +43351,12 @@
         "x": 24,
         "y": 1090.4800000000002,
         "width": 342,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -43214,7 +43434,12 @@
         "x": 24,
         "y": 725.5200000000001,
         "width": 364,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -43292,7 +43517,12 @@
         "x": 24,
         "y": 1068.48,
         "width": 364,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -43370,7 +43600,12 @@
         "x": 24,
         "y": 747.5200000000001,
         "width": 342,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -43448,7 +43683,12 @@
         "x": 24,
         "y": 1090.4800000000002,
         "width": 342,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -43526,7 +43766,12 @@
         "x": 24,
         "y": 725.5200000000001,
         "width": 364,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -43604,7 +43849,12 @@
         "x": 24,
         "y": 1068.48,
         "width": 364,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -43682,7 +43932,12 @@
         "x": 24,
         "y": 747.5200000000001,
         "width": 342,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -43760,7 +44015,12 @@
         "x": 24,
         "y": 1090.4800000000002,
         "width": 342,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -43838,7 +44098,12 @@
         "x": 24,
         "y": 725.5200000000001,
         "width": 364,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -43916,7 +44181,12 @@
         "x": 24,
         "y": 1068.48,
         "width": 364,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "calendar",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -43994,7 +44264,12 @@
         "x": 24,
         "y": 747.5200000000001,
         "width": 342,
-        "height": 56
+        "height": 56,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -44072,7 +44347,12 @@
         "x": 24,
         "y": 1090.4800000000002,
         "width": 342,
-        "height": 79.2
+        "height": 79.2,
+        "inputType": "nativeDatePicker",
+        "readOnly": true,
+        "keyboardInput": false,
+        "picker": "wheel",
+        "displayStyle": "localized-readable-date"
       },
       {
         "kind": "field",
@@ -76144,6 +76424,222 @@
     "family": "Profil"
   },
   {
+    "id": "photo-processing",
+    "group": "secimler",
+    "title": "Fotoğraf / İşleniyor",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "source": "Founder phone tour 2026-09-24",
+    "file": "screens/svg/photo-processing--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "blocks": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Profil",
+    "photoTransfer": {
+      "phase": "processing",
+      "statusKey": "photoProcessing",
+      "indicator": "spinner",
+      "successConfirmed": false
+    }
+  },
+  {
+    "id": "photo-processing",
+    "group": "secimler",
+    "title": "Fotoğraf / İşleniyor",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "source": "Founder phone tour 2026-09-24",
+    "file": "screens/svg/photo-processing--en--android--200.svg",
+    "width": 412,
+    "height": 950,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "blocks": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Profil",
+    "photoTransfer": {
+      "phase": "processing",
+      "statusKey": "photoProcessing",
+      "indicator": "spinner",
+      "successConfirmed": false
+    }
+  },
+  {
+    "id": "photo-processing",
+    "group": "secimler",
+    "title": "Fotoğraf / İşleniyor",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "source": "Founder phone tour 2026-09-24",
+    "file": "screens/svg/photo-processing--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "blocks": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Profil",
+    "photoTransfer": {
+      "phase": "processing",
+      "statusKey": "photoProcessing",
+      "indicator": "spinner",
+      "successConfirmed": false
+    }
+  },
+  {
+    "id": "photo-processing",
+    "group": "secimler",
+    "title": "Fotoğraf / İşleniyor",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "source": "Founder phone tour 2026-09-24",
+    "file": "screens/svg/photo-processing--en--ios--200.svg",
+    "width": 390,
+    "height": 1033,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "blocks": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Profil",
+    "photoTransfer": {
+      "phase": "processing",
+      "statusKey": "photoProcessing",
+      "indicator": "spinner",
+      "successConfirmed": false
+    }
+  },
+  {
+    "id": "photo-processing",
+    "group": "secimler",
+    "title": "Fotoğraf / İşleniyor",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "source": "Founder phone tour 2026-09-24",
+    "file": "screens/svg/photo-processing--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "blocks": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Profil",
+    "photoTransfer": {
+      "phase": "processing",
+      "statusKey": "photoProcessing",
+      "indicator": "spinner",
+      "successConfirmed": false
+    }
+  },
+  {
+    "id": "photo-processing",
+    "group": "secimler",
+    "title": "Fotoğraf / İşleniyor",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "source": "Founder phone tour 2026-09-24",
+    "file": "screens/svg/photo-processing--tr--android--200.svg",
+    "width": 412,
+    "height": 950,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "blocks": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Profil",
+    "photoTransfer": {
+      "phase": "processing",
+      "statusKey": "photoProcessing",
+      "indicator": "spinner",
+      "successConfirmed": false
+    }
+  },
+  {
+    "id": "photo-processing",
+    "group": "secimler",
+    "title": "Fotoğraf / İşleniyor",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "source": "Founder phone tour 2026-09-24",
+    "file": "screens/svg/photo-processing--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "blocks": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Profil",
+    "photoTransfer": {
+      "phase": "processing",
+      "statusKey": "photoProcessing",
+      "indicator": "spinner",
+      "successConfirmed": false
+    }
+  },
+  {
+    "id": "photo-processing",
+    "group": "secimler",
+    "title": "Fotoğraf / İşleniyor",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "source": "Founder phone tour 2026-09-24",
+    "file": "screens/svg/photo-processing--tr--ios--200.svg",
+    "width": 390,
+    "height": 1033,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "blocks": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Profil",
+    "photoTransfer": {
+      "phase": "processing",
+      "statusKey": "photoProcessing",
+      "indicator": "spinner",
+      "successConfirmed": false
+    }
+  },
+  {
     "id": "photo-selected",
     "group": "secimler",
     "title": "Fotoğraf / Tek fotoğraf",
@@ -76310,6 +76806,222 @@
     "regions": [],
     "peerContinueChoice": null,
     "family": "Profil"
+  },
+  {
+    "id": "photo-uploading",
+    "group": "secimler",
+    "title": "Fotoğraf / Yükleniyor",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "source": "Founder phone tour 2026-09-24",
+    "file": "screens/svg/photo-uploading--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "blocks": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Profil",
+    "photoTransfer": {
+      "phase": "uploading",
+      "statusKey": "photoUploading",
+      "indicator": "indeterminate-linear",
+      "successConfirmed": false
+    }
+  },
+  {
+    "id": "photo-uploading",
+    "group": "secimler",
+    "title": "Fotoğraf / Yükleniyor",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "source": "Founder phone tour 2026-09-24",
+    "file": "screens/svg/photo-uploading--en--android--200.svg",
+    "width": 412,
+    "height": 946,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "blocks": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Profil",
+    "photoTransfer": {
+      "phase": "uploading",
+      "statusKey": "photoUploading",
+      "indicator": "indeterminate-linear",
+      "successConfirmed": false
+    }
+  },
+  {
+    "id": "photo-uploading",
+    "group": "secimler",
+    "title": "Fotoğraf / Yükleniyor",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "source": "Founder phone tour 2026-09-24",
+    "file": "screens/svg/photo-uploading--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "blocks": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Profil",
+    "photoTransfer": {
+      "phase": "uploading",
+      "statusKey": "photoUploading",
+      "indicator": "indeterminate-linear",
+      "successConfirmed": false
+    }
+  },
+  {
+    "id": "photo-uploading",
+    "group": "secimler",
+    "title": "Fotoğraf / Yükleniyor",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "source": "Founder phone tour 2026-09-24",
+    "file": "screens/svg/photo-uploading--en--ios--200.svg",
+    "width": 390,
+    "height": 978,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "blocks": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Profil",
+    "photoTransfer": {
+      "phase": "uploading",
+      "statusKey": "photoUploading",
+      "indicator": "indeterminate-linear",
+      "successConfirmed": false
+    }
+  },
+  {
+    "id": "photo-uploading",
+    "group": "secimler",
+    "title": "Fotoğraf / Yükleniyor",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "source": "Founder phone tour 2026-09-24",
+    "file": "screens/svg/photo-uploading--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "blocks": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Profil",
+    "photoTransfer": {
+      "phase": "uploading",
+      "statusKey": "photoUploading",
+      "indicator": "indeterminate-linear",
+      "successConfirmed": false
+    }
+  },
+  {
+    "id": "photo-uploading",
+    "group": "secimler",
+    "title": "Fotoğraf / Yükleniyor",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "source": "Founder phone tour 2026-09-24",
+    "file": "screens/svg/photo-uploading--tr--android--200.svg",
+    "width": 412,
+    "height": 946,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "blocks": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Profil",
+    "photoTransfer": {
+      "phase": "uploading",
+      "statusKey": "photoUploading",
+      "indicator": "indeterminate-linear",
+      "successConfirmed": false
+    }
+  },
+  {
+    "id": "photo-uploading",
+    "group": "secimler",
+    "title": "Fotoğraf / Yükleniyor",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "source": "Founder phone tour 2026-09-24",
+    "file": "screens/svg/photo-uploading--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "blocks": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Profil",
+    "photoTransfer": {
+      "phase": "uploading",
+      "statusKey": "photoUploading",
+      "indicator": "indeterminate-linear",
+      "successConfirmed": false
+    }
+  },
+  {
+    "id": "photo-uploading",
+    "group": "secimler",
+    "title": "Fotoğraf / Yükleniyor",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "source": "Founder phone tour 2026-09-24",
+    "file": "screens/svg/photo-uploading--tr--ios--200.svg",
+    "width": 390,
+    "height": 978,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "blocks": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Profil",
+    "photoTransfer": {
+      "phase": "uploading",
+      "statusKey": "photoUploading",
+      "indicator": "indeterminate-linear",
+      "successConfirmed": false
+    }
   },
   {
     "id": "profile-complete",
@@ -97449,16 +98161,47 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-own-hidden--en--android--100.svg",
     "width": 412,
-    "height": 915,
+    "height": 1058,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 0,
     "active": true,
     "theme": "Cream & Ink",
     "blocks": [],
-    "regions": [],
+    "regions": [
+      {
+        "key": "profileEdit",
+        "x": 292,
+        "y": 50,
+        "w": 48,
+        "h": 48
+      },
+      {
+        "key": "settings",
+        "x": 340,
+        "y": 50,
+        "w": 48,
+        "h": 48
+      }
+    ],
     "peerContinueChoice": null,
-    "family": "Profil"
+    "family": "Profil",
+    "actions": [
+      {
+        "key": "profileEdit",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "form-edit"
+      },
+      {
+        "key": "settings",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "settings"
+      }
+    ],
+    "profileEntry": "own-profile",
+    "hiddenFieldIndicatorKey": "profileHiddenToOthers"
   },
   {
     "id": "view-own-hidden",
@@ -97470,16 +98213,47 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-own-hidden--en--android--200.svg",
     "width": 412,
-    "height": 1276,
+    "height": 1532,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 0,
     "active": true,
     "theme": "Cream & Ink",
     "blocks": [],
-    "regions": [],
+    "regions": [
+      {
+        "key": "profileEdit",
+        "x": 292,
+        "y": 50,
+        "w": 48,
+        "h": 48
+      },
+      {
+        "key": "settings",
+        "x": 340,
+        "y": 50,
+        "w": 48,
+        "h": 48
+      }
+    ],
     "peerContinueChoice": null,
-    "family": "Profil"
+    "family": "Profil",
+    "actions": [
+      {
+        "key": "profileEdit",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "form-edit"
+      },
+      {
+        "key": "settings",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "settings"
+      }
+    ],
+    "profileEntry": "own-profile",
+    "hiddenFieldIndicatorKey": "profileHiddenToOthers"
   },
   {
     "id": "view-own-hidden",
@@ -97491,16 +98265,47 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-own-hidden--en--ios--100.svg",
     "width": 390,
-    "height": 945,
+    "height": 1090,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 0,
     "active": true,
     "theme": "Cream & Ink",
     "blocks": [],
-    "regions": [],
+    "regions": [
+      {
+        "key": "profileEdit",
+        "x": 270,
+        "y": 72,
+        "w": 48,
+        "h": 48
+      },
+      {
+        "key": "settings",
+        "x": 318,
+        "y": 72,
+        "w": 48,
+        "h": 48
+      }
+    ],
     "peerContinueChoice": null,
-    "family": "Profil"
+    "family": "Profil",
+    "actions": [
+      {
+        "key": "profileEdit",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "form-edit"
+      },
+      {
+        "key": "settings",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "settings"
+      }
+    ],
+    "profileEntry": "own-profile",
+    "hiddenFieldIndicatorKey": "profileHiddenToOthers"
   },
   {
     "id": "view-own-hidden",
@@ -97512,16 +98317,47 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-own-hidden--en--ios--200.svg",
     "width": 390,
-    "height": 1308,
+    "height": 1564,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 0,
     "active": true,
     "theme": "Cream & Ink",
     "blocks": [],
-    "regions": [],
+    "regions": [
+      {
+        "key": "profileEdit",
+        "x": 270,
+        "y": 72,
+        "w": 48,
+        "h": 48
+      },
+      {
+        "key": "settings",
+        "x": 318,
+        "y": 72,
+        "w": 48,
+        "h": 48
+      }
+    ],
     "peerContinueChoice": null,
-    "family": "Profil"
+    "family": "Profil",
+    "actions": [
+      {
+        "key": "profileEdit",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "form-edit"
+      },
+      {
+        "key": "settings",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "settings"
+      }
+    ],
+    "profileEntry": "own-profile",
+    "hiddenFieldIndicatorKey": "profileHiddenToOthers"
   },
   {
     "id": "view-own-hidden",
@@ -97533,16 +98369,47 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-own-hidden--tr--android--100.svg",
     "width": 412,
-    "height": 915,
+    "height": 1058,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 0,
     "active": true,
     "theme": "Cream & Ink",
     "blocks": [],
-    "regions": [],
+    "regions": [
+      {
+        "key": "profileEdit",
+        "x": 292,
+        "y": 50,
+        "w": 48,
+        "h": 48
+      },
+      {
+        "key": "settings",
+        "x": 340,
+        "y": 50,
+        "w": 48,
+        "h": 48
+      }
+    ],
     "peerContinueChoice": null,
-    "family": "Profil"
+    "family": "Profil",
+    "actions": [
+      {
+        "key": "profileEdit",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "form-edit"
+      },
+      {
+        "key": "settings",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "settings"
+      }
+    ],
+    "profileEntry": "own-profile",
+    "hiddenFieldIndicatorKey": "profileHiddenToOthers"
   },
   {
     "id": "view-own-hidden",
@@ -97554,16 +98421,47 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-own-hidden--tr--android--200.svg",
     "width": 412,
-    "height": 1276,
+    "height": 1532,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 0,
     "active": true,
     "theme": "Cream & Ink",
     "blocks": [],
-    "regions": [],
+    "regions": [
+      {
+        "key": "profileEdit",
+        "x": 292,
+        "y": 50,
+        "w": 48,
+        "h": 48
+      },
+      {
+        "key": "settings",
+        "x": 340,
+        "y": 50,
+        "w": 48,
+        "h": 48
+      }
+    ],
     "peerContinueChoice": null,
-    "family": "Profil"
+    "family": "Profil",
+    "actions": [
+      {
+        "key": "profileEdit",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "form-edit"
+      },
+      {
+        "key": "settings",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "settings"
+      }
+    ],
+    "profileEntry": "own-profile",
+    "hiddenFieldIndicatorKey": "profileHiddenToOthers"
   },
   {
     "id": "view-own-hidden",
@@ -97575,16 +98473,47 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-own-hidden--tr--ios--100.svg",
     "width": 390,
-    "height": 945,
+    "height": 1090,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 0,
     "active": true,
     "theme": "Cream & Ink",
     "blocks": [],
-    "regions": [],
+    "regions": [
+      {
+        "key": "profileEdit",
+        "x": 270,
+        "y": 72,
+        "w": 48,
+        "h": 48
+      },
+      {
+        "key": "settings",
+        "x": 318,
+        "y": 72,
+        "w": 48,
+        "h": 48
+      }
+    ],
     "peerContinueChoice": null,
-    "family": "Profil"
+    "family": "Profil",
+    "actions": [
+      {
+        "key": "profileEdit",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "form-edit"
+      },
+      {
+        "key": "settings",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "settings"
+      }
+    ],
+    "profileEntry": "own-profile",
+    "hiddenFieldIndicatorKey": "profileHiddenToOthers"
   },
   {
     "id": "view-own-hidden",
@@ -97596,16 +98525,47 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-own-hidden--tr--ios--200.svg",
     "width": 390,
-    "height": 1308,
+    "height": 1564,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 0,
     "active": true,
     "theme": "Cream & Ink",
     "blocks": [],
-    "regions": [],
+    "regions": [
+      {
+        "key": "profileEdit",
+        "x": 270,
+        "y": 72,
+        "w": 48,
+        "h": 48
+      },
+      {
+        "key": "settings",
+        "x": 318,
+        "y": 72,
+        "w": 48,
+        "h": 48
+      }
+    ],
     "peerContinueChoice": null,
-    "family": "Profil"
+    "family": "Profil",
+    "actions": [
+      {
+        "key": "profileEdit",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "form-edit"
+      },
+      {
+        "key": "settings",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "settings"
+      }
+    ],
+    "profileEntry": "own-profile",
+    "hiddenFieldIndicatorKey": "profileHiddenToOthers"
   },
   {
     "id": "view-own-visible",
@@ -97617,16 +98577,47 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-own-visible--en--android--100.svg",
     "width": 412,
-    "height": 982,
+    "height": 918,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 0,
     "active": true,
     "theme": "Cream & Ink",
     "blocks": [],
-    "regions": [],
+    "regions": [
+      {
+        "key": "profileEdit",
+        "x": 292,
+        "y": 50,
+        "w": 48,
+        "h": 48
+      },
+      {
+        "key": "settings",
+        "x": 340,
+        "y": 50,
+        "w": 48,
+        "h": 48
+      }
+    ],
     "peerContinueChoice": null,
-    "family": "Profil"
+    "family": "Profil",
+    "actions": [
+      {
+        "key": "profileEdit",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "form-edit"
+      },
+      {
+        "key": "settings",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "settings"
+      }
+    ],
+    "profileEntry": "own-profile",
+    "hiddenFieldIndicatorKey": null
   },
   {
     "id": "view-own-visible",
@@ -97638,16 +98629,47 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-own-visible--en--android--200.svg",
     "width": 412,
-    "height": 1391,
+    "height": 1315,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 0,
     "active": true,
     "theme": "Cream & Ink",
     "blocks": [],
-    "regions": [],
+    "regions": [
+      {
+        "key": "profileEdit",
+        "x": 292,
+        "y": 50,
+        "w": 48,
+        "h": 48
+      },
+      {
+        "key": "settings",
+        "x": 340,
+        "y": 50,
+        "w": 48,
+        "h": 48
+      }
+    ],
     "peerContinueChoice": null,
-    "family": "Profil"
+    "family": "Profil",
+    "actions": [
+      {
+        "key": "profileEdit",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "form-edit"
+      },
+      {
+        "key": "settings",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "settings"
+      }
+    ],
+    "profileEntry": "own-profile",
+    "hiddenFieldIndicatorKey": null
   },
   {
     "id": "view-own-visible",
@@ -97659,16 +98681,47 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-own-visible--en--ios--100.svg",
     "width": 390,
-    "height": 1014,
+    "height": 950,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 0,
     "active": true,
     "theme": "Cream & Ink",
     "blocks": [],
-    "regions": [],
+    "regions": [
+      {
+        "key": "profileEdit",
+        "x": 270,
+        "y": 72,
+        "w": 48,
+        "h": 48
+      },
+      {
+        "key": "settings",
+        "x": 318,
+        "y": 72,
+        "w": 48,
+        "h": 48
+      }
+    ],
     "peerContinueChoice": null,
-    "family": "Profil"
+    "family": "Profil",
+    "actions": [
+      {
+        "key": "profileEdit",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "form-edit"
+      },
+      {
+        "key": "settings",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "settings"
+      }
+    ],
+    "profileEntry": "own-profile",
+    "hiddenFieldIndicatorKey": null
   },
   {
     "id": "view-own-visible",
@@ -97680,16 +98733,47 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-own-visible--en--ios--200.svg",
     "width": 390,
-    "height": 1423,
+    "height": 1347,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 0,
     "active": true,
     "theme": "Cream & Ink",
     "blocks": [],
-    "regions": [],
+    "regions": [
+      {
+        "key": "profileEdit",
+        "x": 270,
+        "y": 72,
+        "w": 48,
+        "h": 48
+      },
+      {
+        "key": "settings",
+        "x": 318,
+        "y": 72,
+        "w": 48,
+        "h": 48
+      }
+    ],
     "peerContinueChoice": null,
-    "family": "Profil"
+    "family": "Profil",
+    "actions": [
+      {
+        "key": "profileEdit",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "form-edit"
+      },
+      {
+        "key": "settings",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "settings"
+      }
+    ],
+    "profileEntry": "own-profile",
+    "hiddenFieldIndicatorKey": null
   },
   {
     "id": "view-own-visible",
@@ -97701,16 +98785,47 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-own-visible--tr--android--100.svg",
     "width": 412,
-    "height": 982,
+    "height": 918,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 0,
     "active": true,
     "theme": "Cream & Ink",
     "blocks": [],
-    "regions": [],
+    "regions": [
+      {
+        "key": "profileEdit",
+        "x": 292,
+        "y": 50,
+        "w": 48,
+        "h": 48
+      },
+      {
+        "key": "settings",
+        "x": 340,
+        "y": 50,
+        "w": 48,
+        "h": 48
+      }
+    ],
     "peerContinueChoice": null,
-    "family": "Profil"
+    "family": "Profil",
+    "actions": [
+      {
+        "key": "profileEdit",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "form-edit"
+      },
+      {
+        "key": "settings",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "settings"
+      }
+    ],
+    "profileEntry": "own-profile",
+    "hiddenFieldIndicatorKey": null
   },
   {
     "id": "view-own-visible",
@@ -97722,16 +98837,47 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-own-visible--tr--android--200.svg",
     "width": 412,
-    "height": 1391,
+    "height": 1315,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 0,
     "active": true,
     "theme": "Cream & Ink",
     "blocks": [],
-    "regions": [],
+    "regions": [
+      {
+        "key": "profileEdit",
+        "x": 292,
+        "y": 50,
+        "w": 48,
+        "h": 48
+      },
+      {
+        "key": "settings",
+        "x": 340,
+        "y": 50,
+        "w": 48,
+        "h": 48
+      }
+    ],
     "peerContinueChoice": null,
-    "family": "Profil"
+    "family": "Profil",
+    "actions": [
+      {
+        "key": "profileEdit",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "form-edit"
+      },
+      {
+        "key": "settings",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "settings"
+      }
+    ],
+    "profileEntry": "own-profile",
+    "hiddenFieldIndicatorKey": null
   },
   {
     "id": "view-own-visible",
@@ -97743,16 +98889,47 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-own-visible--tr--ios--100.svg",
     "width": 390,
-    "height": 1014,
+    "height": 950,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 0,
     "active": true,
     "theme": "Cream & Ink",
     "blocks": [],
-    "regions": [],
+    "regions": [
+      {
+        "key": "profileEdit",
+        "x": 270,
+        "y": 72,
+        "w": 48,
+        "h": 48
+      },
+      {
+        "key": "settings",
+        "x": 318,
+        "y": 72,
+        "w": 48,
+        "h": 48
+      }
+    ],
     "peerContinueChoice": null,
-    "family": "Profil"
+    "family": "Profil",
+    "actions": [
+      {
+        "key": "profileEdit",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "form-edit"
+      },
+      {
+        "key": "settings",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "settings"
+      }
+    ],
+    "profileEntry": "own-profile",
+    "hiddenFieldIndicatorKey": null
   },
   {
     "id": "view-own-visible",
@@ -97764,16 +98941,47 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-own-visible--tr--ios--200.svg",
     "width": 390,
-    "height": 1423,
+    "height": 1347,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 0,
     "active": true,
     "theme": "Cream & Ink",
     "blocks": [],
-    "regions": [],
+    "regions": [
+      {
+        "key": "profileEdit",
+        "x": 270,
+        "y": 72,
+        "w": 48,
+        "h": 48
+      },
+      {
+        "key": "settings",
+        "x": 318,
+        "y": 72,
+        "w": 48,
+        "h": 48
+      }
+    ],
     "peerContinueChoice": null,
-    "family": "Profil"
+    "family": "Profil",
+    "actions": [
+      {
+        "key": "profileEdit",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "form-edit"
+      },
+      {
+        "key": "settings",
+        "enabled": true,
+        "presentation": "header-icon",
+        "destination": "settings"
+      }
+    ],
+    "profileEntry": "own-profile",
+    "hiddenFieldIndicatorKey": null
   },
   {
     "id": "view-unavailable",
