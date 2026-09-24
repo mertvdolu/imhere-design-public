@@ -24,3 +24,5 @@ DOĞRULAMA: evidence/validation.json, review/ ve MANIFEST.json. Dosyalar ZIP yer
 Kendi profilinde alt düzenleme düğmesi kaldırıldı; üst sağda kalem → dişli. Gizli alan işareti `profileHiddenToOthers`; ayrıntı telefon turu notunda.
 
 Son teslim: [CH-141–143 toplu Code devri](specs/CODE-ALIGNMENT-CH141-143.md).
+
+Founder telefon turu T1–T4: [yerleşim güncellemesi](specs/FOUNDER-PHONE-T1-T4.md).

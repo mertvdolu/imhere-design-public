@@ -1190,5 +1190,24 @@
     "unchangedScreenFiles": 2860,
     "reportCategoryAndEndDialogUnchanged": true,
     "nativeAppTest": false
+  },
+  "founderPhoneT1T4": {
+    "date": "2026-09-24",
+    "changedStates": 35,
+    "svgVariants": 280,
+    "pngVariants": 70,
+    "variantCounts": {
+      "T3": 80,
+      "T1": 64,
+      "T4": 40,
+      "T2": 96
+    },
+    "iconAndChipTargetsAtLeast48": true,
+    "chipTextFits": true,
+    "betaFlagsUnchanged": true,
+    "allL10nUnchanged": true,
+    "unrelatedScreenFilesPreserved": 2610,
+    "visualReview": "four representative states, TR/EN iOS/Android, normal/large; PNG contact sheets",
+    "nativeAppTest": false
   }
 }

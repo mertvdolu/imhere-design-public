@@ -23,3 +23,5 @@ Bu teslim tasarımı tamamlar. Flutter, sunucu veya mağaza derlemesi değiştir
 [Önizleme](motion/hareket-ve-his-v1/ONIZLEME.html) · [Spesifikasyon](motion/hareket-ve-his-v1/SPEC.md). 7 imza an, azaltılmış karşılıkları ve tüm296 durum için hareket notları. Native entegrasyon değildir.
 
 Son teslim: [CH-141–143 toplu Code devri](specs/CODE-ALIGNMENT-CH141-143.md).
+
+Founder telefon turu T1–T4: [yerleşim güncellemesi](specs/FOUNDER-PHONE-T1-T4.md).

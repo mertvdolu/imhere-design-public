@@ -1,5 +1,11 @@
 # Değişiklik kaydı
 
+## Cream & Ink v2.2 — Founder T1–T4 · 2026-09-24
+
+- Aktif check-in: tek durum + Stop; niyet: ince çipler; sohbet: sağ üst Safety/Continue simgeleri; paylaşılan iletişim: sağ kalem.
+- 35 durum /280 SVG /70 PNG; TR/EN, iOS/Android ve büyük metin. Yeni metin yok; ARB ve beta kapsamı korunur.
+- Devir: `02-SON-EKLER/imhere-cream-complete-v2.2/specs/FOUNDER-PHONE-T1-T4.md`. Yerel teslim, aktarım Code.
+
 ## Cream & Ink v2.2 — Code uyumu CH-141–143 · 2026-09-24
 
 - Report sonucu: reportSent + blockDone + Go back; ayrı engelleme akışı ve üç eski durum kaldırıldı.
