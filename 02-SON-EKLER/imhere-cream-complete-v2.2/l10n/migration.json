@@ -668,5 +668,34 @@
     ],
     "merge": "new key only; do not overwrite live ARBs",
     "scope": "Founder-approved plan §5.5 success label"
+  },
+  "endConnection20260924": {
+    "newKeys": [
+      "endConfirmBody",
+      "endReportInstead"
+    ],
+    "updatedKeys": [
+      "endConfirm"
+    ],
+    "reusedKeys": [
+      "endConnection",
+      "cancel"
+    ],
+    "deltaFiles": [
+      "end-connection-patch_en.arb",
+      "end-connection-patch_tr.arb"
+    ],
+    "merge": "merge listed keys and metadata only; do not overwrite live ARBs",
+    "stateReplacement": {
+      "connections-open-closed": "connections-after-end"
+    },
+    "supersedes": "prior instructions to retain a closed connection card, including motion v1 clarification",
+    "rules": [
+      "Report instead opens the same target reporting flow without ending the connection.",
+      "Remove list entry only on confirmed end; failure and unknown do not remove it.",
+      "If last entry ended, reuse messages-connections-empty.",
+      "Read-only due to message limit/contact exchange is not ended; do not hide those solely for being read-only.",
+      "No precise time-of-day countdown, immediate-erasure promise or automatic reconnection."
+    ]
   }
 }

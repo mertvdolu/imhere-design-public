@@ -56,7 +56,7 @@ MapLibre + OpenFreeMap. Zorunlu görünür attribution: **© OpenStreetMap contr
 
 Messages = Connections + Requests. İki niyet: Friendship / Networking; başlangıç boş, kabul seçimi gerekli. Bekleyen sayaç `pendingSlots(used,max)`; max sözleşmeden, örnek 20. 19/20 ve 20/20 ile kalan süre çizimleri korunur.
 
-Sohbet metin + emoji + link, en çok 500 grapheme, 20 kendi gönderim hakkı. Medya/düzenleme/silme yok. Yumuşak iletişim uyarısı ve Yine de gönder korunur. Kapalı/salt okunurda composer yok; kapalı kart kilit ve nötr `connectionEndedNeutral` ile ayırt edilir. Salt okunur olmak tek başına sona ermiş bağlantı değildir.
+Sohbet metin + emoji + link, en çok 500 grapheme, 20 kendi gönderim hakkı. Medya/düzenleme/silme yok. Yumuşak iletişim uyarısı ve Yine de gönder korunur. Kapalı/salt okunurda composer yok; Founder’ın güncel kararıyla sona eren bağlantının kartı listeden kalkar. Onay öncesinde30 günlük saklama ve karşılıklı istekle yeniden bağlanma açıklanır. Salt okunur olmak tek başına sona ermiş bağlantı değildir.
 
 Saklama (ENG-M10-08(5)): `chatRetentionInfo` yalnız salt-okunur sohbette gösterilir; yazılabilir sohbette gösterilmez. Gönderim, geçici çevrimdışı olma veya belirsiz sonuç tek başına salt-okunur durum sayılmaz; uyarı yalnız mevcut gerçek backend eşiğiyle, silinmiş durum yalnız doğrulanmış sonuçla. Sayaç veya tam saat vaadi yok; profiller kalır. Yazılabilirlik bitiş tetikleyicileri son Manager kuralından gelir, tasarım yeniden tanımlamaz. Erişim/engel sonucu saklama mesajlarından önceliklidir; eski veri gösterilmez.
 

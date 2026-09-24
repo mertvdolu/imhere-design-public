@@ -2,7 +2,7 @@
   "version": "2.2",
   "name": "IM HERE / Cream & Ink complete design",
   "date": "2026-09-24",
-  "files": 3110,
+  "files": 3113,
   "screenStates": 298,
   "svgVariants": 2384,
   "pngVariants": 596,
@@ -14,8 +14,8 @@
     },
     {
       "file": "MANAGER-NOTU.md",
-      "bytes": 2276,
-      "sha256": "6f009ec69428ae808c251756621916c8aa97674bb74029561c3f9b2019b577da"
+      "bytes": 2297,
+      "sha256": "6775a81de2339f1cf3e87fa6303fbb30b6387dbe33ac0ec5bd28e2562fb62b6c"
     },
     {
       "file": "ONIZLEME.html",
@@ -224,8 +224,8 @@
     },
     {
       "file": "catalog.js",
-      "bytes": 2195156,
-      "sha256": "e22ea4878a0b8c0e399576481f50cf3f111ae5fd1ec8c545f2ab1d0c0fb22059"
+      "bytes": 2206517,
+      "sha256": "cee4ce0fd5c378940de7d1979944b4b5bd69171fbee4b73f76a9fd4d810f9d74"
     },
     {
       "file": "contracts/checkin-notices.json",
@@ -239,8 +239,8 @@
     },
     {
       "file": "contracts/screen-manifest.json",
-      "bytes": 3053374,
-      "sha256": "f0c1cd5faa819d4ab51e6e001b72779c7a394862e9584ac84962cb1a483c7ba6"
+      "bytes": 3069191,
+      "sha256": "7904e3d87c10568948254d4a6ab6fa58386601849db0887c1e6106f97c8e5ff1"
     },
     {
       "file": "evidence/assets-validation.json",
@@ -254,8 +254,8 @@
     },
     {
       "file": "evidence/validation.json",
-      "bytes": 25902,
-      "sha256": "2513a1798bfb94284a65744de3252430a601dd255225d0987f4bcc5c93d18a17"
+      "bytes": 29390,
+      "sha256": "7d930b903ef89d66921f3f71b4a9be31edab1e590c0ed6d4ad5e48df4a9cabd7"
     },
     {
       "file": "experience/ONIZLEME.html",
@@ -398,9 +398,19 @@
       "sha256": "7abdc09bf45ec8205f562db81b1aa2d4631549779b9c3016e9e018b4935cc84f"
     },
     {
+      "file": "l10n/end-connection-patch_en.arb",
+      "bytes": 830,
+      "sha256": "bf779bc0ea3bd595443fafd5c3d50c68aae7d278e04ea73a4d8b5e36c7d131af"
+    },
+    {
+      "file": "l10n/end-connection-patch_tr.arb",
+      "bytes": 852,
+      "sha256": "466ab09d3bdc100dd0096115a6ce7e9e7b10f5fdc4b8e9a5d69f9850e52c50e1"
+    },
+    {
       "file": "l10n/migration.json",
-      "bytes": 28639,
-      "sha256": "97ae7adbb45ee065ad74d9218245ada2a3da113ed20425d73956089a0bf37bfb"
+      "bytes": 29715,
+      "sha256": "15bfbc17a1f2f5bba4897ca6a64b689221d299e443f1ec317e94d40be4b4e3eb"
     },
     {
       "file": "l10n/motion-v1-patch_en.arb",
@@ -424,18 +434,18 @@
     },
     {
       "file": "motion/hareket-ve-his-v1/MANAGER-NOTU.md",
-      "bytes": 1165,
-      "sha256": "96f69037b97d399a5d50f1d4491688f14f3b3fa4b4ffdf63c2249c7f4247d8fb"
+      "bytes": 1228,
+      "sha256": "4b1777f433bb91d5a2b730ec0c0369fe30923ec22b707a8083715ef0f16bd597"
     },
     {
       "file": "motion/hareket-ve-his-v1/ONIZLEME.html",
-      "bytes": 11215,
-      "sha256": "a84f2f31381f2ca7820f42c5c935466a41d5de6d2dc05d377e3e073f11ffe9f0"
+      "bytes": 11460,
+      "sha256": "666b181a9da27b7ab58b7663739ae3e5c579917f9d694955ee85ccece734d17d"
     },
     {
       "file": "motion/hareket-ve-his-v1/SPEC.md",
-      "bytes": 15870,
-      "sha256": "f670386711dced0554121146ddc71035283379f81ba54c3c42da60241f3acc53"
+      "bytes": 16097,
+      "sha256": "0225907c095749884ba1ad8e9b98631075b2956f966a7dcf5d133664b604f0d2"
     },
     {
       "file": "motion/hareket-ve-his-v1/frames/01-ink-signature.csv",
@@ -564,13 +574,13 @@
     },
     {
       "file": "motion/hareket-ve-his-v1/screen-motion-map.json",
-      "bytes": 31358,
-      "sha256": "04af9e34be0f6dbb55c1e2b72977e23e76cc9440ae707e2a065417c2d7eb15c3"
+      "bytes": 31698,
+      "sha256": "9fad9e63bb763f6c9743b6ab860adbe1941cb9d7a36451d1e1b33071b43e69ae"
     },
     {
       "file": "motion/hareket-ve-his-v1/signature-moments.json",
-      "bytes": 14703,
-      "sha256": "d186d42e2dd3a8afca7d507fbbccb6ad8ebce03de503d619b1013f9f052f95b9"
+      "bytes": 14746,
+      "sha256": "c1eabd0fa0a4a7f52a39bd0165d66ce6af15a99e661166ddaaac1f45af33e0f0"
     },
     {
       "file": "motion/hareket-ve-his-v1/source/hareket-ve-his-plani-v1.md",
@@ -579,8 +589,8 @@
     },
     {
       "file": "motion/hareket-ve-his-v1/validation.json",
-      "bytes": 2161,
-      "sha256": "f55610e74c93d44b2f637b96dce5fffcb56927c35dc7019cdf7d14adcbb9fa9f"
+      "bytes": 2413,
+      "sha256": "4e8ddcf76478663b88bdc1a437824af16e0d148633203fb250a297de2fcde60c"
     },
     {
       "file": "review/brand-review.png",
@@ -1033,14 +1043,14 @@
       "sha256": "c030eff826e56f93a467a6f4d9131684032aa864e19723116f247b900beee0c1"
     },
     {
-      "file": "screens/png/connections-open-closed--en--ios--100.png",
-      "bytes": 130808,
-      "sha256": "34e4e5c7d53db14cd4313caef9fc923ac0af2df2cf571bf5b62508c0307a2da3"
+      "file": "screens/png/connections-after-end--en--ios--100.png",
+      "bytes": 94874,
+      "sha256": "54954abf9af511a55ab607ffa825d2e0528827dd6e10e3ec2e20357641bca986"
     },
     {
-      "file": "screens/png/connections-open-closed--tr--android--200.png",
-      "bytes": 158552,
-      "sha256": "ee26613fe53e775cefdbcc814d6b1a3d5fac66365fd4f3df5909de4d789add0f"
+      "file": "screens/png/connections-after-end--tr--android--200.png",
+      "bytes": 116852,
+      "sha256": "8c9bc0cceff31ed22c537b44c2fadb9c17b22c438e6537319dc01b1b9d2946c2"
     },
     {
       "file": "screens/png/contact-all--en--ios--100.png",
@@ -1624,13 +1634,13 @@
     },
     {
       "file": "screens/png/end-confirm--en--ios--100.png",
-      "bytes": 96858,
-      "sha256": "fe132443f490f8f552bfdb20e19d7b2050ecfda0a71879b0695ef1a1a75ab411"
+      "bytes": 90248,
+      "sha256": "d6cf146ede9c42f89c11e2fc62a7e2ab5b911c24ade5ccbe2c691ea663b04ed1"
     },
     {
       "file": "screens/png/end-confirm--tr--android--200.png",
-      "bytes": 141080,
-      "sha256": "e9a1b3d39cfb2ea01e92cb120e3db07c0b0d761aa02e94882df3dc07555fd665"
+      "bytes": 137844,
+      "sha256": "fa15fd818e12c64c066f2e949424321cd64e52bc9c49158fce4241cd06f812c5"
     },
     {
       "file": "screens/png/end-done--en--ios--100.png",
@@ -5243,44 +5253,44 @@
       "sha256": "6697c6d22ab5f06c00be9e936ad479850707a3b26fd0a5e5e5e2a2def672d1e7"
     },
     {
-      "file": "screens/svg/connections-open-closed--en--android--100.svg",
-      "bytes": 946451,
-      "sha256": "79225a962736908a63d2576ace2f9f2920b53dbfdb632c0f6ad137df51e69d0d"
+      "file": "screens/svg/connections-after-end--en--android--100.svg",
+      "bytes": 149255,
+      "sha256": "8543f9eb81338c69b0fea8bfe5b5d837f2635e5c652a5da20f61a0d3743dc471"
     },
     {
-      "file": "screens/svg/connections-open-closed--en--android--200.svg",
-      "bytes": 946660,
-      "sha256": "8206b338a85b6b597e7c0df8e9be8ec2aa52fe83349dabc52c946ca0495a0595"
+      "file": "screens/svg/connections-after-end--en--android--200.svg",
+      "bytes": 149346,
+      "sha256": "55201203f9c72f45a283dac7bb5f84b68967c4ea6194edc3748074c6860edcad"
     },
     {
-      "file": "screens/svg/connections-open-closed--en--ios--100.svg",
-      "bytes": 946461,
-      "sha256": "439143eea9ce65f66e70faed8a52f77140dac199a252294a8ca87bb7b920ab12"
+      "file": "screens/svg/connections-after-end--en--ios--100.svg",
+      "bytes": 149265,
+      "sha256": "071a65e4dc72bfe0eeaf119ba5d74568fca544c1cc13bffc5d4e0b1d5179d6c1"
     },
     {
-      "file": "screens/svg/connections-open-closed--en--ios--200.svg",
-      "bytes": 946636,
-      "sha256": "a107d9be237fec9751cd86b7f2843284177db1847b576952aa28cefef3f869a0"
+      "file": "screens/svg/connections-after-end--en--ios--200.svg",
+      "bytes": 149321,
+      "sha256": "5abf55af592e9c3462f5f612ff59d512974a9eebe350a5c64768bc9f91bc0f42"
     },
     {
-      "file": "screens/svg/connections-open-closed--tr--android--100.svg",
-      "bytes": 946464,
-      "sha256": "2ca4cc8aea104df7da8072ce5e1e03ddad2386943134debab9723a7259e00ef5"
+      "file": "screens/svg/connections-after-end--tr--android--100.svg",
+      "bytes": 149272,
+      "sha256": "7e5327758a9eee5908acc66f85d1af96a20bf16be7ccbab6600294fa797c6d4e"
     },
     {
-      "file": "screens/svg/connections-open-closed--tr--android--200.svg",
-      "bytes": 946572,
-      "sha256": "3403a14e7fdd23822365023a6d91ce197fc0bc384a3d806a1e51c20d36042afd"
+      "file": "screens/svg/connections-after-end--tr--android--200.svg",
+      "bytes": 149363,
+      "sha256": "572ef66fc8039ce16450a9bf47b24ccf350253420a5aeb9543a07818038618cd"
     },
     {
-      "file": "screens/svg/connections-open-closed--tr--ios--100.svg",
-      "bytes": 946474,
-      "sha256": "2e659d2fc43a766384e194e1fa4f1ef2b108a0af119ef5496d1bdeb8860cbeaa"
+      "file": "screens/svg/connections-after-end--tr--ios--100.svg",
+      "bytes": 149282,
+      "sha256": "25676ce693cd5afc9feef7b517ff5203de1f9654e80dd1537b317113bceb4cf2"
     },
     {
-      "file": "screens/svg/connections-open-closed--tr--ios--200.svg",
-      "bytes": 946649,
-      "sha256": "e6e91b39d701d84f80abd4ac3a56b2d06bfde9835997667cb96a525412903676"
+      "file": "screens/svg/connections-after-end--tr--ios--200.svg",
+      "bytes": 149338,
+      "sha256": "2d7a511ea2cdb633b9d226a5965b66fba04da2d7900498032df747e9a3610fa5"
     },
     {
       "file": "screens/svg/contact-all--en--android--100.svg",
@@ -7604,43 +7614,43 @@
     },
     {
       "file": "screens/svg/end-confirm--en--android--100.svg",
-      "bytes": 148141,
-      "sha256": "993e65bb3ce714773435e92ff7ea8dd37b9412ce66c8d807b2981c967c2a9780"
+      "bytes": 82644,
+      "sha256": "ce06beb0f36c7fc3d17072039fa8870da3929fd351cefab063d7652e0045e221"
     },
     {
       "file": "screens/svg/end-confirm--en--android--200.svg",
-      "bytes": 148676,
-      "sha256": "880a9ea8e3ff220db7e0f48975b816e82ecef117308ef1a301cdfa3f4a29be80"
+      "bytes": 83202,
+      "sha256": "2e159de43cbbf13b34a7533e963568380deaa0e9da1b26af65d69728e3a55330"
     },
     {
       "file": "screens/svg/end-confirm--en--ios--100.svg",
-      "bytes": 148142,
-      "sha256": "b8a09e57fadcf38dbd6cc08d3a87b3ed6cab8315121ad22f4406efff153e5256"
+      "bytes": 82645,
+      "sha256": "016f4438f068228c8e865045331cd7e7d8ec97caa6b7ecc2240b10ee0523039c"
     },
     {
       "file": "screens/svg/end-confirm--en--ios--200.svg",
-      "bytes": 148676,
-      "sha256": "e4cc27feeac2ea902f4d5f97419bfa3d2e77736d5ec5b8fe08ed9e0212bf7259"
+      "bytes": 83203,
+      "sha256": "5d15d77e2089ddae202b9550367b8c4af836658da1c8d88506ae0d29e1b74260"
     },
     {
       "file": "screens/svg/end-confirm--tr--android--100.svg",
-      "bytes": 148180,
-      "sha256": "bf6346f6275609cfbf3a95f62e90046b59c2aa9ba99e7b99a66c82ded30d1923"
+      "bytes": 82675,
+      "sha256": "20e1356fa5a3ef8835e1e4fcbbecb028b6a137aa57086b3a50199e86c36f759f"
     },
     {
       "file": "screens/svg/end-confirm--tr--android--200.svg",
-      "bytes": 148692,
-      "sha256": "282cd05e2ae7e4fe7379f14b7783a80674c89429bf3f7e1a2761a8c82d70f32c"
+      "bytes": 83342,
+      "sha256": "5d0bfa1b58d33656de7e693a695cb2b08e333c3c07f4b7377285e90ccbf9d8bb"
     },
     {
       "file": "screens/svg/end-confirm--tr--ios--100.svg",
-      "bytes": 148301,
-      "sha256": "cd80438c85af349e470cd2e6229fb1831962db96089ddc9ccff83d4bbf212527"
+      "bytes": 82676,
+      "sha256": "19d66728d4e2fb53976a6e432fa0a76dc0c48d949a2d64662a6ad5d52f74d8ba"
     },
     {
       "file": "screens/svg/end-confirm--tr--ios--200.svg",
-      "bytes": 148671,
-      "sha256": "641bf0a591cb8d29ed012c7446376e25ca50a7837aa1e73e5ae6fd2c45028c1a"
+      "bytes": 83493,
+      "sha256": "de6a2c99f180d1d04b87d564b99dcefec05740591329d033d1edae26b45da962"
     },
     {
       "file": "screens/svg/end-done--en--android--100.svg",
@@ -15533,6 +15543,11 @@
       "sha256": "64f222f2dbc2f586e7b0a297d507bfdbe5626371a874a95be036eec229dcdd8f"
     },
     {
+      "file": "specs/END-CONNECTION-2026-09-24.md",
+      "bytes": 3053,
+      "sha256": "7d51d9774e5676d40628c8f37410d40ba87404de0362c3fd152096b8c77efd16"
+    },
+    {
       "file": "specs/KAPSAM.md",
       "bytes": 1205,
       "sha256": "b5bc922d33f2214dfeef36010d74b1f6ceed3a4ce8911197fcb2146058fa196a"
@@ -15544,8 +15559,8 @@
     },
     {
       "file": "specs/TASARIM-DEVRI.md",
-      "bytes": 13496,
-      "sha256": "a7d0078fd8c48063fbd6e934bba3e03deeb8915ede1ad9e795804deb9c61cfce"
+      "bytes": 13599,
+      "sha256": "94f525081f113be8b787cbc8fa6fe8eca276baa5c48ecb548864d93a16002de6"
     },
     {
       "file": "specs/TELEFON-TURU-2026-09-24.md",

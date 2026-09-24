@@ -13,7 +13,7 @@ TOKEN: 03-GUNCEL-ORTAK/tokens/theme.tokens.json (v2.2)
 
 KAPSAM: Eski güncel katalogdaki 287 durumun tamamı + son ekler = 298 durum / 2384 SVG; TR/EN, iOS/Android, %100/%200. PNG referansları ayrıca var. Boş/yükleme/hata/offline akışları korunur. Harita tam ekran; dört semantik band korunur. Gönderilen iki daireli logo, açık simge/splash ve tek renk bildirim maskesi teslim edildi.
 
-SON EKLER: Mesaj saklama bilgileri, nearbyLimited, sunucu gizliliği açıklaması, photoUploaded, onboarding çıkışı, yedi aktif Ayarlar satırı ve destek kopyalama hali çizimlere işlendi. Cooldown/pending/connected, ek contact paylaşımı, güncelleme başarısı/boş durum, nötr kapalı kart ve salt okunur geçiş de yeni temada.
+SON EKLER: Mesaj saklama bilgileri, nearbyLimited, sunucu gizliliği açıklaması, photoUploaded, onboarding çıkışı, yedi aktif Ayarlar satırı ve destek kopyalama hali çizimlere işlendi. Cooldown/pending/connected, ek contact paylaşımı, güncelleme başarısı/boş durum, biten bağlantının listeden kalkması ve salt okunur geçiş de yeni temada.
 
 METİN DELTASI: supportCopyEmail / supportEmailCopied / authVerifyResending (TR/EN); authEmailUnavailable mevcut metni CH-138 ile güncellendi. l10n/cream-v2.2-patch_*.arb + migration.json ile birleştirin; tam ARB'yi canlı dosyanın üstüne yazmayın. Önceki M09/M10 metinleri tam referansta korunur.
 

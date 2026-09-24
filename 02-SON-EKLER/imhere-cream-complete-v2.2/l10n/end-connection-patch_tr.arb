@@ -1,0 +1,15 @@
+{
+  "@@locale": "tr",
+  "endConfirm": "Bağlantıyı bitir?",
+  "endConfirmBody": "Bu sohbet sohbet listenden kalkar; mesaj geçmişi güvenlik için 30 gün saklanır, sonra silinir. İkiniz de isterseniz yeniden bağlantı kurabilirsiniz.",
+  "endReportInstead": "Bunun yerine şikâyet et",
+  "@endConfirm": {
+    "description": "End connection confirmation title. Founder phone tour 2026-09-24; supersedes earlier title."
+  },
+  "@endConfirmBody": {
+    "description": "Confirmed end removes the chat from the chat list; history retained for safety for 30 days then deleted; reconnecting requires both people wanting it. No immediate deletion or automatic reconnection."
+  },
+  "@endReportInstead": {
+    "description": "Open reporting for the same person without ending the connection. Alternative to End connection, not a combined action."
+  }
+}

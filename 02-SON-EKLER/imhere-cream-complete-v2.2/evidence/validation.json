@@ -1017,5 +1017,156 @@
       "GIF25fps is a preview; reference samples60fps.",
       "Map geometry is a viewport edge, never geographic/person data."
     ]
+  },
+  "endConnection20260924": {
+    "date": "2026-09-24",
+    "states": 298,
+    "svgVariants": 2384,
+    "changedSvgVariants": 16,
+    "changedPngVariants": 4,
+    "stateReplacement": {
+      "connections-open-closed": "connections-after-end"
+    },
+    "allPriorBetaFlagsPreserved": true,
+    "fullArbsUntouched": true,
+    "threeDialogActionsVerified": true,
+    "reportInsteadDoesNotEnd": true,
+    "textBoundsAndTapTargets": "pass for TR/EN iOS/Android100/200%",
+    "unchangedScreenFiles": 2960,
+    "motionRuleSuperseded": true,
+    "nativeAppTest": false,
+    "variants": [
+      {
+        "id": "connections-after-end",
+        "lang": "en",
+        "platform": "android",
+        "scale": 1,
+        "height": 915,
+        "textBounds": true
+      },
+      {
+        "id": "connections-after-end",
+        "lang": "en",
+        "platform": "android",
+        "scale": 2,
+        "height": 915,
+        "textBounds": true
+      },
+      {
+        "id": "connections-after-end",
+        "lang": "en",
+        "platform": "ios",
+        "scale": 1,
+        "height": 844,
+        "textBounds": true
+      },
+      {
+        "id": "connections-after-end",
+        "lang": "en",
+        "platform": "ios",
+        "scale": 2,
+        "height": 844,
+        "textBounds": true
+      },
+      {
+        "id": "connections-after-end",
+        "lang": "tr",
+        "platform": "android",
+        "scale": 1,
+        "height": 915,
+        "textBounds": true
+      },
+      {
+        "id": "connections-after-end",
+        "lang": "tr",
+        "platform": "android",
+        "scale": 2,
+        "height": 915,
+        "textBounds": true
+      },
+      {
+        "id": "connections-after-end",
+        "lang": "tr",
+        "platform": "ios",
+        "scale": 1,
+        "height": 844,
+        "textBounds": true
+      },
+      {
+        "id": "connections-after-end",
+        "lang": "tr",
+        "platform": "ios",
+        "scale": 2,
+        "height": 844,
+        "textBounds": true
+      },
+      {
+        "id": "end-confirm",
+        "lang": "en",
+        "platform": "android",
+        "scale": 1,
+        "height": 915,
+        "textBounds": true
+      },
+      {
+        "id": "end-confirm",
+        "lang": "en",
+        "platform": "android",
+        "scale": 2,
+        "height": 950,
+        "textBounds": true
+      },
+      {
+        "id": "end-confirm",
+        "lang": "en",
+        "platform": "ios",
+        "scale": 1,
+        "height": 844,
+        "textBounds": true
+      },
+      {
+        "id": "end-confirm",
+        "lang": "en",
+        "platform": "ios",
+        "scale": 2,
+        "height": 982,
+        "textBounds": true
+      },
+      {
+        "id": "end-confirm",
+        "lang": "tr",
+        "platform": "android",
+        "scale": 1,
+        "height": 915,
+        "textBounds": true
+      },
+      {
+        "id": "end-confirm",
+        "lang": "tr",
+        "platform": "android",
+        "scale": 2,
+        "height": 989,
+        "textBounds": true
+      },
+      {
+        "id": "end-confirm",
+        "lang": "tr",
+        "platform": "ios",
+        "scale": 1,
+        "height": 844,
+        "textBounds": true
+      },
+      {
+        "id": "end-confirm",
+        "lang": "tr",
+        "platform": "ios",
+        "scale": 2,
+        "height": 1072,
+        "textBounds": true
+      }
+    ]
+  },
+  "supersededChecks": {
+    "closedCardNeutral": "Superseded by Founder phone tour2026-09-24: ended row removed; see endConnection20260924."
   }
 }

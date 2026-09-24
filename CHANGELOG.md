@@ -1,5 +1,12 @@
 # Değişiklik kaydı
 
+## Cream & Ink v2.2 — End connection onayı · 2026-09-24
+
+- Onay penceresi:30 günlük güvenlik saklama/silme, listeden kalkma ve iki taraf isterse yeniden bağlanma; EN/TR delta. Ana End connection, Report instead ve Cancel.
+- Report instead yalnız şikâyet akışını açar; bağlantıyı bitirmez.
+- Founder kararı değişti: `connections-open-closed` yerine `connections-after-end`; kapalı kart listede tutulmaz. Motion `closed-card-preserved` kaldırılıp `ended-card-removal` eklendi.
+- 16 SVG /4 PNG; toplam298 durum ve mevcut beta kapsamı korunur. Tam ARB üzerine yazılmadı. Yerel teslim.
+
 ## Cream & Ink v2.2 — Hareket ve His v1.0 · 2026-09-24
 
 - 5 motion token grubu, kesin Flutter yay katsayıları; 7 imza an için zamanlama, titreşim, veri tetikleyicisi, iptal ve azaltılmış karşılık.

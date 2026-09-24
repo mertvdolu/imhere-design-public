@@ -7,7 +7,7 @@
 Founder onaylı kaynak `source/hareket-ve-his-plani-v1.md` arşivlendi. Plandaki 295 durum sayısı eski; güncel katalog **298 durum / 2384 SVG**. Bu iş yeni ekran durumu eklemez.
 
 - Founder ek yanıtı: “sınırların kenarından … 0 noktasından başlamasın”. Varlık dalgası **harita viewport kenarından içeri** başlar; coğrafi sınır/yarıçap, kendi noktan veya başka kişi işareti değildir. Dört semantik harita rengi, sayısız/mesafesiz gösterim ve attribution korunur. Nokta yerine yalnız dekoratif kenar vurgusu nefes alır.
-- Founder ek yanıtıyla kapalı bağlantı kartı listede kalır. Kapanan yalnız açık bağlantıya ait alt içeriktir; mesaj silindiği ima edilmez.
+- **Güncel Founder kararı (2026-09-24):** Bağlantı bitince kart listeden kalkar. Önceki kartı tutma kararı geçersizdir. Yalnız doğrulanmış bitişte satır150ms opaklıkla çıkar; normal harekette yeri150ms daralır, azaltılmış harekette yer değiştirme animasyonu yoktur. Liste boşalırsa mevcut boş durum açılır. Bu, geçmişin anında silinmesi değildir.
 - Profilden şikâyet girişi onaylandı ve hareketten önce `e1f4bbe` ile teslim edildi; 6. kategori `079ee74`.
 - Yeni runtime bağımlılığı yok. Flutter animasyonları, CustomPainter ve HapticFeedback yeterli. Cam/blur/backdrop taklidi, Lottie/Rive yok.
 

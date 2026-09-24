@@ -6696,172 +6696,180 @@
     }
   },
   {
-    "id": "connections-open-closed",
+    "id": "connections-after-end",
     "lang": "en",
     "platform": "android",
     "scale": "100",
     "source": "imhere-cream-complete-v2.2",
     "baselineSource": "imhere-design-v1.7.3",
     "active": true,
-    "file": "02-SON-EKLER/imhere-cream-complete-v2.2/screens/svg/connections-open-closed--en--android--100.svg",
+    "file": "02-SON-EKLER/imhere-cream-complete-v2.2/screens/svg/connections-after-end--en--android--100.svg",
     "beta": true,
     "motion": {
       "version": "1.0",
       "references": [
         "base-route",
         "03-paper-list",
-        "closed-card-preserved",
+        "ended-card-removal",
         "tab-indicator"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "supersedes": "connections-open-closed"
   },
   {
-    "id": "connections-open-closed",
+    "id": "connections-after-end",
     "lang": "en",
     "platform": "android",
     "scale": "200",
     "source": "imhere-cream-complete-v2.2",
     "baselineSource": "imhere-design-v1.7.3",
     "active": true,
-    "file": "02-SON-EKLER/imhere-cream-complete-v2.2/screens/svg/connections-open-closed--en--android--200.svg",
+    "file": "02-SON-EKLER/imhere-cream-complete-v2.2/screens/svg/connections-after-end--en--android--200.svg",
     "beta": true,
     "motion": {
       "version": "1.0",
       "references": [
         "base-route",
         "03-paper-list",
-        "closed-card-preserved",
+        "ended-card-removal",
         "tab-indicator"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "supersedes": "connections-open-closed"
   },
   {
-    "id": "connections-open-closed",
+    "id": "connections-after-end",
     "lang": "en",
     "platform": "ios",
     "scale": "100",
     "source": "imhere-cream-complete-v2.2",
     "baselineSource": "imhere-design-v1.7.3",
     "active": true,
-    "file": "02-SON-EKLER/imhere-cream-complete-v2.2/screens/svg/connections-open-closed--en--ios--100.svg",
+    "file": "02-SON-EKLER/imhere-cream-complete-v2.2/screens/svg/connections-after-end--en--ios--100.svg",
     "beta": true,
     "motion": {
       "version": "1.0",
       "references": [
         "base-route",
         "03-paper-list",
-        "closed-card-preserved",
+        "ended-card-removal",
         "tab-indicator"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "supersedes": "connections-open-closed"
   },
   {
-    "id": "connections-open-closed",
+    "id": "connections-after-end",
     "lang": "en",
     "platform": "ios",
     "scale": "200",
     "source": "imhere-cream-complete-v2.2",
     "baselineSource": "imhere-design-v1.7.3",
     "active": true,
-    "file": "02-SON-EKLER/imhere-cream-complete-v2.2/screens/svg/connections-open-closed--en--ios--200.svg",
+    "file": "02-SON-EKLER/imhere-cream-complete-v2.2/screens/svg/connections-after-end--en--ios--200.svg",
     "beta": true,
     "motion": {
       "version": "1.0",
       "references": [
         "base-route",
         "03-paper-list",
-        "closed-card-preserved",
+        "ended-card-removal",
         "tab-indicator"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "supersedes": "connections-open-closed"
   },
   {
-    "id": "connections-open-closed",
+    "id": "connections-after-end",
     "lang": "tr",
     "platform": "android",
     "scale": "100",
     "source": "imhere-cream-complete-v2.2",
     "baselineSource": "imhere-design-v1.7.3",
     "active": true,
-    "file": "02-SON-EKLER/imhere-cream-complete-v2.2/screens/svg/connections-open-closed--tr--android--100.svg",
+    "file": "02-SON-EKLER/imhere-cream-complete-v2.2/screens/svg/connections-after-end--tr--android--100.svg",
     "beta": true,
     "motion": {
       "version": "1.0",
       "references": [
         "base-route",
         "03-paper-list",
-        "closed-card-preserved",
+        "ended-card-removal",
         "tab-indicator"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "supersedes": "connections-open-closed"
   },
   {
-    "id": "connections-open-closed",
+    "id": "connections-after-end",
     "lang": "tr",
     "platform": "android",
     "scale": "200",
     "source": "imhere-cream-complete-v2.2",
     "baselineSource": "imhere-design-v1.7.3",
     "active": true,
-    "file": "02-SON-EKLER/imhere-cream-complete-v2.2/screens/svg/connections-open-closed--tr--android--200.svg",
+    "file": "02-SON-EKLER/imhere-cream-complete-v2.2/screens/svg/connections-after-end--tr--android--200.svg",
     "beta": true,
     "motion": {
       "version": "1.0",
       "references": [
         "base-route",
         "03-paper-list",
-        "closed-card-preserved",
+        "ended-card-removal",
         "tab-indicator"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "supersedes": "connections-open-closed"
   },
   {
-    "id": "connections-open-closed",
+    "id": "connections-after-end",
     "lang": "tr",
     "platform": "ios",
     "scale": "100",
     "source": "imhere-cream-complete-v2.2",
     "baselineSource": "imhere-design-v1.7.3",
     "active": true,
-    "file": "02-SON-EKLER/imhere-cream-complete-v2.2/screens/svg/connections-open-closed--tr--ios--100.svg",
+    "file": "02-SON-EKLER/imhere-cream-complete-v2.2/screens/svg/connections-after-end--tr--ios--100.svg",
     "beta": true,
     "motion": {
       "version": "1.0",
       "references": [
         "base-route",
         "03-paper-list",
-        "closed-card-preserved",
+        "ended-card-removal",
         "tab-indicator"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "supersedes": "connections-open-closed"
   },
   {
-    "id": "connections-open-closed",
+    "id": "connections-after-end",
     "lang": "tr",
     "platform": "ios",
     "scale": "200",
     "source": "imhere-cream-complete-v2.2",
     "baselineSource": "imhere-design-v1.7.3",
     "active": true,
-    "file": "02-SON-EKLER/imhere-cream-complete-v2.2/screens/svg/connections-open-closed--tr--ios--200.svg",
+    "file": "02-SON-EKLER/imhere-cream-complete-v2.2/screens/svg/connections-after-end--tr--ios--200.svg",
     "beta": true,
     "motion": {
       "version": "1.0",
       "references": [
         "base-route",
         "03-paper-list",
-        "closed-card-preserved",
+        "ended-card-removal",
         "tab-indicator"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "supersedes": "connections-open-closed"
   },
   {
     "id": "contact-all",
@@ -16166,7 +16174,7 @@
       "references": [
         "base-route",
         "safety-minimal",
-        "closed-card-preserved"
+        "ended-card-removal"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
     }
@@ -16186,7 +16194,7 @@
       "references": [
         "base-route",
         "safety-minimal",
-        "closed-card-preserved"
+        "ended-card-removal"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
     }
@@ -16206,7 +16214,7 @@
       "references": [
         "base-route",
         "safety-minimal",
-        "closed-card-preserved"
+        "ended-card-removal"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
     }
@@ -16226,7 +16234,7 @@
       "references": [
         "base-route",
         "safety-minimal",
-        "closed-card-preserved"
+        "ended-card-removal"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
     }
@@ -16246,7 +16254,7 @@
       "references": [
         "base-route",
         "safety-minimal",
-        "closed-card-preserved"
+        "ended-card-removal"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
     }
@@ -16266,7 +16274,7 @@
       "references": [
         "base-route",
         "safety-minimal",
-        "closed-card-preserved"
+        "ended-card-removal"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
     }
@@ -16286,7 +16294,7 @@
       "references": [
         "base-route",
         "safety-minimal",
-        "closed-card-preserved"
+        "ended-card-removal"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
     }
@@ -16306,7 +16314,7 @@
       "references": [
         "base-route",
         "safety-minimal",
-        "closed-card-preserved"
+        "ended-card-removal"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
     }

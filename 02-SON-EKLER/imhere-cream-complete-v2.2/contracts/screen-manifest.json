@@ -17856,13 +17856,13 @@
     }
   },
   {
-    "id": "connections-open-closed",
+    "id": "connections-after-end",
     "group": "connections",
-    "title": "Açık ve kapalı kart / karşılaştırma",
+    "title": "Bağlantı bitince / kalan bağlantılar",
     "lang": "en",
     "platform": "android",
     "large": false,
-    "file": "screens/svg/connections-open-closed--en--android--100.svg",
+    "file": "screens/svg/connections-after-end--en--android--100.svg",
     "width": 412,
     "height": 915,
     "referenceViewportHeight": 915,
@@ -17875,7 +17875,7 @@
     ],
     "contactFields": [],
     "source": "imhere-design-v1.7.3",
-    "selectedTab": 2,
+    "selectedTab": 1,
     "active": true,
     "theme": "Cream & Ink",
     "peerContinueChoice": null,
@@ -17885,23 +17885,32 @@
       "references": [
         "base-route",
         "03-paper-list",
-        "closed-card-preserved",
+        "ended-card-removal",
         "tab-indicator"
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "supersedes": "connections-open-closed",
+    "regions": [],
+    "connectionListPolicy": {
+      "endedCardsVisible": false,
+      "removeOnlyAfterConfirmedEnd": true,
+      "remainingFixture": "Deniz; ended Emre omitted",
+      "ifLastConnectionEnded": "messages-connections-empty",
+      "readOnlyIsNotEnded": true
     }
   },
   {
-    "id": "connections-open-closed",
+    "id": "connections-after-end",
     "group": "connections",
-    "title": "Açık ve kapalı kart / karşılaştırma",
+    "title": "Bağlantı bitince / kalan bağlantılar",
     "lang": "en",
     "platform": "android",
     "large": true,
-    "file": "screens/svg/connections-open-closed--en--android--200.svg",
+    "file": "screens/svg/connections-after-end--en--android--200.svg",
     "width": 412,
-    "height": 1000,
+    "height": 915,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "actions": [
@@ -17912,7 +17921,7 @@
     ],
     "contactFields": [],
     "source": "imhere-design-v1.7.3",
-    "selectedTab": 2,
+    "selectedTab": 1,
     "active": true,
     "theme": "Cream & Ink",
     "peerContinueChoice": null,
@@ -17922,21 +17931,30 @@
       "references": [
         "base-route",
         "03-paper-list",
-        "closed-card-preserved",
+        "ended-card-removal",
         "tab-indicator"
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "supersedes": "connections-open-closed",
+    "regions": [],
+    "connectionListPolicy": {
+      "endedCardsVisible": false,
+      "removeOnlyAfterConfirmedEnd": true,
+      "remainingFixture": "Deniz; ended Emre omitted",
+      "ifLastConnectionEnded": "messages-connections-empty",
+      "readOnlyIsNotEnded": true
     }
   },
   {
-    "id": "connections-open-closed",
+    "id": "connections-after-end",
     "group": "connections",
-    "title": "Açık ve kapalı kart / karşılaştırma",
+    "title": "Bağlantı bitince / kalan bağlantılar",
     "lang": "en",
     "platform": "ios",
     "large": false,
-    "file": "screens/svg/connections-open-closed--en--ios--100.svg",
+    "file": "screens/svg/connections-after-end--en--ios--100.svg",
     "width": 390,
     "height": 844,
     "referenceViewportHeight": 844,
@@ -17949,7 +17967,7 @@
     ],
     "contactFields": [],
     "source": "imhere-design-v1.7.3",
-    "selectedTab": 2,
+    "selectedTab": 1,
     "active": true,
     "theme": "Cream & Ink",
     "peerContinueChoice": null,
@@ -17959,23 +17977,32 @@
       "references": [
         "base-route",
         "03-paper-list",
-        "closed-card-preserved",
+        "ended-card-removal",
         "tab-indicator"
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "supersedes": "connections-open-closed",
+    "regions": [],
+    "connectionListPolicy": {
+      "endedCardsVisible": false,
+      "removeOnlyAfterConfirmedEnd": true,
+      "remainingFixture": "Deniz; ended Emre omitted",
+      "ifLastConnectionEnded": "messages-connections-empty",
+      "readOnlyIsNotEnded": true
     }
   },
   {
-    "id": "connections-open-closed",
+    "id": "connections-after-end",
     "group": "connections",
-    "title": "Açık ve kapalı kart / karşılaştırma",
+    "title": "Bağlantı bitince / kalan bağlantılar",
     "lang": "en",
     "platform": "ios",
     "large": true,
-    "file": "screens/svg/connections-open-closed--en--ios--200.svg",
+    "file": "screens/svg/connections-after-end--en--ios--200.svg",
     "width": 390,
-    "height": 1032,
+    "height": 844,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "actions": [
@@ -17986,7 +18013,7 @@
     ],
     "contactFields": [],
     "source": "imhere-design-v1.7.3",
-    "selectedTab": 2,
+    "selectedTab": 1,
     "active": true,
     "theme": "Cream & Ink",
     "peerContinueChoice": null,
@@ -17996,21 +18023,30 @@
       "references": [
         "base-route",
         "03-paper-list",
-        "closed-card-preserved",
+        "ended-card-removal",
         "tab-indicator"
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "supersedes": "connections-open-closed",
+    "regions": [],
+    "connectionListPolicy": {
+      "endedCardsVisible": false,
+      "removeOnlyAfterConfirmedEnd": true,
+      "remainingFixture": "Deniz; ended Emre omitted",
+      "ifLastConnectionEnded": "messages-connections-empty",
+      "readOnlyIsNotEnded": true
     }
   },
   {
-    "id": "connections-open-closed",
+    "id": "connections-after-end",
     "group": "connections",
-    "title": "Açık ve kapalı kart / karşılaştırma",
+    "title": "Bağlantı bitince / kalan bağlantılar",
     "lang": "tr",
     "platform": "android",
     "large": false,
-    "file": "screens/svg/connections-open-closed--tr--android--100.svg",
+    "file": "screens/svg/connections-after-end--tr--android--100.svg",
     "width": 412,
     "height": 915,
     "referenceViewportHeight": 915,
@@ -18023,7 +18059,7 @@
     ],
     "contactFields": [],
     "source": "imhere-design-v1.7.3",
-    "selectedTab": 2,
+    "selectedTab": 1,
     "active": true,
     "theme": "Cream & Ink",
     "peerContinueChoice": null,
@@ -18033,23 +18069,32 @@
       "references": [
         "base-route",
         "03-paper-list",
-        "closed-card-preserved",
+        "ended-card-removal",
         "tab-indicator"
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "supersedes": "connections-open-closed",
+    "regions": [],
+    "connectionListPolicy": {
+      "endedCardsVisible": false,
+      "removeOnlyAfterConfirmedEnd": true,
+      "remainingFixture": "Deniz; ended Emre omitted",
+      "ifLastConnectionEnded": "messages-connections-empty",
+      "readOnlyIsNotEnded": true
     }
   },
   {
-    "id": "connections-open-closed",
+    "id": "connections-after-end",
     "group": "connections",
-    "title": "Açık ve kapalı kart / karşılaştırma",
+    "title": "Bağlantı bitince / kalan bağlantılar",
     "lang": "tr",
     "platform": "android",
     "large": true,
-    "file": "screens/svg/connections-open-closed--tr--android--200.svg",
+    "file": "screens/svg/connections-after-end--tr--android--200.svg",
     "width": 412,
-    "height": 960,
+    "height": 915,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "actions": [
@@ -18060,7 +18105,7 @@
     ],
     "contactFields": [],
     "source": "imhere-design-v1.7.3",
-    "selectedTab": 2,
+    "selectedTab": 1,
     "active": true,
     "theme": "Cream & Ink",
     "peerContinueChoice": null,
@@ -18070,21 +18115,30 @@
       "references": [
         "base-route",
         "03-paper-list",
-        "closed-card-preserved",
+        "ended-card-removal",
         "tab-indicator"
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "supersedes": "connections-open-closed",
+    "regions": [],
+    "connectionListPolicy": {
+      "endedCardsVisible": false,
+      "removeOnlyAfterConfirmedEnd": true,
+      "remainingFixture": "Deniz; ended Emre omitted",
+      "ifLastConnectionEnded": "messages-connections-empty",
+      "readOnlyIsNotEnded": true
     }
   },
   {
-    "id": "connections-open-closed",
+    "id": "connections-after-end",
     "group": "connections",
-    "title": "Açık ve kapalı kart / karşılaştırma",
+    "title": "Bağlantı bitince / kalan bağlantılar",
     "lang": "tr",
     "platform": "ios",
     "large": false,
-    "file": "screens/svg/connections-open-closed--tr--ios--100.svg",
+    "file": "screens/svg/connections-after-end--tr--ios--100.svg",
     "width": 390,
     "height": 844,
     "referenceViewportHeight": 844,
@@ -18097,7 +18151,7 @@
     ],
     "contactFields": [],
     "source": "imhere-design-v1.7.3",
-    "selectedTab": 2,
+    "selectedTab": 1,
     "active": true,
     "theme": "Cream & Ink",
     "peerContinueChoice": null,
@@ -18107,23 +18161,32 @@
       "references": [
         "base-route",
         "03-paper-list",
-        "closed-card-preserved",
+        "ended-card-removal",
         "tab-indicator"
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "supersedes": "connections-open-closed",
+    "regions": [],
+    "connectionListPolicy": {
+      "endedCardsVisible": false,
+      "removeOnlyAfterConfirmedEnd": true,
+      "remainingFixture": "Deniz; ended Emre omitted",
+      "ifLastConnectionEnded": "messages-connections-empty",
+      "readOnlyIsNotEnded": true
     }
   },
   {
-    "id": "connections-open-closed",
+    "id": "connections-after-end",
     "group": "connections",
-    "title": "Açık ve kapalı kart / karşılaştırma",
+    "title": "Bağlantı bitince / kalan bağlantılar",
     "lang": "tr",
     "platform": "ios",
     "large": true,
-    "file": "screens/svg/connections-open-closed--tr--ios--200.svg",
+    "file": "screens/svg/connections-after-end--tr--ios--200.svg",
     "width": 390,
-    "height": 1032,
+    "height": 844,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "actions": [
@@ -18134,7 +18197,7 @@
     ],
     "contactFields": [],
     "source": "imhere-design-v1.7.3",
-    "selectedTab": 2,
+    "selectedTab": 1,
     "active": true,
     "theme": "Cream & Ink",
     "peerContinueChoice": null,
@@ -18144,11 +18207,20 @@
       "references": [
         "base-route",
         "03-paper-list",
-        "closed-card-preserved",
+        "ended-card-removal",
         "tab-indicator"
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "supersedes": "connections-open-closed",
+    "regions": [],
+    "connectionListPolicy": {
+      "endedCardsVisible": false,
+      "removeOnlyAfterConfirmedEnd": true,
+      "remainingFixture": "Deniz; ended Emre omitted",
+      "ifLastConnectionEnded": "messages-connections-empty",
+      "readOnlyIsNotEnded": true
     }
   },
   {
@@ -45499,26 +45571,68 @@
       {
         "key": "endConnection",
         "enabled": true,
-        "presentation": "destructive-outline"
+        "presentation": "primary",
+        "effect": "submit end; wait for server confirmation"
+      },
+      {
+        "key": "endReportInstead",
+        "enabled": true,
+        "presentation": "secondary",
+        "effect": "open report-empty for same target; do not end"
       },
       {
         "key": "cancel",
-        "enabled": true
+        "enabled": true,
+        "presentation": "secondary",
+        "effect": "dismiss without mutation"
       }
     ],
-    "blocks": [],
+    "blocks": [
+      {
+        "kind": "confirmation-dialog",
+        "titleKey": "endConfirm",
+        "bodyKey": "endConfirmBody",
+        "x": 24,
+        "y": 255.5,
+        "width": 364,
+        "height": 404.0,
+        "scrollWhenNeeded": true
+      }
+    ],
     "intents": {
       "own": [],
       "peer": null
     },
-    "peerIdentity": true,
+    "peerIdentity": false,
     "ownContinue": null,
     "composerVisible": false,
     "composerEnabled": false,
     "remaining": null,
     "bubbles": [],
     "contactFields": [],
-    "regions": [],
+    "regions": [
+      {
+        "key": "endConnection",
+        "x": 48,
+        "y": 455.5,
+        "w": 316,
+        "h": 52
+      },
+      {
+        "key": "endReportInstead",
+        "x": 48,
+        "y": 519.5,
+        "w": 316,
+        "h": 52
+      },
+      {
+        "key": "cancel",
+        "x": 48,
+        "y": 583.5,
+        "w": 316,
+        "h": 52
+      }
+    ],
     "peerContinueChoice": null,
     "family": "Güvenlik",
     "motion": {
@@ -45529,6 +45643,16 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "identityContext": "current accessible connection; same target forwarded to report",
+    "presentation": "modal-dialog; scrollable on large text",
+    "confirmation": {
+      "endRequiresOwnConfirmation": true,
+      "peerApprovalRequired": false,
+      "reportDoesNotEnd": true,
+      "cancelDoesNotMutate": true,
+      "backAction": "cancel",
+      "outsideTapDismiss": false
     }
   },
   {
@@ -45541,7 +45665,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/end-confirm--en--android--200.svg",
     "width": 412,
-    "height": 930,
+    "height": 950,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": null,
@@ -45551,26 +45675,68 @@
       {
         "key": "endConnection",
         "enabled": true,
-        "presentation": "destructive-outline"
+        "presentation": "primary",
+        "effect": "submit end; wait for server confirmation"
+      },
+      {
+        "key": "endReportInstead",
+        "enabled": true,
+        "presentation": "secondary",
+        "effect": "open report-empty for same target; do not end"
       },
       {
         "key": "cancel",
-        "enabled": true
+        "enabled": true,
+        "presentation": "secondary",
+        "effect": "dismiss without mutation"
       }
     ],
-    "blocks": [],
+    "blocks": [
+      {
+        "kind": "confirmation-dialog",
+        "titleKey": "endConfirm",
+        "bodyKey": "endConfirmBody",
+        "x": 24,
+        "y": 56,
+        "width": 364,
+        "height": 845.6,
+        "scrollWhenNeeded": true
+      }
+    ],
     "intents": {
       "own": [],
       "peer": null
     },
-    "peerIdentity": true,
+    "peerIdentity": false,
     "ownContinue": null,
     "composerVisible": false,
     "composerEnabled": false,
     "remaining": null,
     "bubbles": [],
     "contactFields": [],
-    "regions": [],
+    "regions": [
+      {
+        "key": "endConnection",
+        "x": 48,
+        "y": 664.0,
+        "w": 316,
+        "h": 63.199999999999996
+      },
+      {
+        "key": "endReportInstead",
+        "x": 48,
+        "y": 739.2,
+        "w": 316,
+        "h": 63.199999999999996
+      },
+      {
+        "key": "cancel",
+        "x": 48,
+        "y": 814.4000000000001,
+        "w": 316,
+        "h": 63.199999999999996
+      }
+    ],
     "peerContinueChoice": null,
     "family": "Güvenlik",
     "motion": {
@@ -45581,6 +45747,16 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "identityContext": "current accessible connection; same target forwarded to report",
+    "presentation": "modal-dialog; scrollable on large text",
+    "confirmation": {
+      "endRequiresOwnConfirmation": true,
+      "peerApprovalRequired": false,
+      "reportDoesNotEnd": true,
+      "cancelDoesNotMutate": true,
+      "backAction": "cancel",
+      "outsideTapDismiss": false
     }
   },
   {
@@ -45603,26 +45779,68 @@
       {
         "key": "endConnection",
         "enabled": true,
-        "presentation": "destructive-outline"
+        "presentation": "primary",
+        "effect": "submit end; wait for server confirmation"
+      },
+      {
+        "key": "endReportInstead",
+        "enabled": true,
+        "presentation": "secondary",
+        "effect": "open report-empty for same target; do not end"
       },
       {
         "key": "cancel",
-        "enabled": true
+        "enabled": true,
+        "presentation": "secondary",
+        "effect": "dismiss without mutation"
       }
     ],
-    "blocks": [],
+    "blocks": [
+      {
+        "kind": "confirmation-dialog",
+        "titleKey": "endConfirm",
+        "bodyKey": "endConfirmBody",
+        "x": 24,
+        "y": 220.0,
+        "width": 342,
+        "height": 404.0,
+        "scrollWhenNeeded": true
+      }
+    ],
     "intents": {
       "own": [],
       "peer": null
     },
-    "peerIdentity": true,
+    "peerIdentity": false,
     "ownContinue": null,
     "composerVisible": false,
     "composerEnabled": false,
     "remaining": null,
     "bubbles": [],
     "contactFields": [],
-    "regions": [],
+    "regions": [
+      {
+        "key": "endConnection",
+        "x": 48,
+        "y": 420.0,
+        "w": 294,
+        "h": 52
+      },
+      {
+        "key": "endReportInstead",
+        "x": 48,
+        "y": 484.0,
+        "w": 294,
+        "h": 52
+      },
+      {
+        "key": "cancel",
+        "x": 48,
+        "y": 548.0,
+        "w": 294,
+        "h": 52
+      }
+    ],
     "peerContinueChoice": null,
     "family": "Güvenlik",
     "motion": {
@@ -45633,6 +45851,16 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "identityContext": "current accessible connection; same target forwarded to report",
+    "presentation": "modal-dialog; scrollable on large text",
+    "confirmation": {
+      "endRequiresOwnConfirmation": true,
+      "peerApprovalRequired": false,
+      "reportDoesNotEnd": true,
+      "cancelDoesNotMutate": true,
+      "backAction": "cancel",
+      "outsideTapDismiss": false
     }
   },
   {
@@ -45645,7 +45873,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/end-confirm--en--ios--200.svg",
     "width": 390,
-    "height": 962,
+    "height": 982,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": null,
@@ -45655,26 +45883,68 @@
       {
         "key": "endConnection",
         "enabled": true,
-        "presentation": "destructive-outline"
+        "presentation": "primary",
+        "effect": "submit end; wait for server confirmation"
+      },
+      {
+        "key": "endReportInstead",
+        "enabled": true,
+        "presentation": "secondary",
+        "effect": "open report-empty for same target; do not end"
       },
       {
         "key": "cancel",
-        "enabled": true
+        "enabled": true,
+        "presentation": "secondary",
+        "effect": "dismiss without mutation"
       }
     ],
-    "blocks": [],
+    "blocks": [
+      {
+        "kind": "confirmation-dialog",
+        "titleKey": "endConfirm",
+        "bodyKey": "endConfirmBody",
+        "x": 24,
+        "y": 78,
+        "width": 342,
+        "height": 845.6,
+        "scrollWhenNeeded": true
+      }
+    ],
     "intents": {
       "own": [],
       "peer": null
     },
-    "peerIdentity": true,
+    "peerIdentity": false,
     "ownContinue": null,
     "composerVisible": false,
     "composerEnabled": false,
     "remaining": null,
     "bubbles": [],
     "contactFields": [],
-    "regions": [],
+    "regions": [
+      {
+        "key": "endConnection",
+        "x": 48,
+        "y": 686.0,
+        "w": 294,
+        "h": 63.199999999999996
+      },
+      {
+        "key": "endReportInstead",
+        "x": 48,
+        "y": 761.2,
+        "w": 294,
+        "h": 63.199999999999996
+      },
+      {
+        "key": "cancel",
+        "x": 48,
+        "y": 836.4000000000001,
+        "w": 294,
+        "h": 63.199999999999996
+      }
+    ],
     "peerContinueChoice": null,
     "family": "Güvenlik",
     "motion": {
@@ -45685,6 +45955,16 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "identityContext": "current accessible connection; same target forwarded to report",
+    "presentation": "modal-dialog; scrollable on large text",
+    "confirmation": {
+      "endRequiresOwnConfirmation": true,
+      "peerApprovalRequired": false,
+      "reportDoesNotEnd": true,
+      "cancelDoesNotMutate": true,
+      "backAction": "cancel",
+      "outsideTapDismiss": false
     }
   },
   {
@@ -45707,26 +45987,68 @@
       {
         "key": "endConnection",
         "enabled": true,
-        "presentation": "destructive-outline"
+        "presentation": "primary",
+        "effect": "submit end; wait for server confirmation"
+      },
+      {
+        "key": "endReportInstead",
+        "enabled": true,
+        "presentation": "secondary",
+        "effect": "open report-empty for same target; do not end"
       },
       {
         "key": "cancel",
-        "enabled": true
+        "enabled": true,
+        "presentation": "secondary",
+        "effect": "dismiss without mutation"
       }
     ],
-    "blocks": [],
+    "blocks": [
+      {
+        "kind": "confirmation-dialog",
+        "titleKey": "endConfirm",
+        "bodyKey": "endConfirmBody",
+        "x": 24,
+        "y": 255.5,
+        "width": 364,
+        "height": 404.0,
+        "scrollWhenNeeded": true
+      }
+    ],
     "intents": {
       "own": [],
       "peer": null
     },
-    "peerIdentity": true,
+    "peerIdentity": false,
     "ownContinue": null,
     "composerVisible": false,
     "composerEnabled": false,
     "remaining": null,
     "bubbles": [],
     "contactFields": [],
-    "regions": [],
+    "regions": [
+      {
+        "key": "endConnection",
+        "x": 48,
+        "y": 455.5,
+        "w": 316,
+        "h": 52
+      },
+      {
+        "key": "endReportInstead",
+        "x": 48,
+        "y": 519.5,
+        "w": 316,
+        "h": 52
+      },
+      {
+        "key": "cancel",
+        "x": 48,
+        "y": 583.5,
+        "w": 316,
+        "h": 52
+      }
+    ],
     "peerContinueChoice": null,
     "family": "Güvenlik",
     "motion": {
@@ -45737,6 +46059,16 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "identityContext": "current accessible connection; same target forwarded to report",
+    "presentation": "modal-dialog; scrollable on large text",
+    "confirmation": {
+      "endRequiresOwnConfirmation": true,
+      "peerApprovalRequired": false,
+      "reportDoesNotEnd": true,
+      "cancelDoesNotMutate": true,
+      "backAction": "cancel",
+      "outsideTapDismiss": false
     }
   },
   {
@@ -45749,7 +46081,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/end-confirm--tr--android--200.svg",
     "width": 412,
-    "height": 930,
+    "height": 989,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": null,
@@ -45759,26 +46091,68 @@
       {
         "key": "endConnection",
         "enabled": true,
-        "presentation": "destructive-outline"
+        "presentation": "primary",
+        "effect": "submit end; wait for server confirmation"
+      },
+      {
+        "key": "endReportInstead",
+        "enabled": true,
+        "presentation": "secondary",
+        "effect": "open report-empty for same target; do not end"
       },
       {
         "key": "cancel",
-        "enabled": true
+        "enabled": true,
+        "presentation": "secondary",
+        "effect": "dismiss without mutation"
       }
     ],
-    "blocks": [],
+    "blocks": [
+      {
+        "kind": "confirmation-dialog",
+        "titleKey": "endConfirm",
+        "bodyKey": "endConfirmBody",
+        "x": 24,
+        "y": 56,
+        "width": 364,
+        "height": 884.8,
+        "scrollWhenNeeded": true
+      }
+    ],
     "intents": {
       "own": [],
       "peer": null
     },
-    "peerIdentity": true,
+    "peerIdentity": false,
     "ownContinue": null,
     "composerVisible": false,
     "composerEnabled": false,
     "remaining": null,
     "bubbles": [],
     "contactFields": [],
-    "regions": [],
+    "regions": [
+      {
+        "key": "endConnection",
+        "x": 48,
+        "y": 664.0,
+        "w": 316,
+        "h": 63.199999999999996
+      },
+      {
+        "key": "endReportInstead",
+        "x": 48,
+        "y": 739.2,
+        "w": 316,
+        "h": 102.39999999999999
+      },
+      {
+        "key": "cancel",
+        "x": 48,
+        "y": 853.6,
+        "w": 316,
+        "h": 63.199999999999996
+      }
+    ],
     "peerContinueChoice": null,
     "family": "Güvenlik",
     "motion": {
@@ -45789,6 +46163,16 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "identityContext": "current accessible connection; same target forwarded to report",
+    "presentation": "modal-dialog; scrollable on large text",
+    "confirmation": {
+      "endRequiresOwnConfirmation": true,
+      "peerApprovalRequired": false,
+      "reportDoesNotEnd": true,
+      "cancelDoesNotMutate": true,
+      "backAction": "cancel",
+      "outsideTapDismiss": false
     }
   },
   {
@@ -45811,26 +46195,68 @@
       {
         "key": "endConnection",
         "enabled": true,
-        "presentation": "destructive-outline"
+        "presentation": "primary",
+        "effect": "submit end; wait for server confirmation"
+      },
+      {
+        "key": "endReportInstead",
+        "enabled": true,
+        "presentation": "secondary",
+        "effect": "open report-empty for same target; do not end"
       },
       {
         "key": "cancel",
-        "enabled": true
+        "enabled": true,
+        "presentation": "secondary",
+        "effect": "dismiss without mutation"
       }
     ],
-    "blocks": [],
+    "blocks": [
+      {
+        "kind": "confirmation-dialog",
+        "titleKey": "endConfirm",
+        "bodyKey": "endConfirmBody",
+        "x": 24,
+        "y": 220.0,
+        "width": 342,
+        "height": 404.0,
+        "scrollWhenNeeded": true
+      }
+    ],
     "intents": {
       "own": [],
       "peer": null
     },
-    "peerIdentity": true,
+    "peerIdentity": false,
     "ownContinue": null,
     "composerVisible": false,
     "composerEnabled": false,
     "remaining": null,
     "bubbles": [],
     "contactFields": [],
-    "regions": [],
+    "regions": [
+      {
+        "key": "endConnection",
+        "x": 48,
+        "y": 420.0,
+        "w": 294,
+        "h": 52
+      },
+      {
+        "key": "endReportInstead",
+        "x": 48,
+        "y": 484.0,
+        "w": 294,
+        "h": 52
+      },
+      {
+        "key": "cancel",
+        "x": 48,
+        "y": 548.0,
+        "w": 294,
+        "h": 52
+      }
+    ],
     "peerContinueChoice": null,
     "family": "Güvenlik",
     "motion": {
@@ -45841,6 +46267,16 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "identityContext": "current accessible connection; same target forwarded to report",
+    "presentation": "modal-dialog; scrollable on large text",
+    "confirmation": {
+      "endRequiresOwnConfirmation": true,
+      "peerApprovalRequired": false,
+      "reportDoesNotEnd": true,
+      "cancelDoesNotMutate": true,
+      "backAction": "cancel",
+      "outsideTapDismiss": false
     }
   },
   {
@@ -45853,7 +46289,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/end-confirm--tr--ios--200.svg",
     "width": 390,
-    "height": 1042,
+    "height": 1072,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": null,
@@ -45863,26 +46299,68 @@
       {
         "key": "endConnection",
         "enabled": true,
-        "presentation": "destructive-outline"
+        "presentation": "primary",
+        "effect": "submit end; wait for server confirmation"
+      },
+      {
+        "key": "endReportInstead",
+        "enabled": true,
+        "presentation": "secondary",
+        "effect": "open report-empty for same target; do not end"
       },
       {
         "key": "cancel",
-        "enabled": true
+        "enabled": true,
+        "presentation": "secondary",
+        "effect": "dismiss without mutation"
       }
     ],
-    "blocks": [],
+    "blocks": [
+      {
+        "kind": "confirmation-dialog",
+        "titleKey": "endConfirm",
+        "bodyKey": "endConfirmBody",
+        "x": 24,
+        "y": 78,
+        "width": 342,
+        "height": 936.0,
+        "scrollWhenNeeded": true
+      }
+    ],
     "intents": {
       "own": [],
       "peer": null
     },
-    "peerIdentity": true,
+    "peerIdentity": false,
     "ownContinue": null,
     "composerVisible": false,
     "composerEnabled": false,
     "remaining": null,
     "bubbles": [],
     "contactFields": [],
-    "regions": [],
+    "regions": [
+      {
+        "key": "endConnection",
+        "x": 48,
+        "y": 737.2,
+        "w": 294,
+        "h": 63.199999999999996
+      },
+      {
+        "key": "endReportInstead",
+        "x": 48,
+        "y": 812.4000000000001,
+        "w": 294,
+        "h": 102.39999999999999
+      },
+      {
+        "key": "cancel",
+        "x": 48,
+        "y": 926.8000000000001,
+        "w": 294,
+        "h": 63.199999999999996
+      }
+    ],
     "peerContinueChoice": null,
     "family": "Güvenlik",
     "motion": {
@@ -45893,6 +46371,16 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "identityContext": "current accessible connection; same target forwarded to report",
+    "presentation": "modal-dialog; scrollable on large text",
+    "confirmation": {
+      "endRequiresOwnConfirmation": true,
+      "peerApprovalRequired": false,
+      "reportDoesNotEnd": true,
+      "cancelDoesNotMutate": true,
+      "backAction": "cancel",
+      "outsideTapDismiss": false
     }
   },
   {
@@ -45937,10 +46425,16 @@
       "references": [
         "base-route",
         "safety-minimal",
-        "closed-card-preserved"
+        "ended-card-removal"
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "afterConfirmedEnd": {
+      "list": "connections-after-end or messages-connections-empty",
+      "keepClosedCard": false,
+      "retention": "30 days for safety, then delete history; removal from UI is not deletion",
+      "reconnect": "only if both want; no automatic reconnect or bypass of eligibility rules"
     }
   },
   {
@@ -45985,10 +46479,16 @@
       "references": [
         "base-route",
         "safety-minimal",
-        "closed-card-preserved"
+        "ended-card-removal"
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "afterConfirmedEnd": {
+      "list": "connections-after-end or messages-connections-empty",
+      "keepClosedCard": false,
+      "retention": "30 days for safety, then delete history; removal from UI is not deletion",
+      "reconnect": "only if both want; no automatic reconnect or bypass of eligibility rules"
     }
   },
   {
@@ -46033,10 +46533,16 @@
       "references": [
         "base-route",
         "safety-minimal",
-        "closed-card-preserved"
+        "ended-card-removal"
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "afterConfirmedEnd": {
+      "list": "connections-after-end or messages-connections-empty",
+      "keepClosedCard": false,
+      "retention": "30 days for safety, then delete history; removal from UI is not deletion",
+      "reconnect": "only if both want; no automatic reconnect or bypass of eligibility rules"
     }
   },
   {
@@ -46081,10 +46587,16 @@
       "references": [
         "base-route",
         "safety-minimal",
-        "closed-card-preserved"
+        "ended-card-removal"
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "afterConfirmedEnd": {
+      "list": "connections-after-end or messages-connections-empty",
+      "keepClosedCard": false,
+      "retention": "30 days for safety, then delete history; removal from UI is not deletion",
+      "reconnect": "only if both want; no automatic reconnect or bypass of eligibility rules"
     }
   },
   {
@@ -46129,10 +46641,16 @@
       "references": [
         "base-route",
         "safety-minimal",
-        "closed-card-preserved"
+        "ended-card-removal"
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "afterConfirmedEnd": {
+      "list": "connections-after-end or messages-connections-empty",
+      "keepClosedCard": false,
+      "retention": "30 days for safety, then delete history; removal from UI is not deletion",
+      "reconnect": "only if both want; no automatic reconnect or bypass of eligibility rules"
     }
   },
   {
@@ -46177,10 +46695,16 @@
       "references": [
         "base-route",
         "safety-minimal",
-        "closed-card-preserved"
+        "ended-card-removal"
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "afterConfirmedEnd": {
+      "list": "connections-after-end or messages-connections-empty",
+      "keepClosedCard": false,
+      "retention": "30 days for safety, then delete history; removal from UI is not deletion",
+      "reconnect": "only if both want; no automatic reconnect or bypass of eligibility rules"
     }
   },
   {
@@ -46225,10 +46749,16 @@
       "references": [
         "base-route",
         "safety-minimal",
-        "closed-card-preserved"
+        "ended-card-removal"
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "afterConfirmedEnd": {
+      "list": "connections-after-end or messages-connections-empty",
+      "keepClosedCard": false,
+      "retention": "30 days for safety, then delete history; removal from UI is not deletion",
+      "reconnect": "only if both want; no automatic reconnect or bypass of eligibility rules"
     }
   },
   {
@@ -46273,10 +46803,16 @@
       "references": [
         "base-route",
         "safety-minimal",
-        "closed-card-preserved"
+        "ended-card-removal"
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "afterConfirmedEnd": {
+      "list": "connections-after-end or messages-connections-empty",
+      "keepClosedCard": false,
+      "retention": "30 days for safety, then delete history; removal from UI is not deletion",
+      "reconnect": "only if both want; no automatic reconnect or bypass of eligibility rules"
     }
   },
   {

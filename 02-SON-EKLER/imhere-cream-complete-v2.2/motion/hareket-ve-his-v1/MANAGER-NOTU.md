@@ -4,7 +4,7 @@ Hareket ve His v1.0 hazır. Önce altıncı kategori079ee74, ardından profilden
 
 5 motion token grubu tema jetonlarına eklendi. Yedi imza anın ms zamanlaması, fiziksel yay değerleri, titreşim anları, iptal koşulları ve azaltılmış karşılığı tanımlı. Yedi karşılaştırmalı GIF + poster ve60fps kare tabloları mevcut. Katalogdaki298 duruma hareket referansı eklendi.
 
-Founder açıklamaları: dalga harita kenarlarından başlar; kendi konum noktası yok. Kapalı bağlantı kartı kalır. Profilden bayrak → altı kategorili şikâyet → ayrı engelleme sorusu onaylandı.
+Founder açıklamaları: dalga harita kenarlarından başlar; kendi konum noktası yok. Güncel Founder kararı: biten bağlantı kartı listeden kalkar; eski kalır kararı geçersiz. Profilden bayrak → altı kategorili şikâyet → ayrı engelleme sorusu onaylandı.
 
 Önizleme: ONIZLEME.html
 Kaynak: SPEC.md, motion.tokens.json, signature-moments.json, screen-motion-map.json

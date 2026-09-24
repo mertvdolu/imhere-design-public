@@ -10,10 +10,10 @@
     "safety-minimal": "opacity150 only, no ring, confetti, hero or celebration. Report received only on server confirmation. A single light success feedback permitted on confirmed submit, mediumImpact on new failure; no repetitive feedback.",
     "deletion-minimal": "no scale/spatial flourish, opacity150 at confirmed received/completed/failure states; do not equate request received with deleted. No celebration or manipulation, no haptic.",
     "settings-contact-minimal": "standard route or reduced150 fade; no loop. Address copied indicator only after clipboard operation succeeds; no mailto. Contact retained values and observed information rules unchanged.",
-    "closed-card-preserved": "after confirmed end, open-only detail area height→0 over150ms ease-out and closed label opacity150. Closed row and profile stay in list, neutral cause-free label preserved. Do not collapse the entire row or suggest messages erased.",
     "empty-breathe": "one existing decorative glyph opacity .55..70 over4000ms cosine; do not add a person dot or activity indication. Disabled when error/offline/loading, hidden tab or background. Reduced static .65. Never indicate hidden people.",
     "error-strip": "only existing error/status container: offsetY -4→0 and opacity0→1 over150ms. Resolution fades150ms; never dismiss by timer or cover Retry. Reduced opacity only. Existing startup error screens retain their single action, no extra UI required.",
-    "tab-indicator": "selected underline slides standard spring between actual tab label centers; logical selected state and accessibility update immediately. One selectionClick at input, none on initial route. Reduced old/new underline crossfade150."
+    "tab-indicator": "selected underline slides standard spring between actual tab label centers; logical selected state and accessibility update immediately. One selectionClick at input, none on initial route. Reduced old/new underline crossfade150.",
+    "ended-card-removal": "Only after confirmed end: remove the ended connection from the current chat/connection list. Fade the row150ms and collapse its visual slot150ms ease-out; remove semantics and hit targets immediately on confirmation. Reduced: opacity150 only, reflow without spatial animation. If last row ends, show existing messages-connections-empty. Failure/unknown never removes a row. UI removal does not mean message history was deleted; no automatic reconnection. Read-only alone is not ended."
   },
   "states": {
     "block-busy": [
@@ -236,12 +236,6 @@
     ],
     "component-input": [
       "base-route",
-      "tab-indicator"
-    ],
-    "connections-open-closed": [
-      "base-route",
-      "03-paper-list",
-      "closed-card-preserved",
       "tab-indicator"
     ],
     "contact-all": [
@@ -523,7 +517,7 @@
     "end-done": [
       "base-route",
       "safety-minimal",
-      "closed-card-preserved"
+      "ended-card-removal"
     ],
     "end-failed": [
       "base-route",
@@ -1396,8 +1390,15 @@
     ],
     "welcome": [
       "base-route"
+    ],
+    "connections-after-end": [
+      "base-route",
+      "03-paper-list",
+      "ended-card-removal",
+      "tab-indicator"
     ]
   },
   "signatureRefs": "signature-moments.json",
-  "runtimeGuards": "A reference identifies possible transitions, not unconditional play on every state. Error/loading/offline states never run success motions."
+  "runtimeGuards": "A reference identifies possible transitions, not unconditional play on every state. Error/loading/offline states never run success motions.",
+  "changeNotice": "Founder superseding decision 2026-09-24: ended cards no longer remain in list."
 }

@@ -81,5 +81,12 @@
     "No physical device FPS/jank, accessibility or haptic measurement claimed.",
     "GIF25fps is a preview; reference samples60fps.",
     "Map geometry is a viewport edge, never geographic/person data."
-  ]
+  ],
+  "endConnectionAmendment": {
+    "rule": "ended-card-removal",
+    "replaces": "closed-card-preserved",
+    "stateReplacement": "connections-open-closed → connections-after-end",
+    "date": "2026-09-24",
+    "signaturePreviewsUnchanged": true
+  }
 }
