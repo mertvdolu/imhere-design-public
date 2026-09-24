@@ -712,5 +712,19 @@
     "newState": "safety-profile-menu",
     "reportFlow": "confirmed report implies block; no optional block step",
     "supersedes": "prior profile header flag and separate optional block instructions; End confirmation remains current"
+  },
+  "devTourH2H7H9H3": {
+    "deltaFiles": [
+      "dev-tour-h-patch_en.arb",
+      "dev-tour-h-patch_tr.arb"
+    ],
+    "merge": "Merge only chatContactSharedInvite and chatContactShareMine plus metadata; never replace full ARBs.",
+    "newState": "chat-contact-invite",
+    "retainedKeys": [
+      "chatSend",
+      "chatEmptyBody"
+    ],
+    "chatEmptyBody": "not rendered in chat-empty; keep key for compatibility",
+    "H7c": "DESIGN RECOMMENDATION — FOUNDER APPROVAL REQUIRED; counters unchanged"
   }
 }

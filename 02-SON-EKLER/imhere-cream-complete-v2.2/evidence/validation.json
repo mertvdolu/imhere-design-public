@@ -1209,5 +1209,34 @@
     "unrelatedScreenFilesPreserved": 2610,
     "visualReview": "four representative states, TR/EN iOS/Android, normal/large; PNG contact sheets",
     "nativeAppTest": false
+  },
+  "devTourH2H7H9H3": {
+    "date": "2026-09-24",
+    "states": 297,
+    "beta": 290,
+    "deferred": 7,
+    "svgVariants": 2376,
+    "pngVariants": 594,
+    "changedSvgVariants": 1816,
+    "changedPngVariants": 454,
+    "variantCounts": {
+      "H2": 1752,
+      "H7b": 72,
+      "H9": 8,
+      "H7a": 8,
+      "H3": 40,
+      "H2-onboarding-exception": 48
+    },
+    "backAndSendTargets48": true,
+    "onboardingSignOutPreserved": true,
+    "sendInsideComposerAndEligibilityPreserved": true,
+    "emptyCardRemoved": true,
+    "H7c": "proposal only, counters unchanged",
+    "h9PlaceholderAndSingleActionVerified": true,
+    "fullArbsUnchanged": true,
+    "oldBetaFlagsPreserved": true,
+    "motionMapComplete": true,
+    "unrelatedSvgFilesPreserved": 560,
+    "nativeAppTest": false
   }
 }

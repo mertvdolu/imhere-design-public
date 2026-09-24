@@ -1,0 +1,17 @@
+{
+  "@@locale": "en",
+  "chatContactSharedInvite": "{name} shared their contact details. You can share yours if you’d like.",
+  "@chatContactSharedInvite": {
+    "description": "Optional in-chat contact invitation after confirmed peer contact sharing; name is peer display name.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Deniz"
+      }
+    }
+  },
+  "chatContactShareMine": "Share my details",
+  "@chatContactShareMine": {
+    "description": "Opens the contact form; does not submit or share automatically."
+  }
+}

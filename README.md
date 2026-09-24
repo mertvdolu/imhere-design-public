@@ -4,7 +4,7 @@
 
 ## Güncel teslim
 
-- [296 durumun tam tasarım paketi](02-SON-EKLER/imhere-cream-complete-v2.2/): 2368 SVG, TR/EN, iOS/Android, %100/%200 ve 592 PNG.
+- [297 durumun tam tasarım paketi](02-SON-EKLER/imhere-cream-complete-v2.2/): 2376 SVG, TR/EN, iOS/Android, %100/%200 ve 594 PNG.
 - [Görsel bakış](02-SON-EKLER/imhere-cream-complete-v2.2/review/experience-desktop.png) · [HTML katalog](02-SON-EKLER/imhere-cream-complete-v2.2/ONIZLEME.html) · [Tasarım devri](02-SON-EKLER/imhere-cream-complete-v2.2/specs/TASARIM-DEVRI.md)
 - [Manager’a iletilecek not](02-SON-EKLER/imhere-cream-complete-v2.2/MANAGER-NOTU.md) · [Doğrulama](02-SON-EKLER/imhere-cream-complete-v2.2/evidence/validation.json) · [Dosya manifesti](02-SON-EKLER/imhere-cream-complete-v2.2/MANIFEST.json)
 - [Güncel ortak token ve metinler](03-GUNCEL-ORTAK/) · [Değişiklik kaydı](CHANGELOG.md)

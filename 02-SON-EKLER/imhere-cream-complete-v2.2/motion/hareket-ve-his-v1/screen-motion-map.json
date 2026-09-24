@@ -13,7 +13,8 @@
     "empty-breathe": "one existing decorative glyph opacity .55..70 over4000ms cosine; do not add a person dot or activity indication. Disabled when error/offline/loading, hidden tab or background. Reduced static .65. Never indicate hidden people.",
     "error-strip": "only existing error/status container: offsetY -4→0 and opacity0→1 over150ms. Resolution fades150ms; never dismiss by timer or cover Retry. Reduced opacity only. Existing startup error screens retain their single action, no extra UI required.",
     "tab-indicator": "selected underline slides standard spring between actual tab label centers; logical selected state and accessibility update immediately. One selectionClick at input, none on initial route. Reduced old/new underline crossfade150.",
-    "ended-card-removal": "Only after confirmed end: remove the ended connection from the current chat/connection list. Fade the row150ms and collapse its visual slot150ms ease-out; remove semantics and hit targets immediately on confirmation. Reduced: opacity150 only, reflow without spatial animation. If last row ends, show existing messages-connections-empty. Failure/unknown never removes a row. UI removal does not mean message history was deleted; no automatic reconnection. Read-only alone is not ended."
+    "ended-card-removal": "Only after confirmed end: remove the ended connection from the current chat/connection list. Fade the row150ms and collapse its visual slot150ms ease-out; remove semantics and hit targets immediately on confirmation. Reduced: opacity150 only, reflow without spatial animation. If last row ends, show existing messages-connections-empty. Failure/unknown never removes a row. UI removal does not mean message history was deleted; no automatic reconnection. Read-only alone is not ended.",
+    "profile-save-return": "Only after confirmed save in existing profile-edit context: pop form to updated own profile, opacity0→1 linearly over150ms. No extra spring, scale, Hero or haptic. Reduced Motion same opacity150. Keep draft and route on failed/pending save. Native back/swipe gestures keep OS-owned motion."
   },
   "states": {
     "block-busy": [
@@ -89,7 +90,6 @@
       "base-route",
       "07-paper-message",
       "keyboard-follow",
-      "empty-breathe",
       "tab-indicator"
     ],
     "chat-failed": [
@@ -547,7 +547,8 @@
       "base-route",
       "form-focus-error",
       "native-date-picker",
-      "tab-indicator"
+      "tab-indicator",
+      "profile-save-return"
     ],
     "form-empty": [
       "base-route",
@@ -575,12 +576,14 @@
       "base-route",
       "form-focus-error",
       "native-date-picker",
-      "error-strip"
+      "error-strip",
+      "profile-save-return"
     ],
     "form-saving": [
       "base-route",
       "form-focus-error",
-      "native-date-picker"
+      "native-date-picker",
+      "profile-save-return"
     ],
     "gender": [
       "base-route",
@@ -1356,12 +1359,14 @@
     "view-own-hidden": [
       "base-route",
       "own-profile-edit",
-      "tab-indicator"
+      "tab-indicator",
+      "profile-save-return"
     ],
     "view-own-visible": [
       "base-route",
       "own-profile-edit",
-      "tab-indicator"
+      "tab-indicator",
+      "profile-save-return"
     ],
     "view-unavailable": [
       "base-route",
@@ -1387,6 +1392,12 @@
     "safety-profile-menu": [
       "base-route",
       "safety-minimal"
+    ],
+    "chat-contact-invite": [
+      "base-route",
+      "07-paper-message",
+      "keyboard-follow",
+      "tab-indicator"
     ]
   },
   "signatureRefs": "signature-moments.json",

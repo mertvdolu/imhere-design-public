@@ -1,5 +1,11 @@
 # Değişiklik kaydı
 
+## Cream & Ink v2.2 — Dev turu H2/H7/H9/H3 · 2026-09-24
+
+- Alt sayfalarda48×48 geri; kurulumda Çıkış yap istisnası. Sohbet başlangıç kartı kaldırıldı, gönder simgesi composer içine taşındı.
+- Yeni chat-contact-invite ve iki TR/EN delta anahtarı; profil kaydı sonrası150ms dönüş notu. H7(c) sayaç eşiği önerisi Founder onayı bekler, uygulanmadı.
+- Devir: `02-SON-EKLER/imhere-cream-complete-v2.2/specs/DEV-TOUR-H2-H7-H9-H3.md`. Yerel commit, aktarım Code.
+
 ## Cream & Ink v2.2 — Founder T1–T4 · 2026-09-24
 
 - Aktif check-in: tek durum + Stop; niyet: ince çipler; sohbet: sağ üst Safety/Continue simgeleri; paylaşılan iletişim: sağ kalem.

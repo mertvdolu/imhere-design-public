@@ -1,3 +1,5 @@
+> Güncel H teslimi: 297 durum · 2376 SVG · 594 PNG · beta 290 / ertelenen 7. Önceki teslim sayıları tarihsel kayıt olarak kalır.
+
 # Kapsam ve ekran eşlemesi / v2.2
 
 Kaynak paketler aşağıda tarihsel başlangıç envanteri olarak gösterilir. Güncel aktif katalog296 durumdur. CH-141 ile report-block-busy/failed/done kaldırıldı; safety-profile-menu eklendi. CH-142 ile connections-open-closed, connections-after-end olarak değiştirildi.

@@ -98,5 +98,12 @@
     ],
     "newState": "safety-profile-menu",
     "signaturePreviewsUnchanged": true
+  },
+  "devTourHAmendment": {
+    "statesMapped": 297,
+    "profileSaveReturnMs": 150,
+    "reducedMotion": "same opacity150",
+    "chatEmptyBreatheRemoved": true,
+    "nativeTest": false
   }
 }

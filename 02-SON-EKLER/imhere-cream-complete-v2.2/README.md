@@ -1,3 +1,5 @@
+> Güncel H teslimi: 297 durum · 2376 SVG · 594 PNG · beta 290 / ertelenen 7. Önceki teslim sayıları tarihsel kayıt olarak kalır.
+
 # IM HERE — Cream & Ink v2.2
 
 Son güncelleme: [Founder telefon turu](specs/TELEFON-TURU-2026-09-24.md). Önceki: [CH-138 / ERT-050 / Code soruları](specs/CODE-SORULARI-CH138-ERT050.md).
@@ -25,3 +27,5 @@ Bu teslim tasarımı tamamlar. Flutter, sunucu veya mağaza derlemesi değiştir
 Son teslim: [CH-141–143 toplu Code devri](specs/CODE-ALIGNMENT-CH141-143.md).
 
 Founder telefon turu T1–T4: [yerleşim güncellemesi](specs/FOUNDER-PHONE-T1-T4.md).
+
+Güncel dev turu: [H2/H7/H9/H3](specs/DEV-TOUR-H2-H7-H9-H3.md). Güncel toplam297 durum /2376 SVG /594 PNG; beta290 + ertelenen7.

@@ -1,0 +1,17 @@
+{
+  "@@locale": "tr",
+  "chatContactSharedInvite": "{name} iletişim bilgilerini paylaştı. İstersen sen de paylaşabilirsin.",
+  "@chatContactSharedInvite": {
+    "description": "Optional in-chat contact invitation after confirmed peer contact sharing; name is peer display name.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Deniz"
+      }
+    }
+  },
+  "chatContactShareMine": "Bilgilerimi paylaş",
+  "@chatContactShareMine": {
+    "description": "Opens the contact form; does not submit or share automatically."
+  }
+}
