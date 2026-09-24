@@ -1,0 +1,7 @@
+{
+  "@@locale": "en",
+  "reportChildSafety": "Underage user or child safety",
+  "@reportChildSafety": {
+    "description": "Sixth report category, immediately after reportSafety and before reportOther. Category label only; no review priority or authority-reporting promise."
+  }
+}

@@ -910,5 +910,18 @@
     "ownHiddenMarkers": "3; other-user profile assets unchanged",
     "visualReview": "Rendered four variants per state per text scale; inspected large-text uploading, processing and own-hidden plus normal own-visible.",
     "nativeDeviceVerification": "Not performed; design artifacts only."
+  },
+  "childSafety20260924": {
+    "svgVariantsUpdated": 40,
+    "pngVariantsUpdated": 10,
+    "stateCountUnchanged": 298,
+    "priorScreenFilesUnchanged": 2930,
+    "fullArbsUnchanged": true,
+    "betaFlagsUnchanged": true,
+    "categoryOrderVerified": true,
+    "textBounds": "pass, both languages/platforms/scales",
+    "visualReview": "200% selected state reviewed across both languages and platforms",
+    "helperAdded": false,
+    "nativeDeviceTest": false
   }
 }

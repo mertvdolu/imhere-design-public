@@ -638,5 +638,24 @@
       "profileHiddenToOthers": "Own profile hidden age/gender/occupation only; never other profiles."
     },
     "merge": "Merge only these three new keys in TR/EN; do not overwrite live ARBs."
+  },
+  "childSafety20260924": {
+    "newKeys": [
+      "reportChildSafety"
+    ],
+    "deltaFiles": [
+      "child-safety-patch_en.arb",
+      "child-safety-patch_tr.arb"
+    ],
+    "merge": "Add this key and metadata only; do not overwrite application ARBs.",
+    "categoryOrder": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ],
+    "helperKey": null
   }
 }

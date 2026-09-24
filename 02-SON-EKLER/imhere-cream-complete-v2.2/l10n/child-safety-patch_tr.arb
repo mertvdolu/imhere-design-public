@@ -1,0 +1,7 @@
+{
+  "@@locale": "tr",
+  "reportChildSafety": "Reşit olmayan kullanıcı veya çocuk güvenliği",
+  "@reportChildSafety": {
+    "description": "Sixth report category, immediately after reportSafety and before reportOther. Category label only; no review priority or authority-reporting promise."
+  }
+}

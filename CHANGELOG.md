@@ -1,5 +1,11 @@
 # Değişiklik kaydı
 
+## Cream & Ink v2.2 — Altıncı şikâyet kategorisi · 2026-09-24
+
+- `reportChildSafety`: EN “Underage user or child safety”; TR “Reşit olmayan kullanıcı veya çocuk güvenliği”. Safety concern sonrasında, Other öncesinde.
+- Beş seçim durumu × sekiz varyant güncellendi; 40 SVG / 10 PNG. Yeni durum veya beta değişikliği yok.
+- Yalnız yeni ARB deltaları + migration; tam ARB dosyalarına dokunulmadı. Yardım satırı ve yeni operasyonel vaat eklenmedi. Yerel teslim, aktarım Code.
+
 ## Cream & Ink v2.2 — Founder telefon turu · 2026-09-24
 
 - Own-profile: sağ üstte kalem ve dişli; alt düzenleme düğmesi kaldırıldı. 16 çizim güncellendi. `profileHiddenToOthers`: EN “Not visible to others” / TR “Başkalarına görünmez”; yalnız kendi gizli alanlarının altında.

@@ -83063,7 +83063,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-empty",
@@ -83075,7 +83083,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-empty--en--android--200.svg",
     "width": 412,
-    "height": 1094,
+    "height": 1228,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": null,
@@ -83105,7 +83113,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-empty",
@@ -83117,7 +83133,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-empty--en--ios--100.svg",
     "width": 390,
-    "height": 844,
+    "height": 866,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": null,
@@ -83147,7 +83163,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-empty",
@@ -83159,7 +83183,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-empty--en--ios--200.svg",
     "width": 390,
-    "height": 1126,
+    "height": 1260,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": null,
@@ -83189,7 +83213,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-empty",
@@ -83231,7 +83263,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-empty",
@@ -83243,7 +83283,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-empty--tr--android--200.svg",
     "width": 412,
-    "height": 1043,
+    "height": 1228,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": null,
@@ -83273,7 +83313,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-empty",
@@ -83285,7 +83333,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-empty--tr--ios--100.svg",
     "width": 390,
-    "height": 844,
+    "height": 886,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": null,
@@ -83315,7 +83363,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-empty",
@@ -83327,7 +83383,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-empty--tr--ios--200.svg",
     "width": 390,
-    "height": 1075,
+    "height": 1260,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": null,
@@ -83357,7 +83413,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-failed",
@@ -83369,7 +83433,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-failed--en--android--100.svg",
     "width": 412,
-    "height": 915,
+    "height": 934,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": null,
@@ -83399,7 +83463,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-failed",
@@ -83411,7 +83483,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-failed--en--android--200.svg",
     "width": 412,
-    "height": 1295,
+    "height": 1430,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": null,
@@ -83441,7 +83513,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-failed",
@@ -83453,7 +83533,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-failed--en--ios--100.svg",
     "width": 390,
-    "height": 902,
+    "height": 966,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": null,
@@ -83483,7 +83563,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-failed",
@@ -83495,7 +83583,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-failed--en--ios--200.svg",
     "width": 390,
-    "height": 1327,
+    "height": 1462,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": null,
@@ -83525,7 +83613,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-failed",
@@ -83537,7 +83633,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-failed--tr--android--100.svg",
     "width": 412,
-    "height": 915,
+    "height": 953,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": null,
@@ -83567,7 +83663,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-failed",
@@ -83579,7 +83683,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-failed--tr--android--200.svg",
     "width": 412,
-    "height": 1295,
+    "height": 1481,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": null,
@@ -83609,7 +83713,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-failed",
@@ -83621,7 +83733,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-failed--tr--ios--100.svg",
     "width": 390,
-    "height": 902,
+    "height": 985,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": null,
@@ -83651,7 +83763,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-failed",
@@ -83663,7 +83783,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-failed--tr--ios--200.svg",
     "width": 390,
-    "height": 1327,
+    "height": 1513,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": null,
@@ -83693,7 +83813,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-offline",
@@ -83735,7 +83863,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-offline",
@@ -83747,7 +83883,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-offline--en--android--200.svg",
     "width": 412,
-    "height": 1193,
+    "height": 1327,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": null,
@@ -83777,7 +83913,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-offline",
@@ -83789,7 +83933,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-offline--en--ios--100.svg",
     "width": 390,
-    "height": 876,
+    "height": 940,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": null,
@@ -83819,7 +83963,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-offline",
@@ -83831,7 +83983,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-offline--en--ios--200.svg",
     "width": 390,
-    "height": 1225,
+    "height": 1359,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": null,
@@ -83861,7 +84013,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-offline",
@@ -83873,7 +84033,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-offline--tr--android--100.svg",
     "width": 412,
-    "height": 915,
+    "height": 927,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": null,
@@ -83903,7 +84063,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-offline",
@@ -83915,7 +84083,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-offline--tr--android--200.svg",
     "width": 412,
-    "height": 1193,
+    "height": 1379,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": null,
@@ -83945,7 +84113,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-offline",
@@ -83957,7 +84133,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-offline--tr--ios--100.svg",
     "width": 390,
-    "height": 876,
+    "height": 959,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": null,
@@ -83987,7 +84163,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-offline",
@@ -83999,7 +84183,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-offline--tr--ios--200.svg",
     "width": 390,
-    "height": 1225,
+    "height": 1411,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": null,
@@ -84029,12 +84213,20 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-selected",
     "group": "report",
-    "title": "Şikâyet / beş kategori",
+    "title": "Şikâyet / altı kategori",
     "lang": "en",
     "platform": "android",
     "large": false,
@@ -84071,19 +84263,27 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-selected",
     "group": "report",
-    "title": "Şikâyet / beş kategori",
+    "title": "Şikâyet / altı kategori",
     "lang": "en",
     "platform": "android",
     "large": true,
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-selected--en--android--200.svg",
     "width": 412,
-    "height": 1094,
+    "height": 1228,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": null,
@@ -84113,19 +84313,27 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-selected",
     "group": "report",
-    "title": "Şikâyet / beş kategori",
+    "title": "Şikâyet / altı kategori",
     "lang": "en",
     "platform": "ios",
     "large": false,
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-selected--en--ios--100.svg",
     "width": 390,
-    "height": 844,
+    "height": 866,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": null,
@@ -84155,19 +84363,27 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-selected",
     "group": "report",
-    "title": "Şikâyet / beş kategori",
+    "title": "Şikâyet / altı kategori",
     "lang": "en",
     "platform": "ios",
     "large": true,
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-selected--en--ios--200.svg",
     "width": 390,
-    "height": 1126,
+    "height": 1260,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": null,
@@ -84197,12 +84413,20 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-selected",
     "group": "report",
-    "title": "Şikâyet / beş kategori",
+    "title": "Şikâyet / altı kategori",
     "lang": "tr",
     "platform": "android",
     "large": false,
@@ -84239,19 +84463,27 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-selected",
     "group": "report",
-    "title": "Şikâyet / beş kategori",
+    "title": "Şikâyet / altı kategori",
     "lang": "tr",
     "platform": "android",
     "large": true,
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-selected--tr--android--200.svg",
     "width": 412,
-    "height": 1043,
+    "height": 1228,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": null,
@@ -84281,19 +84513,27 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-selected",
     "group": "report",
-    "title": "Şikâyet / beş kategori",
+    "title": "Şikâyet / altı kategori",
     "lang": "tr",
     "platform": "ios",
     "large": false,
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-selected--tr--ios--100.svg",
     "width": 390,
-    "height": 844,
+    "height": 886,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": null,
@@ -84323,19 +84563,27 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-selected",
     "group": "report",
-    "title": "Şikâyet / beş kategori",
+    "title": "Şikâyet / altı kategori",
     "lang": "tr",
     "platform": "ios",
     "large": true,
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-selected--tr--ios--200.svg",
     "width": 390,
-    "height": 1075,
+    "height": 1260,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": null,
@@ -84365,7 +84613,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-sending",
@@ -84407,7 +84663,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-sending",
@@ -84419,7 +84683,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-sending--en--android--200.svg",
     "width": 412,
-    "height": 1244,
+    "height": 1379,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": null,
@@ -84449,7 +84713,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-sending",
@@ -84461,7 +84733,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-sending--en--ios--100.svg",
     "width": 390,
-    "height": 876,
+    "height": 940,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": null,
@@ -84491,7 +84763,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-sending",
@@ -84503,7 +84783,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-sending--en--ios--200.svg",
     "width": 390,
-    "height": 1276,
+    "height": 1411,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": null,
@@ -84533,7 +84813,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-sending",
@@ -84545,7 +84833,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-sending--tr--android--100.svg",
     "width": 412,
-    "height": 915,
+    "height": 927,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": null,
@@ -84575,7 +84863,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-sending",
@@ -84587,7 +84883,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-sending--tr--android--200.svg",
     "width": 412,
-    "height": 1193,
+    "height": 1379,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": null,
@@ -84617,7 +84913,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-sending",
@@ -84629,7 +84933,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-sending--tr--ios--100.svg",
     "width": 390,
-    "height": 876,
+    "height": 959,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": null,
@@ -84659,7 +84963,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-sending",
@@ -84671,7 +84983,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-sending--tr--ios--200.svg",
     "width": 390,
-    "height": 1225,
+    "height": 1411,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": null,
@@ -84701,7 +85013,15 @@
     "contactFields": [],
     "regions": [],
     "peerContinueChoice": null,
-    "family": "Güvenlik"
+    "family": "Güvenlik",
+    "reportCategories": [
+      "reportHarassment",
+      "reportSpam",
+      "reportInappropriate",
+      "reportSafety",
+      "reportChildSafety",
+      "reportOther"
+    ]
   },
   {
     "id": "report-sent",
