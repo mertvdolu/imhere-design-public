@@ -726,5 +726,14 @@
     ],
     "chatEmptyBody": "not rendered in chat-empty; keep key for compatibility",
     "H7c": "DESIGN RECOMMENDATION — FOUNDER APPROVAL REQUIRED; counters unchanged"
+  },
+  "notificationRequestsOnly20260925": {
+    "deltaFiles": [
+      "notification-requests-only-patch_en.arb",
+      "notification-requests-only-patch_tr.arb"
+    ],
+    "merge": "Replace notificationIntro value and metadata only; do not overwrite full ARB.",
+    "supersedes": "requests-and-messages copy for launch",
+    "restoreWhen": "message notifications actually ship"
   }
 }

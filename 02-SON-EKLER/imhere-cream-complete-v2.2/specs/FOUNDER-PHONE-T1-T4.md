@@ -1,3 +1,5 @@
+> 2026-09-25: T1 geri alındı; aktif oturumda checkInRenew + Stop kalır (FD-47/FD-40). Aşağıdaki T1 bölümü tarihsel, geçersizdir. Güncel karar: T1-REVERT-NOTIFICATIONS-2026-09-25.md. T2–T4 geçerlidir.
+
 TASARIMCIDAN MANAGERE MESAJ
 
 # Founder telefon turu — T1–T4

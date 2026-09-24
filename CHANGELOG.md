@@ -1,5 +1,10 @@
 # Değişiklik kaydı
 
+## Cream & Ink v2.2 — T1 geri alma / bildirim kapsamı · 2026-09-25
+
+- FD-47/FD-40: aktif oturumda I’m still here ve Stop korundu; T1 öncesi8 durum geri getirildi. T2–T4 ve H teslimleri değişmez.
+- notificationIntro TR/EN yalnız bağlantı isteklerini anlatır; delta ile birleştirme. Katalog, çizimler ve MANIFEST güncellendi. Yerel teslim; aktarım Code.
+
 ## Cream & Ink v2.2 — Dev turu H2/H7/H9/H3 · 2026-09-24
 
 - Alt sayfalarda48×48 geri; kurulumda Çıkış yap istisnası. Sohbet başlangıç kartı kaldırıldı, gönder simgesi composer içine taşındı.

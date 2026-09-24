@@ -30,3 +30,5 @@ Son teslim: [CH-141–143 toplu Code devri](specs/CODE-ALIGNMENT-CH141-143.md).
 Founder telefon turu T1–T4: [yerleşim güncellemesi](specs/FOUNDER-PHONE-T1-T4.md).
 
 Güncel dev turu: [H2/H7/H9/H3](specs/DEV-TOUR-H2-H7-H9-H3.md). Güncel toplam297 durum /2376 SVG /594 PNG; beta290 + ertelenen7.
+
+Son karar: [T1 geri alma + yalnız istek bildirim metni](specs/T1-REVERT-NOTIFICATIONS-2026-09-25.md).

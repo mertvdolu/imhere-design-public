@@ -26981,7 +26981,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/checkin-04-active--en--android--100.svg",
     "width": 412,
-    "height": 1384.4,
+    "height": 1476,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -26989,9 +26989,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 331.52000000000004,
+        "w": 364,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 303.92,
+        "y": 395.52000000000004,
         "w": 364,
         "h": 52
       }
@@ -27010,17 +27017,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "checkin-04-active",
@@ -27036,7 +27039,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/checkin-04-active--en--android--200.svg",
     "width": 412,
-    "height": 2040.6,
+    "height": 2163,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -27044,9 +27047,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 578.08,
+        "w": 364,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 530.8799999999999,
+        "y": 653.28,
         "w": 364,
         "h": 63.199999999999996
       }
@@ -27065,17 +27075,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "checkin-04-active",
@@ -27091,7 +27097,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/checkin-04-active--en--ios--100.svg",
     "width": 390,
-    "height": 1416.4,
+    "height": 1508,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -27099,9 +27105,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 353.52000000000004,
+        "w": 342,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 325.92,
+        "y": 417.52000000000004,
         "w": 342,
         "h": 52
       }
@@ -27120,17 +27133,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "checkin-04-active",
@@ -27146,7 +27155,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/checkin-04-active--en--ios--200.svg",
     "width": 390,
-    "height": 2153.6,
+    "height": 2276,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -27154,9 +27163,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 680.7200000000001,
+        "w": 342,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 633.52,
+        "y": 755.9200000000001,
         "w": 342,
         "h": 63.199999999999996
       }
@@ -27175,17 +27191,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "checkin-04-active",
@@ -27201,7 +27213,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/checkin-04-active--tr--android--100.svg",
     "width": 412,
-    "height": 1384.4,
+    "height": 1476,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -27209,9 +27221,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 331.52000000000004,
+        "w": 364,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 303.92,
+        "y": 395.52000000000004,
         "w": 364,
         "h": 52
       }
@@ -27230,17 +27249,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "checkin-04-active",
@@ -27256,7 +27271,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/checkin-04-active--tr--android--200.svg",
     "width": 412,
-    "height": 1989.6,
+    "height": 2112,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -27264,9 +27279,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 526.88,
+        "w": 364,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 479.6799999999999,
+        "y": 602.0799999999999,
         "w": 364,
         "h": 63.199999999999996
       }
@@ -27285,17 +27307,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "checkin-04-active",
@@ -27311,7 +27329,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/checkin-04-active--tr--ios--100.svg",
     "width": 390,
-    "height": 1416.4,
+    "height": 1508,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -27319,9 +27337,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 353.52000000000004,
+        "w": 342,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 325.92,
+        "y": 417.52000000000004,
         "w": 342,
         "h": 52
       }
@@ -27340,17 +27365,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "checkin-04-active",
@@ -27366,7 +27387,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/checkin-04-active--tr--ios--200.svg",
     "width": 390,
-    "height": 2072.6,
+    "height": 2195,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -27374,9 +27395,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 600.08,
+        "w": 342,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 552.8799999999999,
+        "y": 675.28,
         "w": 342,
         "h": 63.199999999999996
       }
@@ -27395,17 +27423,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "checkin-05-renewing",
@@ -117789,7 +117813,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-empty--en--android--100.svg",
     "width": 412,
-    "height": 823.4,
+    "height": 915,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -117797,9 +117821,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 331.52000000000004,
+        "w": 364,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 303.92,
+        "y": 395.52000000000004,
         "w": 364,
         "h": 52
       }
@@ -117817,17 +117848,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-empty",
@@ -117843,7 +117870,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-empty--en--android--200.svg",
     "width": 412,
-    "height": 1235.6,
+    "height": 1358,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -117851,9 +117878,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 578.08,
+        "w": 364,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 530.8799999999999,
+        "y": 653.28,
         "w": 364,
         "h": 63.199999999999996
       }
@@ -117871,17 +117905,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-empty",
@@ -117897,7 +117927,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-empty--en--ios--100.svg",
     "width": 390,
-    "height": 752.4,
+    "height": 844,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -117905,9 +117935,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 353.52000000000004,
+        "w": 342,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 325.92,
+        "y": 417.52000000000004,
         "w": 342,
         "h": 52
       }
@@ -117925,17 +117962,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-empty",
@@ -117951,7 +117984,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-empty--en--ios--200.svg",
     "width": 390,
-    "height": 1347.6,
+    "height": 1470,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -117959,9 +117992,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 680.7200000000001,
+        "w": 342,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 633.52,
+        "y": 755.9200000000001,
         "w": 342,
         "h": 63.199999999999996
       }
@@ -117979,17 +118019,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-empty",
@@ -118005,7 +118041,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-empty--tr--android--100.svg",
     "width": 412,
-    "height": 823.4,
+    "height": 915,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -118013,9 +118049,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 331.52000000000004,
+        "w": 364,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 303.92,
+        "y": 395.52000000000004,
         "w": 364,
         "h": 52
       }
@@ -118033,17 +118076,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-empty",
@@ -118059,7 +118098,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-empty--tr--android--200.svg",
     "width": 412,
-    "height": 1184.6,
+    "height": 1307,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -118067,9 +118106,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 526.88,
+        "w": 364,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 479.6799999999999,
+        "y": 602.0799999999999,
         "w": 364,
         "h": 63.199999999999996
       }
@@ -118087,17 +118133,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-empty",
@@ -118113,7 +118155,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-empty--tr--ios--100.svg",
     "width": 390,
-    "height": 752.4,
+    "height": 844,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -118121,9 +118163,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 353.52000000000004,
+        "w": 342,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 325.92,
+        "y": 417.52000000000004,
         "w": 342,
         "h": 52
       }
@@ -118141,17 +118190,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-empty",
@@ -118167,7 +118212,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-empty--tr--ios--200.svg",
     "width": 390,
-    "height": 1267.6,
+    "height": 1390,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -118175,9 +118220,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 600.08,
+        "w": 342,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 552.8799999999999,
+        "y": 675.28,
         "w": 342,
         "h": 63.199999999999996
       }
@@ -118195,17 +118247,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-failed",
@@ -118221,7 +118269,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-failed--en--android--100.svg",
     "width": 412,
-    "height": 823.4,
+    "height": 915,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -118229,16 +118277,23 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 331.52000000000004,
+        "w": 364,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 303.92,
+        "y": 395.52000000000004,
         "w": 364,
         "h": 52
       },
       {
         "key": "checkInRetry",
         "x": 24,
-        "y": 528.72,
+        "y": 620.32,
         "w": 364,
         "h": 52
       }
@@ -118256,17 +118311,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-failed",
@@ -118282,7 +118333,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-failed--en--android--200.svg",
     "width": 412,
-    "height": 1310.6,
+    "height": 1433,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -118290,16 +118341,23 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 578.08,
+        "w": 364,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 530.8799999999999,
+        "y": 653.28,
         "w": 364,
         "h": 63.199999999999996
       },
       {
         "key": "checkInRetry",
         "x": 24,
-        "y": 922.8799999999999,
+        "y": 1045.28,
         "w": 364,
         "h": 63.199999999999996
       }
@@ -118317,17 +118375,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-failed",
@@ -118343,7 +118397,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-failed--en--ios--100.svg",
     "width": 390,
-    "height": 779.4,
+    "height": 871,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -118351,16 +118405,23 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 353.52000000000004,
+        "w": 342,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 325.92,
+        "y": 417.52000000000004,
         "w": 342,
         "h": 52
       },
       {
         "key": "checkInRetry",
         "x": 24,
-        "y": 550.72,
+        "y": 642.32,
         "w": 342,
         "h": 52
       }
@@ -118378,17 +118439,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-failed",
@@ -118404,7 +118461,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-failed--en--ios--200.svg",
     "width": 390,
-    "height": 1423.6,
+    "height": 1546,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -118412,16 +118469,23 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 680.7200000000001,
+        "w": 342,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 633.52,
+        "y": 755.9200000000001,
         "w": 342,
         "h": 63.199999999999996
       },
       {
         "key": "checkInRetry",
         "x": 24,
-        "y": 1025.52,
+        "y": 1147.92,
         "w": 342,
         "h": 63.199999999999996
       }
@@ -118439,17 +118503,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-failed",
@@ -118465,7 +118525,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-failed--tr--android--100.svg",
     "width": 412,
-    "height": 823.4,
+    "height": 915,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -118473,16 +118533,23 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 331.52000000000004,
+        "w": 364,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 303.92,
+        "y": 395.52000000000004,
         "w": 364,
         "h": 52
       },
       {
         "key": "checkInRetry",
         "x": 24,
-        "y": 528.72,
+        "y": 620.32,
         "w": 364,
         "h": 52
       }
@@ -118500,17 +118567,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-failed",
@@ -118526,7 +118589,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-failed--tr--android--200.svg",
     "width": 412,
-    "height": 1259.6,
+    "height": 1382,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -118534,16 +118597,23 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 526.88,
+        "w": 364,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 479.6799999999999,
+        "y": 602.0799999999999,
         "w": 364,
         "h": 63.199999999999996
       },
       {
         "key": "checkInRetry",
         "x": 24,
-        "y": 871.6799999999998,
+        "y": 994.0799999999999,
         "w": 364,
         "h": 63.199999999999996
       }
@@ -118561,17 +118631,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-failed",
@@ -118587,7 +118653,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-failed--tr--ios--100.svg",
     "width": 390,
-    "height": 779.4,
+    "height": 871,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -118595,16 +118661,23 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 353.52000000000004,
+        "w": 342,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 325.92,
+        "y": 417.52000000000004,
         "w": 342,
         "h": 52
       },
       {
         "key": "checkInRetry",
         "x": 24,
-        "y": 550.72,
+        "y": 642.32,
         "w": 342,
         "h": 52
       }
@@ -118622,17 +118695,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-failed",
@@ -118648,7 +118717,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-failed--tr--ios--200.svg",
     "width": 390,
-    "height": 1342.6,
+    "height": 1465,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -118656,16 +118725,23 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 600.08,
+        "w": 342,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 552.8799999999999,
+        "y": 675.28,
         "w": 342,
         "h": 63.199999999999996
       },
       {
         "key": "checkInRetry",
         "x": 24,
-        "y": 944.8799999999999,
+        "y": 1067.28,
         "w": 342,
         "h": 63.199999999999996
       }
@@ -118683,17 +118759,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-limited",
@@ -119053,7 +119125,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-loading--en--android--100.svg",
     "width": 412,
-    "height": 823.4,
+    "height": 915,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -119061,9 +119133,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 331.52000000000004,
+        "w": 364,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 303.92,
+        "y": 395.52000000000004,
         "w": 364,
         "h": 52
       }
@@ -119080,17 +119159,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-loading",
@@ -119106,7 +119181,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-loading--en--android--200.svg",
     "width": 412,
-    "height": 1184.6,
+    "height": 1307,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -119114,9 +119189,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 578.08,
+        "w": 364,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 530.8799999999999,
+        "y": 653.28,
         "w": 364,
         "h": 63.199999999999996
       }
@@ -119133,17 +119215,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-loading",
@@ -119159,7 +119237,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-loading--en--ios--100.svg",
     "width": 390,
-    "height": 752.4,
+    "height": 844,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -119167,9 +119245,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 353.52000000000004,
+        "w": 342,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 325.92,
+        "y": 417.52000000000004,
         "w": 342,
         "h": 52
       }
@@ -119186,17 +119271,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-loading",
@@ -119212,7 +119293,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-loading--en--ios--200.svg",
     "width": 390,
-    "height": 1296.6,
+    "height": 1419,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -119220,9 +119301,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 680.7200000000001,
+        "w": 342,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 633.52,
+        "y": 755.9200000000001,
         "w": 342,
         "h": 63.199999999999996
       }
@@ -119239,17 +119327,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-loading",
@@ -119265,7 +119349,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-loading--tr--android--100.svg",
     "width": 412,
-    "height": 823.4,
+    "height": 915,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -119273,9 +119357,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 331.52000000000004,
+        "w": 364,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 303.92,
+        "y": 395.52000000000004,
         "w": 364,
         "h": 52
       }
@@ -119292,17 +119383,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-loading",
@@ -119318,7 +119405,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-loading--tr--android--200.svg",
     "width": 412,
-    "height": 1184.6,
+    "height": 1307,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -119326,9 +119413,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 526.88,
+        "w": 364,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 479.6799999999999,
+        "y": 602.0799999999999,
         "w": 364,
         "h": 63.199999999999996
       }
@@ -119345,17 +119439,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-loading",
@@ -119371,7 +119461,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-loading--tr--ios--100.svg",
     "width": 390,
-    "height": 752.4,
+    "height": 844,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -119379,9 +119469,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 353.52000000000004,
+        "w": 342,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 325.92,
+        "y": 417.52000000000004,
         "w": 342,
         "h": 52
       }
@@ -119398,17 +119495,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-loading",
@@ -119424,7 +119517,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-loading--tr--ios--200.svg",
     "width": 390,
-    "height": 1267.6,
+    "height": 1390,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -119432,9 +119525,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 600.08,
+        "w": 342,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 552.8799999999999,
+        "y": 675.28,
         "w": 342,
         "h": 63.199999999999996
       }
@@ -119451,17 +119551,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-offline",
@@ -119477,7 +119573,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-offline--en--android--100.svg",
     "width": 412,
-    "height": 823.4,
+    "height": 915,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -119485,16 +119581,23 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 331.52000000000004,
+        "w": 364,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 303.92,
+        "y": 395.52000000000004,
         "w": 364,
         "h": 52
       },
       {
         "key": "checkInRetry",
         "x": 24,
-        "y": 554.32,
+        "y": 645.9200000000001,
         "w": 364,
         "h": 52
       }
@@ -119512,17 +119615,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-offline",
@@ -119538,7 +119637,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-offline--en--android--200.svg",
     "width": 412,
-    "height": 1412.6,
+    "height": 1535,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -119546,16 +119645,23 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 578.08,
+        "w": 364,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 530.8799999999999,
+        "y": 653.28,
         "w": 364,
         "h": 63.199999999999996
       },
       {
         "key": "checkInRetry",
         "x": 24,
-        "y": 1025.28,
+        "y": 1147.68,
         "w": 364,
         "h": 63.199999999999996
       }
@@ -119573,17 +119679,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-offline",
@@ -119599,7 +119701,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-offline--en--ios--100.svg",
     "width": 390,
-    "height": 804.4,
+    "height": 896,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -119607,16 +119709,23 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 353.52000000000004,
+        "w": 342,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 325.92,
+        "y": 417.52000000000004,
         "w": 342,
         "h": 52
       },
       {
         "key": "checkInRetry",
         "x": 24,
-        "y": 576.32,
+        "y": 667.9200000000001,
         "w": 342,
         "h": 52
       }
@@ -119634,17 +119743,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-offline",
@@ -119660,7 +119765,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-offline--en--ios--200.svg",
     "width": 390,
-    "height": 1525.6,
+    "height": 1648,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -119668,16 +119773,23 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 680.7200000000001,
+        "w": 342,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 633.52,
+        "y": 755.9200000000001,
         "w": 342,
         "h": 63.199999999999996
       },
       {
         "key": "checkInRetry",
         "x": 24,
-        "y": 1127.92,
+        "y": 1250.3200000000002,
         "w": 342,
         "h": 63.199999999999996
       }
@@ -119695,17 +119807,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-offline",
@@ -119721,7 +119829,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-offline--tr--android--100.svg",
     "width": 412,
-    "height": 823.4,
+    "height": 915,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -119729,16 +119837,23 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 331.52000000000004,
+        "w": 364,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 303.92,
+        "y": 395.52000000000004,
         "w": 364,
         "h": 52
       },
       {
         "key": "checkInRetry",
         "x": 24,
-        "y": 554.32,
+        "y": 645.9200000000001,
         "w": 364,
         "h": 52
       }
@@ -119756,17 +119871,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-offline",
@@ -119782,7 +119893,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-offline--tr--android--200.svg",
     "width": 412,
-    "height": 1361.6,
+    "height": 1484,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -119790,16 +119901,23 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 526.88,
+        "w": 364,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 479.6799999999999,
+        "y": 602.0799999999999,
         "w": 364,
         "h": 63.199999999999996
       },
       {
         "key": "checkInRetry",
         "x": 24,
-        "y": 974.0799999999999,
+        "y": 1096.48,
         "w": 364,
         "h": 63.199999999999996
       }
@@ -119817,17 +119935,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-offline",
@@ -119843,7 +119957,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-offline--tr--ios--100.svg",
     "width": 390,
-    "height": 804.4,
+    "height": 896,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -119851,16 +119965,23 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 353.52000000000004,
+        "w": 342,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 325.92,
+        "y": 417.52000000000004,
         "w": 342,
         "h": 52
       },
       {
         "key": "checkInRetry",
         "x": 24,
-        "y": 576.32,
+        "y": 667.9200000000001,
         "w": 342,
         "h": 52
       }
@@ -119878,17 +119999,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "nearby-offline",
@@ -119904,7 +120021,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/nearby-offline--tr--ios--200.svg",
     "width": 390,
-    "height": 1444.6,
+    "height": 1567,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -119912,16 +120029,23 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 600.08,
+        "w": 342,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 552.8799999999999,
+        "y": 675.28,
         "w": 342,
         "h": 63.199999999999996
       },
       {
         "key": "checkInRetry",
         "x": 24,
-        "y": 1047.28,
+        "y": 1169.68,
         "w": 342,
         "h": 63.199999999999996
       }
@@ -119939,17 +120063,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "notice-network",
@@ -121917,7 +122037,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/notice-renewalFailed--en--android--100.svg",
     "width": 412,
-    "height": 793.4,
+    "height": 915,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -121925,9 +122045,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 430.72,
+        "w": 364,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 373.12000000000006,
+        "y": 494.72,
         "w": 364,
         "h": 52
       }
@@ -121945,17 +122072,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "notice-renewalFailed",
@@ -121971,7 +122094,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/notice-renewalFailed--en--android--200.svg",
     "width": 412,
-    "height": 1452.6,
+    "height": 1611,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -121979,9 +122102,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 830.8800000000001,
+        "w": 364,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 747.6800000000001,
+        "y": 906.0800000000002,
         "w": 364,
         "h": 63.199999999999996
       }
@@ -121999,17 +122129,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "notice-renewalFailed",
@@ -122025,7 +122151,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/notice-renewalFailed--en--ios--100.svg",
     "width": 390,
-    "height": 784.4,
+    "height": 906,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -122033,9 +122159,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 452.72,
+        "w": 342,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 395.12000000000006,
+        "y": 516.72,
         "w": 342,
         "h": 52
       }
@@ -122053,17 +122186,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "notice-renewalFailed",
@@ -122079,7 +122208,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/notice-renewalFailed--en--ios--200.svg",
     "width": 390,
-    "height": 1615.6,
+    "height": 1774,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -122087,9 +122216,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 984.7200000000001,
+        "w": 342,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 901.5200000000002,
+        "y": 1059.92,
         "w": 342,
         "h": 63.199999999999996
       }
@@ -122107,17 +122243,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "notice-renewalFailed",
@@ -122133,7 +122265,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/notice-renewalFailed--tr--android--100.svg",
     "width": 412,
-    "height": 793.4,
+    "height": 915,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -122141,9 +122273,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 430.72,
+        "w": 364,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 373.12000000000006,
+        "y": 494.72,
         "w": 364,
         "h": 52
       }
@@ -122161,17 +122300,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "notice-renewalFailed",
@@ -122187,7 +122322,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/notice-renewalFailed--tr--android--200.svg",
     "width": 412,
-    "height": 1400.6,
+    "height": 1559,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -122195,9 +122330,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 779.6800000000001,
+        "w": 364,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 696.48,
+        "y": 854.8800000000001,
         "w": 364,
         "h": 63.199999999999996
       }
@@ -122215,17 +122357,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "notice-renewalFailed",
@@ -122241,7 +122379,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/notice-renewalFailed--tr--ios--100.svg",
     "width": 390,
-    "height": 784.4,
+    "height": 906,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -122249,9 +122387,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 452.72,
+        "w": 342,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 395.12000000000006,
+        "y": 516.72,
         "w": 342,
         "h": 52
       }
@@ -122269,17 +122414,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "notice-renewalFailed",
@@ -122295,7 +122436,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/notice-renewalFailed--tr--ios--200.svg",
     "width": 390,
-    "height": 1535.6,
+    "height": 1694,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -122303,9 +122444,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 904.08,
+        "w": 342,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 820.88,
+        "y": 979.28,
         "w": 342,
         "h": 63.199999999999996
       }
@@ -122323,17 +122471,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "notice-server",
@@ -123021,7 +123165,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/notice-stopPending--en--android--100.svg",
     "width": 412,
-    "height": 793.4,
+    "height": 915,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -123029,9 +123173,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 430.72,
+        "w": 364,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 373.12000000000006,
+        "y": 494.72,
         "w": 364,
         "h": 52
       }
@@ -123049,17 +123200,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "notice-stopPending",
@@ -123075,7 +123222,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/notice-stopPending--en--android--200.svg",
     "width": 412,
-    "height": 1554.6,
+    "height": 1713,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -123083,9 +123230,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 830.8800000000001,
+        "w": 364,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 747.6800000000001,
+        "y": 906.0800000000002,
         "w": 364,
         "h": 63.199999999999996
       }
@@ -123103,17 +123257,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "notice-stopPending",
@@ -123129,7 +123279,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/notice-stopPending--en--ios--100.svg",
     "width": 390,
-    "height": 810.4,
+    "height": 932,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -123137,9 +123287,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 452.72,
+        "w": 342,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 395.12000000000006,
+        "y": 516.72,
         "w": 342,
         "h": 52
       }
@@ -123157,17 +123314,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "notice-stopPending",
@@ -123183,7 +123336,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/notice-stopPending--en--ios--200.svg",
     "width": 390,
-    "height": 1718.6,
+    "height": 1877,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -123191,9 +123344,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 984.7200000000001,
+        "w": 342,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 901.5200000000002,
+        "y": 1059.92,
         "w": 342,
         "h": 63.199999999999996
       }
@@ -123211,17 +123371,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "notice-stopPending",
@@ -123237,7 +123393,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/notice-stopPending--tr--android--100.svg",
     "width": 412,
-    "height": 793.4,
+    "height": 915,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -123245,9 +123401,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 430.72,
+        "w": 364,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 373.12000000000006,
+        "y": 494.72,
         "w": 364,
         "h": 52
       }
@@ -123265,17 +123428,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "notice-stopPending",
@@ -123291,7 +123450,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/notice-stopPending--tr--android--200.svg",
     "width": 412,
-    "height": 1503.6,
+    "height": 1662,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -123299,9 +123458,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 779.6800000000001,
+        "w": 364,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 696.48,
+        "y": 854.8800000000001,
         "w": 364,
         "h": 63.199999999999996
       }
@@ -123319,17 +123485,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "notice-stopPending",
@@ -123345,7 +123507,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/notice-stopPending--tr--ios--100.svg",
     "width": 390,
-    "height": 810.4,
+    "height": 932,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -123353,9 +123515,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 452.72,
+        "w": 342,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 395.12000000000006,
+        "y": 516.72,
         "w": 342,
         "h": 52
       }
@@ -123373,17 +123542,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "notice-stopPending",
@@ -123399,7 +123564,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/notice-stopPending--tr--ios--200.svg",
     "width": 390,
-    "height": 1586.6,
+    "height": 1745,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -123407,9 +123572,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 852.8800000000001,
+        "w": 342,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 769.6800000000001,
+        "y": 928.0800000000002,
         "w": 342,
         "h": 63.199999999999996
       }
@@ -123427,17 +123599,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "notice-stopSuperseded",
@@ -123453,7 +123621,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/notice-stopSuperseded--en--android--100.svg",
     "width": 412,
-    "height": 793.4,
+    "height": 915,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -123461,9 +123629,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 430.72,
+        "w": 364,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 373.12000000000006,
+        "y": 494.72,
         "w": 364,
         "h": 52
       }
@@ -123481,17 +123656,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "notice-stopSuperseded",
@@ -123507,7 +123678,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/notice-stopSuperseded--en--android--200.svg",
     "width": 412,
-    "height": 1503.6,
+    "height": 1662,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -123515,9 +123686,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 882.08,
+        "w": 364,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 798.88,
+        "y": 957.28,
         "w": 364,
         "h": 63.199999999999996
       }
@@ -123535,17 +123713,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "notice-stopSuperseded",
@@ -123561,7 +123735,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/notice-stopSuperseded--en--ios--100.svg",
     "width": 390,
-    "height": 784.4,
+    "height": 906,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -123569,9 +123743,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 452.72,
+        "w": 342,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 395.12000000000006,
+        "y": 516.72,
         "w": 342,
         "h": 52
       }
@@ -123589,17 +123770,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "notice-stopSuperseded",
@@ -123615,7 +123792,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/notice-stopSuperseded--en--ios--200.svg",
     "width": 390,
-    "height": 1615.6,
+    "height": 1774,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -123623,9 +123800,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 984.7200000000001,
+        "w": 342,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 901.5200000000002,
+        "y": 1059.92,
         "w": 342,
         "h": 63.199999999999996
       }
@@ -123643,17 +123827,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "notice-stopSuperseded",
@@ -123669,7 +123849,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/notice-stopSuperseded--tr--android--100.svg",
     "width": 412,
-    "height": 793.4,
+    "height": 915,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -123677,9 +123857,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 430.72,
+        "w": 364,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 373.12000000000006,
+        "y": 494.72,
         "w": 364,
         "h": 52
       }
@@ -123697,17 +123884,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "notice-stopSuperseded",
@@ -123723,7 +123906,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/notice-stopSuperseded--tr--android--200.svg",
     "width": 412,
-    "height": 1400.6,
+    "height": 1559,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -123731,9 +123914,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 779.6800000000001,
+        "w": 364,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 696.48,
+        "y": 854.8800000000001,
         "w": 364,
         "h": 63.199999999999996
       }
@@ -123751,17 +123941,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "notice-stopSuperseded",
@@ -123777,7 +123963,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/notice-stopSuperseded--tr--ios--100.svg",
     "width": 390,
-    "height": 784.4,
+    "height": 906,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -123785,9 +123971,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 452.72,
+        "w": 342,
+        "h": 52
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 395.12000000000006,
+        "y": 516.72,
         "w": 342,
         "h": 52
       }
@@ -123805,17 +123998,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "notice-stopSuperseded",
@@ -123831,7 +124020,7 @@
     "source": "imhere-design-v1.4",
     "file": "screens/svg/notice-stopSuperseded--tr--ios--200.svg",
     "width": 390,
-    "height": 1484.6,
+    "height": 1643,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -123839,9 +124028,16 @@
     "theme": "Cream & Ink",
     "regions": [
       {
+        "key": "btn-renew",
+        "x": 24,
+        "y": 852.8800000000001,
+        "w": 342,
+        "h": 63.199999999999996
+      },
+      {
         "key": "btn-stop",
         "x": 24,
-        "y": 769.6800000000001,
+        "y": 928.0800000000002,
         "w": 342,
         "h": 63.199999999999996
       }
@@ -123859,17 +124055,13 @@
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
     },
     "activeCheckInPresentation": {
-      "status": "checkInStatusActive with end time",
-      "actions": [
-        "checkInStop"
-      ],
-      "renewCtaVisible": false,
-      "countdownVisible": false,
-      "inactiveStartUnchanged": true
-    },
-    "founderPhoneTourT1T4": [
-      "T1"
-    ]
+      "status": "existing active status and timer",
+      "renewCtaVisible": true,
+      "renewKey": "checkInRenew",
+      "stopPreserved": true,
+      "source": "Founder2026-09-25 FD-47/FD-40; supersedes T1 of450f842",
+      "behavior": "renew only on user action; no automatic renewal"
+    }
   },
   {
     "id": "notice-verifying",
@@ -126557,7 +126749,13 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "notificationIntroCopy": {
+      "key": "notificationIntro",
+      "delta": "l10n/notification-requests-only-patch_en.arb",
+      "launchScope": "requests only; no message notification promise",
+      "future": "restore old wording only when message notifications actually ship"
+    }
   },
   {
     "id": "notifications-intro",
@@ -126629,7 +126827,13 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "notificationIntroCopy": {
+      "key": "notificationIntro",
+      "delta": "l10n/notification-requests-only-patch_en.arb",
+      "launchScope": "requests only; no message notification promise",
+      "future": "restore old wording only when message notifications actually ship"
+    }
   },
   {
     "id": "notifications-intro",
@@ -126701,7 +126905,13 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "notificationIntroCopy": {
+      "key": "notificationIntro",
+      "delta": "l10n/notification-requests-only-patch_en.arb",
+      "launchScope": "requests only; no message notification promise",
+      "future": "restore old wording only when message notifications actually ship"
+    }
   },
   {
     "id": "notifications-intro",
@@ -126773,7 +126983,13 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "notificationIntroCopy": {
+      "key": "notificationIntro",
+      "delta": "l10n/notification-requests-only-patch_en.arb",
+      "launchScope": "requests only; no message notification promise",
+      "future": "restore old wording only when message notifications actually ship"
+    }
   },
   {
     "id": "notifications-intro",
@@ -126845,7 +127061,13 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "notificationIntroCopy": {
+      "key": "notificationIntro",
+      "delta": "l10n/notification-requests-only-patch_tr.arb",
+      "launchScope": "requests only; no message notification promise",
+      "future": "restore old wording only when message notifications actually ship"
+    }
   },
   {
     "id": "notifications-intro",
@@ -126917,7 +127139,13 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "notificationIntroCopy": {
+      "key": "notificationIntro",
+      "delta": "l10n/notification-requests-only-patch_tr.arb",
+      "launchScope": "requests only; no message notification promise",
+      "future": "restore old wording only when message notifications actually ship"
+    }
   },
   {
     "id": "notifications-intro",
@@ -126989,7 +127217,13 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "notificationIntroCopy": {
+      "key": "notificationIntro",
+      "delta": "l10n/notification-requests-only-patch_tr.arb",
+      "launchScope": "requests only; no message notification promise",
+      "future": "restore old wording only when message notifications actually ship"
+    }
   },
   {
     "id": "notifications-intro",
@@ -127061,7 +127295,13 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "notificationIntroCopy": {
+      "key": "notificationIntro",
+      "delta": "l10n/notification-requests-only-patch_tr.arb",
+      "launchScope": "requests only; no message notification promise",
+      "future": "restore old wording only when message notifications actually ship"
+    }
   },
   {
     "id": "notifications-offline",

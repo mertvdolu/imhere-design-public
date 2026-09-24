@@ -1238,5 +1238,14 @@
     "motionMapComplete": true,
     "unrelatedSvgFilesPreserved": 560,
     "nativeAppTest": false
+  },
+  "T1RevertNotifications20260925": {
+    "restoredSvg": 64,
+    "notificationSvg": 8,
+    "restoredFrom": "18d189c",
+    "restoredDrawingsByteIdentical": true,
+    "otherSvgUnchanged": true,
+    "fullArbsUnchanged": true,
+    "nativeAppTest": false
   }
 }

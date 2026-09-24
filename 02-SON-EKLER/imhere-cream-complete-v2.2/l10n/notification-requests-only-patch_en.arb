@@ -1,0 +1,7 @@
+{
+  "@@locale": "en",
+  "notificationIntro": "Get notified about requests.",
+  "@notificationIntro": {
+    "description": "Launch supports connection request notifications only. Restore requests-and-messages wording only after message notifications ship."
+  }
+}
