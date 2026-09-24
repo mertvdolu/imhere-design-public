@@ -923,5 +923,14 @@
     "visualReview": "200% selected state reviewed across both languages and platforms",
     "helperAdded": false,
     "nativeDeviceTest": false
+  },
+  "profileReport20260924": {
+    "svgVariants": 64,
+    "pngVariants": 16,
+    "existingScreenContentUnchanged": true,
+    "newTarget48": true,
+    "ownProfilesUnchanged": true,
+    "betaAndCountUnchanged": true,
+    "nativeBackendVerification": false
   }
 }

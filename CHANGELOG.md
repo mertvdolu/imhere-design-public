@@ -1,5 +1,10 @@
 # Değişiklik kaydı
 
+## Cream & Ink v2.2 — Profilden şikâyet · 2026-09-24
+
+- 8 kişi/profil durumu, 64 SVG / 16 PNG: sağ üst bayrak → mevcut altı kategorili şikâyet formu. Hedef 48×48, mevcut `reportTitle` erişilebilir adı. Kendi profilinde gösterilmez.
+- Şikâyet sonrası ayrı engelleme sorusu korunur; bağlantı bitirme eylemi bu girişe eklenmedi. Yeni ARB anahtarı yok. Yerel teslim.
+
 ## Cream & Ink v2.2 — Altıncı şikâyet kategorisi · 2026-09-24
 
 - `reportChildSafety`: EN “Underage user or child safety”; TR “Reşit olmayan kullanıcı veya çocuk güvenliği”. Safety concern sonrasında, Other öncesinde.
