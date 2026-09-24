@@ -88,5 +88,15 @@
     "stateReplacement": "connections-open-closed → connections-after-end",
     "date": "2026-09-24",
     "signaturePreviewsUnchanged": true
+  },
+  "codeAlignmentAmendment": {
+    "statesMapped": 296,
+    "retiredStates": [
+      "report-block-busy",
+      "report-block-done",
+      "report-block-failed"
+    ],
+    "newState": "safety-profile-menu",
+    "signaturePreviewsUnchanged": true
   }
 }

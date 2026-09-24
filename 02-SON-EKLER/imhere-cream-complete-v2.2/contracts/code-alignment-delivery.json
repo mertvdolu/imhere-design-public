@@ -1,0 +1,31 @@
+{
+  "version": "Cream & Ink v2.2 / CH-141–143 alignment",
+  "source": "Code design-handoff §0.A, 2026-09-24",
+  "currentScreenStates": 296,
+  "betaStates": 289,
+  "readyFiles": {
+    "endConfirmation": [
+      "screens/svg/end-confirm--*.svg",
+      "specs/END-CONNECTION-2026-09-24.md"
+    ],
+    "sixthCategory": [
+      "screens/svg/report-empty--*.svg",
+      "specs/CHILD-SAFETY-2026-09-24.md"
+    ],
+    "singleMergedDelta": [
+      "l10n/code-alignment-patch_en.arb",
+      "l10n/code-alignment-patch_tr.arb"
+    ]
+  },
+  "rules": {
+    "reportSent": "reportSent + blockDone + safetyBack; no question",
+    "closedCard": "removed; no lock/neutral label in list; existing connectionEndedNeutral key retained for other valid states",
+    "afterEndedProfile": "use view-other-visible/hidden active send if otherwise eligible; person-connected only for OPEN connection",
+    "profileSafety": "bottom secondary safetyTitle, backend availability gated; report/block only, no End"
+  },
+  "retiredStates": [
+    "report-block-busy",
+    "report-block-done",
+    "report-block-failed"
+  ]
+}

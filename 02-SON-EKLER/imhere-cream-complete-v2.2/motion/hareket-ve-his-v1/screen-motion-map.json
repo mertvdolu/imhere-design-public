@@ -1118,19 +1118,6 @@
       "base-route",
       "form-focus-error"
     ],
-    "report-block-busy": [
-      "base-route",
-      "safety-minimal"
-    ],
-    "report-block-done": [
-      "base-route",
-      "safety-minimal"
-    ],
-    "report-block-failed": [
-      "base-route",
-      "safety-minimal",
-      "error-strip"
-    ],
     "report-empty": [
       "base-route",
       "safety-minimal"
@@ -1396,6 +1383,10 @@
       "03-paper-list",
       "ended-card-removal",
       "tab-indicator"
+    ],
+    "safety-profile-menu": [
+      "base-route",
+      "safety-minimal"
     ]
   },
   "signatureRefs": "signature-moments.json",

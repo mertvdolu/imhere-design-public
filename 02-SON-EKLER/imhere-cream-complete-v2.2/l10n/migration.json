@@ -697,5 +697,20 @@
       "Read-only due to message limit/contact exchange is not ended; do not hide those solely for being read-only.",
       "No precise time-of-day countdown, immediate-erasure promise or automatic reconnection."
     ]
+  },
+  "codeAlignmentCH141143": {
+    "deltaFiles": [
+      "code-alignment-patch_en.arb",
+      "code-alignment-patch_tr.arb"
+    ],
+    "merge": "Same approved child-safety and end-connection deltas consolidated; merge named keys only. Existing full ARBs untouched. If prior deltas applied, values already match.",
+    "retiredStates": {
+      "report-block-busy": "report-sent",
+      "report-block-done": "report-sent",
+      "report-block-failed": "report-sent"
+    },
+    "newState": "safety-profile-menu",
+    "reportFlow": "confirmed report implies block; no optional block step",
+    "supersedes": "prior profile header flag and separate optional block instructions; End confirmation remains current"
   }
 }

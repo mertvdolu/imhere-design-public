@@ -6,7 +6,7 @@
   "clarifications": [
     "No personal location point. Presence begins at viewport boundary, per Founder reply.",
     "Founder superseding decision2026-09-24: ended connection row is removed after confirmation; prior retain-card rule is withdrawn.",
-    "Profile report path confirmed; delivered before motion in e1f4bbe."
+    "CH-143 supersedes e1f4bbe: bottom Safety button opens report/block menu; CH-141 report confirmation also blocks, no optional block question."
   ],
   "moments": [
     {

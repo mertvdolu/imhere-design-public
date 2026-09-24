@@ -1,11 +1,7 @@
 TASARIMCIDAN MANAGERE MESAJ
 
-# Profilden şikâyet
+# Profilden güvenlik — CH-143 güncellemesi
 
-Başkasının erişilebilir profilinde üst sağda 48×48 bayrak hedefi, mevcut `reportTitle` erişilebilir adıyla 6 kategorili `report-empty` ekranını açar. `view-other-visible/hidden` ve cooldown/pending/connected kişi durumları: 64 SVG / 16 PNG. Kendi profilinde, yükleniyor veya erişilemiyor durumunda bayrak yoktur.
+Önceki üst sağ bayrak tasarımı yerine, profilin altında mevcut `safetyTitle` ikincil düğmesi kabul edildi. Backend yoksa gösterilmez. Düğme `safety-profile-menu` açar: Şikâyet / Engelle / Go back. End connection yoktur. Şikâyet onaylandığında engelleme de uygulanır; ayrı soru yoktur.
 
-Kişi kimliği açık profilin mevcut erişim bağlamından alınır. Bağlantı kurulmuş olması giriş için şart değildir. Bu yol bağlantıya özel `End connection` menüsünü açmaz. Şikâyet sunucu onayından sonra mevcut ayrı engelleme sorusuna gider. Hata/offline/belirsiz sonuç davranışları korunur. Geri dönüş kaynak profile gider; erişim kaybolmuşsa mevcut nötr erişilemiyor ekranı kullanılır.
-
-Code bu yolun sunucu yetkisini ve hedef bağlamını doğrular; çizimin varlığı backend uygulamasının tamamlandığı anlamına gelmez. Yeni metin ve yeni ürün veri alanı yoktur. Altıncı kategori `079ee74` deltasıyla birleştirilir.
-
-Kaynak: Founder onaylı işin Manager mesajında belirtilen profilden şikâyet önceliği, 2026-09-24. Yerel teslim, aktarım Code.
+Kapsam: view-other-visible/hidden ve person-cooldown/pending/connected görünür/gizli varyantları. Kendi profilinde giriş yok. Ayrıntı: [güncel toplu devir](CODE-ALIGNMENT-CH141-143.md). Eski e1f4bbe bayrak + ayrı engelleme akışı bu kararla geçersizdir.

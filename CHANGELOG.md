@@ -1,5 +1,12 @@
 # Değişiklik kaydı
 
+## Cream & Ink v2.2 — Code uyumu CH-141–143 · 2026-09-24
+
+- Report sonucu: reportSent + blockDone + Go back; ayrı engelleme akışı ve üç eski durum kaldırıldı.
+- Profil altına Safety ikincil düğmesi; üst bayrak yerine Şikâyet/Engelle menüsü, End yok. Kapalı bağlantı tek başına merhaba eylemini engellemez.
+- Kapalı kartın kaldırılması ve End onayı e1c7aed ile zaten hazır; 6.kategori079ee74 ile hazır. Tek code-alignment ARB deltası aynı teslimde birleştirildi.
+-80 SVG /20 PNG güncellendi/eklendi;24 SVG /6 PNG eski rapor durumu çıkarıldı. Güncel296 durum. Yerel teslim.
+
 ## Cream & Ink v2.2 — End connection onayı · 2026-09-24
 
 - Onay penceresi:30 günlük güvenlik saklama/silme, listeden kalkma ve iki taraf isterse yeniden bağlanma; EN/TR delta. Ana End connection, Report instead ve Cancel.

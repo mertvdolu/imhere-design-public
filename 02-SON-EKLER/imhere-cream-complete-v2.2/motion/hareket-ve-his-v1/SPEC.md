@@ -4,7 +4,7 @@
 
 ## Kaynak ve kararlar
 
-Founder onaylı kaynak `source/hareket-ve-his-plani-v1.md` arşivlendi. Plandaki 295 durum sayısı eski; güncel katalog **298 durum / 2384 SVG**. Bu iş yeni ekran durumu eklemez.
+Founder onaylı kaynak `source/hareket-ve-his-plani-v1.md` arşivlendi. Plandaki 295 durum sayısı eski; güncel katalog **296 durum / 2368 SVG**. Bu iş yeni ekran durumu eklemez.
 
 - Founder ek yanıtı: “sınırların kenarından … 0 noktasından başlamasın”. Varlık dalgası **harita viewport kenarından içeri** başlar; coğrafi sınır/yarıçap, kendi noktan veya başka kişi işareti değildir. Dört semantik harita rengi, sayısız/mesafesiz gösterim ve attribution korunur. Nokta yerine yalnız dekoratif kenar vurgusu nefes alır.
 - **Güncel Founder kararı (2026-09-24):** Bağlantı bitince kart listeden kalkar. Önceki kartı tutma kararı geçersizdir. Yalnız doğrulanmış bitişte satır150ms opaklıkla çıkar; normal harekette yeri150ms daralır, azaltılmış harekette yer değiştirme animasyonu yoktur. Liste boşalırsa mevcut boş durum açılır. Bu, geçmişin anında silinmesi değildir.

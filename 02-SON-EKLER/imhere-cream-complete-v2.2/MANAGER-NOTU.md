@@ -11,7 +11,7 @@ GİRİŞ: ONIZLEME.html (depo kökü güncel kataloğa yönlendirir)
 SPESİFİKASYON: 02-SON-EKLER/imhere-cream-complete-v2.2/specs/TASARIM-DEVRI.md
 TOKEN: 03-GUNCEL-ORTAK/tokens/theme.tokens.json (v2.2)
 
-KAPSAM: Eski güncel katalogdaki 287 durumun tamamı + son ekler = 298 durum / 2384 SVG; TR/EN, iOS/Android, %100/%200. PNG referansları ayrıca var. Boş/yükleme/hata/offline akışları korunur. Harita tam ekran; dört semantik band korunur. Gönderilen iki daireli logo, açık simge/splash ve tek renk bildirim maskesi teslim edildi.
+KAPSAM: Eski güncel katalogdaki 287 durumun tamamı + son ekler = 296 durum / 2368 SVG; TR/EN, iOS/Android, %100/%200. PNG referansları ayrıca var. Boş/yükleme/hata/offline akışları korunur. Harita tam ekran; dört semantik band korunur. Gönderilen iki daireli logo, açık simge/splash ve tek renk bildirim maskesi teslim edildi.
 
 SON EKLER: Mesaj saklama bilgileri, nearbyLimited, sunucu gizliliği açıklaması, photoUploaded, onboarding çıkışı, yedi aktif Ayarlar satırı ve destek kopyalama hali çizimlere işlendi. Cooldown/pending/connected, ek contact paylaşımı, güncelleme başarısı/boş durum, biten bağlantının listeden kalkması ve salt okunur geçiş de yeni temada.
 
@@ -22,3 +22,5 @@ METİN DELTASI: supportCopyEmail / supportEmailCopied / authVerifyResending (TR/
 DOĞRULAMA: evidence/validation.json, review/ ve MANIFEST.json. Dosyalar ZIP yerine tek tek depoya işlendi; CHANGELOG'da sürüm kaydı var.
 
 Kendi profilinde alt düzenleme düğmesi kaldırıldı; üst sağda kalem → dişli. Gizli alan işareti `profileHiddenToOthers`; ayrıntı telefon turu notunda.
+
+Son teslim: [CH-141–143 toplu Code devri](specs/CODE-ALIGNMENT-CH141-143.md).

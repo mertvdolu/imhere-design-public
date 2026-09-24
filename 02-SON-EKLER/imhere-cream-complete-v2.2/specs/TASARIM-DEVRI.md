@@ -66,7 +66,7 @@ Contact yalnız Telefon/Instagram/E-posta/Diğer. Alan seçimi boş başlar, aç
 
 ## 7. Güvenlik, Ayarlar, bildirimler
 
-Report beş kategori → ayrı ayrıca engelle sorusu. Block/unblock ve End Connection kendi onayları korunur. Hesap sil gerçek ve geri alınamaz; istek alındı / tamamlandı / başarısız ayrı. Sınırlı kayıtların hukuki saklanabileceği açıklaması korunur. Yeniden giriş gerekebilir. Hukuki metin/URL uydurulmaz.
+Report altı kategori; doğrulanmış başarıda reportSent + blockDone + safetyBack. Ayrı engelleme sorusu yoktur (CH-141). Block/unblock ve End Connection kendi onayları korunur. Hesap sil gerçek ve geri alınamaz; istek alındı / tamamlandı / başarısız ayrı. Sınırlı kayıtların hukuki saklanabileceği açıklaması korunur. Yeniden giriş gerekebilir. Hukuki metin/URL uydurulmaz.
 
 Aktif Ayarlar sırası: Notifications · Blocked users · Privacy policy · Terms · Contact us · Delete my account · Sign out. İngilizce aktif. Dil satırı ve dil ekranları askıda; katalog varsayılanında gizli, ayrı filtreyle hazırlık referansı olarak açılır. Türkçe açıldığında Language ilk sıraya geri gelir. Profilde konuşulan diller alanı, uygulama dil ayarından ayrıdır.
 
@@ -95,3 +95,7 @@ Kullanıcı gizlediği yaş, cinsiyet ve mesleğini kendi profilinde görür; il
 ## Hareket ve His v1 — güncel hareket kaynağı
 
 Önceki durağan hareket kuralları yerine Founder onaylı [v1 hareket spesifikasyonu](../motion/hareket-ve-his-v1/SPEC.md) geçerlidir. Harita kişisel işaret içermez; dalga viewport kenarından başlar. Renk, ürün ve gizlilik kuralları korunur. Hareketi azalt:150ms opaklık, döngü yok; açılış logosu doğrudan. Native uygulanmış kabul edilmez.
+
+## CH-141–143 — önceki güvenlik akışını geçersiz kılan güncelleme
+
+Başarılı şikâyet: reportSent + blockDone + safetyBack; ayrı engelleme sorusu yok. Profil: alt Safety → şikâyet/engelle menüsü; üst bayrak yok, End burada yok. Biten bağlantı listede görünmez; kişi diğer kurallarca uygunsa yeniden merhaba aktiftir. Ayrıntı: [Code toplu devir](CODE-ALIGNMENT-CH141-143.md).

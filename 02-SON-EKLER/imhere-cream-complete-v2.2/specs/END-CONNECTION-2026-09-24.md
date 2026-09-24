@@ -17,7 +17,7 @@ Düğme sırası: **End connection / Bağlantıyı bitir** (ana, mürekkep dolgu
 ## Davranış ve çizim
 
 - `end-confirm`: onay diyaloğu, TR/EN × iOS/Android × %100/%200. Büyük metinde içerik kaydırılır; üç eylem eksilmez, yazı küçültülmez. Kendi onayı gerekir; karşı tarafın onayı istenmez.
-- Report instead aynı kişinin6 kategorili şikâyet formuna gider. **Bağlantıyı bitirmez**; şikâyet ve bitirme birlikte gönderilmez. Şikâyet sonrası mevcut ayrı engelleme sorusu korunur. Geri dönüşte kaynak hâlâ erişilebilirse bu onay bağlamı geri gelir.
+- Report instead aynı kişinin6 kategorili şikâyet formuna gider. **Bağlantıyı bitirmez**; şikâyet ve bitirme birlikte gönderilmez. CH-141 sonrası başarılı şikâyet engellemeyi de uygular; ayrıca engelleme sorusu yoktur. Report instead yalnız gezinir; otomatik şikâyet veya end göndermez. Geri dönüşte kaynak hâlâ erişilebilirse bu onay bağlamı geri gelir.
 - Cancel ve sistem geri hareketi mutasyon yapmadan kapatır. Dış boşluğa dokunma bitirmez.
 - Kart yalnız sunucu bitişi doğruladığında listeden çıkar. Hata/offline/belirsiz sonuçta kart erken kaldırılmaz; mevcut tekrar deneme/sonuç kontrolü sürer.
 - `connections-open-closed` kaldırıldı; yerini `connections-after-end` aldı. Örnekte yalnız kalan açık bağlantı bulunur. Son bağlantı bittiyse mevcut `messages-connections-empty` kullanılır. Toplam durum sayısı298, beta kararları korunur.

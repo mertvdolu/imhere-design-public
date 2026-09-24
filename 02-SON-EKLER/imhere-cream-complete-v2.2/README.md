@@ -4,7 +4,7 @@ Son güncelleme: [Founder telefon turu](specs/TELEFON-TURU-2026-09-24.md). Önce
 
 Founder’ın bütün temayı krem/siyaha geçirme onayıyla hazırlanan **tam güncel tasarım paketi**.
 
-- **298 ekran durumu / 2384 SVG**: TR + EN × iOS + Android × %100 + %200.
+- **296 ekran durumu / 2368 SVG**: TR + EN × iOS + Android × %100 + %200.
 - Önceki güncel katalogdaki 287 durumun tamamı kapsanır; son ekler ayrıca çizilir.
 - Her durum için EN/iOS/%100 ve TR/Android/%200 PNG önizlemeleri.
 - `ONIZLEME.html`: bütün ekranların aranabilir, filtrelenebilir kataloğu. İnternetsiz açılır.
@@ -20,4 +20,6 @@ Bu teslim tasarımı tamamlar. Flutter, sunucu veya mağaza derlemesi değiştir
 
 ## Hareket ve His v1
 
-[Önizleme](motion/hareket-ve-his-v1/ONIZLEME.html) · [Spesifikasyon](motion/hareket-ve-his-v1/SPEC.md). 7 imza an, azaltılmış karşılıkları ve tüm298 durum için hareket notları. Native entegrasyon değildir.
+[Önizleme](motion/hareket-ve-his-v1/ONIZLEME.html) · [Spesifikasyon](motion/hareket-ve-his-v1/SPEC.md). 7 imza an, azaltılmış karşılıkları ve tüm296 durum için hareket notları. Native entegrasyon değildir.
+
+Son teslim: [CH-141–143 toplu Code devri](specs/CODE-ALIGNMENT-CH141-143.md).

@@ -9,7 +9,7 @@ Founder kararı: `reportChildSafety`.
 
 Sıra: Harassment → Spam → Inappropriate content → Safety concern → **Underage user or child safety** → Other.
 
-Seçim mevcut tek-seçimli kategori akışını kullanır; gönderimden sonraki ayrı engelleme sorusu değişmez. Ek yardım satırı gerekli görülmedi, eklenmedi. İnceleme önceliği, süre veya yetkililere bildirim vaadi üretilmedi. HARBOR CSAE sayfasının içeriği bu teslimde sağlanmadığından içerik eşleşmesi doğrulandı iddiası yoktur.
+Seçim mevcut tek-seçimli kategori akışını kullanır; CH-141 güncellemesiyle başarılı gönderim engellemeyi de uygular; ayrı engelleme sorusu yoktur. Ek yardım satırı gerekli görülmedi, eklenmedi. İnceleme önceliği, süre veya yetkililere bildirim vaadi üretilmedi. HARBOR CSAE sayfasının içeriği bu teslimde sağlanmadığından içerik eşleşmesi doğrulandı iddiası yoktur.
 
 `report-empty`, `report-selected`, `report-sending`, `report-failed`, `report-offline`: 40 SVG ve 10 PNG güncellendi. TR/EN, iOS/Android, %100/%200. Yeni durum eklenmedi; beta işaretleri korunur.
 

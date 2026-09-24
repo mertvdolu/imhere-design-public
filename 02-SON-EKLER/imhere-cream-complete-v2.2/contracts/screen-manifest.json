@@ -90619,7 +90619,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-connected-hidden--en--android--100.svg",
     "width": 412,
-    "height": 1069,
+    "height": 1157,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -90635,11 +90635,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -90656,20 +90657,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 968.2400000000001,
+        "w": 364,
+        "h": 52.000000000000114
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -90695,7 +90698,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-connected-hidden--en--android--200.svg",
     "width": 412,
-    "height": 1466,
+    "height": 1565,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -90711,11 +90714,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -90732,20 +90736,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1261.2800000000002,
+        "w": 364,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -90771,7 +90777,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-connected-hidden--en--ios--100.svg",
     "width": 390,
-    "height": 1101,
+    "height": 1189,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -90787,11 +90793,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -90808,20 +90815,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 990.2400000000001,
+        "w": 342,
+        "h": 52.000000000000114
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -90847,7 +90856,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-connected-hidden--en--ios--200.svg",
     "width": 390,
-    "height": 1498,
+    "height": 1597,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -90863,11 +90872,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -90884,20 +90894,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1283.2800000000002,
+        "w": 342,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -90923,7 +90935,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-connected-hidden--tr--android--100.svg",
     "width": 412,
-    "height": 1069,
+    "height": 1157,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -90939,11 +90951,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -90960,20 +90973,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 968.2400000000001,
+        "w": 364,
+        "h": 52.000000000000114
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -90999,7 +91014,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-connected-hidden--tr--android--200.svg",
     "width": 412,
-    "height": 1466,
+    "height": 1565,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -91015,11 +91030,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -91036,20 +91052,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1261.2800000000002,
+        "w": 364,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -91075,7 +91093,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-connected-hidden--tr--ios--100.svg",
     "width": 390,
-    "height": 1101,
+    "height": 1189,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -91091,11 +91109,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -91112,20 +91131,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 990.2400000000001,
+        "w": 342,
+        "h": 52.000000000000114
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -91151,7 +91172,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-connected-hidden--tr--ios--200.svg",
     "width": 390,
-    "height": 1498,
+    "height": 1597,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -91167,11 +91188,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -91188,20 +91210,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1283.2800000000002,
+        "w": 342,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -91227,7 +91251,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-connected-visible--en--android--100.svg",
     "width": 412,
-    "height": 1138,
+    "height": 1226,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -91243,11 +91267,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -91264,20 +91289,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1037.44,
+        "w": 364,
+        "h": 52.0
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -91303,7 +91330,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-connected-visible--en--android--200.svg",
     "width": 412,
-    "height": 1580,
+    "height": 1679,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -91319,11 +91346,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -91340,20 +91368,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1375.6800000000003,
+        "w": 364,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -91379,7 +91409,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-connected-visible--en--ios--100.svg",
     "width": 390,
-    "height": 1170,
+    "height": 1258,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -91395,11 +91425,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -91416,20 +91447,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1059.44,
+        "w": 342,
+        "h": 52.0
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -91455,7 +91488,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-connected-visible--en--ios--200.svg",
     "width": 390,
-    "height": 1612,
+    "height": 1711,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -91471,11 +91504,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -91492,20 +91526,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1397.6800000000003,
+        "w": 342,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -91531,7 +91567,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-connected-visible--tr--android--100.svg",
     "width": 412,
-    "height": 1138,
+    "height": 1226,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -91547,11 +91583,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -91568,20 +91605,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1037.44,
+        "w": 364,
+        "h": 52.0
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -91607,7 +91646,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-connected-visible--tr--android--200.svg",
     "width": 412,
-    "height": 1580,
+    "height": 1679,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -91623,11 +91662,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -91644,20 +91684,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1375.6800000000003,
+        "w": 364,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -91683,7 +91725,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-connected-visible--tr--ios--100.svg",
     "width": 390,
-    "height": 1170,
+    "height": 1258,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -91699,11 +91741,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -91720,20 +91763,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1059.44,
+        "w": 342,
+        "h": 52.0
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -91759,7 +91804,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-connected-visible--tr--ios--200.svg",
     "width": 390,
-    "height": 1612,
+    "height": 1711,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -91775,11 +91820,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -91796,20 +91842,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1397.6800000000003,
+        "w": 342,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -91835,7 +91883,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-cooldown-hidden--en--android--100.svg",
     "width": 412,
-    "height": 1005,
+    "height": 1093,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -91847,11 +91895,12 @@
         "enabled": false
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -91868,20 +91917,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 904.2400000000001,
+        "w": 364,
+        "h": 52.0
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -91907,7 +91958,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-cooldown-hidden--en--android--200.svg",
     "width": 412,
-    "height": 1430,
+    "height": 1529,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -91919,11 +91970,12 @@
         "enabled": false
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -91940,20 +91992,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1225.2800000000002,
+        "w": 364,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -91979,7 +92033,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-cooldown-hidden--en--ios--100.svg",
     "width": 390,
-    "height": 1037,
+    "height": 1125,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -91991,11 +92045,12 @@
         "enabled": false
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -92012,20 +92067,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 926.2400000000001,
+        "w": 342,
+        "h": 52.0
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -92051,7 +92108,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-cooldown-hidden--en--ios--200.svg",
     "width": 390,
-    "height": 1462,
+    "height": 1561,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -92063,11 +92120,12 @@
         "enabled": false
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -92084,20 +92142,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1247.2800000000002,
+        "w": 342,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -92123,7 +92183,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-cooldown-hidden--tr--android--100.svg",
     "width": 412,
-    "height": 1005,
+    "height": 1093,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -92135,11 +92195,12 @@
         "enabled": false
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -92156,20 +92217,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 904.2400000000001,
+        "w": 364,
+        "h": 52.0
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -92195,7 +92258,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-cooldown-hidden--tr--android--200.svg",
     "width": 412,
-    "height": 1430,
+    "height": 1529,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -92207,11 +92270,12 @@
         "enabled": false
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -92228,20 +92292,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1225.2800000000002,
+        "w": 364,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -92267,7 +92333,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-cooldown-hidden--tr--ios--100.svg",
     "width": 390,
-    "height": 1037,
+    "height": 1125,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -92279,11 +92345,12 @@
         "enabled": false
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -92300,20 +92367,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 926.2400000000001,
+        "w": 342,
+        "h": 52.0
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -92339,7 +92408,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-cooldown-hidden--tr--ios--200.svg",
     "width": 390,
-    "height": 1462,
+    "height": 1561,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -92351,11 +92420,12 @@
         "enabled": false
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -92372,20 +92442,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1247.2800000000002,
+        "w": 342,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -92411,7 +92483,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-cooldown-visible--en--android--100.svg",
     "width": 412,
-    "height": 1074,
+    "height": 1162,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -92423,11 +92495,12 @@
         "enabled": false
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -92444,20 +92517,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 973.4400000000002,
+        "w": 364,
+        "h": 51.999999999999886
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -92483,7 +92558,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-cooldown-visible--en--android--200.svg",
     "width": 412,
-    "height": 1544,
+    "height": 1643,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -92495,11 +92570,12 @@
         "enabled": false
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -92516,20 +92592,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1339.6800000000003,
+        "w": 364,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -92555,7 +92633,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-cooldown-visible--en--ios--100.svg",
     "width": 390,
-    "height": 1106,
+    "height": 1194,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -92567,11 +92645,12 @@
         "enabled": false
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -92588,20 +92667,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 995.4400000000002,
+        "w": 342,
+        "h": 51.999999999999886
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -92627,7 +92708,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-cooldown-visible--en--ios--200.svg",
     "width": 390,
-    "height": 1576,
+    "height": 1675,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -92639,11 +92720,12 @@
         "enabled": false
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -92660,20 +92742,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1361.6800000000003,
+        "w": 342,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -92699,7 +92783,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-cooldown-visible--tr--android--100.svg",
     "width": 412,
-    "height": 1074,
+    "height": 1162,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -92711,11 +92795,12 @@
         "enabled": false
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -92732,20 +92817,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 973.4400000000002,
+        "w": 364,
+        "h": 51.999999999999886
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -92771,7 +92858,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-cooldown-visible--tr--android--200.svg",
     "width": 412,
-    "height": 1544,
+    "height": 1643,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -92783,11 +92870,12 @@
         "enabled": false
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -92804,20 +92892,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1339.6800000000003,
+        "w": 364,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -92843,7 +92933,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-cooldown-visible--tr--ios--100.svg",
     "width": 390,
-    "height": 1106,
+    "height": 1194,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -92855,11 +92945,12 @@
         "enabled": false
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -92876,20 +92967,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 995.4400000000002,
+        "w": 342,
+        "h": 51.999999999999886
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -92915,7 +93008,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-cooldown-visible--tr--ios--200.svg",
     "width": 390,
-    "height": 1576,
+    "height": 1675,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -92927,11 +93020,12 @@
         "enabled": false
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -92948,20 +93042,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1361.6800000000003,
+        "w": 342,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -92987,7 +93083,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-pending-hidden--en--android--100.svg",
     "width": 412,
-    "height": 1069,
+    "height": 1157,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -93003,11 +93099,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -93024,20 +93121,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 968.2400000000001,
+        "w": 364,
+        "h": 52.000000000000114
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -93063,7 +93162,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-pending-hidden--en--android--200.svg",
     "width": 412,
-    "height": 1544,
+    "height": 1643,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -93079,11 +93178,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -93100,20 +93200,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1339.68,
+        "w": 364,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -93139,7 +93241,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-pending-hidden--en--ios--100.svg",
     "width": 390,
-    "height": 1120,
+    "height": 1208,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -93155,11 +93257,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -93176,20 +93279,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1009.8400000000001,
+        "w": 342,
+        "h": 52.0
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -93215,7 +93320,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-pending-hidden--en--ios--200.svg",
     "width": 390,
-    "height": 1576,
+    "height": 1675,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -93231,11 +93336,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -93252,20 +93358,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1361.68,
+        "w": 342,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -93291,7 +93399,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-pending-hidden--tr--android--100.svg",
     "width": 412,
-    "height": 1069,
+    "height": 1157,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -93307,11 +93415,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -93328,20 +93437,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 968.2400000000001,
+        "w": 364,
+        "h": 52.000000000000114
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -93367,7 +93478,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-pending-hidden--tr--android--200.svg",
     "width": 412,
-    "height": 1505,
+    "height": 1604,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -93383,11 +93494,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -93404,20 +93516,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1300.4800000000002,
+        "w": 364,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -93443,7 +93557,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-pending-hidden--tr--ios--100.svg",
     "width": 390,
-    "height": 1101,
+    "height": 1189,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -93459,11 +93573,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -93480,20 +93595,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 990.2400000000001,
+        "w": 342,
+        "h": 52.000000000000114
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -93519,7 +93636,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-pending-hidden--tr--ios--200.svg",
     "width": 390,
-    "height": 1537,
+    "height": 1636,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -93535,11 +93652,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -93556,20 +93674,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1322.4800000000002,
+        "w": 342,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -93595,7 +93715,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-pending-visible--en--android--100.svg",
     "width": 412,
-    "height": 1138,
+    "height": 1226,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -93611,11 +93731,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -93632,20 +93753,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1037.44,
+        "w": 364,
+        "h": 52.0
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -93671,7 +93794,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-pending-visible--en--android--200.svg",
     "width": 412,
-    "height": 1659,
+    "height": 1758,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -93687,11 +93810,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -93708,20 +93832,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1454.0800000000002,
+        "w": 364,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -93747,7 +93873,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-pending-visible--en--ios--100.svg",
     "width": 390,
-    "height": 1190,
+    "height": 1278,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -93763,11 +93889,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -93784,20 +93911,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1079.0400000000002,
+        "w": 342,
+        "h": 52.0
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -93823,7 +93952,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-pending-visible--en--ios--200.svg",
     "width": 390,
-    "height": 1691,
+    "height": 1790,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -93839,11 +93968,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -93860,20 +93990,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1476.0800000000002,
+        "w": 342,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -93899,7 +94031,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-pending-visible--tr--android--100.svg",
     "width": 412,
-    "height": 1138,
+    "height": 1226,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -93915,11 +94047,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -93936,20 +94069,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1037.44,
+        "w": 364,
+        "h": 52.0
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -93975,7 +94110,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-pending-visible--tr--android--200.svg",
     "width": 412,
-    "height": 1619,
+    "height": 1719,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -93991,11 +94126,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -94012,20 +94148,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1414.8800000000003,
+        "w": 364,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -94051,7 +94189,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-pending-visible--tr--ios--100.svg",
     "width": 390,
-    "height": 1170,
+    "height": 1258,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -94067,11 +94205,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -94088,20 +94227,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1059.44,
+        "w": 342,
+        "h": 52.0
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -94127,7 +94268,7 @@
     "source": "imhere-design-v1.7.1",
     "file": "screens/svg/person-pending-visible--tr--ios--200.svg",
     "width": 390,
-    "height": 1651,
+    "height": 1751,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -94143,11 +94284,12 @@
         "enabled": true
       },
       {
-        "key": "reportTitle",
+        "key": "safetyTitle",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "blocks": [],
@@ -94164,20 +94306,22 @@
     "contactFields": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1436.8800000000003,
+        "w": 342,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "İstekler ve bağlantılar",
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -101808,1214 +101952,6 @@
     }
   },
   {
-    "id": "report-block-busy",
-    "group": "report",
-    "title": "Şikâyet / şikâyet alındı, engelleniyor",
-    "lang": "en",
-    "platform": "android",
-    "large": false,
-    "source": "imhere-design-v1.8",
-    "file": "screens/svg/report-block-busy--en--android--100.svg",
-    "width": 412,
-    "height": 915,
-    "referenceViewportHeight": 915,
-    "textScale": 1,
-    "selectedTab": null,
-    "active": true,
-    "theme": "Cream & Ink",
-    "actions": [
-      {
-        "key": "block",
-        "enabled": false
-      },
-      {
-        "key": "reportNoBlock",
-        "enabled": false
-      }
-    ],
-    "blocks": [],
-    "intents": {
-      "own": [],
-      "peer": null
-    },
-    "peerIdentity": false,
-    "ownContinue": null,
-    "composerVisible": false,
-    "composerEnabled": false,
-    "remaining": null,
-    "bubbles": [],
-    "contactFields": [],
-    "regions": [],
-    "peerContinueChoice": null,
-    "family": "Güvenlik",
-    "motion": {
-      "version": "1.0",
-      "references": [
-        "base-route",
-        "safety-minimal"
-      ],
-      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
-      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
-    }
-  },
-  {
-    "id": "report-block-busy",
-    "group": "report",
-    "title": "Şikâyet / şikâyet alındı, engelleniyor",
-    "lang": "en",
-    "platform": "android",
-    "large": true,
-    "source": "imhere-design-v1.8",
-    "file": "screens/svg/report-block-busy--en--android--200.svg",
-    "width": 412,
-    "height": 1195,
-    "referenceViewportHeight": 915,
-    "textScale": 2,
-    "selectedTab": null,
-    "active": true,
-    "theme": "Cream & Ink",
-    "actions": [
-      {
-        "key": "block",
-        "enabled": false
-      },
-      {
-        "key": "reportNoBlock",
-        "enabled": false
-      }
-    ],
-    "blocks": [],
-    "intents": {
-      "own": [],
-      "peer": null
-    },
-    "peerIdentity": false,
-    "ownContinue": null,
-    "composerVisible": false,
-    "composerEnabled": false,
-    "remaining": null,
-    "bubbles": [],
-    "contactFields": [],
-    "regions": [],
-    "peerContinueChoice": null,
-    "family": "Güvenlik",
-    "motion": {
-      "version": "1.0",
-      "references": [
-        "base-route",
-        "safety-minimal"
-      ],
-      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
-      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
-    }
-  },
-  {
-    "id": "report-block-busy",
-    "group": "report",
-    "title": "Şikâyet / şikâyet alındı, engelleniyor",
-    "lang": "en",
-    "platform": "ios",
-    "large": false,
-    "source": "imhere-design-v1.8",
-    "file": "screens/svg/report-block-busy--en--ios--100.svg",
-    "width": 390,
-    "height": 844,
-    "referenceViewportHeight": 844,
-    "textScale": 1,
-    "selectedTab": null,
-    "active": true,
-    "theme": "Cream & Ink",
-    "actions": [
-      {
-        "key": "block",
-        "enabled": false
-      },
-      {
-        "key": "reportNoBlock",
-        "enabled": false
-      }
-    ],
-    "blocks": [],
-    "intents": {
-      "own": [],
-      "peer": null
-    },
-    "peerIdentity": false,
-    "ownContinue": null,
-    "composerVisible": false,
-    "composerEnabled": false,
-    "remaining": null,
-    "bubbles": [],
-    "contactFields": [],
-    "regions": [],
-    "peerContinueChoice": null,
-    "family": "Güvenlik",
-    "motion": {
-      "version": "1.0",
-      "references": [
-        "base-route",
-        "safety-minimal"
-      ],
-      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
-      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
-    }
-  },
-  {
-    "id": "report-block-busy",
-    "group": "report",
-    "title": "Şikâyet / şikâyet alındı, engelleniyor",
-    "lang": "en",
-    "platform": "ios",
-    "large": true,
-    "source": "imhere-design-v1.8",
-    "file": "screens/svg/report-block-busy--en--ios--200.svg",
-    "width": 390,
-    "height": 1295,
-    "referenceViewportHeight": 844,
-    "textScale": 2,
-    "selectedTab": null,
-    "active": true,
-    "theme": "Cream & Ink",
-    "actions": [
-      {
-        "key": "block",
-        "enabled": false
-      },
-      {
-        "key": "reportNoBlock",
-        "enabled": false
-      }
-    ],
-    "blocks": [],
-    "intents": {
-      "own": [],
-      "peer": null
-    },
-    "peerIdentity": false,
-    "ownContinue": null,
-    "composerVisible": false,
-    "composerEnabled": false,
-    "remaining": null,
-    "bubbles": [],
-    "contactFields": [],
-    "regions": [],
-    "peerContinueChoice": null,
-    "family": "Güvenlik",
-    "motion": {
-      "version": "1.0",
-      "references": [
-        "base-route",
-        "safety-minimal"
-      ],
-      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
-      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
-    }
-  },
-  {
-    "id": "report-block-busy",
-    "group": "report",
-    "title": "Şikâyet / şikâyet alındı, engelleniyor",
-    "lang": "tr",
-    "platform": "android",
-    "large": false,
-    "source": "imhere-design-v1.8",
-    "file": "screens/svg/report-block-busy--tr--android--100.svg",
-    "width": 412,
-    "height": 915,
-    "referenceViewportHeight": 915,
-    "textScale": 1,
-    "selectedTab": null,
-    "active": true,
-    "theme": "Cream & Ink",
-    "actions": [
-      {
-        "key": "block",
-        "enabled": false
-      },
-      {
-        "key": "reportNoBlock",
-        "enabled": false
-      }
-    ],
-    "blocks": [],
-    "intents": {
-      "own": [],
-      "peer": null
-    },
-    "peerIdentity": false,
-    "ownContinue": null,
-    "composerVisible": false,
-    "composerEnabled": false,
-    "remaining": null,
-    "bubbles": [],
-    "contactFields": [],
-    "regions": [],
-    "peerContinueChoice": null,
-    "family": "Güvenlik",
-    "motion": {
-      "version": "1.0",
-      "references": [
-        "base-route",
-        "safety-minimal"
-      ],
-      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
-      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
-    }
-  },
-  {
-    "id": "report-block-busy",
-    "group": "report",
-    "title": "Şikâyet / şikâyet alındı, engelleniyor",
-    "lang": "tr",
-    "platform": "android",
-    "large": true,
-    "source": "imhere-design-v1.8",
-    "file": "screens/svg/report-block-busy--tr--android--200.svg",
-    "width": 412,
-    "height": 1105,
-    "referenceViewportHeight": 915,
-    "textScale": 2,
-    "selectedTab": null,
-    "active": true,
-    "theme": "Cream & Ink",
-    "actions": [
-      {
-        "key": "block",
-        "enabled": false
-      },
-      {
-        "key": "reportNoBlock",
-        "enabled": false
-      }
-    ],
-    "blocks": [],
-    "intents": {
-      "own": [],
-      "peer": null
-    },
-    "peerIdentity": false,
-    "ownContinue": null,
-    "composerVisible": false,
-    "composerEnabled": false,
-    "remaining": null,
-    "bubbles": [],
-    "contactFields": [],
-    "regions": [],
-    "peerContinueChoice": null,
-    "family": "Güvenlik",
-    "motion": {
-      "version": "1.0",
-      "references": [
-        "base-route",
-        "safety-minimal"
-      ],
-      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
-      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
-    }
-  },
-  {
-    "id": "report-block-busy",
-    "group": "report",
-    "title": "Şikâyet / şikâyet alındı, engelleniyor",
-    "lang": "tr",
-    "platform": "ios",
-    "large": false,
-    "source": "imhere-design-v1.8",
-    "file": "screens/svg/report-block-busy--tr--ios--100.svg",
-    "width": 390,
-    "height": 844,
-    "referenceViewportHeight": 844,
-    "textScale": 1,
-    "selectedTab": null,
-    "active": true,
-    "theme": "Cream & Ink",
-    "actions": [
-      {
-        "key": "block",
-        "enabled": false
-      },
-      {
-        "key": "reportNoBlock",
-        "enabled": false
-      }
-    ],
-    "blocks": [],
-    "intents": {
-      "own": [],
-      "peer": null
-    },
-    "peerIdentity": false,
-    "ownContinue": null,
-    "composerVisible": false,
-    "composerEnabled": false,
-    "remaining": null,
-    "bubbles": [],
-    "contactFields": [],
-    "regions": [],
-    "peerContinueChoice": null,
-    "family": "Güvenlik",
-    "motion": {
-      "version": "1.0",
-      "references": [
-        "base-route",
-        "safety-minimal"
-      ],
-      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
-      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
-    }
-  },
-  {
-    "id": "report-block-busy",
-    "group": "report",
-    "title": "Şikâyet / şikâyet alındı, engelleniyor",
-    "lang": "tr",
-    "platform": "ios",
-    "large": true,
-    "source": "imhere-design-v1.8",
-    "file": "screens/svg/report-block-busy--tr--ios--200.svg",
-    "width": 390,
-    "height": 1176,
-    "referenceViewportHeight": 844,
-    "textScale": 2,
-    "selectedTab": null,
-    "active": true,
-    "theme": "Cream & Ink",
-    "actions": [
-      {
-        "key": "block",
-        "enabled": false
-      },
-      {
-        "key": "reportNoBlock",
-        "enabled": false
-      }
-    ],
-    "blocks": [],
-    "intents": {
-      "own": [],
-      "peer": null
-    },
-    "peerIdentity": false,
-    "ownContinue": null,
-    "composerVisible": false,
-    "composerEnabled": false,
-    "remaining": null,
-    "bubbles": [],
-    "contactFields": [],
-    "regions": [],
-    "peerContinueChoice": null,
-    "family": "Güvenlik",
-    "motion": {
-      "version": "1.0",
-      "references": [
-        "base-route",
-        "safety-minimal"
-      ],
-      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
-      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
-    }
-  },
-  {
-    "id": "report-block-done",
-    "group": "report",
-    "title": "Şikâyet / şikâyet alındı, engellendi",
-    "lang": "en",
-    "platform": "android",
-    "large": false,
-    "source": "imhere-design-v1.8",
-    "file": "screens/svg/report-block-done--en--android--100.svg",
-    "width": 412,
-    "height": 915,
-    "referenceViewportHeight": 915,
-    "textScale": 1,
-    "selectedTab": null,
-    "active": true,
-    "theme": "Cream & Ink",
-    "actions": [
-      {
-        "key": "messagesReturn",
-        "enabled": true
-      }
-    ],
-    "blocks": [],
-    "intents": {
-      "own": [],
-      "peer": null
-    },
-    "peerIdentity": false,
-    "ownContinue": null,
-    "composerVisible": false,
-    "composerEnabled": false,
-    "remaining": null,
-    "bubbles": [],
-    "contactFields": [],
-    "regions": [],
-    "peerContinueChoice": null,
-    "family": "Güvenlik",
-    "motion": {
-      "version": "1.0",
-      "references": [
-        "base-route",
-        "safety-minimal"
-      ],
-      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
-      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
-    }
-  },
-  {
-    "id": "report-block-done",
-    "group": "report",
-    "title": "Şikâyet / şikâyet alındı, engellendi",
-    "lang": "en",
-    "platform": "android",
-    "large": true,
-    "source": "imhere-design-v1.8",
-    "file": "screens/svg/report-block-done--en--android--200.svg",
-    "width": 412,
-    "height": 915,
-    "referenceViewportHeight": 915,
-    "textScale": 2,
-    "selectedTab": null,
-    "active": true,
-    "theme": "Cream & Ink",
-    "actions": [
-      {
-        "key": "messagesReturn",
-        "enabled": true
-      }
-    ],
-    "blocks": [],
-    "intents": {
-      "own": [],
-      "peer": null
-    },
-    "peerIdentity": false,
-    "ownContinue": null,
-    "composerVisible": false,
-    "composerEnabled": false,
-    "remaining": null,
-    "bubbles": [],
-    "contactFields": [],
-    "regions": [],
-    "peerContinueChoice": null,
-    "family": "Güvenlik",
-    "motion": {
-      "version": "1.0",
-      "references": [
-        "base-route",
-        "safety-minimal"
-      ],
-      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
-      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
-    }
-  },
-  {
-    "id": "report-block-done",
-    "group": "report",
-    "title": "Şikâyet / şikâyet alındı, engellendi",
-    "lang": "en",
-    "platform": "ios",
-    "large": false,
-    "source": "imhere-design-v1.8",
-    "file": "screens/svg/report-block-done--en--ios--100.svg",
-    "width": 390,
-    "height": 844,
-    "referenceViewportHeight": 844,
-    "textScale": 1,
-    "selectedTab": null,
-    "active": true,
-    "theme": "Cream & Ink",
-    "actions": [
-      {
-        "key": "messagesReturn",
-        "enabled": true
-      }
-    ],
-    "blocks": [],
-    "intents": {
-      "own": [],
-      "peer": null
-    },
-    "peerIdentity": false,
-    "ownContinue": null,
-    "composerVisible": false,
-    "composerEnabled": false,
-    "remaining": null,
-    "bubbles": [],
-    "contactFields": [],
-    "regions": [],
-    "peerContinueChoice": null,
-    "family": "Güvenlik",
-    "motion": {
-      "version": "1.0",
-      "references": [
-        "base-route",
-        "safety-minimal"
-      ],
-      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
-      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
-    }
-  },
-  {
-    "id": "report-block-done",
-    "group": "report",
-    "title": "Şikâyet / şikâyet alındı, engellendi",
-    "lang": "en",
-    "platform": "ios",
-    "large": true,
-    "source": "imhere-design-v1.8",
-    "file": "screens/svg/report-block-done--en--ios--200.svg",
-    "width": 390,
-    "height": 844,
-    "referenceViewportHeight": 844,
-    "textScale": 2,
-    "selectedTab": null,
-    "active": true,
-    "theme": "Cream & Ink",
-    "actions": [
-      {
-        "key": "messagesReturn",
-        "enabled": true
-      }
-    ],
-    "blocks": [],
-    "intents": {
-      "own": [],
-      "peer": null
-    },
-    "peerIdentity": false,
-    "ownContinue": null,
-    "composerVisible": false,
-    "composerEnabled": false,
-    "remaining": null,
-    "bubbles": [],
-    "contactFields": [],
-    "regions": [],
-    "peerContinueChoice": null,
-    "family": "Güvenlik",
-    "motion": {
-      "version": "1.0",
-      "references": [
-        "base-route",
-        "safety-minimal"
-      ],
-      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
-      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
-    }
-  },
-  {
-    "id": "report-block-done",
-    "group": "report",
-    "title": "Şikâyet / şikâyet alındı, engellendi",
-    "lang": "tr",
-    "platform": "android",
-    "large": false,
-    "source": "imhere-design-v1.8",
-    "file": "screens/svg/report-block-done--tr--android--100.svg",
-    "width": 412,
-    "height": 915,
-    "referenceViewportHeight": 915,
-    "textScale": 1,
-    "selectedTab": null,
-    "active": true,
-    "theme": "Cream & Ink",
-    "actions": [
-      {
-        "key": "messagesReturn",
-        "enabled": true
-      }
-    ],
-    "blocks": [],
-    "intents": {
-      "own": [],
-      "peer": null
-    },
-    "peerIdentity": false,
-    "ownContinue": null,
-    "composerVisible": false,
-    "composerEnabled": false,
-    "remaining": null,
-    "bubbles": [],
-    "contactFields": [],
-    "regions": [],
-    "peerContinueChoice": null,
-    "family": "Güvenlik",
-    "motion": {
-      "version": "1.0",
-      "references": [
-        "base-route",
-        "safety-minimal"
-      ],
-      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
-      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
-    }
-  },
-  {
-    "id": "report-block-done",
-    "group": "report",
-    "title": "Şikâyet / şikâyet alındı, engellendi",
-    "lang": "tr",
-    "platform": "android",
-    "large": true,
-    "source": "imhere-design-v1.8",
-    "file": "screens/svg/report-block-done--tr--android--200.svg",
-    "width": 412,
-    "height": 915,
-    "referenceViewportHeight": 915,
-    "textScale": 2,
-    "selectedTab": null,
-    "active": true,
-    "theme": "Cream & Ink",
-    "actions": [
-      {
-        "key": "messagesReturn",
-        "enabled": true
-      }
-    ],
-    "blocks": [],
-    "intents": {
-      "own": [],
-      "peer": null
-    },
-    "peerIdentity": false,
-    "ownContinue": null,
-    "composerVisible": false,
-    "composerEnabled": false,
-    "remaining": null,
-    "bubbles": [],
-    "contactFields": [],
-    "regions": [],
-    "peerContinueChoice": null,
-    "family": "Güvenlik",
-    "motion": {
-      "version": "1.0",
-      "references": [
-        "base-route",
-        "safety-minimal"
-      ],
-      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
-      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
-    }
-  },
-  {
-    "id": "report-block-done",
-    "group": "report",
-    "title": "Şikâyet / şikâyet alındı, engellendi",
-    "lang": "tr",
-    "platform": "ios",
-    "large": false,
-    "source": "imhere-design-v1.8",
-    "file": "screens/svg/report-block-done--tr--ios--100.svg",
-    "width": 390,
-    "height": 844,
-    "referenceViewportHeight": 844,
-    "textScale": 1,
-    "selectedTab": null,
-    "active": true,
-    "theme": "Cream & Ink",
-    "actions": [
-      {
-        "key": "messagesReturn",
-        "enabled": true
-      }
-    ],
-    "blocks": [],
-    "intents": {
-      "own": [],
-      "peer": null
-    },
-    "peerIdentity": false,
-    "ownContinue": null,
-    "composerVisible": false,
-    "composerEnabled": false,
-    "remaining": null,
-    "bubbles": [],
-    "contactFields": [],
-    "regions": [],
-    "peerContinueChoice": null,
-    "family": "Güvenlik",
-    "motion": {
-      "version": "1.0",
-      "references": [
-        "base-route",
-        "safety-minimal"
-      ],
-      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
-      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
-    }
-  },
-  {
-    "id": "report-block-done",
-    "group": "report",
-    "title": "Şikâyet / şikâyet alındı, engellendi",
-    "lang": "tr",
-    "platform": "ios",
-    "large": true,
-    "source": "imhere-design-v1.8",
-    "file": "screens/svg/report-block-done--tr--ios--200.svg",
-    "width": 390,
-    "height": 844,
-    "referenceViewportHeight": 844,
-    "textScale": 2,
-    "selectedTab": null,
-    "active": true,
-    "theme": "Cream & Ink",
-    "actions": [
-      {
-        "key": "messagesReturn",
-        "enabled": true
-      }
-    ],
-    "blocks": [],
-    "intents": {
-      "own": [],
-      "peer": null
-    },
-    "peerIdentity": false,
-    "ownContinue": null,
-    "composerVisible": false,
-    "composerEnabled": false,
-    "remaining": null,
-    "bubbles": [],
-    "contactFields": [],
-    "regions": [],
-    "peerContinueChoice": null,
-    "family": "Güvenlik",
-    "motion": {
-      "version": "1.0",
-      "references": [
-        "base-route",
-        "safety-minimal"
-      ],
-      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
-      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
-    }
-  },
-  {
-    "id": "report-block-failed",
-    "group": "report",
-    "title": "Şikâyet / şikâyet alındı, engel hatası",
-    "lang": "en",
-    "platform": "android",
-    "large": false,
-    "source": "imhere-design-v1.8",
-    "file": "screens/svg/report-block-failed--en--android--100.svg",
-    "width": 412,
-    "height": 915,
-    "referenceViewportHeight": 915,
-    "textScale": 1,
-    "selectedTab": null,
-    "active": true,
-    "theme": "Cream & Ink",
-    "actions": [
-      {
-        "key": "block",
-        "enabled": true,
-        "presentation": "destructive-outline"
-      },
-      {
-        "key": "reportNoBlock",
-        "enabled": true
-      }
-    ],
-    "blocks": [],
-    "intents": {
-      "own": [],
-      "peer": null
-    },
-    "peerIdentity": false,
-    "ownContinue": null,
-    "composerVisible": false,
-    "composerEnabled": false,
-    "remaining": null,
-    "bubbles": [],
-    "contactFields": [],
-    "regions": [],
-    "peerContinueChoice": null,
-    "family": "Güvenlik",
-    "motion": {
-      "version": "1.0",
-      "references": [
-        "base-route",
-        "safety-minimal",
-        "error-strip"
-      ],
-      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
-      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
-    }
-  },
-  {
-    "id": "report-block-failed",
-    "group": "report",
-    "title": "Şikâyet / şikâyet alındı, engel hatası",
-    "lang": "en",
-    "platform": "android",
-    "large": true,
-    "source": "imhere-design-v1.8",
-    "file": "screens/svg/report-block-failed--en--android--200.svg",
-    "width": 412,
-    "height": 1298,
-    "referenceViewportHeight": 915,
-    "textScale": 2,
-    "selectedTab": null,
-    "active": true,
-    "theme": "Cream & Ink",
-    "actions": [
-      {
-        "key": "block",
-        "enabled": true,
-        "presentation": "destructive-outline"
-      },
-      {
-        "key": "reportNoBlock",
-        "enabled": true
-      }
-    ],
-    "blocks": [],
-    "intents": {
-      "own": [],
-      "peer": null
-    },
-    "peerIdentity": false,
-    "ownContinue": null,
-    "composerVisible": false,
-    "composerEnabled": false,
-    "remaining": null,
-    "bubbles": [],
-    "contactFields": [],
-    "regions": [],
-    "peerContinueChoice": null,
-    "family": "Güvenlik",
-    "motion": {
-      "version": "1.0",
-      "references": [
-        "base-route",
-        "safety-minimal",
-        "error-strip"
-      ],
-      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
-      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
-    }
-  },
-  {
-    "id": "report-block-failed",
-    "group": "report",
-    "title": "Şikâyet / şikâyet alındı, engel hatası",
-    "lang": "en",
-    "platform": "ios",
-    "large": false,
-    "source": "imhere-design-v1.8",
-    "file": "screens/svg/report-block-failed--en--ios--100.svg",
-    "width": 390,
-    "height": 844,
-    "referenceViewportHeight": 844,
-    "textScale": 1,
-    "selectedTab": null,
-    "active": true,
-    "theme": "Cream & Ink",
-    "actions": [
-      {
-        "key": "block",
-        "enabled": true,
-        "presentation": "destructive-outline"
-      },
-      {
-        "key": "reportNoBlock",
-        "enabled": true
-      }
-    ],
-    "blocks": [],
-    "intents": {
-      "own": [],
-      "peer": null
-    },
-    "peerIdentity": false,
-    "ownContinue": null,
-    "composerVisible": false,
-    "composerEnabled": false,
-    "remaining": null,
-    "bubbles": [],
-    "contactFields": [],
-    "regions": [],
-    "peerContinueChoice": null,
-    "family": "Güvenlik",
-    "motion": {
-      "version": "1.0",
-      "references": [
-        "base-route",
-        "safety-minimal",
-        "error-strip"
-      ],
-      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
-      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
-    }
-  },
-  {
-    "id": "report-block-failed",
-    "group": "report",
-    "title": "Şikâyet / şikâyet alındı, engel hatası",
-    "lang": "en",
-    "platform": "ios",
-    "large": true,
-    "source": "imhere-design-v1.8",
-    "file": "screens/svg/report-block-failed--en--ios--200.svg",
-    "width": 390,
-    "height": 1448,
-    "referenceViewportHeight": 844,
-    "textScale": 2,
-    "selectedTab": null,
-    "active": true,
-    "theme": "Cream & Ink",
-    "actions": [
-      {
-        "key": "block",
-        "enabled": true,
-        "presentation": "destructive-outline"
-      },
-      {
-        "key": "reportNoBlock",
-        "enabled": true
-      }
-    ],
-    "blocks": [],
-    "intents": {
-      "own": [],
-      "peer": null
-    },
-    "peerIdentity": false,
-    "ownContinue": null,
-    "composerVisible": false,
-    "composerEnabled": false,
-    "remaining": null,
-    "bubbles": [],
-    "contactFields": [],
-    "regions": [],
-    "peerContinueChoice": null,
-    "family": "Güvenlik",
-    "motion": {
-      "version": "1.0",
-      "references": [
-        "base-route",
-        "safety-minimal",
-        "error-strip"
-      ],
-      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
-      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
-    }
-  },
-  {
-    "id": "report-block-failed",
-    "group": "report",
-    "title": "Şikâyet / şikâyet alındı, engel hatası",
-    "lang": "tr",
-    "platform": "android",
-    "large": false,
-    "source": "imhere-design-v1.8",
-    "file": "screens/svg/report-block-failed--tr--android--100.svg",
-    "width": 412,
-    "height": 915,
-    "referenceViewportHeight": 915,
-    "textScale": 1,
-    "selectedTab": null,
-    "active": true,
-    "theme": "Cream & Ink",
-    "actions": [
-      {
-        "key": "block",
-        "enabled": true,
-        "presentation": "destructive-outline"
-      },
-      {
-        "key": "reportNoBlock",
-        "enabled": true
-      }
-    ],
-    "blocks": [],
-    "intents": {
-      "own": [],
-      "peer": null
-    },
-    "peerIdentity": false,
-    "ownContinue": null,
-    "composerVisible": false,
-    "composerEnabled": false,
-    "remaining": null,
-    "bubbles": [],
-    "contactFields": [],
-    "regions": [],
-    "peerContinueChoice": null,
-    "family": "Güvenlik",
-    "motion": {
-      "version": "1.0",
-      "references": [
-        "base-route",
-        "safety-minimal",
-        "error-strip"
-      ],
-      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
-      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
-    }
-  },
-  {
-    "id": "report-block-failed",
-    "group": "report",
-    "title": "Şikâyet / şikâyet alındı, engel hatası",
-    "lang": "tr",
-    "platform": "android",
-    "large": true,
-    "source": "imhere-design-v1.8",
-    "file": "screens/svg/report-block-failed--tr--android--200.svg",
-    "width": 412,
-    "height": 1207,
-    "referenceViewportHeight": 915,
-    "textScale": 2,
-    "selectedTab": null,
-    "active": true,
-    "theme": "Cream & Ink",
-    "actions": [
-      {
-        "key": "block",
-        "enabled": true,
-        "presentation": "destructive-outline"
-      },
-      {
-        "key": "reportNoBlock",
-        "enabled": true
-      }
-    ],
-    "blocks": [],
-    "intents": {
-      "own": [],
-      "peer": null
-    },
-    "peerIdentity": false,
-    "ownContinue": null,
-    "composerVisible": false,
-    "composerEnabled": false,
-    "remaining": null,
-    "bubbles": [],
-    "contactFields": [],
-    "regions": [],
-    "peerContinueChoice": null,
-    "family": "Güvenlik",
-    "motion": {
-      "version": "1.0",
-      "references": [
-        "base-route",
-        "safety-minimal",
-        "error-strip"
-      ],
-      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
-      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
-    }
-  },
-  {
-    "id": "report-block-failed",
-    "group": "report",
-    "title": "Şikâyet / şikâyet alındı, engel hatası",
-    "lang": "tr",
-    "platform": "ios",
-    "large": false,
-    "source": "imhere-design-v1.8",
-    "file": "screens/svg/report-block-failed--tr--ios--100.svg",
-    "width": 390,
-    "height": 844,
-    "referenceViewportHeight": 844,
-    "textScale": 1,
-    "selectedTab": null,
-    "active": true,
-    "theme": "Cream & Ink",
-    "actions": [
-      {
-        "key": "block",
-        "enabled": true,
-        "presentation": "destructive-outline"
-      },
-      {
-        "key": "reportNoBlock",
-        "enabled": true
-      }
-    ],
-    "blocks": [],
-    "intents": {
-      "own": [],
-      "peer": null
-    },
-    "peerIdentity": false,
-    "ownContinue": null,
-    "composerVisible": false,
-    "composerEnabled": false,
-    "remaining": null,
-    "bubbles": [],
-    "contactFields": [],
-    "regions": [],
-    "peerContinueChoice": null,
-    "family": "Güvenlik",
-    "motion": {
-      "version": "1.0",
-      "references": [
-        "base-route",
-        "safety-minimal",
-        "error-strip"
-      ],
-      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
-      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
-    }
-  },
-  {
-    "id": "report-block-failed",
-    "group": "report",
-    "title": "Şikâyet / şikâyet alındı, engel hatası",
-    "lang": "tr",
-    "platform": "ios",
-    "large": true,
-    "source": "imhere-design-v1.8",
-    "file": "screens/svg/report-block-failed--tr--ios--200.svg",
-    "width": 390,
-    "height": 1330,
-    "referenceViewportHeight": 844,
-    "textScale": 2,
-    "selectedTab": null,
-    "active": true,
-    "theme": "Cream & Ink",
-    "actions": [
-      {
-        "key": "block",
-        "enabled": true,
-        "presentation": "destructive-outline"
-      },
-      {
-        "key": "reportNoBlock",
-        "enabled": true
-      }
-    ],
-    "blocks": [],
-    "intents": {
-      "own": [],
-      "peer": null
-    },
-    "peerIdentity": false,
-    "ownContinue": null,
-    "composerVisible": false,
-    "composerEnabled": false,
-    "remaining": null,
-    "bubbles": [],
-    "contactFields": [],
-    "regions": [],
-    "peerContinueChoice": null,
-    "family": "Güvenlik",
-    "motion": {
-      "version": "1.0",
-      "references": [
-        "base-route",
-        "safety-minimal",
-        "error-strip"
-      ],
-      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
-      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
-    }
-  },
-  {
     "id": "report-empty",
     "group": "report",
     "title": "Şikâyet / boş seçim",
@@ -105394,7 +104330,7 @@
   {
     "id": "report-sent",
     "group": "report",
-    "title": "Şikâyet / ayrı engelleme sorusu",
+    "title": "Şikâyet / şikâyet ve engelleme tamamlandı",
     "lang": "en",
     "platform": "android",
     "large": false,
@@ -105409,12 +104345,7 @@
     "theme": "Cream & Ink",
     "actions": [
       {
-        "key": "block",
-        "enabled": true,
-        "presentation": "destructive-outline"
-      },
-      {
-        "key": "reportNoBlock",
+        "key": "safetyBack",
         "enabled": true
       }
     ],
@@ -105441,19 +104372,28 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "reportOutcome": {
+      "confirmed": [
+        "report",
+        "block"
+      ],
+      "optionalBlockQuestion": false,
+      "source": "CH-141 Founder decision",
+      "showOnlyAfter": "confirmed report result; no early block/success claim"
     }
   },
   {
     "id": "report-sent",
     "group": "report",
-    "title": "Şikâyet / ayrı engelleme sorusu",
+    "title": "Şikâyet / şikâyet ve engelleme tamamlandı",
     "lang": "en",
     "platform": "android",
     "large": true,
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-sent--en--android--200.svg",
     "width": 412,
-    "height": 1096,
+    "height": 915,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": null,
@@ -105461,12 +104401,7 @@
     "theme": "Cream & Ink",
     "actions": [
       {
-        "key": "block",
-        "enabled": true,
-        "presentation": "destructive-outline"
-      },
-      {
-        "key": "reportNoBlock",
+        "key": "safetyBack",
         "enabled": true
       }
     ],
@@ -105493,12 +104428,21 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "reportOutcome": {
+      "confirmed": [
+        "report",
+        "block"
+      ],
+      "optionalBlockQuestion": false,
+      "source": "CH-141 Founder decision",
+      "showOnlyAfter": "confirmed report result; no early block/success claim"
     }
   },
   {
     "id": "report-sent",
     "group": "report",
-    "title": "Şikâyet / ayrı engelleme sorusu",
+    "title": "Şikâyet / şikâyet ve engelleme tamamlandı",
     "lang": "en",
     "platform": "ios",
     "large": false,
@@ -105513,12 +104457,7 @@
     "theme": "Cream & Ink",
     "actions": [
       {
-        "key": "block",
-        "enabled": true,
-        "presentation": "destructive-outline"
-      },
-      {
-        "key": "reportNoBlock",
+        "key": "safetyBack",
         "enabled": true
       }
     ],
@@ -105545,19 +104484,28 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "reportOutcome": {
+      "confirmed": [
+        "report",
+        "block"
+      ],
+      "optionalBlockQuestion": false,
+      "source": "CH-141 Founder decision",
+      "showOnlyAfter": "confirmed report result; no early block/success claim"
     }
   },
   {
     "id": "report-sent",
     "group": "report",
-    "title": "Şikâyet / ayrı engelleme sorusu",
+    "title": "Şikâyet / şikâyet ve engelleme tamamlandı",
     "lang": "en",
     "platform": "ios",
     "large": true,
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-sent--en--ios--200.svg",
     "width": 390,
-    "height": 1195,
+    "height": 844,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": null,
@@ -105565,12 +104513,7 @@
     "theme": "Cream & Ink",
     "actions": [
       {
-        "key": "block",
-        "enabled": true,
-        "presentation": "destructive-outline"
-      },
-      {
-        "key": "reportNoBlock",
+        "key": "safetyBack",
         "enabled": true
       }
     ],
@@ -105597,12 +104540,21 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "reportOutcome": {
+      "confirmed": [
+        "report",
+        "block"
+      ],
+      "optionalBlockQuestion": false,
+      "source": "CH-141 Founder decision",
+      "showOnlyAfter": "confirmed report result; no early block/success claim"
     }
   },
   {
     "id": "report-sent",
     "group": "report",
-    "title": "Şikâyet / ayrı engelleme sorusu",
+    "title": "Şikâyet / şikâyet ve engelleme tamamlandı",
     "lang": "tr",
     "platform": "android",
     "large": false,
@@ -105617,12 +104569,7 @@
     "theme": "Cream & Ink",
     "actions": [
       {
-        "key": "block",
-        "enabled": true,
-        "presentation": "destructive-outline"
-      },
-      {
-        "key": "reportNoBlock",
+        "key": "safetyBack",
         "enabled": true
       }
     ],
@@ -105649,19 +104596,28 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "reportOutcome": {
+      "confirmed": [
+        "report",
+        "block"
+      ],
+      "optionalBlockQuestion": false,
+      "source": "CH-141 Founder decision",
+      "showOnlyAfter": "confirmed report result; no early block/success claim"
     }
   },
   {
     "id": "report-sent",
     "group": "report",
-    "title": "Şikâyet / ayrı engelleme sorusu",
+    "title": "Şikâyet / şikâyet ve engelleme tamamlandı",
     "lang": "tr",
     "platform": "android",
     "large": true,
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-sent--tr--android--200.svg",
     "width": 412,
-    "height": 1006,
+    "height": 915,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": null,
@@ -105669,12 +104625,7 @@
     "theme": "Cream & Ink",
     "actions": [
       {
-        "key": "block",
-        "enabled": true,
-        "presentation": "destructive-outline"
-      },
-      {
-        "key": "reportNoBlock",
+        "key": "safetyBack",
         "enabled": true
       }
     ],
@@ -105701,12 +104652,21 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "reportOutcome": {
+      "confirmed": [
+        "report",
+        "block"
+      ],
+      "optionalBlockQuestion": false,
+      "source": "CH-141 Founder decision",
+      "showOnlyAfter": "confirmed report result; no early block/success claim"
     }
   },
   {
     "id": "report-sent",
     "group": "report",
-    "title": "Şikâyet / ayrı engelleme sorusu",
+    "title": "Şikâyet / şikâyet ve engelleme tamamlandı",
     "lang": "tr",
     "platform": "ios",
     "large": false,
@@ -105721,12 +104681,7 @@
     "theme": "Cream & Ink",
     "actions": [
       {
-        "key": "block",
-        "enabled": true,
-        "presentation": "destructive-outline"
-      },
-      {
-        "key": "reportNoBlock",
+        "key": "safetyBack",
         "enabled": true
       }
     ],
@@ -105753,19 +104708,28 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "reportOutcome": {
+      "confirmed": [
+        "report",
+        "block"
+      ],
+      "optionalBlockQuestion": false,
+      "source": "CH-141 Founder decision",
+      "showOnlyAfter": "confirmed report result; no early block/success claim"
     }
   },
   {
     "id": "report-sent",
     "group": "report",
-    "title": "Şikâyet / ayrı engelleme sorusu",
+    "title": "Şikâyet / şikâyet ve engelleme tamamlandı",
     "lang": "tr",
     "platform": "ios",
     "large": true,
     "source": "imhere-design-v1.8",
     "file": "screens/svg/report-sent--tr--ios--200.svg",
     "width": 390,
-    "height": 1077,
+    "height": 844,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": null,
@@ -105773,12 +104737,7 @@
     "theme": "Cream & Ink",
     "actions": [
       {
-        "key": "block",
-        "enabled": true,
-        "presentation": "destructive-outline"
-      },
-      {
-        "key": "reportNoBlock",
+        "key": "safetyBack",
         "enabled": true
       }
     ],
@@ -105805,6 +104764,15 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "reportOutcome": {
+      "confirmed": [
+        "report",
+        "block"
+      ],
+      "optionalBlockQuestion": false,
+      "source": "CH-141 Founder decision",
+      "showOnlyAfter": "confirmed report result; no early block/success claim"
     }
   },
   {
@@ -114000,6 +112968,462 @@
     }
   },
   {
+    "id": "safety-profile-menu",
+    "group": "safety",
+    "title": "Profil / güvenlik menüsü",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "source": "CH-143 design-handoff §0.A",
+    "file": "screens/svg/safety-profile-menu--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "actions": [
+      {
+        "key": "reportTitle",
+        "enabled": true
+      },
+      {
+        "key": "block",
+        "enabled": true
+      },
+      {
+        "key": "safetyBack",
+        "enabled": true
+      }
+    ],
+    "blocks": [],
+    "intents": {
+      "own": [],
+      "peer": null
+    },
+    "peerIdentity": true,
+    "ownContinue": null,
+    "composerVisible": false,
+    "composerEnabled": false,
+    "remaining": null,
+    "bubbles": [],
+    "contactFields": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Güvenlik",
+    "motion": {
+      "version": "1.0",
+      "references": [
+        "base-route",
+        "safety-minimal"
+      ],
+      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
+      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "identityContext": "currently displayed accessible profile; open connection ID only if available",
+    "canEnd": false
+  },
+  {
+    "id": "safety-profile-menu",
+    "group": "safety",
+    "title": "Profil / güvenlik menüsü",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "source": "CH-143 design-handoff §0.A",
+    "file": "screens/svg/safety-profile-menu--en--android--200.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "actions": [
+      {
+        "key": "reportTitle",
+        "enabled": true
+      },
+      {
+        "key": "block",
+        "enabled": true
+      },
+      {
+        "key": "safetyBack",
+        "enabled": true
+      }
+    ],
+    "blocks": [],
+    "intents": {
+      "own": [],
+      "peer": null
+    },
+    "peerIdentity": true,
+    "ownContinue": null,
+    "composerVisible": false,
+    "composerEnabled": false,
+    "remaining": null,
+    "bubbles": [],
+    "contactFields": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Güvenlik",
+    "motion": {
+      "version": "1.0",
+      "references": [
+        "base-route",
+        "safety-minimal"
+      ],
+      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
+      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "identityContext": "currently displayed accessible profile; open connection ID only if available",
+    "canEnd": false
+  },
+  {
+    "id": "safety-profile-menu",
+    "group": "safety",
+    "title": "Profil / güvenlik menüsü",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "source": "CH-143 design-handoff §0.A",
+    "file": "screens/svg/safety-profile-menu--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "actions": [
+      {
+        "key": "reportTitle",
+        "enabled": true
+      },
+      {
+        "key": "block",
+        "enabled": true
+      },
+      {
+        "key": "safetyBack",
+        "enabled": true
+      }
+    ],
+    "blocks": [],
+    "intents": {
+      "own": [],
+      "peer": null
+    },
+    "peerIdentity": true,
+    "ownContinue": null,
+    "composerVisible": false,
+    "composerEnabled": false,
+    "remaining": null,
+    "bubbles": [],
+    "contactFields": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Güvenlik",
+    "motion": {
+      "version": "1.0",
+      "references": [
+        "base-route",
+        "safety-minimal"
+      ],
+      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
+      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "identityContext": "currently displayed accessible profile; open connection ID only if available",
+    "canEnd": false
+  },
+  {
+    "id": "safety-profile-menu",
+    "group": "safety",
+    "title": "Profil / güvenlik menüsü",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "source": "CH-143 design-handoff §0.A",
+    "file": "screens/svg/safety-profile-menu--en--ios--200.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "actions": [
+      {
+        "key": "reportTitle",
+        "enabled": true
+      },
+      {
+        "key": "block",
+        "enabled": true
+      },
+      {
+        "key": "safetyBack",
+        "enabled": true
+      }
+    ],
+    "blocks": [],
+    "intents": {
+      "own": [],
+      "peer": null
+    },
+    "peerIdentity": true,
+    "ownContinue": null,
+    "composerVisible": false,
+    "composerEnabled": false,
+    "remaining": null,
+    "bubbles": [],
+    "contactFields": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Güvenlik",
+    "motion": {
+      "version": "1.0",
+      "references": [
+        "base-route",
+        "safety-minimal"
+      ],
+      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
+      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "identityContext": "currently displayed accessible profile; open connection ID only if available",
+    "canEnd": false
+  },
+  {
+    "id": "safety-profile-menu",
+    "group": "safety",
+    "title": "Profil / güvenlik menüsü",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "source": "CH-143 design-handoff §0.A",
+    "file": "screens/svg/safety-profile-menu--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "actions": [
+      {
+        "key": "reportTitle",
+        "enabled": true
+      },
+      {
+        "key": "block",
+        "enabled": true
+      },
+      {
+        "key": "safetyBack",
+        "enabled": true
+      }
+    ],
+    "blocks": [],
+    "intents": {
+      "own": [],
+      "peer": null
+    },
+    "peerIdentity": true,
+    "ownContinue": null,
+    "composerVisible": false,
+    "composerEnabled": false,
+    "remaining": null,
+    "bubbles": [],
+    "contactFields": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Güvenlik",
+    "motion": {
+      "version": "1.0",
+      "references": [
+        "base-route",
+        "safety-minimal"
+      ],
+      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
+      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "identityContext": "currently displayed accessible profile; open connection ID only if available",
+    "canEnd": false
+  },
+  {
+    "id": "safety-profile-menu",
+    "group": "safety",
+    "title": "Profil / güvenlik menüsü",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "source": "CH-143 design-handoff §0.A",
+    "file": "screens/svg/safety-profile-menu--tr--android--200.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "actions": [
+      {
+        "key": "reportTitle",
+        "enabled": true
+      },
+      {
+        "key": "block",
+        "enabled": true
+      },
+      {
+        "key": "safetyBack",
+        "enabled": true
+      }
+    ],
+    "blocks": [],
+    "intents": {
+      "own": [],
+      "peer": null
+    },
+    "peerIdentity": true,
+    "ownContinue": null,
+    "composerVisible": false,
+    "composerEnabled": false,
+    "remaining": null,
+    "bubbles": [],
+    "contactFields": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Güvenlik",
+    "motion": {
+      "version": "1.0",
+      "references": [
+        "base-route",
+        "safety-minimal"
+      ],
+      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
+      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "identityContext": "currently displayed accessible profile; open connection ID only if available",
+    "canEnd": false
+  },
+  {
+    "id": "safety-profile-menu",
+    "group": "safety",
+    "title": "Profil / güvenlik menüsü",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "source": "CH-143 design-handoff §0.A",
+    "file": "screens/svg/safety-profile-menu--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "actions": [
+      {
+        "key": "reportTitle",
+        "enabled": true
+      },
+      {
+        "key": "block",
+        "enabled": true
+      },
+      {
+        "key": "safetyBack",
+        "enabled": true
+      }
+    ],
+    "blocks": [],
+    "intents": {
+      "own": [],
+      "peer": null
+    },
+    "peerIdentity": true,
+    "ownContinue": null,
+    "composerVisible": false,
+    "composerEnabled": false,
+    "remaining": null,
+    "bubbles": [],
+    "contactFields": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Güvenlik",
+    "motion": {
+      "version": "1.0",
+      "references": [
+        "base-route",
+        "safety-minimal"
+      ],
+      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
+      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "identityContext": "currently displayed accessible profile; open connection ID only if available",
+    "canEnd": false
+  },
+  {
+    "id": "safety-profile-menu",
+    "group": "safety",
+    "title": "Profil / güvenlik menüsü",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "source": "CH-143 design-handoff §0.A",
+    "file": "screens/svg/safety-profile-menu--tr--ios--200.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "actions": [
+      {
+        "key": "reportTitle",
+        "enabled": true
+      },
+      {
+        "key": "block",
+        "enabled": true
+      },
+      {
+        "key": "safetyBack",
+        "enabled": true
+      }
+    ],
+    "blocks": [],
+    "intents": {
+      "own": [],
+      "peer": null
+    },
+    "peerIdentity": true,
+    "ownContinue": null,
+    "composerVisible": false,
+    "composerEnabled": false,
+    "remaining": null,
+    "bubbles": [],
+    "contactFields": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Güvenlik",
+    "motion": {
+      "version": "1.0",
+      "references": [
+        "base-route",
+        "safety-minimal"
+      ],
+      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
+      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "identityContext": "currently displayed accessible profile; open connection ID only if available",
+    "canEnd": false
+  },
+  {
     "id": "safety-unavailable",
     "group": "safety",
     "title": "Erişim kalktı / nötr görünüm",
@@ -122041,7 +121465,7 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-other-hidden--en--android--100.svg",
     "width": 412,
-    "height": 969,
+    "height": 1057,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -122050,29 +121474,37 @@
     "blocks": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 868.6400000000001,
+        "w": 364,
+        "h": 52.0
       }
     ],
     "peerContinueChoice": null,
     "family": "Profil",
     "actions": [
       {
-        "key": "reportTitle",
+        "key": "requestSend",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "primary"
+      },
+      {
+        "key": "safetyTitle",
+        "enabled": true,
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -122084,6 +121516,21 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "requestEligibility": {
+      "requestSendEnabled": true,
+      "appliesTo": [
+        "no active connection",
+        "ended connection, otherwise eligible"
+      ],
+      "closedConnectionAloneDoesNotDisable": true,
+      "notAnOverrideFor": [
+        "block/report gate",
+        "pending request",
+        "actual cooldown",
+        "unavailable target"
+      ],
+      "route": "existing intent-send-empty; do not auto-connect"
     }
   },
   {
@@ -122096,7 +121543,7 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-other-hidden--en--android--200.svg",
     "width": 412,
-    "height": 1335,
+    "height": 1435,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -122105,29 +121552,37 @@
     "blocks": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1130.88,
+        "w": 364,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "Profil",
     "actions": [
       {
-        "key": "reportTitle",
+        "key": "requestSend",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "primary"
+      },
+      {
+        "key": "safetyTitle",
+        "enabled": true,
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -122139,6 +121594,21 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "requestEligibility": {
+      "requestSendEnabled": true,
+      "appliesTo": [
+        "no active connection",
+        "ended connection, otherwise eligible"
+      ],
+      "closedConnectionAloneDoesNotDisable": true,
+      "notAnOverrideFor": [
+        "block/report gate",
+        "pending request",
+        "actual cooldown",
+        "unavailable target"
+      ],
+      "route": "existing intent-send-empty; do not auto-connect"
     }
   },
   {
@@ -122151,7 +121621,7 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-other-hidden--en--ios--100.svg",
     "width": 390,
-    "height": 1001,
+    "height": 1089,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -122160,29 +121630,37 @@
     "blocks": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 890.6400000000001,
+        "w": 342,
+        "h": 52.0
       }
     ],
     "peerContinueChoice": null,
     "family": "Profil",
     "actions": [
       {
-        "key": "reportTitle",
+        "key": "requestSend",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "primary"
+      },
+      {
+        "key": "safetyTitle",
+        "enabled": true,
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -122194,6 +121672,21 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "requestEligibility": {
+      "requestSendEnabled": true,
+      "appliesTo": [
+        "no active connection",
+        "ended connection, otherwise eligible"
+      ],
+      "closedConnectionAloneDoesNotDisable": true,
+      "notAnOverrideFor": [
+        "block/report gate",
+        "pending request",
+        "actual cooldown",
+        "unavailable target"
+      ],
+      "route": "existing intent-send-empty; do not auto-connect"
     }
   },
   {
@@ -122206,7 +121699,7 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-other-hidden--en--ios--200.svg",
     "width": 390,
-    "height": 1367,
+    "height": 1467,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -122215,29 +121708,37 @@
     "blocks": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1152.88,
+        "w": 342,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "Profil",
     "actions": [
       {
-        "key": "reportTitle",
+        "key": "requestSend",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "primary"
+      },
+      {
+        "key": "safetyTitle",
+        "enabled": true,
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -122249,6 +121750,21 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "requestEligibility": {
+      "requestSendEnabled": true,
+      "appliesTo": [
+        "no active connection",
+        "ended connection, otherwise eligible"
+      ],
+      "closedConnectionAloneDoesNotDisable": true,
+      "notAnOverrideFor": [
+        "block/report gate",
+        "pending request",
+        "actual cooldown",
+        "unavailable target"
+      ],
+      "route": "existing intent-send-empty; do not auto-connect"
     }
   },
   {
@@ -122261,7 +121777,7 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-other-hidden--tr--android--100.svg",
     "width": 412,
-    "height": 969,
+    "height": 1057,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -122270,29 +121786,37 @@
     "blocks": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 868.6400000000001,
+        "w": 364,
+        "h": 52.0
       }
     ],
     "peerContinueChoice": null,
     "family": "Profil",
     "actions": [
       {
-        "key": "reportTitle",
+        "key": "requestSend",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "primary"
+      },
+      {
+        "key": "safetyTitle",
+        "enabled": true,
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -122304,6 +121828,21 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "requestEligibility": {
+      "requestSendEnabled": true,
+      "appliesTo": [
+        "no active connection",
+        "ended connection, otherwise eligible"
+      ],
+      "closedConnectionAloneDoesNotDisable": true,
+      "notAnOverrideFor": [
+        "block/report gate",
+        "pending request",
+        "actual cooldown",
+        "unavailable target"
+      ],
+      "route": "existing intent-send-empty; do not auto-connect"
     }
   },
   {
@@ -122316,7 +121855,7 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-other-hidden--tr--android--200.svg",
     "width": 412,
-    "height": 1335,
+    "height": 1435,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -122325,29 +121864,37 @@
     "blocks": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1130.88,
+        "w": 364,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "Profil",
     "actions": [
       {
-        "key": "reportTitle",
+        "key": "requestSend",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "primary"
+      },
+      {
+        "key": "safetyTitle",
+        "enabled": true,
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -122359,6 +121906,21 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "requestEligibility": {
+      "requestSendEnabled": true,
+      "appliesTo": [
+        "no active connection",
+        "ended connection, otherwise eligible"
+      ],
+      "closedConnectionAloneDoesNotDisable": true,
+      "notAnOverrideFor": [
+        "block/report gate",
+        "pending request",
+        "actual cooldown",
+        "unavailable target"
+      ],
+      "route": "existing intent-send-empty; do not auto-connect"
     }
   },
   {
@@ -122371,7 +121933,7 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-other-hidden--tr--ios--100.svg",
     "width": 390,
-    "height": 1001,
+    "height": 1089,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -122380,29 +121942,37 @@
     "blocks": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 890.6400000000001,
+        "w": 342,
+        "h": 52.0
       }
     ],
     "peerContinueChoice": null,
     "family": "Profil",
     "actions": [
       {
-        "key": "reportTitle",
+        "key": "requestSend",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "primary"
+      },
+      {
+        "key": "safetyTitle",
+        "enabled": true,
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -122414,6 +121984,21 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "requestEligibility": {
+      "requestSendEnabled": true,
+      "appliesTo": [
+        "no active connection",
+        "ended connection, otherwise eligible"
+      ],
+      "closedConnectionAloneDoesNotDisable": true,
+      "notAnOverrideFor": [
+        "block/report gate",
+        "pending request",
+        "actual cooldown",
+        "unavailable target"
+      ],
+      "route": "existing intent-send-empty; do not auto-connect"
     }
   },
   {
@@ -122426,7 +122011,7 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-other-hidden--tr--ios--200.svg",
     "width": 390,
-    "height": 1367,
+    "height": 1467,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -122435,29 +122020,37 @@
     "blocks": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1152.88,
+        "w": 342,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "Profil",
     "actions": [
       {
-        "key": "reportTitle",
+        "key": "requestSend",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "primary"
+      },
+      {
+        "key": "safetyTitle",
+        "enabled": true,
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -122469,6 +122062,21 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "requestEligibility": {
+      "requestSendEnabled": true,
+      "appliesTo": [
+        "no active connection",
+        "ended connection, otherwise eligible"
+      ],
+      "closedConnectionAloneDoesNotDisable": true,
+      "notAnOverrideFor": [
+        "block/report gate",
+        "pending request",
+        "actual cooldown",
+        "unavailable target"
+      ],
+      "route": "existing intent-send-empty; do not auto-connect"
     }
   },
   {
@@ -122481,7 +122089,7 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-other-visible--en--android--100.svg",
     "width": 412,
-    "height": 1038,
+    "height": 1126,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -122490,29 +122098,37 @@
     "blocks": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 937.8400000000001,
+        "w": 364,
+        "h": 52.0
       }
     ],
     "peerContinueChoice": null,
     "family": "Profil",
     "actions": [
       {
-        "key": "reportTitle",
+        "key": "requestSend",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "primary"
+      },
+      {
+        "key": "safetyTitle",
+        "enabled": true,
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -122524,6 +122140,21 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "requestEligibility": {
+      "requestSendEnabled": true,
+      "appliesTo": [
+        "no active connection",
+        "ended connection, otherwise eligible"
+      ],
+      "closedConnectionAloneDoesNotDisable": true,
+      "notAnOverrideFor": [
+        "block/report gate",
+        "pending request",
+        "actual cooldown",
+        "unavailable target"
+      ],
+      "route": "existing intent-send-empty; do not auto-connect"
     }
   },
   {
@@ -122536,7 +122167,7 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-other-visible--en--android--200.svg",
     "width": 412,
-    "height": 1450,
+    "height": 1549,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -122545,29 +122176,37 @@
     "blocks": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1245.2800000000002,
+        "w": 364,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "Profil",
     "actions": [
       {
-        "key": "reportTitle",
+        "key": "requestSend",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "primary"
+      },
+      {
+        "key": "safetyTitle",
+        "enabled": true,
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -122579,6 +122218,21 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "requestEligibility": {
+      "requestSendEnabled": true,
+      "appliesTo": [
+        "no active connection",
+        "ended connection, otherwise eligible"
+      ],
+      "closedConnectionAloneDoesNotDisable": true,
+      "notAnOverrideFor": [
+        "block/report gate",
+        "pending request",
+        "actual cooldown",
+        "unavailable target"
+      ],
+      "route": "existing intent-send-empty; do not auto-connect"
     }
   },
   {
@@ -122591,7 +122245,7 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-other-visible--en--ios--100.svg",
     "width": 390,
-    "height": 1070,
+    "height": 1158,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -122600,29 +122254,37 @@
     "blocks": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 959.8400000000001,
+        "w": 342,
+        "h": 52.0
       }
     ],
     "peerContinueChoice": null,
     "family": "Profil",
     "actions": [
       {
-        "key": "reportTitle",
+        "key": "requestSend",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "primary"
+      },
+      {
+        "key": "safetyTitle",
+        "enabled": true,
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -122634,6 +122296,21 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "requestEligibility": {
+      "requestSendEnabled": true,
+      "appliesTo": [
+        "no active connection",
+        "ended connection, otherwise eligible"
+      ],
+      "closedConnectionAloneDoesNotDisable": true,
+      "notAnOverrideFor": [
+        "block/report gate",
+        "pending request",
+        "actual cooldown",
+        "unavailable target"
+      ],
+      "route": "existing intent-send-empty; do not auto-connect"
     }
   },
   {
@@ -122646,7 +122323,7 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-other-visible--en--ios--200.svg",
     "width": 390,
-    "height": 1482,
+    "height": 1581,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -122655,29 +122332,37 @@
     "blocks": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1267.2800000000002,
+        "w": 342,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "Profil",
     "actions": [
       {
-        "key": "reportTitle",
+        "key": "requestSend",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "primary"
+      },
+      {
+        "key": "safetyTitle",
+        "enabled": true,
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -122689,6 +122374,21 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "requestEligibility": {
+      "requestSendEnabled": true,
+      "appliesTo": [
+        "no active connection",
+        "ended connection, otherwise eligible"
+      ],
+      "closedConnectionAloneDoesNotDisable": true,
+      "notAnOverrideFor": [
+        "block/report gate",
+        "pending request",
+        "actual cooldown",
+        "unavailable target"
+      ],
+      "route": "existing intent-send-empty; do not auto-connect"
     }
   },
   {
@@ -122701,7 +122401,7 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-other-visible--tr--android--100.svg",
     "width": 412,
-    "height": 1038,
+    "height": 1126,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": 2,
@@ -122710,29 +122410,37 @@
     "blocks": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 937.8400000000001,
+        "w": 364,
+        "h": 52.0
       }
     ],
     "peerContinueChoice": null,
     "family": "Profil",
     "actions": [
       {
-        "key": "reportTitle",
+        "key": "requestSend",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "primary"
+      },
+      {
+        "key": "safetyTitle",
+        "enabled": true,
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -122744,6 +122452,21 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "requestEligibility": {
+      "requestSendEnabled": true,
+      "appliesTo": [
+        "no active connection",
+        "ended connection, otherwise eligible"
+      ],
+      "closedConnectionAloneDoesNotDisable": true,
+      "notAnOverrideFor": [
+        "block/report gate",
+        "pending request",
+        "actual cooldown",
+        "unavailable target"
+      ],
+      "route": "existing intent-send-empty; do not auto-connect"
     }
   },
   {
@@ -122756,7 +122479,7 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-other-visible--tr--android--200.svg",
     "width": 412,
-    "height": 1450,
+    "height": 1549,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": 2,
@@ -122765,29 +122488,37 @@
     "blocks": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 340,
-        "y": 50,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1245.2800000000002,
+        "w": 364,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "Profil",
     "actions": [
       {
-        "key": "reportTitle",
+        "key": "requestSend",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "primary"
+      },
+      {
+        "key": "safetyTitle",
+        "enabled": true,
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -122799,6 +122530,21 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "requestEligibility": {
+      "requestSendEnabled": true,
+      "appliesTo": [
+        "no active connection",
+        "ended connection, otherwise eligible"
+      ],
+      "closedConnectionAloneDoesNotDisable": true,
+      "notAnOverrideFor": [
+        "block/report gate",
+        "pending request",
+        "actual cooldown",
+        "unavailable target"
+      ],
+      "route": "existing intent-send-empty; do not auto-connect"
     }
   },
   {
@@ -122811,7 +122557,7 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-other-visible--tr--ios--100.svg",
     "width": 390,
-    "height": 1070,
+    "height": 1158,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": 2,
@@ -122820,29 +122566,37 @@
     "blocks": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 959.8400000000001,
+        "w": 342,
+        "h": 52.0
       }
     ],
     "peerContinueChoice": null,
     "family": "Profil",
     "actions": [
       {
-        "key": "reportTitle",
+        "key": "requestSend",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "primary"
+      },
+      {
+        "key": "safetyTitle",
+        "enabled": true,
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -122854,6 +122608,21 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "requestEligibility": {
+      "requestSendEnabled": true,
+      "appliesTo": [
+        "no active connection",
+        "ended connection, otherwise eligible"
+      ],
+      "closedConnectionAloneDoesNotDisable": true,
+      "notAnOverrideFor": [
+        "block/report gate",
+        "pending request",
+        "actual cooldown",
+        "unavailable target"
+      ],
+      "route": "existing intent-send-empty; do not auto-connect"
     }
   },
   {
@@ -122866,7 +122635,7 @@
     "source": "imhere-design-v1.6",
     "file": "screens/svg/view-other-visible--tr--ios--200.svg",
     "width": 390,
-    "height": 1482,
+    "height": 1581,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": 2,
@@ -122875,29 +122644,37 @@
     "blocks": [],
     "regions": [
       {
-        "key": "reportTitle",
-        "x": 318,
-        "y": 72,
-        "w": 48,
-        "h": 48
+        "key": "safetyTitle",
+        "x": 24,
+        "y": 1267.2800000000002,
+        "w": 342,
+        "h": 63.200000000000045
       }
     ],
     "peerContinueChoice": null,
     "family": "Profil",
     "actions": [
       {
-        "key": "reportTitle",
+        "key": "requestSend",
         "enabled": true,
-        "presentation": "header-flag",
-        "destination": "report-empty",
-        "context": "displayed-other-profile"
+        "presentation": "primary"
+      },
+      {
+        "key": "safetyTitle",
+        "enabled": true,
+        "presentation": "secondary",
+        "destination": "safety-profile-menu",
+        "visibleWhen": "safety backend actions available",
+        "canEnd": false
       }
     ],
     "profileReport": {
-      "target": "currently displayed accessible other user ID; never inferred from position or animation",
-      "connectionRequired": false,
-      "afterSubmit": "report-sent; existing separate block question",
-      "failure": "existing report-failed/offline/unknown; no success before server confirmation"
+      "entry": "bottom safetyTitle secondary button; no header flag",
+      "visibleWhen": "safety backend actions available",
+      "destination": "safety-profile-menu",
+      "canEnd": false,
+      "reportOutcome": "reportSent + blockDone after confirmed report",
+      "source": "CH-143 / design-handoff §0.A"
     },
     "motion": {
       "version": "1.0",
@@ -122909,6 +122686,21 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "requestEligibility": {
+      "requestSendEnabled": true,
+      "appliesTo": [
+        "no active connection",
+        "ended connection, otherwise eligible"
+      ],
+      "closedConnectionAloneDoesNotDisable": true,
+      "notAnOverrideFor": [
+        "block/report gate",
+        "pending request",
+        "actual cooldown",
+        "unavailable target"
+      ],
+      "route": "existing intent-send-empty; do not auto-connect"
     }
   },
   {

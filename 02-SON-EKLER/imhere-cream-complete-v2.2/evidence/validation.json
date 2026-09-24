@@ -1168,5 +1168,27 @@
   },
   "supersededChecks": {
     "closedCardNeutral": "Superseded by Founder phone tour2026-09-24: ended row removed; see endConnection20260924."
+  },
+  "codeAlignmentCH141143": {
+    "date": "2026-09-24",
+    "states": 296,
+    "betaStates": 289,
+    "deferredStates": 7,
+    "svgVariants": 2368,
+    "pngVariants": 592,
+    "changedSvgVariants": 80,
+    "changedPngVariants": 20,
+    "retiredStates": [
+      "report-block-busy",
+      "report-block-done",
+      "report-block-failed"
+    ],
+    "textBoundsAllChangedVariants": "pass",
+    "fullArbsUnchanged": true,
+    "mergedDeltaMatchesPriorApprovedDeltas": true,
+    "priorBetaFlagsPreserved": true,
+    "unchangedScreenFiles": 2860,
+    "reportCategoryAndEndDialogUnchanged": true,
+    "nativeAppTest": false
   }
 }

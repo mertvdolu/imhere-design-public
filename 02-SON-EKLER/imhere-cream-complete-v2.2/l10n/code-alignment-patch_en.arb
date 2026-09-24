@@ -1,0 +1,19 @@
+{
+  "@@locale": "en",
+  "reportChildSafety": "Underage user or child safety",
+  "@reportChildSafety": {
+    "description": "Sixth report category, immediately after reportSafety and before reportOther. Category label only; no review priority or authority-reporting promise."
+  },
+  "endConfirm": "End this connection?",
+  "endConfirmBody": "This chat will leave your chat list; its message history will be kept for safety for 30 days, then deleted. You can reconnect if you both want to.",
+  "endReportInstead": "Report instead",
+  "@endConfirm": {
+    "description": "End connection confirmation title. Founder phone tour 2026-09-24; supersedes earlier title."
+  },
+  "@endConfirmBody": {
+    "description": "Confirmed end removes the chat from the chat list; history retained for safety for 30 days then deleted; reconnecting requires both people wanting it. No immediate deletion or automatic reconnection."
+  },
+  "@endReportInstead": {
+    "description": "Open reporting for the same person without ending the connection. Alternative to End connection, not a combined action."
+  }
+}

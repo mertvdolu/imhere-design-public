@@ -1,6 +1,6 @@
 # Kapsam ve ekran eşlemesi / v2.2
 
-Önceki güncel kataloğun dosya adları korunarak yeni çizimler üretildi. Hiçbir temel durum sessizce atılmadı.
+Kaynak paketler aşağıda tarihsel başlangıç envanteri olarak gösterilir. Güncel aktif katalog296 durumdur. CH-141 ile report-block-busy/failed/done kaldırıldı; safety-profile-menu eklendi. CH-142 ile connections-open-closed, connections-after-end olarak değiştirildi.
 
 | Kaynak paket | Benzersiz durum | Yeni karşılık |
 |---|---:|---|
@@ -30,4 +30,6 @@
 - support-email-copied
 - support-email-unavailable
 
-Toplam: **298 durum / 2384 SVG**. Dil ayarına ait üç durum askıda ve varsayılan katalogda gizlidir.
+Toplam: **296 durum / 2368 SVG**. Dil ayarına ait üç durum askıda ve varsayılan katalogda gizlidir.
+
+CH-141–143: report-block-busy/failed/done aktif katalogdan çıkarıldı; safety-profile-menu eklendi.

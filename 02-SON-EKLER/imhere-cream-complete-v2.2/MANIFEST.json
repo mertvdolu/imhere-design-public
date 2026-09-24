@@ -2,10 +2,10 @@
   "version": "2.2",
   "name": "IM HERE / Cream & Ink complete design",
   "date": "2026-09-24",
-  "files": 3113,
-  "screenStates": 298,
-  "svgVariants": 2384,
-  "pngVariants": 596,
+  "files": 3097,
+  "screenStates": 296,
+  "svgVariants": 2368,
+  "pngVariants": 592,
   "entries": [
     {
       "file": "DENEYIM.html",
@@ -14,8 +14,8 @@
     },
     {
       "file": "MANAGER-NOTU.md",
-      "bytes": 2297,
-      "sha256": "6775a81de2339f1cf3e87fa6303fbb30b6387dbe33ac0ec5bd28e2562fb62b6c"
+      "bytes": 2378,
+      "sha256": "b3a35341838da525be80f6b4e9ba229cadfc9c40f37c1caa22b7dd64991585af"
     },
     {
       "file": "ONIZLEME.html",
@@ -24,8 +24,8 @@
     },
     {
       "file": "README.md",
-      "bytes": 1770,
-      "sha256": "18a86358550b4d09368cb963dd0cfca684235eeb485a9418fda8fd392ab115cc"
+      "bytes": 1851,
+      "sha256": "c067697c8f69914867a4909891a05a2f92fd12ebc4423f10ec852bc131a48d0c"
     },
     {
       "file": "assets/city-evening.webp",
@@ -224,13 +224,18 @@
     },
     {
       "file": "catalog.js",
-      "bytes": 2206517,
-      "sha256": "cee4ce0fd5c378940de7d1979944b4b5bd69171fbee4b73f76a9fd4d810f9d74"
+      "bytes": 2203287,
+      "sha256": "33f204f48dd67e2e500c358219925b05a195206faa56a37fcf948c25efa5895b"
     },
     {
       "file": "contracts/checkin-notices.json",
       "bytes": 6790,
       "sha256": "dc097c32f7f50c6ee857b5848a1f5fe17d372f2db2dd724e9cb5fe46a870a572"
+    },
+    {
+      "file": "contracts/code-alignment-delivery.json",
+      "bytes": 1092,
+      "sha256": "c0818630392147f708e4d6a3c6dedd436783d1961f8c46ebe63b6cc4354db366"
     },
     {
       "file": "contracts/profile-inputs.json",
@@ -239,8 +244,8 @@
     },
     {
       "file": "contracts/screen-manifest.json",
-      "bytes": 3069191,
-      "sha256": "7904e3d87c10568948254d4a6ab6fa58386601849db0887c1e6106f97c8e5ff1"
+      "bytes": 3065537,
+      "sha256": "8362c2698a68f09f22cc7e4e61a1da287242a57e39e82ee84064b92e2cd4cad1"
     },
     {
       "file": "evidence/assets-validation.json",
@@ -254,8 +259,8 @@
     },
     {
       "file": "evidence/validation.json",
-      "bytes": 29390,
-      "sha256": "7d930b903ef89d66921f3f71b4a9be31edab1e590c0ed6d4ad5e48df4a9cabd7"
+      "bytes": 30011,
+      "sha256": "ceeba529702baec00d2647ab48bedb441dc63fb9c01579bcaa02f3e3eb429095"
     },
     {
       "file": "experience/ONIZLEME.html",
@@ -388,6 +393,16 @@
       "sha256": "fceacd72736e72e2a3a6afaf433489a8e2610401cd11792920122a03706c5774"
     },
     {
+      "file": "l10n/code-alignment-patch_en.arb",
+      "bytes": 1088,
+      "sha256": "bfb53e0ebcaff23c7e48669fee1eb9fb074df27b7227ffb488f73e078356b8c5"
+    },
+    {
+      "file": "l10n/code-alignment-patch_tr.arb",
+      "bytes": 1131,
+      "sha256": "ae158214eb07d831694d52151b22fa065f6de2567e3eeb34cb8154fad2fe0345"
+    },
+    {
       "file": "l10n/cream-v2.2-patch_en.arb",
       "bytes": 1193,
       "sha256": "eb2e765a2f9bdf49aecb7d147956e6a2999e0188ea7200fa6926271ea469f71d"
@@ -409,8 +424,8 @@
     },
     {
       "file": "l10n/migration.json",
-      "bytes": 29715,
-      "sha256": "15bfbc17a1f2f5bba4897ca6a64b689221d299e443f1ec317e94d40be4b4e3eb"
+      "bytes": 30425,
+      "sha256": "5a04341389c9b07fc2f253a0384e5f4d43ec7d454e2e549a5523e2b9b869772e"
     },
     {
       "file": "l10n/motion-v1-patch_en.arb",
@@ -434,8 +449,8 @@
     },
     {
       "file": "motion/hareket-ve-his-v1/MANAGER-NOTU.md",
-      "bytes": 1228,
-      "sha256": "4b1777f433bb91d5a2b730ec0c0369fe30923ec22b707a8083715ef0f16bd597"
+      "bytes": 1265,
+      "sha256": "ad01ad67740fadefd5d8c826960b1ae8e7cd8419ddbc700ed8d9ff4fa56a3b80"
     },
     {
       "file": "motion/hareket-ve-his-v1/ONIZLEME.html",
@@ -445,7 +460,7 @@
     {
       "file": "motion/hareket-ve-his-v1/SPEC.md",
       "bytes": 16097,
-      "sha256": "0225907c095749884ba1ad8e9b98631075b2956f966a7dcf5d133664b604f0d2"
+      "sha256": "d06b64e68450cf8a526633b4af9282e9bb809fdf9bd244025058533940048163"
     },
     {
       "file": "motion/hareket-ve-his-v1/frames/01-ink-signature.csv",
@@ -574,13 +589,13 @@
     },
     {
       "file": "motion/hareket-ve-his-v1/screen-motion-map.json",
-      "bytes": 31698,
-      "sha256": "9fad9e63bb763f6c9743b6ab860adbe1941cb9d7a36451d1e1b33071b43e69ae"
+      "bytes": 31523,
+      "sha256": "9549609ab1f94af82803135bc4650890f2e5a3a51a17007b646fe548ce699e8c"
     },
     {
       "file": "motion/hareket-ve-his-v1/signature-moments.json",
-      "bytes": 14746,
-      "sha256": "c1eabd0fa0a4a7f52a39bd0165d66ce6af15a99e661166ddaaac1f45af33e0f0"
+      "bytes": 14820,
+      "sha256": "07183852dbce766a5c496842afaa54848ee0a06aa4be1c0237308be4e3c84e99"
     },
     {
       "file": "motion/hareket-ve-his-v1/source/hareket-ve-his-plani-v1.md",
@@ -589,8 +604,8 @@
     },
     {
       "file": "motion/hareket-ve-his-v1/validation.json",
-      "bytes": 2413,
-      "sha256": "4e8ddcf76478663b88bdc1a437824af16e0d148633203fb250a297de2fcde60c"
+      "bytes": 2663,
+      "sha256": "410a96f11b8274a0902766137ebb61b96e025b5ec2e7338318d67491c3a5b78c"
     },
     {
       "file": "review/brand-review.png",
@@ -2704,63 +2719,63 @@
     },
     {
       "file": "screens/png/person-connected-hidden--en--ios--100.png",
-      "bytes": 407585,
-      "sha256": "43c98b262f7504f2b810170723f165ef7cee99abfe0abdb0d2fc8cf2e6461ed6"
+      "bytes": 414381,
+      "sha256": "f6b6ed8788049b1fa494d0803ba1e1be09cde77393aaef9c1e5ea1a6c589a5da"
     },
     {
       "file": "screens/png/person-connected-hidden--tr--android--200.png",
-      "bytes": 476545,
-      "sha256": "8b88f780d5cd463338ecc1a09782c5c776e2bd704cc9a62a850c412918f102c1"
+      "bytes": 485637,
+      "sha256": "aa01bf454792533bf7b7e777ee4c66536c84ac586f87932a7f5b05a7e76644a8"
     },
     {
       "file": "screens/png/person-connected-visible--en--ios--100.png",
-      "bytes": 417219,
-      "sha256": "14e60522039ad30514b7bae0fd4588765596a4f5b8d887d2c9b68b451e0d669e"
+      "bytes": 423913,
+      "sha256": "9754daf513d52b8c922305b75856175c0b34385f0adfeaf7dd6403b18a70543c"
     },
     {
       "file": "screens/png/person-connected-visible--tr--android--200.png",
-      "bytes": 492262,
-      "sha256": "67983615767f3632da7dec77588ffc968fabfec7462b4c624da5ac33966cd4da"
+      "bytes": 501296,
+      "sha256": "ea6ae093a320b9007a5450fce39a8c8d8eec79bc29e4e1e91435b86cce24d14b"
     },
     {
       "file": "screens/png/person-cooldown-hidden--en--ios--100.png",
-      "bytes": 402305,
-      "sha256": "820636758843d69775f55b7a4323f97d46eabe5d20e40ce22fbc1e23326d0b6e"
+      "bytes": 409137,
+      "sha256": "63cf05d39be58d8362d5cfcc57208d1b3465ee8082748f17ae272bddb1386338"
     },
     {
       "file": "screens/png/person-cooldown-hidden--tr--android--200.png",
-      "bytes": 472409,
-      "sha256": "8c9ed6225931b9d7771f99d3ab614887656068a30f104834e20085eebc8ef14c"
+      "bytes": 481627,
+      "sha256": "1f1e7283d24db3dd7f757731f78f9f249e8691ac1c9d2d0aeaf7106c41c110ff"
     },
     {
       "file": "screens/png/person-cooldown-visible--en--ios--100.png",
-      "bytes": 411927,
-      "sha256": "347b584da602268e9e93e8f3a347b84c2566d0742a54f61e1fbd7f2378299910"
+      "bytes": 418749,
+      "sha256": "19bc30283c4df6617defc014dfd001ec34045ae5cadadb5407f6d16d23543bfb"
     },
     {
       "file": "screens/png/person-cooldown-visible--tr--android--200.png",
-      "bytes": 488403,
-      "sha256": "0cd63f44c026447ec598bdfb96eb6e2d348db1bbb4110d40c83aaf3951034828"
+      "bytes": 497577,
+      "sha256": "f3b2fb7b06f7836f437c6230e9f1bac693de7f985f8e3c0dac54996921b983b1"
     },
     {
       "file": "screens/png/person-pending-hidden--en--ios--100.png",
-      "bytes": 412322,
-      "sha256": "9888eeafda5e9675fe2d3063e7a4637702417b021ea1a528fd7db962b5073c73"
+      "bytes": 419011,
+      "sha256": "0e625afd95835a38fbf9d4480828269d123e0bcd3a9eb79f27c66dffe46a47fd"
     },
     {
       "file": "screens/png/person-pending-hidden--tr--android--200.png",
-      "bytes": 481927,
-      "sha256": "a127ee5977444c7cbdbb59d636b3e2255c8b322fb395e1c375d9ab1768115740"
+      "bytes": 490854,
+      "sha256": "87fbba88a036ca1d3ab83c343ab4b283122ddf1d387fe7bfe552b02c511be971"
     },
     {
       "file": "screens/png/person-pending-visible--en--ios--100.png",
-      "bytes": 421788,
-      "sha256": "94c3fa1b7435c91c5abd602bd5e3301601b9a5ac2d26d28e2c7e213dc92bd7ff"
+      "bytes": 428519,
+      "sha256": "71d8b75efb9f6cc5a343732bdc3f47978d800b97789277c9a8737f5805f2be2e"
     },
     {
       "file": "screens/png/person-pending-visible--tr--android--200.png",
-      "bytes": 497835,
-      "sha256": "2194a31bafe2a2f6ab75a06ccf259688d0b400f5464fd9fa6dd9aaae98b8e88c"
+      "bytes": 506971,
+      "sha256": "2708c3962a4fb98a2d600e874ed0f32e2f655a1172a992a1d41156da830eb2f3"
     },
     {
       "file": "screens/png/photo-denied--en--ios--100.png",
@@ -2973,36 +2988,6 @@
       "sha256": "3a06fd12c27be991e5f1386d0249e04f688d47782a72f59d740f91762cce0125"
     },
     {
-      "file": "screens/png/report-block-busy--en--ios--100.png",
-      "bytes": 97140,
-      "sha256": "3bd4b1b81e6ab57ef39323e21552d4274df43cba5d3093f69fb98ade074037ae"
-    },
-    {
-      "file": "screens/png/report-block-busy--tr--android--200.png",
-      "bytes": 146137,
-      "sha256": "fc4bd81974fcfd748c44aa58010568588f9eb7b26988bcbd558144de5e32d542"
-    },
-    {
-      "file": "screens/png/report-block-done--en--ios--100.png",
-      "bytes": 71213,
-      "sha256": "baa420a1624a317dfb025a0d990c99e579a6b2a84f7c6e0567f73552193908f6"
-    },
-    {
-      "file": "screens/png/report-block-done--tr--android--200.png",
-      "bytes": 88773,
-      "sha256": "c45886484e05f85cb2d9ac45c4229c38beb964e9770fff14cad3c7daf0ddf789"
-    },
-    {
-      "file": "screens/png/report-block-failed--en--ios--100.png",
-      "bytes": 105242,
-      "sha256": "952728612b8a45c6bf5d549fcdad8a20942b0450b8a3d23cc43cae9007e90a14"
-    },
-    {
-      "file": "screens/png/report-block-failed--tr--android--200.png",
-      "bytes": 163001,
-      "sha256": "6d6786dd4888f1cabf78e0d67a916f9d3db0a8f6299e08ac0aa512f1b255d8e9"
-    },
-    {
       "file": "screens/png/report-empty--en--ios--100.png",
       "bytes": 106508,
       "sha256": "9a8a1f15fa015f894ead36d74af20b44a6bcd03f1b44ff32ce39d72d0f100ea7"
@@ -3054,13 +3039,13 @@
     },
     {
       "file": "screens/png/report-sent--en--ios--100.png",
-      "bytes": 92853,
-      "sha256": "77d0809d6ae1f033ad1627966c42569708fd5ff222b69c0e0dac52863f91ab5d"
+      "bytes": 69449,
+      "sha256": "f2811b8fb22e8941d63dd72ae6a6b7cc596d9b271fe43c075394b59cc4948d77"
     },
     {
       "file": "screens/png/report-sent--tr--android--200.png",
-      "bytes": 134287,
-      "sha256": "cca489a67353d3cc638fb20b197d1e01851a57334d0560a3a89fda61b83d4549"
+      "bytes": 85947,
+      "sha256": "52fc667431e05c4323984d52668f1182ca5202d4b773bc721c4dfe12e0e86a12"
     },
     {
       "file": "screens/png/report-unknown--en--ios--100.png",
@@ -3281,6 +3266,16 @@
       "file": "screens/png/safety-menu--tr--android--200.png",
       "bytes": 110685,
       "sha256": "60f0fea921530fc6c2adb6c91b5f07828f8bc6f53436bcaa44fcfee4b6d9ce76"
+    },
+    {
+      "file": "screens/png/safety-profile-menu--en--ios--100.png",
+      "bytes": 59735,
+      "sha256": "722aa8fc31bd095d096189872cc053dcda05acc7c2b7bf33dd274d74dc91b9ef"
+    },
+    {
+      "file": "screens/png/safety-profile-menu--tr--android--200.png",
+      "bytes": 75291,
+      "sha256": "0222f8e85a7d8b4be7d26c8b340e7462e238b2459bb475c472de7ef430e1921b"
     },
     {
       "file": "screens/png/safety-unavailable--en--ios--100.png",
@@ -3534,23 +3529,23 @@
     },
     {
       "file": "screens/png/view-other-hidden--en--ios--100.png",
-      "bytes": 392478,
-      "sha256": "c48c38972b6e17b685696069ad03320f693d1637c35c80f5c3256ad71c539eed"
+      "bytes": 399175,
+      "sha256": "25f26434554c2b471e0416ea843378f61fbb3e2e17c579bb6af65e7bf2f1fb6b"
     },
     {
       "file": "screens/png/view-other-hidden--tr--android--200.png",
-      "bytes": 454337,
-      "sha256": "a7db4979af536ef0399888cdefff410a11b1b1e4495e9b5f781a4cb619761e38"
+      "bytes": 463641,
+      "sha256": "0000cc001cc4bfdf786b51add682b7d06fbffa69f6871aa5804a6e6c85760d35"
     },
     {
       "file": "screens/png/view-other-visible--en--ios--100.png",
-      "bytes": 402122,
-      "sha256": "a1dee6defd7934a5bd6feea29cbd32a81c5e2d8248a23c9491e5fc51b91fd096"
+      "bytes": 408898,
+      "sha256": "763769106cef41165ce86a9aa61430102a4913898289f64ce8b48d623e6a6795"
     },
     {
       "file": "screens/png/view-other-visible--tr--android--200.png",
-      "bytes": 470458,
-      "sha256": "50f3927d8ae63f894626a981d3ea6f78833cfdb4ce9a1296ec8cbe14f81bdcfb"
+      "bytes": 479459,
+      "sha256": "380fc16da04d65cacc30e6248d365909fee13f23f99e3c9dce70e17f21ed9e5e"
     },
     {
       "file": "screens/png/view-own-hidden--en--ios--100.png",
@@ -11894,243 +11889,243 @@
     },
     {
       "file": "screens/svg/person-connected-hidden--en--android--100.svg",
-      "bytes": 150763,
-      "sha256": "38bd400bfe6dcd370a588c5fd4348573a84339fe5f44cc3dba35cf9324a63e19"
+      "bytes": 150727,
+      "sha256": "4bedf5cafd2d40d97422d1947c3517a24bf34ac87c7898dd38fc6f4ad05f4638"
     },
     {
       "file": "screens/svg/person-connected-hidden--en--android--200.svg",
-      "bytes": 150919,
-      "sha256": "59bd69edbde1899cbe8e780af68af592114c015fd39f229563262f78bc82fdb6"
+      "bytes": 150894,
+      "sha256": "d230d5451684dbee0f47fff9aa501547d54df34bd8ad754c2faa72301cd03ffe"
     },
     {
       "file": "screens/svg/person-connected-hidden--en--ios--100.svg",
-      "bytes": 150777,
-      "sha256": "620fdedccfa664cacdc34f9654bbd4c33d5a89400422a32f0acf02f7f626d56c"
+      "bytes": 150738,
+      "sha256": "2639e18ce5652d1ff5fb718564838e3aac56aee9f31b102e39913fdc873cacc2"
     },
     {
       "file": "screens/svg/person-connected-hidden--en--ios--200.svg",
-      "bytes": 150918,
-      "sha256": "38d7509f9865013cd818d6be72651fd150aa68e108507d6054d56ae89df332dc"
+      "bytes": 150893,
+      "sha256": "09bd74999caade6c385899a5eb44a4ba1eafdbd57087da0b11412da80ec14878"
     },
     {
       "file": "screens/svg/person-connected-hidden--tr--android--100.svg",
-      "bytes": 150790,
-      "sha256": "43f75131fc13145f245428fbd45172155545604132ac4a8cccc202f07bd21839"
+      "bytes": 150756,
+      "sha256": "bf6c280a888ad54770b281efd02fe42c65187e738c085546dec9a89aa4ca1886"
     },
     {
       "file": "screens/svg/person-connected-hidden--tr--android--200.svg",
-      "bytes": 150946,
-      "sha256": "db201f2f2b86e1afbdfe6ff092b5e5a59f1ff0634aa431e5135847fba4ff1309"
+      "bytes": 150923,
+      "sha256": "188171556b015c488735cb5f0a952c4d235434b15ee58096b180165852ee4750"
     },
     {
       "file": "screens/svg/person-connected-hidden--tr--ios--100.svg",
-      "bytes": 150804,
-      "sha256": "a3a01f826145624036daa84e805a61fba04759668bad209073818505bedbac21"
+      "bytes": 150767,
+      "sha256": "453430bec260a2d3b78d44258698d7d87c366e46a256b3d8b6bdb23a140c4c8b"
     },
     {
       "file": "screens/svg/person-connected-hidden--tr--ios--200.svg",
-      "bytes": 150945,
-      "sha256": "b2664984ab0049c31f6efe82a617815165c62506b6853be73315a9323a3d7cb0"
+      "bytes": 150922,
+      "sha256": "aa23b35d9dff6cfc080ef086eb43dae7f69ebb4b3a1b9842ea1691286cca1297"
     },
     {
       "file": "screens/svg/person-connected-visible--en--android--100.svg",
-      "bytes": 150889,
-      "sha256": "0e6998c43f0243a45219238554ef846543cdd748ba86fbd12ee6f5f63c318f19"
+      "bytes": 150826,
+      "sha256": "592c6e57a79d62babff5cae485e2ea2ac2e677870727c3780722df3b9e3b2e81"
     },
     {
       "file": "screens/svg/person-connected-visible--en--android--200.svg",
-      "bytes": 151205,
-      "sha256": "622219b1d27447c342e666d131c52c221d581d57862c4f405e68240efc547887"
+      "bytes": 151180,
+      "sha256": "187c46ddacb4114a8eca9cdc7c7253ebc87a8d295153472d7dafc92c6667448a"
     },
     {
       "file": "screens/svg/person-connected-visible--en--ios--100.svg",
-      "bytes": 150899,
-      "sha256": "9ce128a83eb0de596ad70bae7744096006099000d1c7e92a2ee663b6dd9a7b55"
+      "bytes": 150836,
+      "sha256": "0513ba1060a17de1d4925cc255e293c9853516495a9c091b27bc7be22a700336"
     },
     {
       "file": "screens/svg/person-connected-visible--en--ios--200.svg",
-      "bytes": 151204,
-      "sha256": "10b844761dcf82f7bdb0af6523bdcd46695d4f2125efe6f2f46356136a5e7818"
+      "bytes": 151179,
+      "sha256": "cb92a28430b7c13612c419ba79299c032184f4ae196e618305ddbcb9e28fe1ed"
     },
     {
       "file": "screens/svg/person-connected-visible--tr--android--100.svg",
-      "bytes": 150920,
-      "sha256": "935bd75625de7be769183c7d1b214d665a5339856c6eb54339d18af4a0bbaf74"
+      "bytes": 150859,
+      "sha256": "5a554ae2732c5750d414a7e9c6e41c0b87c201008659fb28bb627448d2297d1d"
     },
     {
       "file": "screens/svg/person-connected-visible--tr--android--200.svg",
-      "bytes": 151236,
-      "sha256": "75173fdd5a9b0bd48eaacbd194ba87ca93726df1a05067d50f2d6cf2125b53be"
+      "bytes": 151213,
+      "sha256": "d986359ce27caa63c4e16fa54626b7e3937b66fd9f7b8d1ac4299f9986982bf8"
     },
     {
       "file": "screens/svg/person-connected-visible--tr--ios--100.svg",
-      "bytes": 150930,
-      "sha256": "994cc0e049e4c294231eed5049131730189ced5a3960df5d633524b4d5b08588"
+      "bytes": 150869,
+      "sha256": "f990ccc6d79378ca715ddfc662ac0729b5fb3882792df7ce1fbf04167c6e746f"
     },
     {
       "file": "screens/svg/person-connected-visible--tr--ios--200.svg",
-      "bytes": 151235,
-      "sha256": "17e864f81812e3365d7aed7adda1be35b0e080355496c42b73f3580302e05c0e"
+      "bytes": 151212,
+      "sha256": "73d9fae3bff45d6f6184a8d733f32845bfe9928d5f694d1cca0aa2dd9916cdb8"
     },
     {
       "file": "screens/svg/person-cooldown-hidden--en--android--100.svg",
-      "bytes": 150514,
-      "sha256": "c1b1563f6376f5cbdda73dd6c485a7acaeddaf9b29d9ca25697f0e219254ff50"
+      "bytes": 150480,
+      "sha256": "538c303af7370dc88d362dbc299e26b6fcaef985c57094c3cfe927dc79a53259"
     },
     {
       "file": "screens/svg/person-cooldown-hidden--en--android--200.svg",
-      "bytes": 150767,
-      "sha256": "34b349746cd872d2760bf317dd36b10fb9668e8651cf2a5c733d49f3bea95537"
+      "bytes": 150742,
+      "sha256": "4758a157aa8bb0d2b15234fa3b991b84f04969f11d2cbe795ef7fa97a4cb1ae4"
     },
     {
       "file": "screens/svg/person-cooldown-hidden--en--ios--100.svg",
-      "bytes": 150525,
-      "sha256": "3a02d5a36442fa0c26da898aed62eab01ca0823097ef79cea701180f8e9232e3"
+      "bytes": 150493,
+      "sha256": "98595e443372a09c33edefdbd4e28589623babf62bd5d97d77c3ea0d75d5f52d"
     },
     {
       "file": "screens/svg/person-cooldown-hidden--en--ios--200.svg",
-      "bytes": 150766,
-      "sha256": "41bd8d02236caf792bf9d511f050365b3e479dd7dce36642397a1ae40c19caf7"
+      "bytes": 150741,
+      "sha256": "5a9370316880cad6eea834a04f19f7aae00d255304ff32ed00a6824a2de6fc60"
     },
     {
       "file": "screens/svg/person-cooldown-hidden--tr--android--100.svg",
-      "bytes": 150532,
-      "sha256": "cc8d36b22e036deffed44a8df7ce3f43bd77fb694e11327ff277d8ea982bf00f"
+      "bytes": 150500,
+      "sha256": "10765e4e5e7336680ce3ee63dd5c77f87c6017c9baa79dd8aa005349f81a99c1"
     },
     {
       "file": "screens/svg/person-cooldown-hidden--tr--android--200.svg",
-      "bytes": 150785,
-      "sha256": "3f2ce487c06a93f6136ab6f7a5a352fb4a159185d02b0611b939641c0076b752"
+      "bytes": 150762,
+      "sha256": "ffce37ef51b8a954c506b2dab0df54701d1fcc5ff68f9cb437687fec011888e9"
     },
     {
       "file": "screens/svg/person-cooldown-hidden--tr--ios--100.svg",
-      "bytes": 150543,
-      "sha256": "81203c1a970451ed8522f21404634f2d0afec596352fc71396e73f41493aff50"
+      "bytes": 150513,
+      "sha256": "436969a7ec9dc9f89dabf92ecb835a0906640130e4b685a885505246aa1b4013"
     },
     {
       "file": "screens/svg/person-cooldown-hidden--tr--ios--200.svg",
-      "bytes": 150784,
-      "sha256": "a0ad8a4a3fc222abdff288e8587833a3c6f6fed66610f7c048e9b9e4f7315f64"
+      "bytes": 150761,
+      "sha256": "b5d938aa0c69b53e6d39dbe6687176b653fdc275c51c3f0b317b88091fd217f9"
     },
     {
       "file": "screens/svg/person-cooldown-visible--en--android--100.svg",
-      "bytes": 150715,
-      "sha256": "3c5eb523be86f3b1470f63c824a291aaac567af2eba57a11daad7ce5ba9c796b"
+      "bytes": 150602,
+      "sha256": "f5a5acaa861c8055ca04edbcd5a51b8674693bd532bfc7ef7b30081121c9a4f8"
     },
     {
       "file": "screens/svg/person-cooldown-visible--en--android--200.svg",
-      "bytes": 151053,
-      "sha256": "96bd774b6d1cbad90bf95bc09b63055ba44b5cd10204051abfe531bb0efc9a2e"
+      "bytes": 151028,
+      "sha256": "17e5b80bcbcd4cd5ca2bed9b09f6fb0c8896854f0eb238c729823b0d4290df80"
     },
     {
       "file": "screens/svg/person-cooldown-visible--en--ios--100.svg",
-      "bytes": 150729,
-      "sha256": "a8e39999be3afe08e7a8ad4f73dba5e4fd3b2d344e6371c9ad8276f02d04170c"
+      "bytes": 150613,
+      "sha256": "1c53fd40d8ef8053c60cf102afa8892996674f513f4e64c8f1d1820fc4379aa2"
     },
     {
       "file": "screens/svg/person-cooldown-visible--en--ios--200.svg",
-      "bytes": 151052,
-      "sha256": "02521216ab6306e44ba750121e09bbf4422d582ed8ba903fb87212296ec3af87"
+      "bytes": 151027,
+      "sha256": "94a996db100d433931ed52fb81a9747817292234d4a521e53cf994d6e97f2e9b"
     },
     {
       "file": "screens/svg/person-cooldown-visible--tr--android--100.svg",
-      "bytes": 150737,
-      "sha256": "7d1278066b5f4ee5e6cef102dc59bb4bebfa86c1b0a59986fd4fb469e3b095aa"
+      "bytes": 150626,
+      "sha256": "3e8e932bd85b3e63336eb1005435e77531053d05ba370534df7000bd9e81f4e7"
     },
     {
       "file": "screens/svg/person-cooldown-visible--tr--android--200.svg",
-      "bytes": 151075,
-      "sha256": "c4338b6b4172bab8e05586d1cd7a17971dc4af60e7e90d2caaf699290de12e68"
+      "bytes": 151052,
+      "sha256": "4a153f52e27730297901a8fddd2a1e66aff7be426260d35ebc1f3109d9851495"
     },
     {
       "file": "screens/svg/person-cooldown-visible--tr--ios--100.svg",
-      "bytes": 150751,
-      "sha256": "7e64b53c47dfe086f815ba0eefa2c23694ca1a2043b8c8c360a4e74107e8d77a"
+      "bytes": 150637,
+      "sha256": "9210e2a22837008cda04f04f00b85c3dc06a55651f29389042eee5660d54aa5f"
     },
     {
       "file": "screens/svg/person-cooldown-visible--tr--ios--200.svg",
-      "bytes": 151074,
-      "sha256": "359214ffe9d4a728c75076d8f3084c29b431031d7bb79ba8413f79d6f02770d1"
+      "bytes": 151051,
+      "sha256": "212af446ac0d106b228d8bb9dc1050caf55c1286059221c9ffa0ea54b0c3c02e"
     },
     {
       "file": "screens/svg/person-pending-hidden--en--android--100.svg",
-      "bytes": 150784,
-      "sha256": "fdd4059d6741ce9eda03f0237fe90973ec6836a777ae9875b72a03ec36a12427"
+      "bytes": 150748,
+      "sha256": "a7da8fcef2e75fa28582425d8df5c74db0dde4788c0de7bf9191eeb6e5ceb26d"
     },
     {
       "file": "screens/svg/person-pending-hidden--en--android--200.svg",
-      "bytes": 151006,
-      "sha256": "186fb6bb8b96290983928bd3173f44282439ac43f90fedb37effbbf39ea5c9fb"
+      "bytes": 150959,
+      "sha256": "6e544af6bad8f55172c87d96128b0f89ccc315123569544df2d2d8dd18c4a914"
     },
     {
       "file": "screens/svg/person-pending-hidden--en--ios--100.svg",
-      "bytes": 150910,
-      "sha256": "bfcb52421dcf60f71c0ac7e2245b43fd485fc33633f104fde2b70b7222402115"
+      "bytes": 150869,
+      "sha256": "a055cae85cb97ae55c7edff845ffc92b8fea8c430a2201c9b10d99ebb69ac6ea"
     },
     {
       "file": "screens/svg/person-pending-hidden--en--ios--200.svg",
-      "bytes": 151005,
-      "sha256": "754409c9b74b1a690dc389d802896590642e561b5f378d9fa00cbdbc00888035"
+      "bytes": 150958,
+      "sha256": "f0674e2eea0cd6b871f5e117832fd054fb2038b3f6d4ba29fd60f7f4f794b312"
     },
     {
       "file": "screens/svg/person-pending-hidden--tr--android--100.svg",
-      "bytes": 150802,
-      "sha256": "d43efe8d353dcca91422ce2212d65ff3151e31ac0fa91076f631cc8b3e885121"
+      "bytes": 150768,
+      "sha256": "64e6c49163a6c9790d3278f7de9362a9fbd0fa7419e39a4425f0b3bf6d9a46c4"
     },
     {
       "file": "screens/svg/person-pending-hidden--tr--android--200.svg",
-      "bytes": 151068,
-      "sha256": "49d5a30eb9a4c7f730aef11bafdc9aa6ee5c058cd71c6c00d1c75ca49bb9f90f"
+      "bytes": 151045,
+      "sha256": "a376089b8f05b5c32d2f6892912c351f042c1d7733b74175db35914100fe05af"
     },
     {
       "file": "screens/svg/person-pending-hidden--tr--ios--100.svg",
-      "bytes": 150816,
-      "sha256": "b421636dc917630223bff1a3fc7418d200357f7cd74dc23aa17b0ad6b4594824"
+      "bytes": 150779,
+      "sha256": "fec5deb588fe35d6609b50d7a729bf1b4f5d75ff98b42e2fabe1633848717554"
     },
     {
       "file": "screens/svg/person-pending-hidden--tr--ios--200.svg",
-      "bytes": 151067,
-      "sha256": "f95a83f9353eabdaa962fdd9770dbd80f6c5d8e2d9d6ddfca54864c16f1c7ffe"
+      "bytes": 151044,
+      "sha256": "1d0322a231558f2409f77bde52feea873f53a46cc11e2bed750625a00c747917"
     },
     {
       "file": "screens/svg/person-pending-visible--en--android--100.svg",
-      "bytes": 150910,
-      "sha256": "c474ffe83615ec3d49b6a54195575b5baf4f9017b2d0cf89e826857e3ec0f3d8"
+      "bytes": 150847,
+      "sha256": "dd68c48612bc81415892a6602a642dddde8b124039aa4386c53cd077dd30c42b"
     },
     {
       "file": "screens/svg/person-pending-visible--en--android--200.svg",
-      "bytes": 151424,
-      "sha256": "3fdc40231437dc022e6777cb8c30358f1ca98761497fa4bada15745cfe91dce1"
+      "bytes": 151399,
+      "sha256": "24d85206728a1101731a6563833cae1085d7050430af58cb6896f3ef48e398fe"
     },
     {
       "file": "screens/svg/person-pending-visible--en--ios--100.svg",
-      "bytes": 151162,
-      "sha256": "358303257fd4b21fca57f00c6422c545ab3f1536d7b41a448654e05d22880733"
+      "bytes": 151121,
+      "sha256": "90ed4bbdb000f65d6f4489026a924600f7ed9557cfc53346f0a4230d90b7c4fe"
     },
     {
       "file": "screens/svg/person-pending-visible--en--ios--200.svg",
-      "bytes": 151423,
-      "sha256": "5989bc0d7fa52038dac99cae64aed92fed66d4433e40c7bc0669c4e56a7c3755"
+      "bytes": 151398,
+      "sha256": "638a052e9014eea15d408804f325dd5003178efba646765de8b6630756015bb5"
     },
     {
       "file": "screens/svg/person-pending-visible--tr--android--100.svg",
-      "bytes": 150932,
-      "sha256": "8589a198afb03ae85324da2c42cd640d8392fa996e9292a62a1d8e612e27ba62"
+      "bytes": 150871,
+      "sha256": "8c5dfa9cfe19e7aa26415fa4a013da878a0c190dc7470bc9957f1bcb201375dc"
     },
     {
       "file": "screens/svg/person-pending-visible--tr--android--200.svg",
-      "bytes": 151358,
-      "sha256": "82392ce58e7fbbc33c4e33b13c64c35522a91051050df4b1ff83a5b6fd56a3f5"
+      "bytes": 151335,
+      "sha256": "4026a14df01642cee9ded17d818e1344c9165d6039ba271756e740504f6846ee"
     },
     {
       "file": "screens/svg/person-pending-visible--tr--ios--100.svg",
-      "bytes": 150942,
-      "sha256": "baaffa03a8317f37cb6a270a8d70a52da35eb21ddf732eeff878168e2b0b300c"
+      "bytes": 150881,
+      "sha256": "f3b222568e7e1efe6dacfd83576ce0e5cc444df304b6f7cbad0e292079bc542d"
     },
     {
       "file": "screens/svg/person-pending-visible--tr--ios--200.svg",
-      "bytes": 151357,
-      "sha256": "3f2f29f2aa0b8000e7b21de1983e99b9839ea9a3b4bd0308574cca0b661508a7"
+      "bytes": 151334,
+      "sha256": "d17c29d39a951f2977932807f236499a090783253de230f7a2aa3745996c80c1"
     },
     {
       "file": "screens/svg/photo-denied--en--android--100.svg",
@@ -12973,126 +12968,6 @@
       "sha256": "a50ecea60ad53457f5f72464fb153ccd8718f28f5cb45080a7f64a8159c3c80e"
     },
     {
-      "file": "screens/svg/report-block-busy--en--android--100.svg",
-      "bytes": 83173,
-      "sha256": "a757810755c3eb0f7ced0f282ae99df2448bc40265e4b923ff88b2b872434710"
-    },
-    {
-      "file": "screens/svg/report-block-busy--en--android--200.svg",
-      "bytes": 83694,
-      "sha256": "d6697a960a9001fea6bc78af5c5953ed1fdb15fd00d565a3f4823751ec37cb82"
-    },
-    {
-      "file": "screens/svg/report-block-busy--en--ios--100.svg",
-      "bytes": 83174,
-      "sha256": "fe37f7be986f427c70d9c2428edf640d12e25154749f04d59f69afa71d1224b5"
-    },
-    {
-      "file": "screens/svg/report-block-busy--en--ios--200.svg",
-      "bytes": 83862,
-      "sha256": "d967cf7b8a6dfc1a9bd53de56d0d9e2d9e67c054625b9f34ef1c862c79baf069"
-    },
-    {
-      "file": "screens/svg/report-block-busy--tr--android--100.svg",
-      "bytes": 83171,
-      "sha256": "0158a71a6a725e37c2d0a1387358db9ecf75095953b5be007f3a91fb6842706f"
-    },
-    {
-      "file": "screens/svg/report-block-busy--tr--android--200.svg",
-      "bytes": 83492,
-      "sha256": "085fd842eecf2b5e386691d9bd86ec9b80e3cac2015ee1d6a5426a0d03a97ec7"
-    },
-    {
-      "file": "screens/svg/report-block-busy--tr--ios--100.svg",
-      "bytes": 83172,
-      "sha256": "84f7a8fce6af4ac2a0532d8b4023a0be48462e2162f81ed67acbd69781f06cc9"
-    },
-    {
-      "file": "screens/svg/report-block-busy--tr--ios--200.svg",
-      "bytes": 83626,
-      "sha256": "adf2cf22ebdcd952c8e552d97a6dbfeafaf6f0fb5927df37e5e564643822f909"
-    },
-    {
-      "file": "screens/svg/report-block-done--en--android--100.svg",
-      "bytes": 82467,
-      "sha256": "17c6ebfb21143b67f9f94fb262b099325cd52e318b7bb0692cd5185a0ef1bc36"
-    },
-    {
-      "file": "screens/svg/report-block-done--en--android--200.svg",
-      "bytes": 82777,
-      "sha256": "e1dc60ddec958f8ea5a6fdad09fd44954fb148b341140495daaf57a15b44cf6a"
-    },
-    {
-      "file": "screens/svg/report-block-done--en--ios--100.svg",
-      "bytes": 82468,
-      "sha256": "aef9ae488452a71a9c8e91399217670d43224ebd8271ef40e733fb7064763b33"
-    },
-    {
-      "file": "screens/svg/report-block-done--en--ios--200.svg",
-      "bytes": 82779,
-      "sha256": "da94a40c104d9c80ba2dcfee21961fc0635226f7f1b68d2307dd93e11206a1ac"
-    },
-    {
-      "file": "screens/svg/report-block-done--tr--android--100.svg",
-      "bytes": 82451,
-      "sha256": "4294dce79ddd2768d3ff4f2818fe0a74223f0f0912251a99ddd8d25a0a15b2f4"
-    },
-    {
-      "file": "screens/svg/report-block-done--tr--android--200.svg",
-      "bytes": 82574,
-      "sha256": "e72a3c465d555edaa10f221e1707c9fca8f3182618af268ce27a9cf468f7e8e8"
-    },
-    {
-      "file": "screens/svg/report-block-done--tr--ios--100.svg",
-      "bytes": 82452,
-      "sha256": "132ee8e847feecbcbde3433a9a5156e8d489f862ff062d5be0b08aefb2f8b823"
-    },
-    {
-      "file": "screens/svg/report-block-done--tr--ios--200.svg",
-      "bytes": 82575,
-      "sha256": "5fff483b08b4e9a2a64e55e2ced122c3b2fe0de2aa29fc833d63007779f73a79"
-    },
-    {
-      "file": "screens/svg/report-block-failed--en--android--100.svg",
-      "bytes": 83337,
-      "sha256": "81ee8a65b3a842ab0e9a290785b5da99c853811488c0e353846a07d1c763cfbc"
-    },
-    {
-      "file": "screens/svg/report-block-failed--en--android--200.svg",
-      "bytes": 84004,
-      "sha256": "fa8b2443c03f205e90a57dc527df63c3503fdcb18a0833de5a8ccfa9c153538a"
-    },
-    {
-      "file": "screens/svg/report-block-failed--en--ios--100.svg",
-      "bytes": 83326,
-      "sha256": "2e7f2940b82bf88308917fa3a0c3c6a24af879c7d9461800f43ce28f9691a70f"
-    },
-    {
-      "file": "screens/svg/report-block-failed--en--ios--200.svg",
-      "bytes": 84170,
-      "sha256": "571a1e0cb23567f8088969daa7fe8d7c9e249bd307abb775b4304b1413a3ddca"
-    },
-    {
-      "file": "screens/svg/report-block-failed--tr--android--100.svg",
-      "bytes": 83321,
-      "sha256": "f1eac4c0d09ceb263223c7384ba521dcc9dc33445ee552f751ebacbb8e8ede3a"
-    },
-    {
-      "file": "screens/svg/report-block-failed--tr--android--200.svg",
-      "bytes": 83745,
-      "sha256": "83c742ff4432301a1aaade51ad50a91576dcfb01437d41d8358345c01e3badd3"
-    },
-    {
-      "file": "screens/svg/report-block-failed--tr--ios--100.svg",
-      "bytes": 83310,
-      "sha256": "5506681ac8f19671748faff638a17b4c0f810ee0a507ba67e1e8fb44009439e2"
-    },
-    {
-      "file": "screens/svg/report-block-failed--tr--ios--200.svg",
-      "bytes": 84008,
-      "sha256": "ba08bbc885faa27c3a1c7353277a772b4e5fdb162593a5e3309b663d23d69bac"
-    },
-    {
       "file": "screens/svg/report-empty--en--android--100.svg",
       "bytes": 83928,
       "sha256": "b5e82f3768c7dd7501068326ba291e8be6087e06475e6d1f04e279e2d46e70ea"
@@ -13294,43 +13169,43 @@
     },
     {
       "file": "screens/svg/report-sent--en--android--100.svg",
-      "bytes": 82777,
-      "sha256": "d0333f8cc65b79f01c123b245e98b18b7a654069a4cabd22af489c6e3c0f1e28"
+      "bytes": 82380,
+      "sha256": "d345044b1099d4bd044fbe4517250c6bcbc4173f4e006d4e1da8b87628ff62b2"
     },
     {
       "file": "screens/svg/report-sent--en--android--200.svg",
-      "bytes": 83284,
-      "sha256": "85ee75c69fd1c0e0a2e06b84333fed11a26a01b7f5afaa54ccf6f2c5ab9481df"
+      "bytes": 82690,
+      "sha256": "b58f946f72abd04cc7d51d6607844f5c21a8118d50fc01827c000ab154dedfef"
     },
     {
       "file": "screens/svg/report-sent--en--ios--100.svg",
-      "bytes": 82777,
-      "sha256": "bc34835b221b46e95256a9cbb2cc09cb4f67c0dce31b2eff4bcc77e5f504017e"
+      "bytes": 82381,
+      "sha256": "7708bb030238ed5be775cfc3b5039f4c94853a4ce0355ffcba06275ea81e0310"
     },
     {
       "file": "screens/svg/report-sent--en--ios--200.svg",
-      "bytes": 83441,
-      "sha256": "d08bfb54f65cf6c31557b68eff63760cd35ee66fe8d7006865547279da9ddb90"
+      "bytes": 82692,
+      "sha256": "db483c7388f78aab4520a908a3de9f94278db15827190a20f314033fe686d118"
     },
     {
       "file": "screens/svg/report-sent--tr--android--100.svg",
-      "bytes": 82771,
-      "sha256": "9726d5b29589aa3032d0781471294269c860c07db1cc5889fe893f2453b96b73"
+      "bytes": 82368,
+      "sha256": "d823130f288ddb5ae8c923203b8f4e1be1e3a153f32a9a1bed9711d913360a86"
     },
     {
       "file": "screens/svg/report-sent--tr--android--200.svg",
-      "bytes": 83100,
-      "sha256": "abf4d57b7b6951a340a6f9fed3b72751f60d50a8d13b0724344202efe4e30d40"
+      "bytes": 82491,
+      "sha256": "508aa9ff7afbdaf6d44277304e1fd0029d18e794415c96a668081fbf7d56393d"
     },
     {
       "file": "screens/svg/report-sent--tr--ios--100.svg",
-      "bytes": 82771,
-      "sha256": "cd1b68a1d27239343dc6f2400a8ba22902b37835f882b2705a29e609194b364e"
+      "bytes": 82369,
+      "sha256": "05c4c45a501e64c42daf711bd2a88ebd9dfaa99f52e94e73ccac224f409fe620"
     },
     {
       "file": "screens/svg/report-sent--tr--ios--200.svg",
-      "bytes": 83201,
-      "sha256": "df07dca310358a6a6830f871ed2ef1e0ad7e3b92ad54961b59ecc86b80155227"
+      "bytes": 82492,
+      "sha256": "a87639a365a8d018f5c372d22e6d81b99f8d5a824f3ff580e39586afbe41d6a1"
     },
     {
       "file": "screens/svg/report-unknown--en--android--100.svg",
@@ -14211,6 +14086,46 @@
       "file": "screens/svg/safety-menu--tr--ios--200.svg",
       "bytes": 148806,
       "sha256": "53b97cbf5e6ba690acb898848c8c4d6477d9208ecc3a2290ee6e325e3f452ee1"
+    },
+    {
+      "file": "screens/svg/safety-profile-menu--en--android--100.svg",
+      "bytes": 82122,
+      "sha256": "a068deccde60c47583ea703bb7bbefc056435b38afc464c2e012131650b0b0bd"
+    },
+    {
+      "file": "screens/svg/safety-profile-menu--en--android--200.svg",
+      "bytes": 82182,
+      "sha256": "867a519090eab463d3135c6cac2575571b0f0166ac4f2a836f0d2b1e71ffbe07"
+    },
+    {
+      "file": "screens/svg/safety-profile-menu--en--ios--100.svg",
+      "bytes": 82123,
+      "sha256": "895e72b45cb5aedf420039d779dbe6460045976cf2c1c33acb0634f522d6839a"
+    },
+    {
+      "file": "screens/svg/safety-profile-menu--en--ios--200.svg",
+      "bytes": 82183,
+      "sha256": "8dfdd07715acd195dcf9071e50eab83b162e20bd26fe7ae035d7df940467007b"
+    },
+    {
+      "file": "screens/svg/safety-profile-menu--tr--android--100.svg",
+      "bytes": 82130,
+      "sha256": "e558e050ae473e118e2aa73d5042a7ea49f7d5ffab2a4f1234ffd05118d37973"
+    },
+    {
+      "file": "screens/svg/safety-profile-menu--tr--android--200.svg",
+      "bytes": 82190,
+      "sha256": "fefd8cf59b4be7974dfa39267dec2932da89ce77a566562df5633e8ad49d8c50"
+    },
+    {
+      "file": "screens/svg/safety-profile-menu--tr--ios--100.svg",
+      "bytes": 82131,
+      "sha256": "edbf3b097edff698696f39cebbcf58f5e16f6af002f04c5f4f2186e6e6b0d658"
+    },
+    {
+      "file": "screens/svg/safety-profile-menu--tr--ios--200.svg",
+      "bytes": 82191,
+      "sha256": "d3ab009294f0711442b223231d536fc438b119db79cc92a9806f93285e9b1772"
     },
     {
       "file": "screens/svg/safety-unavailable--en--android--100.svg",
@@ -15214,83 +15129,83 @@
     },
     {
       "file": "screens/svg/view-other-hidden--en--android--100.svg",
-      "bytes": 150306,
-      "sha256": "db2f607865e3953a95a4297918a9597a63e7ce4b44674a24251c5bde7e5f56a7"
+      "bytes": 150259,
+      "sha256": "9e8d5dade79b5f5a750f71ecb3291ae98f16fa68597883d460528b79bb9e8077"
     },
     {
       "file": "screens/svg/view-other-hidden--en--android--200.svg",
-      "bytes": 150329,
-      "sha256": "2756543c7c7c391b90d39ef4fa6366e12b4d974a74579c94db0e57082b275e66"
+      "bytes": 150414,
+      "sha256": "518436f2f4fb2ca2f696afcd639b2ce29688391bf371e46edbf01cd848c51c78"
     },
     {
       "file": "screens/svg/view-other-hidden--en--ios--100.svg",
-      "bytes": 150318,
-      "sha256": "8f94b82b5d2c9b8bcbeea2e52a79a629e4f7276330ccab9eeec40ffd85fb55ad"
+      "bytes": 150225,
+      "sha256": "3704f2c5ff1d25de04fc90222ccb0f20403b9ee3a108c10be4296ad7cc7ddfe8"
     },
     {
       "file": "screens/svg/view-other-hidden--en--ios--200.svg",
-      "bytes": 150328,
-      "sha256": "3fe61af8e5754fe1a21d67aada0631058765cb410d6db01983aa5640e23b2e83"
+      "bytes": 150413,
+      "sha256": "391227fd0dc0e47b8bbb9a7d6b99aa67a3d23cbbc49c2c6ff0686a4eda168011"
     },
     {
       "file": "screens/svg/view-other-hidden--tr--android--100.svg",
-      "bytes": 150336,
-      "sha256": "788efbd7483286a593487c9bc3910af6327a4ccaeab692956a1dc6391d2ddaeb"
+      "bytes": 150291,
+      "sha256": "ab717efe1c9804751ef1ad82c0a8110c59242939bf798e04e2bd4901bb2dfa71"
     },
     {
       "file": "screens/svg/view-other-hidden--tr--android--200.svg",
-      "bytes": 150359,
-      "sha256": "6fc7e841bb3d4a445de47d093a8da6a40a230267119fbe1bce63269ecf35d743"
+      "bytes": 150446,
+      "sha256": "d3f8ff5d6e667945802ac20e17680baa7ed093ff78d8042b48b0d6b9c3e63099"
     },
     {
       "file": "screens/svg/view-other-hidden--tr--ios--100.svg",
-      "bytes": 150348,
-      "sha256": "87bd3f151637f6bb47abb77804c50ea2cd00d0a02f90d5e90de29ef924db389d"
+      "bytes": 150257,
+      "sha256": "c0e64288882682e618353f92b0dda95a500a996ad8c1fac558254a2ed102b4c4"
     },
     {
       "file": "screens/svg/view-other-hidden--tr--ios--200.svg",
-      "bytes": 150358,
-      "sha256": "3a34b9b8004751d1facbd67e997470e6725d8d92e663396b8785df9bb6750da3"
+      "bytes": 150445,
+      "sha256": "678d7569e8bcd8f7fd98710b6a23b010d63c30dcacece93753a4ed83eb2bf86e"
     },
     {
       "file": "screens/svg/view-other-visible--en--android--100.svg",
-      "bytes": 150560,
-      "sha256": "07b36f8d366fa9374698c352c28b17bc917e826d471366faf99d05c3ba472c9e"
+      "bytes": 150528,
+      "sha256": "9c57e062ac4ffb3582ff9480d7e9ccc6ea9ea7418da50b4a74b20d5497c6fc61"
     },
     {
       "file": "screens/svg/view-other-visible--en--android--200.svg",
-      "bytes": 150736,
-      "sha256": "705c321c6426571defb0526c50a9dfe7b8d6a42929d4819262288e9b6c2c3a61"
+      "bytes": 150711,
+      "sha256": "c516f4676de7f6ef0c2e253c2d6d759350f6f83564cb4c95d44d2bc5609c0160"
     },
     {
       "file": "screens/svg/view-other-visible--en--ios--100.svg",
-      "bytes": 150574,
-      "sha256": "f5ae96a030e2716ff4a8ebd7a9c8c463b91f1d83e562b18d84743031fdcefaa8"
+      "bytes": 150538,
+      "sha256": "ca4c32c844c804472714ab303b72404128699ac629252ae3a2019d81e2bc0aa9"
     },
     {
       "file": "screens/svg/view-other-visible--en--ios--200.svg",
-      "bytes": 150735,
-      "sha256": "97521354b852e68751eae9de01fd80bb6a212ce5afbe619ec7db272816ed8882"
+      "bytes": 150710,
+      "sha256": "18b8bcb248ad0c9bfeef63d09dafbb7c54ee90955484cb9547c8c29167f3bf8d"
     },
     {
       "file": "screens/svg/view-other-visible--tr--android--100.svg",
-      "bytes": 150594,
-      "sha256": "faad9c9d47e004c0d13f4d2091505edf91606ffa6af2fb3c46527804d8475e41"
+      "bytes": 150564,
+      "sha256": "868e8e846377d8c922c3a988dadb74c733d805dec1e298d7cb04ccb91dea9ed9"
     },
     {
       "file": "screens/svg/view-other-visible--tr--android--200.svg",
-      "bytes": 150770,
-      "sha256": "08d2661d265781d0c9607df1768af2efeef56fb9c6953ef4aa9e084ef0dee9f9"
+      "bytes": 150747,
+      "sha256": "d99ef7264c4f860b8095d4014084033dc8f03ce43bc002c7892454f2869610ec"
     },
     {
       "file": "screens/svg/view-other-visible--tr--ios--100.svg",
-      "bytes": 150608,
-      "sha256": "879fa3b6fdaf643613fdac7482a21e67ef45151479744400715fedc64cfb96ee"
+      "bytes": 150574,
+      "sha256": "b7481099b47103337eae5956b427aa2b320ef8cfb2177c9f35680d43a3628ec5"
     },
     {
       "file": "screens/svg/view-other-visible--tr--ios--200.svg",
-      "bytes": 150769,
-      "sha256": "c987a219d22f1ffeddfe98e8fe7eef829c7d6df492f6e8083d4671310b6df04d"
+      "bytes": 150746,
+      "sha256": "56b21861aa2003fb778bcb1479c85ee8bcb553b0d7dd563948634af4857b6e27"
     },
     {
       "file": "screens/svg/view-own-hidden--en--android--100.svg",
@@ -15534,8 +15449,13 @@
     },
     {
       "file": "specs/CHILD-SAFETY-2026-09-24.md",
-      "bytes": 1234,
-      "sha256": "b9cca8bd1734bc816c59faa9f0fff4d7e570b702ceb43b6219930107fa2c2bbc"
+      "bytes": 1279,
+      "sha256": "16aebc9b18a4af6417c4a7da6d2f0d5638c7ebffc8911f1636180fa7c5477d00"
+    },
+    {
+      "file": "specs/CODE-ALIGNMENT-CH141-143.md",
+      "bytes": 2766,
+      "sha256": "18c316b472bc8bf852e001f1d72c17339a611d0e668560c024992167d33e3f77"
     },
     {
       "file": "specs/CODE-SORULARI-CH138-ERT050.md",
@@ -15544,23 +15464,23 @@
     },
     {
       "file": "specs/END-CONNECTION-2026-09-24.md",
-      "bytes": 3053,
-      "sha256": "7d51d9774e5676d40628c8f37410d40ba87404de0362c3fd152096b8c77efd16"
+      "bytes": 3162,
+      "sha256": "8b972564c58a504200e4a3e5e085f31f7f036f262f49123225937410db845993"
     },
     {
       "file": "specs/KAPSAM.md",
-      "bytes": 1205,
-      "sha256": "b5bc922d33f2214dfeef36010d74b1f6ceed3a4ce8911197fcb2146058fa196a"
+      "bytes": 1473,
+      "sha256": "ed0d6fee7cf3efd26695cb745def9ca0f2cbee2462d7a5c50d12bcbfd0a034e3"
     },
     {
       "file": "specs/PROFILE-REPORT-2026-09-24.md",
-      "bytes": 1187,
-      "sha256": "8e5268d1ceb2ff6b36f0dcd9b7c673ec1c2106a62069b944e3826d24521f94e8"
+      "bytes": 650,
+      "sha256": "87adaea0c43899089361caef0fdcd250094e4eeaffd6523445b5bae859437d74"
     },
     {
       "file": "specs/TASARIM-DEVRI.md",
-      "bytes": 13599,
-      "sha256": "94f525081f113be8b787cbc8fa6fe8eca276baa5c48ecb548864d93a16002de6"
+      "bytes": 14078,
+      "sha256": "e141c56b62d02cf1f8ccb9bcdd14a15570874e9f3136632ef90dcf484540dfbd"
     },
     {
       "file": "specs/TELEFON-TURU-2026-09-24.md",
