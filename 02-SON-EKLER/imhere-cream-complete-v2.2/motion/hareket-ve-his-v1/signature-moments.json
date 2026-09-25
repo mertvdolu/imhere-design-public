@@ -237,7 +237,7 @@
     },
     {
       "id": "06-two-points",
-      "name": "Bağlantı — iki portre",
+      "name": "Bağlantı — tek karşı taraf portresi",
       "durationMs": 1000,
       "previewDurationMs": 3040,
       "spring": "expressive",
@@ -254,10 +254,10 @@
         {
           "fromMs": 0,
           "toMs": 650,
-          "property": "portrait horizontal offset each",
-          "from": "±28dp",
-          "to": 0,
-          "curve": "expressive; final72dp circles touch at centers distance72dp; clip/clamp to avoid overlap"
+          "property": "single peer portrait translateY",
+          "from": "8dp",
+          "to": "0",
+          "curve": "expressive; preserve static portrait crop and shape, no horizontal convergence"
         },
         {
           "fromMs": 300,
@@ -276,15 +276,22 @@
           "curve": "linear; visual reveal only, no automatic navigation or state mutation"
         }
       ],
-      "reducedOverride": "portraits static, no ring; full content and CTA fade150ms from confirmed event; one light haptic at0ms",
-      "interrupt": "Open-chat presentation fades850..1000ms after confirmation, as in approved plan. Existing navigation/back is never blocked; no automatic navigation or backend wait is introduced. Reduced motion exposes the CTA within150ms. If route is already being opened, skip the scene. Missing authorized portraits use existing placeholders.",
-      "flutter": "Transform.translate+ClipOval, CustomPainter ring; no new people photos or mutual intent inference",
+      "reducedOverride": "One peer portrait or neutral placeholder stays in its static position; no ring or translation. Content and CTA opacity0→1 over150ms.",
+      "interrupt": "Open-chat presentation fades850..1000ms after confirmation, as in approved plan. Existing navigation/back is never blocked; no automatic navigation or backend wait is introduced. Reduced motion exposes the CTA within150ms. If route is already being opened, skip the scene. Missing authorized portraits use existing placeholders. S2: no own-photo dependency; missing/unavailable peer photo uses current neutral placeholder, never a fabricated photo.",
+      "flutter": "Single existing peer portrait/placeholder, Transform.translate and opacity; preserve static slot and crop. No own-photo lookup. CustomPainter decorative ring.",
       "shared": {
         "hapticPolicy": "request at stated event-relative ms; deduplicate; respect system; preview cannot reproduce tactile feedback",
         "reduced": "150ms linear opacity only, no scale/translation/mask/loop/stagger; logo visible at 0ms exception",
         "dataGate": "never use animation completion as evidence of a backend transition"
       },
-      "previewNote": "Abstract storyboard, no actual user/data simulation. Extra final hold extends the clip to requested3–6s; not runtime waiting. Event markers are illustrative clocks, never a server timeout."
+      "previewNote": "Abstract storyboard, no actual user/data simulation. Extra final hold extends the clip to requested3–6s; not runtime waiting. Event markers are illustrative clocks, never a server timeout.",
+      "decisionS2": {
+        "portraitCount": 1,
+        "source": "peer only",
+        "ownPhotoRequired": false,
+        "missingPeerPhoto": "existing neutral profile placeholder; same geometry and timing",
+        "idCompatibility": "06-two-points retained as existing reference ID, no longer describes visual count"
+      }
     },
     {
       "id": "07-paper-message",

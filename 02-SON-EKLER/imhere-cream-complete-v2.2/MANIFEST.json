@@ -2,7 +2,7 @@
   "version": "2.2",
   "name": "IM HERE / Cream & Ink complete design",
   "date": "2026-09-24",
-  "files": 3139,
+  "files": 3140,
   "screenStates": 299,
   "svgVariants": 2392,
   "pngVariants": 598,
@@ -224,8 +224,8 @@
     },
     {
       "file": "catalog.js",
-      "bytes": 3098246,
-      "sha256": "cc7ddb2e21503c38dddce19e32e89aa4d49c6f47b736bd995d4f60665f4ea5d4"
+      "bytes": 3102614,
+      "sha256": "86f965a10861ebf692890a4161a301e1eb4d02a0913dd5a11d4f9f20497777e6"
     },
     {
       "file": "contracts/checkin-notices.json",
@@ -244,8 +244,8 @@
     },
     {
       "file": "contracts/screen-manifest.json",
-      "bytes": 4362704,
-      "sha256": "d7121d72d1b1831cacc42323e047324c68b322b83ae5fc0b7d9349c10845d5de"
+      "bytes": 4367888,
+      "sha256": "6c76fe610e45784b268cbb0ab8f289d1f14e27ae782ef9816fcd93420ac83157"
     },
     {
       "file": "evidence/assets-validation.json",
@@ -479,8 +479,8 @@
     },
     {
       "file": "motion/hareket-ve-his-v1/H0-DELIVERY.md",
-      "bytes": 10601,
-      "sha256": "34a973aab08736110f4f44ed412344e9a924b6c33ab1910ff6a6464d44529ede"
+      "bytes": 10675,
+      "sha256": "f7b38af27278659763c13bcf6abd8e4f935df30b591cc2ab4f439e48e87618a5"
     },
     {
       "file": "motion/hareket-ve-his-v1/MANAGER-NOTU.md",
@@ -493,14 +493,19 @@
       "sha256": "666b181a9da27b7ab58b7663739ae3e5c579917f9d694955ee85ccece734d17d"
     },
     {
+      "file": "motion/hareket-ve-his-v1/S2-DECISION.md",
+      "bytes": 745,
+      "sha256": "f78fe8d38de5ab60616503d8148eed5377a52978c5c2bb46ecb14bec89966c62"
+    },
+    {
       "file": "motion/hareket-ve-his-v1/SCREEN-FEEL-MAP.md",
       "bytes": 3084,
       "sha256": "5bbcd62b534a5bf112579c634543f41aa3309ebfa1e0795bb5306bdeec0e6d62"
     },
     {
       "file": "motion/hareket-ve-his-v1/SPEC.md",
-      "bytes": 16834,
-      "sha256": "4ce2cb979e7bd7009a770758f441cbe61826d95ed8a0c755d28a4dffd93b735f"
+      "bytes": 17167,
+      "sha256": "154befd0479864217d3bbbed37b484af319ec713a0dd7f9cf8ad620814e03a7c"
     },
     {
       "file": "motion/hareket-ve-his-v1/frames/01-ink-signature.csv",
@@ -529,8 +534,8 @@
     },
     {
       "file": "motion/hareket-ve-his-v1/frames/06-two-points.csv",
-      "bytes": 6170,
-      "sha256": "41ae117bc72a1674be0a106e3f0a1e33f04b304edd6be61f017bc6094b1e7b30"
+      "bytes": 6224,
+      "sha256": "a161f7d9d00ba4e392ea335b7777918c422ce1b6548bf4dc8a266150af24f626"
     },
     {
       "file": "motion/hareket-ve-his-v1/frames/07-paper-message.csv",
@@ -594,13 +599,13 @@
     },
     {
       "file": "motion/hareket-ve-his-v1/previews/06-two-points-poster.png",
-      "bytes": 28380,
-      "sha256": "7743f1801fb4aea625dae7cff1a89dd495c7704e740d1e4e985959d8d468b241"
+      "bytes": 30191,
+      "sha256": "f9019d6467d0c6fb86d9b53dd20be3c53f77fc1a1f9c366346462e1b1178b774"
     },
     {
       "file": "motion/hareket-ve-his-v1/previews/06-two-points.gif",
-      "bytes": 1690370,
-      "sha256": "f0b9c141e7d6aaf660a0e8deb9713b84ffff08eeaa25141fbec3353d682b5795"
+      "bytes": 1842995,
+      "sha256": "870ae290d9a53a1868a71f7036654e25612818102228782a76159a3f83847a07"
     },
     {
       "file": "motion/hareket-ve-his-v1/previews/07-paper-message-poster.png",
@@ -629,13 +634,13 @@
     },
     {
       "file": "motion/hareket-ve-his-v1/screen-motion-map.json",
-      "bytes": 32208,
-      "sha256": "c68ea6e61732ee950917a56718b6dfcbb088a16fb07b6fc084303a7f00e607da"
+      "bytes": 32437,
+      "sha256": "3a4650cee6ce969f62fcb78b86dac591f52a897fc24a2d725899af108433918c"
     },
     {
       "file": "motion/hareket-ve-his-v1/signature-moments.json",
-      "bytes": 16386,
-      "sha256": "ccfc08ce70ec75f027b20669076e377cd81fe9f812526c63b993f3186da789a4"
+      "bytes": 16934,
+      "sha256": "010859ae8049d42a4f5728a7b3c188ba57ca022eb4fbbbeb43f3b05fb77ea1fc"
     },
     {
       "file": "motion/hareket-ve-his-v1/source/hareket-ve-his-plani-v1.md",
@@ -644,8 +649,8 @@
     },
     {
       "file": "motion/hareket-ve-his-v1/validation.json",
-      "bytes": 4715,
-      "sha256": "1c210186d0fad0ef30661f7a65deedb56b1bef8a95568c968308fdf703cb9b87"
+      "bytes": 4905,
+      "sha256": "9a18164947560a0beeb092798a5ea570f7783519a0be633a7105d8bf49d0ef36"
     },
     {
       "file": "review/brand-review.png",

@@ -151,27 +151,19 @@ Yerleşme toleransı: konum0.001, hız0.01/s. Tepki350ms, “yay tam350ms sürer
 
 [Önizleme](previews/05-hello-ink.gif) · [60fps kare tablosu](frames/05-hello-ink.csv)
 
-## 06-two-points — Bağlantı — iki portre
+## 06-two-points — Bağlantı: tek karşı taraf portresi (S2)
 
-**Tetikleyici:** server confirms connection created, not just current user accepting. Play once for new connection ID; not on ordinary existing-chat open.
+**Karar:** statik ekran doğru; yalnız karşı tarafın TEK fotoğrafı kullanılır. İki portreli sahne iptal edildi. Mevcut referans ID geriye uyumluluk için korunur. Kendi fotoğrafı okunmaz/gerekmez. Karşı taraf fotoğrafı yoksa mevcut nötr profil yer tutucusu; aynı slot, kırpma ve hareket. Önizleme bu boş fotoğraf hâlini gösterir; açıklama storyboard etiketi, uygulama metni değildir.
 
-**Yay:** expressive
+| Başlangıç ms | Süre ms | Özellik | Eğri / değer |
+|---:|---:|---|---|
+|0|650|Tek karşı taraf portresi y=8→0dp, x sabit, alpha1|expressive ζ.75 / response.45s; statik fotoğraf şekli korunur|
+|300|700|Dekoratif halka r42→104, alpha.12→0|easeOutCubic; fotoğrafla veri ilişkisi yok|
+|850|150|Mevcut sohbeti aç düğmesi alpha0→1|linear; otomatik gezinme yok|
 
-| Başlangıç–bitiş (ms) | Özellik | Değer | Eğri / uygulama |
-|---|---|---|---|
-|0–650|portrait horizontal offset each|±28dp → 0|expressive; final72dp circles touch at centers distance72dp; clip/clamp to avoid overlap|
-|300–1000|single ink ring radius|42 → 104|easeOutCubic; opacity .12→0|
-|850–1000|existing open-chat CTA opacity|0 → 1|linear; visual reveal only, no automatic navigation or state mutation|
+Tetik: yeni bağlantı ID'si sunucudan doğrulanınca bir kez. Haptic+300ms tek lightImpact. Reduce Motion: yer değiştirme/halka yok, tek portre veya placeholder ve CTA150ms opaklık, haptic0ms tek. Kendi fotoğrafı yokken aynı tek karşı taraf görseli; iki boş portre oluşturulmaz.
 
-**Titreşim:** confirmed new connection +300ms: lightImpact.
-
-**Hareketi azalt:** portraits static, no ring; full content and CTA fade150ms from confirmed event; one light haptic at0ms
-
-**İptal/istisna:** Open-chat presentation fades850..1000ms after confirmation, as in approved plan. Existing navigation/back is never blocked; no automatic navigation or backend wait is introduced. Reduced motion exposes the CTA within150ms. If route is already being opened, skip the scene. Missing authorized portraits use existing placeholders.
-
-**Flutter:** Transform.translate+ClipOval, CustomPainter ring; no new people photos or mutual intent inference
-
-[Önizleme](previews/06-two-points.gif) · [60fps kare tablosu](frames/06-two-points.csv)
+[3.04s GIF, normal/azaltılmış + fotoğraf yok örneği](previews/06-two-points.gif) · [60fps kare tablosu](frames/06-two-points.csv)
 
 ## 07-paper-message — Mesaj — yerine oturan kâğıt
 
@@ -230,3 +222,7 @@ Yerel Flutter3.47.3 kaynakları kontrol edildi. Sıfır yeni bağımlılık sın
 Aktif oturumda I’m still here + Stop korunur (FD-47/FD-40); kenar dalgası düğmenin yerine geçmez. Sohbet Send simgesi composer içinde48×48; klavye ile aynı katmanda. İlk merhaba boş kartı ve ona bağlı nefes kaldırılmıştır. Paylaşım daveti yalnız doğrulanmış contact durumunda standart geçiştir. Profil kayıt dönüşü150ms opacity (profile-save-return). Başarılı rapor engellemeyi içerir; kapalı bağlantı satırı listeden kalkar.
 
 H0 önizlemeleri3.04–5.72 saniyedir; animasyon bittikten sonraki bekleme yalnız inceleme içindir. Canlı arayüz bekleme süresi değildir. H0-DELIVERY.md tek dosyalık özet ve önizleme dizinidir.
+
+## Code yerleşim teyitleri — S2
+
+Varlık dalgası yalnız harita sayfası görünürken oynar; check-in işlemi harita dışında dekorasyon başlatmaz. Hello sent, doğrulanmış istek sonrası bekleyen istek ekranının üstünde olay başına bir kez görünür. iOS sayfa geçişleri sistemindir; custom route yayı uygulanmaz. İmza anların iç öğe hareketleri bu kuraldan ayrıdır; Reduce Motion platform davranışı korunur.

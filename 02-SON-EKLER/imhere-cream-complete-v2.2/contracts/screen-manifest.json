@@ -111302,7 +111302,14 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "connectionMomentS2": {
+      "portraitCount": 1,
+      "source": "peer only",
+      "ownPhotoRequired": false,
+      "missingPeerPhoto": "existing neutral profile placeholder; same geometry and timing",
+      "idCompatibility": "06-two-points retained as existing reference ID, no longer describes visual count"
+    }
   },
   {
     "id": "match-different",
@@ -111375,7 +111382,14 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "connectionMomentS2": {
+      "portraitCount": 1,
+      "source": "peer only",
+      "ownPhotoRequired": false,
+      "missingPeerPhoto": "existing neutral profile placeholder; same geometry and timing",
+      "idCompatibility": "06-two-points retained as existing reference ID, no longer describes visual count"
+    }
   },
   {
     "id": "match-different",
@@ -111448,7 +111462,14 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "connectionMomentS2": {
+      "portraitCount": 1,
+      "source": "peer only",
+      "ownPhotoRequired": false,
+      "missingPeerPhoto": "existing neutral profile placeholder; same geometry and timing",
+      "idCompatibility": "06-two-points retained as existing reference ID, no longer describes visual count"
+    }
   },
   {
     "id": "match-different",
@@ -111521,7 +111542,14 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "connectionMomentS2": {
+      "portraitCount": 1,
+      "source": "peer only",
+      "ownPhotoRequired": false,
+      "missingPeerPhoto": "existing neutral profile placeholder; same geometry and timing",
+      "idCompatibility": "06-two-points retained as existing reference ID, no longer describes visual count"
+    }
   },
   {
     "id": "match-different",
@@ -111594,7 +111622,14 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "connectionMomentS2": {
+      "portraitCount": 1,
+      "source": "peer only",
+      "ownPhotoRequired": false,
+      "missingPeerPhoto": "existing neutral profile placeholder; same geometry and timing",
+      "idCompatibility": "06-two-points retained as existing reference ID, no longer describes visual count"
+    }
   },
   {
     "id": "match-different",
@@ -111667,7 +111702,14 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "connectionMomentS2": {
+      "portraitCount": 1,
+      "source": "peer only",
+      "ownPhotoRequired": false,
+      "missingPeerPhoto": "existing neutral profile placeholder; same geometry and timing",
+      "idCompatibility": "06-two-points retained as existing reference ID, no longer describes visual count"
+    }
   },
   {
     "id": "match-different",
@@ -111740,7 +111782,14 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "connectionMomentS2": {
+      "portraitCount": 1,
+      "source": "peer only",
+      "ownPhotoRequired": false,
+      "missingPeerPhoto": "existing neutral profile placeholder; same geometry and timing",
+      "idCompatibility": "06-two-points retained as existing reference ID, no longer describes visual count"
+    }
   },
   {
     "id": "match-different",
@@ -111813,7 +111862,14 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "connectionMomentS2": {
+      "portraitCount": 1,
+      "source": "peer only",
+      "ownPhotoRequired": false,
+      "missingPeerPhoto": "existing neutral profile placeholder; same geometry and timing",
+      "idCompatibility": "06-two-points retained as existing reference ID, no longer describes visual count"
+    }
   },
   {
     "id": "match-failed",
@@ -113519,7 +113575,14 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "connectionMomentS2": {
+      "portraitCount": 1,
+      "source": "peer only",
+      "ownPhotoRequired": false,
+      "missingPeerPhoto": "existing neutral profile placeholder; same geometry and timing",
+      "idCompatibility": "06-two-points retained as existing reference ID, no longer describes visual count"
+    }
   },
   {
     "id": "match-shared",
@@ -113593,7 +113656,14 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "connectionMomentS2": {
+      "portraitCount": 1,
+      "source": "peer only",
+      "ownPhotoRequired": false,
+      "missingPeerPhoto": "existing neutral profile placeholder; same geometry and timing",
+      "idCompatibility": "06-two-points retained as existing reference ID, no longer describes visual count"
+    }
   },
   {
     "id": "match-shared",
@@ -113667,7 +113737,14 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "connectionMomentS2": {
+      "portraitCount": 1,
+      "source": "peer only",
+      "ownPhotoRequired": false,
+      "missingPeerPhoto": "existing neutral profile placeholder; same geometry and timing",
+      "idCompatibility": "06-two-points retained as existing reference ID, no longer describes visual count"
+    }
   },
   {
     "id": "match-shared",
@@ -113741,7 +113818,14 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "connectionMomentS2": {
+      "portraitCount": 1,
+      "source": "peer only",
+      "ownPhotoRequired": false,
+      "missingPeerPhoto": "existing neutral profile placeholder; same geometry and timing",
+      "idCompatibility": "06-two-points retained as existing reference ID, no longer describes visual count"
+    }
   },
   {
     "id": "match-shared",
@@ -113815,7 +113899,14 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "connectionMomentS2": {
+      "portraitCount": 1,
+      "source": "peer only",
+      "ownPhotoRequired": false,
+      "missingPeerPhoto": "existing neutral profile placeholder; same geometry and timing",
+      "idCompatibility": "06-two-points retained as existing reference ID, no longer describes visual count"
+    }
   },
   {
     "id": "match-shared",
@@ -113889,7 +113980,14 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "connectionMomentS2": {
+      "portraitCount": 1,
+      "source": "peer only",
+      "ownPhotoRequired": false,
+      "missingPeerPhoto": "existing neutral profile placeholder; same geometry and timing",
+      "idCompatibility": "06-two-points retained as existing reference ID, no longer describes visual count"
+    }
   },
   {
     "id": "match-shared",
@@ -113963,7 +114061,14 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "connectionMomentS2": {
+      "portraitCount": 1,
+      "source": "peer only",
+      "ownPhotoRequired": false,
+      "missingPeerPhoto": "existing neutral profile placeholder; same geometry and timing",
+      "idCompatibility": "06-two-points retained as existing reference ID, no longer describes visual count"
+    }
   },
   {
     "id": "match-shared",
@@ -114037,7 +114142,14 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "connectionMomentS2": {
+      "portraitCount": 1,
+      "source": "peer only",
+      "ownPhotoRequired": false,
+      "missingPeerPhoto": "existing neutral profile placeholder; same geometry and timing",
+      "idCompatibility": "06-two-points retained as existing reference ID, no longer describes visual count"
+    }
   },
   {
     "id": "messages-connections-empty",

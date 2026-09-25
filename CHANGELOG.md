@@ -1,5 +1,10 @@
 # Değişiklik kaydı
 
+## H0 S2 — tek portre · 2026-09-25
+
+- Statik tek karşı taraf fotoğrafı korundu;06 hareketi ve GIF/CSV tek portreye uyarlandı. Kendi fotoğrafı gerekmez; fotoğraf yok örneği nötr placeholder.
+- Haritada dalga, bekleyen ekranda Hello sent, iOS sistem rota geçişleri kaydedildi. Devir: `motion/hareket-ve-his-v1/S2-DECISION.md`.
+
 ## Bildirim metinleri v2 · 2026-09-25
 
 - Kabul / iletişim paylaşımı bildirim gövdeleri TR/EN eklendi; notificationIntro yeniden istek ve mesajları kapsar. Adsız, başlıksız; CH-133 değişmez.

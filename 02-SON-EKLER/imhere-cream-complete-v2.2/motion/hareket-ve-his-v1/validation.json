@@ -193,5 +193,13 @@
     "nativeDeviceTest": false,
     "runtimeDependencyChanges": false,
     "review": "normal and reduced side by side; diagram placeholders only; palette from current theme; composer send inside48x48"
+  },
+  "S2": {
+    "portraitCount": 1,
+    "ownPhotoRequired": false,
+    "preview": "missing peer photo",
+    "durationMs": 3040,
+    "otherSixGifsUnchanged": true,
+    "nativeTest": false
   }
 }

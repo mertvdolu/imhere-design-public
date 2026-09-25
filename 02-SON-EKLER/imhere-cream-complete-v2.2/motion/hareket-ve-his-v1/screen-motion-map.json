@@ -1408,5 +1408,10 @@
   },
   "signatureRefs": "signature-moments.json",
   "runtimeGuards": "A reference identifies possible transitions, not unconditional play on every state. Error/loading/offline states never run success motions.",
-  "changeNotice": "Founder superseding decision 2026-09-24: ended cards no longer remain in list."
+  "changeNotice": "Founder superseding decision 2026-09-24: ended cards no longer remain in list.",
+  "placementS2": {
+    "presence": "map route visible only",
+    "hello": "pending request screen top, once per acknowledged request ID",
+    "iosRoutes": "native system transitions; do not replace with custom route spring"
+  }
 }

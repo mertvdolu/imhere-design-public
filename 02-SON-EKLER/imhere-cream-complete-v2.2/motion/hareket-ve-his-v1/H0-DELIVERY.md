@@ -120,23 +120,19 @@ Titreşim: {'event': 'successful request acknowledgement', 'atMs': 0, 'type': 'l
 
 İptal: failed/offline/unknown => no sent reveal and no success haptic. Timeout is not success. Very fast response may skip pending flicker. Rebuild/reentry does not replay.
 
-### 06-two-points — Bağlantı — iki portre
+### 06-two-points — Bağlantı: tek karşı taraf portresi (S2)
 
-[GIF (3.04s)](previews/06-two-points.gif) · [Kare kare60fps CSV](frames/06-two-points.csv)
+**Karar:** statik ekran doğru; yalnız karşı tarafın TEK fotoğrafı kullanılır. İki portreli sahne iptal edildi. Mevcut referans ID geriye uyumluluk için korunur. Kendi fotoğrafı okunmaz/gerekmez. Karşı taraf fotoğrafı yoksa mevcut nötr profil yer tutucusu; aynı slot, kırpma ve hareket. Önizleme bu boş fotoğraf hâlini gösterir; açıklama storyboard etiketi, uygulama metni değildir.
 
-Tetikleyici: server confirms connection created, not just current user accepting. Play once for new connection ID; not on ordinary existing-chat open.
+| Başlangıç ms | Süre ms | Özellik | Eğri / değer |
+|---:|---:|---|---|
+|0|650|Tek karşı taraf portresi y=8→0dp, x sabit, alpha1|expressive ζ.75 / response.45s; statik fotoğraf şekli korunur|
+|300|700|Dekoratif halka r42→104, alpha.12→0|easeOutCubic; fotoğrafla veri ilişkisi yok|
+|850|150|Mevcut sohbeti aç düğmesi alpha0→1|linear; otomatik gezinme yok|
 
-| Başlangıç ms | Süre ms | Özellik / konum | Değer | Eğri / opaklık |
-|---:|---:|---|---|---|
-|0|650|portrait horizontal offset each|±28dp → 0|expressive; final72dp circles touch at centers distance72dp; clip/clamp to avoid overlap|
-|300|700|single ink ring radius|42 → 104|easeOutCubic; opacity .12→0|
-|850|150|existing open-chat CTA opacity|0 → 1|linear; visual reveal only, no automatic navigation or state mutation|
+Tetik: yeni bağlantı ID'si sunucudan doğrulanınca bir kez. Haptic+300ms tek lightImpact. Reduce Motion: yer değiştirme/halka yok, tek portre veya placeholder ve CTA150ms opaklık, haptic0ms tek. Kendi fotoğrafı yokken aynı tek karşı taraf görseli; iki boş portre oluşturulmaz.
 
-Hareketi azalt: portraits static, no ring; full content and CTA fade150ms from confirmed event; one light haptic at0ms
-
-Titreşim: {'event': 'confirmed new connection', 'atMs': 300, 'type': 'lightImpact', 'note': 'cancel delayed haptic if leaving/backgrounded; never wait for haptic to enable action'}
-
-İptal: Open-chat presentation fades850..1000ms after confirmation, as in approved plan. Existing navigation/back is never blocked; no automatic navigation or backend wait is introduced. Reduced motion exposes the CTA within150ms. If route is already being opened, skip the scene. Missing authorized portraits use existing placeholders.
+[3.04s GIF, normal/azaltılmış + fotoğraf yok örneği](previews/06-two-points.gif) · [60fps kare tablosu](frames/06-two-points.csv)
 
 ### 07-paper-message — Mesaj — yerine oturan kâğıt
 
@@ -169,3 +165,5 @@ Titreşim: Yok
 - Kaynak plan arşivi değiştirilmedi. Motion token değerleri ve mevcut ürün davranışı değiştirilmedi.
 
 Yerel commit; aktarımı Code yapar. Bu dosya tek giriş noktasıdır.
+
+S2: tek karşı taraf portresi seçildi. Harita dalgası yalnız haritada; Hello sent bekleyen ekranının üstünde bir kez; iOS rota geçişleri sistemin.
