@@ -1,10 +1,10 @@
 # Hareket ve His — Uygulama spesifikasyonu v1.0
 
-**Cream & Ink v2.2 · 24 Eylül 2026 · Tasarım teslimi; native uygulama değildir.**
+**Cream & Ink v2.2 · 25 Eylül 2026 · H0 final · Tasarım teslimi; native uygulama değildir.**
 
 ## Kaynak ve kararlar
 
-Founder onaylı kaynak `source/hareket-ve-his-plani-v1.md` arşivlendi. Plandaki 295 durum sayısı eski; güncel katalog **296 durum / 2368 SVG**. Bu iş yeni ekran durumu eklemez.
+Founder onaylı kaynak `source/hareket-ve-his-plani-v1.md` arşivlendi. Plandaki 295 durum sayısı eski; güncel katalog **297 durum / 2376 SVG**. Bu iş yeni ekran durumu eklemez.
 
 - Founder ek yanıtı: “sınırların kenarından … 0 noktasından başlamasın”. Varlık dalgası **harita viewport kenarından içeri** başlar; coğrafi sınır/yarıçap, kendi noktan veya başka kişi işareti değildir. Dört semantik harita rengi, sayısız/mesafesiz gösterim ve attribution korunur. Nokta yerine yalnız dekoratif kenar vurgusu nefes alır.
 - **Güncel Founder kararı (2026-09-24):** Bağlantı bitince kart listeden kalkar. Önceki kartı tutma kararı geçersizdir. Yalnız doğrulanmış bitişte satır150ms opaklıkla çıkar; normal harekette yeri150ms daralır, azaltılmış harekette yer değiştirme animasyonu yoktur. Liste boşalırsa mevcut boş durum açılır. Bu, geçmişin anında silinmesi değildir.
@@ -18,7 +18,7 @@ Founder onaylı kaynak `source/hareket-ve-his-plani-v1.md` arşivlendi. Plandaki
 - `frames/*.csv`: **her 16.6667ms** için 60fps örnek değerleri. Bunlar süre garantisi değildir; Flutter gerçek geçen zamanla örnekler.
 - `previews/*.gif`: her an için normal/azaltılmış yan yana, **25fps tasarım önizlemesi**. Tek oynatma; HTML'de kendiliğinden başlamaz.
 - `screen-motion-map.json`: katalogdaki her durumun referansı; bunlar her girişte koşulsuz oynatma talimatı değildir.
-- `reference/motion_primitives.dart`: Flutter yerleşik araçlarıyla küçük referans çekirdeği. Uygulama entegrasyonu ve cihaz QA'sı Code'da.
+- `reference/` önceki teslimin tarihsel referansıdır; H0 finalinde kod yazılmadı/değiştirilmedi. Bu teslimin uygulama sözleşmesi JSON, CSV ve bu belgedir.
 
 ## Yayların kesin anlamı
 
@@ -224,3 +224,9 @@ Yerel Flutter3.47.3 kaynakları kontrol edildi. Sıfır yeni bağımlılık sın
 - [Hero](https://api.flutter.dev/flutter/widgets/Hero-class.html): aynı tag ve ilk destination frame gereği.
 - [PredictiveBackPageTransitionsBuilder](https://api.flutter.dev/flutter/material/PredictiveBackPageTransitionsBuilder-class.html): yerleşik Android geri geçişi; desteklenmeyen sürümde platform fallback.
 - [HapticFeedback](https://api.flutter.dev/flutter/services/HapticFeedback-class.html): platform geri bildirimi, kesin fiziksel zamanlama garantisi yok.
+
+## H0 final — son kararlarla uyum
+
+Aktif oturumda I’m still here + Stop korunur (FD-47/FD-40); kenar dalgası düğmenin yerine geçmez. Sohbet Send simgesi composer içinde48×48; klavye ile aynı katmanda. İlk merhaba boş kartı ve ona bağlı nefes kaldırılmıştır. Paylaşım daveti yalnız doğrulanmış contact durumunda standart geçiştir. Profil kayıt dönüşü150ms opacity (profile-save-return). Başarılı rapor engellemeyi içerir; kapalı bağlantı satırı listeden kalkar.
+
+H0 önizlemeleri3.04–5.72 saniyedir; animasyon bittikten sonraki bekleme yalnız inceleme içindir. Canlı arayüz bekleme süresi değildir. H0-DELIVERY.md tek dosyalık özet ve önizleme dizinidir.

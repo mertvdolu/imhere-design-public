@@ -13,7 +13,7 @@
       "id": "01-ink-signature",
       "name": "Mürekkep imzası",
       "durationMs": 800,
-      "previewDurationMs": 1400,
+      "previewDurationMs": 3040,
       "spring": null,
       "trigger": "first Flutter frame of cold process start; never warm resume",
       "haptics": [],
@@ -51,13 +51,14 @@
         "hapticPolicy": "request at stated event-relative ms; deduplicate; respect system; preview cannot reproduce tactile feedback",
         "reduced": "150ms linear opacity only, no scale/translation/mask/loop/stagger; logo visible at 0ms exception",
         "dataGate": "never use animation completion as evidence of a backend transition"
-      }
+      },
+      "previewNote": "Abstract storyboard, no actual user/data simulation. Extra final hold extends the clip to requested3–6s; not runtime waiting. Event markers are illustrative clocks, never a server timeout."
     },
     {
       "id": "02-presence-boundary",
       "name": "Varlık dalgası — kenardan",
       "durationMs": 1200,
-      "previewDurationMs": 5700,
+      "previewDurationMs": 5720,
       "spring": "expressive",
       "trigger": "authoritative check-in active state confirmed; no wave during acquiring/verifying/unknown",
       "haptics": [
@@ -109,13 +110,14 @@
         "hapticPolicy": "request at stated event-relative ms; deduplicate; respect system; preview cannot reproduce tactile feedback",
         "reduced": "150ms linear opacity only, no scale/translation/mask/loop/stagger; logo visible at 0ms exception",
         "dataGate": "never use animation completion as evidence of a backend transition"
-      }
+      },
+      "previewNote": "Abstract storyboard, no actual user/data simulation. Extra final hold extends the clip to requested3–6s; not runtime waiting. Event markers are illustrative clocks, never a server timeout."
     },
     {
       "id": "03-paper-list",
       "name": "Kâğıt yerleşmesi",
       "durationMs": 684,
-      "previewDurationMs": 1400,
+      "previewDurationMs": 3040,
       "spring": "standard",
       "trigger": "committed visible list diff; new real IDs only",
       "haptics": [],
@@ -144,13 +146,14 @@
         "hapticPolicy": "request at stated event-relative ms; deduplicate; respect system; preview cannot reproduce tactile feedback",
         "reduced": "150ms linear opacity only, no scale/translation/mask/loop/stagger; logo visible at 0ms exception",
         "dataGate": "never use animation completion as evidence of a backend transition"
-      }
+      },
+      "previewNote": "Abstract storyboard, no actual user/data simulation. Extra final hold extends the clip to requested3–6s; not runtime waiting. Event markers are illustrative clocks, never a server timeout."
     },
     {
       "id": "04-photo-hero",
       "name": "Fotoğraf kahramanı",
       "durationMs": 484,
-      "previewDurationMs": 1800,
+      "previewDurationMs": 3040,
       "spring": "standard (programmatic only)",
       "trigger": "tap on accessible profile with the same authorized cached photo at source and destination",
       "haptics": [],
@@ -187,13 +190,14 @@
         "hapticPolicy": "request at stated event-relative ms; deduplicate; respect system; preview cannot reproduce tactile feedback",
         "reduced": "150ms linear opacity only, no scale/translation/mask/loop/stagger; logo visible at 0ms exception",
         "dataGate": "never use animation completion as evidence of a backend transition"
-      }
+      },
+      "previewNote": "Abstract storyboard, no actual user/data simulation. Extra final hold extends the clip to requested3–6s; not runtime waiting. Event markers are illustrative clocks, never a server timeout."
     },
     {
       "id": "05-hello-ink",
       "name": "Merhaba — el yazısı",
       "durationMs": 500,
-      "previewDurationMs": 1700,
+      "previewDurationMs": 3040,
       "spring": null,
       "trigger": "request success acknowledgement, unique operation ID. Network waiting is unbounded.",
       "haptics": [
@@ -228,13 +232,14 @@
         "hapticPolicy": "request at stated event-relative ms; deduplicate; respect system; preview cannot reproduce tactile feedback",
         "reduced": "150ms linear opacity only, no scale/translation/mask/loop/stagger; logo visible at 0ms exception",
         "dataGate": "never use animation completion as evidence of a backend transition"
-      }
+      },
+      "previewNote": "Abstract storyboard, no actual user/data simulation. Extra final hold extends the clip to requested3–6s; not runtime waiting. Event markers are illustrative clocks, never a server timeout."
     },
     {
       "id": "06-two-points",
       "name": "Bağlantı — iki portre",
       "durationMs": 1000,
-      "previewDurationMs": 1600,
+      "previewDurationMs": 3040,
       "spring": "expressive",
       "trigger": "server confirms connection created, not just current user accepting. Play once for new connection ID; not on ordinary existing-chat open.",
       "haptics": [
@@ -278,13 +283,14 @@
         "hapticPolicy": "request at stated event-relative ms; deduplicate; respect system; preview cannot reproduce tactile feedback",
         "reduced": "150ms linear opacity only, no scale/translation/mask/loop/stagger; logo visible at 0ms exception",
         "dataGate": "never use animation completion as evidence of a backend transition"
-      }
+      },
+      "previewNote": "Abstract storyboard, no actual user/data simulation. Extra final hold extends the clip to requested3–6s; not runtime waiting. Event markers are illustrative clocks, never a server timeout."
     },
     {
       "id": "07-paper-message",
       "name": "Mesaj — yerine oturan kâğıt",
       "durationMs": 484,
-      "previewDurationMs": 1900,
+      "previewDurationMs": 3040,
       "spring": "standard",
       "trigger": "outgoing: acknowledged message ID inserted; incoming: actual newly received authorized message ID",
       "haptics": [],
@@ -329,7 +335,10 @@
         "hapticPolicy": "request at stated event-relative ms; deduplicate; respect system; preview cannot reproduce tactile feedback",
         "reduced": "150ms linear opacity only, no scale/translation/mask/loop/stagger; logo visible at 0ms exception",
         "dataGate": "never use animation completion as evidence of a backend transition"
-      }
+      },
+      "previewNote": "Abstract storyboard, no actual user/data simulation. Extra final hold extends the clip to requested3–6s; not runtime waiting. Event markers are illustrative clocks, never a server timeout."
     }
-  ]
+  ],
+  "delivery": "H0 final 2026-09-25",
+  "catalogStates": 297
 }

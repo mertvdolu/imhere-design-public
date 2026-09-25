@@ -1,5 +1,10 @@
 # Değişiklik kaydı
 
+## Cream & Ink v2.2 — H0 hareket finali · 2026-09-25
+
+- Plan belirteçleri korundu;7 imza an zamanlaması ve60fps kare tabloları tamamlandı. GIF süreleri3.04–5.72s; gerçek tema renkleri ve composer içi Send ile yeniden üretildi.
+- §6 his haritası,297 durum eşleştirmesi ve tek dosyalık `motion/hareket-ve-his-v1/H0-DELIVERY.md` teslim girişi. Uygulama kodu/dependency değişikliği yok. Yerel commit; aktarım Code.
+
 ## Cream & Ink v2.2 — T1 geri alma / bildirim kapsamı · 2026-09-25
 
 - FD-47/FD-40: aktif oturumda I’m still here ve Stop korundu; T1 öncesi8 durum geri getirildi. T2–T4 ve H teslimleri değişmez.

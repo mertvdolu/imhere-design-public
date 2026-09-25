@@ -1247,5 +1247,22 @@
     "otherSvgUnchanged": true,
     "fullArbsUnchanged": true,
     "nativeAppTest": false
+  },
+  "H0Final20260925": {
+    "previews": 7,
+    "durationsMs": [
+      3040,
+      5720,
+      3040,
+      3040,
+      3040,
+      3040,
+      3040
+    ],
+    "mappedStates": 297,
+    "tokensMatchApprovedPlan": true,
+    "sourcePlanExactMatch": true,
+    "nativeAppTest": false,
+    "noAppCodeWritten": true
   }
 }

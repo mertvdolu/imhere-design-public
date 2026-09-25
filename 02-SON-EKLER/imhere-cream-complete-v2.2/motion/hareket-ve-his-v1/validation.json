@@ -105,5 +105,93 @@
     "reducedMotion": "same opacity150",
     "chatEmptyBreatheRemoved": true,
     "nativeTest": false
+  },
+  "H0Final20260925": {
+    "previews": [
+      {
+        "id": "01-ink-signature",
+        "durationMs": 3040,
+        "gifFrames": 76,
+        "frameTableRows": 181,
+        "size": [
+          780,
+          870
+        ],
+        "loop": false
+      },
+      {
+        "id": "02-presence-boundary",
+        "durationMs": 5720,
+        "gifFrames": 143,
+        "frameTableRows": 343,
+        "size": [
+          780,
+          870
+        ],
+        "loop": false
+      },
+      {
+        "id": "03-paper-list",
+        "durationMs": 3040,
+        "gifFrames": 76,
+        "frameTableRows": 181,
+        "size": [
+          780,
+          870
+        ],
+        "loop": false
+      },
+      {
+        "id": "04-photo-hero",
+        "durationMs": 3040,
+        "gifFrames": 76,
+        "frameTableRows": 181,
+        "size": [
+          780,
+          870
+        ],
+        "loop": false
+      },
+      {
+        "id": "05-hello-ink",
+        "durationMs": 3040,
+        "gifFrames": 76,
+        "frameTableRows": 181,
+        "size": [
+          780,
+          870
+        ],
+        "loop": false
+      },
+      {
+        "id": "06-two-points",
+        "durationMs": 3040,
+        "gifFrames": 76,
+        "frameTableRows": 181,
+        "size": [
+          780,
+          870
+        ],
+        "loop": false
+      },
+      {
+        "id": "07-paper-message",
+        "durationMs": 3040,
+        "gifFrames": 76,
+        "frameTableRows": 181,
+        "size": [
+          780,
+          870
+        ],
+        "loop": false
+      }
+    ],
+    "sourcePlanExactMatch": true,
+    "tokensUnchanged": true,
+    "mappedStates": 297,
+    "noCodeChanges": true,
+    "nativeDeviceTest": false,
+    "runtimeDependencyChanges": false,
+    "review": "normal and reduced side by side; diagram placeholders only; palette from current theme; composer send inside48x48"
   }
 }
