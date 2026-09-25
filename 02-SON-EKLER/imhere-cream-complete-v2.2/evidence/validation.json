@@ -1264,5 +1264,15 @@
     "sourcePlanExactMatch": true,
     "nativeAppTest": false,
     "noAppCodeWritten": true
+  },
+  "notificationV2": {
+    "svg": 24,
+    "png": 6,
+    "keys": 3,
+    "fullArbsUnchanged": true,
+    "CH133Unchanged": true,
+    "states": 299,
+    "beta": 292,
+    "nativeTest": false
   }
 }

@@ -1,0 +1,15 @@
+{
+  "@@locale": "tr",
+  "notificationRequestAccepted": "İsteğin kabul edildi.",
+  "notificationContactShared": "Seninle iletişim bilgileri paylaşıldı.",
+  "notificationIntro": "İsteklerden ve mesajlardan haberdar ol.",
+  "@notificationRequestAccepted": {
+    "description": "Notification v2 approved copy. Generic body only, no title/name/message content; CH-133 unchanged."
+  },
+  "@notificationContactShared": {
+    "description": "Notification v2 approved copy. Generic body only, no title/name/message content; CH-133 unchanged."
+  },
+  "@notificationIntro": {
+    "description": "Notification v2 approved copy. Generic body only, no title/name/message content; CH-133 unchanged."
+  }
+}

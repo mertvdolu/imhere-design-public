@@ -1398,6 +1398,12 @@
       "07-paper-message",
       "keyboard-follow",
       "tab-indicator"
+    ],
+    "push-request-accepted": [
+      "base-route"
+    ],
+    "push-contact-shared": [
+      "base-route"
     ]
   },
   "signatureRefs": "signature-moments.json",

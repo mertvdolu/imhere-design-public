@@ -1,3 +1,5 @@
+> Son teslim: bildirim metinleri v2; güncel299 durum /2392 SVG /598 PNG, beta292 +7 ertelenen. Devir: specs/NOTIFICATION-V2-COPY.md.
+
 > Güncel H teslimi: 297 durum · 2376 SVG · 594 PNG · beta 290 / ertelenen 7. Önceki teslim sayıları tarihsel kayıt olarak kalır.
 
 KİME: MANAGER

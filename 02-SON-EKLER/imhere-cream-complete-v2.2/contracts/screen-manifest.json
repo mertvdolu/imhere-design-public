@@ -126689,7 +126689,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/notifications-intro--en--android--100.svg",
     "width": 412,
-    "height": 915,
+    "height": 953.4,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": null,
@@ -126750,11 +126750,13 @@
     "devTourH2H7H9H3": [
       "H2"
     ],
-    "notificationIntroCopy": {
-      "key": "notificationIntro",
-      "delta": "l10n/notification-requests-only-patch_en.arb",
-      "launchScope": "requests only; no message notification promise",
-      "future": "restore old wording only when message notifications actually ship"
+    "notificationCopyContract": {
+      "bodyKey": "notificationIntro",
+      "delta": "l10n/notification-v2-patch_en.arb",
+      "payloadTitle": null,
+      "personName": false,
+      "messageContent": false,
+      "foreground": "CH-133 unchanged; no new foreground policy defined"
     }
   },
   {
@@ -126767,7 +126769,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/notifications-intro--en--android--200.svg",
     "width": 412,
-    "height": 943,
+    "height": 1019.8,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": null,
@@ -126828,11 +126830,13 @@
     "devTourH2H7H9H3": [
       "H2"
     ],
-    "notificationIntroCopy": {
-      "key": "notificationIntro",
-      "delta": "l10n/notification-requests-only-patch_en.arb",
-      "launchScope": "requests only; no message notification promise",
-      "future": "restore old wording only when message notifications actually ship"
+    "notificationCopyContract": {
+      "bodyKey": "notificationIntro",
+      "delta": "l10n/notification-v2-patch_en.arb",
+      "payloadTitle": null,
+      "personName": false,
+      "messageContent": false,
+      "foreground": "CH-133 unchanged; no new foreground policy defined"
     }
   },
   {
@@ -126845,7 +126849,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/notifications-intro--en--ios--100.svg",
     "width": 390,
-    "height": 844,
+    "height": 882.4,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": null,
@@ -126906,11 +126910,13 @@
     "devTourH2H7H9H3": [
       "H2"
     ],
-    "notificationIntroCopy": {
-      "key": "notificationIntro",
-      "delta": "l10n/notification-requests-only-patch_en.arb",
-      "launchScope": "requests only; no message notification promise",
-      "future": "restore old wording only when message notifications actually ship"
+    "notificationCopyContract": {
+      "bodyKey": "notificationIntro",
+      "delta": "l10n/notification-v2-patch_en.arb",
+      "payloadTitle": null,
+      "personName": false,
+      "messageContent": false,
+      "foreground": "CH-133 unchanged; no new foreground policy defined"
     }
   },
   {
@@ -126923,7 +126929,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/notifications-intro--en--ios--200.svg",
     "width": 390,
-    "height": 1042,
+    "height": 1118.8,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": null,
@@ -126984,11 +126990,13 @@
     "devTourH2H7H9H3": [
       "H2"
     ],
-    "notificationIntroCopy": {
-      "key": "notificationIntro",
-      "delta": "l10n/notification-requests-only-patch_en.arb",
-      "launchScope": "requests only; no message notification promise",
-      "future": "restore old wording only when message notifications actually ship"
+    "notificationCopyContract": {
+      "bodyKey": "notificationIntro",
+      "delta": "l10n/notification-v2-patch_en.arb",
+      "payloadTitle": null,
+      "personName": false,
+      "messageContent": false,
+      "foreground": "CH-133 unchanged; no new foreground policy defined"
     }
   },
   {
@@ -127001,7 +127009,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/notifications-intro--tr--android--100.svg",
     "width": 412,
-    "height": 915,
+    "height": 953.4,
     "referenceViewportHeight": 915,
     "textScale": 1,
     "selectedTab": null,
@@ -127062,11 +127070,13 @@
     "devTourH2H7H9H3": [
       "H2"
     ],
-    "notificationIntroCopy": {
-      "key": "notificationIntro",
-      "delta": "l10n/notification-requests-only-patch_tr.arb",
-      "launchScope": "requests only; no message notification promise",
-      "future": "restore old wording only when message notifications actually ship"
+    "notificationCopyContract": {
+      "bodyKey": "notificationIntro",
+      "delta": "l10n/notification-v2-patch_tr.arb",
+      "payloadTitle": null,
+      "personName": false,
+      "messageContent": false,
+      "foreground": "CH-133 unchanged; no new foreground policy defined"
     }
   },
   {
@@ -127079,7 +127089,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/notifications-intro--tr--android--200.svg",
     "width": 412,
-    "height": 915,
+    "height": 991.8,
     "referenceViewportHeight": 915,
     "textScale": 2,
     "selectedTab": null,
@@ -127140,11 +127150,13 @@
     "devTourH2H7H9H3": [
       "H2"
     ],
-    "notificationIntroCopy": {
-      "key": "notificationIntro",
-      "delta": "l10n/notification-requests-only-patch_tr.arb",
-      "launchScope": "requests only; no message notification promise",
-      "future": "restore old wording only when message notifications actually ship"
+    "notificationCopyContract": {
+      "bodyKey": "notificationIntro",
+      "delta": "l10n/notification-v2-patch_tr.arb",
+      "payloadTitle": null,
+      "personName": false,
+      "messageContent": false,
+      "foreground": "CH-133 unchanged; no new foreground policy defined"
     }
   },
   {
@@ -127157,7 +127169,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/notifications-intro--tr--ios--100.svg",
     "width": 390,
-    "height": 844,
+    "height": 882.4,
     "referenceViewportHeight": 844,
     "textScale": 1,
     "selectedTab": null,
@@ -127218,11 +127230,13 @@
     "devTourH2H7H9H3": [
       "H2"
     ],
-    "notificationIntroCopy": {
-      "key": "notificationIntro",
-      "delta": "l10n/notification-requests-only-patch_tr.arb",
-      "launchScope": "requests only; no message notification promise",
-      "future": "restore old wording only when message notifications actually ship"
+    "notificationCopyContract": {
+      "bodyKey": "notificationIntro",
+      "delta": "l10n/notification-v2-patch_tr.arb",
+      "payloadTitle": null,
+      "personName": false,
+      "messageContent": false,
+      "foreground": "CH-133 unchanged; no new foreground policy defined"
     }
   },
   {
@@ -127235,7 +127249,7 @@
     "source": "imhere-design-v1.8",
     "file": "screens/svg/notifications-intro--tr--ios--200.svg",
     "width": 390,
-    "height": 894,
+    "height": 970.8,
     "referenceViewportHeight": 844,
     "textScale": 2,
     "selectedTab": null,
@@ -127296,11 +127310,13 @@
     "devTourH2H7H9H3": [
       "H2"
     ],
-    "notificationIntroCopy": {
-      "key": "notificationIntro",
-      "delta": "l10n/notification-requests-only-patch_tr.arb",
-      "launchScope": "requests only; no message notification promise",
-      "future": "restore old wording only when message notifications actually ship"
+    "notificationCopyContract": {
+      "bodyKey": "notificationIntro",
+      "delta": "l10n/notification-v2-patch_tr.arb",
+      "payloadTitle": null,
+      "personName": false,
+      "messageContent": false,
+      "foreground": "CH-133 unchanged; no new foreground policy defined"
     }
   },
   {
@@ -136424,6 +136440,462 @@
     }
   },
   {
+    "id": "push-contact-shared",
+    "group": "notifications",
+    "title": "İletişim paylaşım bildirimi",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "source": "Founder notification copy2026-09-25",
+    "file": "screens/svg/push-contact-shared--en--android--100.svg",
+    "width": 412,
+    "height": 953.4,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "actions": [],
+    "blocks": [
+      {
+        "kind": "notification-content-specimen",
+        "nativeSystemChrome": false,
+        "payloadType": "contact-shared",
+        "personalData": false
+      }
+    ],
+    "intents": {
+      "own": [],
+      "peer": null
+    },
+    "peerIdentity": false,
+    "ownContinue": null,
+    "composerVisible": false,
+    "composerEnabled": false,
+    "remaining": null,
+    "bubbles": [],
+    "contactFields": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Bildirimler",
+    "motion": {
+      "version": "1.0",
+      "references": [
+        "base-route"
+      ],
+      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
+      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "bodyKey": "notificationContactShared",
+    "notificationCopyContract": {
+      "bodyKey": "notificationContactShared",
+      "delta": "l10n/notification-v2-patch_en.arb",
+      "payloadTitle": null,
+      "personName": false,
+      "messageContent": false,
+      "foreground": "CH-133 unchanged; no new foreground policy defined"
+    }
+  },
+  {
+    "id": "push-contact-shared",
+    "group": "notifications",
+    "title": "İletişim paylaşım bildirimi",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "source": "Founder notification copy2026-09-25",
+    "file": "screens/svg/push-contact-shared--en--android--200.svg",
+    "width": 412,
+    "height": 991.8,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "actions": [],
+    "blocks": [
+      {
+        "kind": "notification-content-specimen",
+        "nativeSystemChrome": false,
+        "payloadType": "contact-shared",
+        "personalData": false
+      }
+    ],
+    "intents": {
+      "own": [],
+      "peer": null
+    },
+    "peerIdentity": false,
+    "ownContinue": null,
+    "composerVisible": false,
+    "composerEnabled": false,
+    "remaining": null,
+    "bubbles": [],
+    "contactFields": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Bildirimler",
+    "motion": {
+      "version": "1.0",
+      "references": [
+        "base-route"
+      ],
+      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
+      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "bodyKey": "notificationContactShared",
+    "notificationCopyContract": {
+      "bodyKey": "notificationContactShared",
+      "delta": "l10n/notification-v2-patch_en.arb",
+      "payloadTitle": null,
+      "personName": false,
+      "messageContent": false,
+      "foreground": "CH-133 unchanged; no new foreground policy defined"
+    }
+  },
+  {
+    "id": "push-contact-shared",
+    "group": "notifications",
+    "title": "İletişim paylaşım bildirimi",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "source": "Founder notification copy2026-09-25",
+    "file": "screens/svg/push-contact-shared--en--ios--100.svg",
+    "width": 390,
+    "height": 882.4,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "actions": [],
+    "blocks": [
+      {
+        "kind": "notification-content-specimen",
+        "nativeSystemChrome": false,
+        "payloadType": "contact-shared",
+        "personalData": false
+      }
+    ],
+    "intents": {
+      "own": [],
+      "peer": null
+    },
+    "peerIdentity": false,
+    "ownContinue": null,
+    "composerVisible": false,
+    "composerEnabled": false,
+    "remaining": null,
+    "bubbles": [],
+    "contactFields": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Bildirimler",
+    "motion": {
+      "version": "1.0",
+      "references": [
+        "base-route"
+      ],
+      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
+      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "bodyKey": "notificationContactShared",
+    "notificationCopyContract": {
+      "bodyKey": "notificationContactShared",
+      "delta": "l10n/notification-v2-patch_en.arb",
+      "payloadTitle": null,
+      "personName": false,
+      "messageContent": false,
+      "foreground": "CH-133 unchanged; no new foreground policy defined"
+    }
+  },
+  {
+    "id": "push-contact-shared",
+    "group": "notifications",
+    "title": "İletişim paylaşım bildirimi",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "source": "Founder notification copy2026-09-25",
+    "file": "screens/svg/push-contact-shared--en--ios--200.svg",
+    "width": 390,
+    "height": 997.6,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "actions": [],
+    "blocks": [
+      {
+        "kind": "notification-content-specimen",
+        "nativeSystemChrome": false,
+        "payloadType": "contact-shared",
+        "personalData": false
+      }
+    ],
+    "intents": {
+      "own": [],
+      "peer": null
+    },
+    "peerIdentity": false,
+    "ownContinue": null,
+    "composerVisible": false,
+    "composerEnabled": false,
+    "remaining": null,
+    "bubbles": [],
+    "contactFields": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Bildirimler",
+    "motion": {
+      "version": "1.0",
+      "references": [
+        "base-route"
+      ],
+      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
+      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "bodyKey": "notificationContactShared",
+    "notificationCopyContract": {
+      "bodyKey": "notificationContactShared",
+      "delta": "l10n/notification-v2-patch_en.arb",
+      "payloadTitle": null,
+      "personName": false,
+      "messageContent": false,
+      "foreground": "CH-133 unchanged; no new foreground policy defined"
+    }
+  },
+  {
+    "id": "push-contact-shared",
+    "group": "notifications",
+    "title": "İletişim paylaşım bildirimi",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "source": "Founder notification copy2026-09-25",
+    "file": "screens/svg/push-contact-shared--tr--android--100.svg",
+    "width": 412,
+    "height": 953.4,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "actions": [],
+    "blocks": [
+      {
+        "kind": "notification-content-specimen",
+        "nativeSystemChrome": false,
+        "payloadType": "contact-shared",
+        "personalData": false
+      }
+    ],
+    "intents": {
+      "own": [],
+      "peer": null
+    },
+    "peerIdentity": false,
+    "ownContinue": null,
+    "composerVisible": false,
+    "composerEnabled": false,
+    "remaining": null,
+    "bubbles": [],
+    "contactFields": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Bildirimler",
+    "motion": {
+      "version": "1.0",
+      "references": [
+        "base-route"
+      ],
+      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
+      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "bodyKey": "notificationContactShared",
+    "notificationCopyContract": {
+      "bodyKey": "notificationContactShared",
+      "delta": "l10n/notification-v2-patch_tr.arb",
+      "payloadTitle": null,
+      "personName": false,
+      "messageContent": false,
+      "foreground": "CH-133 unchanged; no new foreground policy defined"
+    }
+  },
+  {
+    "id": "push-contact-shared",
+    "group": "notifications",
+    "title": "İletişim paylaşım bildirimi",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "source": "Founder notification copy2026-09-25",
+    "file": "screens/svg/push-contact-shared--tr--android--200.svg",
+    "width": 412,
+    "height": 991.8,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "actions": [],
+    "blocks": [
+      {
+        "kind": "notification-content-specimen",
+        "nativeSystemChrome": false,
+        "payloadType": "contact-shared",
+        "personalData": false
+      }
+    ],
+    "intents": {
+      "own": [],
+      "peer": null
+    },
+    "peerIdentity": false,
+    "ownContinue": null,
+    "composerVisible": false,
+    "composerEnabled": false,
+    "remaining": null,
+    "bubbles": [],
+    "contactFields": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Bildirimler",
+    "motion": {
+      "version": "1.0",
+      "references": [
+        "base-route"
+      ],
+      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
+      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "bodyKey": "notificationContactShared",
+    "notificationCopyContract": {
+      "bodyKey": "notificationContactShared",
+      "delta": "l10n/notification-v2-patch_tr.arb",
+      "payloadTitle": null,
+      "personName": false,
+      "messageContent": false,
+      "foreground": "CH-133 unchanged; no new foreground policy defined"
+    }
+  },
+  {
+    "id": "push-contact-shared",
+    "group": "notifications",
+    "title": "İletişim paylaşım bildirimi",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "source": "Founder notification copy2026-09-25",
+    "file": "screens/svg/push-contact-shared--tr--ios--100.svg",
+    "width": 390,
+    "height": 882.4,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "actions": [],
+    "blocks": [
+      {
+        "kind": "notification-content-specimen",
+        "nativeSystemChrome": false,
+        "payloadType": "contact-shared",
+        "personalData": false
+      }
+    ],
+    "intents": {
+      "own": [],
+      "peer": null
+    },
+    "peerIdentity": false,
+    "ownContinue": null,
+    "composerVisible": false,
+    "composerEnabled": false,
+    "remaining": null,
+    "bubbles": [],
+    "contactFields": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Bildirimler",
+    "motion": {
+      "version": "1.0",
+      "references": [
+        "base-route"
+      ],
+      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
+      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "bodyKey": "notificationContactShared",
+    "notificationCopyContract": {
+      "bodyKey": "notificationContactShared",
+      "delta": "l10n/notification-v2-patch_tr.arb",
+      "payloadTitle": null,
+      "personName": false,
+      "messageContent": false,
+      "foreground": "CH-133 unchanged; no new foreground policy defined"
+    }
+  },
+  {
+    "id": "push-contact-shared",
+    "group": "notifications",
+    "title": "İletişim paylaşım bildirimi",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "source": "Founder notification copy2026-09-25",
+    "file": "screens/svg/push-contact-shared--tr--ios--200.svg",
+    "width": 390,
+    "height": 997.6,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "actions": [],
+    "blocks": [
+      {
+        "kind": "notification-content-specimen",
+        "nativeSystemChrome": false,
+        "payloadType": "contact-shared",
+        "personalData": false
+      }
+    ],
+    "intents": {
+      "own": [],
+      "peer": null
+    },
+    "peerIdentity": false,
+    "ownContinue": null,
+    "composerVisible": false,
+    "composerEnabled": false,
+    "remaining": null,
+    "bubbles": [],
+    "contactFields": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Bildirimler",
+    "motion": {
+      "version": "1.0",
+      "references": [
+        "base-route"
+      ],
+      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
+      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "bodyKey": "notificationContactShared",
+    "notificationCopyContract": {
+      "bodyKey": "notificationContactShared",
+      "delta": "l10n/notification-v2-patch_tr.arb",
+      "payloadTitle": null,
+      "personName": false,
+      "messageContent": false,
+      "foreground": "CH-133 unchanged; no new foreground policy defined"
+    }
+  },
+  {
     "id": "push-message",
     "group": "notifications",
     "title": "Bildirim içerik örneği / doğrudan mesaj",
@@ -137613,6 +138085,462 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    }
+  },
+  {
+    "id": "push-request-accepted",
+    "group": "notifications",
+    "title": "İstek kabul bildirimi",
+    "lang": "en",
+    "platform": "android",
+    "large": false,
+    "source": "Founder notification copy2026-09-25",
+    "file": "screens/svg/push-request-accepted--en--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "actions": [],
+    "blocks": [
+      {
+        "kind": "notification-content-specimen",
+        "nativeSystemChrome": false,
+        "payloadType": "request-accepted",
+        "personalData": false
+      }
+    ],
+    "intents": {
+      "own": [],
+      "peer": null
+    },
+    "peerIdentity": false,
+    "ownContinue": null,
+    "composerVisible": false,
+    "composerEnabled": false,
+    "remaining": null,
+    "bubbles": [],
+    "contactFields": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Bildirimler",
+    "motion": {
+      "version": "1.0",
+      "references": [
+        "base-route"
+      ],
+      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
+      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "bodyKey": "notificationRequestAccepted",
+    "notificationCopyContract": {
+      "bodyKey": "notificationRequestAccepted",
+      "delta": "l10n/notification-v2-patch_en.arb",
+      "payloadTitle": null,
+      "personName": false,
+      "messageContent": false,
+      "foreground": "CH-133 unchanged; no new foreground policy defined"
+    }
+  },
+  {
+    "id": "push-request-accepted",
+    "group": "notifications",
+    "title": "İstek kabul bildirimi",
+    "lang": "en",
+    "platform": "android",
+    "large": true,
+    "source": "Founder notification copy2026-09-25",
+    "file": "screens/svg/push-request-accepted--en--android--200.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "actions": [],
+    "blocks": [
+      {
+        "kind": "notification-content-specimen",
+        "nativeSystemChrome": false,
+        "payloadType": "request-accepted",
+        "personalData": false
+      }
+    ],
+    "intents": {
+      "own": [],
+      "peer": null
+    },
+    "peerIdentity": false,
+    "ownContinue": null,
+    "composerVisible": false,
+    "composerEnabled": false,
+    "remaining": null,
+    "bubbles": [],
+    "contactFields": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Bildirimler",
+    "motion": {
+      "version": "1.0",
+      "references": [
+        "base-route"
+      ],
+      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
+      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "bodyKey": "notificationRequestAccepted",
+    "notificationCopyContract": {
+      "bodyKey": "notificationRequestAccepted",
+      "delta": "l10n/notification-v2-patch_en.arb",
+      "payloadTitle": null,
+      "personName": false,
+      "messageContent": false,
+      "foreground": "CH-133 unchanged; no new foreground policy defined"
+    }
+  },
+  {
+    "id": "push-request-accepted",
+    "group": "notifications",
+    "title": "İstek kabul bildirimi",
+    "lang": "en",
+    "platform": "ios",
+    "large": false,
+    "source": "Founder notification copy2026-09-25",
+    "file": "screens/svg/push-request-accepted--en--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "actions": [],
+    "blocks": [
+      {
+        "kind": "notification-content-specimen",
+        "nativeSystemChrome": false,
+        "payloadType": "request-accepted",
+        "personalData": false
+      }
+    ],
+    "intents": {
+      "own": [],
+      "peer": null
+    },
+    "peerIdentity": false,
+    "ownContinue": null,
+    "composerVisible": false,
+    "composerEnabled": false,
+    "remaining": null,
+    "bubbles": [],
+    "contactFields": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Bildirimler",
+    "motion": {
+      "version": "1.0",
+      "references": [
+        "base-route"
+      ],
+      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
+      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "bodyKey": "notificationRequestAccepted",
+    "notificationCopyContract": {
+      "bodyKey": "notificationRequestAccepted",
+      "delta": "l10n/notification-v2-patch_en.arb",
+      "payloadTitle": null,
+      "personName": false,
+      "messageContent": false,
+      "foreground": "CH-133 unchanged; no new foreground policy defined"
+    }
+  },
+  {
+    "id": "push-request-accepted",
+    "group": "notifications",
+    "title": "İstek kabul bildirimi",
+    "lang": "en",
+    "platform": "ios",
+    "large": true,
+    "source": "Founder notification copy2026-09-25",
+    "file": "screens/svg/push-request-accepted--en--ios--200.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "actions": [],
+    "blocks": [
+      {
+        "kind": "notification-content-specimen",
+        "nativeSystemChrome": false,
+        "payloadType": "request-accepted",
+        "personalData": false
+      }
+    ],
+    "intents": {
+      "own": [],
+      "peer": null
+    },
+    "peerIdentity": false,
+    "ownContinue": null,
+    "composerVisible": false,
+    "composerEnabled": false,
+    "remaining": null,
+    "bubbles": [],
+    "contactFields": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Bildirimler",
+    "motion": {
+      "version": "1.0",
+      "references": [
+        "base-route"
+      ],
+      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
+      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "bodyKey": "notificationRequestAccepted",
+    "notificationCopyContract": {
+      "bodyKey": "notificationRequestAccepted",
+      "delta": "l10n/notification-v2-patch_en.arb",
+      "payloadTitle": null,
+      "personName": false,
+      "messageContent": false,
+      "foreground": "CH-133 unchanged; no new foreground policy defined"
+    }
+  },
+  {
+    "id": "push-request-accepted",
+    "group": "notifications",
+    "title": "İstek kabul bildirimi",
+    "lang": "tr",
+    "platform": "android",
+    "large": false,
+    "source": "Founder notification copy2026-09-25",
+    "file": "screens/svg/push-request-accepted--tr--android--100.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 1,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "actions": [],
+    "blocks": [
+      {
+        "kind": "notification-content-specimen",
+        "nativeSystemChrome": false,
+        "payloadType": "request-accepted",
+        "personalData": false
+      }
+    ],
+    "intents": {
+      "own": [],
+      "peer": null
+    },
+    "peerIdentity": false,
+    "ownContinue": null,
+    "composerVisible": false,
+    "composerEnabled": false,
+    "remaining": null,
+    "bubbles": [],
+    "contactFields": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Bildirimler",
+    "motion": {
+      "version": "1.0",
+      "references": [
+        "base-route"
+      ],
+      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
+      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "bodyKey": "notificationRequestAccepted",
+    "notificationCopyContract": {
+      "bodyKey": "notificationRequestAccepted",
+      "delta": "l10n/notification-v2-patch_tr.arb",
+      "payloadTitle": null,
+      "personName": false,
+      "messageContent": false,
+      "foreground": "CH-133 unchanged; no new foreground policy defined"
+    }
+  },
+  {
+    "id": "push-request-accepted",
+    "group": "notifications",
+    "title": "İstek kabul bildirimi",
+    "lang": "tr",
+    "platform": "android",
+    "large": true,
+    "source": "Founder notification copy2026-09-25",
+    "file": "screens/svg/push-request-accepted--tr--android--200.svg",
+    "width": 412,
+    "height": 915,
+    "referenceViewportHeight": 915,
+    "textScale": 2,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "actions": [],
+    "blocks": [
+      {
+        "kind": "notification-content-specimen",
+        "nativeSystemChrome": false,
+        "payloadType": "request-accepted",
+        "personalData": false
+      }
+    ],
+    "intents": {
+      "own": [],
+      "peer": null
+    },
+    "peerIdentity": false,
+    "ownContinue": null,
+    "composerVisible": false,
+    "composerEnabled": false,
+    "remaining": null,
+    "bubbles": [],
+    "contactFields": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Bildirimler",
+    "motion": {
+      "version": "1.0",
+      "references": [
+        "base-route"
+      ],
+      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
+      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "bodyKey": "notificationRequestAccepted",
+    "notificationCopyContract": {
+      "bodyKey": "notificationRequestAccepted",
+      "delta": "l10n/notification-v2-patch_tr.arb",
+      "payloadTitle": null,
+      "personName": false,
+      "messageContent": false,
+      "foreground": "CH-133 unchanged; no new foreground policy defined"
+    }
+  },
+  {
+    "id": "push-request-accepted",
+    "group": "notifications",
+    "title": "İstek kabul bildirimi",
+    "lang": "tr",
+    "platform": "ios",
+    "large": false,
+    "source": "Founder notification copy2026-09-25",
+    "file": "screens/svg/push-request-accepted--tr--ios--100.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 1,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "actions": [],
+    "blocks": [
+      {
+        "kind": "notification-content-specimen",
+        "nativeSystemChrome": false,
+        "payloadType": "request-accepted",
+        "personalData": false
+      }
+    ],
+    "intents": {
+      "own": [],
+      "peer": null
+    },
+    "peerIdentity": false,
+    "ownContinue": null,
+    "composerVisible": false,
+    "composerEnabled": false,
+    "remaining": null,
+    "bubbles": [],
+    "contactFields": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Bildirimler",
+    "motion": {
+      "version": "1.0",
+      "references": [
+        "base-route"
+      ],
+      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
+      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "bodyKey": "notificationRequestAccepted",
+    "notificationCopyContract": {
+      "bodyKey": "notificationRequestAccepted",
+      "delta": "l10n/notification-v2-patch_tr.arb",
+      "payloadTitle": null,
+      "personName": false,
+      "messageContent": false,
+      "foreground": "CH-133 unchanged; no new foreground policy defined"
+    }
+  },
+  {
+    "id": "push-request-accepted",
+    "group": "notifications",
+    "title": "İstek kabul bildirimi",
+    "lang": "tr",
+    "platform": "ios",
+    "large": true,
+    "source": "Founder notification copy2026-09-25",
+    "file": "screens/svg/push-request-accepted--tr--ios--200.svg",
+    "width": 390,
+    "height": 844,
+    "referenceViewportHeight": 844,
+    "textScale": 2,
+    "selectedTab": null,
+    "active": true,
+    "theme": "Cream & Ink",
+    "actions": [],
+    "blocks": [
+      {
+        "kind": "notification-content-specimen",
+        "nativeSystemChrome": false,
+        "payloadType": "request-accepted",
+        "personalData": false
+      }
+    ],
+    "intents": {
+      "own": [],
+      "peer": null
+    },
+    "peerIdentity": false,
+    "ownContinue": null,
+    "composerVisible": false,
+    "composerEnabled": false,
+    "remaining": null,
+    "bubbles": [],
+    "contactFields": [],
+    "regions": [],
+    "peerContinueChoice": null,
+    "family": "Bildirimler",
+    "motion": {
+      "version": "1.0",
+      "references": [
+        "base-route"
+      ],
+      "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
+      "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "bodyKey": "notificationRequestAccepted",
+    "notificationCopyContract": {
+      "bodyKey": "notificationRequestAccepted",
+      "delta": "l10n/notification-v2-patch_tr.arb",
+      "payloadTitle": null,
+      "personName": false,
+      "messageContent": false,
+      "foreground": "CH-133 unchanged; no new foreground policy defined"
     }
   },
   {

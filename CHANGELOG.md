@@ -1,5 +1,10 @@
 # Değişiklik kaydı
 
+## Bildirim metinleri v2 · 2026-09-25
+
+- Kabul / iletişim paylaşımı bildirim gövdeleri TR/EN eklendi; notificationIntro yeniden istek ve mesajları kapsar. Adsız, başlıksız; CH-133 değişmez.
+- İki yeni içerik durumu,24 SVG /6 PNG; üç anahtarlı ARB delta. Devir: `specs/NOTIFICATION-V2-COPY.md`.
+
 ## Cream & Ink v2.2 — H0 hareket finali · 2026-09-25
 
 - Plan belirteçleri korundu;7 imza an zamanlaması ve60fps kare tabloları tamamlandı. GIF süreleri3.04–5.72s; gerçek tema renkleri ve composer içi Send ile yeniden üretildi.

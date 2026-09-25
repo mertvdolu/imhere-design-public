@@ -735,5 +735,14 @@
     "merge": "Replace notificationIntro value and metadata only; do not overwrite full ARB.",
     "supersedes": "requests-and-messages copy for launch",
     "restoreWhen": "message notifications actually ship"
+  },
+  "notificationV2": {
+    "files": [
+      "notification-v2-patch_en.arb",
+      "notification-v2-patch_tr.arb"
+    ],
+    "merge": "Merge these3 keys and metadata only, never overwrite full ARB.",
+    "supersedes": "notification-requests-only-patch for notificationIntro",
+    "foreground": "CH-133 unchanged"
   }
 }
