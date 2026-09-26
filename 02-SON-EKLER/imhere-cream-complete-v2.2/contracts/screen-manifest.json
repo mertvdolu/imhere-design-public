@@ -136606,6 +136606,14 @@
       "personName": false,
       "messageContent": false,
       "foreground": "CH-133 unchanged; no new foreground policy defined"
+    },
+    "notificationChannel": {
+      "contract": "contracts/notification-channels-2026-09-26.json",
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "defaultSound": "device default",
+      "defaultVibration": "device default",
+      "foregroundVisibility": "CH-133 unchanged"
     }
   },
   {
@@ -136663,6 +136671,14 @@
       "personName": false,
       "messageContent": false,
       "foreground": "CH-133 unchanged; no new foreground policy defined"
+    },
+    "notificationChannel": {
+      "contract": "contracts/notification-channels-2026-09-26.json",
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "defaultSound": "device default",
+      "defaultVibration": "device default",
+      "foregroundVisibility": "CH-133 unchanged"
     }
   },
   {
@@ -136720,6 +136736,14 @@
       "personName": false,
       "messageContent": false,
       "foreground": "CH-133 unchanged; no new foreground policy defined"
+    },
+    "notificationChannel": {
+      "contract": "contracts/notification-channels-2026-09-26.json",
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "defaultSound": "device default",
+      "defaultVibration": "device default",
+      "foregroundVisibility": "CH-133 unchanged"
     }
   },
   {
@@ -136777,6 +136801,14 @@
       "personName": false,
       "messageContent": false,
       "foreground": "CH-133 unchanged; no new foreground policy defined"
+    },
+    "notificationChannel": {
+      "contract": "contracts/notification-channels-2026-09-26.json",
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "defaultSound": "device default",
+      "defaultVibration": "device default",
+      "foregroundVisibility": "CH-133 unchanged"
     }
   },
   {
@@ -136834,6 +136866,14 @@
       "personName": false,
       "messageContent": false,
       "foreground": "CH-133 unchanged; no new foreground policy defined"
+    },
+    "notificationChannel": {
+      "contract": "contracts/notification-channels-2026-09-26.json",
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "defaultSound": "device default",
+      "defaultVibration": "device default",
+      "foregroundVisibility": "CH-133 unchanged"
     }
   },
   {
@@ -136891,6 +136931,14 @@
       "personName": false,
       "messageContent": false,
       "foreground": "CH-133 unchanged; no new foreground policy defined"
+    },
+    "notificationChannel": {
+      "contract": "contracts/notification-channels-2026-09-26.json",
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "defaultSound": "device default",
+      "defaultVibration": "device default",
+      "foregroundVisibility": "CH-133 unchanged"
     }
   },
   {
@@ -136948,6 +136996,14 @@
       "personName": false,
       "messageContent": false,
       "foreground": "CH-133 unchanged; no new foreground policy defined"
+    },
+    "notificationChannel": {
+      "contract": "contracts/notification-channels-2026-09-26.json",
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "defaultSound": "device default",
+      "defaultVibration": "device default",
+      "foregroundVisibility": "CH-133 unchanged"
     }
   },
   {
@@ -137005,6 +137061,14 @@
       "personName": false,
       "messageContent": false,
       "foreground": "CH-133 unchanged; no new foreground policy defined"
+    },
+    "notificationChannel": {
+      "contract": "contracts/notification-channels-2026-09-26.json",
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "defaultSound": "device default",
+      "defaultVibration": "device default",
+      "foregroundVisibility": "CH-133 unchanged"
     }
   },
   {
@@ -137053,6 +137117,14 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "notificationChannel": {
+      "contract": "contracts/notification-channels-2026-09-26.json",
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "defaultSound": "device default",
+      "defaultVibration": "device default",
+      "foregroundVisibility": "CH-133 unchanged"
     }
   },
   {
@@ -137101,6 +137173,14 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "notificationChannel": {
+      "contract": "contracts/notification-channels-2026-09-26.json",
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "defaultSound": "device default",
+      "defaultVibration": "device default",
+      "foregroundVisibility": "CH-133 unchanged"
     }
   },
   {
@@ -137149,6 +137229,14 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "notificationChannel": {
+      "contract": "contracts/notification-channels-2026-09-26.json",
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "defaultSound": "device default",
+      "defaultVibration": "device default",
+      "foregroundVisibility": "CH-133 unchanged"
     }
   },
   {
@@ -137197,6 +137285,14 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "notificationChannel": {
+      "contract": "contracts/notification-channels-2026-09-26.json",
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "defaultSound": "device default",
+      "defaultVibration": "device default",
+      "foregroundVisibility": "CH-133 unchanged"
     }
   },
   {
@@ -137245,6 +137341,14 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "notificationChannel": {
+      "contract": "contracts/notification-channels-2026-09-26.json",
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "defaultSound": "device default",
+      "defaultVibration": "device default",
+      "foregroundVisibility": "CH-133 unchanged"
     }
   },
   {
@@ -137293,6 +137397,14 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "notificationChannel": {
+      "contract": "contracts/notification-channels-2026-09-26.json",
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "defaultSound": "device default",
+      "defaultVibration": "device default",
+      "foregroundVisibility": "CH-133 unchanged"
     }
   },
   {
@@ -137341,6 +137453,14 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "notificationChannel": {
+      "contract": "contracts/notification-channels-2026-09-26.json",
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "defaultSound": "device default",
+      "defaultVibration": "device default",
+      "foregroundVisibility": "CH-133 unchanged"
     }
   },
   {
@@ -137389,6 +137509,14 @@
       ],
       "spec": "motion/hareket-ve-his-v1/screen-motion-map.json",
       "reduced": "opacity150; no loops/spatial motion; native keyboard/picker follow system"
+    },
+    "notificationChannel": {
+      "contract": "contracts/notification-channels-2026-09-26.json",
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "defaultSound": "device default",
+      "defaultVibration": "device default",
+      "foregroundVisibility": "CH-133 unchanged"
     }
   },
   {
@@ -138254,6 +138382,14 @@
       "personName": false,
       "messageContent": false,
       "foreground": "CH-133 unchanged; no new foreground policy defined"
+    },
+    "notificationChannel": {
+      "contract": "contracts/notification-channels-2026-09-26.json",
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "defaultSound": "device default",
+      "defaultVibration": "device default",
+      "foregroundVisibility": "CH-133 unchanged"
     }
   },
   {
@@ -138311,6 +138447,14 @@
       "personName": false,
       "messageContent": false,
       "foreground": "CH-133 unchanged; no new foreground policy defined"
+    },
+    "notificationChannel": {
+      "contract": "contracts/notification-channels-2026-09-26.json",
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "defaultSound": "device default",
+      "defaultVibration": "device default",
+      "foregroundVisibility": "CH-133 unchanged"
     }
   },
   {
@@ -138368,6 +138512,14 @@
       "personName": false,
       "messageContent": false,
       "foreground": "CH-133 unchanged; no new foreground policy defined"
+    },
+    "notificationChannel": {
+      "contract": "contracts/notification-channels-2026-09-26.json",
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "defaultSound": "device default",
+      "defaultVibration": "device default",
+      "foregroundVisibility": "CH-133 unchanged"
     }
   },
   {
@@ -138425,6 +138577,14 @@
       "personName": false,
       "messageContent": false,
       "foreground": "CH-133 unchanged; no new foreground policy defined"
+    },
+    "notificationChannel": {
+      "contract": "contracts/notification-channels-2026-09-26.json",
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "defaultSound": "device default",
+      "defaultVibration": "device default",
+      "foregroundVisibility": "CH-133 unchanged"
     }
   },
   {
@@ -138482,6 +138642,14 @@
       "personName": false,
       "messageContent": false,
       "foreground": "CH-133 unchanged; no new foreground policy defined"
+    },
+    "notificationChannel": {
+      "contract": "contracts/notification-channels-2026-09-26.json",
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "defaultSound": "device default",
+      "defaultVibration": "device default",
+      "foregroundVisibility": "CH-133 unchanged"
     }
   },
   {
@@ -138539,6 +138707,14 @@
       "personName": false,
       "messageContent": false,
       "foreground": "CH-133 unchanged; no new foreground policy defined"
+    },
+    "notificationChannel": {
+      "contract": "contracts/notification-channels-2026-09-26.json",
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "defaultSound": "device default",
+      "defaultVibration": "device default",
+      "foregroundVisibility": "CH-133 unchanged"
     }
   },
   {
@@ -138596,6 +138772,14 @@
       "personName": false,
       "messageContent": false,
       "foreground": "CH-133 unchanged; no new foreground policy defined"
+    },
+    "notificationChannel": {
+      "contract": "contracts/notification-channels-2026-09-26.json",
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "defaultSound": "device default",
+      "defaultVibration": "device default",
+      "foregroundVisibility": "CH-133 unchanged"
     }
   },
   {
@@ -138653,6 +138837,14 @@
       "personName": false,
       "messageContent": false,
       "foreground": "CH-133 unchanged; no new foreground policy defined"
+    },
+    "notificationChannel": {
+      "contract": "contracts/notification-channels-2026-09-26.json",
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "defaultSound": "device default",
+      "defaultVibration": "device default",
+      "foregroundVisibility": "CH-133 unchanged"
     }
   },
   {

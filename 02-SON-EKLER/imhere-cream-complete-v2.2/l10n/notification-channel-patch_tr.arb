@@ -1,0 +1,11 @@
+{
+  "@@locale": "tr",
+  "notificationChannelMessagesConnections": "Mesajlar ve bağlantılar",
+  "notificationChannelMessagesConnectionsDescription": "Birisi isteğini kabul ettiğinde, sana mesaj gönderdiğinde veya iletişim bilgilerini seninle paylaştığında.",
+  "@notificationChannelMessagesConnections": {
+    "description": "Android audible channel for accepted requests, new messages and shared contact details. User-visible OS settings copy."
+  },
+  "@notificationChannelMessagesConnectionsDescription": {
+    "description": "Android audible channel for accepted requests, new messages and shared contact details. User-visible OS settings copy."
+  }
+}

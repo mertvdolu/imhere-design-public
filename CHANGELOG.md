@@ -1,5 +1,10 @@
 # Değişiklik kaydı
 
+## Sesli bildirim kanalı · 2026-09-26
+
+- Messages and connections / Mesajlar ve bağlantılar kanal adı + açıklaması TR/EN eklendi. Üç tür: kabul, mesaj, iletişim paylaşımı; varsayılan ses+titreşim.
+- Updates / Güncellemeler adı değişmez; düşük öncelikli türler sessiz, CH-133 ve adsız gövdeler korunur.24 katalog kaydı; ARB delta + kanal sözleşmesi.
+
 ## H0 S2 — tek portre · 2026-09-25
 
 - Statik tek karşı taraf fotoğrafı korundu;06 hareketi ve GIF/CSV tek portreye uyarlandı. Kendi fotoğrafı gerekmez; fotoğraf yok örneği nötr placeholder.

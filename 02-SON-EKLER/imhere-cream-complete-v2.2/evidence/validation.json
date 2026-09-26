@@ -1274,5 +1274,13 @@
     "states": 299,
     "beta": 292,
     "nativeTest": false
+  },
+  "notificationChannel20260926": {
+    "deltaKeys": 2,
+    "catalogVariants": 24,
+    "statesUnchanged": 299,
+    "existingSilentNameUnchanged": true,
+    "CH133Unchanged": true,
+    "nativeTest": false
   }
 }

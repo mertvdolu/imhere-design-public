@@ -744,5 +744,14 @@
     "merge": "Merge these3 keys and metadata only, never overwrite full ARB.",
     "supersedes": "notification-requests-only-patch for notificationIntro",
     "foreground": "CH-133 unchanged"
+  },
+  "notificationAudibleChannel20260926": {
+    "files": [
+      "notification-channel-patch_en.arb",
+      "notification-channel-patch_tr.arb"
+    ],
+    "merge": "Add2 keys and metadata only; do not replace full ARBs.",
+    "existingSilentNameUnchanged": "notificationChannelUpdates",
+    "contract": "contracts/notification-channels-2026-09-26.json"
   }
 }

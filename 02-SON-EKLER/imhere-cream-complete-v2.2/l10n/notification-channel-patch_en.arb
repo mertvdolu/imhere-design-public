@@ -1,0 +1,11 @@
+{
+  "@@locale": "en",
+  "notificationChannelMessagesConnections": "Messages and connections",
+  "notificationChannelMessagesConnectionsDescription": "When someone accepts your request, messages you, or shares their contact details.",
+  "@notificationChannelMessagesConnections": {
+    "description": "Android audible channel for accepted requests, new messages and shared contact details. User-visible OS settings copy."
+  },
+  "@notificationChannelMessagesConnectionsDescription": {
+    "description": "Android audible channel for accepted requests, new messages and shared contact details. User-visible OS settings copy."
+  }
+}

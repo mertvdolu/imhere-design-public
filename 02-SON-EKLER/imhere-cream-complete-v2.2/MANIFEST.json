@@ -2,7 +2,7 @@
   "version": "2.2",
   "name": "IM HERE / Cream & Ink complete design",
   "date": "2026-09-24",
-  "files": 3140,
+  "files": 3144,
   "screenStates": 299,
   "svgVariants": 2392,
   "pngVariants": 598,
@@ -224,8 +224,8 @@
     },
     {
       "file": "catalog.js",
-      "bytes": 3102614,
-      "sha256": "86f965a10861ebf692890a4161a301e1eb4d02a0913dd5a11d4f9f20497777e6"
+      "bytes": 3110174,
+      "sha256": "442405237d2cfb5073053f3a215b562d9463f54f5330abf7c64686e442dfa5c7"
     },
     {
       "file": "contracts/checkin-notices.json",
@@ -238,14 +238,19 @@
       "sha256": "c0818630392147f708e4d6a3c6dedd436783d1961f8c46ebe63b6cc4354db366"
     },
     {
+      "file": "contracts/notification-channels-2026-09-26.json",
+      "bytes": 1329,
+      "sha256": "28527967a031357e839ab9c286d32184783f5680b98a9b6004d12a088a27c5dc"
+    },
+    {
       "file": "contracts/profile-inputs.json",
       "bytes": 2695,
       "sha256": "f82524f0b06ee564ee1680dd6a5db3b5df9164c343c9b30e2d00cc108ca31857"
     },
     {
       "file": "contracts/screen-manifest.json",
-      "bytes": 4367888,
-      "sha256": "6c76fe610e45784b268cbb0ab8f289d1f14e27ae782ef9816fcd93420ac83157"
+      "bytes": 4376864,
+      "sha256": "98f35785315f60b23db692162f1ce22957566384d712eb1ae6bd5e3b878b7ba1"
     },
     {
       "file": "evidence/assets-validation.json",
@@ -259,8 +264,8 @@
     },
     {
       "file": "evidence/validation.json",
-      "bytes": 32077,
-      "sha256": "6887fee5719f40807f321c1f60fa6f28386a66ff330a467edde1e0f66c5c3311"
+      "bytes": 32285,
+      "sha256": "ba2fda23b166ce9ff3472b5b2ed8d9d46c8585d358711ea3e6125da1c2a819a1"
     },
     {
       "file": "experience/ONIZLEME.html",
@@ -434,8 +439,8 @@
     },
     {
       "file": "l10n/migration.json",
-      "bytes": 31628,
-      "sha256": "a8ab0e711cc34195f5252868bb6579a884c0e4d3a4eaa57b4567323e8b126d2d"
+      "bytes": 31984,
+      "sha256": "5559e57c800a95a7bd6aa56192a215ca730ab86edf804ffcf6ca255d6cfa7497"
     },
     {
       "file": "l10n/motion-v1-patch_en.arb",
@@ -446,6 +451,16 @@
       "file": "l10n/motion-v1-patch_tr.arb",
       "bytes": 261,
       "sha256": "2440071d14bf0e7998cabf5532818aa5268c798b5ad5d893bd3d468e6f0eda28"
+    },
+    {
+      "file": "l10n/notification-channel-patch_en.arb",
+      "bytes": 630,
+      "sha256": "df2bb042c4835045d478c2fc10a67fafab2cb07aaf584929f2db339e34eb8105"
+    },
+    {
+      "file": "l10n/notification-channel-patch_tr.arb",
+      "bytes": 665,
+      "sha256": "3449a38258355797c363130230ac2ba142942b69d79683c7bd453d7cfd86934f"
     },
     {
       "file": "l10n/notification-requests-only-patch_en.arb",
@@ -15676,6 +15691,11 @@
       "file": "specs/KAPSAM.md",
       "bytes": 1612,
       "sha256": "7ee7821920784ad69a7fcdb3298631016457cbc1673c5ad18d919018b6d23b13"
+    },
+    {
+      "file": "specs/NOTIFICATION-CHANNEL-2026-09-26.md",
+      "bytes": 1607,
+      "sha256": "b348c6eccefdf78ced97628d5cdaf3a02b5e66e8a729a7231fe0ba0f476fcf94"
     },
     {
       "file": "specs/NOTIFICATION-V2-COPY.md",

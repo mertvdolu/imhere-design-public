@@ -40063,6 +40063,11 @@
         "base-route"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
+    },
+    "notificationChannel": {
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "contract": "02-SON-EKLER/imhere-cream-complete-v2.2/contracts/notification-channels-2026-09-26.json"
     }
   },
   {
@@ -40081,6 +40086,11 @@
         "base-route"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
+    },
+    "notificationChannel": {
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "contract": "02-SON-EKLER/imhere-cream-complete-v2.2/contracts/notification-channels-2026-09-26.json"
     }
   },
   {
@@ -40099,6 +40109,11 @@
         "base-route"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
+    },
+    "notificationChannel": {
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "contract": "02-SON-EKLER/imhere-cream-complete-v2.2/contracts/notification-channels-2026-09-26.json"
     }
   },
   {
@@ -40117,6 +40132,11 @@
         "base-route"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
+    },
+    "notificationChannel": {
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "contract": "02-SON-EKLER/imhere-cream-complete-v2.2/contracts/notification-channels-2026-09-26.json"
     }
   },
   {
@@ -40135,6 +40155,11 @@
         "base-route"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
+    },
+    "notificationChannel": {
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "contract": "02-SON-EKLER/imhere-cream-complete-v2.2/contracts/notification-channels-2026-09-26.json"
     }
   },
   {
@@ -40153,6 +40178,11 @@
         "base-route"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
+    },
+    "notificationChannel": {
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "contract": "02-SON-EKLER/imhere-cream-complete-v2.2/contracts/notification-channels-2026-09-26.json"
     }
   },
   {
@@ -40171,6 +40201,11 @@
         "base-route"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
+    },
+    "notificationChannel": {
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "contract": "02-SON-EKLER/imhere-cream-complete-v2.2/contracts/notification-channels-2026-09-26.json"
     }
   },
   {
@@ -40189,6 +40224,11 @@
         "base-route"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
+    },
+    "notificationChannel": {
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "contract": "02-SON-EKLER/imhere-cream-complete-v2.2/contracts/notification-channels-2026-09-26.json"
     }
   },
   {
@@ -40207,6 +40247,11 @@
         "base-route"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
+    },
+    "notificationChannel": {
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "contract": "02-SON-EKLER/imhere-cream-complete-v2.2/contracts/notification-channels-2026-09-26.json"
     }
   },
   {
@@ -40225,6 +40270,11 @@
         "base-route"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
+    },
+    "notificationChannel": {
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "contract": "02-SON-EKLER/imhere-cream-complete-v2.2/contracts/notification-channels-2026-09-26.json"
     }
   },
   {
@@ -40243,6 +40293,11 @@
         "base-route"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
+    },
+    "notificationChannel": {
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "contract": "02-SON-EKLER/imhere-cream-complete-v2.2/contracts/notification-channels-2026-09-26.json"
     }
   },
   {
@@ -40261,6 +40316,11 @@
         "base-route"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
+    },
+    "notificationChannel": {
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "contract": "02-SON-EKLER/imhere-cream-complete-v2.2/contracts/notification-channels-2026-09-26.json"
     }
   },
   {
@@ -40279,6 +40339,11 @@
         "base-route"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
+    },
+    "notificationChannel": {
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "contract": "02-SON-EKLER/imhere-cream-complete-v2.2/contracts/notification-channels-2026-09-26.json"
     }
   },
   {
@@ -40297,6 +40362,11 @@
         "base-route"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
+    },
+    "notificationChannel": {
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "contract": "02-SON-EKLER/imhere-cream-complete-v2.2/contracts/notification-channels-2026-09-26.json"
     }
   },
   {
@@ -40315,6 +40385,11 @@
         "base-route"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
+    },
+    "notificationChannel": {
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "contract": "02-SON-EKLER/imhere-cream-complete-v2.2/contracts/notification-channels-2026-09-26.json"
     }
   },
   {
@@ -40333,6 +40408,11 @@
         "base-route"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
+    },
+    "notificationChannel": {
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "contract": "02-SON-EKLER/imhere-cream-complete-v2.2/contracts/notification-channels-2026-09-26.json"
     }
   },
   {
@@ -40639,6 +40719,11 @@
         "base-route"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
+    },
+    "notificationChannel": {
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "contract": "02-SON-EKLER/imhere-cream-complete-v2.2/contracts/notification-channels-2026-09-26.json"
     }
   },
   {
@@ -40657,6 +40742,11 @@
         "base-route"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
+    },
+    "notificationChannel": {
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "contract": "02-SON-EKLER/imhere-cream-complete-v2.2/contracts/notification-channels-2026-09-26.json"
     }
   },
   {
@@ -40675,6 +40765,11 @@
         "base-route"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
+    },
+    "notificationChannel": {
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "contract": "02-SON-EKLER/imhere-cream-complete-v2.2/contracts/notification-channels-2026-09-26.json"
     }
   },
   {
@@ -40693,6 +40788,11 @@
         "base-route"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
+    },
+    "notificationChannel": {
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "contract": "02-SON-EKLER/imhere-cream-complete-v2.2/contracts/notification-channels-2026-09-26.json"
     }
   },
   {
@@ -40711,6 +40811,11 @@
         "base-route"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
+    },
+    "notificationChannel": {
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "contract": "02-SON-EKLER/imhere-cream-complete-v2.2/contracts/notification-channels-2026-09-26.json"
     }
   },
   {
@@ -40729,6 +40834,11 @@
         "base-route"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
+    },
+    "notificationChannel": {
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "contract": "02-SON-EKLER/imhere-cream-complete-v2.2/contracts/notification-channels-2026-09-26.json"
     }
   },
   {
@@ -40747,6 +40857,11 @@
         "base-route"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
+    },
+    "notificationChannel": {
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "contract": "02-SON-EKLER/imhere-cream-complete-v2.2/contracts/notification-channels-2026-09-26.json"
     }
   },
   {
@@ -40765,6 +40880,11 @@
         "base-route"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
+    },
+    "notificationChannel": {
+      "nameKey": "notificationChannelMessagesConnections",
+      "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+      "contract": "02-SON-EKLER/imhere-cream-complete-v2.2/contracts/notification-channels-2026-09-26.json"
     }
   },
   {

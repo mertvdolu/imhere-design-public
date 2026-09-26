@@ -1,0 +1,31 @@
+{
+  "decisionDate": "2026-09-26",
+  "source": "Founder supersedes2026-09-22 silent default for these3 types only",
+  "platform": "Android channel copy; iOS follows same approved default sound/vibration behavior",
+  "nameKey": "notificationChannelMessagesConnections",
+  "descriptionKey": "notificationChannelMessagesConnectionsDescription",
+  "types": [
+    "request-accepted",
+    "message",
+    "contact-shared"
+  ],
+  "catalogStates": [
+    "push-request-accepted",
+    "push-message",
+    "push-contact-shared"
+  ],
+  "defaultSound": "device default",
+  "defaultVibration": "device default",
+  "systemPreferences": "user device/channel settings remain authoritative; no promise of sound/vibration on every delivery",
+  "channelId": "Code assigns separate channel; this delivery does not prescribe an identifier",
+  "existingSilentChannel": {
+    "nameKey": "notificationChannelUpdates",
+    "en": "Updates",
+    "tr": "Güncellemeler",
+    "rename": false,
+    "lowPriority": "remain silent"
+  },
+  "scope": "Other types retain existing decisions; no sound expansion to incoming request/ambient/reminder inferred.",
+  "privacy": "No notification title, person name or message content; approved generic body only.",
+  "foreground": "CH-133 visibility rule unchanged; sound decision does not define a new presentation rule."
+}
