@@ -1,0 +1,7 @@
+{
+  "@@locale": "tr",
+  "locationPermissionRationale": "Check-in i\u00e7in I\u2019M\u00a0HERE telefonunun konumunu \u015fimdi, bir kez kullan\u0131r. Konumun yaln\u0131zca 30 dakika boyunca yak\u0131n\u0131ndakilere g\u00f6r\u00fcnmen i\u00e7in kullan\u0131l\u0131r ve kimseye g\u00f6sterilmez. Check-in bitince silme ba\u015flar. Arka planda takip edilmez.",
+  "@locationPermissionRationale": {
+    "description": "Preserve HARBOR I-7 wording; only brand space is U+00A0. Apply after v6-final-copy patch."
+  }
+}

@@ -18,7 +18,7 @@
       "hasAlpha": false,
       "format": "png",
       "space": "srgb",
-      "bytes": 483201
+      "bytes": 480098
     },
     {
       "file": "app-store/iphone-6.9/03-full-screen-map.png",
@@ -38,7 +38,7 @@
       "hasAlpha": false,
       "format": "png",
       "space": "srgb",
-      "bytes": 179727
+      "bytes": 174186
     },
     {
       "file": "app-store/iphone-6.9/05-chat.png",
@@ -58,7 +58,7 @@
       "hasAlpha": false,
       "format": "png",
       "space": "srgb",
-      "bytes": 513336
+      "bytes": 510543
     },
     {
       "file": "app-store/iphone-6.5/01-opening.png",
@@ -78,7 +78,7 @@
       "hasAlpha": false,
       "format": "png",
       "space": "srgb",
-      "bytes": 421440
+      "bytes": 418498
     },
     {
       "file": "app-store/iphone-6.5/03-full-screen-map.png",
@@ -98,7 +98,7 @@
       "hasAlpha": false,
       "format": "png",
       "space": "srgb",
-      "bytes": 162742
+      "bytes": 156842
     },
     {
       "file": "app-store/iphone-6.5/05-chat.png",
@@ -118,7 +118,7 @@
       "hasAlpha": false,
       "format": "png",
       "space": "srgb",
-      "bytes": 449891
+      "bytes": 447379
     },
     {
       "file": "google-play/phone/01-opening.png",
@@ -138,7 +138,7 @@
       "hasAlpha": false,
       "format": "png",
       "space": "srgb",
-      "bytes": 275745
+      "bytes": 273519
     },
     {
       "file": "google-play/phone/03-full-screen-map.png",
@@ -158,7 +158,7 @@
       "hasAlpha": false,
       "format": "png",
       "space": "srgb",
-      "bytes": 98507
+      "bytes": 94426
     },
     {
       "file": "google-play/phone/05-chat.png",
@@ -178,7 +178,7 @@
       "hasAlpha": false,
       "format": "png",
       "space": "srgb",
-      "bytes": 297307
+      "bytes": 295378
     },
     {
       "file": "google-play/feature-graphic.png",
@@ -188,7 +188,7 @@
       "hasAlpha": false,
       "format": "png",
       "space": "srgb",
-      "bytes": 49223
+      "bytes": 48257
     },
     {
       "file": "google-play/app-icon-512.png",

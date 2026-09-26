@@ -1,0 +1,7 @@
+{
+  "@@locale": "en",
+  "locationPermissionRationale": "To check in, I\u2019M\u00a0HERE uses your phone\u2019s location once, now. It is used only to show you to people nearby for 30 minutes and is never shown to anyone. Erasure starts when your check-in ends. It is not tracked in the background.",
+  "@locationPermissionRationale": {
+    "description": "Preserve HARBOR I-7 wording; only brand space is U+00A0. Apply after v6-final-copy patch."
+  }
+}

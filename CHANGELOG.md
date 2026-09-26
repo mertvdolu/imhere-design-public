@@ -1,5 +1,11 @@
 # Değişiklik kaydı
 
+## Mağaza sahne uyumu + konum marka boşluğu · 2026-09-27
+
+- Walking kaldırıldı; Design + Coffee korundu. Bağlantı listesinin son mesaj önizlemesi kaldırıldı; SVG/PNG ve üretim kaynağı güncellendi.
+- locationPermissionRationale EN/TR yalnız marka boşluğu U+00A0; ayrı delta + migration. Native portresiz görüntüler bekleniyor; sentetik portre/etiket talimatı kaydedildi.
+- Devir: `specs/STORE-SCENE-LOCATION-NOWRAP-2026-09-27.md`.
+
 ## Marka başlığı bölünmez boşluk · 2026-09-27
 
 - appTitle EN/TR: mevcut I’M HERE yazımı korunarak boşluk U+00A0 yapıldı; ARB delta + migration.

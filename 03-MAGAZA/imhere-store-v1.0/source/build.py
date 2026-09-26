@@ -98,12 +98,12 @@ def ui(kind,platform):
   s.text(UI['nearbyPeople'],24,329,12,MUTED,500)
   photo(s,'maya',24,348,w-48,215,16);s.text('Maya',24,602,26,weight=500);s.text('Designer',24,627,14,MUTED);s.icon('arrow',w-57,588,24)
   x=24
-  for label in ['Design','Coffee','Walking']:x+=s.pill(label,x,649)+8
+  for label in ['Design','Coffee']:x+=s.pill(label,x,649)+8
   nav(s,'nearby',platform)
  elif kind=='connections':
   top(s,UI['navMessages']);s.text(UI['messagesConnections'],24,189,14,MUTED)
   s.text(UI['messagesConnections'],24,235,14,weight=500);s.text(UI['messagesRequests'],196,235,14,MUTED);s.line(24,249,139,249,INK,2);s.line(151,249,w-24,249)
-  photo(s,'maya',24,285,56,67,12);s.text('Maya',96,307,18,weight=500);s.para('It’s nice to talk about new ideas.',96,333,w-150,14,MUTED,leading=1.4);s.icon('chevron',w-47,306,19);s.line(24,378,w-24,378)
+  photo(s,'maya',24,285,56,67,12);s.text('Maya',96,307,18,weight=500);s.icon('chevron',w-47,306,19);s.line(24,378,w-24,378)
   photo(s,'alex',24,408,56,67,12);s.text('Alex',96,429,18,weight=500);s.icon('lock',96,446,14,MUTED);s.para(UI['connectionEndedNeutral'],117,458,w-153,12,MUTED,leading=1.4);s.icon('chevron',w-47,431,19,MUTED);s.line(24,497,w-24,497)
   nav(s,'messages',platform)
  elif kind=='chat':
@@ -119,7 +119,7 @@ def ui(kind,platform):
   photo(s,'alex',24,219,w-48,257,16);s.text('Alex',24,518,29,weight=500);s.text('Designer',24,544,14,MUTED)
   s.para('Coffee, design and new ideas.\nAlways up for a good conversation.',24,580,w-48,15,leading=1.5)
   x=24
-  for label in ['Design','Coffee','Walking']:x+=s.pill(label,x,632)+8
+  for label in ['Design','Coffee']:x+=s.pill(label,x,632)+8
   s.button(UI['profileEditTitle'],24,683,w-48,primary=True);nav(s,'profile',platform)
  else:raise ValueError(kind)
  return s
@@ -169,7 +169,7 @@ s.text('Start with a hello.',67,365,17,MUTED)
 s.rect(622,42,327,330,CARD,22,LINE);s.text(UI['navNearby'],646,81,22,weight=500)
 photo(s,'maya',646,105,96,119,13);s.text('Maya',764,145,25,weight=500);s.text('Designer',764,175,15,MUTED);s.icon('arrow',883,185,23)
 x=646
-for label in ['Design','Coffee','Walking']:x+=s.pill(label,x,247)+8
+for label in ['Design','Coffee']:x+=s.pill(label,x,247)+8
 s.text('Coffee, design and new ideas.',646,313,16,MUTED)
 s.rect(714,341,211,78,INK,20);s.text('Hello.',740,391,30,CARD,weight=500)
 s.text(DIS,66,457,12,MUTED)

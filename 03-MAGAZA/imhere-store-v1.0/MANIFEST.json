@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "theme": "Cream & Ink v2.2",
-  "files": 78,
+  "files": 79,
   "entries": [
     {
       "file": "COPY-v1.1-HANDOFF.md",
@@ -40,13 +40,13 @@
     },
     {
       "file": "app-store/iphone-6.5/02-nearby.png",
-      "bytes": 421440,
-      "sha256": "e80095e9acaa72d969ceb8cdebff45be48f7aa517d02ac1c39c43486d0a782ac"
+      "bytes": 418498,
+      "sha256": "53891818de474928d3a0a1db4763bb254f4469788b7dd136e61603beafa0767b"
     },
     {
       "file": "app-store/iphone-6.5/02-nearby.svg",
-      "bytes": 367142,
-      "sha256": "f106ac38c5ae3c739edc3b2c1a93ce4d525e12b35511f3912ae0b5213adea775"
+      "bytes": 366886,
+      "sha256": "a4679615a283bd1abe958546e657cf7dfa2750bfa2be7d2d4a68e7f0aa72c333"
     },
     {
       "file": "app-store/iphone-6.5/03-full-screen-map.png",
@@ -60,13 +60,13 @@
     },
     {
       "file": "app-store/iphone-6.5/04-connections.png",
-      "bytes": 162742,
-      "sha256": "26a562028e2fa380f5bc1e0a5f3247af9b92ac8a52197104ef7a78b0dd51121d"
+      "bytes": 156842,
+      "sha256": "15d330b7a49b4156bc1dc93fbff2faeeb3b7ca5d40657f963aaa2104927523ea"
     },
     {
       "file": "app-store/iphone-6.5/04-connections.svg",
-      "bytes": 610947,
-      "sha256": "9f1f3f0cf6b8386eb89dc212d99ff4d208fd8988c5fbd88464a2301d3d921c40"
+      "bytes": 610776,
+      "sha256": "9c2190205c2f4e95c7e36a5f3a48868568d2175eb789b1c8861c08b77a5578d5"
     },
     {
       "file": "app-store/iphone-6.5/05-chat.png",
@@ -80,13 +80,13 @@
     },
     {
       "file": "app-store/iphone-6.5/06-profile.png",
-      "bytes": 449891,
-      "sha256": "14774a6125fc46aff697b21de787113a85968edee5c344383177ee9c4b4309ab"
+      "bytes": 447379,
+      "sha256": "8f36f82be992ee885bb54fd80c43c0ac9e8e3171438d3bc36c7051798ee9f353"
     },
     {
       "file": "app-store/iphone-6.5/06-profile.svg",
-      "bytes": 331134,
-      "sha256": "5ff201582f67ea341ece9441ca6c7053d91400071116d69a48b6f60323b3dbd5"
+      "bytes": 330878,
+      "sha256": "dd3be0753f566536a1b9850cded9de99c77a7152960effeb2e3fe0367d48c319"
     },
     {
       "file": "app-store/iphone-6.9/01-opening.png",
@@ -100,13 +100,13 @@
     },
     {
       "file": "app-store/iphone-6.9/02-nearby.png",
-      "bytes": 483201,
-      "sha256": "92ed0ddd1efb2e97fa1227b7e3407b9718a0c8af51fcc9b3ccf19699b5e96626"
+      "bytes": 480098,
+      "sha256": "77b2a383c19c84d92b872ee3d49b91b456b75ddb9eef589b621dd9009782b842"
     },
     {
       "file": "app-store/iphone-6.9/02-nearby.svg",
-      "bytes": 367145,
-      "sha256": "2312295f537a966377894f368e55ef7dc99c7609fd9db0fab2213a71cba5e68a"
+      "bytes": 366889,
+      "sha256": "894e616276c3ae3ec1843b69efc2eafe4277bd894f51e8ede842290b9e5b16c5"
     },
     {
       "file": "app-store/iphone-6.9/03-full-screen-map.png",
@@ -120,13 +120,13 @@
     },
     {
       "file": "app-store/iphone-6.9/04-connections.png",
-      "bytes": 179727,
-      "sha256": "cef69df882f5e0edc78844469af408eed82ae61a11fade6d98ccea398575e138"
+      "bytes": 174186,
+      "sha256": "87644c411dfc08a1937df6a0c0ae3e11c9c63c52b2a950a148baa0d6ec1817f5"
     },
     {
       "file": "app-store/iphone-6.9/04-connections.svg",
-      "bytes": 610950,
-      "sha256": "74cc1464fdc397e5c29715c7c7fe008aa9d80f00d203dc5a12d822f41ba67d70"
+      "bytes": 610779,
+      "sha256": "c8c61b7f85c38f1afeab99989d114770bda730c1e6409614c0538fae84c7a79c"
     },
     {
       "file": "app-store/iphone-6.9/05-chat.png",
@@ -140,13 +140,13 @@
     },
     {
       "file": "app-store/iphone-6.9/06-profile.png",
-      "bytes": 513336,
-      "sha256": "bb49afe2484d0987c3853dd705b5d0cca0defbee766aafd3e8cd94afd945dbf5"
+      "bytes": 510543,
+      "sha256": "eb70827937961ca381f648e12e357318b45055880c808ec25d840e7d60534d6f"
     },
     {
       "file": "app-store/iphone-6.9/06-profile.svg",
-      "bytes": 331137,
-      "sha256": "65dfb0582b714b39016b60a70f444f2b6929c26328ef2344d0d66ea554951e3e"
+      "bytes": 330881,
+      "sha256": "43db9e6deb92fa176a711c5994bda6c685af6d1b9cd8b87aaf22e700e5d21890"
     },
     {
       "file": "assets/Geist-Medium.ttf",
@@ -231,12 +231,17 @@
     {
       "file": "evidence/export-validation.json",
       "bytes": 4525,
-      "sha256": "827eeefda64b3bca845f206e7664d9f3429e4ae277abd510e45abb733eeae33d"
+      "sha256": "5a20ef2aeb6c905c3f0d1dc0ba4688b4cf4407d19bae61b9e6fcd13b72ba86d9"
     },
     {
       "file": "evidence/layout-validation.json",
       "bytes": 4117,
       "sha256": "20b916aea0908c92656e4babe70a7cbd3301eefb4fcf1156db6a9f91a3b22a17"
+    },
+    {
+      "file": "evidence/scene-alignment-validation.json",
+      "bytes": 218,
+      "sha256": "47579c9a447a52fb725077f2415835716fb3032c4733bbdca7fcacb3bf680032"
     },
     {
       "file": "evidence/validation.json",
@@ -250,13 +255,13 @@
     },
     {
       "file": "google-play/feature-graphic.png",
-      "bytes": 49223,
-      "sha256": "6a853694617c6d2638a8295e626cee0d2b62641723b0e8e80d71690cbe33eb5c"
+      "bytes": 48257,
+      "sha256": "0e3c86e87b67eb841960df7e4ff6eda477f7829c42dc13d981e7b9501dff7d28"
     },
     {
       "file": "google-play/feature-graphic.svg",
-      "bytes": 361922,
-      "sha256": "ca58731ac6501fe7452f23099e9b7f2381e765fbefc5497288f4bff13217f301"
+      "bytes": 361666,
+      "sha256": "8ec0f10b3eb3bdd7cfdbe5d6d0ea4d14377c02908ae6d79d8389f618df96b972"
     },
     {
       "file": "google-play/phone/01-opening.png",
@@ -270,13 +275,13 @@
     },
     {
       "file": "google-play/phone/02-nearby.png",
-      "bytes": 275745,
-      "sha256": "0a9c4b4200cf84c4328fd88326f8afeca53fbc5a77877f0260d569544a0b2395"
+      "bytes": 273519,
+      "sha256": "2fb4c5b4991e0762301d9dd4c8361094ba903bc540d0af73ea2e5f8b7a2a1efd"
     },
     {
       "file": "google-play/phone/02-nearby.svg",
-      "bytes": 365942,
-      "sha256": "1ccb422ea04e0cca97334d9207e1cc4c1d19cefa28121b46dce25a854486bd42"
+      "bytes": 365686,
+      "sha256": "0ccaf720bb5efabee99f6b24f8cdb7dbc5e08ce0b02933ac1d67a1718cfe32f5"
     },
     {
       "file": "google-play/phone/03-full-screen-map.png",
@@ -290,13 +295,13 @@
     },
     {
       "file": "google-play/phone/04-connections.png",
-      "bytes": 98507,
-      "sha256": "34ac963dadf16a86da5273bb97801bbbcad69f4ad78cb3390fef099517f7927c"
+      "bytes": 94426,
+      "sha256": "1ddbd7463e2181b0dd6f7147fa55a5c798d31b10604b12ff722a8f47733c1216"
     },
     {
       "file": "google-play/phone/04-connections.svg",
-      "bytes": 609563,
-      "sha256": "87be59544bd10a3a93f104e628caadaa1c33b027bc4d35fe183b5093a8f903a3"
+      "bytes": 609392,
+      "sha256": "42ee1b37b8c2a3896ff3d132d31d3a7541fc73c52d7c0044c30f72d767f94876"
     },
     {
       "file": "google-play/phone/05-chat.png",
@@ -310,23 +315,23 @@
     },
     {
       "file": "google-play/phone/06-profile.png",
-      "bytes": 297307,
-      "sha256": "18c1a4717dbfd5fa7c41e0aab5173d475caf736aeda15d022aa8c51107a0904d"
+      "bytes": 295378,
+      "sha256": "a79bfcd0df70939461c3fe668d629b923ed96a779e1eff4f8d74c5100f58a1a6"
     },
     {
       "file": "google-play/phone/06-profile.svg",
-      "bytes": 329934,
-      "sha256": "ef3ab61e6a2867f89f2e84ed056163dc55d0b294bb3119cdc48c9eba6e9c6e38"
+      "bytes": 329678,
+      "sha256": "37722fd33689d746058c3b3afb99cfc0e0eb02816f2941e2a7025489f28969cb"
     },
     {
       "file": "review/app-store-contact-sheet.png",
-      "bytes": 488887,
-      "sha256": "9f656804ae5814a68aff4a2b998be17c94a8013d23e080633de4f2ac3521bd62"
+      "bytes": 483644,
+      "sha256": "b55ae1cec40fa678fe44f80fe37f467d660e0d24b8e7c39504b04866cfff3ad1"
     },
     {
       "file": "review/google-play-contact-sheet.png",
-      "bytes": 380835,
-      "sha256": "51fe103932293cfe5648bafe1808af887767a11d0ff8eecfb87955d01e63d8d8"
+      "bytes": 376777,
+      "sha256": "11b7a83c0a233b833b8da0243a21c00da7abf68df8781026c8e095bd1502bc24"
     },
     {
       "file": "source/IMAGEGEN-PROMPTS.json",
@@ -340,8 +345,8 @@
     },
     {
       "file": "source/build.py",
-      "bytes": 15667,
-      "sha256": "d635b2a2619327e04f3922c932d933598176b1b91f9710d4f1a3be4228793844"
+      "bytes": 15556,
+      "sha256": "529063104699b6da24695311451c31a8525bcf163a7f5cdbcea93805d308c060"
     },
     {
       "file": "source/marketing-copy.en.json",
@@ -360,8 +365,8 @@
     },
     {
       "file": "source/screens/connections-ios.svg",
-      "bytes": 608661,
-      "sha256": "d9b6da24f4ee7e870c50eb9cd59e1be589d4f260578864f602a8a73813c80882"
+      "bytes": 608490,
+      "sha256": "23699707e59be321026263f6d2d0bd353fdb0f4b450bab2218652e9ed739644a"
     },
     {
       "file": "source/screens/map-ios.svg",
@@ -370,8 +375,8 @@
     },
     {
       "file": "source/screens/nearby-ios.svg",
-      "bytes": 364886,
-      "sha256": "d9f078dd0212ddaeeb9e2ea77601df58bd4eb4a9721e2b27026d82dc165d64e8"
+      "bytes": 364630,
+      "sha256": "08dfeac911ba1b47bbf96e6fcd03281e6e8503036666286d0e42623f751ce5ac"
     },
     {
       "file": "source/screens/opening-ios.svg",
@@ -380,8 +385,8 @@
     },
     {
       "file": "source/screens/profile-ios.svg",
-      "bytes": 328871,
-      "sha256": "8b56ab247094e356d24be3b06b9ad3dc30e2ce3da3b2058ed5dd663963b3d429"
+      "bytes": 328615,
+      "sha256": "9fe553aae5714d2761957c3f084696d28ea4db2838e2c475c8ab3df3ece303ae"
     },
     {
       "file": "source/theme.tokens.json",

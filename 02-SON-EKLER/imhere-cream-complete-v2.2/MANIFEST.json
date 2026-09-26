@@ -2,7 +2,7 @@
   "version": "2.2",
   "name": "IM HERE / Cream & Ink complete design",
   "date": "2026-09-24",
-  "files": 3155,
+  "files": 3158,
   "screenStates": 299,
   "svgVariants": 2392,
   "pngVariants": 598,
@@ -453,9 +453,19 @@
       "sha256": "466ab09d3bdc100dd0096115a6ce7e9e7b10f5fdc4b8e9a5d69f9850e52c50e1"
     },
     {
+      "file": "l10n/location-brand-nowrap-patch_en.arb",
+      "bytes": 453,
+      "sha256": "6c0f671aa3371d5dcf7d17a3ec057e1f64d1791f9adf9eebe775236e6b90c7ee"
+    },
+    {
+      "file": "l10n/location-brand-nowrap-patch_tr.arb",
+      "bytes": 513,
+      "sha256": "9ef79e31dd9000238db7d486f7af2a95effac699fca10634de881e2c24fe82bb"
+    },
+    {
       "file": "l10n/migration.json",
-      "bytes": 33007,
-      "sha256": "5a1987dcda5a3ad26394400e918d9a377f3f052b297e18a78637308098820ff3"
+      "bytes": 33333,
+      "sha256": "cf5fe7009f933a1c1944b2865dbc68b4fc615a4d6f799441a69148d4029b886f"
     },
     {
       "file": "l10n/motion-v1-patch_en.arb",
@@ -15751,6 +15761,11 @@
       "file": "specs/PROFILE-REPORT-2026-09-24.md",
       "bytes": 650,
       "sha256": "87adaea0c43899089361caef0fdcd250094e4eeaffd6523445b5bae859437d74"
+    },
+    {
+      "file": "specs/STORE-SCENE-LOCATION-NOWRAP-2026-09-27.md",
+      "bytes": 1257,
+      "sha256": "c03c3b1c3765f752eeb0f598b83a9fd0ec71db0b9c13e0bd1e7c65eda32908db"
     },
     {
       "file": "specs/T1-REVERT-NOTIFICATIONS-2026-09-25.md",
