@@ -1,5 +1,10 @@
 # Değişiklik kaydı
 
+## Mağaza metin revizyonu v1.1 · 2026-09-26
+
+- Onaylı02/05/06 ve öne çıkan metinleri10 SVG/PNG’ye aktarıldı; kaynaklar, önizlemeler ve manifest güncellendi.
+- `03-MAGAZA/imhere-store-v1.0/COPY-v1.1-HANDOFF.md`: eski telefon içi çizim farkları açıkça kaydedildi; native karşılaştırma tamamlanmadan yayın hazır değil.
+
 ## Sürüm 6 kayıt ve konum tasarım onayı · 2026-09-26
 
 - Beş TR/EN anahtar delta + migration: metinler onaylandı; kayıt bağlantıları için48×48 hedef düzeltmesi ve serbest satır kaydırma tanımlandı. Konum açıklaması yerleşimi onaylandı.

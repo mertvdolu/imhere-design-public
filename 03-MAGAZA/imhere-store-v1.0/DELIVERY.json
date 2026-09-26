@@ -20,7 +20,7 @@
       "height": 2868,
       "platform": "ios",
       "shot": "02-nearby",
-      "title": "People. Closer to you.",
+      "title": "People nearby.",
       "sourceType": "design-render",
       "nativeCaptureVerified": false
     },
@@ -80,7 +80,7 @@
       "height": 2688,
       "platform": "ios",
       "shot": "02-nearby",
-      "title": "People. Closer to you.",
+      "title": "People nearby.",
       "sourceType": "design-render",
       "nativeCaptureVerified": false
     },
@@ -140,7 +140,7 @@
       "height": 1920,
       "platform": "android",
       "shot": "02-nearby",
-      "title": "People. Closer to you.",
+      "title": "People nearby.",
       "sourceType": "design-render",
       "nativeCaptureVerified": false
     },
@@ -190,7 +190,7 @@
       "height": 500,
       "platform": "android",
       "shot": "feature",
-      "title": "Common interests. New connections.",
+      "title": "Friendship and networking.",
       "sourceType": "marketing-composition",
       "nativeCaptureVerified": false
     },
@@ -207,5 +207,7 @@
       "byteIdenticalToSource": true
     }
   ],
-  "status": "design-complete; native-capture comparison required before store submission"
+  "status": "design-complete; native-capture comparison required before store submission",
+  "copyRevision": "1.1",
+  "copyHandoff": "COPY-v1.1-HANDOFF.md"
 }

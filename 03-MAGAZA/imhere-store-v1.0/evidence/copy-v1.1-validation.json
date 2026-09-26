@@ -1,0 +1,61 @@
+{
+  "revision": "copy-v1.1",
+  "checks": [
+    {
+      "file": "app-store/iphone-6.5/02-nearby.svg",
+      "outerTextBoundsPass": true,
+      "sha256": "f106ac38c5ae3c739edc3b2c1a93ce4d525e12b35511f3912ae0b5213adea775"
+    },
+    {
+      "file": "app-store/iphone-6.5/05-chat.svg",
+      "outerTextBoundsPass": true,
+      "sha256": "516c8cb95f6eefb61a8b4e4542a4dde18a67c399c062f5a838f401e81c61e25b"
+    },
+    {
+      "file": "app-store/iphone-6.5/06-profile.svg",
+      "outerTextBoundsPass": true,
+      "sha256": "5ff201582f67ea341ece9441ca6c7053d91400071116d69a48b6f60323b3dbd5"
+    },
+    {
+      "file": "app-store/iphone-6.9/02-nearby.svg",
+      "outerTextBoundsPass": true,
+      "sha256": "2312295f537a966377894f368e55ef7dc99c7609fd9db0fab2213a71cba5e68a"
+    },
+    {
+      "file": "app-store/iphone-6.9/05-chat.svg",
+      "outerTextBoundsPass": true,
+      "sha256": "ddb01aa60206c94f2f22f835797c9cdefd78470bf12f5c122997b4614e5d79bd"
+    },
+    {
+      "file": "app-store/iphone-6.9/06-profile.svg",
+      "outerTextBoundsPass": true,
+      "sha256": "65dfb0582b714b39016b60a70f444f2b6929c26328ef2344d0d66ea554951e3e"
+    },
+    {
+      "file": "google-play/feature-graphic.svg",
+      "outerTextBoundsPass": true,
+      "sha256": "ca58731ac6501fe7452f23099e9b7f2381e765fbefc5497288f4bff13217f301"
+    },
+    {
+      "file": "google-play/phone/02-nearby.svg",
+      "outerTextBoundsPass": true,
+      "sha256": "1ccb422ea04e0cca97334d9207e1cc4c1d19cefa28121b46dce25a854486bd42"
+    },
+    {
+      "file": "google-play/phone/05-chat.svg",
+      "outerTextBoundsPass": true,
+      "sha256": "cf73c98f6249d4d8b39cc53256d48f8221e0d35b3672f23a13e42a891466ca21"
+    },
+    {
+      "file": "google-play/phone/06-profile.svg",
+      "outerTextBoundsPass": true,
+      "sha256": "ef3ab61e6a2867f89f2e84ed056163dc55d0b294bb3119cdc48c9eba6e9c6e38"
+    }
+  ],
+  "visualReview": [
+    "review/app-store-contact-sheet.png",
+    "review/google-play-contact-sheet.png",
+    "google-play/feature-graphic.png"
+  ],
+  "nativeCaptureVerified": false
+}

@@ -126,11 +126,11 @@ def ui(kind,platform):
 
 SHOTS=[
  {'id':'01-opening','kind':'opening','title':['A hello','starts here.'],'sub':'Friendship and networking, nearby.','playTitle':['A hello starts here.']},
- {'id':'02-nearby','kind':'nearby','title':['People.','Closer to you.'],'sub':'Find a shared interest. Send a hello.','playTitle':['People. Closer to you.']},
+ {'id':'02-nearby','kind':'nearby','title':['People','nearby.'],'sub':'Friendship or networking. Say hello.','playTitle':['People nearby.']},
  {'id':'03-full-screen-map','kind':'map','title':['A wider view','of nearby.'],'sub':'Explore activity on a full-screen map.','playTitle':['Explore nearby.']},
  {'id':'04-connections','kind':'connections','title':['Connections,','in one place.'],'sub':'Your connections and requests, together.','playTitle':['Your connections.']},
- {'id':'05-chat','kind':'chat','title':['Start with','a conversation.'],'sub':'Text, emoji and links. Keep it simple.','playTitle':['Start a conversation.']},
- {'id':'06-profile','kind':'profile','title':['A little','about you.'],'sub':'Your photo. Your interests. Your choice.','playTitle':['A little about you.']},
+ {'id':'05-chat','kind':'chat','title':['Start with','a conversation.'],'sub':'Twenty messages each. Keep it simple.','playTitle':['Start a conversation.']},
+ {'id':'06-profile','kind':'profile','title':['A little','about you.'],'sub':'A profile that introduces you.','playTitle':['A little about you.']},
 ]
 SETS=[('app-store/iphone-6.9',1320,2868,'ios'),('app-store/iphone-6.5',1242,2688,'ios'),('google-play/phone',1080,1920,'android')]
 DIS='Fictional profiles · Illustrative content'
@@ -141,6 +141,7 @@ for folder,W,H,platform in SETS:
   s=SVG(ww,hh,'IM HERE — '+ ' '.join(shot['title']));s.rect(0,0,ww,hh,PAPER)
   if play:
    s.text('IM HERE',32,36,12,weight=500,tracking=1.1);s.text(shot['playTitle'][0],32,100,35,weight=500,tracking=-1.1)
+   if shot['id'] in ['02-nearby','05-chat','06-profile']:s.text(shot['sub'],32,128,14,MUTED)
    frameH=hh-194;app=ui(shot['kind'],platform);scale=frameH/app.h;frameW=app.w*scale;xx=(ww-frameW)/2;yy=145
   else:
    s.logo(49,36,32);s.text('IM HERE',103,53,13,weight=500,tracking=1.1)
@@ -162,9 +163,9 @@ for folder,W,H,platform in SETS:
   if folder=='app-store/iphone-6.9':
    d=R/'source/screens';d.mkdir(exist_ok=True);(d/(shot['kind']+'-ios.svg')).write_text(app.render())
 # Feature graphic: separate storytelling composition, not a pretend device capture.
-s=SVG(1024,500,'IM HERE — Common interests. New connections.');s.rect(0,0,1024,500,PAPER)
-s.text('IM HERE',66,72,16,weight=500,tracking=1.5);s.text('Common',64,181,62,weight=500,tracking=-2.5);s.text('interests.',64,245,62,weight=500,tracking=-2.5);s.text('New connections.',66,302,29,weight=400,tracking=-.7)
-s.text('Friendship and networking, nearby.',67,365,17,MUTED)
+s=SVG(1024,500,'IM HERE — Friendship and networking.');s.rect(0,0,1024,500,PAPER)
+s.text('IM HERE',66,72,16,weight=500,tracking=1.5);s.text('Friendship and',64,181,62,weight=500,tracking=-2.5);s.text('networking.',64,245,62,weight=500,tracking=-2.5)
+s.text('Start with a hello.',67,365,17,MUTED)
 s.rect(622,42,327,330,CARD,22,LINE);s.text(UI['navNearby'],646,81,22,weight=500)
 photo(s,'maya',646,105,96,119,13);s.text('Maya',764,145,25,weight=500);s.text('Designer',764,175,15,MUTED);s.icon('arrow',883,185,23)
 x=646
@@ -172,10 +173,10 @@ for label in ['Design','Coffee','Walking']:x+=s.pill(label,x,247)+8
 s.text('Coffee, design and new ideas.',646,313,16,MUTED)
 s.rect(714,341,211,78,INK,20);s.text('Hello.',740,391,30,CARD,weight=500)
 s.text(DIS,66,457,12,MUTED)
-p=R/'google-play/feature-graphic.svg';p.write_text(s.render());DELIVER.append({'file':'google-play/feature-graphic.png','width':1024,'height':500,'platform':'android','shot':'feature','title':'Common interests. New connections.','sourceType':'marketing-composition','nativeCaptureVerified':False})
+p=R/'google-play/feature-graphic.svg';p.write_text(s.render());DELIVER.append({'file':'google-play/feature-graphic.png','width':1024,'height':500,'platform':'android','shot':'feature','title':'Friendship and networking.','sourceType':'marketing-composition','nativeCaptureVerified':False})
 errors=[t for t in s.texts if t['x']<0 or t['x']+t['width']>1024 or t['y']<0 or t['y']+t['height']>500];assert not errors,errors
 BOUNDS.append({'file':str(p.relative_to(R)),'textBoundsPass':True,'artboard':[1024,500]})
-(R/'source/marketing-copy.en.json').write_text(json.dumps({'version':'1.0','shots':SHOTS,'feature':{'title':'Common interests. New connections.','sub':'Friendship and networking, nearby.'},'profileDisclosure':DIS,'mapDisclosure':'Illustrative map · Not live data'},indent=2,ensure_ascii=False)+'\n')
+(R/'source/marketing-copy.en.json').write_text(json.dumps({'version':'1.0','shots':SHOTS,'feature':{'title':'Friendship and networking.','sub':'Start with a hello.'},'profileDisclosure':DIS,'mapDisclosure':'Illustrative map · Not live data'},indent=2,ensure_ascii=False)+'\n')
 (R/'evidence/layout-validation.json').write_text(json.dumps(BOUNDS,indent=2)+'\n')
 (R/'DELIVERY.json').write_text(json.dumps({'version':'1.0','themeVersion':'2.2','sourceCommit':'f3dbd40bdedad4ec0b3ed06f38b72d1c1cfcebf2','language':'en','assets':DELIVER,'status':'design-complete; native-capture comparison required before store submission'},indent=2)+'\n')
 print('Created 19 editable artworks and six standalone screen sources. All text fits.')

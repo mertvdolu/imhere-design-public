@@ -17,12 +17,12 @@
       "id": "02-nearby",
       "kind": "nearby",
       "title": [
-        "People.",
-        "Closer to you."
+        "People",
+        "nearby."
       ],
-      "sub": "Find a shared interest. Send a hello.",
+      "sub": "Friendship or networking. Say hello.",
       "playTitle": [
-        "People. Closer to you."
+        "People nearby."
       ]
     },
     {
@@ -56,7 +56,7 @@
         "Start with",
         "a conversation."
       ],
-      "sub": "Text, emoji and links. Keep it simple.",
+      "sub": "Twenty messages each. Keep it simple.",
       "playTitle": [
         "Start a conversation."
       ]
@@ -68,16 +68,17 @@
         "A little",
         "about you."
       ],
-      "sub": "Your photo. Your interests. Your choice.",
+      "sub": "A profile that introduces you.",
       "playTitle": [
         "A little about you."
       ]
     }
   ],
   "feature": {
-    "title": "Common interests. New connections.",
-    "sub": "Friendship and networking, nearby."
+    "title": "Friendship and networking.",
+    "sub": "Start with a hello."
   },
   "profileDisclosure": "Fictional profiles · Illustrative content",
-  "mapDisclosure": "Illustrative map · Not live data"
+  "mapDisclosure": "Illustrative map · Not live data",
+  "copyRevision": "2026-09-26-beacon-approved"
 }

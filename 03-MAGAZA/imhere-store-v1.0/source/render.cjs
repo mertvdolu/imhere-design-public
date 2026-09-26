@@ -11,9 +11,9 @@ const sharp=require('sharp');
  const evidence=[];
  for(const f of d.assets){
   const input=path.join(root,f.file.replace('.png','.svg')),output=path.join(root,f.file);
-  await sharp(input,{limitInputPixels:false}).flatten({background:'#F4F1E9'}).removeAlpha().toColourspace('srgb').png({compressionLevel:9,palette:false}).toFile(output);
+  if(fs.existsSync(input)) await sharp(input,{limitInputPixels:false}).flatten({background:'#F4F1E9'}).removeAlpha().toColourspace('srgb').png({compressionLevel:9,palette:false}).toFile(output);
   const m=await sharp(output).metadata();
-  if(m.width!==f.width||m.height!==f.height||m.hasAlpha||m.channels!==3)throw Error('Invalid export '+f.file);
+  if(m.width!==f.width||m.height!==f.height||(fs.existsSync(input)&&(m.hasAlpha||m.channels!==3)))throw Error('Invalid export '+f.file);
   evidence.push({file:f.file,width:m.width,height:m.height,channels:m.channels,hasAlpha:m.hasAlpha,format:m.format,space:m.space,bytes:fs.statSync(output).size});
  }
  const preview=path.join(root,'review');fs.mkdirSync(preview,{recursive:true});
@@ -26,6 +26,6 @@ const sharp=require('sharp');
   images.push({input:Buffer.from(label),left:0,top:0});
   await sharp({create:{width:ww,height:hh,channels:3,background:'#E5E0D5'}}).composite(images).removeAlpha().png().toFile(path.join(preview,name+'.png'));
  }
- fs.writeFileSync(path.join(root,'evidence/export-validation.json'),JSON.stringify({exports:evidence,allOpaque:true,allRGB:true,count:evidence.length},null,2)+'\n');
- fs.unlinkSync(config);console.log('PASS: '+evidence.length+' opaque RGB PNGs; two contact sheets.');
+ fs.writeFileSync(path.join(root,'evidence/export-validation.json'),JSON.stringify({exports:evidence,allOpaque:evidence.every(x=>!x.hasAlpha),allRGB:evidence.every(x=>x.channels===3),count:evidence.length},null,2)+'\n');
+ fs.unlinkSync(config);console.log('PASS: '+evidence.length+' PNGs validated; SVG exports opaque RGB, existing raster icon preserved; two contact sheets.');
 })().catch(e=>{console.error(e);process.exit(1)});

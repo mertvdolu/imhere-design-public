@@ -18,7 +18,7 @@
       "hasAlpha": false,
       "format": "png",
       "space": "srgb",
-      "bytes": 488607
+      "bytes": 483201
     },
     {
       "file": "app-store/iphone-6.9/03-full-screen-map.png",
@@ -48,7 +48,7 @@
       "hasAlpha": false,
       "format": "png",
       "space": "srgb",
-      "bytes": 158877
+      "bytes": 160119
     },
     {
       "file": "app-store/iphone-6.9/06-profile.png",
@@ -58,7 +58,7 @@
       "hasAlpha": false,
       "format": "png",
       "space": "srgb",
-      "bytes": 515060
+      "bytes": 513336
     },
     {
       "file": "app-store/iphone-6.5/01-opening.png",
@@ -78,7 +78,7 @@
       "hasAlpha": false,
       "format": "png",
       "space": "srgb",
-      "bytes": 426290
+      "bytes": 421440
     },
     {
       "file": "app-store/iphone-6.5/03-full-screen-map.png",
@@ -108,7 +108,7 @@
       "hasAlpha": false,
       "format": "png",
       "space": "srgb",
-      "bytes": 145360
+      "bytes": 146660
     },
     {
       "file": "app-store/iphone-6.5/06-profile.png",
@@ -118,7 +118,7 @@
       "hasAlpha": false,
       "format": "png",
       "space": "srgb",
-      "bytes": 451698
+      "bytes": 449891
     },
     {
       "file": "google-play/phone/01-opening.png",
@@ -138,7 +138,7 @@
       "hasAlpha": false,
       "format": "png",
       "space": "srgb",
-      "bytes": 273082
+      "bytes": 275745
     },
     {
       "file": "google-play/phone/03-full-screen-map.png",
@@ -168,7 +168,7 @@
       "hasAlpha": false,
       "format": "png",
       "space": "srgb",
-      "bytes": 94901
+      "bytes": 101130
     },
     {
       "file": "google-play/phone/06-profile.png",
@@ -178,7 +178,7 @@
       "hasAlpha": false,
       "format": "png",
       "space": "srgb",
-      "bytes": 292346
+      "bytes": 297307
     },
     {
       "file": "google-play/feature-graphic.png",
@@ -188,10 +188,20 @@
       "hasAlpha": false,
       "format": "png",
       "space": "srgb",
-      "bytes": 51437
+      "bytes": 49223
+    },
+    {
+      "file": "google-play/app-icon-512.png",
+      "width": 512,
+      "height": 512,
+      "channels": 4,
+      "hasAlpha": true,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 16158
     }
   ],
-  "allOpaque": true,
-  "allRGB": true,
-  "count": 19
+  "allOpaque": false,
+  "allRGB": false,
+  "count": 20
 }
