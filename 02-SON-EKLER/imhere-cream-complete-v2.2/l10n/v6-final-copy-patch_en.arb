@@ -1,0 +1,23 @@
+{
+  "@@locale": "en",
+  "authConsentLine": "By tapping Create account you agree to the {terms} and confirm you have read the {privacy}.",
+  "@authConsentLine": {
+    "description": "Approved V6 final copy, 2026-09-26. See specs/V6-FINAL-COPY-APPROVAL.md; supersedes earlier short location rationale.",
+    "placeholders": {
+      "terms": {
+        "type": "String"
+      },
+      "privacy": {
+        "type": "String"
+      }
+    }
+  },
+  "locationPermissionRationale": "To check in, I’M HERE uses your phone’s location once, now. It is used only to show you to people nearby for 30 minutes and is never shown to anyone. Erasure starts when your check-in ends. It is not tracked in the background.",
+  "@locationPermissionRationale": {
+    "description": "Approved V6 final copy, 2026-09-26. See specs/V6-FINAL-COPY-APPROVAL.md; supersedes earlier short location rationale."
+  },
+  "mapShowMyArea": "Show my area",
+  "@mapShowMyArea": {
+    "description": "Approved V6 final copy, 2026-09-26. See specs/V6-FINAL-COPY-APPROVAL.md; supersedes earlier short location rationale."
+  }
+}

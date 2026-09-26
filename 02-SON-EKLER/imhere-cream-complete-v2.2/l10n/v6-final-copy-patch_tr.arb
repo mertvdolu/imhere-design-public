@@ -1,0 +1,23 @@
+{
+  "@@locale": "tr",
+  "authConsentLine": "Hesap oluştur’a dokunarak {terms}’nı kabul etmiş ve {privacy}’nı okuduğunu onaylamış olursun.",
+  "@authConsentLine": {
+    "description": "Approved V6 final copy, 2026-09-26. See specs/V6-FINAL-COPY-APPROVAL.md; supersedes earlier short location rationale.",
+    "placeholders": {
+      "terms": {
+        "type": "String"
+      },
+      "privacy": {
+        "type": "String"
+      }
+    }
+  },
+  "locationPermissionRationale": "Check-in için I’M HERE telefonunun konumunu şimdi, bir kez kullanır. Konumun yalnızca 30 dakika boyunca yakınındakilere görünmen için kullanılır ve kimseye gösterilmez. Check-in bitince silme başlar. Arka planda takip edilmez.",
+  "@locationPermissionRationale": {
+    "description": "Approved V6 final copy, 2026-09-26. See specs/V6-FINAL-COPY-APPROVAL.md; supersedes earlier short location rationale."
+  },
+  "mapShowMyArea": "Bölgemi göster",
+  "@mapShowMyArea": {
+    "description": "Approved V6 final copy, 2026-09-26. See specs/V6-FINAL-COPY-APPROVAL.md; supersedes earlier short location rationale."
+  }
+}

@@ -1,5 +1,11 @@
 # Değişiklik kaydı
 
+## Sürüm 6 son üç metin onayı v1.1 · 2026-09-26
+
+- authConsentLine TR sen dili, HARBOR I-7 uzun locationPermissionRationale ve mapShowMyArea EN/TR onaylandı; üç anahtarlı ARB delta + migration.
+- Uzun konum metni için kaydırılabilir yerleşim onayı; A13 kayıt bağlantıları kabul,48 dp korunarak yalnız düğme öncesi boşlukta isteğe bağlı16→8 önerisi.
+- Devir: `specs/V6-FINAL-COPY-APPROVAL.md`; Code uygulama listesini kapatır, cihaz ölçümü ayrıca. Yerel commit.
+
 ## Mağaza metin revizyonu v1.1 · 2026-09-26
 
 - Onaylı02/05/06 ve öne çıkan metinleri10 SVG/PNG’ye aktarıldı; kaynaklar, önizlemeler ve manifest güncellendi.

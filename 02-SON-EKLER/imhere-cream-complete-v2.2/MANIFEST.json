@@ -2,7 +2,7 @@
   "version": "2.2",
   "name": "IM HERE / Cream & Ink complete design",
   "date": "2026-09-24",
-  "files": 3149,
+  "files": 3152,
   "screenStates": 299,
   "svgVariants": 2392,
   "pngVariants": 598,
@@ -444,8 +444,8 @@
     },
     {
       "file": "l10n/migration.json",
-      "bytes": 32285,
-      "sha256": "5aac3c14b8f4c5c69fe9d8bb3d60f1129ae4fef18632652121e09865a6944406"
+      "bytes": 32704,
+      "sha256": "d181c5ea8c1c6aad7355eb02e2cbfd325d8d8ec20c1696149ab8aae87f20f341"
     },
     {
       "file": "l10n/motion-v1-patch_en.arb",
@@ -486,6 +486,16 @@
       "file": "l10n/notification-v2-patch_tr.arb",
       "bytes": 698,
       "sha256": "cce11d3be6700a01b84e7907b89c03030c8116f285e90ffe9915cea74e5891d5"
+    },
+    {
+      "file": "l10n/v6-final-copy-patch_en.arb",
+      "bytes": 1087,
+      "sha256": "a179417fa1079ccb708ac1b275f28cd6ede95ad91b4f73713022bfdf91476df3"
+    },
+    {
+      "file": "l10n/v6-final-copy-patch_tr.arb",
+      "bytes": 1117,
+      "sha256": "b6099ecfe117ac9f989072f9cd2194d23a1a614ce571ce13dae824c1fe53057e"
     },
     {
       "file": "l10n/v6-register-location-patch_en.arb",
@@ -15743,9 +15753,14 @@
       "sha256": "391ffe3cc8b5979b18b00c8d20fea9c23afa959c1b49c4f900d5f6b9d28007eb"
     },
     {
+      "file": "specs/V6-FINAL-COPY-APPROVAL.md",
+      "bytes": 4202,
+      "sha256": "71805f803b59a6043bb1409e375dae03f28b5c5e5e78d2b27f782402bfb9470c"
+    },
+    {
       "file": "specs/V6-REGISTER-LOCATION-APPROVAL.md",
-      "bytes": 4513,
-      "sha256": "beefed9a5b8198548d75e460a46252258085bcf7a2a7f47520a249a1146d3230"
+      "bytes": 4638,
+      "sha256": "fa821f04a61242b422f8bba041e5a3c2b7d1d74ace01e761e35b44c3d459c370"
     },
     {
       "file": "tokens/theme.tokens.json",

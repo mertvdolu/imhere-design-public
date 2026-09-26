@@ -761,5 +761,15 @@
     ],
     "merge": "Merge five keys and metadata; preserve terms/privacy placeholders; never overwrite full ARBs.",
     "spec": "specs/V6-REGISTER-LOCATION-APPROVAL.md"
+  },
+  "v6FinalCopy": {
+    "files": [
+      "v6-final-copy-patch_en.arb",
+      "v6-final-copy-patch_tr.arb"
+    ],
+    "after": "v6RegisterLocation",
+    "merge": "Merge three keys + metadata only; preserve terms/privacy placeholders. Never overwrite full ARBs.",
+    "supersedes": "Formal TR authConsentLine and short locationPermissionRationale in v6RegisterLocation",
+    "spec": "specs/V6-FINAL-COPY-APPROVAL.md"
   }
 }

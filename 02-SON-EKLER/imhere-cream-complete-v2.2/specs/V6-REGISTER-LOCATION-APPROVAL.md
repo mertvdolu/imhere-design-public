@@ -2,6 +2,8 @@ TASARIMCIDAN MANAGERE MESAJ
 
 # Sürüm 6 — kayıt ve konum tasarım kararı v1.0
 
+> GÜNCEL EK: V6-FINAL-COPY-APPROVAL.md; TR hitabı ve uzun konum metni bu yeni ekte. Önceki kısa metni geri yüklemeyin.
+
 2026-09-26. İncelenen kaynak: `/Users/velio/Desktop/here/imhere/docs/design-handoff.md` §0.A ilk iki satır; app/lib/screens/auth_screens.dart, location_rationale_screen.dart, request_widgets.dart ve theme/im_here_theme.dart. Uygulama deposu değiştirilmedi. Bu, tasarım/metin kararıdır; hukuki uygunluk veya Play yayın onayı değildir. Cihaz görüntüsü bu turda ölçülmedi.
 
 ## 1. Kayıt bilgilendirmesi — metin ONAY; görünüş aşağıdaki düzeltmeyle ONAY
