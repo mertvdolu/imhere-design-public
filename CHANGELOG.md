@@ -1,5 +1,11 @@
 # Değişiklik kaydı
 
+## BEACON GECE02 kaynak incelemesi v1.0 · 2026-09-26
+
+- G02-1 yanlış/eksik kurallar bölüm bazında işaretlendi; güncel kaynaklara bağlı düzeltilmiş sistem özeti eklendi. Logo için yalnız brand/README; geri çekilmiş kılavuz ölçüleri aktarılmaz.
+- G02-4 §4 mağaza metni kararları kaydedildi. Mağaza JSON/SVG/PNG değişmedi; yeniden dışa aktarım ayrı. Skill kurulmadı, uygulama/ürün davranışı değişmedi.
+- Teslim: `05-INCELEMELER/beacon-gece02-v1.0/INCELEME.md`. Yerel commit; aktarım Code.
+
 ## Firebase e-posta metinleri EN v1.0 · 2026-09-26
 
 - IM HERE gönderen adı, doğrulama ve şifre sıfırlama konuları, %LINK% içeren üç cümlelik sıfırlama gövdesi.
