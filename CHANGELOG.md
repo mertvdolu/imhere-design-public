@@ -1,5 +1,10 @@
 # Değişiklik kaydı
 
+## Firebase e-posta metinleri EN v1.0 · 2026-09-26
+
+- IM HERE gönderen adı, doğrulama ve şifre sıfırlama konuları, %LINK% içeren üç cümlelik sıfırlama gövdesi.
+- Doğrulama gövdesi değişmez. Konsola aktarım Code/Founder; yalnız yerel metin teslimi. Devir: `specs/FIREBASE-EMAIL-COPY-EN-v1.0.md`.
+
 ## Sesli bildirim kanalı · 2026-09-26
 
 - Messages and connections / Mesajlar ve bağlantılar kanal adı + açıklaması TR/EN eklendi. Üç tür: kabul, mesaj, iletişim paylaşımı; varsayılan ses+titreşim.

@@ -2,7 +2,7 @@
   "version": "2.2",
   "name": "IM HERE / Cream & Ink complete design",
   "date": "2026-09-24",
-  "files": 3144,
+  "files": 3146,
   "screenStates": 299,
   "svgVariants": 2392,
   "pngVariants": 598,
@@ -251,6 +251,11 @@
       "file": "contracts/screen-manifest.json",
       "bytes": 4376864,
       "sha256": "98f35785315f60b23db692162f1ce22957566384d712eb1ae6bd5e3b878b7ba1"
+    },
+    {
+      "file": "email/firebase-email-copy_en.json",
+      "bytes": 653,
+      "sha256": "32b22efdbe1ea4f87af5b30ae8ce58bc0ab2662c7f864d90e0563487f6a6961f"
     },
     {
       "file": "evidence/assets-validation.json",
@@ -15681,6 +15686,11 @@
       "file": "specs/END-CONNECTION-2026-09-24.md",
       "bytes": 3162,
       "sha256": "8b972564c58a504200e4a3e5e085f31f7f036f262f49123225937410db845993"
+    },
+    {
+      "file": "specs/FIREBASE-EMAIL-COPY-EN-v1.0.md",
+      "bytes": 925,
+      "sha256": "b88d7ae375fb2a5d9f68b6ff3dbaeeace480cfe0f57321ff266a01d2abd331c9"
     },
     {
       "file": "specs/FOUNDER-PHONE-T1-T4.md",

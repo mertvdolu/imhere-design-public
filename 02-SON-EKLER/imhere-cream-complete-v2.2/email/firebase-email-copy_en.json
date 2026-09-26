@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "locale": "en",
+  "senderDisplayName": "IM HERE",
+  "verificationSubject": "Confirm your email for IM HERE",
+  "passwordResetSubject": "Reset your IM HERE password",
+  "passwordResetBody": "Hi there,\n\nWe received a request to reset your IM HERE password. Use the link below to choose a new password.\n\n%LINK%\n\nIf you didn’t request this, you can ignore this email.\n\nIM HERE",
+  "verificationBodyPolicy": "Unchanged; do not edit.",
+  "scope": "Copy only. No console, sending-domain or sender-address configuration performed.",
+  "domainContext": "useimhere.com — provided by Founder; not an invented sender address."
+}
