@@ -1,5 +1,10 @@
 # Değişiklik kaydı
 
+## Marka başlığı bölünmez boşluk · 2026-09-27
+
+- appTitle EN/TR: mevcut I’M HERE yazımı korunarak boşluk U+00A0 yapıldı; ARB delta + migration.
+- Büyük metinde kırpma/küçültme yerine yeterli genişlik; native doğrulama Code’da. Devir: `specs/BRAND-NOWRAP-2026-09-27.md`.
+
 ## Sürüm 6 son üç metin onayı v1.1 · 2026-09-26
 
 - authConsentLine TR sen dili, HARBOR I-7 uzun locationPermissionRationale ve mapShowMyArea EN/TR onaylandı; üç anahtarlı ARB delta + migration.

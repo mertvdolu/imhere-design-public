@@ -771,5 +771,13 @@
     "merge": "Merge three keys + metadata only; preserve terms/privacy placeholders. Never overwrite full ARBs.",
     "supersedes": "Formal TR authConsentLine and short locationPermissionRationale in v6RegisterLocation",
     "spec": "specs/V6-FINAL-COPY-APPROVAL.md"
+  },
+  "brandNoWrap20260927": {
+    "files": [
+      "brand-nowrap-patch_en.arb",
+      "brand-nowrap-patch_tr.arb"
+    ],
+    "merge": "Update appTitle and metadata only; preserve existing spelling, replace space with U+00A0. Never overwrite full ARBs.",
+    "spec": "specs/BRAND-NOWRAP-2026-09-27.md"
   }
 }

@@ -1,0 +1,7 @@
+{
+  "@@locale": "tr",
+  "appTitle": "I\u2019M\u00a0HERE",
+  "@appTitle": {
+    "description": "Keep existing title spelling. U+00A0 non-breaking space prevents a word break at large text sizes; do not truncate or disable text scaling."
+  }
+}

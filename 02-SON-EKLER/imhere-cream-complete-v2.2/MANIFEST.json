@@ -2,7 +2,7 @@
   "version": "2.2",
   "name": "IM HERE / Cream & Ink complete design",
   "date": "2026-09-24",
-  "files": 3152,
+  "files": 3155,
   "screenStates": 299,
   "svgVariants": 2392,
   "pngVariants": 598,
@@ -393,6 +393,16 @@
       "sha256": "835cd2d3980021bbc576dab1a0043c347c7a96500a389c5e8e28e0572840067e"
     },
     {
+      "file": "l10n/brand-nowrap-patch_en.arb",
+      "bytes": 242,
+      "sha256": "5726036144cec7826e0bd85023185511dabdac7f53c7a9ac3312d09e429bc223"
+    },
+    {
+      "file": "l10n/brand-nowrap-patch_tr.arb",
+      "bytes": 242,
+      "sha256": "3967e9eabcff86de3be8b057b743db656d9a254eaf5f390e560a1c8207476bef"
+    },
+    {
       "file": "l10n/child-safety-patch_en.arb",
       "bytes": 281,
       "sha256": "34198b920e5ae40ae0e6f93c1619bb2b4d2d885d52dad1c4356d18a8c6d004ae"
@@ -444,8 +454,8 @@
     },
     {
       "file": "l10n/migration.json",
-      "bytes": 32704,
-      "sha256": "d181c5ea8c1c6aad7355eb02e2cbfd325d8d8ec20c1696149ab8aae87f20f341"
+      "bytes": 33007,
+      "sha256": "5a1987dcda5a3ad26394400e918d9a377f3f052b297e18a78637308098820ff3"
     },
     {
       "file": "l10n/motion-v1-patch_en.arb",
@@ -15681,6 +15691,11 @@
       "file": "screens/svg/welcome--tr--ios--200.svg",
       "bytes": 83032,
       "sha256": "e4ad807fe802cc9d9ae5299341d00b6037c175200b1ffb89f2aeef0dde68895d"
+    },
+    {
+      "file": "specs/BRAND-NOWRAP-2026-09-27.md",
+      "bytes": 1117,
+      "sha256": "55d856f16922303574526e487aa77543e8d0e193dceb352233d1cfc6be2ad0d6"
     },
     {
       "file": "specs/CHILD-SAFETY-2026-09-24.md",
