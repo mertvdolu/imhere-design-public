@@ -1,0 +1,31 @@
+{
+  "@@locale": "en",
+  "authConsentLine": "By tapping Create account you agree to the {terms} and confirm you have read the {privacy}.",
+  "@authConsentLine": {
+    "description": "Version 6 designer copy approval; see specs/V6-REGISTER-LOCATION-APPROVAL.md. Merge delta only.",
+    "placeholders": {
+      "terms": {
+        "type": "String"
+      },
+      "privacy": {
+        "type": "String"
+      }
+    }
+  },
+  "authConsentTerms": "Terms of Use",
+  "@authConsentTerms": {
+    "description": "Version 6 designer copy approval; see specs/V6-REGISTER-LOCATION-APPROVAL.md. Merge delta only."
+  },
+  "authConsentPrivacy": "Privacy Policy",
+  "@authConsentPrivacy": {
+    "description": "Version 6 designer copy approval; see specs/V6-REGISTER-LOCATION-APPROVAL.md. Merge delta only."
+  },
+  "locationPermissionRationale": "Your location is verified only when you start or renew a check-in. It isn’t tracked in the background.",
+  "@locationPermissionRationale": {
+    "description": "Version 6 designer copy approval; see specs/V6-REGISTER-LOCATION-APPROVAL.md. Merge delta only."
+  },
+  "locationRationaleContinue": "Continue",
+  "@locationRationaleContinue": {
+    "description": "Version 6 designer copy approval; see specs/V6-REGISTER-LOCATION-APPROVAL.md. Merge delta only."
+  }
+}

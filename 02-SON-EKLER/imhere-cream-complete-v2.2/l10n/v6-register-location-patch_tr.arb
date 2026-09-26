@@ -1,0 +1,31 @@
+{
+  "@@locale": "tr",
+  "authConsentLine": "Hesap oluştur’a dokunarak {terms}’nı kabul etmiş ve {privacy}’nı okuduğunuzu onaylamış olursunuz.",
+  "@authConsentLine": {
+    "description": "Version 6 designer copy approval; see specs/V6-REGISTER-LOCATION-APPROVAL.md. Merge delta only.",
+    "placeholders": {
+      "terms": {
+        "type": "String"
+      },
+      "privacy": {
+        "type": "String"
+      }
+    }
+  },
+  "authConsentTerms": "Kullanım Şartları",
+  "@authConsentTerms": {
+    "description": "Version 6 designer copy approval; see specs/V6-REGISTER-LOCATION-APPROVAL.md. Merge delta only."
+  },
+  "authConsentPrivacy": "Gizlilik Politikası",
+  "@authConsentPrivacy": {
+    "description": "Version 6 designer copy approval; see specs/V6-REGISTER-LOCATION-APPROVAL.md. Merge delta only."
+  },
+  "locationPermissionRationale": "Konumun yalnızca sen check-in başlattığında veya yenilediğinde doğrulanır. Arka planda takip edilmez.",
+  "@locationPermissionRationale": {
+    "description": "Version 6 designer copy approval; see specs/V6-REGISTER-LOCATION-APPROVAL.md. Merge delta only."
+  },
+  "locationRationaleContinue": "Devam",
+  "@locationRationaleContinue": {
+    "description": "Version 6 designer copy approval; see specs/V6-REGISTER-LOCATION-APPROVAL.md. Merge delta only."
+  }
+}

@@ -753,5 +753,13 @@
     "merge": "Add2 keys and metadata only; do not replace full ARBs.",
     "existingSilentNameUnchanged": "notificationChannelUpdates",
     "contract": "contracts/notification-channels-2026-09-26.json"
+  },
+  "v6RegisterLocation": {
+    "files": [
+      "v6-register-location-patch_en.arb",
+      "v6-register-location-patch_tr.arb"
+    ],
+    "merge": "Merge five keys and metadata; preserve terms/privacy placeholders; never overwrite full ARBs.",
+    "spec": "specs/V6-REGISTER-LOCATION-APPROVAL.md"
   }
 }

@@ -2,7 +2,7 @@
   "version": "2.2",
   "name": "IM HERE / Cream & Ink complete design",
   "date": "2026-09-24",
-  "files": 3146,
+  "files": 3149,
   "screenStates": 299,
   "svgVariants": 2392,
   "pngVariants": 598,
@@ -444,8 +444,8 @@
     },
     {
       "file": "l10n/migration.json",
-      "bytes": 31984,
-      "sha256": "5559e57c800a95a7bd6aa56192a215ca730ab86edf804ffcf6ca255d6cfa7497"
+      "bytes": 32285,
+      "sha256": "5aac3c14b8f4c5c69fe9d8bb3d60f1129ae4fef18632652121e09865a6944406"
     },
     {
       "file": "l10n/motion-v1-patch_en.arb",
@@ -486,6 +486,16 @@
       "file": "l10n/notification-v2-patch_tr.arb",
       "bytes": 698,
       "sha256": "cce11d3be6700a01b84e7907b89c03030c8116f285e90ffe9915cea74e5891d5"
+    },
+    {
+      "file": "l10n/v6-register-location-patch_en.arb",
+      "bytes": 1291,
+      "sha256": "ade5e019555419e2d01fce208f95af9ae6c7d2606e3bd6f200ba752362c26871"
+    },
+    {
+      "file": "l10n/v6-register-location-patch_tr.arb",
+      "bytes": 1326,
+      "sha256": "b1f8df3d22fbf8b154286ae356e32b4ccfbf9fb244850538e0ae35344d47b50a"
     },
     {
       "file": "map/map-cream-en.json",
@@ -15731,6 +15741,11 @@
       "file": "specs/TELEFON-TURU-2026-09-24.md",
       "bytes": 5474,
       "sha256": "391ffe3cc8b5979b18b00c8d20fea9c23afa959c1b49c4f900d5f6b9d28007eb"
+    },
+    {
+      "file": "specs/V6-REGISTER-LOCATION-APPROVAL.md",
+      "bytes": 4513,
+      "sha256": "beefed9a5b8198548d75e460a46252258085bcf7a2a7f47520a249a1146d3230"
     },
     {
       "file": "tokens/theme.tokens.json",

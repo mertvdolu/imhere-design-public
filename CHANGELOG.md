@@ -1,5 +1,10 @@
 # Değişiklik kaydı
 
+## Sürüm 6 kayıt ve konum tasarım onayı · 2026-09-26
+
+- Beş TR/EN anahtar delta + migration: metinler onaylandı; kayıt bağlantıları için48×48 hedef düzeltmesi ve serbest satır kaydırma tanımlandı. Konum açıklaması yerleşimi onaylandı.
+- `specs/V6-REGISTER-LOCATION-APPROVAL.md`: uygulama listesini Code günceller; cihaz/Play uygunluk onayı değildir. Mağaza yeniden üretimi ayrı teslim.
+
 ## BEACON GECE02 kaynak incelemesi v1.0 · 2026-09-26
 
 - G02-1 yanlış/eksik kurallar bölüm bazında işaretlendi; güncel kaynaklara bağlı düzeltilmiş sistem özeti eklendi. Logo için yalnız brand/README; geri çekilmiş kılavuz ölçüleri aktarılmaz.
