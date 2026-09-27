@@ -1,0 +1,137 @@
+{
+  "exports": [
+    {
+      "file": "app-store/iphone-6.9/01-opening.png",
+      "width": 1320,
+      "height": 2868,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 187691
+    },
+    {
+      "file": "app-store/iphone-6.9/02-nearby.png",
+      "width": 1320,
+      "height": 2868,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 202134
+    },
+    {
+      "file": "app-store/iphone-6.9/03-full-screen-map.png",
+      "width": 1320,
+      "height": 2868,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 672989
+    },
+    {
+      "file": "app-store/iphone-6.9/04-connections.png",
+      "width": 1320,
+      "height": 2868,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 157375
+    },
+    {
+      "file": "app-store/iphone-6.9/05-chat.png",
+      "width": 1320,
+      "height": 2868,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 206697
+    },
+    {
+      "file": "app-store/iphone-6.5/01-opening.png",
+      "width": 1242,
+      "height": 2688,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 173654
+    },
+    {
+      "file": "app-store/iphone-6.5/02-nearby.png",
+      "width": 1242,
+      "height": 2688,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 187529
+    },
+    {
+      "file": "app-store/iphone-6.5/03-full-screen-map.png",
+      "width": 1242,
+      "height": 2688,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 620560
+    },
+    {
+      "file": "app-store/iphone-6.5/04-connections.png",
+      "width": 1242,
+      "height": 2688,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 144538
+    },
+    {
+      "file": "app-store/iphone-6.5/05-chat.png",
+      "width": 1242,
+      "height": 2688,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 191063
+    },
+    {
+      "file": "google-play/phone/01-opening.png",
+      "width": 1080,
+      "height": 1920,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 123544
+    },
+    {
+      "file": "google-play/phone/04-connections.png",
+      "width": 1080,
+      "height": 1920,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 97642
+    },
+    {
+      "file": "google-play/phone/05-chat.png",
+      "width": 1080,
+      "height": 1920,
+      "channels": 3,
+      "hasAlpha": false,
+      "format": "png",
+      "space": "srgb",
+      "bytes": 142938
+    }
+  ],
+  "allOpaque": true,
+  "allRGB": true,
+  "count": 13
+}

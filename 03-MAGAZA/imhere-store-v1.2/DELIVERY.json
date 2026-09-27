@@ -1,0 +1,300 @@
+{
+  "version": "1.2",
+  "status": "partial native delivery; Android02/03 and photo-enabled06 pending",
+  "assets": [
+    {
+      "file": "app-store/iphone-6.9/01-opening.png",
+      "width": 1320,
+      "height": 2868,
+      "platform": "ios",
+      "shot": "01-opening",
+      "nativeSource": "source/native/ios/01-opening.png",
+      "nativeSourceSha256": "b8c77c1e5e24b0e21fe0bfd44f50586899ea5cef4f35a059134365cf88c96f74",
+      "nativeSourceSize": [
+        1206,
+        2622
+      ],
+      "syntheticPortrait": {
+        "x": 108,
+        "y": 846,
+        "width": 192,
+        "height": 240,
+        "radius": 35,
+        "portrait": "maya-synthetic.jpg"
+      },
+      "crop": "none; uniform scaling",
+      "sourceType": "native capture with disclosed synthetic portrait overlay"
+    },
+    {
+      "file": "app-store/iphone-6.9/02-nearby.png",
+      "width": 1320,
+      "height": 2868,
+      "platform": "ios",
+      "shot": "02-nearby",
+      "nativeSource": "source/native/ios/02-nearby.png",
+      "nativeSourceSha256": "9704ea7247d6416e178b8e10f392bd77da39ef3432f259cecfb98ec4c45171bf",
+      "nativeSourceSize": [
+        1206,
+        2622
+      ],
+      "syntheticPortrait": {
+        "x": 108,
+        "y": 1683,
+        "width": 192,
+        "height": 240,
+        "radius": 35,
+        "portrait": "maya-synthetic.jpg"
+      },
+      "crop": "none; uniform scaling",
+      "sourceType": "native capture with disclosed synthetic portrait overlay"
+    },
+    {
+      "file": "app-store/iphone-6.9/03-full-screen-map.png",
+      "width": 1320,
+      "height": 2868,
+      "platform": "ios",
+      "shot": "03-full-screen-map",
+      "nativeSource": "source/native/ios/03-full-screen-map.png",
+      "nativeSourceSha256": "5b957c021f70decbf3977500f1805e9b9e42eb00479d9f2313a2d4b045444e85",
+      "nativeSourceSize": [
+        1206,
+        2622
+      ],
+      "syntheticPortrait": null,
+      "crop": "none; uniform scaling",
+      "sourceType": "native capture"
+    },
+    {
+      "file": "app-store/iphone-6.9/04-connections.png",
+      "width": 1320,
+      "height": 2868,
+      "platform": "ios",
+      "shot": "04-connections",
+      "nativeSource": "source/native/ios/04-connections.png",
+      "nativeSourceSha256": "41ceeaed911ea10726927a9876db066b6335f85fa98f6422e46365c49cb9e563",
+      "nativeSourceSize": [
+        1206,
+        2622
+      ],
+      "syntheticPortrait": {
+        "x": 108,
+        "y": 822,
+        "width": 192,
+        "height": 240,
+        "radius": 35,
+        "portrait": "maya-synthetic.jpg"
+      },
+      "crop": "none; uniform scaling",
+      "sourceType": "native capture with disclosed synthetic portrait overlay"
+    },
+    {
+      "file": "app-store/iphone-6.9/05-chat.png",
+      "width": 1320,
+      "height": 2868,
+      "platform": "ios",
+      "shot": "05-chat",
+      "nativeSource": "source/native/ios/05-chat.png",
+      "nativeSourceSha256": "ecb05f25cc3ef8f2f11a6d4aa509cc4cfc6affcbbdeef4d4655619bbbb65f9db",
+      "nativeSourceSize": [
+        1206,
+        2622
+      ],
+      "syntheticPortrait": {
+        "x": 108,
+        "y": 426,
+        "width": 192,
+        "height": 240,
+        "radius": 35,
+        "portrait": "maya-synthetic.jpg"
+      },
+      "crop": "none; uniform scaling",
+      "sourceType": "native capture with disclosed synthetic portrait overlay"
+    },
+    {
+      "file": "app-store/iphone-6.5/01-opening.png",
+      "width": 1242,
+      "height": 2688,
+      "platform": "ios",
+      "shot": "01-opening",
+      "nativeSource": "source/native/ios/01-opening.png",
+      "nativeSourceSha256": "b8c77c1e5e24b0e21fe0bfd44f50586899ea5cef4f35a059134365cf88c96f74",
+      "nativeSourceSize": [
+        1206,
+        2622
+      ],
+      "syntheticPortrait": {
+        "x": 108,
+        "y": 846,
+        "width": 192,
+        "height": 240,
+        "radius": 35,
+        "portrait": "maya-synthetic.jpg"
+      },
+      "crop": "none; uniform scaling",
+      "sourceType": "native capture with disclosed synthetic portrait overlay"
+    },
+    {
+      "file": "app-store/iphone-6.5/02-nearby.png",
+      "width": 1242,
+      "height": 2688,
+      "platform": "ios",
+      "shot": "02-nearby",
+      "nativeSource": "source/native/ios/02-nearby.png",
+      "nativeSourceSha256": "9704ea7247d6416e178b8e10f392bd77da39ef3432f259cecfb98ec4c45171bf",
+      "nativeSourceSize": [
+        1206,
+        2622
+      ],
+      "syntheticPortrait": {
+        "x": 108,
+        "y": 1683,
+        "width": 192,
+        "height": 240,
+        "radius": 35,
+        "portrait": "maya-synthetic.jpg"
+      },
+      "crop": "none; uniform scaling",
+      "sourceType": "native capture with disclosed synthetic portrait overlay"
+    },
+    {
+      "file": "app-store/iphone-6.5/03-full-screen-map.png",
+      "width": 1242,
+      "height": 2688,
+      "platform": "ios",
+      "shot": "03-full-screen-map",
+      "nativeSource": "source/native/ios/03-full-screen-map.png",
+      "nativeSourceSha256": "5b957c021f70decbf3977500f1805e9b9e42eb00479d9f2313a2d4b045444e85",
+      "nativeSourceSize": [
+        1206,
+        2622
+      ],
+      "syntheticPortrait": null,
+      "crop": "none; uniform scaling",
+      "sourceType": "native capture"
+    },
+    {
+      "file": "app-store/iphone-6.5/04-connections.png",
+      "width": 1242,
+      "height": 2688,
+      "platform": "ios",
+      "shot": "04-connections",
+      "nativeSource": "source/native/ios/04-connections.png",
+      "nativeSourceSha256": "41ceeaed911ea10726927a9876db066b6335f85fa98f6422e46365c49cb9e563",
+      "nativeSourceSize": [
+        1206,
+        2622
+      ],
+      "syntheticPortrait": {
+        "x": 108,
+        "y": 822,
+        "width": 192,
+        "height": 240,
+        "radius": 35,
+        "portrait": "maya-synthetic.jpg"
+      },
+      "crop": "none; uniform scaling",
+      "sourceType": "native capture with disclosed synthetic portrait overlay"
+    },
+    {
+      "file": "app-store/iphone-6.5/05-chat.png",
+      "width": 1242,
+      "height": 2688,
+      "platform": "ios",
+      "shot": "05-chat",
+      "nativeSource": "source/native/ios/05-chat.png",
+      "nativeSourceSha256": "ecb05f25cc3ef8f2f11a6d4aa509cc4cfc6affcbbdeef4d4655619bbbb65f9db",
+      "nativeSourceSize": [
+        1206,
+        2622
+      ],
+      "syntheticPortrait": {
+        "x": 108,
+        "y": 426,
+        "width": 192,
+        "height": 240,
+        "radius": 35,
+        "portrait": "maya-synthetic.jpg"
+      },
+      "crop": "none; uniform scaling",
+      "sourceType": "native capture with disclosed synthetic portrait overlay"
+    },
+    {
+      "file": "google-play/phone/01-opening.png",
+      "width": 1080,
+      "height": 1920,
+      "platform": "android",
+      "shot": "01-opening",
+      "nativeSource": "source/native/android/01-opening.png",
+      "nativeSourceSha256": "a319680d4451dc73caa4ad63acd9074857973e44c96b49a931d32131c63c881b",
+      "nativeSourceSize": [
+        1080,
+        2408
+      ],
+      "syntheticPortrait": {
+        "x": 102,
+        "y": 689,
+        "width": 179,
+        "height": 224,
+        "radius": 32,
+        "portrait": "maya-synthetic.jpg"
+      },
+      "crop": "none; uniform scaling",
+      "sourceType": "native capture with disclosed synthetic portrait overlay"
+    },
+    {
+      "file": "google-play/phone/04-connections.png",
+      "width": 1080,
+      "height": 1920,
+      "platform": "android",
+      "shot": "04-connections",
+      "nativeSource": "source/native/android/04-connections.png",
+      "nativeSourceSha256": "56789b4da363d49b689e200184b1c3a3c4ed5a53c2792eb8a097d4435f5b7d4c",
+      "nativeSourceSize": [
+        1080,
+        2408
+      ],
+      "syntheticPortrait": {
+        "x": 102,
+        "y": 667,
+        "width": 179,
+        "height": 224,
+        "radius": 32,
+        "portrait": "maya-synthetic.jpg"
+      },
+      "crop": "none; uniform scaling",
+      "sourceType": "native capture with disclosed synthetic portrait overlay"
+    },
+    {
+      "file": "google-play/phone/05-chat.png",
+      "width": 1080,
+      "height": 1920,
+      "platform": "android",
+      "shot": "05-chat",
+      "nativeSource": "source/native/android/05-chat.png",
+      "nativeSourceSha256": "789e272139dc0e25fce5710d3bfc5046c5b19d6253fa59d70e004343fdfaa450",
+      "nativeSourceSize": [
+        1080,
+        2408
+      ],
+      "syntheticPortrait": {
+        "x": 102,
+        "y": 310,
+        "width": 179,
+        "height": 224,
+        "radius": 32,
+        "portrait": "maya-synthetic.jpg"
+      },
+      "crop": "none; uniform scaling",
+      "sourceType": "native capture with disclosed synthetic portrait overlay"
+    }
+  ],
+  "pending": [
+    "google-play/phone/02-nearby",
+    "google-play/phone/03-full-screen-map",
+    "app-store/iphone-6.9/06-profile",
+    "app-store/iphone-6.5/06-profile",
+    "google-play/phone/06-profile"
+  ],
+  "featureGraphic": "Use existing v1.0 feature graphic; illustrative marketing composition, not native capture",
+  "profileDisclosure": "Fictional profiles · Illustrative content"
+}

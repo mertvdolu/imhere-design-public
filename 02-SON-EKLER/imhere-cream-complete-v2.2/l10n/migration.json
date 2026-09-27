@@ -787,5 +787,13 @@
     ],
     "after": "v6FinalCopy",
     "merge": "Only locationPermissionRationale + metadata; replace brand space with U+00A0, preserve all other wording. Do not overwrite full ARBs."
+  },
+  "profileLanguagesHeading20260927": {
+    "files": [
+      "profile-languages-heading-patch_en.arb",
+      "profile-languages-heading-patch_tr.arb"
+    ],
+    "merge": "Merge existing profileLanguagesLabel + metadata only. In other_profile_screen heading replace languages usage with profileLanguagesLabel. Keep form languages key unchanged.",
+    "spec": "specs/NATIVE-STORE-COUNTER-LANGUAGES-2026-09-27.md"
   }
 }

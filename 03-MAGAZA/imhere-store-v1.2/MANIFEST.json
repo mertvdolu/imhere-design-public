@@ -1,0 +1,327 @@
+{
+  "version": "1.2",
+  "name": "IM HERE native store partial delivery",
+  "entries": [
+    {
+      "file": "DELIVERY.json",
+      "bytes": 9042,
+      "sha256": "6a45792656e524d1a36374431bd878ff8d6204444e6e33a87f4ce446bb14756d"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2800,
+      "sha256": "b3c598b9a9e5a529a9a86abd138501bf1a012decc354cb654902ec62e7399fe0"
+    },
+    {
+      "file": "app-store/iphone-6.5/01-opening.png",
+      "bytes": 173654,
+      "sha256": "2a461e426c49dd4a40c5d513bd93395f132c53f88afb3691814aa48df6eba88e"
+    },
+    {
+      "file": "app-store/iphone-6.5/01-opening.svg",
+      "bytes": 583762,
+      "sha256": "b9009df1519da3238e96f68c27c7e8360706ff3c48a637d21c34ada5841f7b9c"
+    },
+    {
+      "file": "app-store/iphone-6.5/02-nearby.png",
+      "bytes": 187529,
+      "sha256": "2b77aff8ffc91af7ead14b011067c6b75c8c244ea3ea35f88942706c8e41df73"
+    },
+    {
+      "file": "app-store/iphone-6.5/02-nearby.svg",
+      "bytes": 620186,
+      "sha256": "a52379c99b713772a3847c4393a61606bed8a03b49ac4189f8b36ce1bf62e3d5"
+    },
+    {
+      "file": "app-store/iphone-6.5/03-full-screen-map.png",
+      "bytes": 620560,
+      "sha256": "44fb3607e3a7df26d7efb8fd2f643fe5fb8d1651204b20defb0720c2b32e2369"
+    },
+    {
+      "file": "app-store/iphone-6.5/03-full-screen-map.svg",
+      "bytes": 1314460,
+      "sha256": "681a30e8e69a7da28d876721d7da2487e172202c84609aba21c44980ad951b72"
+    },
+    {
+      "file": "app-store/iphone-6.5/04-connections.png",
+      "bytes": 144538,
+      "sha256": "96bc5696b9869d217bb30a2fbb2a38b46189b154b2a00665803efcfd923a57db"
+    },
+    {
+      "file": "app-store/iphone-6.5/04-connections.svg",
+      "bytes": 529128,
+      "sha256": "2e279fe759500d209fccb849a941c0f3db83274837948c5d73df8c8377188b87"
+    },
+    {
+      "file": "app-store/iphone-6.5/05-chat.png",
+      "bytes": 191063,
+      "sha256": "e5be937aacaeeaf4c694369c75ad041a1cb591b5d8cc79ff60800d388af6392e"
+    },
+    {
+      "file": "app-store/iphone-6.5/05-chat.svg",
+      "bytes": 604209,
+      "sha256": "98dbb41531bff2575c2a778b1392e812e2164e5b635453d0fd6c7ed163a5e852"
+    },
+    {
+      "file": "app-store/iphone-6.9/01-opening.png",
+      "bytes": 187691,
+      "sha256": "bd43aa367e00900b8b17f8aedf750fedc02b0dd7e4833fb53ac7541c11443878"
+    },
+    {
+      "file": "app-store/iphone-6.9/01-opening.svg",
+      "bytes": 583768,
+      "sha256": "5ea9d3a1315c52d093f43f92be2901115df696a41cb01b03bde91d37cd609bdb"
+    },
+    {
+      "file": "app-store/iphone-6.9/02-nearby.png",
+      "bytes": 202134,
+      "sha256": "6159090db90227e46662eb660efd9d09d81b37a192a7de0f424ddf3ab4c2ecfb"
+    },
+    {
+      "file": "app-store/iphone-6.9/02-nearby.svg",
+      "bytes": 620192,
+      "sha256": "5da58495eb044f52099b70fe8008fc81943f9623e490518c56bfa306996f2c51"
+    },
+    {
+      "file": "app-store/iphone-6.9/03-full-screen-map.png",
+      "bytes": 672989,
+      "sha256": "090af74da635c6a7374baa13e3732e3e552416f6393c07d5effbdd3237226726"
+    },
+    {
+      "file": "app-store/iphone-6.9/03-full-screen-map.svg",
+      "bytes": 1314466,
+      "sha256": "c0f1b7c2b08661803b7f0c53012adb952a031890082c3bdb7741001411675820"
+    },
+    {
+      "file": "app-store/iphone-6.9/04-connections.png",
+      "bytes": 157375,
+      "sha256": "112490f93da06d2f347daa4a7cbca323f84976c4f16b230d6279cd14fb9c107e"
+    },
+    {
+      "file": "app-store/iphone-6.9/04-connections.svg",
+      "bytes": 529134,
+      "sha256": "42d8eb81fb75178fa2b1730aab571ecc4bbb35ad7457aca0b0d7cecc2eeb2b1d"
+    },
+    {
+      "file": "app-store/iphone-6.9/05-chat.png",
+      "bytes": 206697,
+      "sha256": "e1e435b14481f97fdf0135bec0d0c7592643babfdfdbae37487a87e4f5d146af"
+    },
+    {
+      "file": "app-store/iphone-6.9/05-chat.svg",
+      "bytes": 604215,
+      "sha256": "66ab85d271c2fef37d2699862f239d390d101026dc54fe820665adfe8f085b7f"
+    },
+    {
+      "file": "assets/Geist-Medium.ttf",
+      "bytes": 127660,
+      "sha256": "3a3b36f0d0b981f4857f7f00eeef4a5ee123605575d362ab31ee7c19e3d11f2f"
+    },
+    {
+      "file": "assets/Geist-Medium.woff2",
+      "bytes": 19992,
+      "sha256": "dc097e4fa082f01c44ccc7a5ee13ed30259e791a663b9ffa81225ecb4869f40f"
+    },
+    {
+      "file": "assets/Geist-Regular.ttf",
+      "bytes": 126048,
+      "sha256": "85a1c6b18a6b0a06dfe9fd4f6d6a5d4979f74ec861eaef4bc7868b5492b8a117"
+    },
+    {
+      "file": "assets/Geist-Regular.woff2",
+      "bytes": 19400,
+      "sha256": "e11300a9faf16e0c5e04bf63e6a082d614d82a3ef5ad50614f770cb8242a412b"
+    },
+    {
+      "file": "assets/Geist-SemiBold.ttf",
+      "bytes": 127872,
+      "sha256": "b9f52322d6d20a7ff1e7fe1310ff12ec851aebb83d24f8b4f1d4149298f489b2"
+    },
+    {
+      "file": "assets/Geist-SemiBold.woff2",
+      "bytes": 19928,
+      "sha256": "a2518d5811a93fc2aa9ae70a11fbda4eac00bcaccdb8b1db334d0da94154dfa6"
+    },
+    {
+      "file": "assets/OFL.txt",
+      "bytes": 4383,
+      "sha256": "942560b236adfa83745b2c64e5fc09ebaf91cb331751b1157eb92187e5d6e930"
+    },
+    {
+      "file": "assets/alex-synthetic.jpg",
+      "bytes": 182534,
+      "sha256": "6b3c28502a44f23c1895f2e411f2d73f985c2e1227b35639c790a0c1c6cdd591"
+    },
+    {
+      "file": "assets/imhere-mark-icon-weight.svg",
+      "bytes": 565,
+      "sha256": "2ab93326b0dc88965527e8a2552495ce45e75df6a1da949752072379e60ff663"
+    },
+    {
+      "file": "assets/maya-synthetic.jpg",
+      "bytes": 209523,
+      "sha256": "b22e4f29deed6ff90922b1ccfa43889ceacb40559e407d6ad5efaee8eb14a054"
+    },
+    {
+      "file": "evidence/export-validation.json",
+      "bytes": 2982,
+      "sha256": "6dd13c096c1b37840feb782dfd6d9fe2a158a8d702639577b114906c3e43c662"
+    },
+    {
+      "file": "evidence/native-validation.json",
+      "bytes": 435,
+      "sha256": "4564fb911018e1e079f934e20348c34a119320612cfefd4a7aa2e6b89fc0da06"
+    },
+    {
+      "file": "google-play/phone/01-opening.png",
+      "bytes": 123544,
+      "sha256": "df6ee032c152df656101ce3291c943554c4c65b5bb744fc14e8185a78ce9121d"
+    },
+    {
+      "file": "google-play/phone/01-opening.svg",
+      "bytes": 500091,
+      "sha256": "f280f00ca81382b76e87c2911942bacef8b634b32df6fa0dc39f84a87d4a7413"
+    },
+    {
+      "file": "google-play/phone/04-connections.png",
+      "bytes": 97642,
+      "sha256": "8602217a60d2b9a84fcf4ebabc440743971ef493436a6545fd3a5c074698e125"
+    },
+    {
+      "file": "google-play/phone/04-connections.svg",
+      "bytes": 458634,
+      "sha256": "96383e27e574c365606b812f87bbb1463248af2cbb5c8fac9927b305dc12fa9d"
+    },
+    {
+      "file": "google-play/phone/05-chat.png",
+      "bytes": 142938,
+      "sha256": "3c4899339943add4ffecb6b2396b7a354a42e523e4c9dc8493c98952593c3c79"
+    },
+    {
+      "file": "google-play/phone/05-chat.svg",
+      "bytes": 523666,
+      "sha256": "08aba056d01a962eea9f14b03b360d847c9c61e7eba41389be03919c868e8110"
+    },
+    {
+      "file": "review/app-store-contact-sheet.png",
+      "bytes": 461467,
+      "sha256": "253b55e3b33dbee9c84bfa2696e123636578e31032045c3c34e2228e7c036e44"
+    },
+    {
+      "file": "review/google-play-contact-sheet.png",
+      "bytes": 172761,
+      "sha256": "650b8246dd32c1ede038b9fe4c4b10438d1e9f4a0ee1f1e015820faa015c92b4"
+    },
+    {
+      "file": "source/build.py",
+      "bytes": 4425,
+      "sha256": "2010ea243c1f311b4e4bd276a4f18ae83ce33f1bf6ae7d5d3b32549c87bdbbcf"
+    },
+    {
+      "file": "source/marketing-copy.en.json",
+      "bytes": 1776,
+      "sha256": "c1d7d8acfd4c2b2b0c3eb43541526b8e4f6de34658b41b9346d91ad1fd2bca37"
+    },
+    {
+      "file": "source/native/BENIOKU.md",
+      "bytes": 2905,
+      "sha256": "4f2d87f0cc2d467d1ceda1799e7044f02dc6c759e922d3ceb72c728a084e062e"
+    },
+    {
+      "file": "source/native/android/01-opening-secili.png",
+      "bytes": 124684,
+      "sha256": "589b8bb74dbe055ebdd92b4c59624930b775062f8cd8bead4b9b83dd6f3fe453"
+    },
+    {
+      "file": "source/native/android/01-opening.png",
+      "bytes": 125132,
+      "sha256": "a319680d4451dc73caa4ad63acd9074857973e44c96b49a931d32131c63c881b"
+    },
+    {
+      "file": "source/native/android/04-connections.png",
+      "bytes": 94037,
+      "sha256": "56789b4da363d49b689e200184b1c3a3c4ed5a53c2792eb8a097d4435f5b7d4c"
+    },
+    {
+      "file": "source/native/android/05-chat-baslikli.png",
+      "bytes": 152802,
+      "sha256": "7cfc03d02cb682ea371152ed08e9a6a32e2a879cadf2f8f174d09c87b4f75441"
+    },
+    {
+      "file": "source/native/android/05-chat.png",
+      "bytes": 142680,
+      "sha256": "789e272139dc0e25fce5710d3bfc5046c5b19d6253fa59d70e004343fdfaa450"
+    },
+    {
+      "file": "source/native/android/06-profile.png",
+      "bytes": 155679,
+      "sha256": "933ed62d59c4925f792b2a46c79e9f06d53657ddc483ab56a978573b3929b18f"
+    },
+    {
+      "file": "source/native/android/ek-maya-profili.png",
+      "bytes": 84468,
+      "sha256": "0a71c7dd68e12b3bad62b3743c303a7684e8080b3c9258e6516d60f959766dc9"
+    },
+    {
+      "file": "source/native/android/ek-merhaba-gonderildi.png",
+      "bytes": 94488,
+      "sha256": "ef2b47fa805a0cd5626139986c92977c674987b8d4ea6b9f12807f90d05b566a"
+    },
+    {
+      "file": "source/native/ios/01-opening-secili.png",
+      "bytes": 187196,
+      "sha256": "31ab1bc6807947c41068322fcbcab8780a47b3ee9f22f249086b6aff96f5fe3e"
+    },
+    {
+      "file": "source/native/ios/01-opening.png",
+      "bytes": 187018,
+      "sha256": "b8c77c1e5e24b0e21fe0bfd44f50586899ea5cef4f35a059134365cf88c96f74"
+    },
+    {
+      "file": "source/native/ios/02-nearby.png",
+      "bytes": 214344,
+      "sha256": "9704ea7247d6416e178b8e10f392bd77da39ef3432f259cecfb98ec4c45171bf"
+    },
+    {
+      "file": "source/native/ios/03-full-screen-map.png",
+      "bytes": 944633,
+      "sha256": "5b957c021f70decbf3977500f1805e9b9e42eb00479d9f2313a2d4b045444e85"
+    },
+    {
+      "file": "source/native/ios/04-connections.png",
+      "bytes": 146030,
+      "sha256": "41ceeaed911ea10726927a9876db066b6335f85fa98f6422e46365c49cb9e563"
+    },
+    {
+      "file": "source/native/ios/05-chat-baslikli.png",
+      "bytes": 207316,
+      "sha256": "796987057cce16ffd20ce72bf25633c34f41a5510ecbc99c6a9b225b8a73fa72"
+    },
+    {
+      "file": "source/native/ios/05-chat.png",
+      "bytes": 202342,
+      "sha256": "ecb05f25cc3ef8f2f11a6d4aa509cc4cfc6affcbbdeef4d4655619bbbb65f9db"
+    },
+    {
+      "file": "source/native/ios/06-profile.png",
+      "bytes": 216279,
+      "sha256": "3c1c8ee82d60a2ac61c3ea17e84e256cde21f607afbf6127cc05aabeb1cc5d25"
+    },
+    {
+      "file": "source/native/ios/ek-maya-profili.png",
+      "bytes": 138810,
+      "sha256": "62542474fed331ebd45b9b14e8f78b5ba93c4cedcb27c9ad47543f50f2b8e92b"
+    },
+    {
+      "file": "source/portrait-placements.json",
+      "bytes": 1046,
+      "sha256": "08427f68779799f1e210bd09aa2407b58d6b7f96e6fec2ee9830ce749640d08e"
+    },
+    {
+      "file": "source/render.cjs",
+      "bytes": 3045,
+      "sha256": "7cbcf11471c52d285b1df7fdcd0417dce7f7bd4a29833f76e032434ede61073f"
+    }
+  ],
+  "files": 64
+}

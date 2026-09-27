@@ -1,0 +1,7 @@
+{
+  "@@locale": "tr",
+  "profileLanguagesLabel": "Konuşulan diller",
+  "@profileLanguagesLabel": {
+    "description": "Read-only language heading for own AND other profile. Reuse this existing key in other-profile; keep languages optional label in editable forms."
+  }
+}

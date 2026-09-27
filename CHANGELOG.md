@@ -1,5 +1,11 @@
 # Değişiklik kaydı
 
+## Native mağaza v1.2 kısmi teslim · 2026-09-27
+
+- Gelen native çekimlerle13 mağaza karesi; Maya portresi mevcut yuvalarda, kurmaca etiketleri korunur. iOS01–05 iki boyut; A13 01/04/05. Android02/03 ve fotoğraf yuvalı06 bekler.
+- Sohbet sayacı Your message üstünde8 dp ile sabit blokta onaylandı. Başkasının profilinde mevcut profileLanguagesLabel: Languages spoken / Konuşulan diller; delta + kullanım notu.
+- Giriş: `03-MAGAZA/imhere-store-v1.2/README.md`. Set henüz tam yayın paketi değil; yerel commit.
+
 ## Mağaza sahne uyumu + konum marka boşluğu · 2026-09-27
 
 - Walking kaldırıldı; Design + Coffee korundu. Bağlantı listesinin son mesaj önizlemesi kaldırıldı; SVG/PNG ve üretim kaynağı güncellendi.

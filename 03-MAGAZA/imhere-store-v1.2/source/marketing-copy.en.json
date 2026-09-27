@@ -1,0 +1,84 @@
+{
+  "version": "1.0",
+  "shots": [
+    {
+      "id": "01-opening",
+      "kind": "opening",
+      "title": [
+        "A hello",
+        "starts here."
+      ],
+      "sub": "Friendship and networking, nearby.",
+      "playTitle": [
+        "A hello starts here."
+      ]
+    },
+    {
+      "id": "02-nearby",
+      "kind": "nearby",
+      "title": [
+        "People",
+        "nearby."
+      ],
+      "sub": "Friendship or networking. Say hello.",
+      "playTitle": [
+        "People nearby."
+      ]
+    },
+    {
+      "id": "03-full-screen-map",
+      "kind": "map",
+      "title": [
+        "A wider view",
+        "of nearby."
+      ],
+      "sub": "Explore activity on a full-screen map.",
+      "playTitle": [
+        "Explore nearby."
+      ]
+    },
+    {
+      "id": "04-connections",
+      "kind": "connections",
+      "title": [
+        "Connections,",
+        "in one place."
+      ],
+      "sub": "Your connections and requests, together.",
+      "playTitle": [
+        "Your connections."
+      ]
+    },
+    {
+      "id": "05-chat",
+      "kind": "chat",
+      "title": [
+        "Start with",
+        "a conversation."
+      ],
+      "sub": "Twenty messages each. Keep it simple.",
+      "playTitle": [
+        "Start a conversation."
+      ]
+    },
+    {
+      "id": "06-profile",
+      "kind": "profile",
+      "title": [
+        "A little",
+        "about you."
+      ],
+      "sub": "A profile that introduces you.",
+      "playTitle": [
+        "A little about you."
+      ]
+    }
+  ],
+  "feature": {
+    "title": "Friendship and networking.",
+    "sub": "Start with a hello."
+  },
+  "profileDisclosure": "Fictional profiles · Illustrative content",
+  "mapDisclosure": "Illustrative map · Not live data",
+  "copyRevision": "2026-09-26-beacon-approved"
+}

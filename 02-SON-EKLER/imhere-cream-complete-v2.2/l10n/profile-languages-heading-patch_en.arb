@@ -1,0 +1,7 @@
+{
+  "@@locale": "en",
+  "profileLanguagesLabel": "Languages spoken",
+  "@profileLanguagesLabel": {
+    "description": "Read-only language heading for own AND other profile. Reuse this existing key in other-profile; keep languages optional label in editable forms."
+  }
+}

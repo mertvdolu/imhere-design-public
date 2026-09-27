@@ -1,0 +1,15 @@
+{
+  "sourcePngsIdenticalToZip": 17,
+  "nativeCompositions": 13,
+  "aspectRatioPreserved": true,
+  "wholeCaptureRetained": true,
+  "disclosurePresent": true,
+  "portraitPlacement": "observed photo placeholders only; Maya",
+  "alexPendingPhotoEnabledCapture": true,
+  "androidNearbyMapPending": true,
+  "visualReview": [
+    "review/app-store-contact-sheet.png",
+    "review/google-play-contact-sheet.png"
+  ],
+  "noStoreUpload": true
+}

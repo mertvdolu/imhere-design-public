@@ -1,0 +1,58 @@
+{
+  "ios/01-opening": {
+    "x": 108,
+    "y": 846,
+    "width": 192,
+    "height": 240,
+    "radius": 35,
+    "portrait": "maya-synthetic.jpg"
+  },
+  "ios/02-nearby": {
+    "x": 108,
+    "y": 1683,
+    "width": 192,
+    "height": 240,
+    "radius": 35,
+    "portrait": "maya-synthetic.jpg"
+  },
+  "ios/04-connections": {
+    "x": 108,
+    "y": 822,
+    "width": 192,
+    "height": 240,
+    "radius": 35,
+    "portrait": "maya-synthetic.jpg"
+  },
+  "ios/05-chat": {
+    "x": 108,
+    "y": 426,
+    "width": 192,
+    "height": 240,
+    "radius": 35,
+    "portrait": "maya-synthetic.jpg"
+  },
+  "android/01-opening": {
+    "x": 102,
+    "y": 689,
+    "width": 179,
+    "height": 224,
+    "radius": 32,
+    "portrait": "maya-synthetic.jpg"
+  },
+  "android/04-connections": {
+    "x": 102,
+    "y": 667,
+    "width": 179,
+    "height": 224,
+    "radius": 32,
+    "portrait": "maya-synthetic.jpg"
+  },
+  "android/05-chat": {
+    "x": 102,
+    "y": 310,
+    "width": 179,
+    "height": 224,
+    "radius": 32,
+    "portrait": "maya-synthetic.jpg"
+  }
+}
