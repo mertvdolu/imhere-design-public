@@ -1,0 +1,23 @@
+{
+  "@@locale": "tr",
+  "compactNext": "İleri",
+  "compactAccountGroup": "Hesap",
+  "compactPrivacyGroup": "Gizlilik",
+  "compactAboutGroup": "Hakkında",
+  "compactMore": "Diğer seçenekler",
+  "@compactNext": {
+    "description": "Compact v10 layout label; merge delta, do not replace full ARB."
+  },
+  "@compactAccountGroup": {
+    "description": "Compact v10 layout label; merge delta, do not replace full ARB."
+  },
+  "@compactPrivacyGroup": {
+    "description": "Compact v10 layout label; merge delta, do not replace full ARB."
+  },
+  "@compactAboutGroup": {
+    "description": "Compact v10 layout label; merge delta, do not replace full ARB."
+  },
+  "@compactMore": {
+    "description": "Compact v10 layout label; merge delta, do not replace full ARB."
+  }
+}

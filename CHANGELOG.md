@@ -1,5 +1,11 @@
 # Değişiklik kaydı
 
+## Sıkılaştırma v10 · tasarım eki v1.0 · 2026-09-28
+
+- 12 önce/sonra HTML örneği, kompakt kontrol ölçüleri ve yüzen menü; kurulum/klavye/tam ekran rapor istisnaları.
+- HARBOR konum metni aynen; 5 EN/TR yerleşim anahtarı delta. Referans JPG/HTML dosyaları depoya alınmadı.
+- `02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/HANDOFF.md`; native uygulama/test Code tarafından. Eski SVGler tarihsel.
+
 ## Networking kaydırıcı uç metinleri v1.0 · 2026-09-28
 
 - Sol Friends / Arkadaşlık, sağ Networking / Networking; iki anahtar EN/TR delta + migration.

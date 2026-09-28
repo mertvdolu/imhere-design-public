@@ -1,0 +1,51 @@
+{
+  "version": "1.0",
+  "status": "design handoff; native validation pending",
+  "spec": "SPEC.md",
+  "preview": "ONIZLEME.html",
+  "historicalSvgNotRegenerated": true,
+  "sampleCount": 12,
+  "appliesToFamilies": [
+    "registration",
+    "initial-profile",
+    "profile",
+    "settings",
+    "messages",
+    "chat",
+    "map"
+  ],
+  "sampleStateIds": [
+    "register-empty",
+    "form-empty",
+    "view-own-visible",
+    "settings-root",
+    "messages-connections-ready",
+    "messages-requests-empty",
+    "chat-active",
+    "map-ready",
+    "map-legend",
+    "notifications-intro"
+  ],
+  "navigation": {
+    "order": [
+      "Profile",
+      "Messages",
+      "Nearby",
+      "Events"
+    ],
+    "hiddenDuring": [
+      "authentication",
+      "verification",
+      "initial-profile",
+      "chat-keyboard-open",
+      "fullscreen-confirmation",
+      "fullscreen-report"
+    ],
+    "map": "visible after onboarding"
+  },
+  "preservedCopy": {
+    "locationPermissionRationale": "../l10n/location-brand-nowrap-patch_{locale}.arb"
+  },
+  "delta": "../l10n/compact-v10-patch_{locale}.arb",
+  "existingSliderEndpointsCommit": "680a480"
+}

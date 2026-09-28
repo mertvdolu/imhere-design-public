@@ -1971,7 +1971,8 @@
       "H7b"
     ],
     "latestLayoutAddendum": "02-SON-EKLER/imhere-cream-complete-v2.2/specs/NATIVE-STORE-COUNTER-LANGUAGES-2026-09-27.md",
-    "historicalSvgRequiresAddendum": true
+    "historicalSvgRequiresAddendum": true,
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md"
   },
   {
     "id": "chat-active",
@@ -2001,7 +2002,8 @@
       "H7b"
     ],
     "latestLayoutAddendum": "02-SON-EKLER/imhere-cream-complete-v2.2/specs/NATIVE-STORE-COUNTER-LANGUAGES-2026-09-27.md",
-    "historicalSvgRequiresAddendum": true
+    "historicalSvgRequiresAddendum": true,
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md"
   },
   {
     "id": "chat-active",
@@ -2031,7 +2033,8 @@
       "H7b"
     ],
     "latestLayoutAddendum": "02-SON-EKLER/imhere-cream-complete-v2.2/specs/NATIVE-STORE-COUNTER-LANGUAGES-2026-09-27.md",
-    "historicalSvgRequiresAddendum": true
+    "historicalSvgRequiresAddendum": true,
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md"
   },
   {
     "id": "chat-active",
@@ -2061,7 +2064,8 @@
       "H7b"
     ],
     "latestLayoutAddendum": "02-SON-EKLER/imhere-cream-complete-v2.2/specs/NATIVE-STORE-COUNTER-LANGUAGES-2026-09-27.md",
-    "historicalSvgRequiresAddendum": true
+    "historicalSvgRequiresAddendum": true,
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md"
   },
   {
     "id": "chat-active",
@@ -2091,7 +2095,8 @@
       "H7b"
     ],
     "latestLayoutAddendum": "02-SON-EKLER/imhere-cream-complete-v2.2/specs/NATIVE-STORE-COUNTER-LANGUAGES-2026-09-27.md",
-    "historicalSvgRequiresAddendum": true
+    "historicalSvgRequiresAddendum": true,
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md"
   },
   {
     "id": "chat-active",
@@ -2121,7 +2126,8 @@
       "H7b"
     ],
     "latestLayoutAddendum": "02-SON-EKLER/imhere-cream-complete-v2.2/specs/NATIVE-STORE-COUNTER-LANGUAGES-2026-09-27.md",
-    "historicalSvgRequiresAddendum": true
+    "historicalSvgRequiresAddendum": true,
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md"
   },
   {
     "id": "chat-active",
@@ -2151,7 +2157,8 @@
       "H7b"
     ],
     "latestLayoutAddendum": "02-SON-EKLER/imhere-cream-complete-v2.2/specs/NATIVE-STORE-COUNTER-LANGUAGES-2026-09-27.md",
-    "historicalSvgRequiresAddendum": true
+    "historicalSvgRequiresAddendum": true,
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md"
   },
   {
     "id": "chat-active",
@@ -2181,7 +2188,8 @@
       "H7b"
     ],
     "latestLayoutAddendum": "02-SON-EKLER/imhere-cream-complete-v2.2/specs/NATIVE-STORE-COUNTER-LANGUAGES-2026-09-27.md",
-    "historicalSvgRequiresAddendum": true
+    "historicalSvgRequiresAddendum": true,
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md"
   },
   {
     "id": "chat-at-limit",
@@ -20332,7 +20340,9 @@
     },
     "devTourH2H7H9H3": [
       "H2-onboarding-exception"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "form-empty",
@@ -20355,7 +20365,9 @@
     },
     "devTourH2H7H9H3": [
       "H2-onboarding-exception"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "form-empty",
@@ -20378,7 +20390,9 @@
     },
     "devTourH2H7H9H3": [
       "H2-onboarding-exception"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "form-empty",
@@ -20401,7 +20415,9 @@
     },
     "devTourH2H7H9H3": [
       "H2-onboarding-exception"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "form-empty",
@@ -20424,7 +20440,9 @@
     },
     "devTourH2H7H9H3": [
       "H2-onboarding-exception"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "form-empty",
@@ -20447,7 +20465,9 @@
     },
     "devTourH2H7H9H3": [
       "H2-onboarding-exception"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "form-empty",
@@ -20470,7 +20490,9 @@
     },
     "devTourH2H7H9H3": [
       "H2-onboarding-exception"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "form-empty",
@@ -20493,7 +20515,9 @@
     },
     "devTourH2H7H9H3": [
       "H2-onboarding-exception"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "form-filled",
@@ -30211,7 +30235,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "map-legend",
@@ -30233,7 +30259,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "map-legend",
@@ -30255,7 +30283,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "map-legend",
@@ -30277,7 +30307,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "map-legend",
@@ -30299,7 +30331,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "map-legend",
@@ -30321,7 +30355,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "map-legend",
@@ -30343,7 +30379,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "map-legend",
@@ -30365,7 +30403,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "map-loading",
@@ -30848,7 +30888,9 @@
         "02-presence-boundary"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "map-ready",
@@ -30867,7 +30909,9 @@
         "02-presence-boundary"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "map-ready",
@@ -30886,7 +30930,9 @@
         "02-presence-boundary"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "map-ready",
@@ -30905,7 +30951,9 @@
         "02-presence-boundary"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "map-ready",
@@ -30924,7 +30972,9 @@
         "02-presence-boundary"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "map-ready",
@@ -30943,7 +30993,9 @@
         "02-presence-boundary"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "map-ready",
@@ -30962,7 +31014,9 @@
         "02-presence-boundary"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "map-ready",
@@ -30981,7 +31035,9 @@
         "02-presence-boundary"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "map-stale",
@@ -32753,7 +32809,9 @@
         "tab-indicator"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "messages-connections-ready",
@@ -32773,7 +32831,9 @@
         "tab-indicator"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "messages-connections-ready",
@@ -32793,7 +32853,9 @@
         "tab-indicator"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "messages-connections-ready",
@@ -32813,7 +32875,9 @@
         "tab-indicator"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "messages-connections-ready",
@@ -32833,7 +32897,9 @@
         "tab-indicator"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "messages-connections-ready",
@@ -32853,7 +32919,9 @@
         "tab-indicator"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "messages-connections-ready",
@@ -32873,7 +32941,9 @@
         "tab-indicator"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "messages-connections-ready",
@@ -32893,7 +32963,9 @@
         "tab-indicator"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "messages-requests-empty",
@@ -32914,7 +32986,9 @@
         "tab-indicator"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "messages-requests-empty",
@@ -32935,7 +33009,9 @@
         "tab-indicator"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "messages-requests-empty",
@@ -32956,7 +33032,9 @@
         "tab-indicator"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "messages-requests-empty",
@@ -32977,7 +33055,9 @@
         "tab-indicator"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "messages-requests-empty",
@@ -32998,7 +33078,9 @@
         "tab-indicator"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "messages-requests-empty",
@@ -33019,7 +33101,9 @@
         "tab-indicator"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "messages-requests-empty",
@@ -33040,7 +33124,9 @@
         "tab-indicator"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "messages-requests-empty",
@@ -33061,7 +33147,9 @@
         "tab-indicator"
       ],
       "spec": "02-SON-EKLER/imhere-cream-complete-v2.2/motion/hareket-ve-his-v1/screen-motion-map.json"
-    }
+    },
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "messages-requests-failed",
@@ -37186,7 +37274,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "notifications-intro",
@@ -37207,7 +37297,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "notifications-intro",
@@ -37228,7 +37320,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "notifications-intro",
@@ -37249,7 +37343,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "notifications-intro",
@@ -37270,7 +37366,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "notifications-intro",
@@ -37291,7 +37389,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "notifications-intro",
@@ -37312,7 +37412,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "notifications-intro",
@@ -37333,7 +37435,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "notifications-offline",
@@ -41731,7 +41835,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "register-empty",
@@ -41753,7 +41859,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "register-empty",
@@ -41775,7 +41883,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "register-empty",
@@ -41797,7 +41907,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "register-empty",
@@ -41819,7 +41931,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "register-empty",
@@ -41841,7 +41955,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "register-empty",
@@ -41863,7 +41979,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "register-empty",
@@ -41885,7 +42003,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "register-failed",
@@ -48172,7 +48292,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "settings-root",
@@ -48195,7 +48317,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "settings-root",
@@ -48218,7 +48342,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "settings-root",
@@ -48241,7 +48367,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "settings-root",
@@ -48264,7 +48392,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "settings-root",
@@ -48287,7 +48417,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "settings-root",
@@ -48310,7 +48442,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "settings-root",
@@ -48333,7 +48467,9 @@
     },
     "devTourH2H7H9H3": [
       "H2"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "splash",
@@ -52725,7 +52861,9 @@
     },
     "devTourH2H7H9H3": [
       "H3"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "view-own-visible",
@@ -52749,7 +52887,9 @@
     },
     "devTourH2H7H9H3": [
       "H3"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "view-own-visible",
@@ -52773,7 +52913,9 @@
     },
     "devTourH2H7H9H3": [
       "H3"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "view-own-visible",
@@ -52797,7 +52939,9 @@
     },
     "devTourH2H7H9H3": [
       "H3"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "view-own-visible",
@@ -52821,7 +52965,9 @@
     },
     "devTourH2H7H9H3": [
       "H3"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "view-own-visible",
@@ -52845,7 +52991,9 @@
     },
     "devTourH2H7H9H3": [
       "H3"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "view-own-visible",
@@ -52869,7 +53017,9 @@
     },
     "devTourH2H7H9H3": [
       "H3"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "view-own-visible",
@@ -52893,7 +53043,9 @@
     },
     "devTourH2H7H9H3": [
       "H3"
-    ]
+    ],
+    "compactV10Addendum": "02-SON-EKLER/imhere-cream-complete-v2.2/compact-v10-v1.0/SPEC.md",
+    "historicalSvgRequiresAddendum": true
   },
   {
     "id": "view-unavailable",

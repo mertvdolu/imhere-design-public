@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-28",
+  "referenceReview": "24 JPGs + notes reviewed locally; not copied to repository",
+  "arbKeysPerLocale": 5,
+  "arbParity": "pass",
+  "harborCopyExactMatch": "pass EN/TR including NBSP",
+  "catalogReferencesAdded": 80,
+  "browser": "Codex IAB, loopback-only preview",
+  "browserChecks": {
+    "twelveSamplesAt320Tr200": "12 rendered; 11 initial no horizontal body overflow; notification overflow fixed and rechecked",
+    "touchTargetsAt320Tr200": "all visible sample buttons >=48px",
+    "beforeImages": "all12 loaded",
+    "chatKeyboard": "no main navigation; composer retained",
+    "mapAttributionAnd2x2": "visually reviewed, no overlap; long label fixed with8dp large-text edge inset"
+  },
+  "notClaimed": [
+    "full 299-state redraw",
+    "native iOS/Android tests",
+    "all width/locale combinations visually reviewed",
+    "production map rendering",
+    "system reduce-transparency integration verified"
+  ]
+}

@@ -2,7 +2,7 @@
   "version": "2.2",
   "name": "IM HERE / Cream & Ink complete design",
   "date": "2026-09-24",
-  "files": 3182,
+  "files": 3191,
   "screenStates": 299,
   "svgVariants": 2392,
   "pngVariants": 598,
@@ -258,6 +258,41 @@
       "sha256": "6e6262caaf42ae1c183be8c256c45a0a7ad2149c0fe8b83eb0a02122e267bd34"
     },
     {
+      "file": "compact-v10-v1.0/HANDOFF.md",
+      "bytes": 886,
+      "sha256": "7ef6cf0836527c63d206c3c612b99ddc7fc35c26bc5384106658905d93c80159"
+    },
+    {
+      "file": "compact-v10-v1.0/ONIZLEME.html",
+      "bytes": 21602,
+      "sha256": "25ecaa4340db50c3894d2f34ae6f03e5e1805b902c75258d3122838f567a21bd"
+    },
+    {
+      "file": "compact-v10-v1.0/SPEC.md",
+      "bytes": 9244,
+      "sha256": "8d145b65bdbc4a0827edfef76ecf193d0fb058782580344c17658f7e6264aa6d"
+    },
+    {
+      "file": "compact-v10-v1.0/catalog.json",
+      "bytes": 1137,
+      "sha256": "fb83c4b765dd2c77a1dcacf59c7564e0160861266906a2161d78e4304ff4f4ae"
+    },
+    {
+      "file": "compact-v10-v1.0/copy.js",
+      "bytes": 53288,
+      "sha256": "7ddc64e84c639c7b98eb12d8abeb2b6cb06b861f7ef95748dfbf5fff4fb0bb8a"
+    },
+    {
+      "file": "compact-v10-v1.0/tokens.delta.json",
+      "bytes": 755,
+      "sha256": "4257f5866ec958db36f01d9e199eca04495e11da3e79353919bf62c29717b54d"
+    },
+    {
+      "file": "compact-v10-v1.0/validation.json",
+      "bytes": 946,
+      "sha256": "bbde6b26d859ce4508340be1ed0975c11a02be1e10a81cdf79bad2aa15aee83b"
+    },
+    {
       "file": "contact-card-v1.0/ONIZLEME.html",
       "bytes": 3613,
       "sha256": "8a8124182579a49c61f7d093199606ec169b3b123be9e172e041f4e0167a554b"
@@ -476,6 +511,16 @@
       "file": "l10n/compact-signals-v1-patch_tr.arb",
       "bytes": 1211,
       "sha256": "5ccf8abd1adf16ee381e60db642be724dba03763a72c4efddc8a44e57ffc7086"
+    },
+    {
+      "file": "l10n/compact-v10-patch_en.arb",
+      "bytes": 757,
+      "sha256": "9df224da972b52b77384dd9f30f104efde0ec0efdeae5be9d25f9974787482bd"
+    },
+    {
+      "file": "l10n/compact-v10-patch_tr.arb",
+      "bytes": 768,
+      "sha256": "8864a1d626e7620f38eb799978952037788691504cb3e1611bf5da103c390b6f"
     },
     {
       "file": "l10n/contact-card-v1-patch_en.arb",

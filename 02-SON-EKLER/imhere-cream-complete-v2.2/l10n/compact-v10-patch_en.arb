@@ -1,0 +1,23 @@
+{
+  "@@locale": "en",
+  "compactNext": "Next",
+  "compactAccountGroup": "Account",
+  "compactPrivacyGroup": "Privacy",
+  "compactAboutGroup": "About",
+  "compactMore": "More options",
+  "@compactNext": {
+    "description": "Compact v10 layout label; merge delta, do not replace full ARB."
+  },
+  "@compactAccountGroup": {
+    "description": "Compact v10 layout label; merge delta, do not replace full ARB."
+  },
+  "@compactPrivacyGroup": {
+    "description": "Compact v10 layout label; merge delta, do not replace full ARB."
+  },
+  "@compactAboutGroup": {
+    "description": "Compact v10 layout label; merge delta, do not replace full ARB."
+  },
+  "@compactMore": {
+    "description": "Compact v10 layout label; merge delta, do not replace full ARB."
+  }
+}

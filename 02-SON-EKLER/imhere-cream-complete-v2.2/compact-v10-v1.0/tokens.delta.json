@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "scope": "compact-v10 only; retain base tokens",
+  "compactPageTitle": {
+    "size": 28,
+    "weight": 500,
+    "height": 1.15,
+    "letterSpacing": -0.7
+  },
+  "tapMinimum": 48,
+  "compactButton": {
+    "horizontalPadding": 16,
+    "verticalPadding": 8,
+    "radius": 999,
+    "labelToken": "label"
+  },
+  "floatingNavigation": {
+    "surface": "#FCFAF5",
+    "alpha": 0.94,
+    "blurSigma": 16,
+    "radius": 26,
+    "horizontalInset": 16,
+    "largeTextHorizontalInset": 8,
+    "bottomInsetPlusSafeArea": 16,
+    "reducedTransparency": {
+      "color": "#F4F1E9",
+      "alpha": 1,
+      "blurSigma": 0
+    },
+    "labelSize": 12,
+    "largeTextColumns": 2
+  },
+  "mapControl": {
+    "paintDiameter": 36,
+    "target": 48
+  }
+}
