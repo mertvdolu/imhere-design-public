@@ -1,0 +1,88 @@
+{
+  "@@locale": "en",
+  "messagesUnread": "Unread messages",
+  "profileNetworkingMix": "Networking {networking}% · Friends {friends}%",
+  "profileNetworkingMixTitle": "Networking and friends",
+  "settingsChangeEmail": "Change email address",
+  "emailChangeNewLabel": "New email address",
+  "emailChangeSubmit": "Send verification link",
+  "emailChangeReauth": "To change your email address, first sign in again with your current password.",
+  "emailChangeSent": "If this address can be used, you’ll receive a verification link at {email}. Open it to change your email address, then sign in again with your new address.",
+  "emailChangeFailed": "This couldn’t be completed. Please try again.",
+  "authEmailInvalid": "Check your email address.",
+  "authTooManyAttempts": "We can’t complete this action right now. Please try again later.",
+  "offline": "You’re offline.",
+  "authPassword": "Password",
+  "authReauthRequired": "Sign in again to continue.",
+  "cancel": "Cancel",
+  "profileIntentBalanceNotSet": "Not set",
+  "profileIntentBalanceAdjust": "Networking percentage",
+  "emailChangeSending": "Sending verification link…",
+  "@messagesUnread": {
+    "description": "Approved release8 copy v1.0. Existing Code key names retained. See release8-copy-v1.0/HANDOFF.md."
+  },
+  "@profileNetworkingMix": {
+    "description": "Approved release8 copy v1.0. Existing Code key names retained. See release8-copy-v1.0/HANDOFF.md.",
+    "placeholders": {
+      "networking": {
+        "type": "int"
+      },
+      "friends": {
+        "type": "int"
+      }
+    }
+  },
+  "@profileNetworkingMixTitle": {
+    "description": "Approved release8 copy v1.0. Existing Code key names retained. See release8-copy-v1.0/HANDOFF.md."
+  },
+  "@settingsChangeEmail": {
+    "description": "Approved release8 copy v1.0. Existing Code key names retained. See release8-copy-v1.0/HANDOFF.md."
+  },
+  "@emailChangeNewLabel": {
+    "description": "Approved release8 copy v1.0. Existing Code key names retained. See release8-copy-v1.0/HANDOFF.md."
+  },
+  "@emailChangeSubmit": {
+    "description": "Approved release8 copy v1.0. Existing Code key names retained. See release8-copy-v1.0/HANDOFF.md."
+  },
+  "@emailChangeReauth": {
+    "description": "Approved release8 copy v1.0. Existing Code key names retained. See release8-copy-v1.0/HANDOFF.md."
+  },
+  "@emailChangeSent": {
+    "description": "Approved release8 copy v1.0. Existing Code key names retained. See release8-copy-v1.0/HANDOFF.md.",
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "@emailChangeFailed": {
+    "description": "Approved release8 copy v1.0. Existing Code key names retained. See release8-copy-v1.0/HANDOFF.md."
+  },
+  "@authEmailInvalid": {
+    "description": "Approved release8 copy v1.0. Existing Code key names retained. See release8-copy-v1.0/HANDOFF.md."
+  },
+  "@authTooManyAttempts": {
+    "description": "Approved release8 copy v1.0. Existing Code key names retained. See release8-copy-v1.0/HANDOFF.md."
+  },
+  "@offline": {
+    "description": "Approved release8 copy v1.0. Existing Code key names retained. See release8-copy-v1.0/HANDOFF.md."
+  },
+  "@authPassword": {
+    "description": "Approved release8 copy v1.0. Existing Code key names retained. See release8-copy-v1.0/HANDOFF.md."
+  },
+  "@authReauthRequired": {
+    "description": "Approved release8 copy v1.0. Existing Code key names retained. See release8-copy-v1.0/HANDOFF.md."
+  },
+  "@cancel": {
+    "description": "Approved release8 copy v1.0. Existing Code key names retained. See release8-copy-v1.0/HANDOFF.md."
+  },
+  "@profileIntentBalanceNotSet": {
+    "description": "Approved release8 copy v1.0. Existing Code key names retained. See release8-copy-v1.0/HANDOFF.md."
+  },
+  "@profileIntentBalanceAdjust": {
+    "description": "Approved release8 copy v1.0. Existing Code key names retained. See release8-copy-v1.0/HANDOFF.md."
+  },
+  "@emailChangeSending": {
+    "description": "Approved release8 copy v1.0. Existing Code key names retained. See release8-copy-v1.0/HANDOFF.md."
+  }
+}

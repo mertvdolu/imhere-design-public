@@ -811,5 +811,18 @@
     ],
     "merge": "Merge five keys + metadata only. Preserve integer placeholders. messagesUnread reuses existing app key. Do not overwrite full ARBs.",
     "spec": "compact-signals-v1.0/SPEC.md"
+  },
+  "release8Approved": {
+    "files": [
+      "release8-approved-patch_en.arb",
+      "release8-approved-patch_tr.arb"
+    ],
+    "supersedes": "compactSignalsV1 key naming; includes all nine current Code pending keys",
+    "aliases": {
+      "profileIntentBalance": "profileNetworkingMix",
+      "profileIntentBalanceTitle": "profileNetworkingMixTitle"
+    },
+    "merge": "Merge values and metadata only. Preserve int networking/friends and String email. Never overwrite full ARBs.",
+    "spec": "release8-copy-v1.0/HANDOFF.md"
   }
 }

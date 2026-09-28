@@ -1,5 +1,11 @@
 # Değişiklik kaydı
 
+## Sürüm8 birleşik ARB onayı v1.0 · 2026-09-28
+
+- Code’un9 bekleyen anahtarı mevcut isimleriyle onaylandı; oran alias eşlemesi ve e-posta değiştirme tüm durumları. Birleşik18 anahtar EN/TR delta + migration.
+- E-posta nötr sonuç metni gerçek gönderim garantisi vermez; mevcut emailUnavailable/ok ortak ekranıyla uyumlu.
+- `release8-copy-v1.0/HANDOFF.md` + integration.json + renk deltası. Native birleştirme/test Code’da.
+
 ## Sürüm8 kompakt oran + okunmamış nokta v1.0 · 2026-09-28
 
 - Çerçevesiz profil oranı ve tek0–100/10 adımlı kaydırıcı; ayarlanmamışta profil satırı yok.

@@ -1,0 +1,26 @@
+{
+  "status": "designer approved; Code merge and native verification required",
+  "arbFiles": [
+    "../l10n/release8-approved-patch_en.arb",
+    "../l10n/release8-approved-patch_tr.arb"
+  ],
+  "coversPendingDesignerKeys": [
+    "messagesUnread",
+    "profileNetworkingMix",
+    "profileNetworkingMixTitle",
+    "settingsChangeEmail",
+    "emailChangeNewLabel",
+    "emailChangeSubmit",
+    "emailChangeReauth",
+    "emailChangeSent",
+    "emailChangeFailed"
+  ],
+  "aliases": {
+    "profileIntentBalance": "profileNetworkingMix",
+    "profileIntentBalanceTitle": "profileNetworkingMixTitle"
+  },
+  "visualSpec": "../compact-signals-v1.0/SPEC.md",
+  "unreadColorToken": "colors.notificationUnread",
+  "unreadColor": "#B63A32",
+  "noFullArbOverwrite": true
+}

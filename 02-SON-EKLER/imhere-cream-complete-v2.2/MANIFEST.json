@@ -2,7 +2,7 @@
   "version": "2.2",
   "name": "IM HERE / Cream & Ink complete design",
   "date": "2026-09-24",
-  "files": 3173,
+  "files": 3179,
   "screenStates": 299,
   "svgVariants": 2392,
   "pngVariants": 598,
@@ -524,8 +524,8 @@
     },
     {
       "file": "l10n/migration.json",
-      "bytes": 34349,
-      "sha256": "bcd1a4a94988982cf6c6ac297958d24e753069aebe7e1219946f916dfa5de35d"
+      "bytes": 34883,
+      "sha256": "7553527aa1f97052897f4d32dff1dfd1e56b6604a5f730caab5c6c6d62082e87"
     },
     {
       "file": "l10n/motion-v1-patch_en.arb",
@@ -576,6 +576,16 @@
       "file": "l10n/profile-languages-heading-patch_tr.arb",
       "bytes": 272,
       "sha256": "70189921a43a31a0247d346e2db3bd76570f1ea0d401644c394e8c22b5f027ce"
+    },
+    {
+      "file": "l10n/release8-approved-patch_en.arb",
+      "bytes": 4056,
+      "sha256": "f7a50ab52625471e4ff587633da5a144e152b8f495f11f01efa977ebe477b786"
+    },
+    {
+      "file": "l10n/release8-approved-patch_tr.arb",
+      "bytes": 4137,
+      "sha256": "bacbcbd7a22766fa21ff6620a9d3314494a1a6fa954102c70ba95260bffdc650"
     },
     {
       "file": "l10n/v6-final-copy-patch_en.arb",
@@ -781,6 +791,26 @@
       "file": "motion/hareket-ve-his-v1/validation.json",
       "bytes": 4905,
       "sha256": "9a18164947560a0beeb092798a5ea570f7783519a0be633a7105d8bf49d0ef36"
+    },
+    {
+      "file": "release8-copy-v1.0/HANDOFF.md",
+      "bytes": 5876,
+      "sha256": "2a2760be9ea8f6814187c4a3ff5004b165c000085e4c9223cc482a9ffa53d209"
+    },
+    {
+      "file": "release8-copy-v1.0/integration.json",
+      "bytes": 758,
+      "sha256": "1a8ff0c201058f833c4316f2d65e209e959a3ba51dde0eb84d7bfdff795e91fe"
+    },
+    {
+      "file": "release8-copy-v1.0/theme.delta.json",
+      "bytes": 58,
+      "sha256": "82eb433e3725201fdf8d2faf687d3025201d4e1827fe73100b5ede99d6ad884e"
+    },
+    {
+      "file": "release8-copy-v1.0/validation.json",
+      "bytes": 141,
+      "sha256": "ac713a24452a72b0d0bcc00a789e7e6886828e09d3d9190e1d7c61f8f7b08777"
     },
     {
       "file": "review/brand-review.png",
