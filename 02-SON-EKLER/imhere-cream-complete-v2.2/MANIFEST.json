@@ -2,7 +2,7 @@
   "version": "2.2",
   "name": "IM HERE / Cream & Ink complete design",
   "date": "2026-09-24",
-  "files": 3179,
+  "files": 3182,
   "screenStates": 299,
   "svgVariants": 2392,
   "pngVariants": 598,
@@ -231,6 +231,11 @@
       "file": "compact-signals-v1.0/ONIZLEME.html",
       "bytes": 5255,
       "sha256": "c9beffb774db069096db1bc731c94e6ba567eadcaf92db3aaf1147301099e773"
+    },
+    {
+      "file": "compact-signals-v1.0/SLIDER-ENDPOINTS.md",
+      "bytes": 937,
+      "sha256": "e40eba2aaac27563c4906f369988571b8517033e7c831d51074f4b2b0236c3d0"
     },
     {
       "file": "compact-signals-v1.0/SPEC.md",
@@ -524,8 +529,8 @@
     },
     {
       "file": "l10n/migration.json",
-      "bytes": 34883,
-      "sha256": "7553527aa1f97052897f4d32dff1dfd1e56b6604a5f730caab5c6c6d62082e87"
+      "bytes": 35216,
+      "sha256": "12b2b3fd93b4a7abc0ec86ba8022c02a3702f30c9827ba409b48f2cc1aeca17c"
     },
     {
       "file": "l10n/motion-v1-patch_en.arb",
@@ -536,6 +541,16 @@
       "file": "l10n/motion-v1-patch_tr.arb",
       "bytes": 261,
       "sha256": "2440071d14bf0e7998cabf5532818aa5268c798b5ad5d893bd3d468e6f0eda28"
+    },
+    {
+      "file": "l10n/networking-endpoints-patch_en.arb",
+      "bytes": 487,
+      "sha256": "5ac760c597d9098a90928f1673ee00ce3ef57ad94f864b503172a96a5e6fad82"
+    },
+    {
+      "file": "l10n/networking-endpoints-patch_tr.arb",
+      "bytes": 492,
+      "sha256": "5eed42fa5e407cb139882ab00a58b775c21bea23dce6a98b4c0013a21f9f6c4a"
     },
     {
       "file": "l10n/notification-channel-patch_en.arb",

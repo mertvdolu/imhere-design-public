@@ -1,0 +1,11 @@
+{
+  "@@locale": "en",
+  "profileNetworkingMixFriendsLabel": "Friends",
+  "@profileNetworkingMixFriendsLabel": {
+    "description": "Left endpoint of Networking percentage slider: Networking=0, Friends=100. Visual label, not a separate action."
+  },
+  "profileNetworkingMixNetworkingLabel": "Networking",
+  "@profileNetworkingMixNetworkingLabel": {
+    "description": "Right endpoint of Networking percentage slider: Networking=100, Friends=0. Visual label, not a separate action."
+  }
+}

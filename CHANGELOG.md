@@ -1,5 +1,10 @@
 # Değişiklik kaydı
 
+## Networking kaydırıcı uç metinleri v1.0 · 2026-09-28
+
+- Sol Friends / Arkadaşlık, sağ Networking / Networking; iki anahtar EN/TR delta + migration.
+- `compact-signals-v1.0/SLIDER-ENDPOINTS.md`; sonraki paket, sürüm8 engeli değil.
+
 ## Sürüm8 birleşik ARB onayı v1.0 · 2026-09-28
 
 - Code’un9 bekleyen anahtarı mevcut isimleriyle onaylandı; oran alias eşlemesi ve e-posta değiştirme tüm durumları. Birleşik18 anahtar EN/TR delta + migration.

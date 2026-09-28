@@ -824,5 +824,14 @@
     },
     "merge": "Merge values and metadata only. Preserve int networking/friends and String email. Never overwrite full ARBs.",
     "spec": "release8-copy-v1.0/HANDOFF.md"
+  },
+  "networkingEndpointsV1": {
+    "files": [
+      "networking-endpoints-patch_en.arb",
+      "networking-endpoints-patch_tr.arb"
+    ],
+    "merge": "Add two endpoint keys and metadata only; do not overwrite full ARBs.",
+    "release": "next package; not a release8 gate",
+    "spec": "compact-signals-v1.0/SLIDER-ENDPOINTS.md"
   }
 }
