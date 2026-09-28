@@ -2,7 +2,7 @@
   "version": "2.2",
   "name": "IM HERE / Cream & Ink complete design",
   "date": "2026-09-24",
-  "files": 3161,
+  "files": 3166,
   "screenStates": 299,
   "svgVariants": 2392,
   "pngVariants": 598,
@@ -228,6 +228,21 @@
       "sha256": "ff6d413bbb7072aaaacab49e3887c356680bceeb3acbd68da1e938a1d3b8b288"
     },
     {
+      "file": "contact-card-v1.0/ONIZLEME.html",
+      "bytes": 3613,
+      "sha256": "8a8124182579a49c61f7d093199606ec169b3b123be9e172e041f4e0167a554b"
+    },
+    {
+      "file": "contact-card-v1.0/SPEC.md",
+      "bytes": 3553,
+      "sha256": "5529c4167738c49c3737d6ec87f4b8f3488c45193a2880a2c85b12fac9872414"
+    },
+    {
+      "file": "contact-card-v1.0/catalog.json",
+      "bytes": 1625,
+      "sha256": "ed24dda2cc575b262a38cb1d0dfb89961c5a0b5d882ee3a88cc306575796bc4d"
+    },
+    {
       "file": "contracts/checkin-notices.json",
       "bytes": 6790,
       "sha256": "dc097c32f7f50c6ee857b5848a1f5fe17d372f2db2dd724e9cb5fe46a870a572"
@@ -423,6 +438,16 @@
       "sha256": "ae158214eb07d831694d52151b22fa065f6de2567e3eeb34cb8154fad2fe0345"
     },
     {
+      "file": "l10n/contact-card-v1-patch_en.arb",
+      "bytes": 1546,
+      "sha256": "ee03973ff29c8c4bc45cbbc5eec8df4df90c35a6a007679b0f78e7c3c24f7581"
+    },
+    {
+      "file": "l10n/contact-card-v1-patch_tr.arb",
+      "bytes": 1605,
+      "sha256": "8142c5a1dd2a733f59f091c0721dfcd4df81f21f9bf99cde6deaa5a9efb9d853"
+    },
+    {
       "file": "l10n/cream-v2.2-patch_en.arb",
       "bytes": 1193,
       "sha256": "eb2e765a2f9bdf49aecb7d147956e6a2999e0188ea7200fa6926271ea469f71d"
@@ -464,8 +489,8 @@
     },
     {
       "file": "l10n/migration.json",
-      "bytes": 33748,
-      "sha256": "7e4582a6641799c801ab170a9f5800037e58011670b4ca84c65f17240368f813"
+      "bytes": 34026,
+      "sha256": "7c29777d779abde4a3b5bda8f8916e7d2381ecb9efb3ca6f90348c21622bccb4"
     },
     {
       "file": "l10n/motion-v1-patch_en.arb",

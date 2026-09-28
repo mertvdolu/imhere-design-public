@@ -1,0 +1,27 @@
+{
+  "@@locale": "en",
+  "contactCardConfirmTitle": "Send your contact card?",
+  "contactCardConfirmBody": "Once sent, the other person keeps these details even if you end the connection or block them, and can contact you outside the app, where blocking does not apply. You can change what is on your card in Profile.",
+  "contactCardSend": "Send",
+  "contactCardNotNow": "Not now",
+  "contactCardEmptyHelp": "Add at least one detail to send",
+  "contactCardSentWarning": "Sent details can't be taken back.",
+  "@contactCardConfirmTitle": {
+    "description": "Contact card supplement v1.0, HARBOR section E; empty TR line is designer translation. See contact-card-v1.0/SPEC.md."
+  },
+  "@contactCardConfirmBody": {
+    "description": "Contact card supplement v1.0, HARBOR section E; empty TR line is designer translation. See contact-card-v1.0/SPEC.md."
+  },
+  "@contactCardSend": {
+    "description": "Contact card supplement v1.0, HARBOR section E; empty TR line is designer translation. See contact-card-v1.0/SPEC.md."
+  },
+  "@contactCardNotNow": {
+    "description": "Contact card supplement v1.0, HARBOR section E; empty TR line is designer translation. See contact-card-v1.0/SPEC.md."
+  },
+  "@contactCardEmptyHelp": {
+    "description": "Contact card supplement v1.0, HARBOR section E; empty TR line is designer translation. See contact-card-v1.0/SPEC.md."
+  },
+  "@contactCardSentWarning": {
+    "description": "Contact card supplement v1.0, HARBOR section E; empty TR line is designer translation. See contact-card-v1.0/SPEC.md."
+  }
+}

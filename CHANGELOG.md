@@ -1,5 +1,10 @@
 # Değişiklik kaydı
 
+## İletişim kartı üç durum v1.0 · 2026-09-28
+
+- HARBOR metinleriyle ilk gönderim onayı, boş kart/pasif Send ve sonraki gönderim uyarısı;6 anahtar EN/TR delta + migration.
+- `contact-card-v1.0/`: spesifikasyon, ek katalog ve büyük yazı/telefon genişliği seçenekli HTML önizleme. Diğer ürün önerileri kapsam dışında; native test yapılmadı.
+
 ## Native mağaza v1.2 kısmi teslim · 2026-09-27
 
 - Gelen native çekimlerle13 mağaza karesi; Maya portresi mevcut yuvalarda, kurmaca etiketleri korunur. iOS01–05 iki boyut; A13 01/04/05. Android02/03 ve fotoğraf yuvalı06 bekler.

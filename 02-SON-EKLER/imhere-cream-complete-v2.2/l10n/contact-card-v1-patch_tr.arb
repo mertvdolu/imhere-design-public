@@ -1,0 +1,27 @@
+{
+  "@@locale": "tr",
+  "contactCardConfirmTitle": "İletişim kartını gönder?",
+  "contactCardConfirmBody": "Gönderdikten sonra karşı taraf bu bilgileri, bağlantıyı bitirsen veya onu engellesen bile elinde tutar ve seninle uygulama dışından iletişime geçebilir; orada engelleme geçerli değildir. Karttakileri Profil'den değiştirebilirsin.",
+  "contactCardSend": "Gönder",
+  "contactCardNotNow": "Şimdi değil",
+  "contactCardEmptyHelp": "Göndermek için en az bir bilgi ekle",
+  "contactCardSentWarning": "Gönderilen bilgiler geri alınamaz.",
+  "@contactCardConfirmTitle": {
+    "description": "Contact card supplement v1.0, HARBOR section E; empty TR line is designer translation. See contact-card-v1.0/SPEC.md."
+  },
+  "@contactCardConfirmBody": {
+    "description": "Contact card supplement v1.0, HARBOR section E; empty TR line is designer translation. See contact-card-v1.0/SPEC.md."
+  },
+  "@contactCardSend": {
+    "description": "Contact card supplement v1.0, HARBOR section E; empty TR line is designer translation. See contact-card-v1.0/SPEC.md."
+  },
+  "@contactCardNotNow": {
+    "description": "Contact card supplement v1.0, HARBOR section E; empty TR line is designer translation. See contact-card-v1.0/SPEC.md."
+  },
+  "@contactCardEmptyHelp": {
+    "description": "Contact card supplement v1.0, HARBOR section E; empty TR line is designer translation. See contact-card-v1.0/SPEC.md."
+  },
+  "@contactCardSentWarning": {
+    "description": "Contact card supplement v1.0, HARBOR section E; empty TR line is designer translation. See contact-card-v1.0/SPEC.md."
+  }
+}

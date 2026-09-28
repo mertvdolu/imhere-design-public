@@ -795,5 +795,13 @@
     ],
     "merge": "Merge existing profileLanguagesLabel + metadata only. In other_profile_screen heading replace languages usage with profileLanguagesLabel. Keep form languages key unchanged.",
     "spec": "specs/NATIVE-STORE-COUNTER-LANGUAGES-2026-09-27.md"
+  },
+  "contactCardV1": {
+    "files": [
+      "contact-card-v1-patch_en.arb",
+      "contact-card-v1-patch_tr.arb"
+    ],
+    "merge": "Merge six keys + metadata only; preserve existing contact sharing keys; never overwrite full ARBs.",
+    "spec": "contact-card-v1.0/SPEC.md"
   }
 }

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "contact-card-confirm",
+    "lang": "en",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "scales": [
+      100,
+      200
+    ],
+    "spec": "SPEC.md",
+    "preview": "ONIZLEME.html",
+    "status": "design supplement; native not verified"
+  },
+  {
+    "id": "contact-card-empty",
+    "lang": "en",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "scales": [
+      100,
+      200
+    ],
+    "spec": "SPEC.md",
+    "preview": "ONIZLEME.html",
+    "status": "design supplement; native not verified"
+  },
+  {
+    "id": "contact-card-send-again",
+    "lang": "en",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "scales": [
+      100,
+      200
+    ],
+    "spec": "SPEC.md",
+    "preview": "ONIZLEME.html",
+    "status": "design supplement; native not verified"
+  },
+  {
+    "id": "contact-card-confirm",
+    "lang": "tr",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "scales": [
+      100,
+      200
+    ],
+    "spec": "SPEC.md",
+    "preview": "ONIZLEME.html",
+    "status": "design supplement; native not verified"
+  },
+  {
+    "id": "contact-card-empty",
+    "lang": "tr",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "scales": [
+      100,
+      200
+    ],
+    "spec": "SPEC.md",
+    "preview": "ONIZLEME.html",
+    "status": "design supplement; native not verified"
+  },
+  {
+    "id": "contact-card-send-again",
+    "lang": "tr",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "scales": [
+      100,
+      200
+    ],
+    "spec": "SPEC.md",
+    "preview": "ONIZLEME.html",
+    "status": "design supplement; native not verified"
+  }
+]
