@@ -1,5 +1,11 @@
 # Değişiklik kaydı
 
+## Sürüm9 iletişim kartı tamamlayıcı v1.1 · 2026-09-28
+
+- Dört eksik parça,16 önizleme durumu;12 EN/TR anahtar delta. `contact-card-v1.1/HANDOFF.md`.
+- HARBOR §H önceliği ve eski uyarılar korundu; yalnız kendi profil bölümü. Save boşluk kuralındaki kod/talep farkı SPECte açık.
+-32 tarayıcı boyut/hedef kontrolü; native uygulama Code'da. v10 kabuğu erkenden uygulanmadı.
+
 ## Sıkılaştırma v10 · tasarım eki v1.0 · 2026-09-28
 
 - 12 önce/sonra HTML örneği, kompakt kontrol ölçüleri ve yüzen menü; kurulum/klavye/tam ekran rapor istisnaları.

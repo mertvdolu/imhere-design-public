@@ -2,7 +2,7 @@
   "version": "2.2",
   "name": "IM HERE / Cream & Ink complete design",
   "date": "2026-09-24",
-  "files": 3191,
+  "files": 3200,
   "screenStates": 299,
   "svgVariants": 2392,
   "pngVariants": 598,
@@ -308,6 +308,41 @@
       "sha256": "ed24dda2cc575b262a38cb1d0dfb89961c5a0b5d882ee3a88cc306575796bc4d"
     },
     {
+      "file": "contact-card-v1.1/HANDOFF.md",
+      "bytes": 1413,
+      "sha256": "497723f434f1c734575a9b03a0c4cfe623b36817cb50657143605aabf092f4da"
+    },
+    {
+      "file": "contact-card-v1.1/ONIZLEME.html",
+      "bytes": 7931,
+      "sha256": "5ff5e4601240dc31b2f02cd151dae8b4e433cfe415088b36e23f9dacc9de20bd"
+    },
+    {
+      "file": "contact-card-v1.1/SPEC.md",
+      "bytes": 8077,
+      "sha256": "244dac7ba3e6fa69e02071b55768db5db508797f7d2af7c8658d6702a8ae1e8f"
+    },
+    {
+      "file": "contact-card-v1.1/catalog.json",
+      "bytes": 3266,
+      "sha256": "dbc1b72a4f733e7d0041c3e721887b15b0b0ffa7e1b8568ebf225658ae91ed77"
+    },
+    {
+      "file": "contact-card-v1.1/copy.js",
+      "bytes": 7122,
+      "sha256": "91a974f30e6fd59bb563c42cd07a42359bbe7e64e57616ffe3f8b26a5ecf318d"
+    },
+    {
+      "file": "contact-card-v1.1/style.css",
+      "bytes": 8908,
+      "sha256": "7c28eb2d92a7f973687d3e2d94f530e6c439855943f32fe688503d6eff2fdebe"
+    },
+    {
+      "file": "contact-card-v1.1/validation.json",
+      "bytes": 550,
+      "sha256": "31e55b363201c95b5f860a3db584e6c3e666ff78e1f8b0a6f7c77b0206d01d8d"
+    },
+    {
       "file": "contracts/checkin-notices.json",
       "bytes": 6790,
       "sha256": "dc097c32f7f50c6ee857b5848a1f5fe17d372f2db2dd724e9cb5fe46a870a572"
@@ -521,6 +556,16 @@
       "file": "l10n/compact-v10-patch_tr.arb",
       "bytes": 768,
       "sha256": "8864a1d626e7620f38eb799978952037788691504cb3e1611bf5da103c390b6f"
+    },
+    {
+      "file": "l10n/contact-card-complete-patch_en.arb",
+      "bytes": 2098,
+      "sha256": "e08082e3bb5808bfe5b5fba17e5fda1e01db4af3c1f3db807d154118ea8924da"
+    },
+    {
+      "file": "l10n/contact-card-complete-patch_tr.arb",
+      "bytes": 2143,
+      "sha256": "0890dfe816979beeceea93dc4db7b2af02caddc78a9dd1cb2850279570777d80"
     },
     {
       "file": "l10n/contact-card-v1-patch_en.arb",

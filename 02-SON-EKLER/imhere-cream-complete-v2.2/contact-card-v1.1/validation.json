@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-28",
+  "arbKeysPerLocale": 12,
+  "keyParity": "pass",
+  "priorHarborWarningsExact": "pass EN/TR",
+  "browserChecks": {
+    "engine": "Codex IAB",
+    "cases": 32,
+    "matrix": "16 states x EN/TR,320px,200%",
+    "horizontalBodyOverflow": 0,
+    "buttonsUnder48px": 0,
+    "visualReview": [
+      "received TR 320 200"
+    ]
+  },
+  "notVerified": [
+    "native iOS/Android",
+    "server retention or report behavior",
+    "all widths visual review",
+    "native empty-save enforcement"
+  ],
+  "referenceDocumentsCopied": false
+}

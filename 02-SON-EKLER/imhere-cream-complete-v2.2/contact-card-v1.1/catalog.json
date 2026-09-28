@@ -1,0 +1,165 @@
+{
+  "version": "1.1",
+  "release": 9,
+  "base": "../contact-card-v1.0/SPEC.md",
+  "preview": "ONIZLEME.html",
+  "spec": "SPEC.md",
+  "states": [
+    {
+      "id": "contact-card-profile",
+      "previewScene": "profile",
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "minTapTarget": 48
+    },
+    {
+      "id": "contact-card-edit",
+      "previewScene": "edit",
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "minTapTarget": 48
+    },
+    {
+      "id": "contact-card-empty",
+      "previewScene": "empty",
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "minTapTarget": 48
+    },
+    {
+      "id": "contact-card-saved",
+      "previewScene": "saved",
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "minTapTarget": 48
+    },
+    {
+      "id": "contact-card-save-failed",
+      "previewScene": "save-failed",
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "minTapTarget": 48
+    },
+    {
+      "id": "contact-card-save-busy",
+      "previewScene": "save-busy",
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "minTapTarget": 48
+    },
+    {
+      "id": "contact-card-load-failed",
+      "previewScene": "load-failed",
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "minTapTarget": 48
+    },
+    {
+      "id": "contact-card-chat-open",
+      "previewScene": "chat-open",
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "minTapTarget": 48
+    },
+    {
+      "id": "contact-card-mutual",
+      "previewScene": "mutual",
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "minTapTarget": 48
+    },
+    {
+      "id": "contact-card-received",
+      "previewScene": "received",
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "minTapTarget": 48
+    },
+    {
+      "id": "contact-card-sent",
+      "previewScene": "sent",
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "minTapTarget": 48
+    },
+    {
+      "id": "contact-card-sending",
+      "previewScene": "sending",
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "minTapTarget": 48
+    },
+    {
+      "id": "contact-card-send-failed",
+      "previewScene": "send-failed",
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "minTapTarget": 48
+    },
+    {
+      "id": "contact-card-changed",
+      "previewScene": "changed",
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "minTapTarget": 48
+    },
+    {
+      "id": "contact-card-first-confirm",
+      "previewScene": "first-confirm",
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "minTapTarget": 48
+    },
+    {
+      "id": "contact-card-again",
+      "previewScene": "again",
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "minTapTarget": 48
+    }
+  ],
+  "privacy": {
+    "profileSection": "owner only; omit entirely on other profiles",
+    "reportRetentionAuthority": "HARBOR §H supersedes §G",
+    "preservedWarnings": "contact-card-v1-patch"
+  },
+  "integrationDifference": "Latest request interpreted as nonempty Save requirement; existing Code permits empty save. See SPEC §2.",
+  "arbDelta": [
+    "../l10n/contact-card-complete-patch_en.arb",
+    "../l10n/contact-card-complete-patch_tr.arb"
+  ],
+  "newDependencies": 0,
+  "nativeChanges": false
+}

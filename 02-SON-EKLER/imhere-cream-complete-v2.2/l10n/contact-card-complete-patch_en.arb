@@ -1,0 +1,51 @@
+{
+  "@@locale": "en",
+  "contactCardTitle": "Contact card",
+  "contactCardProfileHelp": "Add at least one detail: phone, email or Instagram. Only you can see your card until you send it in a chat.",
+  "contactCardEdit": "Edit card",
+  "contactCardSave": "Save card",
+  "contactCardSaved": "Your card has been saved.",
+  "contactCardSaveFailed": "Your card couldn’t be saved. You can try again.",
+  "contactCardSending": "Sending your card…",
+  "contactCardSendFailed": "Your card couldn’t be sent. You can try again.",
+  "contactCardChanged": "Your card has changed. Check what will be sent.",
+  "contactCardReceived": "Received",
+  "contactCardSentLabel": "Sent",
+  "contactCardReport": "Report",
+  "@contactCardTitle": {
+    "description": "Release 9 contact card completion v1.1. Merge delta only."
+  },
+  "@contactCardProfileHelp": {
+    "description": "Release 9 contact card completion v1.1. Merge delta only."
+  },
+  "@contactCardEdit": {
+    "description": "Release 9 contact card completion v1.1. Merge delta only."
+  },
+  "@contactCardSave": {
+    "description": "Release 9 contact card completion v1.1. Merge delta only."
+  },
+  "@contactCardSaved": {
+    "description": "Release 9 contact card completion v1.1. Merge delta only."
+  },
+  "@contactCardSaveFailed": {
+    "description": "Release 9 contact card completion v1.1. Merge delta only."
+  },
+  "@contactCardSending": {
+    "description": "Release 9 contact card completion v1.1. Merge delta only."
+  },
+  "@contactCardSendFailed": {
+    "description": "Release 9 contact card completion v1.1. Merge delta only."
+  },
+  "@contactCardChanged": {
+    "description": "Release 9 contact card completion v1.1. Shown after a version mismatch; sending has NOT succeeded. Merge delta only."
+  },
+  "@contactCardReceived": {
+    "description": "Release 9 contact card completion v1.1. Merge delta only."
+  },
+  "@contactCardSentLabel": {
+    "description": "Release 9 contact card completion v1.1. Merge delta only."
+  },
+  "@contactCardReport": {
+    "description": "Release 9 contact card completion v1.1. Merge delta only."
+  }
+}
