@@ -16,9 +16,13 @@ Başlık → yardım → Phone → Email → Instagram → Save card → sonuç/
 
 Kart okuması başarıyla kartın hiç olmadığını bildirirse giriş e-postası yalnız taslağa ön doldurulur. Mevcut kartın boş e-postası sonradan yeniden doldurulmaz. Okuma hatası kart yokluğu değildir: contactLoadFailed + Try again. Okunurken contactLoading +24×24/1.8 spinner. Kullanıcı giriş e-postasını silebilir/değiştirebilir; telefon veya Instagram yerine geçebilir. Yeni kimlik doğrulama e-postası değişmez; arka planda otomatik kayıt/gönderim yok.
 
-### Talep ile mevcut kod arasındaki fark
+### Manager kararı · 28 Eylül 2026 — boş kaydetme serbest
 
-Bu teslimde Manager'ın “en az1 alan dolu olmalı” talebi düzenleme için de uygulanmıştır: trim sonrası bütün alanlar boşsa Save card pasif; yardım satırı koşulu açıklar. Mevcut contact_card_screens.dart _kaydet boş haritayı servise gönderebiliyor; Code bu farkı açıkça ele almalı. HARBOR §D eski önerisi yalnız gönderme anını zorunlu kılıyordu. Bu teslim onboarding'i zorunlu yapmaz, yeni veri toplamaz. Kartı tamamen boş kaydetmenin ayrıca korunması istenirse ürün kararı Manager tarafından netleştirilmeli; tasarımda sessizce iki farklı kural uygulanmamalı.
+Boş kayıt = kartı silme hakkı (Privacy). Bütün alanlar boşken **Save card etkin kalır**; boşluk tek başına kaydetme hatası veya engeli değildir. Mevcut Code'un boş kaydetmeye izin veren davranışı korunur. Kaydetme sürerken geçici pasiflik ve mevcut alan doğrulamaları değişmez.
+
+**Send**, gönderilecek dolu alan yokken pasif kalır. “En az bir bilgi” koşulu yalnız gönderme içindir; kartı kaydetme veya onboarding zorunluluğu değildir. Kaydetmek hiçbir durumda kartı karşı tarafa göndermez. Kartı boş kaydetmek, daha önce gönderilmiş kopyaları geri alındı diye göstermez; bunlarda mevcut HARBOR kuralları geçerlidir.
+
+Bu karar, 47fa043 teslimindeki boş Save pasif çizimi ve bu yorumu taşıyan önizleme, HANDOFF, catalog notları üzerinde önceliklidir. Yardım metnindeki “en az bir bilgi” ifadesi kaydetme şartı olarak uygulanmaz. Manager talebi uyarınca ek çizim veya ARB değişikliği yapılmadı; Code bu notu esas alır.
 
 Kaydet sürerken ikinci istek yok; düğme pasif, yanında mevcut24 spinner; “Sending your card” KULLANILMAZ (bu paylaşım değil). Başarı contactCardSaved yalnız sunucu onayında, düğmenin altında8; otomatik ekran kapatma/sohbet gönderimi yok. Hata contactCardSaveFailed aynı konumda; taslak kalır, Save tekrar kullanılabilir. Yeni düzenlemede eski başarı/hata satırı temizlenir. Offline mevcut hata/offline metni, aynı yeniden deneme davranışı.
 

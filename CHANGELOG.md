@@ -1,5 +1,9 @@
 # Değişiklik kaydı
 
+## İletişim kartı — boş kaydetme kararı · 2026-09-28
+
+- Manager kararı SPEC §2’ye işlendi: boş Save serbest (kartı silme hakkı); boş Send pasif. Önceki pasif Save yorumu geçersiz. Ek çizim/ARB değişmedi.
+
 ## Sürüm9 iletişim kartı tamamlayıcı v1.1 · 2026-09-28
 
 - Dört eksik parça,16 önizleme durumu;12 EN/TR anahtar delta. `contact-card-v1.1/HANDOFF.md`.
