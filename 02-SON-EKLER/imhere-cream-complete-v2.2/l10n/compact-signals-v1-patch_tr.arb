@@ -1,0 +1,31 @@
+{
+  "@@locale": "tr",
+  "profileIntentBalance": "Networking %{networking} · Arkadaşlık %{friends}",
+  "profileIntentBalanceTitle": "Networking ve arkadaşlık",
+  "profileIntentBalanceNotSet": "Ayarlanmadı",
+  "profileIntentBalanceAdjust": "Networking yüzdesi",
+  "messagesUnread": "Okunmamış mesaj",
+  "@profileIntentBalance": {
+    "description": "Compact signals v1.0; see compact-signals-v1.0/SPEC.md. Existing messagesUnread key is approved.",
+    "placeholders": {
+      "networking": {
+        "type": "int"
+      },
+      "friends": {
+        "type": "int"
+      }
+    }
+  },
+  "@profileIntentBalanceTitle": {
+    "description": "Compact signals v1.0; see compact-signals-v1.0/SPEC.md. Existing messagesUnread key is approved."
+  },
+  "@profileIntentBalanceNotSet": {
+    "description": "Compact signals v1.0; see compact-signals-v1.0/SPEC.md. Existing messagesUnread key is approved."
+  },
+  "@profileIntentBalanceAdjust": {
+    "description": "Compact signals v1.0; see compact-signals-v1.0/SPEC.md. Existing messagesUnread key is approved."
+  },
+  "@messagesUnread": {
+    "description": "Compact signals v1.0; see compact-signals-v1.0/SPEC.md. Existing messagesUnread key is approved."
+  }
+}

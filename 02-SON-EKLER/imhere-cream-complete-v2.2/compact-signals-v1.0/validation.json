@@ -1,0 +1,9 @@
+{
+  "contrast": {
+    "#F4F1E9": 5.11,
+    "#FCFAF5": 5.53
+  },
+  "criterion": "non-text indicator >=3:1 against its backgrounds",
+  "enTrKeyParity": true,
+  "nativeDeviceVerified": false
+}

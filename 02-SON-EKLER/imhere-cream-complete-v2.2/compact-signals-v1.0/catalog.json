@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "states": [
+    "profile-balance-set",
+    "profile-balance-unset",
+    "balance-slider-unset",
+    "balance-slider-0",
+    "balance-slider-50",
+    "balance-slider-100",
+    "connection-unread",
+    "connection-read",
+    "messages-tab-unread",
+    "messages-tab-read"
+  ],
+  "languages": [
+    "en",
+    "tr"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "scales": [
+    100,
+    200
+  ],
+  "spec": "SPEC.md",
+  "preview": "ONIZLEME.html"
+}

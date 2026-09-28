@@ -803,5 +803,13 @@
     ],
     "merge": "Merge six keys + metadata only; preserve existing contact sharing keys; never overwrite full ARBs.",
     "spec": "contact-card-v1.0/SPEC.md"
+  },
+  "compactSignalsV1": {
+    "files": [
+      "compact-signals-v1-patch_en.arb",
+      "compact-signals-v1-patch_tr.arb"
+    ],
+    "merge": "Merge five keys + metadata only. Preserve integer placeholders. messagesUnread reuses existing app key. Do not overwrite full ARBs.",
+    "spec": "compact-signals-v1.0/SPEC.md"
   }
 }

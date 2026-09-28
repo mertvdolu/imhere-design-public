@@ -1,0 +1,31 @@
+{
+  "@@locale": "en",
+  "profileIntentBalance": "Networking {networking}% · Friends {friends}%",
+  "profileIntentBalanceTitle": "Networking and friends",
+  "profileIntentBalanceNotSet": "Not set",
+  "profileIntentBalanceAdjust": "Networking percentage",
+  "messagesUnread": "Unread messages",
+  "@profileIntentBalance": {
+    "description": "Compact signals v1.0; see compact-signals-v1.0/SPEC.md. Existing messagesUnread key is approved.",
+    "placeholders": {
+      "networking": {
+        "type": "int"
+      },
+      "friends": {
+        "type": "int"
+      }
+    }
+  },
+  "@profileIntentBalanceTitle": {
+    "description": "Compact signals v1.0; see compact-signals-v1.0/SPEC.md. Existing messagesUnread key is approved."
+  },
+  "@profileIntentBalanceNotSet": {
+    "description": "Compact signals v1.0; see compact-signals-v1.0/SPEC.md. Existing messagesUnread key is approved."
+  },
+  "@profileIntentBalanceAdjust": {
+    "description": "Compact signals v1.0; see compact-signals-v1.0/SPEC.md. Existing messagesUnread key is approved."
+  },
+  "@messagesUnread": {
+    "description": "Compact signals v1.0; see compact-signals-v1.0/SPEC.md. Existing messagesUnread key is approved."
+  }
+}

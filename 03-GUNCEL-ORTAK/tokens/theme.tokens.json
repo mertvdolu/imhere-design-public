@@ -42,7 +42,8 @@
     "densityBlue": "#64A8FF",
     "densityYellow": "#F7D46A",
     "densityGreen": "#7DDEAC",
-    "densityRed": "#EE8985"
+    "densityRed": "#EE8985",
+    "notificationUnread": "#B63A32"
   },
   "typography": {
     "family": "Geist",

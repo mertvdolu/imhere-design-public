@@ -1,5 +1,11 @@
 # Değişiklik kaydı
 
+## Sürüm8 kompakt oran + okunmamış nokta v1.0 · 2026-09-28
+
+- Çerçevesiz profil oranı ve tek0–100/10 adımlı kaydırıcı; ayarlanmamışta profil satırı yok.
+- Satır/sekmede8 dp okunmamış nokta: notificationUnread#B63A32; harita densityRed değişmez. Beş EN/TR anahtar delta + migration.
+- `compact-signals-v1.0/`: SPEC, token eki, katalog ve interaktif HTML. Genel sıkılaştırma kapsam dışında, native test Code’da.
+
 ## İletişim kartı üç durum v1.0 · 2026-09-28
 
 - HARBOR metinleriyle ilk gönderim onayı, boş kart/pasif Send ve sonraki gönderim uyarısı;6 anahtar EN/TR delta + migration.

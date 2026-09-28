@@ -2,7 +2,7 @@
   "version": "2.2",
   "name": "IM HERE / Cream & Ink complete design",
   "date": "2026-09-24",
-  "files": 3166,
+  "files": 3173,
   "screenStates": 299,
   "svgVariants": 2392,
   "pngVariants": 598,
@@ -228,6 +228,31 @@
       "sha256": "ff6d413bbb7072aaaacab49e3887c356680bceeb3acbd68da1e938a1d3b8b288"
     },
     {
+      "file": "compact-signals-v1.0/ONIZLEME.html",
+      "bytes": 5255,
+      "sha256": "c9beffb774db069096db1bc731c94e6ba567eadcaf92db3aaf1147301099e773"
+    },
+    {
+      "file": "compact-signals-v1.0/SPEC.md",
+      "bytes": 4684,
+      "sha256": "30797fd8846f81980bf74702e88ac11817ff6af1d720814a567e2917bc8a3fba"
+    },
+    {
+      "file": "compact-signals-v1.0/catalog.json",
+      "bytes": 475,
+      "sha256": "7089c1efb6cd1cfdf08f042e1a9459751fe58558434b61009c3b4e693d8fd209"
+    },
+    {
+      "file": "compact-signals-v1.0/tokens.json",
+      "bytes": 375,
+      "sha256": "5051a582f0f20c917f9019064b6cb6f1a444b8b41b5dc17c077c3870f828a903"
+    },
+    {
+      "file": "compact-signals-v1.0/validation.json",
+      "bytes": 190,
+      "sha256": "6e6262caaf42ae1c183be8c256c45a0a7ad2149c0fe8b83eb0a02122e267bd34"
+    },
+    {
       "file": "contact-card-v1.0/ONIZLEME.html",
       "bytes": 3613,
       "sha256": "8a8124182579a49c61f7d093199606ec169b3b123be9e172e041f4e0167a554b"
@@ -438,6 +463,16 @@
       "sha256": "ae158214eb07d831694d52151b22fa065f6de2567e3eeb34cb8154fad2fe0345"
     },
     {
+      "file": "l10n/compact-signals-v1-patch_en.arb",
+      "bytes": 1197,
+      "sha256": "a234b7954c617342cdafc8d04069deba8718839b94e92db7edef2770fc854490"
+    },
+    {
+      "file": "l10n/compact-signals-v1-patch_tr.arb",
+      "bytes": 1211,
+      "sha256": "5ccf8abd1adf16ee381e60db642be724dba03763a72c4efddc8a44e57ffc7086"
+    },
+    {
       "file": "l10n/contact-card-v1-patch_en.arb",
       "bytes": 1546,
       "sha256": "ee03973ff29c8c4bc45cbbc5eec8df4df90c35a6a007679b0f78e7c3c24f7581"
@@ -489,8 +524,8 @@
     },
     {
       "file": "l10n/migration.json",
-      "bytes": 34026,
-      "sha256": "7c29777d779abde4a3b5bda8f8916e7d2381ecb9efb3ca6f90348c21622bccb4"
+      "bytes": 34349,
+      "sha256": "bcd1a4a94988982cf6c6ac297958d24e753069aebe7e1219946f916dfa5de35d"
     },
     {
       "file": "l10n/motion-v1-patch_en.arb",
@@ -15834,8 +15869,8 @@
     },
     {
       "file": "tokens/theme.tokens.json",
-      "bytes": 6002,
-      "sha256": "7111e16032f07e9c40ae3eff5879fd8960476c64db2faf3b4253376a5153e509"
+      "bytes": 6039,
+      "sha256": "77c3e034cb8faf98a20729f24472c5dd36f98c60bbbc07439379099b20889946"
     }
   ]
 }
