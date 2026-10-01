@@ -1,0 +1,12 @@
+IM HERE — Neumorphism karşılaştırması v1.0 · 1 Ekim 2026
+Durum: Founder incelemesi için görsel deneme. Onaylı tema veya uygulama değişikliği değildir.
+
+ONIZLEME.html dosyasını aç. 4 örnek: profil düzenleme, sohbet, iletişim kartı ve istek/niyet. Her örnek aynı içerikle düz, hafif kabartmalı ve belirgin kabartmalı olarak gösterilir. Mobil/dar pencerede örnekler yana kayar; 01/02/03 düğmeleri de kullanılabilir.
+
+Çipler, görünürlük anahtarları ve alanlar üç örnekte birlikte güncellenir. Gönderme/kaydetme gerçek işlem yapmaz. 320/390 kontrolü, büyük yazı ve sohbet klavye örneği vardır. İletişim kartında onay görünümüne geçilebilir. Boş Save serbest; boş Send pasif. Mevcut onay uyarısı korunur. Kişi/mesajlar kurmacadır.
+
+Sadece yüzey denemesi: gölge/kenarlık/dolgu. Flat sütunu bu çalışmaya ait mevcut görsel dil örneğidir; canlı uygulama ekran görüntüsü veya bütün alanları içeren tam ekran spesifikasyonu değildir. Ürün akışı değişiklik kaynağı olarak kullanılmaz.
+
+Kontrol: 4 ekran x3 tema,320px ve200% yazı — içerikte yatay taşma yok; düğme hedefleri en az48. Onay örneği320/200 üç temada taşmıyor ve alt menü yok. İlgi/niyet/anahtar eşleme kontrol edildi. Native cihaz testleri yapılmadı.
+
+Benim tercihim: hafif kabartma. Ana eylemin siyah kalması, diğer kontrollerin yumuşak gölgesine rağmen eylem sırasını belirgin tutar.

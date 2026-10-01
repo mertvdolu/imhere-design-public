@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "status": "visual-experiment-not-approved-theme",
+  "files": [
+    {
+      "path": "NOTLAR.txt",
+      "sha256": "8de83ac1191643c929b0a2176b07869c8f0b68460d6f2299d424a0e994784673"
+    },
+    {
+      "path": "ONIZLEME.html",
+      "sha256": "1ef9838bc7b237c350f0d8e42deb973d4f4a0fef5360e085c86fdeefbc392882"
+    },
+    {
+      "path": "assets/Geist-Medium.ttf",
+      "sha256": "3a3b36f0d0b981f4857f7f00eeef4a5ee123605575d362ab31ee7c19e3d11f2f"
+    },
+    {
+      "path": "assets/Geist-Regular.ttf",
+      "sha256": "85a1c6b18a6b0a06dfe9fd4f6d6a5d4979f74ec861eaef4bc7868b5492b8a117"
+    },
+    {
+      "path": "assets/OFL.txt",
+      "sha256": "c683bfbcc7e087f5d37a54ef628f10387c451a83ddc459b151403a164ac46c90"
+    },
+    {
+      "path": "assets/imhere-mark.svg",
+      "sha256": "0d29aa7456df49d7b659279ac2fd7b108ae022edab058364405c52f02bf983ee"
+    },
+    {
+      "path": "legal.js",
+      "sha256": "2eec936551cf4f85257ce5947f551877c1cf2bed62b489bcf147e6efed0ad401"
+    }
+  ]
+}

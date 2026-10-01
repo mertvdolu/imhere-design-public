@@ -1,5 +1,10 @@
 # Değişiklik kaydı
 
+## Neumorphism görsel denemesi v1.0 · 2026-10-01
+
+- `05-INCELEMELER/imhere-neumorphism-study-v1.0/ONIZLEME.html`:4 buton yoğunluğu örneği, her biri düz/hafif/belirgin kabartma karşılaştırması. Eşzamanlı örnek seçimler, büyük yazı ve klavye görünümü.
+- İnceleme çalışmasıdır; onaylı tema veya native uygulama değişikliği değildir.
+
 ## İletişim kartı — boş kaydetme kararı · 2026-09-28
 
 - Manager kararı SPEC §2’ye işlendi: boş Save serbest (kartı silme hakkı); boş Send pasif. Önceki pasif Save yorumu geçersiz. Ek çizim/ARB değişmedi.
