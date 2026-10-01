@@ -1,5 +1,14 @@
 # Değişiklik kaydı
 
+## 2026-10-01 — Cream & Ink v2.3 / Hafif kabartma (02)
+
+Founder'ın onayladığı hafif kabartma bütün güncel tasarım yüzeylerine uygulandı. 299 temel durum / 2.392 SVG / 598 PNG; v10 sıkı yerleşim ve v9 iletişim kartı HTML ekleri. Siyah ana eylem, kabartmalı krem ikincil yüzey, içe oturan alan; en az 48 hedef. Token 2.3; dosya yolları korunur. Logo, harita renkleri, ürün kuralları ve HARBOR uyarıları değişmez.
+
+Ek tutarlılık: boş Save serbest kararı (88567c9) kart HTML/cataloguna işlendi; boş Send pasif. `contactCardProfileHelp` EN/TR tek anahtarlı delta + migration. Tam ARB'ler korunur. Yüksek kontrast / azaltılmış hareket / opak menü kuralları. 60 tarayıcı kontrolü; SVG metin ve geometri koruma doğrulaması. Yerel teslim; native uygulama ve mağaza görüntüleri Code aktarımı/cihaz turundan sonra.
+
+[Önizleme](02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/ONIZLEME.html) · [Rapor](02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/RAPOR.md) · [Spesifikasyon](02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md)
+
+
 ## Neumorphism görsel denemesi v1.0 · 2026-10-01
 
 - `05-INCELEMELER/imhere-neumorphism-study-v1.0/ONIZLEME.html`:4 buton yoğunluğu örneği, her biri düz/hafif/belirgin kabartma karşılaştırması. Eşzamanlı örnek seçimler, büyük yazı ve klavye görünümü.

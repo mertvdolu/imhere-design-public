@@ -1,28 +1,19 @@
-# IM HERE — Cream & Ink
+# IM HERE — güncel tasarım deposu
 
-**Güncel tasarım: v2.2.** Founder onayıyla bütün mobil uygulama tasarımı krem/siyah temaya geçti.
+**Güncel görsel tema: Cream & Ink v2.3 / Hafif kabartma (02).** Founder onayıyla tüm güncel tasarım yüzeylerine uygulandı. Krem/siyah kimlik ve v10 sıkı yerleşim korunur.
 
-## Güncel teslim
+- [Önizleme merkezi](02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/ONIZLEME.html)
+- [Teslim raporu ve Code aktarımı](02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/RAPOR.md)
+- [Yüzey spesifikasyonu](02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md)
+- [Tüm durumlar](02-SON-EKLER/imhere-cream-complete-v2.2/ONIZLEME.html)
+- [Ortak tokenlar](03-GUNCEL-ORTAK/tokens/theme.tokens.json)
 
-- [297 durumun tam tasarım paketi](02-SON-EKLER/imhere-cream-complete-v2.2/): 2376 SVG, TR/EN, iOS/Android, %100/%200 ve 594 PNG.
-- [Görsel bakış](02-SON-EKLER/imhere-cream-complete-v2.2/review/experience-desktop.png) · [HTML katalog](02-SON-EKLER/imhere-cream-complete-v2.2/ONIZLEME.html) · [Tasarım devri](02-SON-EKLER/imhere-cream-complete-v2.2/specs/TASARIM-DEVRI.md)
-- [Manager’a iletilecek not](02-SON-EKLER/imhere-cream-complete-v2.2/MANAGER-NOTU.md) · [Doğrulama](02-SON-EKLER/imhere-cream-complete-v2.2/evidence/validation.json) · [Dosya manifesti](02-SON-EKLER/imhere-cream-complete-v2.2/MANIFEST.json)
-- [Güncel ortak token ve metinler](03-GUNCEL-ORTAK/) · [Değişiklik kaydı](CHANGELOG.md)
+299 temel durum · 2.392 SVG (TR/EN × iOS/Android × %100/%200) · 598 PNG. 292 beta, 7 ertelenen durum; işaretler aynı.
 
-Tam ekran harita, gönderilen iki daireli logo, açık simge/splash, bildirim maskesi ve son M09/M10 ekleri bu teslimde. Dört semantik harita rengi ürün anlamını korur. İngilizce aktif; Türkçe kaynaklar hazır, dil seçimi askıdadır.
+Paketin mevcut klasör adı `imhere-cream-complete-v2.2` bilerek korunur. İçindeki token sürümü ve güncel yüzey dili **2.3**. Klasör adını değiştirip dosyaları çoğaltmadan Code'un referanslarını koruyoruz. Önceki tema Git geçmişinde.
 
-## Mağaza görselleri
+## Kaynak sırası
 
-[Mağaza paketi v1.0](03-MAGAZA/imhere-store-v1.0/): App Store iki boyutta altışar kare, Google Play altı telefon karesi ve 1024×500 öne çıkan görsel. İngilizce, Cream & Ink v2.2. [Toplu bakış](03-MAGAZA/imhere-store-v1.0/review/app-store-contact-sheet.png). Native ekran karşılaştırması yayın öncesi yapılır.
+Son ürün kararları → v10 sıkılaştırma + v9 iletişim kartı yerleşimleri → v2.3 yüzey kuralları → temel katalog çizimleri. Eski katalog geometrisi son yerleşim ekini geçersiz kılmaz. `01-ARSIV/` ve eski incelemeler aktif teslim değildir.
 
-## Önizlemeyi açmak
-
-Depoyu indirip kökteki `ONIZLEME.html` dosyasını tarayıcıda aç. Tek güncel krem/siyah kataloğa gider. GitHub’ın dosya sayfası HTML uygulamasını çalıştırmaz. Katalog internetsiz açılır; etkileşimli deneyimin canlı haritası internet ister.
-
-## Arşiv
-
-`01-PAKETLER/` ve `02-SON-EKLER/` içindeki eski sürümler kabul/sözleşme geçmişidir. Eski yeşil ekranlar, B-symbol ve koyu splash/harita güncel görsel hedef değildir. Önceki dosyalar korunur; aktif katalog onlara yönlenmez. `TOPLAMA-MANIFEST.json` eski v2.0 toplamasına aittir; yeni paketin manifesti kendi klasöründedir.
-
-## Teslim sınırı
-
-Bu depo tasarım kaynaklarıdır. **Flutter/backend değiştirilmedi; uygulamaya entegrasyon ve gerçek cihaz turu ayrı adımdır.** Dosyalar tek tek sürümlenir; büyük bir ZIP ile güncelleme yapılmaz. Tanıtım sitesi bu mobil tasarım deposundan ayrı projedir.
+Güncelleme ayrı dosyalarla yerel commit'te teslim edilir; aktarımı Code yapar. Flutter uygulaması, cihaz derlemesi ve mağaza görselleri ayrıca doğrulanır.

@@ -1,0 +1,7 @@
+{
+  "@@locale": "en",
+  "contactCardProfileHelp": "Only you can see your card until you send it in a chat.",
+  "@contactCardProfileHelp": {
+    "description": "Owner-only contact card help. Empty Save is allowed (Manager correction 88567c9); nonempty rule applies only to Send. Merge delta only."
+  }
+}

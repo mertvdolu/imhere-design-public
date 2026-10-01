@@ -833,5 +833,15 @@
     "merge": "Add two endpoint keys and metadata only; do not overwrite full ARBs.",
     "release": "next package; not a release8 gate",
     "spec": "compact-signals-v1.0/SLIDER-ENDPOINTS.md"
+  },
+  "creamSoft23": {
+    "files": [
+      "cream-soft-v23-patch_en.arb",
+      "cream-soft-v23-patch_tr.arb"
+    ],
+    "after": "contact-card-complete-patch_en/tr.arb",
+    "merge": "Update only contactCardProfileHelp and metadata. Empty Save is allowed; only Send needs a nonempty card. Never overwrite full ARBs.",
+    "authority": "Manager 88567c9 + Founder visual theme approval",
+    "spec": "theme-v2.3/SPEC.md"
   }
 }

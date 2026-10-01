@@ -1,0 +1,52 @@
+{
+  "version": "2.3",
+  "date": "2026-10-01",
+  "pass": true,
+  "catalogStates": 299,
+  "svgVariants": 2392,
+  "pngVariants": 598,
+  "betaStates": 292,
+  "deferredStates": 7,
+  "structuralInvariants": {
+    "textsAndTypography": 2392,
+    "imageAndMapGeometry": 2392,
+    "geometry": 2392,
+    "protectedAssets": 53,
+    "originalArbsUnchanged": 42,
+    "protectedPreviewCopyKeys": 1116
+  },
+  "contrast": {
+    "inkOnCream": 15.49,
+    "helperOnCream": 4.85,
+    "fieldBoundaryAgainstOutsideCream": 3.69,
+    "primaryLabel": 16.76
+  },
+  "browser": {
+    "method": "CUA browser DOM measurement; 320 logical px, 200% text; 2026-10-01",
+    "cases": 60,
+    "sets": {
+      "compact_v10_en": 12,
+      "compact_v10_tr": 12,
+      "contact_v11_en": 16,
+      "contact_v11_tr": 16,
+      "approved_component_lab_tr": 4
+    },
+    "horizontalOverflow": 0,
+    "buttonTargetsUnder48": 0,
+    "emptySaveEnabled_en_tr": true,
+    "keyboardChatHidesNav": true,
+    "authAndSetupHideNav": true,
+    "nativeDeviceTested": false
+  },
+  "visualInspection": [
+    "new theme center / approved profile surface",
+    "compact map",
+    "catalog login and chat PNG"
+  ],
+  "exceptions": [
+    "OS notifications and splash have no raised surfaces by design",
+    "historical geometry retained; latest layout addenda override it",
+    "native Flutter / store capture update not performed"
+  ],
+  "errors": []
+}

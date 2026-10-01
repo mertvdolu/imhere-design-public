@@ -1,0 +1,7 @@
+{
+  "@@locale": "tr",
+  "contactCardProfileHelp": "Bir sohbette gönderene kadar kartını yalnız sen görebilirsin.",
+  "@contactCardProfileHelp": {
+    "description": "Owner-only contact card help. Empty Save is allowed (Manager correction 88567c9); nonempty rule applies only to Send. Merge delta only."
+  }
+}

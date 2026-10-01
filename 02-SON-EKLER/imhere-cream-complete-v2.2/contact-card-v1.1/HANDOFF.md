@@ -1,3 +1,7 @@
+> **2026-10-01 tutarlılık düzeltmesi:** Boş Save serbest (88567c9), boş Send pasif. Önizleme ve yardım metni bu kurala hizalandı. `cream-soft-v23-patch_*` son deltadır; aşağıdaki eski boş-kaydetme çekincesi geçersizdir.
+
+> **Güncel yüzey dili: Cream & Ink v2.3 / hafif kabartma.** Ölçü ve davranışlar bu belgede; yüzey uygulaması `theme-v2.3/SPEC.md` ve ortak tokenlarda.
+
 TASARIMCIDAN MANAGERE MESAJ
 
 # Sürüm9 — iletişim kartı dört eksik parça / v1.1

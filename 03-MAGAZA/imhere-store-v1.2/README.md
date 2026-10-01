@@ -1,3 +1,5 @@
+> **v2.3 tema geçişi:** Mevcut native kareler önceki görünümüdür; yeni cihaz çekimleri sonrası yenilenecek. Bkz. `03-MAGAZA/V2.3-DURUM.md`.
+
 # IM HERE — native mağaza kareleri v1.2 (kısmi teslim)
 
 Kaynak: IM_HERE_MAGAZA_NATIVE_teslim.zip, 2026-09-27; iPhone18 Pro Simülatörü ve gerçek A13 test telefonu. Ürün/cihaz bilgisi Code’un BENIOKU’sundadır; `source/native/BENIOKU.md` kopyası korunur. Veriler yerel kurmaca sahnedir.

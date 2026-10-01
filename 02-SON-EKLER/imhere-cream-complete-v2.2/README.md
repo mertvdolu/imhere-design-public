@@ -1,35 +1,17 @@
-> Son teslim: bildirim metinleri v2; güncel299 durum /2392 SVG /598 PNG, beta292 +7 ertelenen. Devir: specs/NOTIFICATION-V2-COPY.md.
+# IM HERE — Cream & Ink v2.3 / Hafif kabartma
 
-> Güncel H teslimi: 297 durum · 2376 SVG · 594 PNG · beta 290 / ertelenen 7. Önceki teslim sayıları tarihsel kayıt olarak kalır.
+2026-10-01 · Founder onaylı 02 yüzey dili.
 
-# IM HERE — Cream & Ink v2.2
+[Önizleme merkezi](theme-v2.3/ONIZLEME.html) · [Tüm durumlar](ONIZLEME.html) · [Spesifikasyon](theme-v2.3/SPEC.md) · [Teslim raporu](theme-v2.3/RAPOR.md)
 
-Son güncelleme: [Founder telefon turu](specs/TELEFON-TURU-2026-09-24.md). Önceki: [CH-138 / ERT-050 / Code soruları](specs/CODE-SORULARI-CH138-ERT050.md).
+- 299 temel durum, 2.392 SVG, 598 PNG; 292 beta + 7 ertelenen.
+- SVG varyantları: TR/EN × iOS/Android × %100/%200. PNG: EN/iOS/%100 ve TR/Android/%200.
+- Siyah ana düğmeler, krem hafif kabartmalı ikincil yüzeyler, içe oturan alanlar.
+- v10 sıkı yerleşim ve v9 iletişim kartı ekleri yüzey diliyle birlikte uygulanır. Temel SVG geometrisi bu eklerin yerine geçmez.
+- Ortak token sürümü 2.3. Klasör adı eski bağlantıları korumak için sabit.
+- Tek metin düzeltmesi: `l10n/cream-soft-v23-patch_en.arb` ve `_tr.arb`; tam ARB üzerine yazılmaz.
+- Harita, logo, hareket tetikleri ve hukuki metinler korunur.
 
-Founder’ın bütün temayı krem/siyaha geçirme onayıyla hazırlanan **tam güncel tasarım paketi**.
+`experience/` eski anlatım prototipidir; görünümü güncellendi, güncel davranış/yerleşim kaynağı değildir. H0 hareket önizlemeleri zamanlama referansıdır. `review/` ve eski `evidence` raporları üretildikleri sürümün tarihsel kanıtıdır; yeni kontrol `theme-v2.3/validation.json` içindedir.
 
-- **296 ekran durumu / 2368 SVG**: TR + EN × iOS + Android × %100 + %200.
-- Önceki güncel katalogdaki 287 durumun tamamı kapsanır; son ekler ayrıca çizilir.
-- Her durum için EN/iOS/%100 ve TR/Android/%200 PNG önizlemeleri.
-- `ONIZLEME.html`: bütün ekranların aranabilir, filtrelenebilir kataloğu. İnternetsiz açılır.
-- `DENEYIM.html`: onaylı ana ekranların etkileşimli HTML referansı. Canlı harita internet ister.
-- `tokens/theme.tokens.json`: ortak renk, tipografi ve bileşen ölçüleri, sürüm 2.2.
-- `map/`: krem MapLibre/OpenFreeMap stili; gerçek veri katmanı içermez.
-- `brand/`: gönderilen logo ile açık uygulama simgesi, splash ve Android bildirim maskesi.
-- `l10n/`: tam referans sözlükleri, küçük metin deltası ve önceki alias/placeholder kurallarını koruyan migration.
-- `specs/TASARIM-DEVRI.md`: yerleşim, durumlar ve uygulama notları.
-- `evidence/validation.json`: doğrulamanın gerçek kapsamı; `MANIFEST.json`: dosya bütünlüğü.
-
-Bu teslim tasarımı tamamlar. Flutter, sunucu veya mağaza derlemesi değiştirilmedi. Native entegrasyon ve gerçek cihaz doğrulaması ayrı adımdır. Eski yeşil paketler sürüm geçmişi/arşivdir; aktif görsel kaynak değildir.
-
-## Hareket ve His v1
-
-[Önizleme](motion/hareket-ve-his-v1/ONIZLEME.html) · [Spesifikasyon](motion/hareket-ve-his-v1/SPEC.md). 7 imza an, azaltılmış karşılıkları ve tüm296 durum için hareket notları. Native entegrasyon değildir.
-
-Son teslim: [CH-141–143 toplu Code devri](specs/CODE-ALIGNMENT-CH141-143.md).
-
-Founder telefon turu T1–T4: [yerleşim güncellemesi](specs/FOUNDER-PHONE-T1-T4.md).
-
-Güncel dev turu: [H2/H7/H9/H3](specs/DEV-TOUR-H2-H7-H9-H3.md). Güncel toplam297 durum /2376 SVG /594 PNG; beta290 + ertelenen7.
-
-Son karar: [T1 geri alma + yalnız istek bildirim metni](specs/T1-REVERT-NOTIFICATIONS-2026-09-25.md).
+Native Flutter uygulaması bu tasarım tesliminden ayrı olarak Code tarafından uygulanır ve cihazda ölçülür.

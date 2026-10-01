@@ -1,3 +1,5 @@
+> **v2.3 tema geçişi:** Mevcut native kareler önceki görünümüdür; yeni cihaz çekimleri sonrası yenilenecek. Bkz. `03-MAGAZA/V2.3-DURUM.md`.
+
 # Mağaza görselleri
 
 Güncel teslim: **[imhere-store-v1.0](imhere-store-v1.0/)** — Cream & Ink v2.2.

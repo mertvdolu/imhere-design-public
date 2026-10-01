@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "name": "IM HERE / Cream & Ink / Soft relief",
+    "version": "2.3",
+    "date": "2026-10-01",
+    "baseline": "Founder approved comparison 02: subtle raised surfaces; existing v9/v10 layouts retained",
+    "requirements": "Designer extract v1.0.1 + Founder relayed decisions; Master not read",
+    "units": "Flutter logical pixels; text sizes before system scaling",
+    "delivery": "Complete Cream & Ink design catalog; native implementation and device QA remain separate",
+    "scopeNote": "Surface styling of all 299 baseline states and current HTML addenda. Native implementation remains Code work."
+  },
+  "colors": {
+    "card": "#F4F1E9",
+    "input": "#F4F1E9",
+    "navigation": "#F4F1E9",
+    "nearbyCard": "#F4F1E9",
+    "surfaceEdge": "#B7B3A9",
+    "shadowDark": "#D6D2C8",
+    "shadowLight": "#FFFEFA",
+    "primaryShadowDark": "#CFCABE"
+  },
+  "elevation": {
+    "raised": {
+      "dark": {
+        "color": "#D6D2C8",
+        "x": 5,
+        "y": 5,
+        "cssBlur": 10,
+        "gaussianSigma": 5
+      },
+      "light": {
+        "color": "#FFFEFA",
+        "x": -5,
+        "y": -5,
+        "cssBlur": 10,
+        "gaussianSigma": 5
+      }
+    },
+    "inset": {
+      "dark": {
+        "color": "#D6D2C8",
+        "x": 3,
+        "y": 3,
+        "cssBlur": 6,
+        "gaussianSigma": 3
+      },
+      "light": {
+        "color": "#FFFEFA",
+        "x": -3,
+        "y": -3,
+        "cssBlur": 6,
+        "gaussianSigma": 3
+      }
+    },
+    "primary": {
+      "dark": {
+        "color": "#CFCABE",
+        "x": 4,
+        "y": 4,
+        "cssBlur": 9,
+        "gaussianSigma": 4.5
+      },
+      "light": {
+        "color": "#FFFEFA",
+        "x": -3,
+        "y": -3,
+        "cssBlur": 8,
+        "gaussianSigma": 4
+      }
+    },
+    "flat": {
+      "shadows": []
+    },
+    "spread": 0,
+    "scaleWithText": false,
+    "pressed": "inset for secondary; primary retains black and removes shadow; no geometry change",
+    "statePolicy": "Disabled, selected chips, read-only message bubbles, dividers, logo and map activity colors remain flat",
+    "flutter": "Built-in BoxShadow for raised surfaces; inner shadow uses built-in Canvas/CustomPainter clipped to field; no new dependency. gaussianSigma is normative; do not copy CSS blur into Flutter blurRadius without visual matching."
+  },
+  "surfaceRoles": {
+    "secondaryAction": "raised",
+    "primaryAction": "primary / black",
+    "field": "inset with inputBorder",
+    "card": "raised",
+    "floatingNavigation": "raised / existing translucent cream on map",
+    "selectedChip": "flat / black",
+    "disabledAction": "flat",
+    "chatBubble": "flat",
+    "settingsRow": "flat / divider",
+    "mapActivity": "unchanged / flat",
+    "brandMark": "unchanged / flat",
+    "focus": "2 ink stroke outside 3 gap",
+    "highContrast": "disable shadows, keep explicit input/control border"
+  }
+}

@@ -1,3 +1,5 @@
+> **Güncel yüzey dili: Cream & Ink v2.3 / hafif kabartma.** Ölçü ve davranışlar bu belgede; yüzey uygulaması `theme-v2.3/SPEC.md` ve ortak tokenlarda.
+
 TASARIMCIDAN MANAGERE MESAJ
 
 # Sürüm8 — kompakt oran ve okunmamış nokta v1.0

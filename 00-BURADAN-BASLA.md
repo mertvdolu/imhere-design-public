@@ -1,11 +1,19 @@
-# IM HERE — güncel başlangıç / Cream & Ink v2.2
+# Buradan başla — Cream & Ink v2.3
 
-1. `ONIZLEME.html`: tüm güncel çizimler. İlk açılış EN/iOS/%100; filtrelerden TR, Android, %200 ve diğer durumlar seçilir.
-2. `02-SON-EKLER/imhere-cream-complete-v2.2/specs/TASARIM-DEVRI.md`: tamamlanmış tema ve yerleşim devri.
-3. `03-GUNCEL-ORTAK/tokens/theme.tokens.json`: token v2.2.
-4. `02-SON-EKLER/imhere-cream-complete-v2.2/l10n/migration.json`: metin birleştirme; tam ARB'ler uygulama dosyalarının üstüne yazılmaz.
-5. `02-SON-EKLER/imhere-cream-complete-v2.2/MANAGER-NOTU.md`: Founder üzerinden paylaşılabilir özet.
-6. `02-SON-EKLER/imhere-cream-complete-v2.2/map/` ve `brand/`: harita stili, logo, simge/splash/bildirim kaynakları.
-7. `02-SON-EKLER/imhere-cream-complete-v2.2/evidence/` ve `MANIFEST.json`: dosya ve önizleme kontrolleri.
+**Güncel görsel tema: Cream & Ink v2.3 / Hafif kabartma (02).** Founder onayıyla tüm güncel tasarım yüzeylerine uygulandı. Krem/siyah kimlik ve v10 sıkı yerleşim korunur.
 
-Eski güncel kataloğun 287 durumu yeni temada yeniden üretildi; son eklerle toplam 295 durum. Eski paketler tarihsel arşiv olarak korunur. Tasarım teslimi, cihazdaki uygulamanın güncellendiği anlamına gelmez.
+- [Önizleme merkezi](02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/ONIZLEME.html)
+- [Teslim raporu ve Code aktarımı](02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/RAPOR.md)
+- [Yüzey spesifikasyonu](02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md)
+- [Tüm durumlar](02-SON-EKLER/imhere-cream-complete-v2.2/ONIZLEME.html)
+- [Ortak tokenlar](03-GUNCEL-ORTAK/tokens/theme.tokens.json)
+
+299 temel durum · 2.392 SVG (TR/EN × iOS/Android × %100/%200) · 598 PNG. 292 beta, 7 ertelenen durum; işaretler aynı.
+
+Paketin mevcut klasör adı `imhere-cream-complete-v2.2` bilerek korunur. İçindeki token sürümü ve güncel yüzey dili **2.3**. Klasör adını değiştirip dosyaları çoğaltmadan Code'un referanslarını koruyoruz. Önceki tema Git geçmişinde.
+
+## Kaynak sırası
+
+Son ürün kararları → v10 sıkılaştırma + v9 iletişim kartı yerleşimleri → v2.3 yüzey kuralları → temel katalog çizimleri. Eski katalog geometrisi son yerleşim ekini geçersiz kılmaz. `01-ARSIV/` ve eski incelemeler aktif teslim değildir.
+
+Güncelleme ayrı dosyalarla yerel commit'te teslim edilir; aktarımı Code yapar. Flutter uygulaması, cihaz derlemesi ve mağaza görselleri ayrıca doğrulanır.

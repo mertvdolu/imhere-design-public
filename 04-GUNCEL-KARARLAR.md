@@ -1,3 +1,9 @@
+# Son görsel karar — 2026-10-01
+
+Founder, Neumorphism karşılaştırmasındaki **02 / Hafif kabartma** varyantını bütün tema için onayladı. Geçerli görsel sürüm **Cream & Ink v2.3**; [yüzey kuralları](02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md). v10 ölçüleri, siyah ana eylemler, ürün davranışı, marka varlıkları ve dört harita rengi korunur. Önceki düz yüzey kararları yalnız gölge/yüzey bakımından bu kararla güncellenir.
+
+---
+
 # Güncel tasarım kaynağı: Cream & Ink v2.2
 
 Bütün güncel mobil çizimler `02-SON-EKLER/imhere-cream-complete-v2.2/` altında tamamlandı. Aşağıdaki numaralı kayıtlar kronolojiktir; son karar önceliklidir. Eski "çizim yok / geçiş bekliyor" ifadelerinin yerini bu paket alır. Uygulama koduna entegrasyon ayrı adımdır.

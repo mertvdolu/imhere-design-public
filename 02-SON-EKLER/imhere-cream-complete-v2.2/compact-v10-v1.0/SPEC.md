@@ -1,3 +1,5 @@
+> **Güncel yüzey dili: Cream & Ink v2.3 / hafif kabartma.** Ölçü ve davranışlar bu belgede; yüzey uygulaması `theme-v2.3/SPEC.md` ve ortak tokenlarda.
+
 # Sıkılaştırma v10 · tasarım eki v1.0
 
 TASARIMCIDAN MANAGERE MESAJ

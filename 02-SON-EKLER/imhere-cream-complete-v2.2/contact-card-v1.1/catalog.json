@@ -155,11 +155,14 @@
     "reportRetentionAuthority": "HARBOR §H supersedes §G",
     "preservedWarnings": "contact-card-v1-patch"
   },
-  "integrationDifference": "Latest request interpreted as nonempty Save requirement; existing Code permits empty save. See SPEC §2.",
+  "integrationDifference": "Resolved per Manager 88567c9: empty Save enabled = remove own card; empty Send disabled.",
   "arbDelta": [
     "../l10n/contact-card-complete-patch_en.arb",
-    "../l10n/contact-card-complete-patch_tr.arb"
+    "../l10n/contact-card-complete-patch_tr.arb",
+    "../l10n/cream-soft-v23-patch_en.arb",
+    "../l10n/cream-soft-v23-patch_tr.arb"
   ],
   "newDependencies": 0,
-  "nativeChanges": false
+  "nativeChanges": false,
+  "themeVersion": "2.3"
 }

@@ -1,0 +1,91 @@
+/* Cream & Ink v2.3 — Founder approved variant 02. Visual surfaces only. */
+:root{
+ --relief-paper:#f4f1e9;--relief-ink:#191a17;--relief-edge:#b7b3a9;
+ --relief-raised:5px 5px 10px #d6d2c8,-5px -5px 10px #fffefa;
+ --relief-inset:inset 3px 3px 6px #d6d2c8,inset -3px -3px 6px #fffefa;
+ --relief-primary:4px 4px 9px #cfcabe,-3px -3px 8px #fffefa;
+}
+/* Compact v10 and contact v9 use a small painted face inside a 48px target. */
+[data-soft-ui="compact"] .phone .tap:not(:disabled) .paint{box-shadow:var(--relief-primary)}
+[data-soft-ui="compact"] .phone .tap.secondary:not(:disabled) .paint{
+ background:var(--relief-paper);box-shadow:var(--relief-raised);border-color:#7c7d73;
+}
+[data-soft-ui="compact"] .phone .field input,
+[data-soft-ui="compact"] .phone .field textarea,
+[data-soft-ui="compact"] .phone .inputwrap textarea{
+ background:var(--relief-paper);box-shadow:var(--relief-inset);border-color:#7c7d73;
+}
+[data-soft-ui="compact"] .phone .field input:disabled{box-shadow:none}
+[data-soft-ui="compact"] .phone .card,
+[data-soft-ui="compact"] .phone .menu,
+[data-soft-ui="compact"] .phone .mapnote{
+ background:var(--relief-paper);box-shadow:var(--relief-raised);border:1px solid var(--relief-edge);
+}
+[data-soft-ui="compact"] .phone .nav{
+ background:rgba(244,241,233,.94);box-shadow:var(--relief-raised);border-color:#7c7d73;
+}
+[data-soft-ui="compact"] .phone .nav button.active{background:#e9e5da;box-shadow:none}
+[data-soft-ui="compact"] .phone .bar .icon,
+[data-soft-ui="compact"] .phone .mapcontrols .icon{position:relative;isolation:isolate;background:none}
+[data-soft-ui="compact"] .phone .bar .icon::before,
+[data-soft-ui="compact"] .phone .mapcontrols .icon::before{
+ content:"";position:absolute;inset:6px;border-radius:50%;background:var(--relief-paper);
+ border:1px solid #7c7d73;box-shadow:var(--relief-raised);z-index:-1;
+}
+[data-soft-ui="compact"] .phone .bar .icon span{background:none}
+[data-soft-ui="compact"] .phone .send:not(:disabled) span{box-shadow:var(--relief-primary)}
+[data-soft-ui="compact"] .phone .send:disabled{opacity:.5}
+[data-soft-ui="compact"] .phone .tap:disabled .paint,
+[data-soft-ui="compact"] .phone .send:disabled span{box-shadow:none}
+[data-soft-ui="compact"] .phone .tap:not(:disabled):active .paint{box-shadow:none}
+[data-soft-ui="compact"] .phone .tap.secondary:not(:disabled):active .paint,
+[data-soft-ui="compact"] .phone .bar .icon:not(:disabled):active::before,
+[data-soft-ui="compact"] .phone .mapcontrols .icon:not(:disabled):active::before{box-shadow:var(--relief-inset)}
+[data-soft-ui="compact"] .phone .solid .nav,
+[data-soft-ui="compact"] .phone.solid .nav{background:var(--relief-paper);backdrop-filter:none}
+/* Card warning/reference sheet: only surfaces change, approved legal text stays exact. */
+[data-soft-ui="card-reference"] .preview{background:var(--relief-paper);border:1px solid var(--relief-edge);box-shadow:var(--relief-raised)}
+[data-soft-ui="card-reference"] section button{width:auto;max-width:100%;display:block;border-radius:999px;min-width:48px}
+[data-soft-ui="card-reference"] section button:not(:disabled){box-shadow:var(--relief-primary)}
+[data-soft-ui="card-reference"] section button.secondary{background:var(--relief-paper);box-shadow:var(--relief-raised)}
+/* Compact ratio and unread indicator keep their geometry and semantic colors. */
+[data-soft-ui="signals"] .nav{border-radius:18px;border:1px solid #7c7d73;box-shadow:var(--relief-raised);padding:4px;background:var(--relief-paper)}
+[data-soft-ui="signals"] .tab{background:none;border-radius:14px}
+/* Older narrative prototype receives the surface language, not new product behavior. */
+[data-soft-ui="experience"] .presence,
+[data-soft-ui="experience"] .map-key,
+[data-soft-ui="experience"] .map-title,
+[data-soft-ui="experience"] .map-error,
+[data-soft-ui="experience"] .choice,
+[data-soft-ui="experience"] dialog{
+ background:var(--relief-paper);border-color:var(--relief-edge);box-shadow:var(--relief-raised);
+}
+[data-soft-ui="experience"] .round{min-width:48px;min-height:48px}
+[data-soft-ui="experience"] .map-overlay .round{background:var(--relief-paper);box-shadow:var(--relief-raised);border-color:#7c7d73}
+[data-soft-ui="experience"] .primary:not(:disabled),
+[data-soft-ui="experience"] .compose button:not(:disabled){box-shadow:var(--relief-primary)}
+[data-soft-ui="experience"] .compose textarea{background:var(--relief-paper);border-color:#7c7d73;box-shadow:var(--relief-inset)}
+[data-soft-ui="experience"] .app-nav{background:var(--relief-paper);box-shadow:var(--relief-raised)}
+[data-soft-ui="experience"] .app-nav button,
+[data-soft-ui="experience"] .plain-icon,
+[data-soft-ui="experience"] .compose button,
+[data-soft-ui="experience"] .close{min-width:48px;min-height:48px}
+/* Review chrome, never part of the native product. */
+.theme-note{font:14px/1.5 Geist,sans-serif!important;color:#191a17!important;background:#f4f1e9;border-bottom:1px solid #b7b3a9;padding:12px 24px;margin:0!important}
+.theme-note a{color:inherit;text-underline-offset:3px}
+.relief-gallery-card{box-shadow:var(--relief-raised);border:1px solid var(--relief-edge)}
+[data-soft-ui="compact"] .phone button:focus-visible,
+[data-soft-ui="compact"] .phone input:focus-visible,
+[data-soft-ui="compact"] .phone textarea:focus-visible{outline:2px solid #191a17;outline-offset:3px}
+@media(prefers-reduced-transparency:reduce){
+ [data-soft-ui="compact"] .phone .nav{background:#f4f1e9;backdrop-filter:none}
+}
+@media(prefers-reduced-motion:reduce){
+ [data-soft-ui] button,[data-soft-ui] button::before,[data-soft-ui] .paint{transition:none!important;transform:none!important}
+}
+@media(prefers-contrast:more){
+ :root{--relief-raised:none;--relief-inset:none;--relief-primary:none;--relief-edge:#7c7d73}
+}
+@media(forced-colors:active){
+ [data-soft-ui] .paint,[data-soft-ui] .card,[data-soft-ui] .nav,[data-soft-ui] input,[data-soft-ui] textarea{box-shadow:none!important;border:1px solid ButtonText!important}
+}

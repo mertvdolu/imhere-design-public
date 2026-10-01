@@ -1,0 +1,25 @@
+{
+  "version": "2.3",
+  "theme": "Cream & Ink / Soft relief",
+  "approval": "Founder selected variant 02",
+  "baseCatalog": "../catalog.js",
+  "states": 299,
+  "svgVariants": 2392,
+  "pngVariants": 598,
+  "surfaceCoverage": "surface-coverage.json",
+  "tokenSource": "../tokens/theme.tokens.json",
+  "preview": "ONIZLEME.html",
+  "spec": "SPEC.md",
+  "report": "RAPOR.md",
+  "layoutAddenda": [
+    "../compact-v10-v1.0/SPEC.md",
+    "../contact-card-v1.1/SPEC.md",
+    "../compact-signals-v1.0/SPEC.md"
+  ],
+  "l10nDeltas": [
+    "../l10n/cream-soft-v23-patch_en.arb",
+    "../l10n/cream-soft-v23-patch_tr.arb"
+  ],
+  "nativeImplementation": false,
+  "newAppDependencies": 0
+}
