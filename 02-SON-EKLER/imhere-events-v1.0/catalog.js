@@ -1,0 +1,1061 @@
+window.EVENT_CATALOG={
+  "version": "1.0",
+  "themeVersion": "2.3",
+  "sourceDesignSha": "58bf8c4380c9e2b8487b32d5d94f6f1e683ad649",
+  "scopeAuthority": "source/FOUNDER-BRIEF.txt",
+  "status": "implementation-ready visual handoff; proposed copy pending Founder approval; native QA pending",
+  "stateCount": 36,
+  "spec": "SPEC.md",
+  "handoff": "HANDOFF.md",
+  "copy": "COPY-REVIEW.md",
+  "states": [
+    {
+      "id": "list-loading",
+      "label": "Liste · yükleniyor",
+      "screen": "list",
+      "myRsvp": "NONE",
+      "category": "NETWORKING",
+      "mode": "loading",
+      "preview": "ONIZLEME.html?scene=list-loading",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "list-populated",
+      "label": "Liste · dolu / üç kategori",
+      "screen": "list",
+      "myRsvp": "NONE",
+      "category": "NETWORKING",
+      "mode": "populated",
+      "preview": "ONIZLEME.html?scene=list-populated",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "list-empty",
+      "label": "Liste · boş",
+      "screen": "list",
+      "myRsvp": "NONE",
+      "category": "NETWORKING",
+      "mode": "empty",
+      "preview": "ONIZLEME.html?scene=list-empty",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "list-error",
+      "label": "Liste · hata",
+      "screen": "list",
+      "myRsvp": "NONE",
+      "category": "NETWORKING",
+      "mode": "error",
+      "preview": "ONIZLEME.html?scene=list-error",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "list-offline",
+      "label": "Liste · çevrimdışı",
+      "screen": "list",
+      "myRsvp": "NONE",
+      "category": "NETWORKING",
+      "mode": "offline",
+      "preview": "ONIZLEME.html?scene=list-offline",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "list-cancelled",
+      "label": "Liste · iptal görünür",
+      "screen": "list",
+      "myRsvp": "NONE",
+      "category": "NETWORKING",
+      "mode": "cancelled",
+      "preview": "ONIZLEME.html?scene=list-cancelled",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "list-started",
+      "label": "Liste · başlamış / kilitli",
+      "screen": "list",
+      "myRsvp": "NONE",
+      "category": "NETWORKING",
+      "mode": "started",
+      "preview": "ONIZLEME.html?scene=list-started",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "list-image-failed",
+      "label": "Liste · görsel alınamıyor",
+      "screen": "list",
+      "myRsvp": "NONE",
+      "category": "NETWORKING",
+      "mode": "image-failed",
+      "preview": "ONIZLEME.html?scene=list-image-failed",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-none",
+      "label": "Detay · Henüz seçim yok",
+      "screen": "detail",
+      "myRsvp": "NONE",
+      "category": "NETWORKING",
+      "mode": "ready",
+      "preview": "ONIZLEME.html?scene=detail-none",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-interested",
+      "label": "Detay · Interested",
+      "screen": "detail",
+      "myRsvp": "INTERESTED",
+      "category": "NETWORKING",
+      "mode": "ready",
+      "preview": "ONIZLEME.html?scene=detail-interested",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-going",
+      "label": "Detay · Going",
+      "screen": "detail",
+      "myRsvp": "GOING",
+      "category": "NETWORKING",
+      "mode": "ready",
+      "preview": "ONIZLEME.html?scene=detail-going",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-updating-interested",
+      "label": "Detay · Interested kaydediliyor",
+      "screen": "detail",
+      "myRsvp": "NONE",
+      "category": "NETWORKING",
+      "mode": "updating",
+      "pending": "INTERESTED",
+      "preview": "ONIZLEME.html?scene=detail-updating-interested",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-updating-going",
+      "label": "Detay · Interested → Going",
+      "screen": "detail",
+      "myRsvp": "INTERESTED",
+      "category": "NETWORKING",
+      "mode": "updating",
+      "pending": "GOING",
+      "preview": "ONIZLEME.html?scene=detail-updating-going",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-withdrawing",
+      "label": "Detay · geri çekiliyor",
+      "screen": "detail",
+      "myRsvp": "GOING",
+      "category": "NETWORKING",
+      "mode": "updating",
+      "pending": "NONE",
+      "preview": "ONIZLEME.html?scene=detail-withdrawing",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-save-failed",
+      "label": "Detay · seçim güncellenemedi",
+      "screen": "detail",
+      "myRsvp": "INTERESTED",
+      "category": "NETWORKING",
+      "mode": "save-failed",
+      "pending": "GOING",
+      "preview": "ONIZLEME.html?scene=detail-save-failed",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-locked-none",
+      "label": "Detay · Başlamış / kilitli / NONE",
+      "screen": "detail",
+      "myRsvp": "NONE",
+      "category": "NETWORKING",
+      "mode": "locked",
+      "preview": "ONIZLEME.html?scene=detail-locked-none",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-locked-interested",
+      "label": "Detay · Başlamış / kilitli / INTERESTED",
+      "screen": "detail",
+      "myRsvp": "INTERESTED",
+      "category": "NETWORKING",
+      "mode": "locked",
+      "preview": "ONIZLEME.html?scene=detail-locked-interested",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-locked-going",
+      "label": "Detay · Başlamış / kilitli / GOING",
+      "screen": "detail",
+      "myRsvp": "GOING",
+      "category": "NETWORKING",
+      "mode": "locked",
+      "preview": "ONIZLEME.html?scene=detail-locked-going",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-cancelled-none",
+      "label": "Detay · İptal / NONE",
+      "screen": "detail",
+      "myRsvp": "NONE",
+      "category": "NETWORKING",
+      "mode": "cancelled",
+      "preview": "ONIZLEME.html?scene=detail-cancelled-none",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-cancelled-interested",
+      "label": "Detay · İptal / INTERESTED",
+      "screen": "detail",
+      "myRsvp": "INTERESTED",
+      "category": "NETWORKING",
+      "mode": "cancelled",
+      "preview": "ONIZLEME.html?scene=detail-cancelled-interested",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-cancelled-going",
+      "label": "Detay · İptal / GOING",
+      "screen": "detail",
+      "myRsvp": "GOING",
+      "category": "NETWORKING",
+      "mode": "cancelled",
+      "preview": "ONIZLEME.html?scene=detail-cancelled-going",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-changed-none",
+      "label": "Detay · Bilgiler güncellendi / NONE",
+      "screen": "detail",
+      "myRsvp": "NONE",
+      "category": "NETWORKING",
+      "mode": "changed",
+      "preview": "ONIZLEME.html?scene=detail-changed-none",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-changed-interested",
+      "label": "Detay · Bilgiler güncellendi / INTERESTED",
+      "screen": "detail",
+      "myRsvp": "INTERESTED",
+      "category": "NETWORKING",
+      "mode": "changed",
+      "preview": "ONIZLEME.html?scene=detail-changed-interested",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-changed-going",
+      "label": "Detay · Bilgiler güncellendi / GOING",
+      "screen": "detail",
+      "myRsvp": "GOING",
+      "category": "NETWORKING",
+      "mode": "changed",
+      "preview": "ONIZLEME.html?scene=detail-changed-going",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-loading",
+      "label": "Detay · Yükleniyor",
+      "screen": "detail",
+      "myRsvp": "NONE",
+      "category": "NETWORKING",
+      "mode": "loading",
+      "preview": "ONIZLEME.html?scene=detail-loading",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-error",
+      "label": "Detay · Hata",
+      "screen": "detail",
+      "myRsvp": "NONE",
+      "category": "NETWORKING",
+      "mode": "error",
+      "preview": "ONIZLEME.html?scene=detail-error",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-offline",
+      "label": "Detay · Çevrimdışı",
+      "screen": "detail",
+      "myRsvp": "NONE",
+      "category": "NETWORKING",
+      "mode": "offline",
+      "preview": "ONIZLEME.html?scene=detail-offline",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-not-found",
+      "label": "Detay · Ulaşılamıyor",
+      "screen": "detail",
+      "myRsvp": "NONE",
+      "category": "NETWORKING",
+      "mode": "not-found",
+      "preview": "ONIZLEME.html?scene=detail-not-found",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-image-failed",
+      "label": "Detay · Görsel alınamıyor",
+      "screen": "detail",
+      "myRsvp": "NONE",
+      "category": "NETWORKING",
+      "mode": "image-failed",
+      "preview": "ONIZLEME.html?scene=detail-image-failed",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-long-content",
+      "label": "Detay · Uzun içerik",
+      "screen": "detail",
+      "myRsvp": "NONE",
+      "category": "NETWORKING",
+      "mode": "long-content",
+      "preview": "ONIZLEME.html?scene=detail-long-content",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-category-social",
+      "label": "Detay · kategori SOCIAL",
+      "screen": "detail",
+      "myRsvp": "NONE",
+      "category": "SOCIAL",
+      "mode": "ready",
+      "preview": "ONIZLEME.html?scene=detail-category-social",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-category-activity",
+      "label": "Detay · kategori ACTIVITY",
+      "screen": "detail",
+      "myRsvp": "NONE",
+      "category": "ACTIVITY",
+      "mode": "ready",
+      "preview": "ONIZLEME.html?scene=detail-category-activity",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-calendar-opening",
+      "label": "Detay · calendar / opening",
+      "screen": "detail",
+      "myRsvp": "GOING",
+      "category": "NETWORKING",
+      "mode": "calendar-opening",
+      "preview": "ONIZLEME.html?scene=detail-calendar-opening",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-calendar-failed",
+      "label": "Detay · calendar / failed",
+      "screen": "detail",
+      "myRsvp": "GOING",
+      "category": "NETWORKING",
+      "mode": "calendar-failed",
+      "preview": "ONIZLEME.html?scene=detail-calendar-failed",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-map-opening",
+      "label": "Detay · map / opening",
+      "screen": "detail",
+      "myRsvp": "GOING",
+      "category": "NETWORKING",
+      "mode": "map-opening",
+      "preview": "ONIZLEME.html?scene=detail-map-opening",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    },
+    {
+      "id": "detail-map-failed",
+      "label": "Detay · map / failed",
+      "screen": "detail",
+      "myRsvp": "GOING",
+      "category": "NETWORKING",
+      "mode": "map-failed",
+      "preview": "ONIZLEME.html?scene=detail-map-failed",
+      "copyStatus": "PROPOSED",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "textScales": [
+        100,
+        200
+      ],
+      "widths": [
+        320,
+        390,
+        412
+      ],
+      "minTouchTarget": 48,
+      "implementationScope": "development; production release separately approved"
+    }
+  ]
+};

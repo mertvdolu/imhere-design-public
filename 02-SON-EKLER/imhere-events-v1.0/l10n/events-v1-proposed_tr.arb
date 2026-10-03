@@ -1,0 +1,236 @@
+{
+  "@@locale": "tr",
+  "eventsV1Intro": "Sana uyan bir an bul.",
+  "@eventsV1Intro": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventsV1Loading": "Etkinlikler yükleniyor…",
+  "@eventsV1Loading": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1Loading": "Etkinlik yükleniyor…",
+  "@eventV1Loading": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventsV1EmptyTitle": "Henüz bir etkinlik yok.",
+  "@eventsV1EmptyTitle": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventsV1EmptyBody": "Etkinlikler hazır olduğunda burada görünecek.",
+  "@eventsV1EmptyBody": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventsV1ErrorTitle": "Şu an etkinliklere ulaşılamıyor.",
+  "@eventsV1ErrorTitle": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventsV1ErrorBody": "Tekrar deneyebilirsin.",
+  "@eventsV1ErrorBody": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventsV1OfflineTitle": "Çevrimdışısın.",
+  "@eventsV1OfflineTitle": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventsV1OfflineBody": "Güncel etkinlik bilgilerini görmek için yeniden bağlan.",
+  "@eventsV1OfflineBody": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1UnavailableTitle": "Bu etkinliğe ulaşılamıyor.",
+  "@eventV1UnavailableTitle": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1UnavailableBody": "Etkinlik listesine dönebilirsin.",
+  "@eventV1UnavailableBody": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1Back": "Etkinliklere dön",
+  "@eventV1Back": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1CategoryNetworking": "Networking",
+  "@eventV1CategoryNetworking": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1CategorySocial": "Sosyal",
+  "@eventV1CategorySocial": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1CategoryActivity": "Aktivite",
+  "@eventV1CategoryActivity": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1CategoryLabel": "Kategori: {category}",
+  "@eventV1CategoryLabel": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically.",
+    "placeholders": {
+      "category": {
+        "type": "String"
+      }
+    }
+  },
+  "eventV1Start": "Başlangıç",
+  "@eventV1Start": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1End": "Bitiş",
+  "@eventV1End": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1Venue": "Mekân",
+  "@eventV1Venue": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1About": "Etkinlik hakkında",
+  "@eventV1About": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1YourChoice": "Tercihin",
+  "@eventV1YourChoice": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1Interested": "İlgileniyorum",
+  "@eventV1Interested": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1Going": "Gideceğim",
+  "@eventV1Going": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1None": "Henüz bir tercih yok",
+  "@eventV1None": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1Withdraw": "Tercihimi geri çek",
+  "@eventV1Withdraw": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1ChoiceHelp": "Burada yalnız kendi tercihin görünür. Gideceğim seçeneği check-in yapmaz.",
+  "@eventV1ChoiceHelp": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1Saving": "Tercihin güncelleniyor…",
+  "@eventV1Saving": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1SaveFailed": "Tercihin güncellenemedi. Tekrar deneyebilirsin.",
+  "@eventV1SaveFailed": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1SavedAnnouncement": "Tercihin artık {choice}.",
+  "@eventV1SavedAnnouncement": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically.",
+    "placeholders": {
+      "choice": {
+        "type": "String"
+      }
+    }
+  },
+  "eventV1WithdrawnAnnouncement": "Tercihin geri çekildi.",
+  "@eventV1WithdrawnAnnouncement": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1Started": "Etkinlik başladı",
+  "@eventV1Started": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1LockedBody": "Etkinlik başladıktan sonra tercihler değiştirilemez.",
+  "@eventV1LockedBody": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1Cancelled": "İptal edildi",
+  "@eventV1Cancelled": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1CancelledBody": "Bu etkinlik iptal edildi. Etkinlik işlemleri kullanılamıyor.",
+  "@eventV1CancelledBody": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1CancelledChoice": "Önceki tercihin: {choice}. Artık geçerli değil.",
+  "@eventV1CancelledChoice": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically.",
+    "placeholders": {
+      "choice": {
+        "type": "String"
+      }
+    }
+  },
+  "eventV1ChangedTitle": "Etkinlik bilgileri güncellendi",
+  "@eventV1ChangedTitle": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1ChangedBody": "Güncel bilgileri aşağıda inceleyebilirsin.",
+  "@eventV1ChangedBody": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1ChoiceKept": "Tercihin değişmedi.",
+  "@eventV1ChoiceKept": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1Plan": "Planına ekle",
+  "@eventV1Plan": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1Calendar": "Takvime ekle",
+  "@eventV1Calendar": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1Map": "Mekânı haritada aç",
+  "@eventV1Map": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1CalendarHelp": "Etkinlik bilgileri değişirse takvim kaydı otomatik güncellenmez.",
+  "@eventV1CalendarHelp": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1CalendarOpening": "Takvimin açılıyor…",
+  "@eventV1CalendarOpening": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1CalendarFailed": "Takvimin açılamadı. Tekrar deneyebilirsin.",
+  "@eventV1CalendarFailed": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1MapOpening": "Mekân haritada açılıyor…",
+  "@eventV1MapOpening": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1MapFailed": "Harita açılamadı. Tekrar deneyebilirsin.",
+  "@eventV1MapFailed": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1ReminderPush": "Gideceğin bir etkinlik yakında başlıyor.",
+  "@eventV1ReminderPush": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1ChangedPush": "Tercih belirttiğin bir etkinlik güncellendi.",
+  "@eventV1ChangedPush": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1CancelledPush": "Tercih belirttiğin bir etkinlik iptal edildi.",
+  "@eventV1CancelledPush": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1TimeZone": "Saatler {zone} saat diliminde gösterilir.",
+  "@eventV1TimeZone": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically.",
+    "placeholders": {
+      "zone": {
+        "type": "String"
+      }
+    }
+  },
+  "eventV1ImageUnavailable": "Etkinlik görseli kullanılamıyor",
+  "@eventV1ImageUnavailable": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1ListChoice": "Tercihin: {choice}",
+  "@eventV1ListChoice": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically.",
+    "placeholders": {
+      "choice": {
+        "type": "String"
+      }
+    }
+  }
+}

@@ -1,0 +1,265 @@
+==================================================
+PROMPT ROUTING / ALICI DOĞRULAMA
+==================================================
+
+FROM:
+Founder — Mert Dolu
+
+TO:
+Product Designer — I’M HERE Mobile
+
+PURPOSE:
+Events V1 — Cream & Ink v2.3 implementation-ready mobile design
+
+IMPORTANT:
+Bu prompt yalnız Product Designer içindir.
+
+Eğer bu rol sen değilsen hiçbir design/repo değişikliği yapma ve Founder'a bildir.
+
+==================================================
+EVENTS V1 — APPROVED PRODUCT SCOPE
+==================================================
+
+I’M HERE için Events V1 artık aktif geliştirme kapsamıdır.
+
+Events V1 bir Meetup/ticketing ürünü değildir.
+
+Amaç:
+Founder/Admin tarafından oluşturulan etkinlikleri kullanıcının görmesi,
+Interested / Going state seçmesi ve gerekli temel event actions'ı kullanması.
+
+Cream & Ink v2.3 design system kullanılacak.
+
+==================================================
+MOBILE SCREENS / STATES
+==================================================
+
+Implementation-ready tasarla:
+
+1. Events List
+2. Event Detail
+
+Event List states:
+- loading
+- populated
+- empty
+- error
+- cancelled event visible state
+
+Event Detail states:
+- NONE
+- INTERESTED
+- GOING
+- RSVP LOCKED AFTER START
+- CANCELLED
+- event information changed
+
+==================================================
+EVENT CONTENT
+==================================================
+
+Event fields:
+
+- image
+- title
+- description
+- start date/time
+- end date/time
+- venue
+- category
+
+Categories:
+
+Networking
+Social
+Activity
+
+Category presentation Cream & Ink v2.3 içinde açık ama sakin olsun.
+
+==================================================
+RSVP
+==================================================
+
+User states mutually exclusive:
+
+NONE
+INTERESTED
+GOING
+
+User event başlamadan:
+
+Interested
+Going
+state switch
+Withdraw
+
+yapabilir.
+
+Event start time sonrası RSVP controls locked.
+
+Locked state açıkça anlaşılmalı ama hata ekranı gibi görünmemeli.
+
+==================================================
+ACTIONS
+==================================================
+
+Event detail actions:
+
+- Interested
+- Going
+- Withdraw/current RSVP change
+- Add to Calendar
+- Open Venue on Map
+
+Going = physical attendance değildir.
+
+Check-in / Nearby / heatmap / proximity ile görsel olarak karıştırma.
+
+==================================================
+PRIVACY
+==================================================
+
+User-facing Events V1'de:
+
+NO attendee count
+NO attendee list
+NO avatars of attendees
+NO “X people going”
+NO social proof based on attendee identities
+
+Kullanıcı yalnız kendi RSVP state'ini görür.
+
+==================================================
+CANCELLED
+==================================================
+
+Cancelled event:
+
+- clear CANCELLED state
+- actions disabled
+- 24 saat listede görünebilir
+- sonra normal listeden çıkar
+
+Cancelled state premium ve sakin olsun;
+devasa kırmızı alarm ekranına dönüştürme.
+
+==================================================
+CHANGED EVENT
+==================================================
+
+Event changed için UI gerekirse subtle state/message düşün.
+
+Push notification şu alanlarda değişiklik olunca gider:
+- title
+- start
+- end
+- venue
+
+Description/image/category değişikliği push üretmez.
+
+UI her zaman güncel event içeriğini gösterir.
+
+==================================================
+NOTIFICATIONS CONTEXT
+==================================================
+
+Reminder:
+event'ten 1 saat önce
+yalnız GOING kullanıcılarına.
+
+Interested reminder almaz.
+
+Going ve Interested:
+event changed + event cancelled notifications alabilir.
+
+Notification UI tasarımı gerekiyorsa existing app notification language ile uyumlu olsun.
+
+==================================================
+AFTER START
+==================================================
+
+Event başladıktan sonra:
+
+RSVP locked.
+
+User'a:
+“event has started” / equivalent approved UX state
+
+gösterilebilir.
+
+Yeni product copy gerekiyorsa final copy'yi kendi başına canonical yapma;
+proposed copy olarak teslim et.
+
+==================================================
+NO FEATURES
+==================================================
+
+Design etme:
+
+- attendee list
+- attendee count
+- group chat
+- event matching
+- event-specific intent
+- tickets
+- payment
+- sponsors
+- organizer accounts
+- user-created events
+- marketplace
+- attendance verification
+- live location
+- event-specific Nearby
+
+==================================================
+DESIGN SYSTEM
+==================================================
+
+Cream & Ink v2.3:
+
+- cream / ink palette
+- Geist
+- v10 compact layout
+- subtle raised secondary controls
+- recessed form/input surfaces
+- flat selected chips where applicable
+- black primary actions
+- 48×48 minimum touch target
+- accessibility behavior
+- high contrast shadow removal
+- Reduce Transparency behavior
+
+korunacak.
+
+Events eski görsel dile dönmemeli.
+
+==================================================
+DELIVERABLE
+==================================================
+
+Implementation-ready handoff hazırla:
+
+- all screens
+- all RSVP states
+- loading/error/empty
+- cancelled
+- locked-after-start
+- category states
+- Calendar action
+- Map action
+- responsive/small-device behavior
+- large text
+- accessibility
+- tokens/components used
+
+Ayrıca:
+
+- design branch
+- final SHA
+- handoff path
+- screen/state matrix
+- any Founder decision required
+
+raporla.
+
+Backend/product behavior değiştirme.

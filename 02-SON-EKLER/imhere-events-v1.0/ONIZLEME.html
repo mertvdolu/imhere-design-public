@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>IM HERE · Events V1 · Design handoff</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="masthead"><a href="../imhere-cream-complete-v2.2/theme-v2.3/ONIZLEME.html" aria-label="IM HERE design home"><img src="../imhere-cream-complete-v2.2/assets/imhere-mark.svg" alt="IM HERE"></a><span>CREAM & INK 2.3 / EVENTS V1</span><a href="HANDOFF.md">Handoff ↗</a></header>
+<main class="workspace">
+<aside class="inspector">
+<p class="eyebrow">MOBILE DESIGN / 01</p><h1>A place.<br>A moment.<br>Your choice.</h1>
+<p class="intro">Etkinlikler için sakin, kompakt bir alan. Yalnız kendi tercihin; kişi listesi, katılım sayısı veya check-in bağlantısı yok.</p>
+<div class="review-note"><b>Tasarım önizlemesi · Öneri metinler</b><br>Etkinlikler, tarihler, mekânlar ve görseller kurmacadır. Gerçek kayıt, takvim veya harita işlemi yapılmaz. Yeni EN/TR metinler Founder onayı bekler.</div>
+<div class="controls">
+<label>Durum<select id="scene"></select></label>
+<div class="twocol"><label>Dil<select id="locale"><option value="en">English</option><option value="tr">Türkçe</option></select></label><label>Platform<select id="platform"><option value="ios">iOS</option><option value="android">Android</option></select></label></div>
+<div class="twocol"><label>Genişlik<select id="width"><option value="390">390</option><option value="320">320</option><option value="412">412</option></select></label><label>Metin<select id="scale"><option value="100">100%</option><option value="200">200%</option></select></label></div>
+<label class="check"><input type="checkbox" id="contrast">Yüksek kontrast</label><label class="check"><input type="checkbox" id="solid">Şeffaflığı Azalt</label><label class="check"><input type="checkbox" id="motion">Hareketi Azalt</label>
+</div>
+<div class="response-tools"><p class="eyebrow">YALNIZ ÖNİZLEME / YANIT ÖRNEKLE</p><p>Seçim sırasında aşağıdaki kontroller yanıtı örnekler. Onay gelene kadar önceki tercih korunur.</p><button id="ack">Başarılı yanıtı göster</button><button id="reject">Hata yanıtını göster</button><button id="lock">Başlangıç kilidini göster</button></div>
+<p id="scenario-note" class="scenario-note"></p><div class="doclinks"><a href="SPEC.md">Spesifikasyon ↗</a><a href="SCREEN-STATE-MATRIX.md">Durum matrisi ↗</a><a href="COPY-REVIEW.md">Öneri metinler ↗</a><a href="catalog.json">Katalog ↗</a></div>
+</aside>
+<section class="stage" aria-label="Design preview"><div id="phone" class="phone"></div><p class="caption">HTML tasarım referansı · Native uygulama / cihaz onayı değildir.</p><p id="preview-feedback" role="status" class="caption"></p></section>
+</main><script src="copy.js"></script><script src="catalog.js"></script><script src="preview.js"></script></body></html>

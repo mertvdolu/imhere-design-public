@@ -1,0 +1,236 @@
+{
+  "@@locale": "en",
+  "eventsV1Intro": "Find a moment that fits.",
+  "@eventsV1Intro": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventsV1Loading": "Loading events…",
+  "@eventsV1Loading": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1Loading": "Loading event…",
+  "@eventV1Loading": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventsV1EmptyTitle": "Nothing planned just yet.",
+  "@eventsV1EmptyTitle": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventsV1EmptyBody": "Events will appear here when they’re available.",
+  "@eventsV1EmptyBody": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventsV1ErrorTitle": "Events aren’t available right now.",
+  "@eventsV1ErrorTitle": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventsV1ErrorBody": "Please try again.",
+  "@eventsV1ErrorBody": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventsV1OfflineTitle": "You’re offline.",
+  "@eventsV1OfflineTitle": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventsV1OfflineBody": "Reconnect to see the latest event details.",
+  "@eventsV1OfflineBody": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1UnavailableTitle": "This event isn’t available.",
+  "@eventV1UnavailableTitle": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1UnavailableBody": "You can return to the events list.",
+  "@eventV1UnavailableBody": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1Back": "Back to events",
+  "@eventV1Back": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1CategoryNetworking": "Networking",
+  "@eventV1CategoryNetworking": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1CategorySocial": "Social",
+  "@eventV1CategorySocial": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1CategoryActivity": "Activity",
+  "@eventV1CategoryActivity": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1CategoryLabel": "Category: {category}",
+  "@eventV1CategoryLabel": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically.",
+    "placeholders": {
+      "category": {
+        "type": "String"
+      }
+    }
+  },
+  "eventV1Start": "Starts",
+  "@eventV1Start": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1End": "Ends",
+  "@eventV1End": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1Venue": "Venue",
+  "@eventV1Venue": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1About": "About this event",
+  "@eventV1About": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1YourChoice": "Your choice",
+  "@eventV1YourChoice": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1Interested": "Interested",
+  "@eventV1Interested": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1Going": "Going",
+  "@eventV1Going": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1None": "No choice yet",
+  "@eventV1None": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1Withdraw": "Withdraw",
+  "@eventV1Withdraw": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1ChoiceHelp": "Only your own choice is shown here. Going does not check you in.",
+  "@eventV1ChoiceHelp": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1Saving": "Updating your choice…",
+  "@eventV1Saving": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1SaveFailed": "Your choice couldn’t be updated. Please try again.",
+  "@eventV1SaveFailed": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1SavedAnnouncement": "Your choice is now {choice}.",
+  "@eventV1SavedAnnouncement": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically.",
+    "placeholders": {
+      "choice": {
+        "type": "String"
+      }
+    }
+  },
+  "eventV1WithdrawnAnnouncement": "Your choice has been withdrawn.",
+  "@eventV1WithdrawnAnnouncement": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1Started": "Event started",
+  "@eventV1Started": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1LockedBody": "Choices can no longer be changed after the event starts.",
+  "@eventV1LockedBody": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1Cancelled": "Cancelled",
+  "@eventV1Cancelled": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1CancelledBody": "This event has been cancelled. Event actions are unavailable.",
+  "@eventV1CancelledBody": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1CancelledChoice": "Your previous choice: {choice}. It is no longer active.",
+  "@eventV1CancelledChoice": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically.",
+    "placeholders": {
+      "choice": {
+        "type": "String"
+      }
+    }
+  },
+  "eventV1ChangedTitle": "Event details updated",
+  "@eventV1ChangedTitle": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1ChangedBody": "Review the latest information below.",
+  "@eventV1ChangedBody": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1ChoiceKept": "Your choice is unchanged.",
+  "@eventV1ChoiceKept": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1Plan": "Make a plan",
+  "@eventV1Plan": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1Calendar": "Add to Calendar",
+  "@eventV1Calendar": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1Map": "Open venue on map",
+  "@eventV1Map": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1CalendarHelp": "Calendar entries won’t update automatically if event details change.",
+  "@eventV1CalendarHelp": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1CalendarOpening": "Opening your calendar…",
+  "@eventV1CalendarOpening": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1CalendarFailed": "Your calendar couldn’t be opened. Please try again.",
+  "@eventV1CalendarFailed": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1MapOpening": "Opening the venue on your map…",
+  "@eventV1MapOpening": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1MapFailed": "The map couldn’t be opened. Please try again.",
+  "@eventV1MapFailed": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1ReminderPush": "An event you’re going to starts soon.",
+  "@eventV1ReminderPush": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1ChangedPush": "An event you chose has been updated.",
+  "@eventV1ChangedPush": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1CancelledPush": "An event you chose has been cancelled.",
+  "@eventV1CancelledPush": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1TimeZone": "Times shown in {zone}.",
+  "@eventV1TimeZone": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically.",
+    "placeholders": {
+      "zone": {
+        "type": "String"
+      }
+    }
+  },
+  "eventV1ImageUnavailable": "Event image unavailable",
+  "@eventV1ImageUnavailable": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically."
+  },
+  "eventV1ListChoice": "Your choice: {choice}",
+  "@eventV1ListChoice": {
+    "description": "PROPOSED — Founder copy approval required. Events V1 only; do not merge automatically.",
+    "placeholders": {
+      "choice": {
+        "type": "String"
+      }
+    }
+  }
+}

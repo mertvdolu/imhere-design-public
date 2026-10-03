@@ -12,6 +12,10 @@
 
 Paketin mevcut klasör adı `imhere-cream-complete-v2.2` bilerek korunur. İçindeki token sürümü ve güncel yüzey dili **2.3**. Klasör adını değiştirip dosyaları çoğaltmadan Code'un referanslarını koruyoruz. Önceki tema Git geçmişinde.
 
+## Events V1 — yeni geliştirme eki
+
+[Events V1 teslimi](02-SON-EKLER/imhere-events-v1.0/HANDOFF.md) · [36 durum önizlemesi](02-SON-EKLER/imhere-events-v1.0/ONIZLEME.html) · [Öneri EN/TR metinler](02-SON-EKLER/imhere-events-v1.0/COPY-REVIEW.md). Cream & Ink v2.3; yeni metinler Founder onayı bekler. Native uygulama/yayın tamamlandı sayılmaz; temel 299 durum ayrı kalır.
+
 ## Kaynak sırası
 
 Son ürün kararları → v10 sıkılaştırma + v9 iletişim kartı yerleşimleri → v2.3 yüzey kuralları → temel katalog çizimleri. Eski katalog geometrisi son yerleşim ekini geçersiz kılmaz. `01-ARSIV/` ve eski incelemeler aktif teslim değildir.

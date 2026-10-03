@@ -1,3 +1,9 @@
+# Events V1 — 2026-10-03 / sınırlı geliştirme kapsamı
+
+Son Founder brief'i ile Events V1 liste/detay, Interested/Going/Withdraw, tek seferlik takvim ve cihaz haritası kapsamı açıldı. [Tasarım eki](02-SON-EKLER/imhere-events-v1.0/HANDOFF.md); tam kaynak aynı ekin `source/FOUNDER-BRIEF.txt` dosyasında. Yeni metinler öneridir; üretim placeholder'ı bu dosyayla sessizce değişmez. Katılımcı sayısı/listesi, etkinlik sohbeti/eşleşmesi, ödeme/bilet, check-in bağı yok. Önceki Events-placeholder ifadeleri bu sınırlı geliştirme kapsamı için güncellenir; yayın izni ayrıca gerekir.
+
+---
+
 # Son görsel karar — 2026-10-01
 
 Founder, Neumorphism karşılaştırmasındaki **02 / Hafif kabartma** varyantını bütün tema için onayladı. Geçerli görsel sürüm **Cream & Ink v2.3**; [yüzey kuralları](02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md). v10 ölçüleri, siyah ana eylemler, ürün davranışı, marka varlıkları ve dört harita rengi korunur. Önceki düz yüzey kararları yalnız gölge/yüzey bakımından bu kararla güncellenir.

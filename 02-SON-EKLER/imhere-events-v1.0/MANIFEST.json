@@ -1,0 +1,110 @@
+{
+  "package": "imhere-events-v1.0",
+  "version": "1.0",
+  "themeVersion": "2.3",
+  "status": "Design handoff — proposed copy pending Founder approval",
+  "stateCount": 36,
+  "proposedCopyKeysPerLocale": 52,
+  "entries": [
+    {
+      "file": "COPY-REVIEW.md",
+      "bytes": 5414,
+      "sha256": "23512574ab1ac1720410dc4094e71669c0ef4ecb057c7cddc1869347358c8111"
+    },
+    {
+      "file": "HANDOFF.md",
+      "bytes": 2808,
+      "sha256": "55cc725baf057bd9687609ab9c245c00e55a989a613045d11c76c39562c50168"
+    },
+    {
+      "file": "ONIZLEME.html",
+      "bytes": 2943,
+      "sha256": "1ca4b56fbb03a536ae1f5424961423f94e47a631b216de4a1b83c296bea9da22"
+    },
+    {
+      "file": "README.md",
+      "bytes": 1201,
+      "sha256": "4709deb94a9a325afff22ebc66504548f7cef48b1625731bced5f1dcfd64157d"
+    },
+    {
+      "file": "SCREEN-STATE-MATRIX.md",
+      "bytes": 5065,
+      "sha256": "ceb0b45d0d1894ff44b4a880bd21a8b1b43b78ab294c17ac34edc997b28919fe"
+    },
+    {
+      "file": "SPEC.md",
+      "bytes": 16654,
+      "sha256": "42970bc5ce43948496428e0c156b5f7afd7f7036e5e71e3d00f51d4197cdcab6"
+    },
+    {
+      "file": "assets/event-art-activity.svg",
+      "bytes": 424,
+      "sha256": "0315688ed11c12c916a6e91b30a3564b4e436874f7e641b45280d7c37d18c897"
+    },
+    {
+      "file": "assets/event-art-networking.svg",
+      "bytes": 470,
+      "sha256": "8c15d682d37a649591991f13efb1b1ae2e76cd75ea79e2e5df11896dab99f497"
+    },
+    {
+      "file": "assets/event-art-social.svg",
+      "bytes": 600,
+      "sha256": "3c8eb90716d42a11254b25d4695fb4abb34325c5b392b374fae799d89ba16290"
+    },
+    {
+      "file": "catalog.js",
+      "bytes": 23605,
+      "sha256": "1daacb8eab69ef01ba1b6d24255f8fc6841cb6aefde7daf7088a408c798684b8"
+    },
+    {
+      "file": "catalog.json",
+      "bytes": 23583,
+      "sha256": "6b1f7d118894e3206e1a78c5e942ab4bfd508040200ca50c614d2aab5d14142b"
+    },
+    {
+      "file": "copy.js",
+      "bytes": 6321,
+      "sha256": "6fa5a4f731f72596d83e4aa9a8dfb81d6f4ae4c1b15c1268bfd0c477f0801978"
+    },
+    {
+      "file": "evidence/validation.json",
+      "bytes": 3923,
+      "sha256": "a6ec8465594e39c8a1273045aa8e51a49338fe518ed6cac1f1b9acc784527930"
+    },
+    {
+      "file": "evidence/verify.py",
+      "bytes": 2898,
+      "sha256": "9d4bca2bc094ec623af67731aa2ae4c7f025a04ea25a2eb4032820352e405340"
+    },
+    {
+      "file": "l10n/events-v1-proposed_en.arb",
+      "bytes": 10553,
+      "sha256": "21ffb8dc51415ff2035dc4534e365b7c1773f3219ad38ce503993b171532dba7"
+    },
+    {
+      "file": "l10n/events-v1-proposed_tr.arb",
+      "bytes": 10692,
+      "sha256": "09e1e49b3388911d01038310dc976f9d127dea3d9dc45f022c6fb86fb7dc49cb"
+    },
+    {
+      "file": "preview.js",
+      "bytes": 16290,
+      "sha256": "55aa3ccfddc18f1fc9634807e16e29f26bb82ca2fdd735e36f5fdcd10de42f43"
+    },
+    {
+      "file": "source/FOUNDER-BRIEF.txt",
+      "bytes": 5498,
+      "sha256": "7ad6a5ee665191c73baecc68b50553ba43469e4decc920fbb6026f877d54ede7"
+    },
+    {
+      "file": "style.css",
+      "bytes": 12390,
+      "sha256": "fa22adfbf3ca3386c3919ca3e5f6fc75dca65c44306741b89f526c8ce7a43fd0"
+    },
+    {
+      "file": "tokens.components.json",
+      "bytes": 2105,
+      "sha256": "e89f962c3ed2932d52a151d7a00635a90444d00a96d712955f5301b5c85b4063"
+    }
+  ]
+}

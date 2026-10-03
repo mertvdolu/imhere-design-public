@@ -1,0 +1,87 @@
+{
+  "version": "1.0",
+  "extends": "../imhere-cream-complete-v2.2/tokens/theme.tokens.json",
+  "themeVersion": "2.3",
+  "units": "logical pixels; base text before native text scaling",
+  "noGlobalOverrides": true,
+  "references": {
+    "paper": "colors.background",
+    "ink": "colors.text",
+    "secondary": "colors.textSecondary",
+    "controlBorder": "colors.inputBorder",
+    "decorativeBorder": "colors.surfaceEdge",
+    "divider": "colors.border",
+    "navigation": "colors.navigation",
+    "raised": "elevation.raised",
+    "flat": "elevation.flat",
+    "pageTitle": "compactPageTitle (compact-v10-v1.0/tokens.delta.json)",
+    "touchTarget": "48 minimum",
+    "motion": "existing H0 / quick 150ms"
+  },
+  "components": {
+    "listCard": {
+      "radius": 16,
+      "padding": 14,
+      "gap": 14,
+      "border": 1,
+      "thumbnail": {
+        "width": 72,
+        "height": 90,
+        "radius": 9,
+        "atLargeText": {
+          "width": "100%",
+          "height": 110
+        }
+      },
+      "title": {
+        "size": 18,
+        "weight": 500,
+        "lineHeight": 1.3
+      }
+    },
+    "detailHero": {
+      "aspectRatio": "16:9",
+      "radius": 16
+    },
+    "category": {
+      "interactive": false,
+      "size": 11,
+      "weight": 500,
+      "lineHeight": 1.4,
+      "letterSpacing": 0.9,
+      "icon": 14,
+      "color": "colors.textSecondary"
+    },
+    "choice": {
+      "targetMin": 48,
+      "facePaddingX": 16,
+      "facePaddingY": 8,
+      "radius": "pill",
+      "gap": 8,
+      "selected": "flat ink + check + semantic selected",
+      "unselected": "raised cream",
+      "selectedPaintOrder": "above adjacent shadows"
+    },
+    "notice": {
+      "icon": 20,
+      "gap": 12,
+      "paddingY": 14,
+      "border": 1
+    },
+    "spinner": {
+      "size": 24,
+      "stroke": 1.8,
+      "kind": "functional progress; no shimmer"
+    },
+    "divider": {
+      "color": "#D9D5CB",
+      "width": 1
+    },
+    "navigation": {
+      "normalFill": "rgba(244,241,233,0.94)",
+      "opaqueFill": "#F4F1E9",
+      "blurSigma": 16,
+      "selectedFill": "#E9E5DA"
+    }
+  }
+}

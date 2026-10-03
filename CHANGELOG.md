@@ -1,5 +1,12 @@
 # Değişiklik kaydı
 
+## 2026-10-03 — Events V1 / mobil tasarım eki v1.0
+
+- Founder onaylı sınırlı Events kapsamı için 36 liste/detay/RSVP/iptal/kilit/değişiklik/takvim/harita durumu; EN/TR, iOS/Android, 320/390/412, %100/%200 önizleme.
+- Cream & Ink v2.3 + v10 kompakt bileşenler, 48 hedef, yüksek kontrast/azaltılmış şeffaflık/hareket; katılımcı sayısı/listesi/avatarı ve check-in bağı yok.
+- 52 yeni EN/TR metin **PROPOSED**: Founder onayı olmadan canonical ARB'ye birleştirilmez; migration kaydı eklenmedi.
+- `02-SON-EKLER/imhere-events-v1.0/HANDOFF.md`, `SPEC.md`, `catalog.json`, `SCREEN-STATE-MATRIX.md`, `tokens.components.json`, önizleme ve doğrulama kaydı. 299 eski durum, uygulama/backend ve mağaza varlıkları değiştirilmedi. Üretim yayını ayrı kapı.
+
 ## 2026-10-01 — Cream & Ink v2.3 / Hafif kabartma (02)
 
 Founder'ın onayladığı hafif kabartma bütün güncel tasarım yüzeylerine uygulandı. 299 temel durum / 2.392 SVG / 598 PNG; v10 sıkı yerleşim ve v9 iletişim kartı HTML ekleri. Siyah ana eylem, kabartmalı krem ikincil yüzey, içe oturan alan; en az 48 hedef. Token 2.3; dosya yolları korunur. Logo, harita renkleri, ürün kuralları ve HARBOR uyarıları değişmez.

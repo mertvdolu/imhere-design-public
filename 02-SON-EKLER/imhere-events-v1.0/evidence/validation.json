@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-03",
+  "package": "events-v1.0",
+  "themeVersion": "2.3",
+  "browser": "Codex in-app browser / CUA",
+  "designOnly": true,
+  "nativeDeviceTested": false,
+  "productionDeployed": false,
+  "copyApproved": false,
+  "copyStatus": "PROPOSED — Founder approval required",
+  "layout": {
+    "renderCount": 144,
+    "stateCount": 36,
+    "combinations": [
+      {
+        "locale": "en",
+        "platformShell": "ios",
+        "width": 390,
+        "textPercent": 100
+      },
+      {
+        "locale": "tr",
+        "platformShell": "android",
+        "width": 412,
+        "textPercent": 100
+      },
+      {
+        "locale": "en",
+        "platformShell": "android",
+        "width": 320,
+        "textPercent": 200
+      },
+      {
+        "locale": "tr",
+        "platformShell": "ios",
+        "width": 320,
+        "textPercent": 200
+      }
+    ],
+    "horizontalOverflow": 0,
+    "undersizedTargets": 0,
+    "contentOverflow": 0,
+    "missingText": 0,
+    "navigationOrderAndCount": "4 in every state; 2 columns at 200%",
+    "logicFailures": 0,
+    "method": "State selected through visible preview controls, then read-only DOM bounds/computed styles and state assertions. Browser shell variants are not native device captures."
+  },
+  "interactionChecks": [
+    {
+      "step": "NONE to pending INTERESTED",
+      "result": "prior NONE retained, RSVP disabled while pending"
+    },
+    {
+      "step": "INTERESTED confirmed",
+      "result": "only INTERESTED selected"
+    },
+    {
+      "step": "INTERESTED to pending GOING",
+      "result": "INTERESTED retained while pending"
+    },
+    {
+      "step": "failed switch",
+      "result": "INTERESTED retained, error shown, retry available"
+    },
+    {
+      "step": "retry",
+      "result": "pending retains INTERESTED"
+    },
+    {
+      "step": "start during request",
+      "result": "INTERESTED retained and RSVP locked; calendar/map enabled"
+    },
+    {
+      "step": "withdraw pending",
+      "result": "GOING retained until confirmation"
+    },
+    {
+      "step": "withdraw confirmed",
+      "result": "NONE, neither choice selected"
+    },
+    {
+      "step": "calendar opening",
+      "result": "only calendar action busy, GOING unchanged"
+    },
+    {
+      "step": "calendar return",
+      "result": "no saved claim, GOING unchanged"
+    },
+    {
+      "step": "map opening",
+      "result": "only map action busy"
+    },
+    {
+      "step": "map failure",
+      "result": "inline error, action restored, GOING unchanged"
+    },
+    {
+      "step": "cancelled",
+      "result": "no active choice; all event actions disabled; navigation retained"
+    }
+  ],
+  "accessibilityVisualChecks": {
+    "scenes": [
+      "list-populated",
+      "detail-going",
+      "detail-save-failed",
+      "detail-locked-going",
+      "detail-cancelled-going",
+      "detail-loading"
+    ],
+    "highContrastShadowedControls": 0,
+    "reduceTransparencyFill": "rgb(244, 241, 233)",
+    "reduceTransparencyBackdropFilter": "none",
+    "reduceMotion": "decorative transitions absent; functional progress spinner retained per existing rule"
+  },
+  "browserWarningsAndErrors": [],
+  "resolvedDuringReview": [
+    "Detail fact-grid closing tag corrected; venue has normal full width.",
+    "TR offline heading wraps at 320/200 without reducing text."
+  ],
+  "remaining": [
+    "Founder approval of proposed copy",
+    "Finalized server-contract binding by Code",
+    "Real iOS/Android screenshots, safe areas, OS calendar/map return behavior",
+    "VoiceOver/TalkBack and actual focus restoration",
+    "Device high contrast/Reduce Transparency; physical-device performance",
+    "Store preparation only after native validation"
+  ],
+  "pass": true,
+  "finalSmokeChecks": [
+    "Loading indicator stroke matches 1.8 specification.",
+    "Withdraw uses the catalog state id detail-withdrawing.",
+    "Changing the scenario clears reviewer feedback."
+  ]
+}
