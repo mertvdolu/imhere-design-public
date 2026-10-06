@@ -1,0 +1,38 @@
+{
+  "delivery": "Y1-Y2 v1.0",
+  "baseCommit": "1ecd73128adba75e793e18b4ed03b9f87910cc0e",
+  "sourceDecisionDateAsSupplied": "2026-10-07",
+  "rules": "Latest Founder brief and decision package. Internal source content is not redistributed. No legal copy imported. HARBOR review remains required.",
+  "references": [
+    {
+      "path": "02-SON-EKLER/imhere-events-v1.0/style.css",
+      "purpose": "Shipped Events shell / controls",
+      "sha256": "fa22adfbf3ca3386c3919ca3e5f6fc75dca65c44306741b89f526c8ce7a43fd0"
+    },
+    {
+      "path": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+      "purpose": "v2.3 surface rules",
+      "sha256": "62ba748555ee282c35dfc409eb3511e4c476e5aa532a4199899c63e67875914f"
+    },
+    {
+      "path": "03-GUNCEL-ORTAK/tokens/theme.tokens.json",
+      "purpose": "Current shared design tokens",
+      "sha256": "9df1e466707eac1e9150b48f9405fe735ebc816c38fdcaaf501725e4a6d178bd"
+    },
+    {
+      "path": "~/Desktop/here/ops/Y1-Y2-KARAR-PAKETI.md",
+      "purpose": "Founder decision package, stars approved per Manager",
+      "sha256": "2d1ce7e5e6251eae36f3bc07e1bb7334aa63ebb65485a856c1da1ebe11327b2a"
+    },
+    {
+      "path": "~/Desktop/here/imhere/app/lib/l10n/app_en.arb",
+      "purpose": "Existing EN action labels, read only",
+      "sha256": "6b78329597be56b18e48d9ae864a043c18394d7cdaab980f5627cb6738c23fe6"
+    },
+    {
+      "path": "~/Desktop/here/imhere/app/lib/l10n/app_tr.arb",
+      "purpose": "Existing TR action labels, read only",
+      "sha256": "e3d6db1b6db66e4b5151e77b79e7b64a1068e9753c2a0adf55714ce809ddfa8e"
+    }
+  ]
+}

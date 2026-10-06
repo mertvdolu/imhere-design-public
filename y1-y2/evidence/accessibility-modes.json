@@ -1,0 +1,102 @@
+{
+  "checks": [
+    {
+      "scene": "nearby-purposes",
+      "layout": {
+        "badImages": 0,
+        "fontReady": true,
+        "headingCount": 1,
+        "height": 844,
+        "horizontalOverflow": false,
+        "locale": "tr",
+        "navCount": 1,
+        "overflowNodes": [],
+        "platform": "ios",
+        "scale": 200,
+        "scene": "nearby-purposes",
+        "scrollMax": 346,
+        "selectedRadios": 0,
+        "targetsTooSmall": [],
+        "width": 273
+      },
+      "styles": {
+        "navBackground": "rgb(244, 241, 233)",
+        "navBlur": "none",
+        "shadows": [
+          "none"
+        ]
+      }
+    },
+    {
+      "scene": "suggest-filled",
+      "layout": {
+        "badImages": 0,
+        "fontReady": true,
+        "headingCount": 1,
+        "height": 844,
+        "horizontalOverflow": false,
+        "locale": "tr",
+        "navCount": 1,
+        "overflowNodes": [],
+        "platform": "ios",
+        "scale": 200,
+        "scene": "suggest-filled",
+        "scrollMax": 2205,
+        "selectedRadios": 1,
+        "targetsTooSmall": [],
+        "width": 273
+      },
+      "styles": {
+        "navBackground": "rgb(244, 241, 233)",
+        "navBlur": "none",
+        "shadows": [
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none"
+        ]
+      }
+    },
+    {
+      "scene": "mismatch-networking",
+      "layout": {
+        "badImages": 0,
+        "fontReady": true,
+        "headingCount": 1,
+        "height": 844,
+        "horizontalOverflow": false,
+        "locale": "tr",
+        "navCount": 0,
+        "overflowNodes": [],
+        "platform": "ios",
+        "scale": 200,
+        "scene": "mismatch-networking",
+        "scrollMax": 86,
+        "selectedRadios": 0,
+        "targetsTooSmall": [],
+        "width": 273
+      },
+      "styles": {
+        "navBackground": null,
+        "navBlur": null,
+        "shadows": [
+          "none"
+        ]
+      }
+    }
+  ]
+}

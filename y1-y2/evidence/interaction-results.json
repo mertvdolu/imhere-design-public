@@ -1,0 +1,81 @@
+{
+  "checks": [
+    {
+      "test": "no_preselection",
+      "selected": 0,
+      "continueEnabled": false
+    },
+    {
+      "test": "checkin_waits",
+      "text": "9:41\n▰ ▰\nWhy are you here?\n\nChoose one purpose for this session. People nearby can see it.\n\nNetworking\nFriendship\n\nStarting your session…\n\nContinue\nCancel"
+    },
+    {
+      "test": "failure_retains_friendship",
+      "selection": "Friendship"
+    },
+    {
+      "test": "both_purposes_visible",
+      "badges": [
+        "Friendship",
+        "Networking",
+        "Friendship"
+      ]
+    },
+    {
+      "test": "warn_before_mismatch",
+      "text": "9:41\n▰ ▰\nDifferent reason\n\nThis person is here for Networking. If you send anyway, your request won't go through and you won't see each other for 10 days.\n\nSend anyway\nCancel"
+    },
+    {
+      "test": "cancel_returns_person",
+      "text": "9:41\n▰ ▰\nA\nExample A\nNetworking\nSend a hello\nProfile\nMessages\nNearby\nEvents"
+    },
+    {
+      "test": "mismatch_waits",
+      "text": "9:41\n▰ ▰\nDifferent reason\n\nThis person is here for Networking. If you send anyway, your request won't go through and you won't see each other for 10 days.\n\nSending request…\n\nSend anyway\nCancel"
+    },
+    {
+      "test": "result_after_ack",
+      "text": "9:41\n▰ ▰\nDifferent reason\n\nRequest not sent. You won't see each other for 10 days.\n\nBack to Nearby"
+    },
+    {
+      "test": "only_target_removed",
+      "people": [
+        "Example B"
+      ]
+    },
+    {
+      "test": "same_purpose_uses_existing_wait_transition",
+      "text": "9:41\n▰ ▰\nB\nExample B\nFriendship\nHello sent\n\nAwaiting a reply\n\nProfile\nMessages\nNearby\nEvents"
+    },
+    {
+      "test": "required_errors",
+      "count": 7
+    },
+    {
+      "test": "emoji_grapheme",
+      "counter": "1/80"
+    },
+    {
+      "test": "suggestion_waits",
+      "text": "Sending suggestion…"
+    },
+    {
+      "test": "form_retained_after_error",
+      "value": "Example event"
+    },
+    {
+      "test": "suggestion_ack_success",
+      "text": "9:41\n▰ ▰\nSuggestion sent.\n\nOur team reviews every suggestion. We may not publish it.\n\nMy suggestions\nProfile\nMessages\nNearby\nEvents"
+    },
+    {
+      "test": "withdraw_waits_row_remains",
+      "rows": 1,
+      "text": "Withdrawing suggestion…"
+    },
+    {
+      "test": "withdraw_after_ack",
+      "rows": 0,
+      "text": "9:41\n▰ ▰\nMy suggestions\n\nSuggestion withdrawn.\n\nNo suggestions yet\n\nYour suggestions will appear here.\n\nSuggest an event\nProfile\nMessages\nNearby\nEvents"
+    }
+  ]
+}

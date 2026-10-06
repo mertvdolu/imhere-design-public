@@ -1,5 +1,12 @@
 # Değişiklik kaydı
 
+## 2026-10-07 — Y1 / Y2 tasarım eki v1.0
+
+- `y1-y2/`: etkinlik önerisi formu, Önerilerim listesi/sınırlar/geri çekme; oturum amacı seçimi, nötr metin+ikon rozetleri, farklı amaç uyarısı ve sunucuya bağlı sonuç. 40 durum, EN/TR × %100/%200.
+- Mevcut Cream & Ink v2.3 / v10 / Events bileşenleri; yeni renk, ikon veya bileşen ailesi yok. İstek anındaki eski niyet seçimi adımı Y2 akışında kaldırılır; diğer uygunluk kapıları korunur.
+- 62 yeni öneri anahtarı: **PROPOSED — HARBOR COPY REVIEW REQUIRED**; Founder'ın EN taslakları aynen, TR ve tamamlayıcı etiketler ayrı işaretli. Canonical ARB'ye merge edilmedi.
+- PNG, HTML, SPEC, HANDOFF, katalog/matris, kaynak özeti, browser doğrulaması ve MANIFEST. Uygulama/backend/mağaza yayını kapsam dışı.
+
 ## 2026-10-06 — ERT-098 / hesap durumu bilgi ekranı v1.0
 
 - `ert-098/`: tek Cream & Ink v2.3 şablonu, DELETION_PENDING / ACCESS_DISABLED; EN/TR × %100/%200, 8 ana PNG + 8 kaydırma/tam metin kanıtı + 2 kopyalandı görüntüsü.

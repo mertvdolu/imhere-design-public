@@ -1,0 +1,282 @@
+{
+  "@@locale": "en",
+  "y1Suggest": "Suggest an event",
+  "@y1Suggest": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 entry/form. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y1ReviewHelp": "Our team reviews every suggestion. We may not publish it.",
+  "@y1ReviewHelp": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form/sent. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y1Sent": "Suggestion sent.",
+  "@y1Sent": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 sent. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y1Mine": "My suggestions",
+  "@y1Mine": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 entry/list. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y1Pending": "Pending",
+  "@y1Pending": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 pending. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y1Accepted": "Accepted",
+  "@y1Accepted": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 accepted. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y1NotAccepted": "Not accepted",
+  "@y1NotAccepted": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 not accepted. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y1Withdraw": "Withdraw",
+  "@y1Withdraw": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 pending. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y1DailyHelp": "You can send up to 3 suggestions a day.",
+  "@y1DailyHelp": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form/daily limit. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y1StartHelp": "Events can start at least 48 hours from now.",
+  "@y1StartHelp": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form/date error. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y2Why": "Why are you here?",
+  "@y2Why": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 purpose. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y2Networking": "Networking",
+  "@y2Networking": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 purpose/badge/warning. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y2Friendship": "Friendship",
+  "@y2Friendship": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 purpose/badge/warning. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y2Different": "Different reason",
+  "@y2Different": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 warning. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y2DifferentBody": "This person is here for {reason}. If you send anyway, your request won't go through and you won't see each other for 10 days.",
+  "@y2DifferentBody": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 warning. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "y2SendAnyway": "Send anyway",
+  "@y2SendAnyway": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 warning. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y2Cancel": "Cancel",
+  "@y2Cancel": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 purpose/warning. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y2NotSent": "Request not sent. You won't see each other for 10 days.",
+  "@y2NotSent": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 authoritative mismatch result. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y1Title": "Title",
+  "@y1Title": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form. DESIGNER_PROPOSED"
+  },
+  "y1Description": "Description",
+  "@y1Description": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form. DESIGNER_PROPOSED"
+  },
+  "y1Category": "Category",
+  "@y1Category": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form. DESIGNER_PROPOSED"
+  },
+  "y1CategoryNetworking": "Networking",
+  "@y1CategoryNetworking": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form/list. DESIGNER_PROPOSED"
+  },
+  "y1CategorySocial": "Social",
+  "@y1CategorySocial": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form/list. DESIGNER_PROPOSED"
+  },
+  "y1CategoryActivity": "Activity",
+  "@y1CategoryActivity": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form/list. DESIGNER_PROPOSED"
+  },
+  "y1Starts": "Starts",
+  "@y1Starts": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form/list. DESIGNER_PROPOSED"
+  },
+  "y1Ends": "Ends",
+  "@y1Ends": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form. DESIGNER_PROPOSED"
+  },
+  "y1Date": "Choose date",
+  "@y1Date": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 native picker entry. DESIGNER_PROPOSED"
+  },
+  "y1Time": "Choose time",
+  "@y1Time": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 native picker entry. DESIGNER_PROPOSED"
+  },
+  "y1Venue": "Venue name",
+  "@y1Venue": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form. DESIGNER_PROPOSED"
+  },
+  "y1Address": "Venue address",
+  "@y1Address": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form. DESIGNER_PROPOSED"
+  },
+  "y1Submit": "Send suggestion",
+  "@y1Submit": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form. DESIGNER_PROPOSED"
+  },
+  "y1Required": "Complete this field.",
+  "@y1Required": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 field error. DESIGNER_PROPOSED"
+  },
+  "y1CategoryRequired": "Choose a category.",
+  "@y1CategoryRequired": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 field error. DESIGNER_PROPOSED"
+  },
+  "y1DateRequired": "Choose a date and time.",
+  "@y1DateRequired": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 field error. DESIGNER_PROPOSED"
+  },
+  "y1EndError": "Choose an end time after the start.",
+  "@y1EndError": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 field error. DESIGNER_PROPOSED"
+  },
+  "y1TooLong": "Use no more than {max} characters.",
+  "@y1TooLong": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 field error. DESIGNER_PROPOSED",
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "y1Count": "{used}/{max}",
+  "@y1Count": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 field counter. DESIGNER_PROPOSED",
+    "placeholders": {
+      "used": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "y1CountLabel": "{used} of {max} characters",
+  "@y1CountLabel": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 counter semantics. DESIGNER_PROPOSED",
+    "placeholders": {
+      "used": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "y1Sending": "Sending suggestion…",
+  "@y1Sending": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 submitting. DESIGNER_PROPOSED"
+  },
+  "y1SendFailed": "We couldn't send your suggestion. Your details are still here.",
+  "@y1SendFailed": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 send failed. DESIGNER_PROPOSED"
+  },
+  "y1Offline": "You’re offline. Reconnect to send your suggestion.",
+  "@y1Offline": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 offline. DESIGNER_PROPOSED"
+  },
+  "y1NoSuggestions": "No suggestions yet",
+  "@y1NoSuggestions": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 empty. DESIGNER_PROPOSED"
+  },
+  "y1EmptyHelp": "Your suggestions will appear here.",
+  "@y1EmptyHelp": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 empty. DESIGNER_PROPOSED"
+  },
+  "y1DailyFull": "Daily limit reached",
+  "@y1DailyFull": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 daily limit. DESIGNER_PROPOSED"
+  },
+  "y1PendingFull": "Pending limit reached",
+  "@y1PendingFull": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 pending limit. DESIGNER_PROPOSED"
+  },
+  "y1PendingHelp": "You can have up to 3 pending suggestions at a time.",
+  "@y1PendingHelp": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 pending limit. DESIGNER_PROPOSED"
+  },
+  "y1AcceptedHelp": "Acceptance does not mean the event is published.",
+  "@y1AcceptedHelp": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 accepted. DESIGNER_PROPOSED"
+  },
+  "y1Withdrawing": "Withdrawing suggestion…",
+  "@y1Withdrawing": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 withdrawing. DESIGNER_PROPOSED"
+  },
+  "y1Withdrawn": "Suggestion withdrawn.",
+  "@y1Withdrawn": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 withdrawn. DESIGNER_PROPOSED"
+  },
+  "y1WithdrawFailed": "We couldn't withdraw your suggestion. Try again.",
+  "@y1WithdrawFailed": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 withdraw failed. DESIGNER_PROPOSED"
+  },
+  "y1Loading": "Loading suggestions…",
+  "@y1Loading": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 loading. DESIGNER_PROPOSED"
+  },
+  "y1ListFailed": "We couldn't load your suggestions.",
+  "@y1ListFailed": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 list failed. DESIGNER_PROPOSED"
+  },
+  "y1ListOffline": "You’re offline. Reconnect to see your suggestions.",
+  "@y1ListOffline": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 list offline. DESIGNER_PROPOSED"
+  },
+  "y2PurposeHelp": "Choose one purpose for this session. People nearby can see it.",
+  "@y2PurposeHelp": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 purpose. DESIGNER_PROPOSED"
+  },
+  "y2Continue": "Continue",
+  "@y2Continue": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 purpose. DESIGNER_PROPOSED"
+  },
+  "y2CheckinBusy": "Starting your session…",
+  "@y2CheckinBusy": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 existing check-in pending. DESIGNER_PROPOSED"
+  },
+  "y2CheckinFailed": "Your session couldn't start. Try again.",
+  "@y2CheckinFailed": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 check-in failed. DESIGNER_PROPOSED"
+  },
+  "y2PurposeLabel": "Here for {reason}",
+  "@y2PurposeLabel": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 badge semantics. DESIGNER_PROPOSED",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "y2Sending": "Sending request…",
+  "@y2Sending": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 normal/mismatch pending. DESIGNER_PROPOSED"
+  },
+  "y2SendFailed": "We couldn't confirm the result. Try again.",
+  "@y2SendFailed": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 mismatch failed. DESIGNER_PROPOSED"
+  },
+  "y2RequestFailed": "Your request couldn't be sent. Try again.",
+  "@y2RequestFailed": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 same-purpose failed. DESIGNER_PROPOSED"
+  },
+  "y2BackNearby": "Back to Nearby",
+  "@y2BackNearby": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 mismatch result. DESIGNER_PROPOSED"
+  }
+}

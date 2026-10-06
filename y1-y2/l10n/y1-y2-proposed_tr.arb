@@ -1,0 +1,282 @@
+{
+  "@@locale": "tr",
+  "y1Suggest": "Etkinlik öner",
+  "@y1Suggest": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 entry/form. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y1ReviewHelp": "Ekibimiz her öneriyi inceler. Önerini yayınlamayabiliriz.",
+  "@y1ReviewHelp": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form/sent. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y1Sent": "Önerin gönderildi.",
+  "@y1Sent": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 sent. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y1Mine": "Önerilerim",
+  "@y1Mine": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 entry/list. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y1Pending": "Bekliyor",
+  "@y1Pending": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 pending. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y1Accepted": "Kabul edildi",
+  "@y1Accepted": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 accepted. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y1NotAccepted": "Kabul edilmedi",
+  "@y1NotAccepted": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 not accepted. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y1Withdraw": "Geri çek",
+  "@y1Withdraw": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 pending. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y1DailyHelp": "Günde en fazla 3 öneri gönderebilirsin.",
+  "@y1DailyHelp": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form/daily limit. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y1StartHelp": "Etkinlikler en erken 48 saat sonra başlayabilir.",
+  "@y1StartHelp": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form/date error. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y2Why": "Burada olma amacın ne?",
+  "@y2Why": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 purpose. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y2Networking": "Networking",
+  "@y2Networking": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 purpose/badge/warning. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y2Friendship": "Arkadaşlık",
+  "@y2Friendship": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 purpose/badge/warning. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y2Different": "Farklı amaç",
+  "@y2Different": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 warning. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y2DifferentBody": "{reason}, bu kişinin burada olma amacı. Yine de gönderirsen isteğin iletilmez ve 10 gün birbirinizi görmezsiniz.",
+  "@y2DifferentBody": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 warning. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "y2SendAnyway": "Yine de gönder",
+  "@y2SendAnyway": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 warning. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y2Cancel": "Vazgeç",
+  "@y2Cancel": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 purpose/warning. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y2NotSent": "İstek gönderilmedi. 10 gün birbirinizi görmeyeceksiniz.",
+  "@y2NotSent": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 authoritative mismatch result. FOUNDER_DRAFT_EN_EXACT; TR_DESIGNER_PROPOSED"
+  },
+  "y1Title": "Başlık",
+  "@y1Title": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form. DESIGNER_PROPOSED"
+  },
+  "y1Description": "Açıklama",
+  "@y1Description": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form. DESIGNER_PROPOSED"
+  },
+  "y1Category": "Kategori",
+  "@y1Category": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form. DESIGNER_PROPOSED"
+  },
+  "y1CategoryNetworking": "Networking",
+  "@y1CategoryNetworking": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form/list. DESIGNER_PROPOSED"
+  },
+  "y1CategorySocial": "Sosyal",
+  "@y1CategorySocial": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form/list. DESIGNER_PROPOSED"
+  },
+  "y1CategoryActivity": "Aktivite",
+  "@y1CategoryActivity": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form/list. DESIGNER_PROPOSED"
+  },
+  "y1Starts": "Başlangıç",
+  "@y1Starts": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form/list. DESIGNER_PROPOSED"
+  },
+  "y1Ends": "Bitiş",
+  "@y1Ends": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form. DESIGNER_PROPOSED"
+  },
+  "y1Date": "Tarih seç",
+  "@y1Date": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 native picker entry. DESIGNER_PROPOSED"
+  },
+  "y1Time": "Saat seç",
+  "@y1Time": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 native picker entry. DESIGNER_PROPOSED"
+  },
+  "y1Venue": "Mekân adı",
+  "@y1Venue": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form. DESIGNER_PROPOSED"
+  },
+  "y1Address": "Mekân adresi",
+  "@y1Address": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form. DESIGNER_PROPOSED"
+  },
+  "y1Submit": "Öneriyi gönder",
+  "@y1Submit": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 form. DESIGNER_PROPOSED"
+  },
+  "y1Required": "Bu alanı doldur.",
+  "@y1Required": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 field error. DESIGNER_PROPOSED"
+  },
+  "y1CategoryRequired": "Bir kategori seç.",
+  "@y1CategoryRequired": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 field error. DESIGNER_PROPOSED"
+  },
+  "y1DateRequired": "Tarih ve saat seç.",
+  "@y1DateRequired": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 field error. DESIGNER_PROPOSED"
+  },
+  "y1EndError": "Başlangıçtan sonraki bir bitiş zamanı seç.",
+  "@y1EndError": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 field error. DESIGNER_PROPOSED"
+  },
+  "y1TooLong": "En fazla {max} karakter kullan.",
+  "@y1TooLong": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 field error. DESIGNER_PROPOSED",
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "y1Count": "{used}/{max}",
+  "@y1Count": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 field counter. DESIGNER_PROPOSED",
+    "placeholders": {
+      "used": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "y1CountLabel": "{max} karakterin {used} kadarı kullanıldı",
+  "@y1CountLabel": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 counter semantics. DESIGNER_PROPOSED",
+    "placeholders": {
+      "max": {
+        "type": "int"
+      },
+      "used": {
+        "type": "int"
+      }
+    }
+  },
+  "y1Sending": "Önerin gönderiliyor…",
+  "@y1Sending": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 submitting. DESIGNER_PROPOSED"
+  },
+  "y1SendFailed": "Önerini gönderemedik. Yazdıkların burada duruyor.",
+  "@y1SendFailed": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 send failed. DESIGNER_PROPOSED"
+  },
+  "y1Offline": "Çevrimdışısın. Önerini göndermek için yeniden bağlan.",
+  "@y1Offline": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 offline. DESIGNER_PROPOSED"
+  },
+  "y1NoSuggestions": "Henüz önerin yok",
+  "@y1NoSuggestions": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 empty. DESIGNER_PROPOSED"
+  },
+  "y1EmptyHelp": "Önerilerin burada görünecek.",
+  "@y1EmptyHelp": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 empty. DESIGNER_PROPOSED"
+  },
+  "y1DailyFull": "Günlük sınır doldu",
+  "@y1DailyFull": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 daily limit. DESIGNER_PROPOSED"
+  },
+  "y1PendingFull": "Bekleyen öneri sınırı doldu",
+  "@y1PendingFull": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 pending limit. DESIGNER_PROPOSED"
+  },
+  "y1PendingHelp": "Aynı anda en fazla 3 önerin bekliyor olabilir.",
+  "@y1PendingHelp": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 pending limit. DESIGNER_PROPOSED"
+  },
+  "y1AcceptedHelp": "Kabul edilmesi, etkinliğin yayınlandığı anlamına gelmez.",
+  "@y1AcceptedHelp": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 accepted. DESIGNER_PROPOSED"
+  },
+  "y1Withdrawing": "Önerin geri çekiliyor…",
+  "@y1Withdrawing": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 withdrawing. DESIGNER_PROPOSED"
+  },
+  "y1Withdrawn": "Önerin geri çekildi.",
+  "@y1Withdrawn": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 withdrawn. DESIGNER_PROPOSED"
+  },
+  "y1WithdrawFailed": "Önerini geri çekemedik. Tekrar dene.",
+  "@y1WithdrawFailed": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 withdraw failed. DESIGNER_PROPOSED"
+  },
+  "y1Loading": "Öneriler yükleniyor…",
+  "@y1Loading": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 loading. DESIGNER_PROPOSED"
+  },
+  "y1ListFailed": "Önerilerini yükleyemedik.",
+  "@y1ListFailed": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 list failed. DESIGNER_PROPOSED"
+  },
+  "y1ListOffline": "Çevrimdışısın. Önerilerini görmek için yeniden bağlan.",
+  "@y1ListOffline": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y1 list offline. DESIGNER_PROPOSED"
+  },
+  "y2PurposeHelp": "Bu oturum için bir amaç seç. Yakındakiler bunu görebilir.",
+  "@y2PurposeHelp": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 purpose. DESIGNER_PROPOSED"
+  },
+  "y2Continue": "Devam",
+  "@y2Continue": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 purpose. DESIGNER_PROPOSED"
+  },
+  "y2CheckinBusy": "Oturumun başlatılıyor…",
+  "@y2CheckinBusy": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 existing check-in pending. DESIGNER_PROPOSED"
+  },
+  "y2CheckinFailed": "Oturumun başlatılamadı. Tekrar dene.",
+  "@y2CheckinFailed": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 check-in failed. DESIGNER_PROPOSED"
+  },
+  "y2PurposeLabel": "Burada olma amacı: {reason}",
+  "@y2PurposeLabel": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 badge semantics. DESIGNER_PROPOSED",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "y2Sending": "İstek gönderiliyor…",
+  "@y2Sending": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 normal/mismatch pending. DESIGNER_PROPOSED"
+  },
+  "y2SendFailed": "Sonucu doğrulayamadık. Tekrar dene.",
+  "@y2SendFailed": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 mismatch failed. DESIGNER_PROPOSED"
+  },
+  "y2RequestFailed": "İsteğin gönderilemedi. Tekrar dene.",
+  "@y2RequestFailed": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 same-purpose failed. DESIGNER_PROPOSED"
+  },
+  "y2BackNearby": "Yakındakilere dön",
+  "@y2BackNearby": {
+    "description": "PROPOSED — HARBOR COPY REVIEW REQUIRED. Y2 mismatch result. DESIGNER_PROPOSED"
+  }
+}

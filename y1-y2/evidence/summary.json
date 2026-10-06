@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "scope": "browser design preview, not native QA",
+  "states": 40,
+  "locales": [
+    "en",
+    "tr"
+  ],
+  "textScales": [
+    100,
+    200
+  ],
+  "mainPNG": 160,
+  "fullContentPNG": 63,
+  "overviewPNG": 1,
+  "layoutChecks": 320,
+  "layoutMatrix": [
+    {
+      "platform": "ios",
+      "width": 390,
+      "scales": [
+        100,
+        200
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "states": 40,
+      "checks": 160
+    },
+    {
+      "platform": "ios",
+      "width": 320,
+      "scales": [
+        200
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "states": 40,
+      "checks": 80
+    },
+    {
+      "platform": "android",
+      "width": 320,
+      "scales": [
+        200
+      ],
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "states": 40,
+      "checks": 80
+    }
+  ],
+  "additionalAccessibilityConfigurations": 3,
+  "interactionObservations": 17,
+  "proposedKeysPerLocale": 62,
+  "exactFounderDraftENKeys": 18,
+  "canonicalARBChanged": false,
+  "newComponentFamily": false
+}
