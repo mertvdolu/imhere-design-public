@@ -1,5 +1,11 @@
 # Değişiklik kaydı
 
+## 2026-10-06 — ERT-098 / hesap durumu bilgi ekranı v1.0
+
+- `ert-098/`: tek Cream & Ink v2.3 şablonu, DELETION_PENDING / ACCESS_DISABLED; EN/TR × %100/%200, 8 ana PNG + 8 kaydırma/tam metin kanıtı + 2 kopyalandı görüntüsü.
+- Founder metinleri aynen; TR silme gövdesi onaylı HARBOR kaynağından. Çıkış birincil, yalnız ACCESS_DISABLED için adres kopyalama ikincil; başka gezinme yok.
+- SPEC, HANDOFF, ekran listesi, kilitli metin/kaynak dosyaları, HTML önizleme ve 32 tarayıcı yerleşimi kaydı. Ortak tema, ana ARB, Events teslimi, Flutter/backend ve yayın değişmedi.
+
 ## 2026-10-03 — Events V1 / mobil tasarım eki v1.0
 
 - Founder onaylı sınırlı Events kapsamı için 36 liste/detay/RSVP/iptal/kilit/değişiklik/takvim/harita durumu; EN/TR, iOS/Android, 320/390/412, %100/%200 önizleme.

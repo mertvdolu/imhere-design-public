@@ -1,0 +1,237 @@
+{
+  "package": "ERT-098",
+  "version": "1.0",
+  "theme": "Cream & Ink v2.3",
+  "date": "2026-10-06",
+  "excludes": [
+    "MANIFEST.json"
+  ],
+  "files": [
+    {
+      "path": "HANDOFF.md",
+      "bytes": 1911,
+      "sha256": "a1b6a6e1555724d36af37aacd2b03b4963a2a29ec8fd181a01d71b49d8349e8b"
+    },
+    {
+      "path": "ONIZLEME.html",
+      "bytes": 1878,
+      "sha256": "9c2a40c93d40f2d45facb582527b13f5edc568cb2e57d60a2a7177cfe0faa656"
+    },
+    {
+      "path": "OVERVIEW.png",
+      "bytes": 166532,
+      "sha256": "679f5c0332983e26d2fd276e31404c281a830d185acb5fc1caa4f472ebf00767",
+      "pixels": [
+        804,
+        888
+      ]
+    },
+    {
+      "path": "SCREEN-STATE-MATRIX.md",
+      "bytes": 1822,
+      "sha256": "e1d439b4a7248b4de9180dece47565726b91c23f8b8832ddbcbdd85427b619a8"
+    },
+    {
+      "path": "SPEC.md",
+      "bytes": 6314,
+      "sha256": "c124fe602a52d36900c1ba9030bc0f63074102c652b1c0e7764257e2baf23076"
+    },
+    {
+      "path": "catalog.json",
+      "bytes": 2851,
+      "sha256": "77bc958dec29addc91800418863a2dbf7e198ca3a861e5cae86edb4d3e03f6d5"
+    },
+    {
+      "path": "copy-source.json",
+      "bytes": 831,
+      "sha256": "850037e903f4b116e5878096e638551f51bdd72c94a5c773a05d9a5dd4dcc106"
+    },
+    {
+      "path": "copy.js",
+      "bytes": 1889,
+      "sha256": "ee957eed8ff766dc406080f7a389d062e54e6c6691d0e67ed26be4de6e130de6"
+    },
+    {
+      "path": "copy.locked.json",
+      "bytes": 1869,
+      "sha256": "06baea1c7b18e63adc7d915e02707ce70088b6bf40659deb687a007ee49c0626"
+    },
+    {
+      "path": "preview.js",
+      "bytes": 2789,
+      "sha256": "4b4fc2dcbddb10652d861a17ba3cf092beed540cd634a3935cedf8e0d63a4af5"
+    },
+    {
+      "path": "screens/png/access-disabled-en-100-copied.png",
+      "bytes": 118825,
+      "sha256": "585fd2139e2e6f89c1a5031641e1048bcdd4a48eb6a1e91fa049d82063b099f5",
+      "pixels": [
+        780,
+        1688
+      ]
+    },
+    {
+      "path": "screens/png/access-disabled-en-100.png",
+      "bytes": 115903,
+      "sha256": "7f7ae6387c7e3be315b624393daa3080203a8697a3f1c41bcd62cd7a18b7ae1b",
+      "pixels": [
+        780,
+        1688
+      ]
+    },
+    {
+      "path": "screens/png/access-disabled-en-200-end.png",
+      "bytes": 161894,
+      "sha256": "b48f668af4368db3c9a4fb7917220145f91a27618e5450888f9ba26a42e55d8d",
+      "pixels": [
+        780,
+        1688
+      ]
+    },
+    {
+      "path": "screens/png/access-disabled-en-200-full.png",
+      "bytes": 227818,
+      "sha256": "cf3a158ee8b2f95f52540a147c8568fda3df5021c91c470d6a05d0c49f8bf972",
+      "pixels": [
+        780,
+        2752
+      ]
+    },
+    {
+      "path": "screens/png/access-disabled-en-200.png",
+      "bytes": 141731,
+      "sha256": "a90ba494587e875eb30c4888cb6fcfce74206e1d683d8d973aa45c12161765fb",
+      "pixels": [
+        780,
+        1688
+      ]
+    },
+    {
+      "path": "screens/png/access-disabled-tr-100-copied.png",
+      "bytes": 114782,
+      "sha256": "888175a2f26ac4079e6656cdc0cf56b079d0cb950b5d2f9f15570d4ce23b7ecd",
+      "pixels": [
+        780,
+        1688
+      ]
+    },
+    {
+      "path": "screens/png/access-disabled-tr-100.png",
+      "bytes": 109344,
+      "sha256": "eb90deb1457d29425fc6ace1f06dcd3923901316746a6989d4384bf02d030254",
+      "pixels": [
+        780,
+        1688
+      ]
+    },
+    {
+      "path": "screens/png/access-disabled-tr-200-end.png",
+      "bytes": 160661,
+      "sha256": "90314997876c6eec67de669a4a338ea1cc2f2d8fc8b009fbddc119a1d921d457",
+      "pixels": [
+        780,
+        1688
+      ]
+    },
+    {
+      "path": "screens/png/access-disabled-tr-200-full.png",
+      "bytes": 214085,
+      "sha256": "e5a26907cedd7377d6e8ab396e19ac5a8c89be6b61dfac2d494756d7a5e03941",
+      "pixels": [
+        780,
+        2520
+      ]
+    },
+    {
+      "path": "screens/png/access-disabled-tr-200.png",
+      "bytes": 147262,
+      "sha256": "7f3210ef3dd23bc59f4a01bba8adf78f0b3635c204c75b123c5c9bfc71742621",
+      "pixels": [
+        780,
+        1688
+      ]
+    },
+    {
+      "path": "screens/png/deletion-pending-en-100.png",
+      "bytes": 104301,
+      "sha256": "c9ce5239b617e0df9bc26c6ed63e1672605d19ab07899b76417b4c1d9367a498",
+      "pixels": [
+        780,
+        1688
+      ]
+    },
+    {
+      "path": "screens/png/deletion-pending-en-200-end.png",
+      "bytes": 144329,
+      "sha256": "ee0062e753c3af2f19202e6a1070d148ad0e8c9816dd14937e2c6e1d34b5310e",
+      "pixels": [
+        780,
+        1688
+      ]
+    },
+    {
+      "path": "screens/png/deletion-pending-en-200-full.png",
+      "bytes": 214065,
+      "sha256": "cb698fe35fc36f9b101fb1fc601c9310415848c4efbbdaadd8f7bdf0ff80bc24",
+      "pixels": [
+        780,
+        2832
+      ]
+    },
+    {
+      "path": "screens/png/deletion-pending-en-200.png",
+      "bytes": 135293,
+      "sha256": "6eb1d5540da00db63e7c96c20fe1cd32d83e8a5b282a08010d8f2cde83ad4b94",
+      "pixels": [
+        780,
+        1688
+      ]
+    },
+    {
+      "path": "screens/png/deletion-pending-tr-100.png",
+      "bytes": 96946,
+      "sha256": "6410ac15aedfd591a5c411bbae968c0075162e76cf02f79db1289b7bb03f528f",
+      "pixels": [
+        780,
+        1688
+      ]
+    },
+    {
+      "path": "screens/png/deletion-pending-tr-200-end.png",
+      "bytes": 152174,
+      "sha256": "c629dcb7c141c02168b8c8a170c8c7cde4e3d9b64ea75de0b0fdf3a3b6464a37",
+      "pixels": [
+        780,
+        1688
+      ]
+    },
+    {
+      "path": "screens/png/deletion-pending-tr-200-full.png",
+      "bytes": 199609,
+      "sha256": "56e2d72dbb36e9a2b15e00fa2b9c7d7fff7ddae00c8cb905e014ff1b57a5a3b3",
+      "pixels": [
+        780,
+        2370
+      ]
+    },
+    {
+      "path": "screens/png/deletion-pending-tr-200.png",
+      "bytes": 139731,
+      "sha256": "7d1f23a479a96db18a3e45ef71a3464c1e598ec446d7ac03cad4531f59bb9ec8",
+      "pixels": [
+        780,
+        1688
+      ]
+    },
+    {
+      "path": "style.css",
+      "bytes": 4169,
+      "sha256": "ca3189998dbc9865654d85d9b61ea5c80c7103cbcfcb2d7145dc06c0fae521e0"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 17387,
+      "sha256": "53bba3545469f88c929e4aeacb6e023e7b769a5a5ca5d407f48627321c5789ee"
+    }
+  ]
+}

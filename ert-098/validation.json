@@ -1,0 +1,836 @@
+{
+  "date": "2026-10-06",
+  "status": "PASS",
+  "method": "CUA Chromium DOM measurements and rendered PNG capture; 2x PNG; no native execution",
+  "layoutCount": 32,
+  "rows": [
+    {
+      "state": "DELETION_PENDING",
+      "locale": "en",
+      "textScale": 100,
+      "width": 320,
+      "height": 844,
+      "safeAreaSample": "ios",
+      "scrollMax": 0,
+      "buttonSizes": [
+        [
+          86.59375,
+          48
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": false,
+      "fontLoaded": true
+    },
+    {
+      "state": "DELETION_PENDING",
+      "locale": "en",
+      "textScale": 200,
+      "width": 320,
+      "height": 844,
+      "safeAreaSample": "ios",
+      "scrollMax": 709,
+      "buttonSizes": [
+        [
+          141.1875,
+          67.1875
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": false,
+      "fontLoaded": true
+    },
+    {
+      "state": "DELETION_PENDING",
+      "locale": "tr",
+      "textScale": 100,
+      "width": 320,
+      "height": 844,
+      "safeAreaSample": "ios",
+      "scrollMax": 0,
+      "buttonSizes": [
+        [
+          91.265625,
+          48
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": false,
+      "fontLoaded": true
+    },
+    {
+      "state": "DELETION_PENDING",
+      "locale": "tr",
+      "textScale": 200,
+      "width": 320,
+      "height": 844,
+      "safeAreaSample": "ios",
+      "scrollMax": 581,
+      "buttonSizes": [
+        [
+          150.53125,
+          67.1875
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": false,
+      "fontLoaded": true
+    },
+    {
+      "state": "ACCESS_DISABLED",
+      "locale": "en",
+      "textScale": 100,
+      "width": 320,
+      "height": 844,
+      "safeAreaSample": "ios",
+      "scrollMax": 0,
+      "buttonSizes": [
+        [
+          86.59375,
+          48
+        ],
+        [
+          160.59375,
+          48
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": true,
+      "fontLoaded": true
+    },
+    {
+      "state": "ACCESS_DISABLED",
+      "locale": "en",
+      "textScale": 200,
+      "width": 320,
+      "height": 844,
+      "safeAreaSample": "ios",
+      "scrollMax": 824,
+      "buttonSizes": [
+        [
+          141.1875,
+          67.1875
+        ],
+        [
+          272,
+          106.375
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": true,
+      "fontLoaded": true
+    },
+    {
+      "state": "ACCESS_DISABLED",
+      "locale": "tr",
+      "textScale": 100,
+      "width": 320,
+      "height": 844,
+      "safeAreaSample": "ios",
+      "scrollMax": 0,
+      "buttonSizes": [
+        [
+          91.265625,
+          48
+        ],
+        [
+          148.6875,
+          48
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": true,
+      "fontLoaded": true
+    },
+    {
+      "state": "ACCESS_DISABLED",
+      "locale": "tr",
+      "textScale": 200,
+      "width": 320,
+      "height": 844,
+      "safeAreaSample": "ios",
+      "scrollMax": 604,
+      "buttonSizes": [
+        [
+          150.53125,
+          67.1875
+        ],
+        [
+          265.359375,
+          67.1875
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": true,
+      "fontLoaded": true
+    },
+    {
+      "state": "DELETION_PENDING",
+      "locale": "en",
+      "textScale": 100,
+      "width": 320,
+      "height": 844,
+      "safeAreaSample": "android",
+      "scrollMax": 0,
+      "buttonSizes": [
+        [
+          86.59375,
+          48
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": false,
+      "fontLoaded": true
+    },
+    {
+      "state": "DELETION_PENDING",
+      "locale": "en",
+      "textScale": 200,
+      "width": 320,
+      "height": 844,
+      "safeAreaSample": "android",
+      "scrollMax": 664,
+      "buttonSizes": [
+        [
+          141.1875,
+          67.1875
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": false,
+      "fontLoaded": true
+    },
+    {
+      "state": "DELETION_PENDING",
+      "locale": "tr",
+      "textScale": 100,
+      "width": 320,
+      "height": 844,
+      "safeAreaSample": "android",
+      "scrollMax": 0,
+      "buttonSizes": [
+        [
+          91.265625,
+          48
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": false,
+      "fontLoaded": true
+    },
+    {
+      "state": "DELETION_PENDING",
+      "locale": "tr",
+      "textScale": 200,
+      "width": 320,
+      "height": 844,
+      "safeAreaSample": "android",
+      "scrollMax": 536,
+      "buttonSizes": [
+        [
+          150.53125,
+          67.1875
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": false,
+      "fontLoaded": true
+    },
+    {
+      "state": "ACCESS_DISABLED",
+      "locale": "en",
+      "textScale": 100,
+      "width": 320,
+      "height": 844,
+      "safeAreaSample": "android",
+      "scrollMax": 0,
+      "buttonSizes": [
+        [
+          86.59375,
+          48
+        ],
+        [
+          160.59375,
+          48
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": true,
+      "fontLoaded": true
+    },
+    {
+      "state": "ACCESS_DISABLED",
+      "locale": "en",
+      "textScale": 200,
+      "width": 320,
+      "height": 844,
+      "safeAreaSample": "android",
+      "scrollMax": 779,
+      "buttonSizes": [
+        [
+          141.1875,
+          67.1875
+        ],
+        [
+          272,
+          106.375
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": true,
+      "fontLoaded": true
+    },
+    {
+      "state": "ACCESS_DISABLED",
+      "locale": "tr",
+      "textScale": 100,
+      "width": 320,
+      "height": 844,
+      "safeAreaSample": "android",
+      "scrollMax": 0,
+      "buttonSizes": [
+        [
+          91.265625,
+          48
+        ],
+        [
+          148.6875,
+          48
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": true,
+      "fontLoaded": true
+    },
+    {
+      "state": "ACCESS_DISABLED",
+      "locale": "tr",
+      "textScale": 200,
+      "width": 320,
+      "height": 844,
+      "safeAreaSample": "android",
+      "scrollMax": 559,
+      "buttonSizes": [
+        [
+          150.53125,
+          67.1875
+        ],
+        [
+          265.359375,
+          67.1875
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": true,
+      "fontLoaded": true
+    },
+    {
+      "state": "DELETION_PENDING",
+      "locale": "en",
+      "textScale": 100,
+      "width": 390,
+      "height": 844,
+      "safeAreaSample": "ios",
+      "scrollMax": 0,
+      "buttonSizes": [
+        [
+          86.59375,
+          48
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": false,
+      "fontLoaded": true
+    },
+    {
+      "state": "DELETION_PENDING",
+      "locale": "en",
+      "textScale": 200,
+      "width": 390,
+      "height": 844,
+      "safeAreaSample": "ios",
+      "scrollMax": 556,
+      "buttonSizes": [
+        [
+          141.1875,
+          67.1875
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": false,
+      "fontLoaded": true
+    },
+    {
+      "state": "DELETION_PENDING",
+      "locale": "tr",
+      "textScale": 100,
+      "width": 390,
+      "height": 844,
+      "safeAreaSample": "ios",
+      "scrollMax": 0,
+      "buttonSizes": [
+        [
+          91.265625,
+          48
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": false,
+      "fontLoaded": true
+    },
+    {
+      "state": "DELETION_PENDING",
+      "locale": "tr",
+      "textScale": 200,
+      "width": 390,
+      "height": 844,
+      "safeAreaSample": "ios",
+      "scrollMax": 325,
+      "buttonSizes": [
+        [
+          150.53125,
+          67.1875
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": false,
+      "fontLoaded": true
+    },
+    {
+      "state": "ACCESS_DISABLED",
+      "locale": "en",
+      "textScale": 100,
+      "width": 390,
+      "height": 844,
+      "safeAreaSample": "ios",
+      "scrollMax": 0,
+      "buttonSizes": [
+        [
+          86.59375,
+          48
+        ],
+        [
+          160.59375,
+          48
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": true,
+      "fontLoaded": true
+    },
+    {
+      "state": "ACCESS_DISABLED",
+      "locale": "en",
+      "textScale": 200,
+      "width": 390,
+      "height": 844,
+      "safeAreaSample": "ios",
+      "scrollMax": 464,
+      "buttonSizes": [
+        [
+          141.1875,
+          67.1875
+        ],
+        [
+          289.1875,
+          67.1875
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": true,
+      "fontLoaded": true
+    },
+    {
+      "state": "ACCESS_DISABLED",
+      "locale": "tr",
+      "textScale": 100,
+      "width": 390,
+      "height": 844,
+      "safeAreaSample": "ios",
+      "scrollMax": 0,
+      "buttonSizes": [
+        [
+          91.265625,
+          48
+        ],
+        [
+          148.6875,
+          48
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": true,
+      "fontLoaded": true
+    },
+    {
+      "state": "ACCESS_DISABLED",
+      "locale": "tr",
+      "textScale": 200,
+      "width": 390,
+      "height": 844,
+      "safeAreaSample": "ios",
+      "scrollMax": 400,
+      "buttonSizes": [
+        [
+          150.53125,
+          67.1875
+        ],
+        [
+          265.359375,
+          67.1875
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": true,
+      "fontLoaded": true
+    },
+    {
+      "state": "DELETION_PENDING",
+      "locale": "en",
+      "textScale": 100,
+      "width": 390,
+      "height": 844,
+      "safeAreaSample": "android",
+      "scrollMax": 0,
+      "buttonSizes": [
+        [
+          86.59375,
+          48
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": false,
+      "fontLoaded": true
+    },
+    {
+      "state": "DELETION_PENDING",
+      "locale": "en",
+      "textScale": 200,
+      "width": 390,
+      "height": 844,
+      "safeAreaSample": "android",
+      "scrollMax": 511,
+      "buttonSizes": [
+        [
+          141.1875,
+          67.1875
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": false,
+      "fontLoaded": true
+    },
+    {
+      "state": "DELETION_PENDING",
+      "locale": "tr",
+      "textScale": 100,
+      "width": 390,
+      "height": 844,
+      "safeAreaSample": "android",
+      "scrollMax": 0,
+      "buttonSizes": [
+        [
+          91.265625,
+          48
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": false,
+      "fontLoaded": true
+    },
+    {
+      "state": "DELETION_PENDING",
+      "locale": "tr",
+      "textScale": 200,
+      "width": 390,
+      "height": 844,
+      "safeAreaSample": "android",
+      "scrollMax": 280,
+      "buttonSizes": [
+        [
+          150.53125,
+          67.1875
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": false,
+      "fontLoaded": true
+    },
+    {
+      "state": "ACCESS_DISABLED",
+      "locale": "en",
+      "textScale": 100,
+      "width": 390,
+      "height": 844,
+      "safeAreaSample": "android",
+      "scrollMax": 0,
+      "buttonSizes": [
+        [
+          86.59375,
+          48
+        ],
+        [
+          160.59375,
+          48
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": true,
+      "fontLoaded": true
+    },
+    {
+      "state": "ACCESS_DISABLED",
+      "locale": "en",
+      "textScale": 200,
+      "width": 390,
+      "height": 844,
+      "safeAreaSample": "android",
+      "scrollMax": 419,
+      "buttonSizes": [
+        [
+          141.1875,
+          67.1875
+        ],
+        [
+          289.1875,
+          67.1875
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": true,
+      "fontLoaded": true
+    },
+    {
+      "state": "ACCESS_DISABLED",
+      "locale": "tr",
+      "textScale": 100,
+      "width": 390,
+      "height": 844,
+      "safeAreaSample": "android",
+      "scrollMax": 0,
+      "buttonSizes": [
+        [
+          91.265625,
+          48
+        ],
+        [
+          148.6875,
+          48
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": true,
+      "fontLoaded": true
+    },
+    {
+      "state": "ACCESS_DISABLED",
+      "locale": "tr",
+      "textScale": 200,
+      "width": 390,
+      "height": 844,
+      "safeAreaSample": "android",
+      "scrollMax": 355,
+      "buttonSizes": [
+        [
+          150.53125,
+          67.1875
+        ],
+        [
+          265.359375,
+          67.1875
+        ]
+      ],
+      "horizontalOverflow": false,
+      "buttonsInside": true,
+      "headings": 1,
+      "links": 0,
+      "copyExact": true,
+      "emailSelectable": true,
+      "fontLoaded": true
+    }
+  ],
+  "scrollEndChecks": [
+    {
+      "state": "DELETION_PENDING",
+      "locale": "en",
+      "scrollTop": 556,
+      "scrollMax": 556,
+      "pass_": true
+    },
+    {
+      "state": "DELETION_PENDING",
+      "locale": "tr",
+      "scrollTop": 325,
+      "scrollMax": 325,
+      "pass_": true
+    },
+    {
+      "state": "ACCESS_DISABLED",
+      "locale": "en",
+      "scrollTop": 464,
+      "scrollMax": 464,
+      "pass_": true
+    },
+    {
+      "state": "ACCESS_DISABLED",
+      "locale": "tr",
+      "scrollTop": 400,
+      "scrollMax": 400,
+      "pass_": true
+    }
+  ],
+  "clipboardChecks": [
+    {
+      "locale": "en",
+      "feedback": "Copied",
+      "clipboardMatches": true,
+      "verifiedAt": "320 dp / 200% / high contrast"
+    },
+    {
+      "locale": "tr",
+      "feedback": "Adres kopyalandı.",
+      "clipboardMatches": true,
+      "verifiedAt": "390 dp / 100%"
+    }
+  ],
+  "clipboardObservationNote": "Initial EN clipboard read returned a stale mismatch while the success row was visible. A subsequent EN copy followed by an accessibility snapshot and read matched the exact address; TR also matched. No claim of native clipboard verification.",
+  "highContrast": {
+    "width": 320,
+    "textScale": 200,
+    "locale": "en",
+    "paintShadows": [
+      "none",
+      "none"
+    ],
+    "horizontalOverflow": false,
+    "buttonsInside": true,
+    "feedbackVisible": true
+  },
+  "nativeTested": false,
+  "screenReaderDeviceTested": false,
+  "arbMerged": false
+}

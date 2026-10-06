@@ -1,0 +1,90 @@
+[
+  {
+    "id": "deletion-pending-en-100",
+    "state": "DELETION_PENDING",
+    "locale": "en",
+    "textScale": 100,
+    "template": "account-status",
+    "png": "screens/png/deletion-pending-en-100.png",
+    "scrollEndPng": null,
+    "fullTextPng": null,
+    "copySource": "copy.locked.json#DELETION_PENDING.en"
+  },
+  {
+    "id": "deletion-pending-en-200",
+    "state": "DELETION_PENDING",
+    "locale": "en",
+    "textScale": 200,
+    "template": "account-status",
+    "png": "screens/png/deletion-pending-en-200.png",
+    "scrollEndPng": "screens/png/deletion-pending-en-200-end.png",
+    "fullTextPng": "screens/png/deletion-pending-en-200-full.png",
+    "copySource": "copy.locked.json#DELETION_PENDING.en"
+  },
+  {
+    "id": "deletion-pending-tr-100",
+    "state": "DELETION_PENDING",
+    "locale": "tr",
+    "textScale": 100,
+    "template": "account-status",
+    "png": "screens/png/deletion-pending-tr-100.png",
+    "scrollEndPng": null,
+    "fullTextPng": null,
+    "copySource": "copy.locked.json#DELETION_PENDING.tr"
+  },
+  {
+    "id": "deletion-pending-tr-200",
+    "state": "DELETION_PENDING",
+    "locale": "tr",
+    "textScale": 200,
+    "template": "account-status",
+    "png": "screens/png/deletion-pending-tr-200.png",
+    "scrollEndPng": "screens/png/deletion-pending-tr-200-end.png",
+    "fullTextPng": "screens/png/deletion-pending-tr-200-full.png",
+    "copySource": "copy.locked.json#DELETION_PENDING.tr"
+  },
+  {
+    "id": "access-disabled-en-100",
+    "state": "ACCESS_DISABLED",
+    "locale": "en",
+    "textScale": 100,
+    "template": "account-status",
+    "png": "screens/png/access-disabled-en-100.png",
+    "scrollEndPng": null,
+    "fullTextPng": null,
+    "copySource": "copy.locked.json#ACCESS_DISABLED.en"
+  },
+  {
+    "id": "access-disabled-en-200",
+    "state": "ACCESS_DISABLED",
+    "locale": "en",
+    "textScale": 200,
+    "template": "account-status",
+    "png": "screens/png/access-disabled-en-200.png",
+    "scrollEndPng": "screens/png/access-disabled-en-200-end.png",
+    "fullTextPng": "screens/png/access-disabled-en-200-full.png",
+    "copySource": "copy.locked.json#ACCESS_DISABLED.en"
+  },
+  {
+    "id": "access-disabled-tr-100",
+    "state": "ACCESS_DISABLED",
+    "locale": "tr",
+    "textScale": 100,
+    "template": "account-status",
+    "png": "screens/png/access-disabled-tr-100.png",
+    "scrollEndPng": null,
+    "fullTextPng": null,
+    "copySource": "copy.locked.json#ACCESS_DISABLED.tr"
+  },
+  {
+    "id": "access-disabled-tr-200",
+    "state": "ACCESS_DISABLED",
+    "locale": "tr",
+    "textScale": 200,
+    "template": "account-status",
+    "png": "screens/png/access-disabled-tr-200.png",
+    "scrollEndPng": "screens/png/access-disabled-tr-200-end.png",
+    "fullTextPng": "screens/png/access-disabled-tr-200-full.png",
+    "copySource": "copy.locked.json#ACCESS_DISABLED.tr"
+  }
+]

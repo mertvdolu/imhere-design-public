@@ -1,0 +1,14 @@
+{
+  "themeVersion": "2.3",
+  "date": "2026-10-06",
+  "status": "LOCKED — exact Founder brief; no wording proposal",
+  "enBodiesSource": "Founder ERT-098 brief, 6 October 2026",
+  "deletionPendingTrBodySource": "harbor/events-gizlilik-ve-silme-taslak.md §2 + §5.3 (Founder ONAY)",
+  "deletionPendingTrBodySha256": "0104fff35821b7c641f1fed3a1a2181e9f4653ce15dcd3043dd2b5b6882996fb",
+  "trCopiedSource": "app/lib/l10n/app_tr.arb supportEmailCopied (existing approved feedback)",
+  "enCopiedSource": "Founder brief exact short Copied; existing app Address copied. is not substituted",
+  "supportPatternSource": "app/lib/screens/settings_screens.dart SupportContactScreen/_kopyala/ImHereNoticeRow",
+  "codeSourceRevision": "ed5afdb0373e39c8f0f726a96f02317071ee00df",
+  "supportAddress": "info@useimhere.com",
+  "arbMerged": false
+}
