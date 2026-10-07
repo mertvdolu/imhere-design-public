@@ -1,0 +1,19 @@
+{
+  "result": "PASS",
+  "states": 35,
+  "mainPNG": 140,
+  "fullContentPNG": 92,
+  "overviewPNG": 1,
+  "browserLayouts": 280,
+  "additionalAccessibilityModes": 3,
+  "interactionObservations": 17,
+  "newProposedKeysPerLocale": 34,
+  "briefENExact": 16,
+  "existingKeysReferencedNotDuplicated": 27,
+  "horizontalOverflow": 0,
+  "targetsBelow48": 0,
+  "overflowTextNodes": 0,
+  "duplicateIds": 0,
+  "scope": "Browser visual prototype only; no native/device/backend/production validation",
+  "copyStatus": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+}

@@ -12,6 +12,10 @@
 
 Paketin mevcut klasör adı `imhere-cream-complete-v2.2` bilerek korunur. İçindeki token sürümü ve güncel yüzey dili **2.3**. Klasör adını değiştirip dosyaları çoğaltmadan Code'un referanslarını koruyoruz. Önceki tema Git geçmişinde.
 
+## PROFIL-AL — varsayılan amaç + LinkedIn
+
+[Teslim](profil-al/HANDOFF.md) · [35 durum önizlemesi](profil-al/ONIZLEME.html) · [PNG listesi](profil-al/SCREEN-STATE-MATRIX.md) · [Metin incelemesi](profil-al/COPY-REVIEW.md). Kaydırıcı/yüzdeler yerine özel varsayılan amaç; LinkedIn yalnız izin verilen iki kişi görünümünde. Metinler HARBOR + Founder onayı bekler. Y2’nin “önseçim yok” kuralı artık ayarsız/okunamayan varsayılan için geçerlidir.
+
 ## Y1 / Y2 — etkinlik önerisi + oturum amacı
 
 [Teslim](y1-y2/HANDOFF.md) · [40 durum önizlemesi](y1-y2/ONIZLEME.html) · [PNG listesi](y1-y2/SCREEN-STATE-MATRIX.md) · [Taslak metinler](y1-y2/COPY-REVIEW.md). Cream & Ink v2.3; metinler HARBOR onayı bekler. Mevcut ürünün canlıya alınması veya Events sekmesinin yayın onayı değildir.

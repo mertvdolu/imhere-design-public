@@ -1,0 +1,515 @@
+{
+  "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED",
+  "entries": [
+    {
+      "key": "profileLinkedinHelp",
+      "en": "Optional. While you’re checked in, people nearby can see and open this link if they open your profile. Anyone you send a request to can also see and open it while your request is waiting. It isn’t shown in Connections or chats, though people may have seen it earlier.",
+      "tr": "İsteğe bağlı. Check-in yapmışken yakınındakiler profilini açarsa bu bağlantıyı görebilir ve açabilir. İstek gönderdiğin kişi de isteğin yanıt beklerken onu görebilir ve açabilir. Bağlantılar’da ve sohbetlerde görünmez; ama kişiler onu daha önce görmüş olabilir.",
+      "screen": "LinkedIn form/confirmation P1",
+      "origin": "HARBOR_V2_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profileLinkedinOutsideAppNote",
+      "en": "Your LinkedIn page may show your full name and where you work. Details you hide in the app may also be visible on your LinkedIn page. Blocking someone in the app doesn’t block them on LinkedIn.",
+      "tr": "LinkedIn sayfan tam adını ve çalıştığın yeri gösterebilir. Uygulamada gizlediğin bilgiler de LinkedIn sayfanda görünebilir. Uygulamadaki engelleme LinkedIn’e uzanmaz.",
+      "screen": "LinkedIn form/confirmation P2",
+      "origin": "HARBOR_V2_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profileLinkedinNoCheck",
+      "en": "We don’t read your LinkedIn page or check whose profile it is. Only add your own profile. If your LinkedIn address changes, update it here too. You can remove it at any time.",
+      "tr": "LinkedIn sayfanı okumuyoruz ve profilin kime ait olduğunu kontrol etmiyoruz. Yalnız kendi profilini ekle. LinkedIn adresin değişirse burada da güncelle. İstediğin zaman kaldırabilirsin.",
+      "screen": "LinkedIn form/confirmation P3",
+      "origin": "HARBOR_V2_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profileLinkedinLinkLabel",
+      "en": "LinkedIn profile",
+      "tr": "LinkedIn profili",
+      "screen": "Other profile link semantics",
+      "origin": "HARBOR_V2_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profileLinkedinLinkHint",
+      "en": "Opens in the LinkedIn app or your browser.",
+      "tr": "LinkedIn uygulamasında ya da tarayıcında açılır.",
+      "screen": "External action semantics",
+      "origin": "HARBOR_V2_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "linkOpenFailed",
+      "en": "The link couldn’t be opened. Try again.",
+      "tr": "Bağlantı açılamadı. Tekrar dene.",
+      "screen": "External open failure",
+      "origin": "HARBOR_V2_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profileLinkedinRemoveConfirm",
+      "en": "Remove your LinkedIn link?",
+      "tr": "LinkedIn bağlantın kaldırılsın mı?",
+      "screen": "Removal confirmation",
+      "origin": "HARBOR_V2_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profileLinkedinRemoveBody",
+      "en": "It will no longer appear on your profile.",
+      "tr": "Artık profilinde görünmez.",
+      "screen": "Removal confirmation",
+      "origin": "HARBOR_V2_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profileLinkedinRemoved",
+      "en": "Your LinkedIn link has been removed.",
+      "tr": "LinkedIn bağlantın kaldırıldı.",
+      "screen": "Server-confirmed removal",
+      "origin": "HARBOR_V2_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profileLinkedinSave",
+      "en": "Save link",
+      "tr": "Bağlantıyı kaydet",
+      "screen": "LinkedIn form",
+      "origin": "HARBOR_V2_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profileLinkedinSaved",
+      "en": "Your LinkedIn link has been saved.",
+      "tr": "LinkedIn bağlantın kaydedildi.",
+      "screen": "Server-confirmed save",
+      "origin": "HARBOR_V2_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profileLinkedinSaveFailed",
+      "en": "Your link couldn’t be saved. Try again.",
+      "tr": "Bağlantın kaydedilemedi. Tekrar dene.",
+      "screen": "Save failure",
+      "origin": "HARBOR_V2_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profilePurposeTitle",
+      "en": "Your default purpose",
+      "tr": "Varsayılan amacın",
+      "screen": "Default purpose form",
+      "origin": "FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profilePurposeHelp",
+      "en": "Optional. When you tap I'm here, this purpose is already selected, and you can change it each time. Others don't see this setting.",
+      "tr": "İsteğe bağlı. Buradayım’a dokunduğunda bu amaç seçili gelir; istersen her seferinde değiştirebilirsin. Başkaları bu ayarı görmez.",
+      "screen": "Default purpose form",
+      "origin": "FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profilePurposeActiveNote",
+      "en": "Your current session keeps its purpose. The change applies from your next session.",
+      "tr": "Şu anki oturumunun amacı değişmez. Değişiklik bir sonraki oturumundan itibaren geçerli olur.",
+      "screen": "Default purpose active session",
+      "origin": "FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "y2PurposeDefaultNote",
+      "en": "Your default purpose is selected. You can change it for this session.",
+      "tr": "Varsayılan amacın seçili. Bu oturum için değiştirebilirsin.",
+      "screen": "Check-in preselected",
+      "origin": "FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profileLinkedin",
+      "en": "LinkedIn",
+      "tr": "LinkedIn",
+      "screen": "Settings / allowed profile surfaces",
+      "origin": "FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profileLinkedinFieldLabel",
+      "en": "Your LinkedIn profile link",
+      "tr": "LinkedIn profil bağlantın",
+      "screen": "LinkedIn form",
+      "origin": "FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profileLinkedinHint",
+      "en": "linkedin.com/in/…",
+      "tr": "linkedin.com/in/…",
+      "screen": "Placeholder only",
+      "origin": "FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profileLinkedinInvalid",
+      "en": "Check the link. It should look like linkedin.com/in/…",
+      "tr": "Bağlantıyı kontrol et. linkedin.com/in/… biçiminde olmalı.",
+      "screen": "LinkedIn invalid",
+      "origin": "FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profileLinkedinOpenCheck",
+      "en": "Open and check",
+      "tr": "Aç ve kontrol et",
+      "screen": "LinkedIn form",
+      "origin": "FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profileLinkedinCheckRequired",
+      "en": "Before saving, open the link and confirm it's your profile.",
+      "tr": "Kaydetmeden önce bağlantıyı aç ve senin profilin olduğunu onayla.",
+      "screen": "LinkedIn save disabled",
+      "origin": "FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profileLinkedinConfirmTitle",
+      "en": "Is this your LinkedIn profile?",
+      "tr": "Bu senin LinkedIn profilin mi?",
+      "screen": "Return confirmation",
+      "origin": "FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profileLinkedinConfirmYes",
+      "en": "Yes, it's mine",
+      "tr": "Evet, benim",
+      "screen": "Return confirmation",
+      "origin": "FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profileLinkedinConfirmNo",
+      "en": "No",
+      "tr": "Hayır",
+      "screen": "Return confirmation",
+      "origin": "FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profileLinkedinRemove",
+      "en": "Remove link",
+      "tr": "Bağlantıyı kaldır",
+      "screen": "Saved / removal confirmation",
+      "origin": "FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profileLinkedinViewerNote",
+      "en": "If your LinkedIn settings allow it, this person may see on LinkedIn that you viewed their profile.",
+      "tr": "LinkedIn ayarların izin veriyorsa bu kişi, profiline baktığını LinkedIn’de görebilir.",
+      "screen": "Nearby/incoming profile below link",
+      "origin": "FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profileLinkedinPausedNote",
+      "en": "LinkedIn links aren't shown to others at the moment.",
+      "tr": "LinkedIn bağlantıları şu an başkalarına gösterilmiyor.",
+      "screen": "Owner form/confirmation while paused",
+      "origin": "FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "y2PurposeChangedNote",
+      "en": "This choice applies only to this session. Your default stays the same.",
+      "tr": "Bu seçim yalnız bu oturum için geçerli. Varsayılan amacın aynı kalır.",
+      "screen": "Check-in changed from default",
+      "origin": "DESIGNER_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profileLinkedinOpening",
+      "en": "Opening link…",
+      "tr": "Bağlantı açılıyor…",
+      "screen": "Opening",
+      "origin": "DESIGNER_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profileLinkedinSaving",
+      "en": "Saving link…",
+      "tr": "Bağlantı kaydediliyor…",
+      "screen": "Saving",
+      "origin": "DESIGNER_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profileLinkedinRemoving",
+      "en": "Removing link…",
+      "tr": "Bağlantı kaldırılıyor…",
+      "screen": "Removing",
+      "origin": "DESIGNER_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profileLinkedinRemoveFailed",
+      "en": "Your link couldn’t be removed. Try again.",
+      "tr": "Bağlantın kaldırılamadı. Tekrar dene.",
+      "screen": "Removal failure",
+      "origin": "DESIGNER_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "key": "profileLinkedinPausedResumeNote",
+      "en": "If you keep your link saved, it will become visible when this changes.",
+      "tr": "Bağlantını kayıtlı tutarsan bu durum değişince görünür olur.",
+      "screen": "Paused note continuation; wording separated to preserve brief",
+      "origin": "DESIGNER_PROPOSED",
+      "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    }
+  ],
+  "existingReferences": {
+    "cancel": {
+      "en": "Cancel",
+      "tr": "Vazgeç"
+    },
+    "contactSeenNote": {
+      "en": "Details already seen or saved can’t be recalled.",
+      "tr": "Daha önce görülmüş veya kaydedilmiş bilgiler geri alınamaz."
+    },
+    "offline": {
+      "en": "You’re offline.",
+      "tr": "İnternet bağlantısı yok."
+    },
+    "profileEdit": {
+      "en": "Edit my profile",
+      "tr": "Profilimi düzenle"
+    },
+    "profileSave": {
+      "en": "Save my profile",
+      "tr": "Profilimi kaydet"
+    },
+    "profileSaving": {
+      "en": "Saving your profile…",
+      "tr": "Profilin kaydediliyor…"
+    },
+    "profileSaved": {
+      "en": "Profile saved",
+      "tr": "Profil kaydedildi."
+    },
+    "profileSaveFailed": {
+      "en": "Your profile couldn’t be saved. Check your details and try again.",
+      "tr": "Profil kaydedilemedi. Bilgilerini kontrol edip tekrar deneyebilirsin."
+    },
+    "profileHiddenToOthers": {
+      "en": "Not visible to others",
+      "tr": "Başkalarına görünmez"
+    },
+    "requestAccept": {
+      "en": "I’d like to connect",
+      "tr": "Tanışmak isterim"
+    },
+    "requestDecline": {
+      "en": "Not this time",
+      "tr": "Bu kez değil"
+    },
+    "requestIncoming": {
+      "en": "Would like to connect.",
+      "tr": "Tanışmak istiyor."
+    },
+    "profileIntentBalanceNotSet": {
+      "en": "Not set",
+      "tr": "Ayarlanmadı"
+    },
+    "y2Networking": {
+      "en": "Networking",
+      "tr": "Networking"
+    },
+    "y2Friendship": {
+      "en": "Friendship",
+      "tr": "Arkadaşlık"
+    },
+    "y2Why": {
+      "en": "Why are you here?",
+      "tr": "Burada olma amacın ne?"
+    },
+    "y2PurposeHelp": {
+      "en": "Choose one purpose for this session. People nearby can see it.",
+      "tr": "Bu oturum için bir amaç seç. Yakındakiler bunu görebilir."
+    },
+    "y2Continue": {
+      "en": "Continue",
+      "tr": "Devam"
+    },
+    "y2Cancel": {
+      "en": "Cancel",
+      "tr": "Vazgeç"
+    },
+    "navProfile": {
+      "en": "Profile",
+      "tr": "Profil"
+    },
+    "navMessages": {
+      "en": "Messages",
+      "tr": "Mesajlar"
+    },
+    "navNearby": {
+      "en": "Nearby",
+      "tr": "Yakındakiler"
+    },
+    "navEvents": {
+      "en": "Events",
+      "tr": "Etkinlikler"
+    },
+    "back": {
+      "en": "Back",
+      "tr": "Geri"
+    },
+    "retry": {
+      "en": "Try again",
+      "tr": "Tekrar dene"
+    },
+    "here": {
+      "en": "I’m here",
+      "tr": "Buradayım"
+    },
+    "hello": {
+      "en": "Send a hello",
+      "tr": "Bir merhaba gönder"
+    }
+  },
+  "locales": {
+    "en": {
+      "profileLinkedinHelp": "Optional. While you’re checked in, people nearby can see and open this link if they open your profile. Anyone you send a request to can also see and open it while your request is waiting. It isn’t shown in Connections or chats, though people may have seen it earlier.",
+      "profileLinkedinOutsideAppNote": "Your LinkedIn page may show your full name and where you work. Details you hide in the app may also be visible on your LinkedIn page. Blocking someone in the app doesn’t block them on LinkedIn.",
+      "profileLinkedinNoCheck": "We don’t read your LinkedIn page or check whose profile it is. Only add your own profile. If your LinkedIn address changes, update it here too. You can remove it at any time.",
+      "profileLinkedinLinkLabel": "LinkedIn profile",
+      "profileLinkedinLinkHint": "Opens in the LinkedIn app or your browser.",
+      "linkOpenFailed": "The link couldn’t be opened. Try again.",
+      "profileLinkedinRemoveConfirm": "Remove your LinkedIn link?",
+      "profileLinkedinRemoveBody": "It will no longer appear on your profile.",
+      "profileLinkedinRemoved": "Your LinkedIn link has been removed.",
+      "profileLinkedinSave": "Save link",
+      "profileLinkedinSaved": "Your LinkedIn link has been saved.",
+      "profileLinkedinSaveFailed": "Your link couldn’t be saved. Try again.",
+      "profilePurposeTitle": "Your default purpose",
+      "profilePurposeHelp": "Optional. When you tap I'm here, this purpose is already selected, and you can change it each time. Others don't see this setting.",
+      "profilePurposeActiveNote": "Your current session keeps its purpose. The change applies from your next session.",
+      "y2PurposeDefaultNote": "Your default purpose is selected. You can change it for this session.",
+      "profileLinkedin": "LinkedIn",
+      "profileLinkedinFieldLabel": "Your LinkedIn profile link",
+      "profileLinkedinHint": "linkedin.com/in/…",
+      "profileLinkedinInvalid": "Check the link. It should look like linkedin.com/in/…",
+      "profileLinkedinOpenCheck": "Open and check",
+      "profileLinkedinCheckRequired": "Before saving, open the link and confirm it's your profile.",
+      "profileLinkedinConfirmTitle": "Is this your LinkedIn profile?",
+      "profileLinkedinConfirmYes": "Yes, it's mine",
+      "profileLinkedinConfirmNo": "No",
+      "profileLinkedinRemove": "Remove link",
+      "profileLinkedinViewerNote": "If your LinkedIn settings allow it, this person may see on LinkedIn that you viewed their profile.",
+      "profileLinkedinPausedNote": "LinkedIn links aren't shown to others at the moment.",
+      "y2PurposeChangedNote": "This choice applies only to this session. Your default stays the same.",
+      "profileLinkedinOpening": "Opening link…",
+      "profileLinkedinSaving": "Saving link…",
+      "profileLinkedinRemoving": "Removing link…",
+      "profileLinkedinRemoveFailed": "Your link couldn’t be removed. Try again.",
+      "profileLinkedinPausedResumeNote": "If you keep your link saved, it will become visible when this changes.",
+      "cancel": "Cancel",
+      "contactSeenNote": "Details already seen or saved can’t be recalled.",
+      "offline": "You’re offline.",
+      "profileEdit": "Edit my profile",
+      "profileSave": "Save my profile",
+      "profileSaving": "Saving your profile…",
+      "profileSaved": "Profile saved",
+      "profileSaveFailed": "Your profile couldn’t be saved. Check your details and try again.",
+      "profileHiddenToOthers": "Not visible to others",
+      "requestAccept": "I’d like to connect",
+      "requestDecline": "Not this time",
+      "requestIncoming": "Would like to connect.",
+      "profileIntentBalanceNotSet": "Not set",
+      "y2Networking": "Networking",
+      "y2Friendship": "Friendship",
+      "y2Why": "Why are you here?",
+      "y2PurposeHelp": "Choose one purpose for this session. People nearby can see it.",
+      "y2Continue": "Continue",
+      "y2Cancel": "Cancel",
+      "navProfile": "Profile",
+      "navMessages": "Messages",
+      "navNearby": "Nearby",
+      "navEvents": "Events",
+      "back": "Back",
+      "retry": "Try again",
+      "here": "I’m here",
+      "hello": "Send a hello"
+    },
+    "tr": {
+      "profileLinkedinHelp": "İsteğe bağlı. Check-in yapmışken yakınındakiler profilini açarsa bu bağlantıyı görebilir ve açabilir. İstek gönderdiğin kişi de isteğin yanıt beklerken onu görebilir ve açabilir. Bağlantılar’da ve sohbetlerde görünmez; ama kişiler onu daha önce görmüş olabilir.",
+      "profileLinkedinOutsideAppNote": "LinkedIn sayfan tam adını ve çalıştığın yeri gösterebilir. Uygulamada gizlediğin bilgiler de LinkedIn sayfanda görünebilir. Uygulamadaki engelleme LinkedIn’e uzanmaz.",
+      "profileLinkedinNoCheck": "LinkedIn sayfanı okumuyoruz ve profilin kime ait olduğunu kontrol etmiyoruz. Yalnız kendi profilini ekle. LinkedIn adresin değişirse burada da güncelle. İstediğin zaman kaldırabilirsin.",
+      "profileLinkedinLinkLabel": "LinkedIn profili",
+      "profileLinkedinLinkHint": "LinkedIn uygulamasında ya da tarayıcında açılır.",
+      "linkOpenFailed": "Bağlantı açılamadı. Tekrar dene.",
+      "profileLinkedinRemoveConfirm": "LinkedIn bağlantın kaldırılsın mı?",
+      "profileLinkedinRemoveBody": "Artık profilinde görünmez.",
+      "profileLinkedinRemoved": "LinkedIn bağlantın kaldırıldı.",
+      "profileLinkedinSave": "Bağlantıyı kaydet",
+      "profileLinkedinSaved": "LinkedIn bağlantın kaydedildi.",
+      "profileLinkedinSaveFailed": "Bağlantın kaydedilemedi. Tekrar dene.",
+      "profilePurposeTitle": "Varsayılan amacın",
+      "profilePurposeHelp": "İsteğe bağlı. Buradayım’a dokunduğunda bu amaç seçili gelir; istersen her seferinde değiştirebilirsin. Başkaları bu ayarı görmez.",
+      "profilePurposeActiveNote": "Şu anki oturumunun amacı değişmez. Değişiklik bir sonraki oturumundan itibaren geçerli olur.",
+      "y2PurposeDefaultNote": "Varsayılan amacın seçili. Bu oturum için değiştirebilirsin.",
+      "profileLinkedin": "LinkedIn",
+      "profileLinkedinFieldLabel": "LinkedIn profil bağlantın",
+      "profileLinkedinHint": "linkedin.com/in/…",
+      "profileLinkedinInvalid": "Bağlantıyı kontrol et. linkedin.com/in/… biçiminde olmalı.",
+      "profileLinkedinOpenCheck": "Aç ve kontrol et",
+      "profileLinkedinCheckRequired": "Kaydetmeden önce bağlantıyı aç ve senin profilin olduğunu onayla.",
+      "profileLinkedinConfirmTitle": "Bu senin LinkedIn profilin mi?",
+      "profileLinkedinConfirmYes": "Evet, benim",
+      "profileLinkedinConfirmNo": "Hayır",
+      "profileLinkedinRemove": "Bağlantıyı kaldır",
+      "profileLinkedinViewerNote": "LinkedIn ayarların izin veriyorsa bu kişi, profiline baktığını LinkedIn’de görebilir.",
+      "profileLinkedinPausedNote": "LinkedIn bağlantıları şu an başkalarına gösterilmiyor.",
+      "y2PurposeChangedNote": "Bu seçim yalnız bu oturum için geçerli. Varsayılan amacın aynı kalır.",
+      "profileLinkedinOpening": "Bağlantı açılıyor…",
+      "profileLinkedinSaving": "Bağlantı kaydediliyor…",
+      "profileLinkedinRemoving": "Bağlantı kaldırılıyor…",
+      "profileLinkedinRemoveFailed": "Bağlantın kaldırılamadı. Tekrar dene.",
+      "profileLinkedinPausedResumeNote": "Bağlantını kayıtlı tutarsan bu durum değişince görünür olur.",
+      "cancel": "Vazgeç",
+      "contactSeenNote": "Daha önce görülmüş veya kaydedilmiş bilgiler geri alınamaz.",
+      "offline": "İnternet bağlantısı yok.",
+      "profileEdit": "Profilimi düzenle",
+      "profileSave": "Profilimi kaydet",
+      "profileSaving": "Profilin kaydediliyor…",
+      "profileSaved": "Profil kaydedildi.",
+      "profileSaveFailed": "Profil kaydedilemedi. Bilgilerini kontrol edip tekrar deneyebilirsin.",
+      "profileHiddenToOthers": "Başkalarına görünmez",
+      "requestAccept": "Tanışmak isterim",
+      "requestDecline": "Bu kez değil",
+      "requestIncoming": "Tanışmak istiyor.",
+      "profileIntentBalanceNotSet": "Ayarlanmadı",
+      "y2Networking": "Networking",
+      "y2Friendship": "Arkadaşlık",
+      "y2Why": "Burada olma amacın ne?",
+      "y2PurposeHelp": "Bu oturum için bir amaç seç. Yakındakiler bunu görebilir.",
+      "y2Continue": "Devam",
+      "y2Cancel": "Vazgeç",
+      "navProfile": "Profil",
+      "navMessages": "Mesajlar",
+      "navNearby": "Yakındakiler",
+      "navEvents": "Etkinlikler",
+      "back": "Geri",
+      "retry": "Tekrar dene",
+      "here": "Buradayım",
+      "hello": "Bir merhaba gönder"
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "@@locale": "tr",
+  "profileLinkedinHelp": "İsteğe bağlı. Check-in yapmışken yakınındakiler profilini açarsa bu bağlantıyı görebilir ve açabilir. İstek gönderdiğin kişi de isteğin yanıt beklerken onu görebilir ve açabilir. Bağlantılar’da ve sohbetlerde görünmez; ama kişiler onu daha önce görmüş olabilir.",
+  "@profileLinkedinHelp": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; HARBOR_V2_PROPOSED; LinkedIn form/confirmation P1"
+  },
+  "profileLinkedinOutsideAppNote": "LinkedIn sayfan tam adını ve çalıştığın yeri gösterebilir. Uygulamada gizlediğin bilgiler de LinkedIn sayfanda görünebilir. Uygulamadaki engelleme LinkedIn’e uzanmaz.",
+  "@profileLinkedinOutsideAppNote": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; HARBOR_V2_PROPOSED; LinkedIn form/confirmation P2"
+  },
+  "profileLinkedinNoCheck": "LinkedIn sayfanı okumuyoruz ve profilin kime ait olduğunu kontrol etmiyoruz. Yalnız kendi profilini ekle. LinkedIn adresin değişirse burada da güncelle. İstediğin zaman kaldırabilirsin.",
+  "@profileLinkedinNoCheck": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; HARBOR_V2_PROPOSED; LinkedIn form/confirmation P3"
+  },
+  "profileLinkedinLinkLabel": "LinkedIn profili",
+  "@profileLinkedinLinkLabel": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; HARBOR_V2_PROPOSED; Other profile link semantics"
+  },
+  "profileLinkedinLinkHint": "LinkedIn uygulamasında ya da tarayıcında açılır.",
+  "@profileLinkedinLinkHint": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; HARBOR_V2_PROPOSED; External action semantics"
+  },
+  "linkOpenFailed": "Bağlantı açılamadı. Tekrar dene.",
+  "@linkOpenFailed": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; HARBOR_V2_PROPOSED; External open failure"
+  },
+  "profileLinkedinRemoveConfirm": "LinkedIn bağlantın kaldırılsın mı?",
+  "@profileLinkedinRemoveConfirm": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; HARBOR_V2_PROPOSED; Removal confirmation"
+  },
+  "profileLinkedinRemoveBody": "Artık profilinde görünmez.",
+  "@profileLinkedinRemoveBody": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; HARBOR_V2_PROPOSED; Removal confirmation"
+  },
+  "profileLinkedinRemoved": "LinkedIn bağlantın kaldırıldı.",
+  "@profileLinkedinRemoved": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; HARBOR_V2_PROPOSED; Server-confirmed removal"
+  },
+  "profileLinkedinSave": "Bağlantıyı kaydet",
+  "@profileLinkedinSave": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; HARBOR_V2_PROPOSED; LinkedIn form"
+  },
+  "profileLinkedinSaved": "LinkedIn bağlantın kaydedildi.",
+  "@profileLinkedinSaved": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; HARBOR_V2_PROPOSED; Server-confirmed save"
+  },
+  "profileLinkedinSaveFailed": "Bağlantın kaydedilemedi. Tekrar dene.",
+  "@profileLinkedinSaveFailed": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; HARBOR_V2_PROPOSED; Save failure"
+  },
+  "profilePurposeTitle": "Varsayılan amacın",
+  "@profilePurposeTitle": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; Default purpose form"
+  },
+  "profilePurposeHelp": "İsteğe bağlı. Buradayım’a dokunduğunda bu amaç seçili gelir; istersen her seferinde değiştirebilirsin. Başkaları bu ayarı görmez.",
+  "@profilePurposeHelp": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; Default purpose form"
+  },
+  "profilePurposeActiveNote": "Şu anki oturumunun amacı değişmez. Değişiklik bir sonraki oturumundan itibaren geçerli olur.",
+  "@profilePurposeActiveNote": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; Default purpose active session"
+  },
+  "y2PurposeDefaultNote": "Varsayılan amacın seçili. Bu oturum için değiştirebilirsin.",
+  "@y2PurposeDefaultNote": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; Check-in preselected"
+  },
+  "profileLinkedin": "LinkedIn",
+  "@profileLinkedin": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; Settings / allowed profile surfaces"
+  },
+  "profileLinkedinFieldLabel": "LinkedIn profil bağlantın",
+  "@profileLinkedinFieldLabel": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; LinkedIn form"
+  },
+  "profileLinkedinHint": "linkedin.com/in/…",
+  "@profileLinkedinHint": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; Placeholder only"
+  },
+  "profileLinkedinInvalid": "Bağlantıyı kontrol et. linkedin.com/in/… biçiminde olmalı.",
+  "@profileLinkedinInvalid": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; LinkedIn invalid"
+  },
+  "profileLinkedinOpenCheck": "Aç ve kontrol et",
+  "@profileLinkedinOpenCheck": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; LinkedIn form"
+  },
+  "profileLinkedinCheckRequired": "Kaydetmeden önce bağlantıyı aç ve senin profilin olduğunu onayla.",
+  "@profileLinkedinCheckRequired": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; LinkedIn save disabled"
+  },
+  "profileLinkedinConfirmTitle": "Bu senin LinkedIn profilin mi?",
+  "@profileLinkedinConfirmTitle": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; Return confirmation"
+  },
+  "profileLinkedinConfirmYes": "Evet, benim",
+  "@profileLinkedinConfirmYes": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; Return confirmation"
+  },
+  "profileLinkedinConfirmNo": "Hayır",
+  "@profileLinkedinConfirmNo": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; Return confirmation"
+  },
+  "profileLinkedinRemove": "Bağlantıyı kaldır",
+  "@profileLinkedinRemove": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; Saved / removal confirmation"
+  },
+  "profileLinkedinViewerNote": "LinkedIn ayarların izin veriyorsa bu kişi, profiline baktığını LinkedIn’de görebilir.",
+  "@profileLinkedinViewerNote": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; Nearby/incoming profile below link"
+  },
+  "profileLinkedinPausedNote": "LinkedIn bağlantıları şu an başkalarına gösterilmiyor.",
+  "@profileLinkedinPausedNote": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; Owner form/confirmation while paused"
+  },
+  "y2PurposeChangedNote": "Bu seçim yalnız bu oturum için geçerli. Varsayılan amacın aynı kalır.",
+  "@y2PurposeChangedNote": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; DESIGNER_PROPOSED; Check-in changed from default"
+  },
+  "profileLinkedinOpening": "Bağlantı açılıyor…",
+  "@profileLinkedinOpening": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; DESIGNER_PROPOSED; Opening"
+  },
+  "profileLinkedinSaving": "Bağlantı kaydediliyor…",
+  "@profileLinkedinSaving": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; DESIGNER_PROPOSED; Saving"
+  },
+  "profileLinkedinRemoving": "Bağlantı kaldırılıyor…",
+  "@profileLinkedinRemoving": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; DESIGNER_PROPOSED; Removing"
+  },
+  "profileLinkedinRemoveFailed": "Bağlantın kaldırılamadı. Tekrar dene.",
+  "@profileLinkedinRemoveFailed": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; DESIGNER_PROPOSED; Removal failure"
+  },
+  "profileLinkedinPausedResumeNote": "Bağlantını kayıtlı tutarsan bu durum değişince görünür olur.",
+  "@profileLinkedinPausedResumeNote": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; DESIGNER_PROPOSED; Paused note continuation; wording separated to preserve brief"
+  }
+}

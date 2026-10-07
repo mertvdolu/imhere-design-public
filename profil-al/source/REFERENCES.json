@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-07",
+  "baseCommit": "8bd0e29edf3c1ff10ee01ecca741c1f592e7b48d",
+  "copyStatus": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED",
+  "priority": "Latest Founder brief controls scope and exact brief wording. HARBOR v2 informs long paragraphs, pending final approval. Source differences are listed in COPY-REVIEW.",
+  "references": [
+    {
+      "source": "Founder brief",
+      "sha256": "151f0de6fa8e7ba1ce0a7f2af7058eb5f0073f16fe95fb8f622d9438a542e856"
+    },
+    {
+      "source": "harbor/profil-al-ekran-metinleri-v2.md",
+      "sha256": "b6d81e1ce4a5d33f7d660ebc18c76ef148effb4740481462d42d631442b9fbe1"
+    },
+    {
+      "source": "ops/inbox/PROFIL-AL-CODE-EK1.md",
+      "sha256": "ef4e4956f8b50e8aa11f22a56a34c6f9bbb05114cedbb03c1321a0e8035055d8"
+    },
+    {
+      "source": "ops/inbox/PROFIL-AL-CODE-EK2.md",
+      "sha256": "e9d2b34e12be81c18108a6744a2d46dcfd606db8d78f18fa6860acfcb4dcf2a4"
+    },
+    {
+      "source": "y1-y2/style.css",
+      "sha256": "7237570c9804c37fb2d108decd9bce15ae334e2fd2a48183454541c670f8b936"
+    },
+    {
+      "source": "y1-y2/SPEC.md",
+      "sha256": "f28208600d7702473787bcffabde02d4fba41da812160f7987c44b3d72a442ab"
+    },
+    {
+      "source": "theme-v2.3/SPEC.md",
+      "sha256": "62ba748555ee282c35dfc409eb3511e4c476e5aa532a4199899c63e67875914f"
+    }
+  ],
+  "privacy": "Only UI copy and source hashes are included. Internal source documents, personal data and real profile URLs are not redistributed."
+}

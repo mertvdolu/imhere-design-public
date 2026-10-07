@@ -1,0 +1,99 @@
+{
+  "observations": [
+    {
+      "layout": {
+        "duplicateIds": [],
+        "fontReady": true,
+        "headingCount": 1,
+        "height": 844,
+        "horizontalOverflow": false,
+        "links": 0,
+        "locale": "tr",
+        "navCount": 1,
+        "overflowNodes": [],
+        "platform": "android",
+        "purposeBadges": 0,
+        "scale": 200,
+        "scene": "purpose-active",
+        "scrollMax": 973,
+        "selectedValues": [
+          "Networking"
+        ],
+        "targetsTooSmall": [],
+        "width": 320
+      },
+      "styles": {
+        "controlShadows": [
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none"
+        ],
+        "navBackdrop": "none",
+        "navBackground": "rgb(244, 241, 233)",
+        "phoneClass": "phone android large   contrast solid reduce-motion"
+      }
+    },
+    {
+      "layout": {
+        "duplicateIds": [],
+        "fontReady": true,
+        "headingCount": 1,
+        "height": 844,
+        "horizontalOverflow": false,
+        "links": 0,
+        "locale": "tr",
+        "navCount": 0,
+        "overflowNodes": [],
+        "platform": "android",
+        "purposeBadges": 0,
+        "scale": 200,
+        "scene": "confirm-paused",
+        "scrollMax": 2632,
+        "selectedValues": [],
+        "targetsTooSmall": [],
+        "width": 320
+      },
+      "styles": {
+        "controlShadows": [
+          "none"
+        ],
+        "navBackdrop": null,
+        "navBackground": null,
+        "phoneClass": "phone android large  dialog-phone contrast solid reduce-motion"
+      }
+    },
+    {
+      "layout": {
+        "duplicateIds": [],
+        "fontReady": true,
+        "headingCount": 1,
+        "height": 844,
+        "horizontalOverflow": false,
+        "links": 1,
+        "locale": "tr",
+        "navCount": 1,
+        "overflowNodes": [],
+        "platform": "android",
+        "purposeBadges": 0,
+        "scale": 200,
+        "scene": "viewer-incoming",
+        "scrollMax": 243,
+        "selectedValues": [],
+        "targetsTooSmall": [],
+        "width": 320
+      },
+      "styles": {
+        "controlShadows": [
+          "none"
+        ],
+        "navBackdrop": "none",
+        "navBackground": "rgb(244, 241, 233)",
+        "phoneClass": "phone android large   contrast solid reduce-motion"
+      }
+    }
+  ]
+}

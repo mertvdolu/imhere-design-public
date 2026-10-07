@@ -1,5 +1,13 @@
 # Değişiklik kaydı
 
+## 2026-10-07 — PROFIL-AL / varsayılan amaç + LinkedIn v1.0
+
+- `profil-al/`: yüzde kaydırıcısının yerine özel varsayılan amaç; ayarsız/önseçili/oturuma özel değişiklik ve aktif oturum notu. Kendi profilinde ek varsayılan amaç baloncuğu yok.
+- LinkedIn düzenleme, dış açılış sonrası kullanıcı onayı, Save kapısı, kayıt/kaldırma, çevrimdışı/hata ve geçici görünürlük notu. Yakındakiler kişi profili + gelen istek profili için düz metin bağlantı ve izleyici notu; gelen istekte amaç rozeti yok.
+- 35 durum, EN/TR × %100/%200; mevcut Cream & Ink v2.3/v10/Y2 bileşenleri. Yeni renk/bileşen ailesi ve LinkedIn logosu yok.
+- 34 proposed EN/TR anahtar, HARBOR + Founder onayı bekler. Brif EN taslakları aynen; HARBOR v2 farkları ayrı. Ana ARB, ortak tokenlar, uygulama/backend ve eski y1-y2 dosyaları değişmedi.
+- HTML, PNG, SPEC, HANDOFF, katalog/matris, copy incelemesi ve MANIFEST. Native cihaz ve dış uygulama açılışı Code doğrulamasıdır.
+
 ## 2026-10-07 — Y1 / Y2 tasarım eki v1.0
 
 - `y1-y2/`: etkinlik önerisi formu, Önerilerim listesi/sınırlar/geri çekme; oturum amacı seçimi, nötr metin+ikon rozetleri, farklı amaç uyarısı ve sunucuya bağlı sonuç. 40 durum, EN/TR × %100/%200.

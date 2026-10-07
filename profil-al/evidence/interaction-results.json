@@ -1,0 +1,86 @@
+{
+  "checks": [
+    {
+      "test": "unconfirmed_save_disabled",
+      "enabled": false
+    },
+    {
+      "test": "open_failure_no_confirmation",
+      "title": "LinkedIn",
+      "saveEnabled": false
+    },
+    {
+      "test": "return_confirmation",
+      "title": "Is this your LinkedIn profile?",
+      "paragraphs": 3
+    },
+    {
+      "test": "no_keeps_save_disabled",
+      "enabled": false
+    },
+    {
+      "test": "yes_enables_save_but_not_saved",
+      "enabled": true,
+      "notices": []
+    },
+    {
+      "test": "edit_invalidates_confirmation",
+      "enabled": false,
+      "reason": true
+    },
+    {
+      "test": "save_waits_server",
+      "notice": "Saving link…"
+    },
+    {
+      "test": "save_after_ack",
+      "notice": "Your LinkedIn link has been saved."
+    },
+    {
+      "test": "remove_waits_server",
+      "notice": "Removing link…"
+    },
+    {
+      "test": "remove_error_keeps_retry",
+      "enabled": true
+    },
+    {
+      "test": "removed_after_ack",
+      "notice": "Your LinkedIn link has been removed.",
+      "field": ""
+    },
+    {
+      "test": "unset_still_empty",
+      "selected": 0,
+      "continueEnabled": false
+    },
+    {
+      "test": "default_preselected_and_notice",
+      "selected": "Networking",
+      "notice": "Your default purpose is selected. You can change it for this session."
+    },
+    {
+      "test": "session_override_does_not_mutate_default",
+      "notice": "This choice applies only to this session. Your default stays the same.",
+      "feedback": "Mevcut check-in akışı: seçili oturum amacı Friendship. Kayıtlı varsayılan değişmedi: Networking. Otomatik check-in yok."
+    },
+    {
+      "test": "active_note_remains_after_save",
+      "notices": [
+        "Your current session keeps its purpose. The change applies from your next session.",
+        "Profile saved"
+      ]
+    },
+    {
+      "test": "incoming_link_without_purpose",
+      "badges": 0,
+      "links": 1,
+      "note": "If your LinkedIn settings allow it, this person may see on LinkedIn that you viewed their profile."
+    },
+    {
+      "test": "missing_link_hides_link_and_note",
+      "links": 0,
+      "notes": 0
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "@@locale": "en",
+  "profileLinkedinHelp": "Optional. While you’re checked in, people nearby can see and open this link if they open your profile. Anyone you send a request to can also see and open it while your request is waiting. It isn’t shown in Connections or chats, though people may have seen it earlier.",
+  "@profileLinkedinHelp": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; HARBOR_V2_PROPOSED; LinkedIn form/confirmation P1"
+  },
+  "profileLinkedinOutsideAppNote": "Your LinkedIn page may show your full name and where you work. Details you hide in the app may also be visible on your LinkedIn page. Blocking someone in the app doesn’t block them on LinkedIn.",
+  "@profileLinkedinOutsideAppNote": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; HARBOR_V2_PROPOSED; LinkedIn form/confirmation P2"
+  },
+  "profileLinkedinNoCheck": "We don’t read your LinkedIn page or check whose profile it is. Only add your own profile. If your LinkedIn address changes, update it here too. You can remove it at any time.",
+  "@profileLinkedinNoCheck": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; HARBOR_V2_PROPOSED; LinkedIn form/confirmation P3"
+  },
+  "profileLinkedinLinkLabel": "LinkedIn profile",
+  "@profileLinkedinLinkLabel": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; HARBOR_V2_PROPOSED; Other profile link semantics"
+  },
+  "profileLinkedinLinkHint": "Opens in the LinkedIn app or your browser.",
+  "@profileLinkedinLinkHint": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; HARBOR_V2_PROPOSED; External action semantics"
+  },
+  "linkOpenFailed": "The link couldn’t be opened. Try again.",
+  "@linkOpenFailed": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; HARBOR_V2_PROPOSED; External open failure"
+  },
+  "profileLinkedinRemoveConfirm": "Remove your LinkedIn link?",
+  "@profileLinkedinRemoveConfirm": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; HARBOR_V2_PROPOSED; Removal confirmation"
+  },
+  "profileLinkedinRemoveBody": "It will no longer appear on your profile.",
+  "@profileLinkedinRemoveBody": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; HARBOR_V2_PROPOSED; Removal confirmation"
+  },
+  "profileLinkedinRemoved": "Your LinkedIn link has been removed.",
+  "@profileLinkedinRemoved": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; HARBOR_V2_PROPOSED; Server-confirmed removal"
+  },
+  "profileLinkedinSave": "Save link",
+  "@profileLinkedinSave": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; HARBOR_V2_PROPOSED; LinkedIn form"
+  },
+  "profileLinkedinSaved": "Your LinkedIn link has been saved.",
+  "@profileLinkedinSaved": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; HARBOR_V2_PROPOSED; Server-confirmed save"
+  },
+  "profileLinkedinSaveFailed": "Your link couldn’t be saved. Try again.",
+  "@profileLinkedinSaveFailed": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; HARBOR_V2_PROPOSED; Save failure"
+  },
+  "profilePurposeTitle": "Your default purpose",
+  "@profilePurposeTitle": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; Default purpose form"
+  },
+  "profilePurposeHelp": "Optional. When you tap I'm here, this purpose is already selected, and you can change it each time. Others don't see this setting.",
+  "@profilePurposeHelp": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; Default purpose form"
+  },
+  "profilePurposeActiveNote": "Your current session keeps its purpose. The change applies from your next session.",
+  "@profilePurposeActiveNote": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; Default purpose active session"
+  },
+  "y2PurposeDefaultNote": "Your default purpose is selected. You can change it for this session.",
+  "@y2PurposeDefaultNote": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; Check-in preselected"
+  },
+  "profileLinkedin": "LinkedIn",
+  "@profileLinkedin": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; Settings / allowed profile surfaces"
+  },
+  "profileLinkedinFieldLabel": "Your LinkedIn profile link",
+  "@profileLinkedinFieldLabel": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; LinkedIn form"
+  },
+  "profileLinkedinHint": "linkedin.com/in/…",
+  "@profileLinkedinHint": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; Placeholder only"
+  },
+  "profileLinkedinInvalid": "Check the link. It should look like linkedin.com/in/…",
+  "@profileLinkedinInvalid": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; LinkedIn invalid"
+  },
+  "profileLinkedinOpenCheck": "Open and check",
+  "@profileLinkedinOpenCheck": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; LinkedIn form"
+  },
+  "profileLinkedinCheckRequired": "Before saving, open the link and confirm it's your profile.",
+  "@profileLinkedinCheckRequired": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; LinkedIn save disabled"
+  },
+  "profileLinkedinConfirmTitle": "Is this your LinkedIn profile?",
+  "@profileLinkedinConfirmTitle": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; Return confirmation"
+  },
+  "profileLinkedinConfirmYes": "Yes, it's mine",
+  "@profileLinkedinConfirmYes": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; Return confirmation"
+  },
+  "profileLinkedinConfirmNo": "No",
+  "@profileLinkedinConfirmNo": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; Return confirmation"
+  },
+  "profileLinkedinRemove": "Remove link",
+  "@profileLinkedinRemove": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; Saved / removal confirmation"
+  },
+  "profileLinkedinViewerNote": "If your LinkedIn settings allow it, this person may see on LinkedIn that you viewed their profile.",
+  "@profileLinkedinViewerNote": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; Nearby/incoming profile below link"
+  },
+  "profileLinkedinPausedNote": "LinkedIn links aren't shown to others at the moment.",
+  "@profileLinkedinPausedNote": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; FOUNDER_BRIEF_EN_EXACT; TR_PROPOSED; Owner form/confirmation while paused"
+  },
+  "y2PurposeChangedNote": "This choice applies only to this session. Your default stays the same.",
+  "@y2PurposeChangedNote": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; DESIGNER_PROPOSED; Check-in changed from default"
+  },
+  "profileLinkedinOpening": "Opening link…",
+  "@profileLinkedinOpening": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; DESIGNER_PROPOSED; Opening"
+  },
+  "profileLinkedinSaving": "Saving link…",
+  "@profileLinkedinSaving": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; DESIGNER_PROPOSED; Saving"
+  },
+  "profileLinkedinRemoving": "Removing link…",
+  "@profileLinkedinRemoving": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; DESIGNER_PROPOSED; Removing"
+  },
+  "profileLinkedinRemoveFailed": "Your link couldn’t be removed. Try again.",
+  "@profileLinkedinRemoveFailed": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; DESIGNER_PROPOSED; Removal failure"
+  },
+  "profileLinkedinPausedResumeNote": "If you keep your link saved, it will become visible when this changes.",
+  "@profileLinkedinPausedResumeNote": {
+    "description": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED; DESIGNER_PROPOSED; Paused note continuation; wording separated to preserve brief"
+  }
+}

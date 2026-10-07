@@ -1,0 +1,218 @@
+{
+  "version": "1.0",
+  "theme": "2.3",
+  "copyStatus": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED",
+  "supersedes": "Y2 no-preselection only when a saved default exists; removes profile ratio UI",
+  "states": [
+    {
+      "id": "purpose-unset",
+      "group": "purpose",
+      "mode": "unset",
+      "label": "Ayar · Ayarlanmadı"
+    },
+    {
+      "id": "purpose-networking",
+      "group": "purpose",
+      "mode": "networking",
+      "label": "Ayar · Networking"
+    },
+    {
+      "id": "purpose-friendship",
+      "group": "purpose",
+      "mode": "friendship",
+      "label": "Ayar · Friendship"
+    },
+    {
+      "id": "purpose-active",
+      "group": "purpose",
+      "mode": "active",
+      "label": "Ayar · Aktif oturum notu"
+    },
+    {
+      "id": "purpose-saving",
+      "group": "purpose",
+      "mode": "saving",
+      "label": "Ayar · Kaydediliyor"
+    },
+    {
+      "id": "purpose-failed",
+      "group": "purpose",
+      "mode": "failed",
+      "label": "Ayar · Kaydetme hatası"
+    },
+    {
+      "id": "purpose-saved",
+      "group": "purpose",
+      "mode": "saved",
+      "label": "Ayar · Kaydedildi"
+    },
+    {
+      "id": "checkin-unset",
+      "group": "checkin",
+      "mode": "unset",
+      "label": "I’m here · Önseçim yok"
+    },
+    {
+      "id": "checkin-networking",
+      "group": "checkin",
+      "mode": "networking",
+      "label": "I’m here · Networking önseçili"
+    },
+    {
+      "id": "checkin-friendship",
+      "group": "checkin",
+      "mode": "friendship",
+      "label": "I’m here · Friendship önseçili"
+    },
+    {
+      "id": "checkin-changed",
+      "group": "checkin",
+      "mode": "changed",
+      "label": "I’m here · Oturum için değiştirildi"
+    },
+    {
+      "id": "linkedin-empty",
+      "group": "linkedin",
+      "mode": "empty",
+      "label": "LinkedIn · Boş"
+    },
+    {
+      "id": "linkedin-invalid",
+      "group": "linkedin",
+      "mode": "invalid",
+      "label": "LinkedIn · Biçim hatası"
+    },
+    {
+      "id": "linkedin-unconfirmed",
+      "group": "linkedin",
+      "mode": "unconfirmed",
+      "label": "LinkedIn · Kontrol bekliyor"
+    },
+    {
+      "id": "linkedin-opening",
+      "group": "linkedin",
+      "mode": "opening",
+      "label": "LinkedIn · Açılıyor"
+    },
+    {
+      "id": "linkedin-open-failed",
+      "group": "linkedin",
+      "mode": "open-failed",
+      "label": "LinkedIn · Açılamadı"
+    },
+    {
+      "id": "linkedin-declined",
+      "group": "linkedin",
+      "mode": "declined",
+      "label": "LinkedIn · Hayır sonrası"
+    },
+    {
+      "id": "linkedin-confirmed",
+      "group": "linkedin",
+      "mode": "confirmed",
+      "label": "LinkedIn · Onaylandı / Kaydet etkin"
+    },
+    {
+      "id": "linkedin-saving",
+      "group": "linkedin",
+      "mode": "saving",
+      "label": "LinkedIn · Kaydediliyor"
+    },
+    {
+      "id": "linkedin-save-failed",
+      "group": "linkedin",
+      "mode": "save-failed",
+      "label": "LinkedIn · Kayıt hatası"
+    },
+    {
+      "id": "linkedin-saved",
+      "group": "linkedin",
+      "mode": "saved",
+      "label": "LinkedIn · Kayıtlı"
+    },
+    {
+      "id": "linkedin-removed",
+      "group": "linkedin",
+      "mode": "removed",
+      "label": "LinkedIn · Kaldırıldı"
+    },
+    {
+      "id": "linkedin-offline",
+      "group": "linkedin",
+      "mode": "offline",
+      "label": "LinkedIn · Çevrimdışı"
+    },
+    {
+      "id": "linkedin-paused",
+      "group": "linkedin",
+      "mode": "paused",
+      "label": "LinkedIn · Görünürlük kapalı"
+    },
+    {
+      "id": "confirm-return",
+      "group": "confirm",
+      "mode": "return",
+      "label": "Kontrol sonrası dönüş"
+    },
+    {
+      "id": "confirm-paused",
+      "group": "confirm",
+      "mode": "paused",
+      "label": "Görünürlük kapalı / dönüş"
+    },
+    {
+      "id": "remove-ready",
+      "group": "remove",
+      "mode": "ready",
+      "label": "Kaldırma onayı"
+    },
+    {
+      "id": "remove-busy",
+      "group": "remove",
+      "mode": "busy",
+      "label": "Kaldırılıyor"
+    },
+    {
+      "id": "remove-failed",
+      "group": "remove",
+      "mode": "failed",
+      "label": "Kaldırma hatası"
+    },
+    {
+      "id": "viewer-nearby",
+      "group": "viewer",
+      "mode": "nearby",
+      "label": "Yakındakiler kişi profili"
+    },
+    {
+      "id": "viewer-incoming",
+      "group": "viewer",
+      "mode": "incoming",
+      "label": "Gelen istek profili"
+    },
+    {
+      "id": "viewer-nearby-failed",
+      "group": "viewer",
+      "mode": "nearby-failed",
+      "label": "Yakındakiler / açılamadı"
+    },
+    {
+      "id": "viewer-incoming-failed",
+      "group": "viewer",
+      "mode": "incoming-failed",
+      "label": "Gelen istek / açılamadı"
+    },
+    {
+      "id": "viewer-nearby-offline",
+      "group": "viewer",
+      "mode": "nearby-offline",
+      "label": "Yakındakiler / çevrimdışı"
+    },
+    {
+      "id": "viewer-no-link",
+      "group": "viewer",
+      "mode": "no-link",
+      "label": "Alan yok / bağlantı çizilmez"
+    }
+  ]
+}

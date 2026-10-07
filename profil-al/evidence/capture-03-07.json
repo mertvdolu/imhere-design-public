@@ -1,0 +1,340 @@
+{
+  "layouts": [
+    {
+      "duplicateIds": [],
+      "fontReady": true,
+      "headingCount": 1,
+      "height": 844,
+      "horizontalOverflow": false,
+      "links": 0,
+      "locale": "en",
+      "navCount": 1,
+      "overflowNodes": [],
+      "platform": "ios",
+      "purposeBadges": 0,
+      "scale": 100,
+      "scene": "purpose-active",
+      "scrollMax": 0,
+      "selectedValues": [
+        "Networking"
+      ],
+      "targetsTooSmall": [],
+      "width": 390
+    },
+    {
+      "duplicateIds": [],
+      "fontReady": true,
+      "headingCount": 1,
+      "height": 844,
+      "horizontalOverflow": false,
+      "links": 0,
+      "locale": "en",
+      "navCount": 1,
+      "overflowNodes": [],
+      "platform": "ios",
+      "purposeBadges": 0,
+      "scale": 200,
+      "scene": "purpose-active",
+      "scrollMax": 687,
+      "selectedValues": [
+        "Networking"
+      ],
+      "targetsTooSmall": [],
+      "width": 390
+    },
+    {
+      "duplicateIds": [],
+      "fontReady": true,
+      "headingCount": 1,
+      "height": 844,
+      "horizontalOverflow": false,
+      "links": 0,
+      "locale": "tr",
+      "navCount": 1,
+      "overflowNodes": [],
+      "platform": "ios",
+      "purposeBadges": 0,
+      "scale": 100,
+      "scene": "purpose-active",
+      "scrollMax": 0,
+      "selectedValues": [
+        "Networking"
+      ],
+      "targetsTooSmall": [],
+      "width": 390
+    },
+    {
+      "duplicateIds": [],
+      "fontReady": true,
+      "headingCount": 1,
+      "height": 844,
+      "horizontalOverflow": false,
+      "links": 0,
+      "locale": "tr",
+      "navCount": 1,
+      "overflowNodes": [],
+      "platform": "ios",
+      "purposeBadges": 0,
+      "scale": 200,
+      "scene": "purpose-active",
+      "scrollMax": 786,
+      "selectedValues": [
+        "Networking"
+      ],
+      "targetsTooSmall": [],
+      "width": 390
+    },
+    {
+      "duplicateIds": [],
+      "fontReady": true,
+      "headingCount": 1,
+      "height": 844,
+      "horizontalOverflow": false,
+      "links": 0,
+      "locale": "en",
+      "navCount": 1,
+      "overflowNodes": [],
+      "platform": "ios",
+      "purposeBadges": 0,
+      "scale": 100,
+      "scene": "purpose-saving",
+      "scrollMax": 0,
+      "selectedValues": [
+        "Networking"
+      ],
+      "targetsTooSmall": [],
+      "width": 390
+    },
+    {
+      "duplicateIds": [],
+      "fontReady": true,
+      "headingCount": 1,
+      "height": 844,
+      "horizontalOverflow": false,
+      "links": 0,
+      "locale": "en",
+      "navCount": 1,
+      "overflowNodes": [],
+      "platform": "ios",
+      "purposeBadges": 0,
+      "scale": 200,
+      "scene": "purpose-saving",
+      "scrollMax": 487,
+      "selectedValues": [
+        "Networking"
+      ],
+      "targetsTooSmall": [],
+      "width": 390
+    },
+    {
+      "duplicateIds": [],
+      "fontReady": true,
+      "headingCount": 1,
+      "height": 844,
+      "horizontalOverflow": false,
+      "links": 0,
+      "locale": "tr",
+      "navCount": 1,
+      "overflowNodes": [],
+      "platform": "ios",
+      "purposeBadges": 0,
+      "scale": 100,
+      "scene": "purpose-saving",
+      "scrollMax": 0,
+      "selectedValues": [
+        "Networking"
+      ],
+      "targetsTooSmall": [],
+      "width": 390
+    },
+    {
+      "duplicateIds": [],
+      "fontReady": true,
+      "headingCount": 1,
+      "height": 844,
+      "horizontalOverflow": false,
+      "links": 0,
+      "locale": "tr",
+      "navCount": 1,
+      "overflowNodes": [],
+      "platform": "ios",
+      "purposeBadges": 0,
+      "scale": 200,
+      "scene": "purpose-saving",
+      "scrollMax": 586,
+      "selectedValues": [
+        "Networking"
+      ],
+      "targetsTooSmall": [],
+      "width": 390
+    },
+    {
+      "duplicateIds": [],
+      "fontReady": true,
+      "headingCount": 1,
+      "height": 844,
+      "horizontalOverflow": false,
+      "links": 0,
+      "locale": "en",
+      "navCount": 1,
+      "overflowNodes": [],
+      "platform": "ios",
+      "purposeBadges": 0,
+      "scale": 100,
+      "scene": "purpose-failed",
+      "scrollMax": 0,
+      "selectedValues": [
+        "Networking"
+      ],
+      "targetsTooSmall": [],
+      "width": 390
+    },
+    {
+      "duplicateIds": [],
+      "fontReady": true,
+      "headingCount": 1,
+      "height": 844,
+      "horizontalOverflow": false,
+      "links": 0,
+      "locale": "en",
+      "navCount": 1,
+      "overflowNodes": [],
+      "platform": "ios",
+      "purposeBadges": 0,
+      "scale": 200,
+      "scene": "purpose-failed",
+      "scrollMax": 631,
+      "selectedValues": [
+        "Networking"
+      ],
+      "targetsTooSmall": [],
+      "width": 390
+    },
+    {
+      "duplicateIds": [],
+      "fontReady": true,
+      "headingCount": 1,
+      "height": 844,
+      "horizontalOverflow": false,
+      "links": 0,
+      "locale": "tr",
+      "navCount": 1,
+      "overflowNodes": [],
+      "platform": "ios",
+      "purposeBadges": 0,
+      "scale": 100,
+      "scene": "purpose-failed",
+      "scrollMax": 0,
+      "selectedValues": [
+        "Networking"
+      ],
+      "targetsTooSmall": [],
+      "width": 390
+    },
+    {
+      "duplicateIds": [],
+      "fontReady": true,
+      "headingCount": 1,
+      "height": 844,
+      "horizontalOverflow": false,
+      "links": 0,
+      "locale": "tr",
+      "navCount": 1,
+      "overflowNodes": [],
+      "platform": "ios",
+      "purposeBadges": 0,
+      "scale": 200,
+      "scene": "purpose-failed",
+      "scrollMax": 730,
+      "selectedValues": [
+        "Networking"
+      ],
+      "targetsTooSmall": [],
+      "width": 390
+    },
+    {
+      "duplicateIds": [],
+      "fontReady": true,
+      "headingCount": 1,
+      "height": 844,
+      "horizontalOverflow": false,
+      "links": 0,
+      "locale": "en",
+      "navCount": 1,
+      "overflowNodes": [],
+      "platform": "ios",
+      "purposeBadges": 0,
+      "scale": 100,
+      "scene": "purpose-saved",
+      "scrollMax": 0,
+      "selectedValues": [
+        "Networking"
+      ],
+      "targetsTooSmall": [],
+      "width": 390
+    },
+    {
+      "duplicateIds": [],
+      "fontReady": true,
+      "headingCount": 1,
+      "height": 844,
+      "horizontalOverflow": false,
+      "links": 0,
+      "locale": "en",
+      "navCount": 1,
+      "overflowNodes": [],
+      "platform": "ios",
+      "purposeBadges": 0,
+      "scale": 200,
+      "scene": "purpose-saved",
+      "scrollMax": 487,
+      "selectedValues": [
+        "Networking"
+      ],
+      "targetsTooSmall": [],
+      "width": 390
+    },
+    {
+      "duplicateIds": [],
+      "fontReady": true,
+      "headingCount": 1,
+      "height": 844,
+      "horizontalOverflow": false,
+      "links": 0,
+      "locale": "tr",
+      "navCount": 1,
+      "overflowNodes": [],
+      "platform": "ios",
+      "purposeBadges": 0,
+      "scale": 100,
+      "scene": "purpose-saved",
+      "scrollMax": 0,
+      "selectedValues": [
+        "Networking"
+      ],
+      "targetsTooSmall": [],
+      "width": 390
+    },
+    {
+      "duplicateIds": [],
+      "fontReady": true,
+      "headingCount": 1,
+      "height": 844,
+      "horizontalOverflow": false,
+      "links": 0,
+      "locale": "tr",
+      "navCount": 1,
+      "overflowNodes": [],
+      "platform": "ios",
+      "purposeBadges": 0,
+      "scale": 200,
+      "scene": "purpose-saved",
+      "scrollMax": 538,
+      "selectedValues": [
+        "Networking"
+      ],
+      "targetsTooSmall": [],
+      "width": 390
+    }
+  ]
+}
