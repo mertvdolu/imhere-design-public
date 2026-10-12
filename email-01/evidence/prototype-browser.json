@@ -1,0 +1,14 @@
+{
+  "result": "PASS \u2014 browser only",
+  "headingCount": 1,
+  "allTablesRolePresentation": true,
+  "visibleLogoCount": 1,
+  "logoLoaded": true,
+  "logoAlt": "I'M HERE",
+  "primaryAndFallback": "{{ACTION_URL}}",
+  "footerSlots": [
+    "{{HELP_URL}}",
+    "{{PRIVACY_URL}}"
+  ],
+  "clientSendTest": false
+}

@@ -1,0 +1,313 @@
+{
+  "version": "1.0",
+  "theme": "Cream & Ink v2.3",
+  "locale": "en-GB",
+  "copyStatus": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED",
+  "counts": {
+    "date": "2026-10-12",
+    "result": "PASS — browser visual checks only",
+    "mainPNGs": 16,
+    "additionalPNGs": 4,
+    "overview": 1,
+    "layoutChecks": 46,
+    "minimumMeasuredCTA": 50,
+    "minimumBodyFont": 16,
+    "horizontalOverflow": 0,
+    "textOverflow": 0,
+    "logoAssetBytesTotal": 8801,
+    "referenceHTMLBytes": 4612,
+    "exactBriefFields": 23,
+    "proposedAdditionalLines": 4,
+    "mailClientsTested": [],
+    "productionHTMLApproved": false,
+    "copyStatus": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+  },
+  "files": [
+    {
+      "path": "HANDOFF.md",
+      "bytes": 4156,
+      "sha256": "ccce6199a4e22e5bbc21c4fdb8a30d5d32e606be2d975981858666e3dd5aa743"
+    },
+    {
+      "path": "ONIZLEME.html",
+      "bytes": 2630,
+      "sha256": "7113dba2d5853e626c7a2e1dc949eaab5de8455cb3da84aaf9d5467c39703f3c"
+    },
+    {
+      "path": "OVERVIEW.png",
+      "bytes": 391957,
+      "sha256": "c0baafcfdd8b6214812e945bb59c0f5ce1889d9c806de595d2a976f51285fcd6",
+      "width": 1328,
+      "height": 951
+    },
+    {
+      "path": "README.md",
+      "bytes": 706,
+      "sha256": "8b7bc2d6bce0b27fd6b7a67877e556df75e3cfc40cdd35d2e75b720a5f951880"
+    },
+    {
+      "path": "SCREEN-MATRIX.md",
+      "bytes": 1842,
+      "sha256": "d4edca3840a76bd381f64b5cb56d9a5664b7a0c07f311138f0c7a189aece5878"
+    },
+    {
+      "path": "SPEC.md",
+      "bytes": 7324,
+      "sha256": "2dd273ca2b0af33d80218e51e8f462286fd85bfa505de551e4893921e3265339"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 2404,
+      "sha256": "9a0490feca98db8ea61df1aae5d41a0751003dd6dec5c0c1b3451552c1782ad6"
+    },
+    {
+      "path": "assets/README.md",
+      "bytes": 748,
+      "sha256": "8025936eddaa03831eff69b37c99d9609097e0bff7f0b2caaa3da789a251e0e6"
+    },
+    {
+      "path": "assets/logo-on-dark.svg",
+      "bytes": 528,
+      "sha256": "8e0c3d34d609b4a96dbd7398cb2067392291a1f7e79261b26530f5866700fdb5"
+    },
+    {
+      "path": "assets/logo-on-dark@2x.png",
+      "bytes": 3904,
+      "sha256": "5ba711b9d18ab9e7cb6a45002131ecdc77b23b53a02ee8dae3c71c64e2d012d0",
+      "width": 144,
+      "height": 92
+    },
+    {
+      "path": "assets/logo-on-light.svg",
+      "bytes": 528,
+      "sha256": "8a96e5d8a2109be616e1e545139663118c5e2ea265ae810fd7882d518da15ffd"
+    },
+    {
+      "path": "assets/logo-on-light@2x.png",
+      "bytes": 3841,
+      "sha256": "2efa73f4d24308cf875c054f4a91156fb98ea7946b7b5fe5f9ca3e2022072094",
+      "width": 144,
+      "height": 92
+    },
+    {
+      "path": "copy.js",
+      "bytes": 3782,
+      "sha256": "d7555f644273177c3334ef8553d769500f8edc39a844ca33e9f7538afc1f0094"
+    },
+    {
+      "path": "copy.md",
+      "bytes": 5181,
+      "sha256": "1344d40ca6040af9e5e721d693fc49160dc6bee1c9d24b55f23db3ff8d8b1b83"
+    },
+    {
+      "path": "copy.proposed.json",
+      "bytes": 3763,
+      "sha256": "eb7368aae6c51acb85ae833b8c8fafada39059bf7a2fb5ea9bd98fc95f3c3f2f"
+    },
+    {
+      "path": "evidence/capture-01-confirm-email.json",
+      "bytes": 3326,
+      "sha256": "a6eb7f39563be4f078282d9750121112f67d2464c220c295dbd4c4cda11240d4"
+    },
+    {
+      "path": "evidence/capture-02-reset-password.json",
+      "bytes": 3326,
+      "sha256": "3922b8c6d56020e09057ec01406e9abdd3cdc31612916d35706ccfe85ef46166"
+    },
+    {
+      "path": "evidence/capture-03-confirm-new-email.json",
+      "bytes": 3338,
+      "sha256": "8014416aa7cadab5ba2a0be4abbc39f19bc8d5bc43112f3c6240eccd28593e1c"
+    },
+    {
+      "path": "evidence/capture-04-email-changed.json",
+      "bytes": 3320,
+      "sha256": "75c8dddf12ce78934966802bd92975b1a44b4c049e13cfcccf8d3b5137e57f10"
+    },
+    {
+      "path": "evidence/contrast.json",
+      "bytes": 870,
+      "sha256": "c9b8fbd5a42fcedff0c6895859ef9f3da9144a415fc042331b507f041068ab83"
+    },
+    {
+      "path": "evidence/extra-captures.json",
+      "bytes": 916,
+      "sha256": "fa4dc0a4f17af610075c9ab0e9ca0e4f75452a40ffce9d19bdb736026de94eb5"
+    },
+    {
+      "path": "evidence/prototype-browser.json",
+      "bytes": 308,
+      "sha256": "3991c3495fbe13a519cf83e1d510687b3d0b58751488c0c212246b120cc06218"
+    },
+    {
+      "path": "evidence/sources.json",
+      "bytes": 543,
+      "sha256": "1e010fde1ca9a1c594c74e8e475e9babae3a3d755750682956431774ffdefbc0"
+    },
+    {
+      "path": "evidence/stress-layouts.json",
+      "bytes": 24492,
+      "sha256": "f8abe06216a274258ce733df2e531c1a2307e0504a12b08755ce9c9361aca511"
+    },
+    {
+      "path": "evidence/summary.json",
+      "bytes": 512,
+      "sha256": "1e07a3b993cfa80c787dafd37010b8a6b943c205bc92823f915dece3c9cf473e"
+    },
+    {
+      "path": "preview.css",
+      "bytes": 5576,
+      "sha256": "2cc12026aa63fdf1bd4ab2085c3e9ae851e86d89e77dbebbd095d864f6de0d0c"
+    },
+    {
+      "path": "preview.js",
+      "bytes": 3845,
+      "sha256": "9055707f08da4883363b5ac69486f80e3ed2fbd281a19e8d5c06809128055605"
+    },
+    {
+      "path": "prototype/01-confirm-email.html",
+      "bytes": 4612,
+      "sha256": "07573a11eb27b237a159f281b67eba2ab99fcfdd267fe954ea056f299e8512bc"
+    },
+    {
+      "path": "screens/png/01-confirm-email--dark--375.png",
+      "bytes": 121486,
+      "sha256": "201ab4e3fb0dc8c55751703b4e1cd37957704ade03aceb8025cd72225ca64d81",
+      "width": 750,
+      "height": 1696
+    },
+    {
+      "path": "screens/png/01-confirm-email--dark--600.png",
+      "bytes": 116568,
+      "sha256": "1a657955278ecc7107bd06eff624569df145ee66ffdafaa50f9e049ce857bc97",
+      "width": 1200,
+      "height": 1556
+    },
+    {
+      "path": "screens/png/01-confirm-email--light--375.png",
+      "bytes": 125199,
+      "sha256": "a4286845548c7dea45e9d9443650c401c35fbe890c3091dc840079eb5e505e2e",
+      "width": 750,
+      "height": 1696
+    },
+    {
+      "path": "screens/png/01-confirm-email--light--600.png",
+      "bytes": 121106,
+      "sha256": "d9aff5e826b8a3e1ee0d0a7f263506acad2d214694b8a48b5d26001266634e7c",
+      "width": 1200,
+      "height": 1556
+    },
+    {
+      "path": "screens/png/02-reset-password--dark--375.png",
+      "bytes": 132007,
+      "sha256": "2e08f38a73dd6be293c400db5470be8df1e329f3a66f0616d2013267827d8a37",
+      "width": 750,
+      "height": 1696
+    },
+    {
+      "path": "screens/png/02-reset-password--dark--600.png",
+      "bytes": 133381,
+      "sha256": "3e973b88c7a9634ad1faaf57f77e81a85dd2c2d9ccc9b786676082b6a89e3d03",
+      "width": 1200,
+      "height": 1608
+    },
+    {
+      "path": "screens/png/02-reset-password--light--375.png",
+      "bytes": 135720,
+      "sha256": "6617f797c13652bdd2fed492e27177de99bb2c288e818c62dd39130e6cafe901",
+      "width": 750,
+      "height": 1696
+    },
+    {
+      "path": "screens/png/02-reset-password--light--600.png",
+      "bytes": 137329,
+      "sha256": "88364c4852416c9002d159b5e0afb102edd1ba3156ece8f0b0b0e9a4cd48140f",
+      "width": 1200,
+      "height": 1608
+    },
+    {
+      "path": "screens/png/03-confirm-new-email--dark--375.png",
+      "bytes": 135319,
+      "sha256": "da1f00774063512bec5c91dd85b3c01f982f39d20781e73c77767592623bd69d",
+      "width": 750,
+      "height": 1828
+    },
+    {
+      "path": "screens/png/03-confirm-new-email--dark--600.png",
+      "bytes": 130514,
+      "sha256": "1dc6034341f2e6dcf38cca7378a6e8a75fc57b471771ffc2862873282dcfe458",
+      "width": 1200,
+      "height": 1610
+    },
+    {
+      "path": "screens/png/03-confirm-new-email--light--375.png",
+      "bytes": 138808,
+      "sha256": "26a503938daf48ab8d99150da715cf04e2cc0e8765f36846fd0c71697c69d96b",
+      "width": 750,
+      "height": 1828
+    },
+    {
+      "path": "screens/png/03-confirm-new-email--light--600.png",
+      "bytes": 135085,
+      "sha256": "04bc73bed562d0b673c94c6a25277e214f8223b42fe1b1e07f9acc8a2383d7f2",
+      "width": 1200,
+      "height": 1610
+    },
+    {
+      "path": "screens/png/04-email-changed--dark--375.png",
+      "bytes": 135665,
+      "sha256": "60ca10fb8508a7484334362b699b39db8d26c8e5a68fe4eeae9e8633b318ff19",
+      "width": 750,
+      "height": 1828
+    },
+    {
+      "path": "screens/png/04-email-changed--dark--600.png",
+      "bytes": 130889,
+      "sha256": "9c0e2ee8ebb8884910328c0d086eefdcfc47eeaac4ac419c28b130caaea619c1",
+      "width": 1200,
+      "height": 1646
+    },
+    {
+      "path": "screens/png/04-email-changed--light--375.png",
+      "bytes": 138942,
+      "sha256": "511a6bfe059f3ac3822a8dbdd855d7a88a3fe77147a5132c8f8a926083c3166d",
+      "width": 750,
+      "height": 1828
+    },
+    {
+      "path": "screens/png/04-email-changed--light--600.png",
+      "bytes": 135011,
+      "sha256": "40a7e961b8af75b4f87064cb989952bad76b2d1aac274858d8c8895ccac89d1a",
+      "width": 1200,
+      "height": 1646
+    },
+    {
+      "path": "screens/png/evidence-email-changed-large-light-320.png",
+      "bytes": 461685,
+      "sha256": "cc85bf5e768eb0622b37fb0e94272bd59af5b90dafc68281e9e3048807f2f138",
+      "width": 640,
+      "height": 6412
+    },
+    {
+      "path": "screens/png/evidence-email-changed-long-light-375.png",
+      "bytes": 218568,
+      "sha256": "810ec03e44a9a8509efe79d3e92f80efd853571d8a35b3f9b64e245042de9d75",
+      "width": 750,
+      "height": 2170
+    },
+    {
+      "path": "screens/png/evidence-email-changed-masked-dark-375.png",
+      "bytes": 135137,
+      "sha256": "4d8f733e293604b54daa8bf4ff1151b89db0a1ddd41549ab2e72f8aff29b3922",
+      "width": 750,
+      "height": 1828
+    },
+    {
+      "path": "screens/png/evidence-images-off-flat-dark-600.png",
+      "bytes": 109627,
+      "sha256": "febfb9a6cc01c16c82bfaf66c18d9d20239ea8b472b17fb071455b27491c1154",
+      "width": 1200,
+      "height": 1556
+    }
+  ]
+}

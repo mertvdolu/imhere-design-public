@@ -1,5 +1,13 @@
 # Değişiklik kaydı
 
+## 2026-10-12 — EMAIL-01 / markalı hesap e-postaları v1.0
+
+- `email-01/`: doğrulama, parola sıfırlama, yeni adres onayı ve eski adrese değişiklik bildirimi için Cream & Ink v2.3 tasarımı; yalnız English (UK).
+- 16 ana PNG: açık/koyu ×375/600; dört ek uzun içerik/görselsiz/büyük yazı kanıtı, HTML inceleme aracı ve tek e-posta için tablo tabanlı yapı örneği.
+- Mevcut logo geometrisinden açık/koyu SVG + PNG @2x; toplam8.8 KB. Mobil marka varlıkları ve ortak tokenlar değişmedi.
+- Brifteki23 metin alanı aynen; dört ek metin ayrı öneri. HARBOR + Founder copy onayı, E04 adres maskelemesi, süreler ve Help/Privacy URL'leri bekliyor.
+- 46 tarayıcı yerleşimi ve belirlenmiş renk çiftlerinde AA kontrolü. Gerçek istemci/gönderim/spam testi yapılmadı; son HTML ve mail altyapısı Code'da.
+
 ## 2026-10-07 — PROFIL-AL / varsayılan amaç + LinkedIn v1.0
 
 - `profil-al/`: yüzde kaydırıcısının yerine özel varsayılan amaç; ayarsız/önseçili/oturuma özel değişiklik ve aktif oturum notu. Kendi profilinde ek varsayılan amaç baloncuğu yok.

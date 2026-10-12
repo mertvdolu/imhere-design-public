@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-12",
+  "result": "PASS — browser visual checks only",
+  "mainPNGs": 16,
+  "additionalPNGs": 4,
+  "overview": 1,
+  "layoutChecks": 46,
+  "minimumMeasuredCTA": 50,
+  "minimumBodyFont": 16,
+  "horizontalOverflow": 0,
+  "textOverflow": 0,
+  "logoAssetBytesTotal": 8801,
+  "referenceHTMLBytes": 4612,
+  "exactBriefFields": 23,
+  "proposedAdditionalLines": 4,
+  "mailClientsTested": [],
+  "productionHTMLApproved": false,
+  "copyStatus": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+}

@@ -1,0 +1,140 @@
+{
+  "layouts": [
+    {
+      "action": "{{ACTION_URL}}",
+      "colours": {
+        "background": "rgb(244, 241, 233)",
+        "body": "rgb(25, 26, 23)",
+        "cta": "rgb(25, 26, 23)",
+        "ctaText": "rgb(252, 250, 245)",
+        "muted": "rgb(105, 106, 98)"
+      },
+      "ctaHeight": 50,
+      "email": "01-confirm-email",
+      "fallback": "{{ACTION_URL}}",
+      "fixture": "standard",
+      "flat": "0",
+      "font": "fallback",
+      "fontReady": true,
+      "h1": 1,
+      "height": 847.8515625,
+      "horizontalOverflow": false,
+      "images": "1",
+      "logos": [
+        {
+          "alt": "I'M HERE",
+          "complete": true,
+          "width": 144
+        }
+      ],
+      "minBodySize": 16,
+      "mode": "light",
+      "overflowText": [],
+      "primaryActions": 1,
+      "scale": "100",
+      "width": 375
+    },
+    {
+      "action": "{{ACTION_URL}}",
+      "colours": {
+        "background": "rgb(244, 241, 233)",
+        "body": "rgb(25, 26, 23)",
+        "cta": "rgb(25, 26, 23)",
+        "ctaText": "rgb(252, 250, 245)",
+        "muted": "rgb(105, 106, 98)"
+      },
+      "ctaHeight": 50,
+      "email": "01-confirm-email",
+      "fallback": "{{ACTION_URL}}",
+      "fixture": "standard",
+      "flat": "0",
+      "font": "fallback",
+      "fontReady": true,
+      "h1": 1,
+      "height": 777.78125,
+      "horizontalOverflow": false,
+      "images": "1",
+      "logos": [
+        {
+          "alt": "I'M HERE",
+          "complete": true,
+          "width": 144
+        }
+      ],
+      "minBodySize": 16,
+      "mode": "light",
+      "overflowText": [],
+      "primaryActions": 1,
+      "scale": "100",
+      "width": 600
+    },
+    {
+      "action": "{{ACTION_URL}}",
+      "colours": {
+        "background": "rgb(25, 26, 23)",
+        "body": "rgb(252, 250, 245)",
+        "cta": "rgb(244, 241, 233)",
+        "ctaText": "rgb(25, 26, 23)",
+        "muted": "rgb(183, 179, 169)"
+      },
+      "ctaHeight": 50,
+      "email": "01-confirm-email",
+      "fallback": "{{ACTION_URL}}",
+      "fixture": "standard",
+      "flat": "0",
+      "font": "fallback",
+      "fontReady": true,
+      "h1": 1,
+      "height": 847.8515625,
+      "horizontalOverflow": false,
+      "images": "1",
+      "logos": [
+        {
+          "alt": "I'M HERE",
+          "complete": true,
+          "width": 144
+        }
+      ],
+      "minBodySize": 16,
+      "mode": "dark",
+      "overflowText": [],
+      "primaryActions": 1,
+      "scale": "100",
+      "width": 375
+    },
+    {
+      "action": "{{ACTION_URL}}",
+      "colours": {
+        "background": "rgb(25, 26, 23)",
+        "body": "rgb(252, 250, 245)",
+        "cta": "rgb(244, 241, 233)",
+        "ctaText": "rgb(25, 26, 23)",
+        "muted": "rgb(183, 179, 169)"
+      },
+      "ctaHeight": 50,
+      "email": "01-confirm-email",
+      "fallback": "{{ACTION_URL}}",
+      "fixture": "standard",
+      "flat": "0",
+      "font": "fallback",
+      "fontReady": true,
+      "h1": 1,
+      "height": 777.78125,
+      "horizontalOverflow": false,
+      "images": "1",
+      "logos": [
+        {
+          "alt": "I'M HERE",
+          "complete": true,
+          "width": 144
+        }
+      ],
+      "minBodySize": 16,
+      "mode": "dark",
+      "overflowText": [],
+      "primaryActions": 1,
+      "scale": "100",
+      "width": 600
+    }
+  ]
+}

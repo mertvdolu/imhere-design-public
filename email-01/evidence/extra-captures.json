@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "name": "evidence-email-changed-long-light-375",
+      "email": "04-email-changed",
+      "mode": "light",
+      "width": 375,
+      "font": "arial",
+      "fixture": "long",
+      "scale": 100
+    },
+    {
+      "name": "evidence-email-changed-masked-dark-375",
+      "email": "04-email-changed",
+      "mode": "dark",
+      "width": 375,
+      "font": "fallback",
+      "fixture": "masked",
+      "scale": 100
+    },
+    {
+      "name": "evidence-images-off-flat-dark-600",
+      "email": "01-confirm-email",
+      "mode": "dark",
+      "width": 600,
+      "font": "fallback",
+      "fixture": "standard",
+      "scale": 100,
+      "images": 0,
+      "flat": 1
+    },
+    {
+      "name": "evidence-email-changed-large-light-320",
+      "email": "04-email-changed",
+      "mode": "light",
+      "width": 320,
+      "font": "arial",
+      "fixture": "long",
+      "scale": 200
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-12",
+  "baseCommit": "af8137a3a0a3e8343dd72e4eb0fb8dbdfa11c317",
+  "briefSha256": "5ff59903dd8ab2ae6926d6799d13822669dd70550b3bbc4288cd3ba6c61d2c1c",
+  "exactBriefFieldCount": 23,
+  "proposedAdditions": 4,
+  "technicalReferences": [
+    "https://developers.google.com/workspace/gmail/design/css",
+    "https://webkit.org/blog/8840/dark-mode-support-in-webkit/"
+  ],
+  "themeSource": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+  "brandSource": "02-SON-EKLER/imhere-cream-complete-v2.2/brand/README.md"
+}

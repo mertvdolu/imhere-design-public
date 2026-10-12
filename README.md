@@ -12,6 +12,10 @@
 
 Paketin mevcut klasör adı `imhere-cream-complete-v2.2` bilerek korunur. İçindeki token sürümü ve güncel yüzey dili **2.3**. Klasör adını değiştirip dosyaları çoğaltmadan Code'un referanslarını koruyoruz. Önceki tema Git geçmişinde.
 
+## EMAIL-01 — markalı hesap e-postaları
+
+[Teslim](email-01/HANDOFF.md) · [HTML önizleme](email-01/ONIZLEME.html) · [16 ana PNG](email-01/SCREEN-MATRIX.md) · [Metinler](email-01/copy.md). Cream & Ink v2.3, English (UK); dört işlem e-postası, açık/koyu,375/600. Copy HARBOR + Founder onayı bekler; son HTML ve istemci/gönderim testleri Code'da.
+
 ## PROFIL-AL — varsayılan amaç + LinkedIn
 
 [Teslim](profil-al/HANDOFF.md) · [35 durum önizlemesi](profil-al/ONIZLEME.html) · [PNG listesi](profil-al/SCREEN-STATE-MATRIX.md) · [Metin incelemesi](profil-al/COPY-REVIEW.md). Kaydırıcı/yüzdeler yerine özel varsayılan amaç; LinkedIn yalnız izin verilen iki kişi görünümünde. Metinler HARBOR + Founder onayı bekler. Y2’nin “önseçim yok” kuralı artık ayarsız/okunamayan varsayılan için geçerlidir.

@@ -1,0 +1,50 @@
+[
+  {
+    "mode": "light",
+    "role": "body",
+    "foreground": "#191A17",
+    "background": "#F4F1E9",
+    "ratio": 15.49,
+    "AA": true
+  },
+  {
+    "mode": "light",
+    "role": "secondary",
+    "foreground": "#696A62",
+    "background": "#F4F1E9",
+    "ratio": 4.85,
+    "AA": true
+  },
+  {
+    "mode": "light",
+    "role": "button",
+    "foreground": "#FCFAF5",
+    "background": "#191A17",
+    "ratio": 16.76,
+    "AA": true
+  },
+  {
+    "mode": "dark",
+    "role": "body",
+    "foreground": "#FCFAF5",
+    "background": "#191A17",
+    "ratio": 16.76,
+    "AA": true
+  },
+  {
+    "mode": "dark",
+    "role": "secondary",
+    "foreground": "#B7B3A9",
+    "background": "#191A17",
+    "ratio": 8.35,
+    "AA": true
+  },
+  {
+    "mode": "dark",
+    "role": "button",
+    "foreground": "#191A17",
+    "background": "#F4F1E9",
+    "ratio": 15.49,
+    "AA": true
+  }
+]

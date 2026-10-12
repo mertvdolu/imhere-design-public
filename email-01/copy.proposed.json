@@ -1,0 +1,83 @@
+{
+  "version": "1.0",
+  "locale": "en-GB",
+  "status": "PROPOSED — HARBOR + FOUNDER COPY APPROVAL REQUIRED",
+  "emails": [
+    {
+      "id": "01-confirm-email",
+      "label": "Confirm email",
+      "recipient": "Registration email; resend uses the same template",
+      "subject": "Confirm your email for I'M HERE",
+      "preheader": "One tap to finish setting up your account.",
+      "heading": "Confirm your email",
+      "body": "Tap the button to confirm this is your email address. Then go back to I'M HERE and tap Check verification.",
+      "button": "Confirm email",
+      "expiry": "This link expires in {{EXPIRY}}.",
+      "safety": "Didn't create an I'M HERE account? You can ignore this email.",
+      "action": "{{ACTION_URL}}"
+    },
+    {
+      "id": "02-reset-password",
+      "label": "Reset password",
+      "recipient": "Account email",
+      "subject": "Reset your I'M HERE password",
+      "preheader": "Choose a new password.",
+      "heading": "Reset your password",
+      "body": "We received a request to reset the password for {{EMAIL}}. Tap the button to choose a new one.",
+      "button": "Choose a new password",
+      "expiry": "This link expires in {{EXPIRY}}.",
+      "safety": "Didn't ask for this? You can ignore this email. Your password won't change.",
+      "action": "{{ACTION_URL}}"
+    },
+    {
+      "id": "03-confirm-new-email",
+      "label": "Confirm new email",
+      "recipient": "New email, before confirmation",
+      "subject": "Confirm your new email for I'M HERE",
+      "preheader": null,
+      "heading": "Confirm your new email",
+      "body": "Tap the button to make {{NEW_EMAIL}} the sign-in email for your I'M HERE account. Your profile, photo and connections stay the same.",
+      "button": "Confirm new email",
+      "expiry": null,
+      "safety": "Didn't ask for this? You can ignore this email. Nothing will change.",
+      "action": "{{ACTION_URL}}"
+    },
+    {
+      "id": "04-email-changed",
+      "label": "Email changed",
+      "recipient": "Old email, after the change",
+      "subject": "Your I'M HERE sign-in email was changed",
+      "preheader": null,
+      "heading": "Your sign-in email was changed",
+      "body": "The sign-in email for your I'M HERE account was changed to {{NEW_EMAIL}}. If this was you, you don't need to do anything.",
+      "button": "This wasn't me",
+      "expiry": null,
+      "safety": null,
+      "action": "{{REVERT_URL}}"
+    }
+  ],
+  "commonExact": {
+    "brand": "I'M HERE",
+    "reason": "You're receiving this email because of activity on your I'M HERE account.",
+    "links": "Help · Privacy",
+    "signoff": "I'M HERE · London",
+    "expirySource": "This link expires in {{EXPIRY}}."
+  },
+  "proposals": {
+    "fallbackHelp": "If the button doesn't work, copy and paste this link into your browser.",
+    "03-confirm-new-email.preheader": "Confirm the email you use to sign in.",
+    "04-email-changed.preheader": "Review this change to your account.",
+    "04-email-changed.safety": "Didn't make this change? Use the button above to undo it."
+  },
+  "layoutReuse": {
+    "03-confirm-new-email.expiry": "commonExact.expirySource",
+    "04-email-changed.expiry": "commonExact.expirySource"
+  },
+  "openDecisions": [
+    "HARBOR + Founder final copy approval, including the proposed fallback, preheaders and E04 safety line.",
+    "HARBOR chooses full or masked NEW_EMAIL in E04; the preview supports both without deciding the production policy.",
+    "Code supplies the actual EXPIRY per action; no duration or revert window is invented.",
+    "Code/Founder supplies approved HELP_URL and PRIVACY_URL; these integration slots are not new product copy.",
+    "Latest brief uses I'M HERE in email copy; phone app name IM HERE is unchanged."
+  ]
+}

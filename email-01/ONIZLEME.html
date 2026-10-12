@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>IM HERE · EMAIL-01 · Cream & Ink v2.3</title><link rel="stylesheet" href="preview.css?v=1.0"></head>
+<body>
+<header class="masthead"><span>IM HERE / EMAIL-01</span><a href="HANDOFF.md">Teslim notu ↗</a></header>
+<main class="workspace"><aside class="inspector">
+<p class="eyebrow">CREAM & INK v2.3 / E-POSTA v1.0</p><h1>Gelen kutusunda<br>aynı karakter.</h1>
+<p>Dört hesap e-postası. Tek sütun, mevcut logo, okunur metin ve tek ana eylem.</p>
+<div class="notice"><strong>PROPOSED</strong><br>Metinler HARBOR + Founder onayı bekler. Bu bir tarayıcı tasarım örneği; gerçek e-posta istemcisi testi değildir.</div>
+<label>E-posta<select id="email"></select></label>
+<div class="two"><label>Görünüm<select id="mode"><option value="light">Açık</option><option value="dark">Koyu</option></select></label><label>Genişlik<select id="width"><option value="375">Mobil · 375 px</option><option value="600">Masaüstü · 600 px</option><option value="320">Dar kontrol · 320 px</option></select></label></div>
+<label>Font<select id="font"><option value="fallback">Yedek: Helvetica Neue / Arial</option><option value="arial">Arial</option><option value="geist">Geist</option></select></label>
+<label>İçerik örneği<select id="fixture"><option value="standard">alex@example.com + yer tutucular</option><option value="long">Uzun adres + uzun bağlantı kontrolü</option><option value="masked">Maskeli adres örneği (E04)</option></select></label>
+<label>Metin<select id="scale"><option value="100">%100</option><option value="200">%200 kontrol</option></select></label>
+<label class="check"><input id="images" type="checkbox">Görseller kapalı örneği</label><label class="check"><input id="flat" type="checkbox">Gölgesiz / köşeli yedek örneği</label>
+<p id="context" class="context"></p><p class="small">Örnekte düğmeler hesap işlemi yapmaz. Linkler ve süreler yer tutucudur. Koyu görünüm, istemcinin zorunlu renk dönüşümünü simüle etmez.</p>
+<nav><a href="SPEC.md">Ölçüler</a><a href="copy.md">Metinler</a><a href="SCREEN-MATRIX.md">PNG listesi</a></nav>
+</aside><section class="stage"><div class="envelope"><span>SUBJECT</span><p id="subject"></p><span>PREHEADER</span><p id="preheader"></p></div><article id="email-frame" lang="en-GB" aria-label="Email design"></article><p class="caption">Draft copy · Fictional address · Browser visual preview</p></section></main>
+<script src="copy.js"></script><script src="preview.js?v=1.0"></script></body></html>
