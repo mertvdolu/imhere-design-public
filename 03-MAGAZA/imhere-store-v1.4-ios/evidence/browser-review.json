@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-13",
+  "surface": "Codex in-app browser",
+  "page": "ONIZLEME.html",
+  "result": "PASS",
+  "observed": {
+    "sceneCards": 6,
+    "sizeOptionsChecked": ["iphone-6.9", "iphone-6.5", "iphone-dynamic-island-medium"],
+    "nativeToggle": "Six original native source links; return to composed artwork confirmed",
+    "loadedMainImages": 6,
+    "loadedMainImageNaturalWidth": 1320,
+    "observedImageDisplayWidth": 425,
+    "observedImageDisplayHeight": 923,
+    "horizontalOverflow": false,
+    "consoleErrorsObserved": 0,
+    "imageAspectReservedBeforeLoad": true
+  },
+  "limits": "One browser window, not exhaustive responsive/device testing. Store PNGs separately checked by validate.py."
+}

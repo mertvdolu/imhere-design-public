@@ -12,6 +12,10 @@
 
 Paketin mevcut klasör adı `imhere-cream-complete-v2.2` bilerek korunur. İçindeki token sürümü ve güncel yüzey dili **2.3**. Klasör adını değiştirip dosyaları çoğaltmadan Code'un referanslarını koruyoruz. Önceki tema Git geçmişinde.
 
+## STORE-IOS-14 — 1.4.0 iPhone mağaza seti
+
+[Teslim](03-MAGAZA/imhere-store-v1.4-ios/HANDOFF.md) · [HTML önizleme](03-MAGAZA/imhere-store-v1.4-ios/ONIZLEME.html) · [Altı kare](03-MAGAZA/imhere-store-v1.4-ios/review/iphone-6.9-contact-sheet.png) · [Copy incelemesi](03-MAGAZA/imhere-store-v1.4-ios/COPY-REVIEW.md). 1.4.0 (19) native iOS çekimleri; Cream & Ink v2.3, üç ölçüde 18 opak RGB PNG. Copy HARBOR + Founder onayı bekler. [Play hazırlığı](03-MAGAZA/imhere-store-v1.4-play/NATIVE-CAPTURE-REQUEST.md) ayrı; Android kaynakları bekleniyor.
+
 ## EMAIL-01 — markalı hesap e-postaları
 
 [Teslim](email-01/HANDOFF.md) · [HTML önizleme](email-01/ONIZLEME.html) · [16 ana PNG](email-01/SCREEN-MATRIX.md) · [Metinler](email-01/copy.md). Cream & Ink v2.3, English (UK); dört işlem e-postası, açık/koyu,375/600. Copy HARBOR + Founder onayı bekler; son HTML ve istemci/gönderim testleri Code'da.

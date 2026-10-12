@@ -1,0 +1,187 @@
+{
+  "count": 18,
+  "allOpaque": true,
+  "allRGB": true,
+  "exports": [
+    {
+      "file": "app-store/iphone-6.9/01-purpose.png",
+      "width": 1320,
+      "height": 2868,
+      "channels": 3,
+      "hasAlpha": false,
+      "space": "srgb",
+      "format": "png",
+      "bytes": 157927
+    },
+    {
+      "file": "app-store/iphone-6.9/02-nearby.png",
+      "width": 1320,
+      "height": 2868,
+      "channels": 3,
+      "hasAlpha": false,
+      "space": "srgb",
+      "format": "png",
+      "bytes": 283758
+    },
+    {
+      "file": "app-store/iphone-6.9/03-request-profile.png",
+      "width": 1320,
+      "height": 2868,
+      "channels": 3,
+      "hasAlpha": false,
+      "space": "srgb",
+      "format": "png",
+      "bytes": 202334
+    },
+    {
+      "file": "app-store/iphone-6.9/04-chat.png",
+      "width": 1320,
+      "height": 2868,
+      "channels": 3,
+      "hasAlpha": false,
+      "space": "srgb",
+      "format": "png",
+      "bytes": 287004
+    },
+    {
+      "file": "app-store/iphone-6.9/05-event-detail.png",
+      "width": 1320,
+      "height": 2868,
+      "channels": 3,
+      "hasAlpha": false,
+      "space": "srgb",
+      "format": "png",
+      "bytes": 216372
+    },
+    {
+      "file": "app-store/iphone-6.9/06-area-activity.png",
+      "width": 1320,
+      "height": 2868,
+      "channels": 3,
+      "hasAlpha": false,
+      "space": "srgb",
+      "format": "png",
+      "bytes": 1019800
+    },
+    {
+      "file": "app-store/iphone-6.5/01-purpose.png",
+      "width": 1242,
+      "height": 2688,
+      "channels": 3,
+      "hasAlpha": false,
+      "space": "srgb",
+      "format": "png",
+      "bytes": 144122
+    },
+    {
+      "file": "app-store/iphone-6.5/02-nearby.png",
+      "width": 1242,
+      "height": 2688,
+      "channels": 3,
+      "hasAlpha": false,
+      "space": "srgb",
+      "format": "png",
+      "bytes": 258357
+    },
+    {
+      "file": "app-store/iphone-6.5/03-request-profile.png",
+      "width": 1242,
+      "height": 2688,
+      "channels": 3,
+      "hasAlpha": false,
+      "space": "srgb",
+      "format": "png",
+      "bytes": 185619
+    },
+    {
+      "file": "app-store/iphone-6.5/04-chat.png",
+      "width": 1242,
+      "height": 2688,
+      "channels": 3,
+      "hasAlpha": false,
+      "space": "srgb",
+      "format": "png",
+      "bytes": 257217
+    },
+    {
+      "file": "app-store/iphone-6.5/05-event-detail.png",
+      "width": 1242,
+      "height": 2688,
+      "channels": 3,
+      "hasAlpha": false,
+      "space": "srgb",
+      "format": "png",
+      "bytes": 196921
+    },
+    {
+      "file": "app-store/iphone-6.5/06-area-activity.png",
+      "width": 1242,
+      "height": 2688,
+      "channels": 3,
+      "hasAlpha": false,
+      "space": "srgb",
+      "format": "png",
+      "bytes": 916018
+    },
+    {
+      "file": "app-store/iphone-dynamic-island-medium/01-purpose.png",
+      "width": 1206,
+      "height": 2622,
+      "channels": 3,
+      "hasAlpha": false,
+      "space": "srgb",
+      "format": "png",
+      "bytes": 139034
+    },
+    {
+      "file": "app-store/iphone-dynamic-island-medium/02-nearby.png",
+      "width": 1206,
+      "height": 2622,
+      "channels": 3,
+      "hasAlpha": false,
+      "space": "srgb",
+      "format": "png",
+      "bytes": 248158
+    },
+    {
+      "file": "app-store/iphone-dynamic-island-medium/03-request-profile.png",
+      "width": 1206,
+      "height": 2622,
+      "channels": 3,
+      "hasAlpha": false,
+      "space": "srgb",
+      "format": "png",
+      "bytes": 178873
+    },
+    {
+      "file": "app-store/iphone-dynamic-island-medium/04-chat.png",
+      "width": 1206,
+      "height": 2622,
+      "channels": 3,
+      "hasAlpha": false,
+      "space": "srgb",
+      "format": "png",
+      "bytes": 251144
+    },
+    {
+      "file": "app-store/iphone-dynamic-island-medium/05-event-detail.png",
+      "width": 1206,
+      "height": 2622,
+      "channels": 3,
+      "hasAlpha": false,
+      "space": "srgb",
+      "format": "png",
+      "bytes": 188549
+    },
+    {
+      "file": "app-store/iphone-dynamic-island-medium/06-area-activity.png",
+      "width": 1206,
+      "height": 2622,
+      "channels": 3,
+      "hasAlpha": false,
+      "space": "srgb",
+      "format": "png",
+      "bytes": 881260
+    }
+  ]
+}

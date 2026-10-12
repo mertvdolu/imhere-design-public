@@ -1,0 +1,592 @@
+{
+  "package": "imhere-store-v1.4-ios",
+  "theme": "Cream & Ink v2.3",
+  "appVersion": "1.4.0 (19)",
+  "date": "2026-10-13",
+  "status": "DESIGN EXPORTED — HARBOR + FOUNDER COPY APPROVAL REQUIRED",
+  "hashAlgorithm": "SHA256",
+  "selfExclusion": "MANIFEST.json",
+  "storePngCount": 18,
+  "fileCount": 73,
+  "files": [
+    {
+      "file": "COPY-REVIEW.md",
+      "bytes": 2748,
+      "sha256": "16e94a590acedc9508982a628f641b3e619cea22e89cf662df2d2fe3ada156cb",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "DELIVERY.json",
+      "bytes": 15401,
+      "sha256": "27d1f16ccead4900ebcd85177e9719c9a594555017e3b068b1bfd7129c23ac21",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "HANDOFF.md",
+      "bytes": 2820,
+      "sha256": "5684fda1ccd42d5dbfc6c6cf094543f58808506a20de445e23713e6fb49bce22",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "NATIVE-CAPTURE-REQUEST.md",
+      "bytes": 7992,
+      "sha256": "ed386d0f70808839edf2bbc1f6706c3b50cf6756d74a571c4e84e066b5d22e6e",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "ONIZLEME.html",
+      "bytes": 7592,
+      "sha256": "c3026ac38dcfcec0b99f49a569a5b1041b5a0a1f010575737199363962130ecd",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "README.md",
+      "bytes": 1916,
+      "sha256": "c6b4ae8adff36abb3b2837e98f7537509a0bcae1461248774d20ecab0831e988",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "SPEC.md",
+      "bytes": 4150,
+      "sha256": "f542dacced4d725bc98b742739976f9d7622f643d9eab22b51b6608bda561a5c",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "VALIDATION.md",
+      "bytes": 2582,
+      "sha256": "09a9aa3ab08dd0b9b1e0bebc157818024a38350b499070be6ce8a14f6ec949d8",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "app-store/iphone-6.5/01-purpose.png",
+      "bytes": 144122,
+      "sha256": "57bad0f40031e97e6a21ff44054f74de11ec3a46687c61b78973fb49a038b837",
+      "width": 1242,
+      "height": 2688,
+      "mode": "RGB",
+      "role": "store-upload-candidate-copy-approval-pending"
+    },
+    {
+      "file": "app-store/iphone-6.5/02-nearby.png",
+      "bytes": 258357,
+      "sha256": "b599749aa93b676d5bc9a9d29185dd1135ac620a6d5d216c331265906e9396c6",
+      "width": 1242,
+      "height": 2688,
+      "mode": "RGB",
+      "role": "store-upload-candidate-copy-approval-pending"
+    },
+    {
+      "file": "app-store/iphone-6.5/03-request-profile.png",
+      "bytes": 185619,
+      "sha256": "44baf1e142e56b4dd9bea137295d05ea3b77d265d789257ffd8ee5eed8ace05d",
+      "width": 1242,
+      "height": 2688,
+      "mode": "RGB",
+      "role": "store-upload-candidate-copy-approval-pending"
+    },
+    {
+      "file": "app-store/iphone-6.5/04-chat.png",
+      "bytes": 257217,
+      "sha256": "67517b70ab64c28fb19be6c533e0c949650a3f124921040c514501879ac19f4d",
+      "width": 1242,
+      "height": 2688,
+      "mode": "RGB",
+      "role": "store-upload-candidate-copy-approval-pending"
+    },
+    {
+      "file": "app-store/iphone-6.5/05-event-detail.png",
+      "bytes": 196921,
+      "sha256": "4caae2114a59d3f87605df495cb4fa79733b927c74be1d5fadf498813b90984d",
+      "width": 1242,
+      "height": 2688,
+      "mode": "RGB",
+      "role": "store-upload-candidate-copy-approval-pending"
+    },
+    {
+      "file": "app-store/iphone-6.5/06-area-activity.png",
+      "bytes": 916018,
+      "sha256": "07e6e718809a31428ee48461f1824cb09ae853992eeced723b751792b8981eb2",
+      "width": 1242,
+      "height": 2688,
+      "mode": "RGB",
+      "role": "store-upload-candidate-copy-approval-pending"
+    },
+    {
+      "file": "app-store/iphone-6.9/01-purpose.png",
+      "bytes": 157927,
+      "sha256": "28681be850dabf190e2790f1827d59b7887cb9b8e9b1ed760bbcd731efb9ae9f",
+      "width": 1320,
+      "height": 2868,
+      "mode": "RGB",
+      "role": "store-upload-candidate-copy-approval-pending"
+    },
+    {
+      "file": "app-store/iphone-6.9/02-nearby.png",
+      "bytes": 283758,
+      "sha256": "1dcb352d5f8a98090e4f9c762f5ff2bfd7af04440f8c21a1ba478657cda27c80",
+      "width": 1320,
+      "height": 2868,
+      "mode": "RGB",
+      "role": "store-upload-candidate-copy-approval-pending"
+    },
+    {
+      "file": "app-store/iphone-6.9/03-request-profile.png",
+      "bytes": 202334,
+      "sha256": "ec069e564a7ec4d02fe5ab4dced36303497349b910eda97df1b52da715519ac8",
+      "width": 1320,
+      "height": 2868,
+      "mode": "RGB",
+      "role": "store-upload-candidate-copy-approval-pending"
+    },
+    {
+      "file": "app-store/iphone-6.9/04-chat.png",
+      "bytes": 287004,
+      "sha256": "979401455402c16762c26209a11cd56c4b0b06e9b7b307a88466e5d02cafbf97",
+      "width": 1320,
+      "height": 2868,
+      "mode": "RGB",
+      "role": "store-upload-candidate-copy-approval-pending"
+    },
+    {
+      "file": "app-store/iphone-6.9/05-event-detail.png",
+      "bytes": 216372,
+      "sha256": "20f56c4efd1bbb92c5226573ce67b08b3e6fab3d9827f6550719ccb9436fced4",
+      "width": 1320,
+      "height": 2868,
+      "mode": "RGB",
+      "role": "store-upload-candidate-copy-approval-pending"
+    },
+    {
+      "file": "app-store/iphone-6.9/06-area-activity.png",
+      "bytes": 1019800,
+      "sha256": "a6d1d9bd5091cfcc243f265f1d81f4aacf57a938788ed3a50a63d3a6a88d64ef",
+      "width": 1320,
+      "height": 2868,
+      "mode": "RGB",
+      "role": "store-upload-candidate-copy-approval-pending"
+    },
+    {
+      "file": "app-store/iphone-dynamic-island-medium/01-purpose.png",
+      "bytes": 139034,
+      "sha256": "e931e146727d5ae2b784833fe2950dd5e42131067f47d8cf23eb6c06746e41f1",
+      "width": 1206,
+      "height": 2622,
+      "mode": "RGB",
+      "role": "store-upload-candidate-copy-approval-pending"
+    },
+    {
+      "file": "app-store/iphone-dynamic-island-medium/02-nearby.png",
+      "bytes": 248158,
+      "sha256": "2f51b6f97614dbe35ee12de585e6cbe63c4397085669233f93c6aa512989b29d",
+      "width": 1206,
+      "height": 2622,
+      "mode": "RGB",
+      "role": "store-upload-candidate-copy-approval-pending"
+    },
+    {
+      "file": "app-store/iphone-dynamic-island-medium/03-request-profile.png",
+      "bytes": 178873,
+      "sha256": "a14515fec2c1085446916965330631b7794f74fdbcd69506f9fd5cbaf2375695",
+      "width": 1206,
+      "height": 2622,
+      "mode": "RGB",
+      "role": "store-upload-candidate-copy-approval-pending"
+    },
+    {
+      "file": "app-store/iphone-dynamic-island-medium/04-chat.png",
+      "bytes": 251144,
+      "sha256": "3438c52d3e6e4580f49d647723ee4d74ae796f3d5e1a52b31aaeb32c8d27fcbe",
+      "width": 1206,
+      "height": 2622,
+      "mode": "RGB",
+      "role": "store-upload-candidate-copy-approval-pending"
+    },
+    {
+      "file": "app-store/iphone-dynamic-island-medium/05-event-detail.png",
+      "bytes": 188549,
+      "sha256": "e75d77004206a2eb49d7481684dc7052d893b5dab36d7b7f35683f1cd91bf0d7",
+      "width": 1206,
+      "height": 2622,
+      "mode": "RGB",
+      "role": "store-upload-candidate-copy-approval-pending"
+    },
+    {
+      "file": "app-store/iphone-dynamic-island-medium/06-area-activity.png",
+      "bytes": 881260,
+      "sha256": "77bc3eea64413cf7bf005459e1cebc91d2e715bcf122933e9df72621a89735f0",
+      "width": 1206,
+      "height": 2622,
+      "mode": "RGB",
+      "role": "store-upload-candidate-copy-approval-pending"
+    },
+    {
+      "file": "assets/Geist-Medium.ttf",
+      "bytes": 127660,
+      "sha256": "3a3b36f0d0b981f4857f7f00eeef4a5ee123605575d362ab31ee7c19e3d11f2f",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "assets/Geist-Medium.woff2",
+      "bytes": 19992,
+      "sha256": "dc097e4fa082f01c44ccc7a5ee13ed30259e791a663b9ffa81225ecb4869f40f",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "assets/Geist-Regular.ttf",
+      "bytes": 126048,
+      "sha256": "85a1c6b18a6b0a06dfe9fd4f6d6a5d4979f74ec861eaef4bc7868b5492b8a117",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "assets/Geist-Regular.woff2",
+      "bytes": 19400,
+      "sha256": "e11300a9faf16e0c5e04bf63e6a082d614d82a3ef5ad50614f770cb8242a412b",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "assets/OFL.txt",
+      "bytes": 4383,
+      "sha256": "942560b236adfa83745b2c64e5fc09ebaf91cb331751b1157eb92187e5d6e930",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "assets/imhere-mark-icon-weight.svg",
+      "bytes": 565,
+      "sha256": "2ab93326b0dc88965527e8a2552495ce45e75df6a1da949752072379e60ff663",
+      "width": 144.0,
+      "height": 91.32,
+      "viewBox": "0 0 144 91.32",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "assets/maya-synthetic.jpg",
+      "bytes": 209523,
+      "sha256": "b22e4f29deed6ff90922b1ccfa43889ceacb40559e407d6ad5efaee8eb14a054",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "evidence/artwork-validation.json",
+      "bytes": 14695,
+      "sha256": "392d0f7d13c977b77548cb00827e6aa37d8b57fc3b8d9db04a6267e980979138",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "evidence/browser-review.json",
+      "bytes": 710,
+      "sha256": "a27dfdf342ba9385b5396942af9762ffb905124c738aa94157dafb6f44d63b01",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "evidence/export-validation.json",
+      "bytes": 4244,
+      "sha256": "2588c248349b34f26b7b4c3e7777001ac34f821a6b0b93af80578b8c21caaa4e",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "review/iphone-6.5-contact-sheet.png",
+      "bytes": 575731,
+      "sha256": "6c2e9702835eb741173df4e59c0cb6cf701f0c00066878d3b843cc94d94326ad",
+      "width": 1176,
+      "height": 1702,
+      "mode": "RGB",
+      "role": "review-only-not-for-store"
+    },
+    {
+      "file": "review/iphone-6.9-contact-sheet.png",
+      "bytes": 576976,
+      "sha256": "892ae29880b3d3b21080bfce4ae882e067b5466cc68e88693d53bf00321619cf",
+      "width": 1176,
+      "height": 1708,
+      "mode": "RGB",
+      "role": "review-only-not-for-store"
+    },
+    {
+      "file": "review/iphone-dynamic-island-medium-contact-sheet.png",
+      "bytes": 578613,
+      "sha256": "c396d2ca18fcbc3bab98a89a6f87264c297fc0a698657fcf37be19bc9e867848",
+      "width": 1176,
+      "height": 1708,
+      "mode": "RGB",
+      "role": "review-only-not-for-store"
+    },
+    {
+      "file": "source/build.py",
+      "bytes": 5820,
+      "sha256": "91325ca0f0f0eb19300d26ec35d3b92080629a9f83c93b41988aec33ba2e45b4",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/capture-provenance.json",
+      "bytes": 1677,
+      "sha256": "90dcac60780b77f006de39ffe692a509e148de606a04e05cd73728ea0d5e0eea",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/copy.en-GB.json",
+      "bytes": 1540,
+      "sha256": "08827d19dfaf51ad4f6d6a83e85886d22fe79333c6ee4889f59342b1d7aac680",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/evidence/BENIOKU.md",
+      "bytes": 6253,
+      "sha256": "90f05c7def2ba99172a9808d1c218bad1c65fb8b376897be9053ae848c11da15",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/evidence/CEKIM-KAYDI.txt",
+      "bytes": 1189,
+      "sha256": "a89598ca9a5777691b3e571facce48efad7c62b3242385e0113a1d4bf3002750",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/evidence/KADRAJ-NOTLARI.txt",
+      "bytes": 91,
+      "sha256": "0a9584c0cf463db49a1a1e6d4f84f465c47d41dd9651e0a902dda3babbaa90ac",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/manifest.py",
+      "bytes": 1870,
+      "sha256": "2fa5dcba44d2096e7f728d1fa2f6b38ec862390965988a98d2912014fd8fc380",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/native/ios/01-amac.png",
+      "bytes": 184772,
+      "sha256": "8534ef006bbf3df22daab2348dc56ad70f8e4f562b5889ddbd4f2d458e9516cf",
+      "width": 1206,
+      "height": 2622,
+      "mode": "RGBA",
+      "role": "unaltered-native-source"
+    },
+    {
+      "file": "source/native/ios/02-yakindakiler.png",
+      "bytes": 306829,
+      "sha256": "91a25d390f0031b33ff35cfff7e4c3ef1cd6acbd4fd19cda7b8c7f4ae930ed8a",
+      "width": 1206,
+      "height": 2622,
+      "mode": "RGBA",
+      "role": "unaltered-native-source"
+    },
+    {
+      "file": "source/native/ios/03-istek-profili.png",
+      "bytes": 252645,
+      "sha256": "eceebaa811d814e145953a2bd6434c4ad2a24bed5123593db3d17ece025ccf0e",
+      "width": 1206,
+      "height": 2622,
+      "mode": "RGBA",
+      "role": "unaltered-native-source"
+    },
+    {
+      "file": "source/native/ios/04-sohbet.png",
+      "bytes": 295238,
+      "sha256": "12ba61a774639d64e2d562d4af8dd59ea16a245e15d1d8280aa469fcc8ba64c0",
+      "width": 1206,
+      "height": 2622,
+      "mode": "RGBA",
+      "role": "unaltered-native-source"
+    },
+    {
+      "file": "source/native/ios/05-etkinlik.png",
+      "bytes": 263238,
+      "sha256": "39b175dc2feb17f0ce1d1238f2874036f4403d07d65615f6da2326e1aec4b5eb",
+      "width": 1206,
+      "height": 2622,
+      "mode": "RGBA",
+      "role": "unaltered-native-source"
+    },
+    {
+      "file": "source/native/ios/06-harita.png",
+      "bytes": 1327334,
+      "sha256": "b66ebea8960728e1dbce105849d9c6dfc6208bb366f79da8e287271cefc8636c",
+      "width": 1206,
+      "height": 2622,
+      "mode": "RGBA",
+      "role": "unaltered-native-source"
+    },
+    {
+      "file": "source/portrait-placements.json",
+      "bytes": 474,
+      "sha256": "e58f04c8bf78d1c8013a043d9811448f46c9ce911dadadfa785b4709a0f61c69",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/render.cjs",
+      "bytes": 3392,
+      "sha256": "038759bec97cae3946bf9591201c3b902dae790fc4e9ac8fe81a32a4be28dd65",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/svg/iphone-6.5/01-purpose.svg",
+      "bytes": 301530,
+      "sha256": "4f8ab0d0d1d646b5b0137e3571c6257faaf4d4456a0d260d0e9732d7dc3a6b96",
+      "width": 1242.0,
+      "height": 2688.0,
+      "viewBox": "0 0 1320 2856.8115942028985",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/svg/iphone-6.5/02-nearby.svg",
+      "bytes": 743907,
+      "sha256": "d7800adc8c22e820efb4fecf07199a1bbc949978cc16e2684342fe6e875daeb0",
+      "width": 1242.0,
+      "height": 2688.0,
+      "viewBox": "0 0 1320 2856.8115942028985",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/svg/iphone-6.5/03-request-profile.svg",
+      "bytes": 392049,
+      "sha256": "ed01d9a047a6e2d774423c9f2487e01da2b515d9f87ede4143178ff336c0f30c",
+      "width": 1242.0,
+      "height": 2688.0,
+      "viewBox": "0 0 1320 2856.8115942028985",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/svg/iphone-6.5/04-chat.svg",
+      "bytes": 728458,
+      "sha256": "e3b0cbc40f031dcc559002fde6a75e21e2d212c0c6eb2f6337b1305a06c41b2b",
+      "width": 1242.0,
+      "height": 2688.0,
+      "viewBox": "0 0 1320 2856.8115942028985",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/svg/iphone-6.5/05-event-detail.svg",
+      "bytes": 406174,
+      "sha256": "a2de87ade21ada154a4cd8ef4888662492a289a97546d958ea16ac5cf9d2cb00",
+      "width": 1242.0,
+      "height": 2688.0,
+      "viewBox": "0 0 1320 2856.8115942028985",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/svg/iphone-6.5/06-area-activity.svg",
+      "bytes": 1825127,
+      "sha256": "7547d3753c19558460109ce90b79142fc6519bb1eda5ad62edefdad128aff810",
+      "width": 1242.0,
+      "height": 2688.0,
+      "viewBox": "0 0 1320 2856.8115942028985",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/svg/iphone-6.9/01-purpose.svg",
+      "bytes": 301472,
+      "sha256": "2067ef1e346cb4c69882ea1facf6df33968eed99115ef1b363abbaf2f7863568",
+      "width": 1320.0,
+      "height": 2868.0,
+      "viewBox": "0 0 1320 2868.0",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/svg/iphone-6.9/02-nearby.svg",
+      "bytes": 743849,
+      "sha256": "911dd4116d436bc16e7b010fdd749b80710c00bd933aefe6d89cd9beb00f80bb",
+      "width": 1320.0,
+      "height": 2868.0,
+      "viewBox": "0 0 1320 2868.0",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/svg/iphone-6.9/03-request-profile.svg",
+      "bytes": 391991,
+      "sha256": "ea5d5055ee09226cc6e627bf58d8b679fc6bb6330b8b93ae77dc2355eccd1ef9",
+      "width": 1320.0,
+      "height": 2868.0,
+      "viewBox": "0 0 1320 2868.0",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/svg/iphone-6.9/04-chat.svg",
+      "bytes": 728400,
+      "sha256": "c33619f25d0a6f1d6cc42fd8d0d32a0182d2ec0abe73858024550b2f7b7d5604",
+      "width": 1320.0,
+      "height": 2868.0,
+      "viewBox": "0 0 1320 2868.0",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/svg/iphone-6.9/05-event-detail.svg",
+      "bytes": 406116,
+      "sha256": "4b1df531d6c8c0087f6c641a8b235ffcefc54b9bf0c34cf855974d9ce34408a1",
+      "width": 1320.0,
+      "height": 2868.0,
+      "viewBox": "0 0 1320 2868.0",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/svg/iphone-6.9/06-area-activity.svg",
+      "bytes": 1825057,
+      "sha256": "c14957520ecb691633f7e64417bc03305ae114ff226d15bb15dc3d2ee4c22a30",
+      "width": 1320.0,
+      "height": 2868.0,
+      "viewBox": "0 0 1320 2868.0",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/svg/iphone-dynamic-island-medium/01-purpose.svg",
+      "bytes": 301531,
+      "sha256": "60ba86f1802e035464ffde6998dff2355528d44001e62e3d19fb41c7127a9ea0",
+      "width": 1206.0,
+      "height": 2622.0,
+      "viewBox": "0 0 1320 2869.8507462686566",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/svg/iphone-dynamic-island-medium/02-nearby.svg",
+      "bytes": 743908,
+      "sha256": "0ad229124a6417cdd9b4c474d49d3f995c7359d00696d0328a0ddf863b28493f",
+      "width": 1206.0,
+      "height": 2622.0,
+      "viewBox": "0 0 1320 2869.8507462686566",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/svg/iphone-dynamic-island-medium/03-request-profile.svg",
+      "bytes": 392050,
+      "sha256": "c477357de8d63445781f8c05b459fd755ad4ef376503f9d7a337b90f590cc48d",
+      "width": 1206.0,
+      "height": 2622.0,
+      "viewBox": "0 0 1320 2869.8507462686566",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/svg/iphone-dynamic-island-medium/04-chat.svg",
+      "bytes": 728459,
+      "sha256": "1c98a3fd99092dba3f8e880ce2662514c8c7103bc2ee4b07150cf36777926d1e",
+      "width": 1206.0,
+      "height": 2622.0,
+      "viewBox": "0 0 1320 2869.8507462686566",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/svg/iphone-dynamic-island-medium/05-event-detail.svg",
+      "bytes": 406175,
+      "sha256": "41137da6a53535388d18780421d2fa599f600dfe006139c21f0103561311de2c",
+      "width": 1206.0,
+      "height": 2622.0,
+      "viewBox": "0 0 1320 2869.8507462686566",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/svg/iphone-dynamic-island-medium/06-area-activity.svg",
+      "bytes": 1825128,
+      "sha256": "1d81cdcdfce40af5a274d84f0243634530a733a75d76d994a728bce343f5288e",
+      "width": 1206.0,
+      "height": 2622.0,
+      "viewBox": "0 0 1320 2869.8507462686566",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/validate.py",
+      "bytes": 4059,
+      "sha256": "2778fcb93d21dcacb1617dcdd60d627b7df234b97f84e8d8600b482ed62dbd2c",
+      "role": "source-or-documentation"
+    }
+  ]
+}

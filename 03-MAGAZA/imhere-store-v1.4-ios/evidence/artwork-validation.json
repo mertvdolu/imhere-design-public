@@ -1,0 +1,635 @@
+{
+  "result": "PASS",
+  "sourceCaptures": 6,
+  "exports": 18,
+  "sets": 3,
+  "opaqueRGB": true,
+  "nativeSourcesUnchanged": true,
+  "nativeNotCroppedOrStretched": true,
+  "portraitScenes": [
+    "02-nearby",
+    "04-chat"
+  ],
+  "marketingContrast": {
+    "heading": 15.49,
+    "footer": 4.85
+  },
+  "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED",
+  "assets": [
+    {
+      "file": "app-store/iphone-6.9/01-purpose.png",
+      "size": [
+        1320,
+        2868
+      ],
+      "mode": "RGB",
+      "nativeEmbeddedHashMatches": true,
+      "nativeFullFrame": true,
+      "portraitSlots": 0,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "widthInDesignUnits": 125.0,
+          "fits": true
+        },
+        {
+          "text": "Say why",
+          "widthInDesignUnits": 422.0,
+          "fits": true
+        },
+        {
+          "text": "you're here.",
+          "widthInDesignUnits": 571.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "widthInDesignUnits": 485.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "app-store/iphone-6.9/02-nearby.png",
+      "size": [
+        1320,
+        2868
+      ],
+      "mode": "RGB",
+      "nativeEmbeddedHashMatches": true,
+      "nativeFullFrame": true,
+      "portraitSlots": 1,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "widthInDesignUnits": 125.0,
+          "fits": true
+        },
+        {
+          "text": "People nearby,",
+          "widthInDesignUnits": 737.0,
+          "fits": true
+        },
+        {
+          "text": "right now.",
+          "widthInDesignUnits": 493.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "widthInDesignUnits": 485.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "app-store/iphone-6.9/03-request-profile.png",
+      "size": [
+        1320,
+        2868
+      ],
+      "mode": "RGB",
+      "nativeEmbeddedHashMatches": true,
+      "nativeFullFrame": true,
+      "portraitSlots": 0,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "widthInDesignUnits": 125.0,
+          "fits": true
+        },
+        {
+          "text": "See who's",
+          "widthInDesignUnits": 504.0,
+          "fits": true
+        },
+        {
+          "text": "saying hello.",
+          "widthInDesignUnits": 612.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "widthInDesignUnits": 485.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "app-store/iphone-6.9/04-chat.png",
+      "size": [
+        1320,
+        2868
+      ],
+      "mode": "RGB",
+      "nativeEmbeddedHashMatches": true,
+      "nativeFullFrame": true,
+      "portraitSlots": 1,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "widthInDesignUnits": 125.0,
+          "fits": true
+        },
+        {
+          "text": "Start with",
+          "widthInDesignUnits": 497.0,
+          "fits": true
+        },
+        {
+          "text": "a conversation.",
+          "widthInDesignUnits": 755.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "widthInDesignUnits": 485.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "app-store/iphone-6.9/05-event-detail.png",
+      "size": [
+        1320,
+        2868
+      ],
+      "mode": "RGB",
+      "nativeEmbeddedHashMatches": true,
+      "nativeFullFrame": true,
+      "portraitSlots": 0,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "widthInDesignUnits": 125.0,
+          "fits": true
+        },
+        {
+          "text": "Meet at",
+          "widthInDesignUnits": 388.0,
+          "fits": true
+        },
+        {
+          "text": "real events.",
+          "widthInDesignUnits": 576.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "widthInDesignUnits": 485.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "app-store/iphone-6.9/06-area-activity.png",
+      "size": [
+        1320,
+        2868
+      ],
+      "mode": "RGB",
+      "nativeEmbeddedHashMatches": true,
+      "nativeFullFrame": true,
+      "portraitSlots": 0,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "widthInDesignUnits": 125.0,
+          "fits": true
+        },
+        {
+          "text": "A wider view",
+          "widthInDesignUnits": 636.0,
+          "fits": true
+        },
+        {
+          "text": "of nearby.",
+          "widthInDesignUnits": 495.0,
+          "fits": true
+        },
+        {
+          "text": "© OpenMapTiles",
+          "widthInDesignUnits": 194.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "widthInDesignUnits": 485.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "app-store/iphone-6.5/01-purpose.png",
+      "size": [
+        1242,
+        2688
+      ],
+      "mode": "RGB",
+      "nativeEmbeddedHashMatches": true,
+      "nativeFullFrame": true,
+      "portraitSlots": 0,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "widthInDesignUnits": 125.0,
+          "fits": true
+        },
+        {
+          "text": "Say why",
+          "widthInDesignUnits": 422.0,
+          "fits": true
+        },
+        {
+          "text": "you're here.",
+          "widthInDesignUnits": 571.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "widthInDesignUnits": 485.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "app-store/iphone-6.5/02-nearby.png",
+      "size": [
+        1242,
+        2688
+      ],
+      "mode": "RGB",
+      "nativeEmbeddedHashMatches": true,
+      "nativeFullFrame": true,
+      "portraitSlots": 1,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "widthInDesignUnits": 125.0,
+          "fits": true
+        },
+        {
+          "text": "People nearby,",
+          "widthInDesignUnits": 737.0,
+          "fits": true
+        },
+        {
+          "text": "right now.",
+          "widthInDesignUnits": 493.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "widthInDesignUnits": 485.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "app-store/iphone-6.5/03-request-profile.png",
+      "size": [
+        1242,
+        2688
+      ],
+      "mode": "RGB",
+      "nativeEmbeddedHashMatches": true,
+      "nativeFullFrame": true,
+      "portraitSlots": 0,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "widthInDesignUnits": 125.0,
+          "fits": true
+        },
+        {
+          "text": "See who's",
+          "widthInDesignUnits": 504.0,
+          "fits": true
+        },
+        {
+          "text": "saying hello.",
+          "widthInDesignUnits": 612.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "widthInDesignUnits": 485.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "app-store/iphone-6.5/04-chat.png",
+      "size": [
+        1242,
+        2688
+      ],
+      "mode": "RGB",
+      "nativeEmbeddedHashMatches": true,
+      "nativeFullFrame": true,
+      "portraitSlots": 1,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "widthInDesignUnits": 125.0,
+          "fits": true
+        },
+        {
+          "text": "Start with",
+          "widthInDesignUnits": 497.0,
+          "fits": true
+        },
+        {
+          "text": "a conversation.",
+          "widthInDesignUnits": 755.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "widthInDesignUnits": 485.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "app-store/iphone-6.5/05-event-detail.png",
+      "size": [
+        1242,
+        2688
+      ],
+      "mode": "RGB",
+      "nativeEmbeddedHashMatches": true,
+      "nativeFullFrame": true,
+      "portraitSlots": 0,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "widthInDesignUnits": 125.0,
+          "fits": true
+        },
+        {
+          "text": "Meet at",
+          "widthInDesignUnits": 388.0,
+          "fits": true
+        },
+        {
+          "text": "real events.",
+          "widthInDesignUnits": 576.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "widthInDesignUnits": 485.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "app-store/iphone-6.5/06-area-activity.png",
+      "size": [
+        1242,
+        2688
+      ],
+      "mode": "RGB",
+      "nativeEmbeddedHashMatches": true,
+      "nativeFullFrame": true,
+      "portraitSlots": 0,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "widthInDesignUnits": 125.0,
+          "fits": true
+        },
+        {
+          "text": "A wider view",
+          "widthInDesignUnits": 636.0,
+          "fits": true
+        },
+        {
+          "text": "of nearby.",
+          "widthInDesignUnits": 495.0,
+          "fits": true
+        },
+        {
+          "text": "© OpenMapTiles",
+          "widthInDesignUnits": 194.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "widthInDesignUnits": 485.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "app-store/iphone-dynamic-island-medium/01-purpose.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "mode": "RGB",
+      "nativeEmbeddedHashMatches": true,
+      "nativeFullFrame": true,
+      "portraitSlots": 0,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "widthInDesignUnits": 125.0,
+          "fits": true
+        },
+        {
+          "text": "Say why",
+          "widthInDesignUnits": 422.0,
+          "fits": true
+        },
+        {
+          "text": "you're here.",
+          "widthInDesignUnits": 571.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "widthInDesignUnits": 485.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "app-store/iphone-dynamic-island-medium/02-nearby.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "mode": "RGB",
+      "nativeEmbeddedHashMatches": true,
+      "nativeFullFrame": true,
+      "portraitSlots": 1,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "widthInDesignUnits": 125.0,
+          "fits": true
+        },
+        {
+          "text": "People nearby,",
+          "widthInDesignUnits": 737.0,
+          "fits": true
+        },
+        {
+          "text": "right now.",
+          "widthInDesignUnits": 493.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "widthInDesignUnits": 485.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "app-store/iphone-dynamic-island-medium/03-request-profile.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "mode": "RGB",
+      "nativeEmbeddedHashMatches": true,
+      "nativeFullFrame": true,
+      "portraitSlots": 0,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "widthInDesignUnits": 125.0,
+          "fits": true
+        },
+        {
+          "text": "See who's",
+          "widthInDesignUnits": 504.0,
+          "fits": true
+        },
+        {
+          "text": "saying hello.",
+          "widthInDesignUnits": 612.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "widthInDesignUnits": 485.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "app-store/iphone-dynamic-island-medium/04-chat.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "mode": "RGB",
+      "nativeEmbeddedHashMatches": true,
+      "nativeFullFrame": true,
+      "portraitSlots": 1,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "widthInDesignUnits": 125.0,
+          "fits": true
+        },
+        {
+          "text": "Start with",
+          "widthInDesignUnits": 497.0,
+          "fits": true
+        },
+        {
+          "text": "a conversation.",
+          "widthInDesignUnits": 755.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "widthInDesignUnits": 485.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "app-store/iphone-dynamic-island-medium/05-event-detail.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "mode": "RGB",
+      "nativeEmbeddedHashMatches": true,
+      "nativeFullFrame": true,
+      "portraitSlots": 0,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "widthInDesignUnits": 125.0,
+          "fits": true
+        },
+        {
+          "text": "Meet at",
+          "widthInDesignUnits": 388.0,
+          "fits": true
+        },
+        {
+          "text": "real events.",
+          "widthInDesignUnits": 576.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "widthInDesignUnits": 485.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "app-store/iphone-dynamic-island-medium/06-area-activity.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "mode": "RGB",
+      "nativeEmbeddedHashMatches": true,
+      "nativeFullFrame": true,
+      "portraitSlots": 0,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "widthInDesignUnits": 125.0,
+          "fits": true
+        },
+        {
+          "text": "A wider view",
+          "widthInDesignUnits": 636.0,
+          "fits": true
+        },
+        {
+          "text": "of nearby.",
+          "widthInDesignUnits": 495.0,
+          "fits": true
+        },
+        {
+          "text": "© OpenMapTiles",
+          "widthInDesignUnits": 194.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "widthInDesignUnits": 485.0,
+          "fits": true
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Not App Store approval",
+    "Not a native usability or build test",
+    "Source event actions partly behind native bottom navigation; source is preserved",
+    "Copy awaits HARBOR and Founder approval"
+  ]
+}

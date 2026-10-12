@@ -1,0 +1,10 @@
+{
+  "coordinateSpace": "1206 x 2622 original native capture pixels",
+  "asset": "assets/maya-synthetic.jpg",
+  "disclosure": "Maya is a previously supplied synthetic adult portrait, not a real user.",
+  "placements": {
+    "02-nearby": {"x":108,"y":1857,"width":192,"height":240,"radius":36},
+    "04-chat": {"x":108,"y":606,"width":192,"height":240,"radius":36}
+  },
+  "absent": {"03-request-profile":"Native screen has no photo slot. No portrait or new slot is added."}
+}

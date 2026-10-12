@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>IM HERE · App Store 1.4</title>
+<style>
+@font-face{font-family:Geist;src:url(assets/Geist-Regular.woff2);font-weight:400;font-display:swap}
+@font-face{font-family:Geist;src:url(assets/Geist-Medium.woff2);font-weight:500;font-display:swap}
+:root{color-scheme:light;--cream:#F4F1E9;--ink:#191A17;--muted:#696A62;--line:#B7B3A9}
+*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.55 Geist,system-ui,sans-serif}main{max-width:1460px;margin:auto;padding:36px 30px 60px}header{display:flex;gap:24px;align-items:start;justify-content:space-between;margin-bottom:24px}h1{font-size:clamp(30px,4.5vw,58px);font-weight:500;letter-spacing:-.045em;line-height:1.07;margin:16px 0}p{margin:8px 0}.brand{display:flex;align-items:center;gap:14px;font-size:13px;letter-spacing:.12em}.brand img{width:34px;height:auto}.tag{display:inline-block;border:1px solid var(--line);border-radius:20px;padding:5px 12px;color:var(--muted);font-size:13px}.meta{max-width:790px;color:var(--muted)}nav{display:flex;flex-wrap:wrap;gap:8px 20px;margin:22px 0}a{color:inherit;text-underline-offset:4px}nav a{display:inline-flex;align-items:center;min-height:48px}.controls{display:flex;gap:12px 24px;align-items:center;flex-wrap:wrap;border-block:1px solid var(--line);padding:18px 0;margin-top:16px}label{display:flex;gap:10px;align-items:center;flex-wrap:wrap}select{font:inherit;border:1px solid #7C7D73;min-height:48px;padding:8px 38px 8px 12px;background:var(--cream);color:var(--ink);border-radius:12px}input{width:20px;height:20px;accent-color:var(--ink)}.check{min-height:48px}.summary{font-size:14px;color:var(--muted);margin:16px 0 24px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:34px 22px}figure{margin:0;min-width:0}figure>a{display:block;background:#E8E4DA;padding:8px;border-radius:12px;box-shadow:5px 5px 10px #D6D2C8,-5px -5px 10px #FFFEFA}figure img{display:block;width:100%;height:auto}figcaption{font-size:14px;margin-top:13px}figcaption strong{font-weight:500}figcaption p{color:var(--muted);font-size:13px}figcaption a{display:inline-flex;align-items:center;min-height:44px;margin-right:16px}.note{margin-top:34px;padding:22px 0;border-top:1px solid var(--line);max-width:960px}.note h2{font-weight:500;font-size:22px;margin:0 0 12px}.note li{margin-bottom:8px}a:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid var(--ink);outline-offset:4px}@media(max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}header{display:block}}@media(max-width:560px){main{padding:24px 18px 36px}.grid{grid-template-columns:1fr}.controls{align-items:stretch}label{width:100%}select{width:100%}.check{width:auto}}
+</style>
+</head>
+<body><main>
+<header><div><div class="brand"><img src="assets/imhere-mark-icon-weight.svg" alt="">IM HERE</div><h1>Bir merhabadan<br>başlayan altı sahne.</h1><p class="meta">App Store · 1.4.0 (19) · Cream &amp; Ink v2.3<br>Native iPhone çekimleriyle hazırlanan altı kare, üç çıktı ölçüsü.</p></div><span class="tag">Copy taslak · HARBOR + Founder onayı bekliyor</span></header>
+<nav aria-label="Teslim belgeleri"><a href="HANDOFF.md">Teslim notu</a><a href="COPY-REVIEW.md">Başlıklar ve metinler</a><a href="SPEC.md">Ölçüler</a><a href="VALIDATION.md">Kontroller</a><a href="MANIFEST.json">Dosya listesi</a><a id="sheet" href="review/iphone-6.9-contact-sheet.png">Genel görünüm</a></nav>
+<div class="controls"><label for="size">Çıktı ölçüsü <select id="size"><option value="iphone-6.9">6.9″ · 1320 × 2868</option><option value="iphone-6.5">6.5″ · 1242 × 2688</option><option value="iphone-dynamic-island-medium">Dynamic Island medium · 1206 × 2622</option></select></label><label class="check"><input type="checkbox" id="native">Orijinal native çekimleri göster</label></div>
+<p class="summary" id="summary" aria-live="polite">6 kare · Opak RGB PNG · Büyütmek için bir kareye dokun.</p>
+<section id="gallery" class="grid" aria-label="Mağaza kareleri"></section>
+<section class="note"><h2>Gördüğün görüntünün kaynağı</h2><ul><li>Altı kaynak PNG, Code'un SHA256 kaydıyla eşleşir. Telefon arayüzünün tamamı, oranı korunarak kullanıldı.</li><li>Maya portresi yalnız Yakındakiler ve sohbetin mevcut fotoğraf yuvalarına eklendi. İstek profilinde fotoğraf alanı bulunmuyor.</li><li>Networking çipi, üç görünür sohbet mesajı ve etkinliğin kapak yer tutucusu native hâlinde. Etkinlik düğmelerinin alt kenarı kaynakta alt menünün arkasında kalıyor.</li><li>Harita atfı görünür; dört renk ve kontroller yeniden çizilmedi. Yoğunluk kurmaca sahne verisidir.</li><li>Bu set App Store'a yüklenmedi. Android kaynakları bekleniyor; Play ayrı teslim olacak.</li></ul></section>
+<noscript><p>Önizleme listesi için JavaScript gerekir. <a href="review/iphone-6.9-contact-sheet.png">Altı kareyi tek görselde aç</a>.</p></noscript>
+</main>
+<script>
+const shots=[
+['01-purpose','01-amac.png',"Say why you're here.",'Amaç seçimi; iki seçenek de boş.'],
+['02-nearby','02-yakindakiler.png','People nearby, right now.','Networking çipi ve mevcut yuvada sentetik Maya.'],
+['03-request-profile','03-istek-profili.png',"See who's saying hello.",'Gelen istek profili; fotoğraf alanı eklenmedi.'],
+['04-chat','04-sohbet.png','Start with a conversation.','Üç görünür mesaj; dördüncü mesaj native kadrajın dışında.'],
+['05-event-detail','05-etkinlik.png','Meet at real events.','Etkinlik ayrıntısı; native kapak yer tutucusu korunur.'],
+['06-area-activity','06-harita.png','A wider view of nearby.','Dört harita rengi ve kaynak atıfları korunur.']];
+const select=document.getElementById('size'),toggle=document.getElementById('native');
+function render(){
+ const folder=select.value,native=toggle.checked,gallery=document.getElementById('gallery');gallery.replaceChildren();
+ for(const [index,shot] of shots.entries()){
+  const [id,source,title,note]=shot,final='app-store/'+folder+'/'+id+'.png',raw='source/native/ios/'+source;
+  const figure=document.createElement('figure'),link=document.createElement('a'),img=document.createElement('img');
+  const dims=native?[1206,2622]:({'iphone-6.9':[1320,2868],'iphone-6.5':[1242,2688],'iphone-dynamic-island-medium':[1206,2622]})[folder];img.width=dims[0];img.height=dims[1];
+  link.href=native?raw:final;link.target='_blank';link.rel='noopener';img.src=link.href;img.alt=(index+1)+'. '+title+' '+note;img.loading='lazy';link.append(img);
+  const caption=document.createElement('figcaption'),name=document.createElement('strong'),detail=document.createElement('p');name.textContent=String(index+1).padStart(2,'0')+' · '+title;detail.textContent=note;caption.append(name,detail);
+  for(const [label,url] of [['PNG',final],['SVG','source/svg/'+folder+'/'+id+'.svg'],['Native',raw]]){const a=document.createElement('a');a.textContent=label;a.href=url;a.target='_blank';a.rel='noopener';caption.append(a)}
+  figure.append(link,caption);gallery.append(figure);
+ }
+ document.getElementById('sheet').href='review/'+folder+'-contact-sheet.png';
+ document.getElementById('summary').textContent=native?'6 orijinal kaynak · 1206 × 2622 · Portresiz · Hiçbir kaynak PNG değiştirilmedi.':'6 kare · '+select.selectedOptions[0].textContent+' · Opak RGB PNG · Büyütmek için bir kareye dokun.';
+}
+select.addEventListener('change',render);toggle.addEventListener('change',render);render();
+</script></body></html>

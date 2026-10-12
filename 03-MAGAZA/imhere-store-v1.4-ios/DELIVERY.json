@@ -1,0 +1,442 @@
+{
+  "package": "STORE-IOS-14",
+  "theme": "Cream & Ink v2.3",
+  "appVersion": "1.4.0 (19)",
+  "status": "DESIGN EXPORTED — HARBOR + FOUNDER COPY APPROVAL REQUIRED",
+  "platform": "iPhone only",
+  "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED",
+  "assets": [
+    {
+      "file": "app-store/iphone-6.9/01-purpose.png",
+      "sourceSvg": "source/svg/iphone-6.9/01-purpose.svg",
+      "shot": "01-purpose",
+      "width": 1320,
+      "height": 2868,
+      "nativeSource": "source/native/ios/01-amac.png",
+      "nativeSourceSha256": "8534ef006bbf3df22daab2348dc56ad70f8e4f562b5889ddbd4f2d458e9516cf",
+      "portrait": null,
+      "nativeGeometry": {
+        "x": 138.87185354691076,
+        "y": 444,
+        "width": 1042.2562929061785,
+        "height": 2266.0,
+        "designWidth": 1320,
+        "designHeight": 2868.0,
+        "sourceWidth": 1206,
+        "sourceHeight": 2622
+      },
+      "crop": "none; entire source uniformly scaled",
+      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "file": "app-store/iphone-6.9/02-nearby.png",
+      "sourceSvg": "source/svg/iphone-6.9/02-nearby.svg",
+      "shot": "02-nearby",
+      "width": 1320,
+      "height": 2868,
+      "nativeSource": "source/native/ios/02-yakindakiler.png",
+      "nativeSourceSha256": "91a25d390f0031b33ff35cfff7e4c3ef1cd6acbd4fd19cda7b8c7f4ae930ed8a",
+      "portrait": {
+        "x": 108,
+        "y": 1857,
+        "width": 192,
+        "height": 240,
+        "radius": 36
+      },
+      "nativeGeometry": {
+        "x": 138.87185354691076,
+        "y": 444,
+        "width": 1042.2562929061785,
+        "height": 2266.0,
+        "designWidth": 1320,
+        "designHeight": 2868.0,
+        "sourceWidth": 1206,
+        "sourceHeight": 2622
+      },
+      "crop": "none; entire source uniformly scaled",
+      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "file": "app-store/iphone-6.9/03-request-profile.png",
+      "sourceSvg": "source/svg/iphone-6.9/03-request-profile.svg",
+      "shot": "03-request-profile",
+      "width": 1320,
+      "height": 2868,
+      "nativeSource": "source/native/ios/03-istek-profili.png",
+      "nativeSourceSha256": "eceebaa811d814e145953a2bd6434c4ad2a24bed5123593db3d17ece025ccf0e",
+      "portrait": null,
+      "nativeGeometry": {
+        "x": 138.87185354691076,
+        "y": 444,
+        "width": 1042.2562929061785,
+        "height": 2266.0,
+        "designWidth": 1320,
+        "designHeight": 2868.0,
+        "sourceWidth": 1206,
+        "sourceHeight": 2622
+      },
+      "crop": "none; entire source uniformly scaled",
+      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "file": "app-store/iphone-6.9/04-chat.png",
+      "sourceSvg": "source/svg/iphone-6.9/04-chat.svg",
+      "shot": "04-chat",
+      "width": 1320,
+      "height": 2868,
+      "nativeSource": "source/native/ios/04-sohbet.png",
+      "nativeSourceSha256": "12ba61a774639d64e2d562d4af8dd59ea16a245e15d1d8280aa469fcc8ba64c0",
+      "portrait": {
+        "x": 108,
+        "y": 606,
+        "width": 192,
+        "height": 240,
+        "radius": 36
+      },
+      "nativeGeometry": {
+        "x": 138.87185354691076,
+        "y": 444,
+        "width": 1042.2562929061785,
+        "height": 2266.0,
+        "designWidth": 1320,
+        "designHeight": 2868.0,
+        "sourceWidth": 1206,
+        "sourceHeight": 2622
+      },
+      "crop": "none; entire source uniformly scaled",
+      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "file": "app-store/iphone-6.9/05-event-detail.png",
+      "sourceSvg": "source/svg/iphone-6.9/05-event-detail.svg",
+      "shot": "05-event-detail",
+      "width": 1320,
+      "height": 2868,
+      "nativeSource": "source/native/ios/05-etkinlik.png",
+      "nativeSourceSha256": "39b175dc2feb17f0ce1d1238f2874036f4403d07d65615f6da2326e1aec4b5eb",
+      "portrait": null,
+      "nativeGeometry": {
+        "x": 138.87185354691076,
+        "y": 444,
+        "width": 1042.2562929061785,
+        "height": 2266.0,
+        "designWidth": 1320,
+        "designHeight": 2868.0,
+        "sourceWidth": 1206,
+        "sourceHeight": 2622
+      },
+      "crop": "none; entire source uniformly scaled",
+      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "file": "app-store/iphone-6.9/06-area-activity.png",
+      "sourceSvg": "source/svg/iphone-6.9/06-area-activity.svg",
+      "shot": "06-area-activity",
+      "width": 1320,
+      "height": 2868,
+      "nativeSource": "source/native/ios/06-harita.png",
+      "nativeSourceSha256": "b66ebea8960728e1dbce105849d9c6dfc6208bb366f79da8e287271cefc8636c",
+      "portrait": null,
+      "nativeGeometry": {
+        "x": 138.87185354691076,
+        "y": 444,
+        "width": 1042.2562929061785,
+        "height": 2266.0,
+        "designWidth": 1320,
+        "designHeight": 2868.0,
+        "sourceWidth": 1206,
+        "sourceHeight": 2622
+      },
+      "crop": "none; entire source uniformly scaled",
+      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "file": "app-store/iphone-6.5/01-purpose.png",
+      "sourceSvg": "source/svg/iphone-6.5/01-purpose.svg",
+      "shot": "01-purpose",
+      "width": 1242,
+      "height": 2688,
+      "nativeSource": "source/native/ios/01-amac.png",
+      "nativeSourceSha256": "8534ef006bbf3df22daab2348dc56ad70f8e4f562b5889ddbd4f2d458e9516cf",
+      "portrait": null,
+      "nativeGeometry": {
+        "x": 141.4449308526514,
+        "y": 444,
+        "width": 1037.1101382946972,
+        "height": 2254.8115942028985,
+        "designWidth": 1320,
+        "designHeight": 2856.8115942028985,
+        "sourceWidth": 1206,
+        "sourceHeight": 2622
+      },
+      "crop": "none; entire source uniformly scaled",
+      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "file": "app-store/iphone-6.5/02-nearby.png",
+      "sourceSvg": "source/svg/iphone-6.5/02-nearby.svg",
+      "shot": "02-nearby",
+      "width": 1242,
+      "height": 2688,
+      "nativeSource": "source/native/ios/02-yakindakiler.png",
+      "nativeSourceSha256": "91a25d390f0031b33ff35cfff7e4c3ef1cd6acbd4fd19cda7b8c7f4ae930ed8a",
+      "portrait": {
+        "x": 108,
+        "y": 1857,
+        "width": 192,
+        "height": 240,
+        "radius": 36
+      },
+      "nativeGeometry": {
+        "x": 141.4449308526514,
+        "y": 444,
+        "width": 1037.1101382946972,
+        "height": 2254.8115942028985,
+        "designWidth": 1320,
+        "designHeight": 2856.8115942028985,
+        "sourceWidth": 1206,
+        "sourceHeight": 2622
+      },
+      "crop": "none; entire source uniformly scaled",
+      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "file": "app-store/iphone-6.5/03-request-profile.png",
+      "sourceSvg": "source/svg/iphone-6.5/03-request-profile.svg",
+      "shot": "03-request-profile",
+      "width": 1242,
+      "height": 2688,
+      "nativeSource": "source/native/ios/03-istek-profili.png",
+      "nativeSourceSha256": "eceebaa811d814e145953a2bd6434c4ad2a24bed5123593db3d17ece025ccf0e",
+      "portrait": null,
+      "nativeGeometry": {
+        "x": 141.4449308526514,
+        "y": 444,
+        "width": 1037.1101382946972,
+        "height": 2254.8115942028985,
+        "designWidth": 1320,
+        "designHeight": 2856.8115942028985,
+        "sourceWidth": 1206,
+        "sourceHeight": 2622
+      },
+      "crop": "none; entire source uniformly scaled",
+      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "file": "app-store/iphone-6.5/04-chat.png",
+      "sourceSvg": "source/svg/iphone-6.5/04-chat.svg",
+      "shot": "04-chat",
+      "width": 1242,
+      "height": 2688,
+      "nativeSource": "source/native/ios/04-sohbet.png",
+      "nativeSourceSha256": "12ba61a774639d64e2d562d4af8dd59ea16a245e15d1d8280aa469fcc8ba64c0",
+      "portrait": {
+        "x": 108,
+        "y": 606,
+        "width": 192,
+        "height": 240,
+        "radius": 36
+      },
+      "nativeGeometry": {
+        "x": 141.4449308526514,
+        "y": 444,
+        "width": 1037.1101382946972,
+        "height": 2254.8115942028985,
+        "designWidth": 1320,
+        "designHeight": 2856.8115942028985,
+        "sourceWidth": 1206,
+        "sourceHeight": 2622
+      },
+      "crop": "none; entire source uniformly scaled",
+      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "file": "app-store/iphone-6.5/05-event-detail.png",
+      "sourceSvg": "source/svg/iphone-6.5/05-event-detail.svg",
+      "shot": "05-event-detail",
+      "width": 1242,
+      "height": 2688,
+      "nativeSource": "source/native/ios/05-etkinlik.png",
+      "nativeSourceSha256": "39b175dc2feb17f0ce1d1238f2874036f4403d07d65615f6da2326e1aec4b5eb",
+      "portrait": null,
+      "nativeGeometry": {
+        "x": 141.4449308526514,
+        "y": 444,
+        "width": 1037.1101382946972,
+        "height": 2254.8115942028985,
+        "designWidth": 1320,
+        "designHeight": 2856.8115942028985,
+        "sourceWidth": 1206,
+        "sourceHeight": 2622
+      },
+      "crop": "none; entire source uniformly scaled",
+      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "file": "app-store/iphone-6.5/06-area-activity.png",
+      "sourceSvg": "source/svg/iphone-6.5/06-area-activity.svg",
+      "shot": "06-area-activity",
+      "width": 1242,
+      "height": 2688,
+      "nativeSource": "source/native/ios/06-harita.png",
+      "nativeSourceSha256": "b66ebea8960728e1dbce105849d9c6dfc6208bb366f79da8e287271cefc8636c",
+      "portrait": null,
+      "nativeGeometry": {
+        "x": 141.4449308526514,
+        "y": 444,
+        "width": 1037.1101382946972,
+        "height": 2254.8115942028985,
+        "designWidth": 1320,
+        "designHeight": 2856.8115942028985,
+        "sourceWidth": 1206,
+        "sourceHeight": 2622
+      },
+      "crop": "none; entire source uniformly scaled",
+      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "file": "app-store/iphone-dynamic-island-medium/01-purpose.png",
+      "sourceSvg": "source/svg/iphone-dynamic-island-medium/01-purpose.svg",
+      "shot": "01-purpose",
+      "width": 1206,
+      "height": 2622,
+      "nativeSource": "source/native/ios/01-amac.png",
+      "nativeSourceSha256": "8534ef006bbf3df22daab2348dc56ad70f8e4f562b5889ddbd4f2d458e9516cf",
+      "portrait": null,
+      "nativeGeometry": {
+        "x": 138.4462242562929,
+        "y": 444,
+        "width": 1043.1075514874142,
+        "height": 2267.8507462686566,
+        "designWidth": 1320,
+        "designHeight": 2869.8507462686566,
+        "sourceWidth": 1206,
+        "sourceHeight": 2622
+      },
+      "crop": "none; entire source uniformly scaled",
+      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "file": "app-store/iphone-dynamic-island-medium/02-nearby.png",
+      "sourceSvg": "source/svg/iphone-dynamic-island-medium/02-nearby.svg",
+      "shot": "02-nearby",
+      "width": 1206,
+      "height": 2622,
+      "nativeSource": "source/native/ios/02-yakindakiler.png",
+      "nativeSourceSha256": "91a25d390f0031b33ff35cfff7e4c3ef1cd6acbd4fd19cda7b8c7f4ae930ed8a",
+      "portrait": {
+        "x": 108,
+        "y": 1857,
+        "width": 192,
+        "height": 240,
+        "radius": 36
+      },
+      "nativeGeometry": {
+        "x": 138.4462242562929,
+        "y": 444,
+        "width": 1043.1075514874142,
+        "height": 2267.8507462686566,
+        "designWidth": 1320,
+        "designHeight": 2869.8507462686566,
+        "sourceWidth": 1206,
+        "sourceHeight": 2622
+      },
+      "crop": "none; entire source uniformly scaled",
+      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "file": "app-store/iphone-dynamic-island-medium/03-request-profile.png",
+      "sourceSvg": "source/svg/iphone-dynamic-island-medium/03-request-profile.svg",
+      "shot": "03-request-profile",
+      "width": 1206,
+      "height": 2622,
+      "nativeSource": "source/native/ios/03-istek-profili.png",
+      "nativeSourceSha256": "eceebaa811d814e145953a2bd6434c4ad2a24bed5123593db3d17ece025ccf0e",
+      "portrait": null,
+      "nativeGeometry": {
+        "x": 138.4462242562929,
+        "y": 444,
+        "width": 1043.1075514874142,
+        "height": 2267.8507462686566,
+        "designWidth": 1320,
+        "designHeight": 2869.8507462686566,
+        "sourceWidth": 1206,
+        "sourceHeight": 2622
+      },
+      "crop": "none; entire source uniformly scaled",
+      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "file": "app-store/iphone-dynamic-island-medium/04-chat.png",
+      "sourceSvg": "source/svg/iphone-dynamic-island-medium/04-chat.svg",
+      "shot": "04-chat",
+      "width": 1206,
+      "height": 2622,
+      "nativeSource": "source/native/ios/04-sohbet.png",
+      "nativeSourceSha256": "12ba61a774639d64e2d562d4af8dd59ea16a245e15d1d8280aa469fcc8ba64c0",
+      "portrait": {
+        "x": 108,
+        "y": 606,
+        "width": 192,
+        "height": 240,
+        "radius": 36
+      },
+      "nativeGeometry": {
+        "x": 138.4462242562929,
+        "y": 444,
+        "width": 1043.1075514874142,
+        "height": 2267.8507462686566,
+        "designWidth": 1320,
+        "designHeight": 2869.8507462686566,
+        "sourceWidth": 1206,
+        "sourceHeight": 2622
+      },
+      "crop": "none; entire source uniformly scaled",
+      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "file": "app-store/iphone-dynamic-island-medium/05-event-detail.png",
+      "sourceSvg": "source/svg/iphone-dynamic-island-medium/05-event-detail.svg",
+      "shot": "05-event-detail",
+      "width": 1206,
+      "height": 2622,
+      "nativeSource": "source/native/ios/05-etkinlik.png",
+      "nativeSourceSha256": "39b175dc2feb17f0ce1d1238f2874036f4403d07d65615f6da2326e1aec4b5eb",
+      "portrait": null,
+      "nativeGeometry": {
+        "x": 138.4462242562929,
+        "y": 444,
+        "width": 1043.1075514874142,
+        "height": 2267.8507462686566,
+        "designWidth": 1320,
+        "designHeight": 2869.8507462686566,
+        "sourceWidth": 1206,
+        "sourceHeight": 2622
+      },
+      "crop": "none; entire source uniformly scaled",
+      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    },
+    {
+      "file": "app-store/iphone-dynamic-island-medium/06-area-activity.png",
+      "sourceSvg": "source/svg/iphone-dynamic-island-medium/06-area-activity.svg",
+      "shot": "06-area-activity",
+      "width": 1206,
+      "height": 2622,
+      "nativeSource": "source/native/ios/06-harita.png",
+      "nativeSourceSha256": "b66ebea8960728e1dbce105849d9c6dfc6208bb366f79da8e287271cefc8636c",
+      "portrait": null,
+      "nativeGeometry": {
+        "x": 138.4462242562929,
+        "y": 444,
+        "width": 1043.1075514874142,
+        "height": 2267.8507462686566,
+        "designWidth": 1320,
+        "designHeight": 2869.8507462686566,
+        "sourceWidth": 1206,
+        "sourceHeight": 2622
+      },
+      "crop": "none; entire source uniformly scaled",
+      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+MAGAZA-NATIVE-14 cekim kaydi · 2026-10-13 02:23 +03
+kaynak commit fcb3a1c (izlenen degisiklik: 0) · uygulama 1.4.0 (19) · Simulator IM HERE Magaza (iPhone 18 Pro) · iOS-27-0 · en_GB · Xcode 27.0
+derleme: flutter build ios --simulator --debug --dart-define=IMHERE_USE_EMULATORS=true --dart-define=IMHERE_SAHNE=true --dart-define=IMHERE_EVENTS_V1=true
+veri: yalniz yerel emulator demo-imhere, tools/dev-magaza-sahnesi.mjs (kurmaca Alex / Maya; etkinlik Manager bilgileriyle yerel kopya)
+01-amac.png 1206x2622 sha256 8534ef006bbf3df22daab2348dc56ad70f8e4f562b5889ddbd4f2d458e9516cf
+02-yakindakiler.png 1206x2622 sha256 91a25d390f0031b33ff35cfff7e4c3ef1cd6acbd4fd19cda7b8c7f4ae930ed8a
+03-istek-profili.png 1206x2622 sha256 eceebaa811d814e145953a2bd6434c4ad2a24bed5123593db3d17ece025ccf0e
+04-sohbet.png 1206x2622 sha256 12ba61a774639d64e2d562d4af8dd59ea16a245e15d1d8280aa469fcc8ba64c0
+05-etkinlik.png 1206x2622 sha256 39b175dc2feb17f0ce1d1238f2874036f4403d07d65615f6da2326e1aec4b5eb
+06-harita.png 1206x2622 sha256 b66ebea8960728e1dbce105849d9c6dfc6208bb366f79da8e287271cefc8636c
+kadraj notlari:
+  04-sohbet: "It’s nice to talk about new ideas." kadrajda DEGIL (ekran disi ya da ortulu)

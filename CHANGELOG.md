@@ -1,5 +1,13 @@
 # Değişiklik kaydı
 
+## 2026-10-13 — STORE-IOS-14 / App Store iPhone 1.4.0 (19)
+
+- `03-MAGAZA/imhere-store-v1.4-ios/`: amaç seçimi, Yakındakiler, gelen istek profili, sohbet, etkinlik ve harita için altı native iPhone sahnesi. Cream & Ink v2.3; 1320×2868 / 1242×2688 / 1206×2622 setleri, 18 opak RGB PNG.
+- Code'un `fcb3a1c` / 1.4.0 (19) kaynakları SHA256 ile doğrulandı; native arayüz aynı. Maya yalnız iki mevcut fotoğraf yuvasına yerleşti; istek profili portresiz. Networking çipi, sohbet kadrajı ve etkinlik yer tutucusu korunur.
+- 18 düzenlenebilir SVG, üretim kaynakları, HTML önizleme, üç contact sheet, copy incelemesi, ölçü/teslim notları, MANIFEST ve doğrulama kaydı.
+- Pazarlama copy'si **DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED**. Mağaza yüklemesi yok; eski v1.2 kaynakları tarihçe olarak korunur. Native 05 eylemlerinin alt sınırını alt menünün örtmesi teslim notunda açık.
+- EK1: `03-MAGAZA/imhere-store-v1.4-play/` çekim/teslim hazırlığı eklendi. Android kaynakları bekleniyor; Play PNG'si henüz üretilmedi. Uygulama, ana ARB, ortak token ve ürün davranışı değişmedi.
+
 ## 2026-10-12 — EMAIL-01 / markalı hesap e-postaları v1.0
 
 - `email-01/`: doğrulama, parola sıfırlama, yeni adres onayı ve eski adrese değişiklik bildirimi için Cream & Ink v2.3 tasarımı; yalnız English (UK).
