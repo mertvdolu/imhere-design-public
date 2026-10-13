@@ -1,7 +1,7 @@
 {
   "version": "1.4.0",
   "build": 19,
-  "commit": "fcb3a1c",
+  "commit": "ee077b1",
   "branch": "is/IPHONE19",
   "device": "iPhone 18 Pro Simulator",
   "os": "iOS 27.0",
@@ -10,42 +10,53 @@
   "captures": [
     {
       "file": "source/native/ios/01-amac.png",
-      "sha256": "8534ef006bbf3df22daab2348dc56ad70f8e4f562b5889ddbd4f2d458e9516cf",
+      "sha256": "37b3b8064fe484e0cb6039785ea92a27ea674cf8ff1e7978be1f9560b3c0a277",
       "width": 1206,
       "height": 2622
     },
     {
       "file": "source/native/ios/02-yakindakiler.png",
-      "sha256": "91a25d390f0031b33ff35cfff7e4c3ef1cd6acbd4fd19cda7b8c7f4ae930ed8a",
+      "sha256": "1cbc29d12f573cd2c65f412d866edde0e22a97987ac01e56b97c42b02f45ccf2",
       "width": 1206,
       "height": 2622
     },
     {
       "file": "source/native/ios/03-istek-profili.png",
-      "sha256": "eceebaa811d814e145953a2bd6434c4ad2a24bed5123593db3d17ece025ccf0e",
+      "sha256": "17766a16599cc1c5622cd55fc6411d730c5f94cbba57041594f23b71e1052c80",
       "width": 1206,
       "height": 2622
     },
     {
       "file": "source/native/ios/04-sohbet.png",
-      "sha256": "12ba61a774639d64e2d562d4af8dd59ea16a245e15d1d8280aa469fcc8ba64c0",
+      "sha256": "7adb758a5c9c96bf14b3550e4a8f9376c8b07dc7c2d7a94829c55f072a418066",
       "width": 1206,
       "height": 2622
     },
     {
       "file": "source/native/ios/05-etkinlik.png",
-      "sha256": "39b175dc2feb17f0ce1d1238f2874036f4403d07d65615f6da2326e1aec4b5eb",
+      "sha256": "939f0a2910e14dd735d5de80a4dac69ba6e71fb4437d543b79c890b1d4acfdd2",
       "width": 1206,
       "height": 2622
     },
     {
       "file": "source/native/ios/06-harita.png",
-      "sha256": "b66ebea8960728e1dbce105849d9c6dfc6208bb366f79da8e287271cefc8636c",
+      "sha256": "eac2d3b52563f404ec9ebce45821c63f9ad6c45ecbade8b341c8978f92191e78",
       "width": 1206,
       "height": 2622
     }
   ],
-  "evidenceNote": "BENIOKU.md NOT RUN header predates the actual CEKIM-KAYDI.txt and six matching PNGs. Raw supplied documents preserved; each SHA256 verified by designer.",
+  "evidenceNote": "R2 daylight capture record and six hashes verified. Earlier BENIOKU is historical in source/evidence/r1/ and is not current capture metadata.",
   "nativeSourceStatus": "CAPTURED_HASH_VERIFIED",
-  "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+  "copyStatus": "APPROVED — HARBOR HB-27 + Founder 13 Eki 2026",
+  "fullCommit": "ee077b1169effce1ea099d2622979fcf3bfded4a",
+  "revision": "R2",
+  "captureRun": "kosu-20261013-073348",
+  "captureRecordedAt": "2026-10-13T07:38:00+03:00",
+  "statusBarClock": "Actual capture time (Mac local time +03), not a fixed display time",
+  "appEquivalence": {
+    "note": "app/ fcb3a1c ile bayt-aynı",
+    "baselineCommit": "fcb3a1c441980399fe013277987396dc1a8d39a8",
+    "appGitTreeBoth": "fa8a0882c84d2c56ba7cc1f66ca4ac26eda2fab4",
+    "verification": "Both Git app/ tree object IDs read and matched by designer"
+  }
 }

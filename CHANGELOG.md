@@ -1,5 +1,12 @@
 # Değişiklik kaydı
 
+## 2026-10-13 — STORE-IOS-14 R2 / gündüz çekimleri ve onaylı copy
+
+- Aynı `03-MAGAZA/imhere-store-v1.4-ios/` teslimi, `kosu-20261013-073348` içindeki altı yeni native kaynakla yeniden üretildi. Kaynak `ee077b1`, uygulama 1.4.0 (19); `app/`, `fcb3a1c` ile bayt-aynı. Gerçek çekim saatleri korunur.
+- Yalnız 02 başlığı “See who else is here.” ve 05 başlığı “Events from our team.” olarak değişti. Copy durumu: **APPROVED — HARBOR HB-27 + Founder 13 Eki 2026**.
+- Aynı üretim yolu, ölçüler ve portre yerleşimi: 18 opak RGB PNG, 18 SVG, 3 contact sheet; SHA256, kaynak kaydı ve doğrulama yenilendi. 02/04 yuvaları R1 ile piksel düzeyinde aynı; native PNG üzerinde piksel düzeltmesi yok.
+- Yerel commit; push ve App Store yüklemesi yapılmadı. Play seti Android kaynaklarını bekler. Tasarım, uygulama, ARB, token ve ürün davranışı değişmedi.
+
 ## 2026-10-13 — STORE-IOS-14 / App Store iPhone 1.4.0 (19)
 
 - `03-MAGAZA/imhere-store-v1.4-ios/`: amaç seçimi, Yakındakiler, gelen istek profili, sohbet, etkinlik ve harita için altı native iPhone sahnesi. Cream & Ink v2.3; 1320×2868 / 1242×2688 / 1206×2622 setleri, 18 opak RGB PNG.

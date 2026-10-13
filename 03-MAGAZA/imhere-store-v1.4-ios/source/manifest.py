@@ -18,11 +18,12 @@ for p in sorted(ROOT.rglob('*')):
                 try: item[k]=float(value)
                 except ValueError: item[k]=value
         if node.get('viewBox'):item['viewBox']=node.get('viewBox')
-    if rel.startswith('app-store/') and p.suffix=='.png': item['role']='store-upload-candidate-copy-approval-pending'
+    if rel.startswith('app-store/') and p.suffix=='.png': item['role']='store-upload-candidate'
     elif rel.startswith('source/native/'):item['role']='unaltered-native-source'
     elif rel.startswith('review/'):item['role']='review-only-not-for-store'
     else:item['role']='source-or-documentation'
     files.append(item)
-out={'package':'imhere-store-v1.4-ios','theme':'Cream & Ink v2.3','appVersion':'1.4.0 (19)','date':'2026-10-13','status':'DESIGN EXPORTED — HARBOR + FOUNDER COPY APPROVAL REQUIRED','hashAlgorithm':'SHA256','selfExclusion':'MANIFEST.json','storePngCount':sum(x['role']=='store-upload-candidate-copy-approval-pending' for x in files),'fileCount':len(files),'files':files}
+copy=json.loads((ROOT/'source/copy.en-GB.json').read_text())
+out={'package':'imhere-store-v1.4-ios','revision':'R2','theme':'Cream & Ink v2.3','appVersion':'1.4.0 (19)','date':'2026-10-13','status':'DESIGN EXPORTED — '+copy['status'],'hashAlgorithm':'SHA256','selfExclusion':'MANIFEST.json','storePngCount':sum(x['role']=='store-upload-candidate' for x in files),'fileCount':len(files),'files':files}
 (ROOT/'MANIFEST.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n')
 print(f'MANIFEST: {len(files)} files; {out["storePngCount"]} store PNG candidates; SHA256 recorded.')

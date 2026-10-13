@@ -81,7 +81,7 @@ def main():
                 'nativeGeometry':{'x':screen_x,'y':screen_y,'width':screen_w,'height':screen_h,'designWidth':w,'designHeight':h,'sourceWidth':1206,'sourceHeight':2622},
                 'crop':'none; entire source uniformly scaled', 'copyStatus':copy['status']})
     (ROOT/'DELIVERY.json').write_text(json.dumps({'package':'STORE-IOS-14','theme':'Cream & Ink v2.3','appVersion':'1.4.0 (19)',
-       'status':'DESIGN EXPORTED — HARBOR + FOUNDER COPY APPROVAL REQUIRED',
+       'status':'DESIGN EXPORTED — '+copy['status'], 'revision':'R2',
        'platform':'iPhone only','copyStatus':copy['status'],'assets':deliveries},ensure_ascii=False,indent=2)+'\n')
     print('Built',len(deliveries),'editable SVG compositions from 6 verified native sources.')
 

@@ -54,6 +54,6 @@ assert len(results)==18 and sum(x['portraitSlots'] for x in results)==6
 assert all(len(s['title'].split())<=5 for s in copy['shots'])
 ratios={'heading':round(contrast('#191A17','#F4F1E9'),2),'footer':round(contrast('#696A62','#F4F1E9'),2)}
 assert min(ratios.values())>=4.5
-report={'result':'PASS','sourceCaptures':6,'exports':18,'sets':3,'opaqueRGB':True,'nativeSourcesUnchanged':True,'nativeNotCroppedOrStretched':True,'portraitScenes':['02-nearby','04-chat'],'marketingContrast':ratios,'copyStatus':copy['status'],'assets':results,'limits':['Not App Store approval','Not a native usability or build test','Source event actions partly behind native bottom navigation; source is preserved','Copy awaits HARBOR and Founder approval']}
+report={'result':'PASS','sourceCaptures':6,'exports':18,'sets':3,'opaqueRGB':True,'nativeSourcesUnchanged':True,'nativeNotCroppedOrStretched':True,'portraitScenes':['02-nearby','04-chat'],'marketingContrast':ratios,'copyStatus':copy['status'],'assets':results,'limits':['Not App Store approval','Not a native usability or build test','Source event actions partly behind native bottom navigation; source is preserved']}
 (ROOT/'evidence/artwork-validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print('PASS: 6 source hashes; 18 RGB PNGs; embedded native images intact; 2 portrait slots per set; text fits; contrast',ratios)

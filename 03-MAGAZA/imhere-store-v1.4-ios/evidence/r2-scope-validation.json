@@ -1,0 +1,8 @@
+{
+  "revision": "R2",
+  "baseline": "742cdc33bd28c807c417d07f90338328a808cbef",
+  "result": "PASS",
+  "copy": "Only status and 02/05 title + line breaks changed",
+  "geometry": "All 18 nativeGeometry, portrait and crop entries unchanged",
+  "svgStructure": "All 18 SVGs unchanged except native PNG bytes and approved 02/05 headline text"
+}

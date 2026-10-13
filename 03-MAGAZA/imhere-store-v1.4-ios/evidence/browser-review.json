@@ -1,16 +1,25 @@
 {
   "date": "2026-10-13",
+  "revision": "R2",
   "surface": "Codex in-app browser",
   "page": "ONIZLEME.html",
   "result": "PASS",
   "observed": {
     "sceneCards": 6,
-    "sizeOptionsChecked": ["iphone-6.9", "iphone-6.5", "iphone-dynamic-island-medium"],
+    "sizeOptionsChecked": [
+      "iphone-6.9",
+      "iphone-6.5",
+      "iphone-dynamic-island-medium"
+    ],
     "nativeToggle": "Six original native source links; return to composed artwork confirmed",
     "loadedMainImages": 6,
-    "loadedMainImageNaturalWidth": 1320,
-    "observedImageDisplayWidth": 425,
-    "observedImageDisplayHeight": 923,
+    "loadedMainImageNaturalWidth": 1206,
+    "finalSelectedSize": "iphone-dynamic-island-medium",
+    "approvedBadge": "APPROVED · HARBOR HB-27 + Founder · 13 Eki 2026",
+    "newHeadlines": [
+      "See who else is here.",
+      "Events from our team."
+    ],
     "horizontalOverflow": false,
     "consoleErrorsObserved": 0,
     "imageAspectReservedBeforeLoad": true

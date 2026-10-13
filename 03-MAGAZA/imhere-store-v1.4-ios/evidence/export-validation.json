@@ -11,7 +11,7 @@
       "hasAlpha": false,
       "space": "srgb",
       "format": "png",
-      "bytes": 157927
+      "bytes": 158779
     },
     {
       "file": "app-store/iphone-6.9/02-nearby.png",
@@ -21,7 +21,7 @@
       "hasAlpha": false,
       "space": "srgb",
       "format": "png",
-      "bytes": 283758
+      "bytes": 282808
     },
     {
       "file": "app-store/iphone-6.9/03-request-profile.png",
@@ -31,7 +31,7 @@
       "hasAlpha": false,
       "space": "srgb",
       "format": "png",
-      "bytes": 202334
+      "bytes": 202464
     },
     {
       "file": "app-store/iphone-6.9/04-chat.png",
@@ -41,7 +41,7 @@
       "hasAlpha": false,
       "space": "srgb",
       "format": "png",
-      "bytes": 287004
+      "bytes": 287131
     },
     {
       "file": "app-store/iphone-6.9/05-event-detail.png",
@@ -51,7 +51,7 @@
       "hasAlpha": false,
       "space": "srgb",
       "format": "png",
-      "bytes": 216372
+      "bytes": 216085
     },
     {
       "file": "app-store/iphone-6.9/06-area-activity.png",
@@ -61,7 +61,7 @@
       "hasAlpha": false,
       "space": "srgb",
       "format": "png",
-      "bytes": 1019800
+      "bytes": 1442619
     },
     {
       "file": "app-store/iphone-6.5/01-purpose.png",
@@ -71,7 +71,7 @@
       "hasAlpha": false,
       "space": "srgb",
       "format": "png",
-      "bytes": 144122
+      "bytes": 144763
     },
     {
       "file": "app-store/iphone-6.5/02-nearby.png",
@@ -81,7 +81,7 @@
       "hasAlpha": false,
       "space": "srgb",
       "format": "png",
-      "bytes": 258357
+      "bytes": 257299
     },
     {
       "file": "app-store/iphone-6.5/03-request-profile.png",
@@ -91,7 +91,7 @@
       "hasAlpha": false,
       "space": "srgb",
       "format": "png",
-      "bytes": 185619
+      "bytes": 185620
     },
     {
       "file": "app-store/iphone-6.5/04-chat.png",
@@ -101,7 +101,7 @@
       "hasAlpha": false,
       "space": "srgb",
       "format": "png",
-      "bytes": 257217
+      "bytes": 257209
     },
     {
       "file": "app-store/iphone-6.5/05-event-detail.png",
@@ -111,7 +111,7 @@
       "hasAlpha": false,
       "space": "srgb",
       "format": "png",
-      "bytes": 196921
+      "bytes": 196466
     },
     {
       "file": "app-store/iphone-6.5/06-area-activity.png",
@@ -121,7 +121,7 @@
       "hasAlpha": false,
       "space": "srgb",
       "format": "png",
-      "bytes": 916018
+      "bytes": 1291101
     },
     {
       "file": "app-store/iphone-dynamic-island-medium/01-purpose.png",
@@ -131,7 +131,7 @@
       "hasAlpha": false,
       "space": "srgb",
       "format": "png",
-      "bytes": 139034
+      "bytes": 139745
     },
     {
       "file": "app-store/iphone-dynamic-island-medium/02-nearby.png",
@@ -141,7 +141,7 @@
       "hasAlpha": false,
       "space": "srgb",
       "format": "png",
-      "bytes": 248158
+      "bytes": 247274
     },
     {
       "file": "app-store/iphone-dynamic-island-medium/03-request-profile.png",
@@ -151,7 +151,7 @@
       "hasAlpha": false,
       "space": "srgb",
       "format": "png",
-      "bytes": 178873
+      "bytes": 178998
     },
     {
       "file": "app-store/iphone-dynamic-island-medium/04-chat.png",
@@ -161,7 +161,7 @@
       "hasAlpha": false,
       "space": "srgb",
       "format": "png",
-      "bytes": 251144
+      "bytes": 251293
     },
     {
       "file": "app-store/iphone-dynamic-island-medium/05-event-detail.png",
@@ -171,7 +171,7 @@
       "hasAlpha": false,
       "space": "srgb",
       "format": "png",
-      "bytes": 188549
+      "bytes": 188086
     },
     {
       "file": "app-store/iphone-dynamic-island-medium/06-area-activity.png",
@@ -181,7 +181,7 @@
       "hasAlpha": false,
       "space": "srgb",
       "format": "png",
-      "bytes": 881260
+      "bytes": 1239420
     }
   ]
 }

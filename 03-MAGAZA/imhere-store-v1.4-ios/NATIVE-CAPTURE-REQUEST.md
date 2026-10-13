@@ -2,9 +2,9 @@
 
 Tarih: 13 Ekim 2026 · Hedef: iOS 1.4.0 · Cream & Ink v2.3
 
-**Güncel durum (13 Ekim): Altı iPhone çekimi alındı; 18 PNG üretildi. Copy onayı bekliyor. [Son teslim](HANDOFF.md).**
+**Güncel durum (13 Ekim): R2 gündüz iPhone çekimleri alındı; 18 PNG yeniden üretildi. Copy: APPROVED — HARBOR HB-27 + Founder 13 Eki 2026. [Son teslim](HANDOFF.md).**
 
-Bu dosya tasarıma başlamadan önce Founder / Manager üzerinden Code'a iletilen özgün çekim tarifini korur. Teslim edilen kaynakların gerçek farkları ve son çıktılar HANDOFF.md'dedir. Aşağıdaki çekim talepleri uygulamada farklı görünen öğelerin sonradan çizilmesi için talimat değildir. Uygulama kodu değişmedi.
+Bu dosya tasarıma başlamadan önce Founder / Manager üzerinden Code'a iletilen çekim tarifini, R2 saat güncellemesiyle korur. Teslim edilen kaynakların gerçek farkları ve son çıktılar HANDOFF.md'dedir. Aşağıdaki çekim talepleri uygulamada farklı görünen öğelerin sonradan çizilmesi için talimat değildir. Uygulama kodu değişmedi.
 
 ## Neden yeni çekim?
 
@@ -14,7 +14,7 @@ Bu dosya tasarıma başlamadan önce Founder / Manager üzerinden Code'a iletile
 
 - iPhone / iOS, 1.4.0'ın mağazaya gönderilecek görünümü; Cream & Ink v2.3. Gerçek build numarası ve kaynak commit teslim notuna yazılmalı.
 - Tercihen **1206×2622 PNG**, dikey; 1320×2868 native de uygundur. Ham ekran görüntüsü: cihaz kasası, pazarlama başlığı, kırpma veya yeniden boyutlandırma eklenmesin.
-- İngilizce; normal yazı boyutu; açık tema. 09:41, tam pil; durum çubuğu Code'un çekim ortamında ayarlansın.
+- İngilizce; normal yazı boyutu; açık tema. R2: durum çubuğu gerçek çekim saatini gösterir; tam pil. Saat native çekimden aynen alınır.
 - Klavye, yükleme katmanı, hata, debug rozeti, bildirim ve geçici toast görünmesin. OS öğeleri iOS'a ait olsun.
 - Kişiler ve sohbet yalnız kurmaca test sahnesinden. Alex/Maya gibi örnek adlar; gerçek kişi, kişisel e-posta, mesaj veya kullanıcının gerçek konumu görünmesin. Üretimde kişilere istek/mesaj gönderilerek sahne kurulmasın.
 - Sentetik portreyi ben yalnız mevcut native fotoğraf yuvasına yerleştireceğim. Yuva görünür olmalı; fotoğrafın bulunmadığı ekrana yeni alan eklenmeyecek. Code mevcut sentetik portreyi native olarak kullanabiliyorsa ayrıca overlay gerekmez.
@@ -61,7 +61,7 @@ Her sette aynı altı kare: toplam 18 opak RGB PNG; alfa kanalı yok. Harita kay
 
 ## Copy ve süre
 
-Briefteki altı başlık, her karedeki “Fictional profiles · Illustrative content” satırı ve eklenecek tüm pazarlama metinleri **DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED** olarak kalır. Telefon içindeki gerçek uygulama metinleri bu onay sürecinden ayrı olarak değiştirilmeden kullanılır.
+R2 paketindeki altı başlık ve “Fictional profiles · Illustrative content” satırı: **APPROVED — HARBOR HB-27 + Founder 13 Eki 2026**. Onaylanan son metinler source/copy.en-GB.json ve COPY-REVIEW.md içindedir. Telefon içindeki gerçek uygulama metinleri bu onay sürecinden ayrı olarak değiştirilmeden kullanılır.
 
 **Tahmin:** Altı kullanılabilir native çekim geldikten sonra ilk tam üretim ve ölçü/görsel kontrol için yaklaşık 45–60 dakika. Kaynakların gelmesi, HARBOR / Founder incelemesi veya yeniden çekim bekleme süresi bu tahmine dahil değil.
 

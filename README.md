@@ -14,7 +14,7 @@ Paketin mevcut klasör adı `imhere-cream-complete-v2.2` bilerek korunur. İçin
 
 ## STORE-IOS-14 — 1.4.0 iPhone mağaza seti
 
-[Teslim](03-MAGAZA/imhere-store-v1.4-ios/HANDOFF.md) · [HTML önizleme](03-MAGAZA/imhere-store-v1.4-ios/ONIZLEME.html) · [Altı kare](03-MAGAZA/imhere-store-v1.4-ios/review/iphone-6.9-contact-sheet.png) · [Copy incelemesi](03-MAGAZA/imhere-store-v1.4-ios/COPY-REVIEW.md). 1.4.0 (19) native iOS çekimleri; Cream & Ink v2.3, üç ölçüde 18 opak RGB PNG. Copy HARBOR + Founder onayı bekler. [Play hazırlığı](03-MAGAZA/imhere-store-v1.4-play/NATIVE-CAPTURE-REQUEST.md) ayrı; Android kaynakları bekleniyor.
+[Teslim](03-MAGAZA/imhere-store-v1.4-ios/HANDOFF.md) · [HTML önizleme](03-MAGAZA/imhere-store-v1.4-ios/ONIZLEME.html) · [Altı kare](03-MAGAZA/imhere-store-v1.4-ios/review/iphone-6.9-contact-sheet.png) · [Copy incelemesi](03-MAGAZA/imhere-store-v1.4-ios/COPY-REVIEW.md). R2 gündüz 1.4.0 (19) native iOS çekimleri; Cream & Ink v2.3, üç ölçüde 18 opak RGB PNG. Copy: APPROVED — HARBOR HB-27 + Founder 13 Eki 2026. [Play hazırlığı](03-MAGAZA/imhere-store-v1.4-play/NATIVE-CAPTURE-REQUEST.md) ayrı; Android kaynakları bekleniyor.
 
 ## EMAIL-01 — markalı hesap e-postaları
 

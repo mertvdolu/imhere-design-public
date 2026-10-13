@@ -2,9 +2,10 @@
   "package": "STORE-IOS-14",
   "theme": "Cream & Ink v2.3",
   "appVersion": "1.4.0 (19)",
-  "status": "DESIGN EXPORTED — HARBOR + FOUNDER COPY APPROVAL REQUIRED",
+  "status": "DESIGN EXPORTED — APPROVED — HARBOR HB-27 + Founder 13 Eki 2026",
+  "revision": "R2",
   "platform": "iPhone only",
-  "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED",
+  "copyStatus": "APPROVED — HARBOR HB-27 + Founder 13 Eki 2026",
   "assets": [
     {
       "file": "app-store/iphone-6.9/01-purpose.png",
@@ -13,7 +14,7 @@
       "width": 1320,
       "height": 2868,
       "nativeSource": "source/native/ios/01-amac.png",
-      "nativeSourceSha256": "8534ef006bbf3df22daab2348dc56ad70f8e4f562b5889ddbd4f2d458e9516cf",
+      "nativeSourceSha256": "37b3b8064fe484e0cb6039785ea92a27ea674cf8ff1e7978be1f9560b3c0a277",
       "portrait": null,
       "nativeGeometry": {
         "x": 138.87185354691076,
@@ -26,7 +27,7 @@
         "sourceHeight": 2622
       },
       "crop": "none; entire source uniformly scaled",
-      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+      "copyStatus": "APPROVED — HARBOR HB-27 + Founder 13 Eki 2026"
     },
     {
       "file": "app-store/iphone-6.9/02-nearby.png",
@@ -35,7 +36,7 @@
       "width": 1320,
       "height": 2868,
       "nativeSource": "source/native/ios/02-yakindakiler.png",
-      "nativeSourceSha256": "91a25d390f0031b33ff35cfff7e4c3ef1cd6acbd4fd19cda7b8c7f4ae930ed8a",
+      "nativeSourceSha256": "1cbc29d12f573cd2c65f412d866edde0e22a97987ac01e56b97c42b02f45ccf2",
       "portrait": {
         "x": 108,
         "y": 1857,
@@ -54,7 +55,7 @@
         "sourceHeight": 2622
       },
       "crop": "none; entire source uniformly scaled",
-      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+      "copyStatus": "APPROVED — HARBOR HB-27 + Founder 13 Eki 2026"
     },
     {
       "file": "app-store/iphone-6.9/03-request-profile.png",
@@ -63,7 +64,7 @@
       "width": 1320,
       "height": 2868,
       "nativeSource": "source/native/ios/03-istek-profili.png",
-      "nativeSourceSha256": "eceebaa811d814e145953a2bd6434c4ad2a24bed5123593db3d17ece025ccf0e",
+      "nativeSourceSha256": "17766a16599cc1c5622cd55fc6411d730c5f94cbba57041594f23b71e1052c80",
       "portrait": null,
       "nativeGeometry": {
         "x": 138.87185354691076,
@@ -76,7 +77,7 @@
         "sourceHeight": 2622
       },
       "crop": "none; entire source uniformly scaled",
-      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+      "copyStatus": "APPROVED — HARBOR HB-27 + Founder 13 Eki 2026"
     },
     {
       "file": "app-store/iphone-6.9/04-chat.png",
@@ -85,7 +86,7 @@
       "width": 1320,
       "height": 2868,
       "nativeSource": "source/native/ios/04-sohbet.png",
-      "nativeSourceSha256": "12ba61a774639d64e2d562d4af8dd59ea16a245e15d1d8280aa469fcc8ba64c0",
+      "nativeSourceSha256": "7adb758a5c9c96bf14b3550e4a8f9376c8b07dc7c2d7a94829c55f072a418066",
       "portrait": {
         "x": 108,
         "y": 606,
@@ -104,7 +105,7 @@
         "sourceHeight": 2622
       },
       "crop": "none; entire source uniformly scaled",
-      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+      "copyStatus": "APPROVED — HARBOR HB-27 + Founder 13 Eki 2026"
     },
     {
       "file": "app-store/iphone-6.9/05-event-detail.png",
@@ -113,7 +114,7 @@
       "width": 1320,
       "height": 2868,
       "nativeSource": "source/native/ios/05-etkinlik.png",
-      "nativeSourceSha256": "39b175dc2feb17f0ce1d1238f2874036f4403d07d65615f6da2326e1aec4b5eb",
+      "nativeSourceSha256": "939f0a2910e14dd735d5de80a4dac69ba6e71fb4437d543b79c890b1d4acfdd2",
       "portrait": null,
       "nativeGeometry": {
         "x": 138.87185354691076,
@@ -126,7 +127,7 @@
         "sourceHeight": 2622
       },
       "crop": "none; entire source uniformly scaled",
-      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+      "copyStatus": "APPROVED — HARBOR HB-27 + Founder 13 Eki 2026"
     },
     {
       "file": "app-store/iphone-6.9/06-area-activity.png",
@@ -135,7 +136,7 @@
       "width": 1320,
       "height": 2868,
       "nativeSource": "source/native/ios/06-harita.png",
-      "nativeSourceSha256": "b66ebea8960728e1dbce105849d9c6dfc6208bb366f79da8e287271cefc8636c",
+      "nativeSourceSha256": "eac2d3b52563f404ec9ebce45821c63f9ad6c45ecbade8b341c8978f92191e78",
       "portrait": null,
       "nativeGeometry": {
         "x": 138.87185354691076,
@@ -148,7 +149,7 @@
         "sourceHeight": 2622
       },
       "crop": "none; entire source uniformly scaled",
-      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+      "copyStatus": "APPROVED — HARBOR HB-27 + Founder 13 Eki 2026"
     },
     {
       "file": "app-store/iphone-6.5/01-purpose.png",
@@ -157,7 +158,7 @@
       "width": 1242,
       "height": 2688,
       "nativeSource": "source/native/ios/01-amac.png",
-      "nativeSourceSha256": "8534ef006bbf3df22daab2348dc56ad70f8e4f562b5889ddbd4f2d458e9516cf",
+      "nativeSourceSha256": "37b3b8064fe484e0cb6039785ea92a27ea674cf8ff1e7978be1f9560b3c0a277",
       "portrait": null,
       "nativeGeometry": {
         "x": 141.4449308526514,
@@ -170,7 +171,7 @@
         "sourceHeight": 2622
       },
       "crop": "none; entire source uniformly scaled",
-      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+      "copyStatus": "APPROVED — HARBOR HB-27 + Founder 13 Eki 2026"
     },
     {
       "file": "app-store/iphone-6.5/02-nearby.png",
@@ -179,7 +180,7 @@
       "width": 1242,
       "height": 2688,
       "nativeSource": "source/native/ios/02-yakindakiler.png",
-      "nativeSourceSha256": "91a25d390f0031b33ff35cfff7e4c3ef1cd6acbd4fd19cda7b8c7f4ae930ed8a",
+      "nativeSourceSha256": "1cbc29d12f573cd2c65f412d866edde0e22a97987ac01e56b97c42b02f45ccf2",
       "portrait": {
         "x": 108,
         "y": 1857,
@@ -198,7 +199,7 @@
         "sourceHeight": 2622
       },
       "crop": "none; entire source uniformly scaled",
-      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+      "copyStatus": "APPROVED — HARBOR HB-27 + Founder 13 Eki 2026"
     },
     {
       "file": "app-store/iphone-6.5/03-request-profile.png",
@@ -207,7 +208,7 @@
       "width": 1242,
       "height": 2688,
       "nativeSource": "source/native/ios/03-istek-profili.png",
-      "nativeSourceSha256": "eceebaa811d814e145953a2bd6434c4ad2a24bed5123593db3d17ece025ccf0e",
+      "nativeSourceSha256": "17766a16599cc1c5622cd55fc6411d730c5f94cbba57041594f23b71e1052c80",
       "portrait": null,
       "nativeGeometry": {
         "x": 141.4449308526514,
@@ -220,7 +221,7 @@
         "sourceHeight": 2622
       },
       "crop": "none; entire source uniformly scaled",
-      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+      "copyStatus": "APPROVED — HARBOR HB-27 + Founder 13 Eki 2026"
     },
     {
       "file": "app-store/iphone-6.5/04-chat.png",
@@ -229,7 +230,7 @@
       "width": 1242,
       "height": 2688,
       "nativeSource": "source/native/ios/04-sohbet.png",
-      "nativeSourceSha256": "12ba61a774639d64e2d562d4af8dd59ea16a245e15d1d8280aa469fcc8ba64c0",
+      "nativeSourceSha256": "7adb758a5c9c96bf14b3550e4a8f9376c8b07dc7c2d7a94829c55f072a418066",
       "portrait": {
         "x": 108,
         "y": 606,
@@ -248,7 +249,7 @@
         "sourceHeight": 2622
       },
       "crop": "none; entire source uniformly scaled",
-      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+      "copyStatus": "APPROVED — HARBOR HB-27 + Founder 13 Eki 2026"
     },
     {
       "file": "app-store/iphone-6.5/05-event-detail.png",
@@ -257,7 +258,7 @@
       "width": 1242,
       "height": 2688,
       "nativeSource": "source/native/ios/05-etkinlik.png",
-      "nativeSourceSha256": "39b175dc2feb17f0ce1d1238f2874036f4403d07d65615f6da2326e1aec4b5eb",
+      "nativeSourceSha256": "939f0a2910e14dd735d5de80a4dac69ba6e71fb4437d543b79c890b1d4acfdd2",
       "portrait": null,
       "nativeGeometry": {
         "x": 141.4449308526514,
@@ -270,7 +271,7 @@
         "sourceHeight": 2622
       },
       "crop": "none; entire source uniformly scaled",
-      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+      "copyStatus": "APPROVED — HARBOR HB-27 + Founder 13 Eki 2026"
     },
     {
       "file": "app-store/iphone-6.5/06-area-activity.png",
@@ -279,7 +280,7 @@
       "width": 1242,
       "height": 2688,
       "nativeSource": "source/native/ios/06-harita.png",
-      "nativeSourceSha256": "b66ebea8960728e1dbce105849d9c6dfc6208bb366f79da8e287271cefc8636c",
+      "nativeSourceSha256": "eac2d3b52563f404ec9ebce45821c63f9ad6c45ecbade8b341c8978f92191e78",
       "portrait": null,
       "nativeGeometry": {
         "x": 141.4449308526514,
@@ -292,7 +293,7 @@
         "sourceHeight": 2622
       },
       "crop": "none; entire source uniformly scaled",
-      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+      "copyStatus": "APPROVED — HARBOR HB-27 + Founder 13 Eki 2026"
     },
     {
       "file": "app-store/iphone-dynamic-island-medium/01-purpose.png",
@@ -301,7 +302,7 @@
       "width": 1206,
       "height": 2622,
       "nativeSource": "source/native/ios/01-amac.png",
-      "nativeSourceSha256": "8534ef006bbf3df22daab2348dc56ad70f8e4f562b5889ddbd4f2d458e9516cf",
+      "nativeSourceSha256": "37b3b8064fe484e0cb6039785ea92a27ea674cf8ff1e7978be1f9560b3c0a277",
       "portrait": null,
       "nativeGeometry": {
         "x": 138.4462242562929,
@@ -314,7 +315,7 @@
         "sourceHeight": 2622
       },
       "crop": "none; entire source uniformly scaled",
-      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+      "copyStatus": "APPROVED — HARBOR HB-27 + Founder 13 Eki 2026"
     },
     {
       "file": "app-store/iphone-dynamic-island-medium/02-nearby.png",
@@ -323,7 +324,7 @@
       "width": 1206,
       "height": 2622,
       "nativeSource": "source/native/ios/02-yakindakiler.png",
-      "nativeSourceSha256": "91a25d390f0031b33ff35cfff7e4c3ef1cd6acbd4fd19cda7b8c7f4ae930ed8a",
+      "nativeSourceSha256": "1cbc29d12f573cd2c65f412d866edde0e22a97987ac01e56b97c42b02f45ccf2",
       "portrait": {
         "x": 108,
         "y": 1857,
@@ -342,7 +343,7 @@
         "sourceHeight": 2622
       },
       "crop": "none; entire source uniformly scaled",
-      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+      "copyStatus": "APPROVED — HARBOR HB-27 + Founder 13 Eki 2026"
     },
     {
       "file": "app-store/iphone-dynamic-island-medium/03-request-profile.png",
@@ -351,7 +352,7 @@
       "width": 1206,
       "height": 2622,
       "nativeSource": "source/native/ios/03-istek-profili.png",
-      "nativeSourceSha256": "eceebaa811d814e145953a2bd6434c4ad2a24bed5123593db3d17ece025ccf0e",
+      "nativeSourceSha256": "17766a16599cc1c5622cd55fc6411d730c5f94cbba57041594f23b71e1052c80",
       "portrait": null,
       "nativeGeometry": {
         "x": 138.4462242562929,
@@ -364,7 +365,7 @@
         "sourceHeight": 2622
       },
       "crop": "none; entire source uniformly scaled",
-      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+      "copyStatus": "APPROVED — HARBOR HB-27 + Founder 13 Eki 2026"
     },
     {
       "file": "app-store/iphone-dynamic-island-medium/04-chat.png",
@@ -373,7 +374,7 @@
       "width": 1206,
       "height": 2622,
       "nativeSource": "source/native/ios/04-sohbet.png",
-      "nativeSourceSha256": "12ba61a774639d64e2d562d4af8dd59ea16a245e15d1d8280aa469fcc8ba64c0",
+      "nativeSourceSha256": "7adb758a5c9c96bf14b3550e4a8f9376c8b07dc7c2d7a94829c55f072a418066",
       "portrait": {
         "x": 108,
         "y": 606,
@@ -392,7 +393,7 @@
         "sourceHeight": 2622
       },
       "crop": "none; entire source uniformly scaled",
-      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+      "copyStatus": "APPROVED — HARBOR HB-27 + Founder 13 Eki 2026"
     },
     {
       "file": "app-store/iphone-dynamic-island-medium/05-event-detail.png",
@@ -401,7 +402,7 @@
       "width": 1206,
       "height": 2622,
       "nativeSource": "source/native/ios/05-etkinlik.png",
-      "nativeSourceSha256": "39b175dc2feb17f0ce1d1238f2874036f4403d07d65615f6da2326e1aec4b5eb",
+      "nativeSourceSha256": "939f0a2910e14dd735d5de80a4dac69ba6e71fb4437d543b79c890b1d4acfdd2",
       "portrait": null,
       "nativeGeometry": {
         "x": 138.4462242562929,
@@ -414,7 +415,7 @@
         "sourceHeight": 2622
       },
       "crop": "none; entire source uniformly scaled",
-      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+      "copyStatus": "APPROVED — HARBOR HB-27 + Founder 13 Eki 2026"
     },
     {
       "file": "app-store/iphone-dynamic-island-medium/06-area-activity.png",
@@ -423,7 +424,7 @@
       "width": 1206,
       "height": 2622,
       "nativeSource": "source/native/ios/06-harita.png",
-      "nativeSourceSha256": "b66ebea8960728e1dbce105849d9c6dfc6208bb366f79da8e287271cefc8636c",
+      "nativeSourceSha256": "eac2d3b52563f404ec9ebce45821c63f9ad6c45ecbade8b341c8978f92191e78",
       "portrait": null,
       "nativeGeometry": {
         "x": 138.4462242562929,
@@ -436,7 +437,7 @@
         "sourceHeight": 2622
       },
       "crop": "none; entire source uniformly scaled",
-      "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED"
+      "copyStatus": "APPROVED — HARBOR HB-27 + Founder 13 Eki 2026"
     }
   ]
 }

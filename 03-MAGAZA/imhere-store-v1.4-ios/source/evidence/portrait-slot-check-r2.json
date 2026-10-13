@@ -1,0 +1,29 @@
+{
+  "revision": "R2",
+  "baselineDesignCommit": "742cdc33bd28c807c417d07f90338328a808cbef",
+  "result": "PASS",
+  "placementsChanged": false,
+  "method": "RGB crop pixel equality between original R1 native image and R2 native image before replacement",
+  "slots": [
+    {
+      "scene": "02-nearby",
+      "box": [
+        108,
+        1857,
+        300,
+        2097
+      ],
+      "identical": true
+    },
+    {
+      "scene": "04-chat",
+      "box": [
+        108,
+        606,
+        300,
+        846
+      ],
+      "identical": true
+    }
+  ]
+}

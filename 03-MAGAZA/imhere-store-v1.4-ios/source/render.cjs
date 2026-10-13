@@ -18,7 +18,7 @@ async function main(){
     if(m.width!==item.width||m.height!==item.height||m.channels!==3||m.hasAlpha||m.format!=='png') throw Error('Invalid export '+item.file);
     evidence.push({file:item.file,width:m.width,height:m.height,channels:m.channels,hasAlpha:m.hasAlpha,space:m.space,format:m.format,bytes:fs.statSync(dest).size});
   }
-  // Editorial review sheet carries draft status outside the six store-upload PNGs.
+  // Review-sheet status follows approved copy metadata, outside the store-upload PNGs.
   const review=path.join(root,'review');fs.mkdirSync(review,{recursive:true});
   for(const folder of ['iphone-6.9','iphone-6.5','iphone-dynamic-island-medium']){
     const shots=delivery.assets.filter(x=>x.file.startsWith('app-store/'+folder+'/'));
@@ -26,7 +26,7 @@ async function main(){
     const ww=margin*2+W*3+gap*2,hh=top+2*H+gap+margin;
     const layers=[];
     for(let i=0;i<shots.length;i++) layers.push({input:await sharp(path.join(root,shots[i].file)).resize(W,H).png().toBuffer(),left:margin+(i%3)*(W+gap),top:top+Math.floor(i/3)*(H+gap)});
-    layers.push({input:Buffer.from(`<svg width="${ww}" height="${top}"><text x="34" y="42" font-family="Geist" font-size="28" font-weight="500" fill="#191A17">IM HERE · App Store 1.4.0 (19)</text><text x="34" y="74" font-family="Geist" font-size="17" fill="#696A62">Cream &amp; Ink v2.3 · ${folder} · 6 native iPhone scenes</text><text x="34" y="99" font-family="Geist" font-size="14" fill="#696A62">COPY DRAFT — HARBOR + FOUNDER APPROVAL REQUIRED</text></svg>`),left:0,top:0});
+    layers.push({input:Buffer.from(`<svg width="${ww}" height="${top}"><text x="34" y="42" font-family="Geist" font-size="28" font-weight="500" fill="#191A17">IM HERE · App Store 1.4.0 (19)</text><text x="34" y="74" font-family="Geist" font-size="17" fill="#696A62">Cream &amp; Ink v2.3 · ${folder} · 6 native iPhone scenes</text><text x="34" y="99" font-family="Geist" font-size="14" fill="#696A62">${escape(copy.status)}</text></svg>`),left:0,top:0});
     await sharp({create:{width:ww,height:hh,channels:3,background:'#E8E4DA'}}).composite(layers).removeAlpha().png().toFile(path.join(review,folder+'-contact-sheet.png'));
   }
   fs.mkdirSync(path.join(root,'evidence'),{recursive:true});

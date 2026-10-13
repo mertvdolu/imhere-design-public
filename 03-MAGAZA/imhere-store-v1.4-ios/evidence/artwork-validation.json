@@ -14,7 +14,7 @@
     "heading": 15.49,
     "footer": 4.85
   },
-  "copyStatus": "DRAFT — HARBOR + FOUNDER COPY APPROVAL REQUIRED",
+  "copyStatus": "APPROVED — HARBOR HB-27 + Founder 13 Eki 2026",
   "assets": [
     {
       "file": "app-store/iphone-6.9/01-purpose.png",
@@ -66,13 +66,13 @@
           "fits": true
         },
         {
-          "text": "People nearby,",
-          "widthInDesignUnits": 737.0,
+          "text": "See who else",
+          "widthInDesignUnits": 660.0,
           "fits": true
         },
         {
-          "text": "right now.",
-          "widthInDesignUnits": 493.0,
+          "text": "is here.",
+          "widthInDesignUnits": 352.0,
           "fits": true
         },
         {
@@ -165,13 +165,13 @@
           "fits": true
         },
         {
-          "text": "Meet at",
-          "widthInDesignUnits": 388.0,
+          "text": "Events from",
+          "widthInDesignUnits": 610.0,
           "fits": true
         },
         {
-          "text": "real events.",
-          "widthInDesignUnits": 576.0,
+          "text": "our team.",
+          "widthInDesignUnits": 468.0,
           "fits": true
         },
         {
@@ -269,13 +269,13 @@
           "fits": true
         },
         {
-          "text": "People nearby,",
-          "widthInDesignUnits": 737.0,
+          "text": "See who else",
+          "widthInDesignUnits": 660.0,
           "fits": true
         },
         {
-          "text": "right now.",
-          "widthInDesignUnits": 493.0,
+          "text": "is here.",
+          "widthInDesignUnits": 352.0,
           "fits": true
         },
         {
@@ -368,13 +368,13 @@
           "fits": true
         },
         {
-          "text": "Meet at",
-          "widthInDesignUnits": 388.0,
+          "text": "Events from",
+          "widthInDesignUnits": 610.0,
           "fits": true
         },
         {
-          "text": "real events.",
-          "widthInDesignUnits": 576.0,
+          "text": "our team.",
+          "widthInDesignUnits": 468.0,
           "fits": true
         },
         {
@@ -472,13 +472,13 @@
           "fits": true
         },
         {
-          "text": "People nearby,",
-          "widthInDesignUnits": 737.0,
+          "text": "See who else",
+          "widthInDesignUnits": 660.0,
           "fits": true
         },
         {
-          "text": "right now.",
-          "widthInDesignUnits": 493.0,
+          "text": "is here.",
+          "widthInDesignUnits": 352.0,
           "fits": true
         },
         {
@@ -571,13 +571,13 @@
           "fits": true
         },
         {
-          "text": "Meet at",
-          "widthInDesignUnits": 388.0,
+          "text": "Events from",
+          "widthInDesignUnits": 610.0,
           "fits": true
         },
         {
-          "text": "real events.",
-          "widthInDesignUnits": 576.0,
+          "text": "our team.",
+          "widthInDesignUnits": 468.0,
           "fits": true
         },
         {
@@ -629,7 +629,6 @@
   "limits": [
     "Not App Store approval",
     "Not a native usability or build test",
-    "Source event actions partly behind native bottom navigation; source is preserved",
-    "Copy awaits HARBOR and Founder approval"
+    "Source event actions partly behind native bottom navigation; source is preserved"
   ]
 }
