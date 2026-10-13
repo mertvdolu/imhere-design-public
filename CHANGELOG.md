@@ -1,5 +1,12 @@
 # Değişiklik kaydı
 
+## 2026-10-13 — STORE-IOS-14 EK1 / Google Play 1.4.0 (19)
+
+- `03-MAGAZA/imhere-store-v1.4-play/`: 6 adet 1080×1920 telefon PNG +1024×500 feature graphic, opak RGB. Cream & Ink v2.3; gündüz Android API36 native kaynakları.
+- Kaynak `28880d1c` / `kosu-20261013-080310`, 6 SHA256 doğrulandı. Tam kadraj korunur; Maya yalnız 02/04 fotoğraf yuvalarında. Dört sohbet mesajı, gerçek Networking çipi, etkinlik yer tutucusu ve harita atıfları native hâlinde.
+- iPhone R2 başlıkları aynen kullanıldı; Play son copy/feature graphic onayı HARBOR + Founder'da. 7 SVG, üretim betikleri, HTML, contact sheet, MANIFEST ve SHA256 teslimi.
+- Görsel kontroller PASS; uygulama/ARB/token/ürün davranışı ve iPhone R2 dosyaları değişmedi. Yerel commit; push veya mağaza yüklemesi yok.
+
 ## 2026-10-13 — STORE-IOS-14 R2 / gündüz çekimleri ve onaylı copy
 
 - Aynı `03-MAGAZA/imhere-store-v1.4-ios/` teslimi, `kosu-20261013-073348` içindeki altı yeni native kaynakla yeniden üretildi. Kaynak `ee077b1`, uygulama 1.4.0 (19); `app/`, `fcb3a1c` ile bayt-aynı. Gerçek çekim saatleri korunur.

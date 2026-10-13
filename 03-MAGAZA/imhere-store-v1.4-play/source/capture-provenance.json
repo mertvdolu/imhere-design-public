@@ -1,0 +1,54 @@
+{
+  "version": "1.4.0",
+  "build": 19,
+  "commit": "28880d1c",
+  "fullCommit": "28880d1c2667e1307e7c309e0f8e6846b4847e0f",
+  "device": "Pixel 7 / imhere_api36 read-only emulator instance",
+  "api": 36,
+  "os": "Android 16",
+  "locale": "en_GB",
+  "fixture": "demo-imhere; fictional Maya and Alex",
+  "captureRun": "kosu-20261013-080310",
+  "captureRecordedAt": "2026-10-13T08:08:00+03:00",
+  "statusBarClock": "Actual capture time (Europe/Istanbul +03)",
+  "captures": [
+    {
+      "file": "source/native/android/01-amac.png",
+      "sha256": "feef44418b133bf0e82db2a338da980fd1dc3f514e74192b0e5de5dc7a62f8a4",
+      "width": 1080,
+      "height": 2400
+    },
+    {
+      "file": "source/native/android/02-yakindakiler.png",
+      "sha256": "44ee9d58db9b8fcf62478fe2b3060b552e36f0d2a528ad0f7cc4ace4bdc80e09",
+      "width": 1080,
+      "height": 2400
+    },
+    {
+      "file": "source/native/android/03-istek-profili.png",
+      "sha256": "81b89b2899a23538e027ee27b92c5f1cf6292968c84e9b3fd1e8d185ee72cd9f",
+      "width": 1080,
+      "height": 2400
+    },
+    {
+      "file": "source/native/android/04-sohbet.png",
+      "sha256": "2aac7046810e67da4e0d6fc5602f4a6e1d06c38f9269a761c6ca5a94677f5779",
+      "width": 1080,
+      "height": 2400
+    },
+    {
+      "file": "source/native/android/05-etkinlik.png",
+      "sha256": "1f1957fbdd459b08c05a7009fdc83e576be3285b070b25b3d74a5989ed717484",
+      "width": 1080,
+      "height": 2400
+    },
+    {
+      "file": "source/native/android/06-harita.png",
+      "sha256": "343b088d4cec3e49ad753f4c053520ea094203c91124981832190d9a32880519",
+      "width": 1080,
+      "height": 2400
+    }
+  ],
+  "nativeSourceStatus": "CAPTURED_HASH_VERIFIED",
+  "sourceNote": "Fresh six-source capture record takes precedence over older NOT RUN preparation notes."
+}

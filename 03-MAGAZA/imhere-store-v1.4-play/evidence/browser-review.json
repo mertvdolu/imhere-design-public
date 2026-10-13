@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-13",
+  "surface": "Codex in-app browser",
+  "page": "ONIZLEME.html",
+  "result": "PASS",
+  "observed": {
+    "loadedPhoneImages": 6,
+    "phoneDimensions": [
+      1080,
+      1920
+    ],
+    "loadedFeatureImage": true,
+    "featureDimensions": [
+      1024,
+      500
+    ],
+    "nativeToggle": "6 original Android paths selected; return to composed artwork confirmed",
+    "horizontalOverflow": false,
+    "consoleErrorsObserved": 0
+  },
+  "limits": "One browser window; not exhaustive cross-device testing. Native sources and store PNG files separately validated."
+}

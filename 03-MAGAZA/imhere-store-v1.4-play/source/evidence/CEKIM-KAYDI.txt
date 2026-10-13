@@ -1,0 +1,13 @@
+MAGAZA-NATIVE-14 ANDROID cekim kaydi · 2026-10-13 08:08 +03
+kaynak commit 28880d1c (izlenen degisiklik: 0) · uygulama 1.4.0 (19) · AVD imhere_api36 (ayri salt-okunur ornek) · pixel_7 · system-images/android-36/google_apis/arm64-v8a/ · Android emulator version 37.1.11.0 (build_id 15917651) (CL:N/A)
+cihaz: Android 16 (API 36) · 1080x2400 @ 420 dpi · en-GB · Europe/Istanbul · yazi 1.0 · hareketle gezinme
+durum çubuğu: gerçek saat (Europe/Istanbul yerel saati; demo kipi her kareden hemen once; Wi-Fi tam, pil %100, bildirim yok)
+derleme: flutter build apk --debug --flavor dev --target-platform android-arm64 --dart-define=IMHERE_USE_EMULATORS=true --dart-define=IMHERE_SAHNE=true --dart-define=IMHERE_EVENTS_V1=true
+veri: yalniz yerel emulator demo-imhere, tools/dev-magaza-sahnesi.mjs (kurmaca Alex / Maya; etkinlik Manager bilgileriyle yerel kopya)
+01-amac.png 1080x2400 102596 bayt sha256 feef44418b133bf0e82db2a338da980fd1dc3f514e74192b0e5de5dc7a62f8a4
+02-yakindakiler.png 1080x2400 203691 bayt sha256 44ee9d58db9b8fcf62478fe2b3060b552e36f0d2a528ad0f7cc4ace4bdc80e09
+03-istek-profili.png 1080x2400 151855 bayt sha256 81b89b2899a23538e027ee27b92c5f1cf6292968c84e9b3fd1e8d185ee72cd9f
+04-sohbet.png 1080x2400 194021 bayt sha256 2aac7046810e67da4e0d6fc5602f4a6e1d06c38f9269a761c6ca5a94677f5779
+05-etkinlik.png 1080x2400 196021 bayt sha256 1f1957fbdd459b08c05a7009fdc83e576be3285b070b25b3d74a5989ed717484
+06-harita.png 1080x2400 1403233 bayt sha256 343b088d4cec3e49ad753f4c053520ea094203c91124981832190d9a32880519
+kadraj notu yok (denetlenen ogeler kadrajda)

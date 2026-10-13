@@ -1,0 +1,224 @@
+{
+  "package": "STORE-IOS-14 EK1",
+  "theme": "Cream & Ink v2.3",
+  "appVersion": "1.4.0 (19)",
+  "platform": "Android / Google Play",
+  "status": "DESIGN EXPORTED — PLAY COPY REVIEW",
+  "copyStatus": "DRAFT — HARBOR + FOUNDER PLAY COPY APPROVAL REQUIRED",
+  "assets": [
+    {
+      "file": "google-play/phone/01-purpose.png",
+      "sourceSvg": "source/svg/01-purpose.svg",
+      "id": "01-purpose",
+      "width": 1080,
+      "height": 1920,
+      "captures": [
+        {
+          "shot": "01-purpose",
+          "nativeSource": "source/native/android/01-amac.png",
+          "sha256": "feef44418b133bf0e82db2a338da980fd1dc3f514e74192b0e5de5dc7a62f8a4",
+          "portrait": null,
+          "geometry": {
+            "x": 189,
+            "y": 276,
+            "width": 702.0,
+            "height": 1560,
+            "sourceWidth": 1080,
+            "sourceHeight": 2400
+          },
+          "crop": "none; full Android native frame uniformly scaled"
+        }
+      ],
+      "copyStatus": "DRAFT — HARBOR + FOUNDER PLAY COPY APPROVAL REQUIRED"
+    },
+    {
+      "file": "google-play/phone/02-nearby.png",
+      "sourceSvg": "source/svg/02-nearby.svg",
+      "id": "02-nearby",
+      "width": 1080,
+      "height": 1920,
+      "captures": [
+        {
+          "shot": "02-nearby",
+          "nativeSource": "source/native/android/02-yakindakiler.png",
+          "sha256": "44ee9d58db9b8fcf62478fe2b3060b552e36f0d2a528ad0f7cc4ace4bdc80e09",
+          "portrait": {
+            "x": 94.5,
+            "y": 1598,
+            "width": 168,
+            "height": 210,
+            "radius": 31.5
+          },
+          "geometry": {
+            "x": 189,
+            "y": 276,
+            "width": 702.0,
+            "height": 1560,
+            "sourceWidth": 1080,
+            "sourceHeight": 2400
+          },
+          "crop": "none; full Android native frame uniformly scaled"
+        }
+      ],
+      "copyStatus": "DRAFT — HARBOR + FOUNDER PLAY COPY APPROVAL REQUIRED"
+    },
+    {
+      "file": "google-play/phone/03-request-profile.png",
+      "sourceSvg": "source/svg/03-request-profile.svg",
+      "id": "03-request-profile",
+      "width": 1080,
+      "height": 1920,
+      "captures": [
+        {
+          "shot": "03-request-profile",
+          "nativeSource": "source/native/android/03-istek-profili.png",
+          "sha256": "81b89b2899a23538e027ee27b92c5f1cf6292968c84e9b3fd1e8d185ee72cd9f",
+          "portrait": null,
+          "geometry": {
+            "x": 189,
+            "y": 276,
+            "width": 702.0,
+            "height": 1560,
+            "sourceWidth": 1080,
+            "sourceHeight": 2400
+          },
+          "crop": "none; full Android native frame uniformly scaled"
+        }
+      ],
+      "copyStatus": "DRAFT — HARBOR + FOUNDER PLAY COPY APPROVAL REQUIRED"
+    },
+    {
+      "file": "google-play/phone/04-chat.png",
+      "sourceSvg": "source/svg/04-chat.svg",
+      "id": "04-chat",
+      "width": 1080,
+      "height": 1920,
+      "captures": [
+        {
+          "shot": "04-chat",
+          "nativeSource": "source/native/android/04-sohbet.png",
+          "sha256": "2aac7046810e67da4e0d6fc5602f4a6e1d06c38f9269a761c6ca5a94677f5779",
+          "portrait": {
+            "x": 94.5,
+            "y": 503.5,
+            "width": 168,
+            "height": 210,
+            "radius": 31.5
+          },
+          "geometry": {
+            "x": 189,
+            "y": 276,
+            "width": 702.0,
+            "height": 1560,
+            "sourceWidth": 1080,
+            "sourceHeight": 2400
+          },
+          "crop": "none; full Android native frame uniformly scaled"
+        }
+      ],
+      "copyStatus": "DRAFT — HARBOR + FOUNDER PLAY COPY APPROVAL REQUIRED"
+    },
+    {
+      "file": "google-play/phone/05-event-detail.png",
+      "sourceSvg": "source/svg/05-event-detail.svg",
+      "id": "05-event-detail",
+      "width": 1080,
+      "height": 1920,
+      "captures": [
+        {
+          "shot": "05-event-detail",
+          "nativeSource": "source/native/android/05-etkinlik.png",
+          "sha256": "1f1957fbdd459b08c05a7009fdc83e576be3285b070b25b3d74a5989ed717484",
+          "portrait": null,
+          "geometry": {
+            "x": 189,
+            "y": 276,
+            "width": 702.0,
+            "height": 1560,
+            "sourceWidth": 1080,
+            "sourceHeight": 2400
+          },
+          "crop": "none; full Android native frame uniformly scaled"
+        }
+      ],
+      "copyStatus": "DRAFT — HARBOR + FOUNDER PLAY COPY APPROVAL REQUIRED"
+    },
+    {
+      "file": "google-play/phone/06-area-activity.png",
+      "sourceSvg": "source/svg/06-area-activity.svg",
+      "id": "06-area-activity",
+      "width": 1080,
+      "height": 1920,
+      "captures": [
+        {
+          "shot": "06-area-activity",
+          "nativeSource": "source/native/android/06-harita.png",
+          "sha256": "343b088d4cec3e49ad753f4c053520ea094203c91124981832190d9a32880519",
+          "portrait": null,
+          "geometry": {
+            "x": 189,
+            "y": 276,
+            "width": 702.0,
+            "height": 1560,
+            "sourceWidth": 1080,
+            "sourceHeight": 2400
+          },
+          "crop": "none; full Android native frame uniformly scaled"
+        }
+      ],
+      "copyStatus": "DRAFT — HARBOR + FOUNDER PLAY COPY APPROVAL REQUIRED"
+    },
+    {
+      "file": "google-play/feature-graphic.png",
+      "sourceSvg": "source/svg/feature-graphic.svg",
+      "id": "feature-graphic",
+      "width": 1024,
+      "height": 500,
+      "captures": [
+        {
+          "shot": "02-nearby",
+          "nativeSource": "source/native/android/02-yakindakiler.png",
+          "sha256": "44ee9d58db9b8fcf62478fe2b3060b552e36f0d2a528ad0f7cc4ace4bdc80e09",
+          "portrait": {
+            "x": 94.5,
+            "y": 1598,
+            "width": 168,
+            "height": 210,
+            "radius": 31.5
+          },
+          "geometry": {
+            "x": 566,
+            "y": 62,
+            "width": 171.0,
+            "height": 380,
+            "sourceWidth": 1080,
+            "sourceHeight": 2400
+          },
+          "crop": "none; full Android native frame uniformly scaled"
+        },
+        {
+          "shot": "04-chat",
+          "nativeSource": "source/native/android/04-sohbet.png",
+          "sha256": "2aac7046810e67da4e0d6fc5602f4a6e1d06c38f9269a761c6ca5a94677f5779",
+          "portrait": {
+            "x": 94.5,
+            "y": 503.5,
+            "width": 168,
+            "height": 210,
+            "radius": 31.5
+          },
+          "geometry": {
+            "x": 777,
+            "y": 62,
+            "width": 171.0,
+            "height": 380,
+            "sourceWidth": 1080,
+            "sourceHeight": 2400
+          },
+          "crop": "none; full Android native frame uniformly scaled"
+        }
+      ],
+      "copyStatus": "DRAFT — HARBOR + FOUNDER PLAY COPY APPROVAL REQUIRED"
+    }
+  ]
+}

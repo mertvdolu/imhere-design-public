@@ -1,0 +1,71 @@
+{
+  "result": "PASS",
+  "count": 7,
+  "allRGB": true,
+  "allOpaque": true,
+  "exports": [
+    {
+      "file": "google-play/phone/01-purpose.png",
+      "width": 1080,
+      "height": 1920,
+      "format": "png",
+      "channels": 3,
+      "hasAlpha": false,
+      "space": "srgb"
+    },
+    {
+      "file": "google-play/phone/02-nearby.png",
+      "width": 1080,
+      "height": 1920,
+      "format": "png",
+      "channels": 3,
+      "hasAlpha": false,
+      "space": "srgb"
+    },
+    {
+      "file": "google-play/phone/03-request-profile.png",
+      "width": 1080,
+      "height": 1920,
+      "format": "png",
+      "channels": 3,
+      "hasAlpha": false,
+      "space": "srgb"
+    },
+    {
+      "file": "google-play/phone/04-chat.png",
+      "width": 1080,
+      "height": 1920,
+      "format": "png",
+      "channels": 3,
+      "hasAlpha": false,
+      "space": "srgb"
+    },
+    {
+      "file": "google-play/phone/05-event-detail.png",
+      "width": 1080,
+      "height": 1920,
+      "format": "png",
+      "channels": 3,
+      "hasAlpha": false,
+      "space": "srgb"
+    },
+    {
+      "file": "google-play/phone/06-area-activity.png",
+      "width": 1080,
+      "height": 1920,
+      "format": "png",
+      "channels": 3,
+      "hasAlpha": false,
+      "space": "srgb"
+    },
+    {
+      "file": "google-play/feature-graphic.png",
+      "width": 1024,
+      "height": 500,
+      "format": "png",
+      "channels": 3,
+      "hasAlpha": false,
+      "space": "srgb"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "checked": "2026-10-13",
+  "source": "https://support.google.com/googleplay/android-developer/answer/9866151?hl=en-en",
+  "phoneFormat": "24-bit PNG or JPEG; no alpha",
+  "phoneMinDimension": 320,
+  "phoneMaxDimension": 3840,
+  "maxLongToShortRatio": 2,
+  "phoneSet": {
+    "count": 6,
+    "width": 1080,
+    "height": 1920
+  },
+  "feature": {
+    "width": 1024,
+    "height": 500,
+    "noAlpha": true
+  },
+  "result": "Technical dimensions and format matched; not store acceptance."
+}

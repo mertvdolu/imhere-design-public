@@ -1,0 +1,262 @@
+{
+  "result": "PASS",
+  "sourceCaptures": 6,
+  "exports": 7,
+  "phonePngs": 6,
+  "featureGraphics": 1,
+  "opaqueRGB": true,
+  "nativeSourcesUnchanged": true,
+  "nativeNotCroppedOrStretched": true,
+  "portraitScenes": [
+    "02-nearby",
+    "04-chat"
+  ],
+  "marketingContrast": {
+    "heading": 15.49,
+    "footer": 4.85
+  },
+  "copyStatus": "DRAFT — HARBOR + FOUNDER PLAY COPY APPROVAL REQUIRED",
+  "assets": [
+    {
+      "file": "google-play/phone/01-purpose.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "opaqueRGB": true,
+      "sourceHashesMatch": true,
+      "fullNativeFrames": 1,
+      "portraitSlots": 0,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "width": 107.2,
+          "fits": true
+        },
+        {
+          "text": "Say why",
+          "width": 308.0,
+          "fits": true
+        },
+        {
+          "text": "you're here.",
+          "width": 413.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "width": 401.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "google-play/phone/02-nearby.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "opaqueRGB": true,
+      "sourceHashesMatch": true,
+      "fullNativeFrames": 1,
+      "portraitSlots": 1,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "width": 107.2,
+          "fits": true
+        },
+        {
+          "text": "See who else",
+          "width": 480.0,
+          "fits": true
+        },
+        {
+          "text": "is here.",
+          "width": 255.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "width": 401.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "google-play/phone/03-request-profile.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "opaqueRGB": true,
+      "sourceHashesMatch": true,
+      "fullNativeFrames": 1,
+      "portraitSlots": 0,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "width": 107.2,
+          "fits": true
+        },
+        {
+          "text": "See who's",
+          "width": 367.0,
+          "fits": true
+        },
+        {
+          "text": "saying hello.",
+          "width": 444.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "width": 401.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "google-play/phone/04-chat.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "opaqueRGB": true,
+      "sourceHashesMatch": true,
+      "fullNativeFrames": 1,
+      "portraitSlots": 1,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "width": 107.2,
+          "fits": true
+        },
+        {
+          "text": "Start with",
+          "width": 364.0,
+          "fits": true
+        },
+        {
+          "text": "a conversation.",
+          "width": 549.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "width": 401.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "google-play/phone/05-event-detail.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "opaqueRGB": true,
+      "sourceHashesMatch": true,
+      "fullNativeFrames": 1,
+      "portraitSlots": 0,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "width": 107.2,
+          "fits": true
+        },
+        {
+          "text": "Events from",
+          "width": 446.0,
+          "fits": true
+        },
+        {
+          "text": "our team.",
+          "width": 341.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "width": 401.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "google-play/phone/06-area-activity.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "opaqueRGB": true,
+      "sourceHashesMatch": true,
+      "fullNativeFrames": 1,
+      "portraitSlots": 0,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "width": 107.2,
+          "fits": true
+        },
+        {
+          "text": "A wider view",
+          "width": 464.0,
+          "fits": true
+        },
+        {
+          "text": "of nearby.",
+          "width": 360.0,
+          "fits": true
+        },
+        {
+          "text": "© OpenMapTiles",
+          "width": 147.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "width": 401.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "google-play/feature-graphic.png",
+      "size": [
+        1024,
+        500
+      ],
+      "opaqueRGB": true,
+      "sourceHashesMatch": true,
+      "fullNativeFrames": 2,
+      "portraitSlots": 2,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "width": 118.2,
+          "fits": true
+        },
+        {
+          "text": "Start with",
+          "width": 241.7,
+          "fits": true
+        },
+        {
+          "text": "a conversation.",
+          "width": 368.2,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "width": 273.0,
+          "fits": true
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Not Google Play approval or native usability test",
+    "Play final copy and feature graphic approval pending HARBOR + Founder",
+    "Event lower explanatory text extends behind native bottom navigation; source retained"
+  ]
+}

@@ -1,0 +1,7 @@
+43bb6163d45a8a3260ebc311f0d84869fc615fb48a394e3aac0811344ca7489b  google-play/phone/01-purpose.png
+71f42893efc36963effe3be69617b68a28544109abae144ee5f2338ebffc36db  google-play/phone/02-nearby.png
+4e72273bcf5c0898c0e21e6abf1c67869e3f68c4bf8280c8fbfe167dfc750af4  google-play/phone/03-request-profile.png
+00c138d1f5a11af0e49d70ba584494e39749fd0d6fdc33e2b80d54bdebd2a839  google-play/phone/04-chat.png
+22952552768fb4dad521e66cddb17a1081662a5cacb83e12461a87f18352e854  google-play/phone/05-event-detail.png
+d29fe8c5297cbe5b73fa82ef88997a3bdc37e7de3eee52ce8585b2f3cc993dd2  google-play/phone/06-area-activity.png
+5163eb8dd25ad20954c4ae7554f77006155aa1dba9fb2a8f847048fa72e30069  google-play/feature-graphic.png

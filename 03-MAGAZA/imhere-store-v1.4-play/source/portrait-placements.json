@@ -1,0 +1,21 @@
+{
+  "asset": "assets/maya-synthetic.jpg",
+  "source": "Existing synthetic Maya portrait from approved design assets; only native photo placeholders covered.",
+  "coordinateSystem": "1080x2400 native Android pixels",
+  "placements": {
+    "02-nearby": {
+      "x": 94.5,
+      "y": 1598,
+      "width": 168,
+      "height": 210,
+      "radius": 31.5
+    },
+    "04-chat": {
+      "x": 94.5,
+      "y": 503.5,
+      "width": 168,
+      "height": 210,
+      "radius": 31.5
+    }
+  }
+}

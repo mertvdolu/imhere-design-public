@@ -1,0 +1,83 @@
+{
+  "locale": "en_GB",
+  "status": "DRAFT — HARBOR + FOUNDER PLAY COPY APPROVAL REQUIRED",
+  "brand": "IM HERE",
+  "disclosure": "Fictional profiles · Illustrative content",
+  "mapCredit": "© OpenMapTiles",
+  "shots": [
+    {
+      "id": "01-purpose",
+      "source": "01-amac.png",
+      "title": "Say why you're here.",
+      "lines": [
+        "Say why",
+        "you're here."
+      ],
+      "alt": "Purpose selection in IM HERE with Networking and Friendship unselected."
+    },
+    {
+      "id": "02-nearby",
+      "source": "02-yakindakiler.png",
+      "title": "See who else is here.",
+      "lines": [
+        "See who else",
+        "is here."
+      ],
+      "alt": "An active check-in and fictional Maya's Nearby card with a Networking chip."
+    },
+    {
+      "id": "03-request-profile",
+      "source": "03-istek-profili.png",
+      "title": "See who's saying hello.",
+      "lines": [
+        "See who's",
+        "saying hello."
+      ],
+      "alt": "Fictional Maya's incoming request profile with connect, decline and Safety actions."
+    },
+    {
+      "id": "04-chat",
+      "source": "04-sohbet.png",
+      "title": "Start with a conversation.",
+      "lines": [
+        "Start with",
+        "a conversation."
+      ],
+      "alt": "A fictional chat with Maya, the shield control, message allowance and message composer."
+    },
+    {
+      "id": "05-event-detail",
+      "source": "05-etkinlik.png",
+      "title": "Events from our team.",
+      "lines": [
+        "Events from",
+        "our team."
+      ],
+      "alt": "Coffee & Connect event details for 7 November 2026 at Royal Festival Hall, with Interested and Going."
+    },
+    {
+      "id": "06-area-activity",
+      "source": "06-harita.png",
+      "title": "A wider view of nearby.",
+      "lines": [
+        "A wider view",
+        "of nearby."
+      ],
+      "alt": "Area activity map with blue, yellow, green and red areas, map controls and attribution."
+    }
+  ],
+  "wordingSource": "iOS R2: APPROVED — HARBOR HB-27 + Founder 13 Eki 2026; same wording reused. Play usage and new feature graphic pending final approval.",
+  "feature": {
+    "id": "feature-graphic",
+    "title": "Start with a conversation.",
+    "lines": [
+      "Start with",
+      "a conversation."
+    ],
+    "alt": "IM HERE with Android Nearby and chat screens showing fictional Maya and illustrative content.",
+    "sourceShots": [
+      "02-nearby",
+      "04-chat"
+    ]
+  }
+}

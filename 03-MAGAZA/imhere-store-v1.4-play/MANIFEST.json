@@ -1,0 +1,383 @@
+{
+  "package": "imhere-store-v1.4-play",
+  "revision": "1.0",
+  "theme": "Cream & Ink v2.3",
+  "appVersion": "1.4.0 (19)",
+  "date": "2026-10-13",
+  "status": "DESIGN EXPORTED — PLAY COPY REVIEW",
+  "hashAlgorithm": "SHA256",
+  "selfExclusion": "MANIFEST.json",
+  "storePngCount": 7,
+  "fileCount": 50,
+  "files": [
+    {
+      "file": "COPY-REVIEW.md",
+      "bytes": 1842,
+      "sha256": "e0b01237ff5a00d0d45b8ddef0c49be4c97a1ae82383eb9332b6564151c29fc0",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "DELIVERY.json",
+      "bytes": 6944,
+      "sha256": "eecd4dccba94aede26dbffed32a0f394aca92b6bb3857211c376302b11ec1fdf",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "HANDOFF.md",
+      "bytes": 1870,
+      "sha256": "64b02147743f0e4388afee4df811bdae2dc67eec8b95c6bcbfd43895a1bb212a",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "NATIVE-CAPTURE-REQUEST.md",
+      "bytes": 987,
+      "sha256": "c34910c061819a994a3089fbf74fd53c25caa4cb8da2b5eba54beb16ac41ecac",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "ONIZLEME.html",
+      "bytes": 8133,
+      "sha256": "44489309ab5a58d32d6f8c10dc4db63b194bd4d8e6bb9ea86f9b0d54a55bd205",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "README.md",
+      "bytes": 1596,
+      "sha256": "0564859e6f01fdff23ca8f74b1635bd0984f0b68de78a82e759ba7042f9cea57",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "SHA256SUMS.txt",
+      "bytes": 707,
+      "sha256": "c5d500e92be2b31cef71ff246a3e32b1788b55d1a2841439fdb77ac06e13c6f2",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "SPEC.md",
+      "bytes": 2899,
+      "sha256": "8148bc3196a457719c4c07d4b972b0ad6b97ecc75728014e9983dfe336d13308",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "VALIDATION.md",
+      "bytes": 1798,
+      "sha256": "e42aec594901e459de450217333b6de139336b0f294a71324933a7a99273f419",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "assets/Geist-Medium.ttf",
+      "bytes": 127660,
+      "sha256": "3a3b36f0d0b981f4857f7f00eeef4a5ee123605575d362ab31ee7c19e3d11f2f",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "assets/Geist-Medium.woff2",
+      "bytes": 19992,
+      "sha256": "dc097e4fa082f01c44ccc7a5ee13ed30259e791a663b9ffa81225ecb4869f40f",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "assets/Geist-Regular.ttf",
+      "bytes": 126048,
+      "sha256": "85a1c6b18a6b0a06dfe9fd4f6d6a5d4979f74ec861eaef4bc7868b5492b8a117",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "assets/Geist-Regular.woff2",
+      "bytes": 19400,
+      "sha256": "e11300a9faf16e0c5e04bf63e6a082d614d82a3ef5ad50614f770cb8242a412b",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "assets/OFL.txt",
+      "bytes": 4383,
+      "sha256": "942560b236adfa83745b2c64e5fc09ebaf91cb331751b1157eb92187e5d6e930",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "assets/imhere-mark-icon-weight.svg",
+      "bytes": 565,
+      "sha256": "2ab93326b0dc88965527e8a2552495ce45e75df6a1da949752072379e60ff663",
+      "width": 144.0,
+      "height": 91.32,
+      "viewBox": "0 0 144 91.32",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "assets/maya-synthetic.jpg",
+      "bytes": 209523,
+      "sha256": "b22e4f29deed6ff90922b1ccfa43889ceacb40559e407d6ad5efaee8eb14a054",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "evidence/artwork-validation.json",
+      "bytes": 5634,
+      "sha256": "46d6f470bf1a6a244719c0d8a3cff451d33947adc57bf6f7a8018dbc28579b02",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "evidence/browser-review.json",
+      "bytes": 591,
+      "sha256": "cd22bf1d28a80a1d618d0e9f649e605ff7fd4e3ed682e74e595462b5d29f7d38",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "evidence/export-validation.json",
+      "bytes": 1487,
+      "sha256": "714734d43cd2a623d5d9f5f8840d936610ee68fda7380c8377a3050c40c38513",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "evidence/google-spec-check.json",
+      "bytes": 490,
+      "sha256": "94b707b35da774caada12a074cbb4f0621d34788f0660cd68d601099430abb21",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "google-play/feature-graphic.png",
+      "bytes": 61397,
+      "sha256": "5163eb8dd25ad20954c4ae7554f77006155aa1dba9fb2a8f847048fa72e30069",
+      "width": 1024,
+      "height": 500,
+      "mode": "RGB",
+      "role": "store-upload-candidate-copy-review"
+    },
+    {
+      "file": "google-play/phone/01-purpose.png",
+      "bytes": 94641,
+      "sha256": "43bb6163d45a8a3260ebc311f0d84869fc615fb48a394e3aac0811344ca7489b",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "role": "store-upload-candidate-copy-review"
+    },
+    {
+      "file": "google-play/phone/02-nearby.png",
+      "bytes": 173471,
+      "sha256": "71f42893efc36963effe3be69617b68a28544109abae144ee5f2338ebffc36db",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "role": "store-upload-candidate-copy-review"
+    },
+    {
+      "file": "google-play/phone/03-request-profile.png",
+      "bytes": 125988,
+      "sha256": "4e72273bcf5c0898c0e21e6abf1c67869e3f68c4bf8280c8fbfe167dfc750af4",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "role": "store-upload-candidate-copy-review"
+    },
+    {
+      "file": "google-play/phone/04-chat.png",
+      "bytes": 177781,
+      "sha256": "00c138d1f5a11af0e49d70ba584494e39749fd0d6fdc33e2b80d54bdebd2a839",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "role": "store-upload-candidate-copy-review"
+    },
+    {
+      "file": "google-play/phone/05-event-detail.png",
+      "bytes": 148818,
+      "sha256": "22952552768fb4dad521e66cddb17a1081662a5cacb83e12461a87f18352e854",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "role": "store-upload-candidate-copy-review"
+    },
+    {
+      "file": "google-play/phone/06-area-activity.png",
+      "bytes": 821205,
+      "sha256": "d29fe8c5297cbe5b73fa82ef88997a3bdc37e7de3eee52ce8585b2f3cc993dd2",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "role": "store-upload-candidate-copy-review"
+    },
+    {
+      "file": "review/contact-sheet.png",
+      "bytes": 533619,
+      "sha256": "636f11d9cd69f47fe0be1ebc1a45864a351a3e2d9bed9b93b34c6d9e62b198e3",
+      "width": 1092,
+      "height": 1744,
+      "mode": "RGB",
+      "role": "review-only-not-for-store"
+    },
+    {
+      "file": "source/build.py",
+      "bytes": 6190,
+      "sha256": "08e60806c9652ae38220a8ac7e75e26a3984832da6879d6b57d03e499c233893",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/capture-provenance.json",
+      "bytes": 1797,
+      "sha256": "7b1d1463984300cdb17a824cc3fbf278822b58273d08dfe87a8437c132e23091",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/copy.en-GB.json",
+      "bytes": 2446,
+      "sha256": "af33f7c6260609be70a7bbc6c3c41b734a8dbde9b7266a261dd082f09161de1c",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/evidence/CEKIM-KAYDI.txt",
+      "bytes": 1574,
+      "sha256": "7235583aa7d285db77647ddb90e37a6d3e65aef6df61fe71a5771cdbe549f603",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/evidence/INITIAL-CAPTURE-REQUEST.md",
+      "bytes": 6867,
+      "sha256": "b637a9673659d8fb112b8dbd7cb3e3d241b7f3f355e51936522b70a50ed46264",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/manifest.py",
+      "bytes": 1908,
+      "sha256": "5eb80a3b4a0919278eaa5cbcd31ac371331ed0b6e77dc779c4eff34f68c02a79",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/native/android/01-amac.png",
+      "bytes": 102596,
+      "sha256": "feef44418b133bf0e82db2a338da980fd1dc3f514e74192b0e5de5dc7a62f8a4",
+      "width": 1080,
+      "height": 2400,
+      "mode": "RGBA",
+      "role": "unaltered-native-source"
+    },
+    {
+      "file": "source/native/android/02-yakindakiler.png",
+      "bytes": 203691,
+      "sha256": "44ee9d58db9b8fcf62478fe2b3060b552e36f0d2a528ad0f7cc4ace4bdc80e09",
+      "width": 1080,
+      "height": 2400,
+      "mode": "RGBA",
+      "role": "unaltered-native-source"
+    },
+    {
+      "file": "source/native/android/03-istek-profili.png",
+      "bytes": 151855,
+      "sha256": "81b89b2899a23538e027ee27b92c5f1cf6292968c84e9b3fd1e8d185ee72cd9f",
+      "width": 1080,
+      "height": 2400,
+      "mode": "RGBA",
+      "role": "unaltered-native-source"
+    },
+    {
+      "file": "source/native/android/04-sohbet.png",
+      "bytes": 194021,
+      "sha256": "2aac7046810e67da4e0d6fc5602f4a6e1d06c38f9269a761c6ca5a94677f5779",
+      "width": 1080,
+      "height": 2400,
+      "mode": "RGBA",
+      "role": "unaltered-native-source"
+    },
+    {
+      "file": "source/native/android/05-etkinlik.png",
+      "bytes": 196021,
+      "sha256": "1f1957fbdd459b08c05a7009fdc83e576be3285b070b25b3d74a5989ed717484",
+      "width": 1080,
+      "height": 2400,
+      "mode": "RGBA",
+      "role": "unaltered-native-source"
+    },
+    {
+      "file": "source/native/android/06-harita.png",
+      "bytes": 1403233,
+      "sha256": "343b088d4cec3e49ad753f4c053520ea094203c91124981832190d9a32880519",
+      "width": 1080,
+      "height": 2400,
+      "mode": "RGBA",
+      "role": "unaltered-native-source"
+    },
+    {
+      "file": "source/portrait-placements.json",
+      "bytes": 482,
+      "sha256": "6fe6c51ff202217439a92bdaa5e30053a6205a4dbeb2545a9e72bbbdf560d007",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/render.cjs",
+      "bytes": 2618,
+      "sha256": "826b64c75e75850a5c4be9531d44bdcf38d03dc143b82f0240f602b15f3fae06",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/svg/01-purpose.svg",
+      "bytes": 191830,
+      "sha256": "9a9a13831ab16902ff1314c5c9598f11195b0963afb29c26f3af2b042ddb11c1",
+      "width": 1080.0,
+      "height": 1920.0,
+      "viewBox": "0 0 1080 1920",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/svg/02-nearby.svg",
+      "bytes": 606261,
+      "sha256": "38bd91445d905b5014fcb7f6c4862eeaeefa1828390eb175afc5fe4787708059",
+      "width": 1080.0,
+      "height": 1920.0,
+      "viewBox": "0 0 1080 1920",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/svg/03-request-profile.svg",
+      "bytes": 257533,
+      "sha256": "48eb0067d698464c927fdc79c5b041fa34f9ad29e124359b9f0874500084f3d4",
+      "width": 1080.0,
+      "height": 1920.0,
+      "viewBox": "0 0 1080 1920",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/svg/04-chat.svg",
+      "bytes": 593384,
+      "sha256": "0c3e90125c03a17f7037c3743a9f7c78b76bea2313a4b7ab543bb5f554b098cc",
+      "width": 1080.0,
+      "height": 1920.0,
+      "viewBox": "0 0 1080 1920",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/svg/05-event-detail.svg",
+      "bytes": 316424,
+      "sha256": "4de12018027135da3b3b12951d13273efbf81668119a32fb7886e36ee953b2f9",
+      "width": 1080.0,
+      "height": 1920.0,
+      "viewBox": "0 0 1080 1920",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/svg/06-area-activity.svg",
+      "bytes": 1926179,
+      "sha256": "5daec58612c794c9be381e06d395a028bccdd11c9daad04a8497633fc2cdaeaa",
+      "width": 1080.0,
+      "height": 1920.0,
+      "viewBox": "0 0 1080 1920",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/svg/feature-graphic.svg",
+      "bytes": 1144891,
+      "sha256": "3cc12444ee3ed4b26d49e0d89c2c2fd2f441668e2fad45c21e432d2490a0a3be",
+      "width": 1024.0,
+      "height": 500.0,
+      "viewBox": "0 0 1024 500",
+      "role": "source-or-documentation"
+    },
+    {
+      "file": "source/validate.py",
+      "bytes": 4427,
+      "sha256": "35e1eb55601d1df8f4c6c2c5229a5a40e65c1701ee9567e9c42ec01f1e5bdfe5",
+      "role": "source-or-documentation"
+    }
+  ]
+}
