@@ -11,7 +11,7 @@ def collect(o):
   for v in o:collect(v)
 collect(states)
 # Renderer common references remain explicit.
-keys.update(k for k in ['viewBack','loading','navProfile','navMessages','navNearby','navEvents','communityActiveLabel','communityPickerA11yLabel','communityPickerA11yHint','mapShowMyArea','occupationOther','occupationShowHelp','occupationNetworkingNote','profileLinkedinCheckRequired'] if k in bank)
+keys.update(k for k in ['viewBack','loading','navProfile','navMessages','navNearby','navEvents','communityActiveLabel','communityPickerA11yLabel','communityPickerA11yHint','mapShowMyArea','occupationOther','occupationShowHelp','occupationNetworkingNote','profileLinkedinCheckRequired','nearbyFiltersCountMany'] if k in bank)
 missing=keys-bank.keys()
 if missing:raise SystemExit('Missing: '+str(missing))
 copy={k:bank[k] for k in sorted(keys)}

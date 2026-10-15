@@ -9,5 +9,6 @@ Kaynak önceliği: Founder15Eki brief + karar1–52; copyHB-37 r5 §14.1>§13>ö
 - [secici ekran kuralları](secici/SPEC.md)
 - [meslek ekran kuralları](meslek/SPEC.md)
 - [linkedin ekran kuralları](linkedin/SPEC.md)
+- [filtre ekran kuralları](filtre/SPEC.md)
 
 [★ kararlar ve renkler](TOKENS.md). Onaylı metinler yeniden yazılmaz; ayrı öneriler copy review içindedir. Native ve backend değişikliği bu teslim değildir.

@@ -5369,5 +5369,801 @@
       }
     ],
     "notes": "Link plain text + generic external icon. Connections/chat profile can see according to visibility across communities. Before connection Networking only. Hidden/no link identical omission; no placeholder or community field. Viewer notice immediately below link."
+  },
+  {
+    "id": "filters-loading",
+    "group": "filtre",
+    "title": "nearbyFilters",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "nearbyFiltersJobHelp"
+      },
+      {
+        "type": "skeleton",
+        "key": "nearbyLoading",
+        "count": 4
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersThresholdNote",
+        "helper": true
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersPrivacyNote",
+        "helper": true
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersUpdateNote",
+        "helper": true
+      }
+    ],
+    "notes": "Networking only. Counts are explicit design fixtures, never live. Each visible option≥3, cap50+. OR among≤5 jobs, AND with LinkedIn Everyone. Panel order frozen while open; 0/1/2 same state; no saved filters.",
+    "back": "nearby-networking"
+  },
+  {
+    "id": "filters-options",
+    "group": "filtre",
+    "title": "nearbyFilters",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "nearbyFiltersJobHelp"
+      },
+      {
+        "type": "choices",
+        "key": "nearbyFiltersJobTitles",
+        "name": "jobs",
+        "multiple": true,
+        "items": [
+          {
+            "label": {
+              "en": "Software engineer",
+              "tr": "Yazılım mühendisi"
+            },
+            "value": "software-engineer",
+            "count": 51,
+            "selected": false,
+            "disabled": false,
+            "a11y": "nearbyFiltersOptionManyA11y"
+          },
+          {
+            "label": {
+              "en": "Front-end developer",
+              "tr": "Front-end geliştirici"
+            },
+            "value": "frontend-developer",
+            "count": 24,
+            "selected": false,
+            "disabled": false,
+            "a11y": "nearbyFiltersOptionA11y"
+          },
+          {
+            "label": {
+              "en": "Back-end developer",
+              "tr": "Back-end geliştirici"
+            },
+            "value": "backend-developer",
+            "count": 12,
+            "selected": false,
+            "disabled": false,
+            "a11y": "nearbyFiltersOptionA11y"
+          },
+          {
+            "label": {
+              "en": "Full-stack developer",
+              "tr": "Full-stack geliştirici"
+            },
+            "value": "full-stack-developer",
+            "count": 8,
+            "selected": false,
+            "disabled": false,
+            "a11y": "nearbyFiltersOptionA11y"
+          },
+          {
+            "label": {
+              "en": "DevOps / cloud engineer",
+              "tr": "DevOps / bulut mühendisi"
+            },
+            "value": "devops-engineer",
+            "count": 6,
+            "selected": false,
+            "disabled": false,
+            "a11y": "nearbyFiltersOptionA11y"
+          },
+          {
+            "label": {
+              "en": "Data scientist",
+              "tr": "Veri bilimci"
+            },
+            "value": "data-scientist",
+            "count": 3,
+            "selected": false,
+            "disabled": false,
+            "a11y": "nearbyFiltersOptionA11y"
+          }
+        ]
+      },
+      {
+        "type": "switch",
+        "key": "nearbyFiltersLinkedinOnly",
+        "checked": false,
+        "to": "filters-linkedin-only"
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersThresholdNote",
+        "helper": true
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersPrivacyNote",
+        "helper": true
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersUpdateNote",
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "nearbyFiltersClear",
+            "to": "filters-options"
+          },
+          {
+            "key": "nearbyFiltersShowResults",
+            "primary": true,
+            "to": "filters-list"
+          }
+        ]
+      }
+    ],
+    "notes": "Networking only. Counts are explicit design fixtures, never live. Each visible option≥3, cap50+. OR among≤5 jobs, AND with LinkedIn Everyone. Panel order frozen while open; 0/1/2 same state; no saved filters.",
+    "back": "nearby-networking"
+  },
+  {
+    "id": "filters-selected",
+    "group": "filtre",
+    "title": "nearbyFilters",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "nearbyFiltersJobHelp"
+      },
+      {
+        "type": "choices",
+        "key": "nearbyFiltersJobTitles",
+        "name": "jobs",
+        "multiple": true,
+        "items": [
+          {
+            "label": {
+              "en": "Software engineer",
+              "tr": "Yazılım mühendisi"
+            },
+            "value": "software-engineer",
+            "count": 51,
+            "selected": true,
+            "disabled": false,
+            "a11y": "nearbyFiltersOptionManyA11y"
+          },
+          {
+            "label": {
+              "en": "Front-end developer",
+              "tr": "Front-end geliştirici"
+            },
+            "value": "frontend-developer",
+            "count": 24,
+            "selected": true,
+            "disabled": false,
+            "a11y": "nearbyFiltersOptionA11y"
+          },
+          {
+            "label": {
+              "en": "Back-end developer",
+              "tr": "Back-end geliştirici"
+            },
+            "value": "backend-developer",
+            "count": 12,
+            "selected": false,
+            "disabled": false,
+            "a11y": "nearbyFiltersOptionA11y"
+          },
+          {
+            "label": {
+              "en": "Full-stack developer",
+              "tr": "Full-stack geliştirici"
+            },
+            "value": "full-stack-developer",
+            "count": 8,
+            "selected": false,
+            "disabled": false,
+            "a11y": "nearbyFiltersOptionA11y"
+          },
+          {
+            "label": {
+              "en": "DevOps / cloud engineer",
+              "tr": "DevOps / bulut mühendisi"
+            },
+            "value": "devops-engineer",
+            "count": 6,
+            "selected": false,
+            "disabled": false,
+            "a11y": "nearbyFiltersOptionA11y"
+          },
+          {
+            "label": {
+              "en": "Data scientist",
+              "tr": "Veri bilimci"
+            },
+            "value": "data-scientist",
+            "count": 3,
+            "selected": false,
+            "disabled": false,
+            "a11y": "nearbyFiltersOptionA11y"
+          }
+        ]
+      },
+      {
+        "type": "switch",
+        "key": "nearbyFiltersLinkedinOnly",
+        "checked": false,
+        "to": "filters-linkedin-only"
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersThresholdNote",
+        "helper": true
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersPrivacyNote",
+        "helper": true
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersUpdateNote",
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "nearbyFiltersClear",
+            "to": "filters-options"
+          },
+          {
+            "key": "nearbyFiltersShowResults",
+            "primary": true,
+            "to": "filters-list"
+          }
+        ]
+      }
+    ],
+    "notes": "Networking only. Counts are explicit design fixtures, never live. Each visible option≥3, cap50+. OR among≤5 jobs, AND with LinkedIn Everyone. Panel order frozen while open; 0/1/2 same state; no saved filters.",
+    "back": "nearby-networking"
+  },
+  {
+    "id": "filters-max-five",
+    "group": "filtre",
+    "title": "nearbyFilters",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "nearbyFiltersJobHelp"
+      },
+      {
+        "type": "choices",
+        "key": "nearbyFiltersJobTitles",
+        "name": "jobs",
+        "multiple": true,
+        "items": [
+          {
+            "label": {
+              "en": "Software engineer",
+              "tr": "Yazılım mühendisi"
+            },
+            "value": "software-engineer",
+            "count": 51,
+            "selected": true,
+            "disabled": false,
+            "a11y": "nearbyFiltersOptionManyA11y"
+          },
+          {
+            "label": {
+              "en": "Front-end developer",
+              "tr": "Front-end geliştirici"
+            },
+            "value": "frontend-developer",
+            "count": 24,
+            "selected": true,
+            "disabled": false,
+            "a11y": "nearbyFiltersOptionA11y"
+          },
+          {
+            "label": {
+              "en": "Back-end developer",
+              "tr": "Back-end geliştirici"
+            },
+            "value": "backend-developer",
+            "count": 12,
+            "selected": true,
+            "disabled": false,
+            "a11y": "nearbyFiltersOptionA11y"
+          },
+          {
+            "label": {
+              "en": "Full-stack developer",
+              "tr": "Full-stack geliştirici"
+            },
+            "value": "full-stack-developer",
+            "count": 8,
+            "selected": true,
+            "disabled": false,
+            "a11y": "nearbyFiltersOptionA11y"
+          },
+          {
+            "label": {
+              "en": "DevOps / cloud engineer",
+              "tr": "DevOps / bulut mühendisi"
+            },
+            "value": "devops-engineer",
+            "count": 6,
+            "selected": true,
+            "disabled": false,
+            "a11y": "nearbyFiltersOptionA11y"
+          },
+          {
+            "label": {
+              "en": "Data scientist",
+              "tr": "Veri bilimci"
+            },
+            "value": "data-scientist",
+            "count": 3,
+            "selected": false,
+            "disabled": true,
+            "a11y": "nearbyFiltersOptionA11y"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersMaxReached",
+        "helper": true
+      },
+      {
+        "type": "switch",
+        "key": "nearbyFiltersLinkedinOnly",
+        "checked": false,
+        "to": "filters-linkedin-only"
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersThresholdNote",
+        "helper": true
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersPrivacyNote",
+        "helper": true
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersUpdateNote",
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "nearbyFiltersClear",
+            "to": "filters-options"
+          },
+          {
+            "key": "nearbyFiltersShowResults",
+            "primary": true,
+            "to": "filters-list"
+          }
+        ]
+      }
+    ],
+    "notes": "Networking only. Counts are explicit design fixtures, never live. Each visible option≥3, cap50+. OR among≤5 jobs, AND with LinkedIn Everyone. Panel order frozen while open; 0/1/2 same state; no saved filters.",
+    "back": "nearby-networking"
+  },
+  {
+    "id": "filters-no-options",
+    "group": "filtre",
+    "title": "nearbyFilters",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "nearbyFiltersJobHelp"
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersNoOptions"
+      },
+      {
+        "type": "switch",
+        "key": "nearbyFiltersLinkedinOnly",
+        "checked": false,
+        "to": "filters-linkedin-only"
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersThresholdNote",
+        "helper": true
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersPrivacyNote",
+        "helper": true
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersUpdateNote",
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "nearbyFiltersClear",
+            "to": "filters-options"
+          },
+          {
+            "key": "nearbyFiltersShowResults",
+            "primary": true,
+            "to": "filters-list"
+          }
+        ]
+      }
+    ],
+    "notes": "Networking only. Counts are explicit design fixtures, never live. Each visible option≥3, cap50+. OR among≤5 jobs, AND with LinkedIn Everyone. Panel order frozen while open; 0/1/2 same state; no saved filters.",
+    "back": "nearby-networking"
+  },
+  {
+    "id": "filters-linkedin-only",
+    "group": "filtre",
+    "title": "nearbyFilters",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "nearbyFiltersJobHelp"
+      },
+      {
+        "type": "choices",
+        "key": "nearbyFiltersJobTitles",
+        "name": "jobs",
+        "multiple": true,
+        "items": [
+          {
+            "label": {
+              "en": "Software engineer",
+              "tr": "Yazılım mühendisi"
+            },
+            "value": "software-engineer",
+            "count": 51,
+            "selected": false,
+            "disabled": false,
+            "a11y": "nearbyFiltersOptionManyA11y"
+          },
+          {
+            "label": {
+              "en": "Front-end developer",
+              "tr": "Front-end geliştirici"
+            },
+            "value": "frontend-developer",
+            "count": 24,
+            "selected": false,
+            "disabled": false,
+            "a11y": "nearbyFiltersOptionA11y"
+          },
+          {
+            "label": {
+              "en": "Back-end developer",
+              "tr": "Back-end geliştirici"
+            },
+            "value": "backend-developer",
+            "count": 12,
+            "selected": false,
+            "disabled": false,
+            "a11y": "nearbyFiltersOptionA11y"
+          },
+          {
+            "label": {
+              "en": "Full-stack developer",
+              "tr": "Full-stack geliştirici"
+            },
+            "value": "full-stack-developer",
+            "count": 8,
+            "selected": false,
+            "disabled": false,
+            "a11y": "nearbyFiltersOptionA11y"
+          },
+          {
+            "label": {
+              "en": "DevOps / cloud engineer",
+              "tr": "DevOps / bulut mühendisi"
+            },
+            "value": "devops-engineer",
+            "count": 6,
+            "selected": false,
+            "disabled": false,
+            "a11y": "nearbyFiltersOptionA11y"
+          },
+          {
+            "label": {
+              "en": "Data scientist",
+              "tr": "Veri bilimci"
+            },
+            "value": "data-scientist",
+            "count": 3,
+            "selected": false,
+            "disabled": false,
+            "a11y": "nearbyFiltersOptionA11y"
+          }
+        ]
+      },
+      {
+        "type": "switch",
+        "key": "nearbyFiltersLinkedinOnly",
+        "checked": true,
+        "to": "filters-linkedin-only"
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersThresholdNote",
+        "helper": true
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersPrivacyNote",
+        "helper": true
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersUpdateNote",
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "nearbyFiltersClear",
+            "to": "filters-options"
+          },
+          {
+            "key": "nearbyFiltersShowResults",
+            "primary": true,
+            "to": "filters-list"
+          }
+        ]
+      }
+    ],
+    "notes": "Networking only. Counts are explicit design fixtures, never live. Each visible option≥3, cap50+. OR among≤5 jobs, AND with LinkedIn Everyone. Panel order frozen while open; 0/1/2 same state; no saved filters.",
+    "back": "nearby-networking"
+  },
+  {
+    "id": "filters-failed",
+    "group": "filtre",
+    "title": "nearbyFilters",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "nearbyFiltersJobHelp"
+      },
+      {
+        "type": "notice",
+        "key": "errorStateChanged",
+        "error": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "checkInRetry",
+            "to": "filters-loading"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersThresholdNote",
+        "helper": true
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersPrivacyNote",
+        "helper": true
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersUpdateNote",
+        "helper": true
+      }
+    ],
+    "notes": "Networking only. Counts are explicit design fixtures, never live. Each visible option≥3, cap50+. OR among≤5 jobs, AND with LinkedIn Everyone. Panel order frozen while open; 0/1/2 same state; no saved filters.",
+    "back": "nearby-networking"
+  },
+  {
+    "id": "filters-offline",
+    "group": "filtre",
+    "title": "nearbyFilters",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "nearbyFiltersJobHelp"
+      },
+      {
+        "type": "notice",
+        "key": "offline",
+        "error": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "checkInRetry",
+            "to": "filters-loading"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersThresholdNote",
+        "helper": true
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersPrivacyNote",
+        "helper": true
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersUpdateNote",
+        "helper": true
+      }
+    ],
+    "notes": "Networking only. Counts are explicit design fixtures, never live. Each visible option≥3, cap50+. OR among≤5 jobs, AND with LinkedIn Everyone. Panel order frozen while open; 0/1/2 same state; no saved filters.",
+    "back": "nearby-networking"
+  },
+  {
+    "id": "filters-not-enough",
+    "group": "filtre",
+    "title": "nearbyFilters",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "nearbyFiltersOnBadge",
+        "params": {
+          "count": 2
+        }
+      },
+      {
+        "type": "notice",
+        "key": "nearbyFiltersNotEnough"
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersNotEnoughBody"
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "nearbyFilters",
+            "to": "filters-selected"
+          },
+          {
+            "key": "nearbyFiltersClear",
+            "to": "nearby-networking"
+          }
+        ]
+      }
+    ],
+    "notes": "Networking only. Counts are explicit design fixtures, never live. Each visible option≥3, cap50+. OR among≤5 jobs, AND with LinkedIn Everyone. Panel order frozen while open; 0/1/2 same state; no saved filters.",
+    "nav": "Nearby"
+  },
+  {
+    "id": "filters-no-longer-enough",
+    "group": "filtre",
+    "title": "nearbyFilters",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "nearbyFiltersOnBadge",
+        "params": {
+          "count": 2
+        }
+      },
+      {
+        "type": "notice",
+        "key": "nearbyFiltersNoLongerEnough"
+      },
+      {
+        "type": "text",
+        "key": "nearbyFiltersNotEnoughBody"
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "nearbyFilters",
+            "to": "filters-selected"
+          },
+          {
+            "key": "nearbyFiltersClear",
+            "to": "nearby-networking"
+          }
+        ]
+      }
+    ],
+    "notes": "Networking only. Counts are explicit design fixtures, never live. Each visible option≥3, cap50+. OR among≤5 jobs, AND with LinkedIn Everyone. Panel order frozen while open; 0/1/2 same state; no saved filters.",
+    "nav": "Nearby"
+  },
+  {
+    "id": "filters-friendship",
+    "group": "filtre",
+    "title": "nearbyFilters",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "nearbyFiltersFriendshipNote"
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "viewBack",
+            "to": "nearby-friendship"
+          }
+        ]
+      }
+    ],
+    "notes": "Networking only. Counts are explicit design fixtures, never live. Each visible option≥3, cap50+. OR among≤5 jobs, AND with LinkedIn Everyone. Panel order frozen while open; 0/1/2 same state; no saved filters.",
+    "back": "nearby-friendship"
+  },
+  {
+    "id": "filters-list",
+    "group": "filtre",
+    "title": "nearbyFilters",
+    "blocks": [
+      {
+        "type": "community",
+        "community": "Networking"
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "nearbyFiltersOnBadge",
+            "params": {
+              "count": 2
+            },
+            "icon": "filter",
+            "to": "filters-selected"
+          }
+        ]
+      },
+      {
+        "type": "person",
+        "name": "Maya"
+      },
+      {
+        "type": "person",
+        "name": "Alex"
+      },
+      {
+        "type": "person",
+        "name": "Sam"
+      }
+    ],
+    "notes": "Networking only. Counts are explicit design fixtures, never live. Each visible option≥3, cap50+. OR among≤5 jobs, AND with LinkedIn Everyone. Panel order frozen while open; 0/1/2 same state; no saved filters.",
+    "nav": "Nearby"
   }
 ]

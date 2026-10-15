@@ -102,4 +102,16 @@
 | linkedin | linkedin-hidden | [PNG](linkedin/screens/png/linkedin-hidden--en--100.png) |
 | linkedin | linkedin-viewer-offline | [PNG](linkedin/screens/png/linkedin-viewer-offline--en--100.png) |
 | linkedin | linkedin-viewer-failed | [PNG](linkedin/screens/png/linkedin-viewer-failed--en--100.png) |
+| filtre | filters-loading | [PNG](filtre/screens/png/filters-loading--en--100.png) |
+| filtre | filters-options | [PNG](filtre/screens/png/filters-options--en--100.png) |
+| filtre | filters-selected | [PNG](filtre/screens/png/filters-selected--en--100.png) |
+| filtre | filters-max-five | [PNG](filtre/screens/png/filters-max-five--en--100.png) |
+| filtre | filters-no-options | [PNG](filtre/screens/png/filters-no-options--en--100.png) |
+| filtre | filters-linkedin-only | [PNG](filtre/screens/png/filters-linkedin-only--en--100.png) |
+| filtre | filters-failed | [PNG](filtre/screens/png/filters-failed--en--100.png) |
+| filtre | filters-offline | [PNG](filtre/screens/png/filters-offline--en--100.png) |
+| filtre | filters-not-enough | [PNG](filtre/screens/png/filters-not-enough--en--100.png) |
+| filtre | filters-no-longer-enough | [PNG](filtre/screens/png/filters-no-longer-enough--en--100.png) |
+| filtre | filters-friendship | [PNG](filtre/screens/png/filters-friendship--en--100.png) |
+| filtre | filters-list | [PNG](filtre/screens/png/filters-list--en--100.png) |
 

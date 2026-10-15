@@ -20,8 +20,8 @@
       "source": "v2.3 l10n/app_*.arb",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "linkedin-viewer-offline",
-        "linkedin-viewer-failed"
+        "filters-failed",
+        "filters-offline"
       ]
     },
     {
@@ -574,7 +574,7 @@
       "source": "v2.3 l10n/app_*.arb",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "occupation-catalog-failed"
+        "filters-failed"
       ]
     },
     {
@@ -765,9 +765,250 @@
       "source": "HB-37 r5 line 142",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "nearby-networking",
-        "nearby-single",
-        "nearby-empty"
+        "filters-loading",
+        "filters-options",
+        "filters-selected",
+        "filters-max-five",
+        "filters-no-options",
+        "filters-linkedin-only",
+        "filters-failed",
+        "filters-offline",
+        "filters-not-enough",
+        "filters-no-longer-enough",
+        "filters-friendship",
+        "filters-list"
+      ]
+    },
+    {
+      "key": "nearbyFiltersClear",
+      "en": "Clear filters",
+      "tr": "Filtreleri temizle",
+      "source": "HB-37 r5 line 155",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "filters-options",
+        "filters-selected",
+        "filters-max-five",
+        "filters-no-options",
+        "filters-linkedin-only",
+        "filters-not-enough",
+        "filters-no-longer-enough"
+      ]
+    },
+    {
+      "key": "nearbyFiltersCountMany",
+      "en": "50+",
+      "tr": "50+",
+      "source": "HB-37 r5 line 147",
+      "status": "APPROVED — source / existing design reference"
+    },
+    {
+      "key": "nearbyFiltersFriendshipNote",
+      "en": "Job title filters are only in Networking.",
+      "tr": "Meslek filtreleri yalnız Networking’de var.",
+      "source": "HB-37 r5 line 159",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "filters-friendship"
+      ]
+    },
+    {
+      "key": "nearbyFiltersJobHelp",
+      "en": "Choose up to 5. People with any of them are shown.",
+      "tr": "En çok 5 tane seç. Bunlardan herhangi birine sahip kişiler gösterilir.",
+      "source": "HB-37 r5 line 144",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "filters-loading",
+        "filters-options",
+        "filters-selected",
+        "filters-max-five",
+        "filters-no-options",
+        "filters-linkedin-only",
+        "filters-failed",
+        "filters-offline"
+      ]
+    },
+    {
+      "key": "nearbyFiltersJobTitles",
+      "en": "Job titles",
+      "tr": "Meslekler",
+      "source": "HB-37 r5 line 143",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "filters-options",
+        "filters-selected",
+        "filters-max-five",
+        "filters-linkedin-only"
+      ]
+    },
+    {
+      "key": "nearbyFiltersLinkedinOnly",
+      "en": "Only people with LinkedIn",
+      "tr": "Yalnız LinkedIn’i olanlar",
+      "source": "HB-37 r5 line 146",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "filters-options",
+        "filters-selected",
+        "filters-max-five",
+        "filters-no-options",
+        "filters-linkedin-only"
+      ]
+    },
+    {
+      "key": "nearbyFiltersMaxReached",
+      "en": "You can choose up to 5 job titles.",
+      "tr": "En çok 5 meslek seçebilirsin.",
+      "source": "HB-37 r5 line 145",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "filters-max-five"
+      ]
+    },
+    {
+      "key": "nearbyFiltersNoLongerEnough",
+      "en": "Not enough people match any more. Your filters are still on.",
+      "tr": "Artık yeterli kişi uymuyor. Filtrelerin hâlâ açık.",
+      "source": "HB-37 r5 line 154",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "filters-no-longer-enough"
+      ]
+    },
+    {
+      "key": "nearbyFiltersNoOptions",
+      "en": "No job titles to show right now.",
+      "tr": "Şu an gösterilecek meslek yok.",
+      "source": "HB-37 r5 line 151",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "filters-no-options"
+      ]
+    },
+    {
+      "key": "nearbyFiltersNotEnough",
+      "en": "Not enough results",
+      "tr": "Yeterli sonuç yok",
+      "source": "HB-37 r5 line 152",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "filters-not-enough",
+        "filters-no-longer-enough"
+      ]
+    },
+    {
+      "key": "nearbyFiltersNotEnoughBody",
+      "en": "Not enough people match these filters right now. Try other filters or check again later.",
+      "tr": "Şu an bu filtrelere yeterli kişi uymuyor. Başka filtreler dene ya da sonra tekrar bak.",
+      "source": "HB-37 r5 line 153",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "filters-not-enough",
+        "filters-no-longer-enough"
+      ]
+    },
+    {
+      "key": "nearbyFiltersOnBadge",
+      "en": "{count, plural, =1{1 filter on} other{{count} filters on}}",
+      "tr": "{count} filtre açık",
+      "source": "HB-37 r5 line 157",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "filters-not-enough",
+        "filters-no-longer-enough",
+        "filters-list"
+      ]
+    },
+    {
+      "key": "nearbyFiltersOptionA11y",
+      "en": "{title}, {count} people",
+      "tr": "{title}, {count} kişi",
+      "source": "HB-37 r5 line 148",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "filters-options",
+        "filters-selected",
+        "filters-max-five",
+        "filters-linkedin-only"
+      ]
+    },
+    {
+      "key": "nearbyFiltersOptionManyA11y",
+      "en": "{title}, more than 50 people",
+      "tr": "{title}, 50’den fazla kişi",
+      "source": "HB-37 r5 line 149",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "filters-options",
+        "filters-selected",
+        "filters-max-five",
+        "filters-linkedin-only"
+      ]
+    },
+    {
+      "key": "nearbyFiltersPrivacyNote",
+      "en": "Filters don’t change who can see you, and nobody is told you used them. Your filter choices aren’t saved.",
+      "tr": "Filtreler seni kimin görebileceğini değiştirmez ve filtre kullandığın kimseye söylenmez. Filtre seçimlerin saklanmaz.",
+      "source": "HB-37 r5 line 158",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "filters-loading",
+        "filters-options",
+        "filters-selected",
+        "filters-max-five",
+        "filters-no-options",
+        "filters-linkedin-only",
+        "filters-failed",
+        "filters-offline"
+      ]
+    },
+    {
+      "key": "nearbyFiltersShowResults",
+      "en": "Show results",
+      "tr": "Sonuçları göster",
+      "source": "HB-37 r5 line 156",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "filters-options",
+        "filters-selected",
+        "filters-max-five",
+        "filters-no-options",
+        "filters-linkedin-only"
+      ]
+    },
+    {
+      "key": "nearbyFiltersThresholdNote",
+      "en": "A job title appears here only when at least 3 people you can see show it.",
+      "tr": "Bir meslek burada yalnız, görebildiğin en az 3 kişi onu gösteriyorsa çıkar.",
+      "source": "HB-37 r5 line 150",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "filters-loading",
+        "filters-options",
+        "filters-selected",
+        "filters-max-five",
+        "filters-no-options",
+        "filters-linkedin-only",
+        "filters-failed",
+        "filters-offline"
+      ]
+    },
+    {
+      "key": "nearbyFiltersUpdateNote",
+      "en": "Counts update about once a minute.",
+      "tr": "Sayılar yaklaşık dakikada bir güncellenir.",
+      "source": "HB-37 r5 line 160",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "filters-loading",
+        "filters-options",
+        "filters-selected",
+        "filters-max-five",
+        "filters-no-options",
+        "filters-linkedin-only",
+        "filters-failed",
+        "filters-offline"
       ]
     },
     {
@@ -777,7 +1018,7 @@
       "source": "v2.3 l10n/app_*.arb",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "nearby-loading"
+        "filters-loading"
       ]
     },
     {
@@ -1049,8 +1290,7 @@
       "source": "v2.3 release8-approved-patch",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "linkedin-offline",
-        "linkedin-viewer-offline"
+        "filters-offline"
       ]
     },
     {
@@ -1989,7 +2229,10 @@
       "en": "Back",
       "tr": "Geri",
       "source": "v2.3 l10n/app_*.arb",
-      "status": "APPROVED — source / existing design reference"
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "filters-friendship"
+      ]
     }
   ],
   "proposals": []
