@@ -8,6 +8,9 @@
       "source": "v2.3 release8-approved-patch",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "linkedin-stored",
+        "linkedin-paused",
+        "linkedin-removed",
         "linkedin-remove-confirm",
         "linkedin-remove-busy",
         "linkedin-remove-failed"
@@ -695,11 +698,8 @@
         "linkedin-saving",
         "linkedin-saved",
         "linkedin-save-failed",
-        "linkedin-stored",
         "linkedin-offline",
-        "linkedin-open-failed",
-        "linkedin-paused",
-        "linkedin-removed"
+        "linkedin-open-failed"
       ]
     },
     {

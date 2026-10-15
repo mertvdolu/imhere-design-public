@@ -32,5 +32,9 @@ Metin: Ink/cream 15.486:1; yardımcı 4.847:1; kontrol kenarı 3.693:1. Açık t
 
 ★ İkonlar: 3 kategori + 2 topluluk yeterli; Professional=çanta, Networking=bağlı kareler. Kategori Ink; topluluk yalnız etiketli topluluk kontrolünde kendi rengi.
 
-★ İtalik ve yeni açılış: isteğe bağlı bölümde karar verilir. Yeni font/bağımlılık eklenmez.
+★ İtalik / yeni açılış: yok. Yerel Geist’in üç ağırlığı ve mevcut 800 ms H0 korunur. Yeni font/bağımlılık yok.
 
+
+## Renk algısı kanıtı
+
+`evidence/colors-none.png`, `colors-protanopia.png`, `colors-deuteranopia.png`: Chromium vision deficiency emülasyonu; yalnız tasarım kontrolü, tıbbi test değil. Etiket + farklı ikon + kenar anlamı renk ayrımına bağlamaz. Simülasyon yakalama sonunda sıfırlandı.

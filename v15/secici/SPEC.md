@@ -4,7 +4,7 @@
 
 Mevcut v2.3 başlık, küçük düğme, bilgi kartı, input, radyo ve satır desenleri. Kenar 24 dp. Başlık 28/600, gövde 16/400, yardım 14/400; satır aralığı 1.18/1.5/1.5. Bölüm başlığı 18/500. Ölçek %200: punto 2×, sabit satır sınırı yok. Küçük düğme görünen yüzey en az 36, bağımsız hedef en az 48×48; radius12. Kart radius15.
 
-B varyantı:48 hedefli hap, own active community. Dokunma→Ayarlar. Segment/switch rolü yok. Harita üstünde sol, konum hedefi sağ48; %200 hap metni sarar. Alt menü v10 edge16/radius26/inner4, büyük yazıda2×2. Atıf ayrı opak akış satırı: © OpenStreetMap contributors · OpenFreeMap. Eski harita temizlenir; K=2 altında mevcut mapNoActivity. STATE_CHANGED boş harita diye gösterilmez: failed ve retry.
+B varyantı: 48 hedefli hap, own active community. Dokunma→Ayarlar. Segment/switch rolü yok. Harita üstünde sol, konum hedefi sağ 48; %200 hap metni sarar. Alt menü v10 edge16/radius26/inner4, büyük yazıda 2×2. Atıf ayrı opak akış satırı: © OpenStreetMap contributors · OpenFreeMap. Eski harita temizlenir; K=2 altında mevcut mapNoActivity. STATE_CHANGED boş harita diye gösterilmez: failed ve retry.
 
 ## Durumlar
 
@@ -32,4 +32,4 @@ Her durum tek H1, doğal üstten alta okuma; %200 ve320 genişlikte yatay kaydı
 
 ## ★ / yeni bileşen
 
-★ Hap seçildi: iki seçenekli kontrol gibi davranma beklentisi yaratmaz. ★ Tek toplulukta dokunulur, ikinci topluluğa katılma yolu aynı yerde bulunur. ★ Atıf büyük yazıda da ayrı12px harita lisans satırı olarak korunur; uygulama metinleri2× büyür. YENİ BİLEŞEN — ONAY GEREKİR: Community indicator (mevcut hap+ikon+etiketin yeni birleşimi), 2 topluluk renk token ailesi.
+★ Hap seçildi: iki seçenekli kontrol gibi davranma beklentisi yaratmaz. ★ Tek toplulukta dokunulur, ikinci topluluğa katılma yolu aynı yerde bulunur. ★ Atıf büyük yazıda da ayrı 12 px harita lisans satırı olarak korunur; uygulama metinleri 2× büyür. YENİ BİLEŞEN — ONAY GEREKİR: Community indicator (mevcut hap+ikon+etiketin yeni birleşimi), 2 topluluk renk token ailesi.

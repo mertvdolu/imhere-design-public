@@ -8,6 +8,22 @@
       "source": "v2.3 release8-approved-patch",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "migration-linkedin-everyone",
+        "migration-linkedin-connections",
+        "migration-linkedin-nobody",
+        "migration-linkedin-saving",
+        "migration-linkedin-failed",
+        "migration-linkedin-offline",
+        "settings-switch-confirm",
+        "settings-switch-checkin",
+        "settings-switch-going",
+        "settings-join-confirm",
+        "settings-leave-inactive",
+        "settings-leave-active",
+        "settings-leave-active-going",
+        "linkedin-stored",
+        "linkedin-paused",
+        "linkedin-removed",
         "linkedin-remove-confirm",
         "linkedin-remove-busy",
         "linkedin-remove-failed"
@@ -20,6 +36,16 @@
       "source": "v2.3 l10n/app_*.arb",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "migration-offline",
+        "nearby-failed",
+        "nearby-offline",
+        "map-failed",
+        "map-offline",
+        "occupation-catalog-failed",
+        "linkedin-viewer-offline",
+        "linkedin-viewer-failed",
+        "filters-failed",
+        "filters-offline",
         "professional-failed"
       ]
     },
@@ -38,7 +64,8 @@
       "en": "You’re in {community}",
       "tr": "{community} topluluğundasın",
       "source": "HB-37 r5 line 40",
-      "status": "APPROVED — source / existing design reference"
+      "status": "APPROVED — source / existing design reference",
+      "screens": []
     },
     {
       "key": "communityBothStartWith",
@@ -72,6 +99,12 @@
       "source": "HB-37 r5 line 25",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "community-none",
+        "community-networking",
+        "community-friendship",
+        "community-both",
+        "community-saving",
+        "community-failed",
         "migration-community"
       ]
     },
@@ -92,6 +125,12 @@
       "source": "HB-37 r5 line 24",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "community-none",
+        "community-networking",
+        "community-friendship",
+        "community-both",
+        "community-saving",
+        "community-failed",
         "migration-community"
       ]
     },
@@ -102,6 +141,15 @@
       "source": "HB-37 r5 line 33",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "community-none",
+        "community-networking",
+        "community-friendship",
+        "community-both",
+        "community-both-start",
+        "community-both-networking",
+        "community-both-friendship",
+        "community-saving",
+        "community-failed",
         "migration-community"
       ]
     },
@@ -112,6 +160,12 @@
       "source": "HB-37 r5 line 30",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "community-none",
+        "community-networking",
+        "community-friendship",
+        "community-both",
+        "community-saving",
+        "community-failed",
         "migration-community"
       ]
     },
@@ -122,6 +176,12 @@
       "source": "HB-37 r5 line 31",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "community-none",
+        "community-networking",
+        "community-friendship",
+        "community-both",
+        "community-saving",
+        "community-failed",
         "migration-community"
       ]
     },
@@ -132,6 +192,26 @@
       "source": "HB-37 r5 line 28",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "community-none",
+        "community-networking",
+        "community-friendship",
+        "community-both",
+        "community-both-start",
+        "community-both-networking",
+        "community-both-friendship",
+        "community-saving",
+        "community-failed",
+        "migration-community",
+        "settings-one",
+        "settings-both",
+        "settings-checked-in",
+        "settings-going",
+        "settings-limit",
+        "settings-last-one",
+        "settings-failed",
+        "settings-switch-done",
+        "settings-join-done",
+        "settings-leave-done",
         "icons-categories",
         "icons-communities"
       ]
@@ -143,6 +223,15 @@
       "source": "HB-37 r5 line 29",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "community-none",
+        "community-networking",
+        "community-friendship",
+        "community-both",
+        "community-both-start",
+        "community-both-networking",
+        "community-both-friendship",
+        "community-saving",
+        "community-failed",
         "migration-community"
       ]
     },
@@ -153,6 +242,26 @@
       "source": "HB-37 r5 line 26",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "community-none",
+        "community-networking",
+        "community-friendship",
+        "community-both",
+        "community-both-start",
+        "community-both-networking",
+        "community-both-friendship",
+        "community-saving",
+        "community-failed",
+        "migration-community",
+        "settings-one",
+        "settings-both",
+        "settings-checked-in",
+        "settings-going",
+        "settings-limit",
+        "settings-last-one",
+        "settings-failed",
+        "settings-switch-done",
+        "settings-join-done",
+        "settings-leave-done",
         "icons-categories",
         "icons-communities"
       ]
@@ -164,6 +273,15 @@
       "source": "HB-37 r5 line 27",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "community-none",
+        "community-networking",
+        "community-friendship",
+        "community-both",
+        "community-both-start",
+        "community-both-networking",
+        "community-both-friendship",
+        "community-saving",
+        "community-failed",
         "migration-community"
       ]
     },
@@ -172,14 +290,16 @@
       "en": "Opens Settings, where you can change your community.",
       "tr": "Ayarlar’ı açar; topluluğunu orada değiştirebilirsin.",
       "source": "HB-37 r5 line 252",
-      "status": "APPROVED — source / existing design reference"
+      "status": "APPROVED — source / existing design reference",
+      "screens": []
     },
     {
       "key": "communityPickerA11yLabel",
       "en": "Community: {community}",
       "tr": "Topluluk: {community}",
       "source": "HB-37 r5 line 41",
-      "status": "APPROVED — source / existing design reference"
+      "status": "APPROVED — source / existing design reference",
+      "screens": []
     },
     {
       "key": "communitySettingsChangeFailed",
@@ -399,6 +519,19 @@
       "source": "HB-37 r5 line 49",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "settings-one",
+        "settings-both",
+        "settings-checked-in",
+        "settings-going",
+        "settings-limit",
+        "settings-last-one",
+        "settings-failed",
+        "settings-switch-done",
+        "settings-join-done",
+        "settings-leave-done",
+        "settings-joining",
+        "settings-leaving",
+        "settings-switching",
         "icons-communities"
       ]
     },
@@ -710,6 +843,8 @@
       "source": "v2.3 l10n/app_*.arb",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "community-none",
+        "community-both-start",
         "migration-community"
       ]
     },
@@ -720,6 +855,7 @@
       "source": "v2.3 l10n/app_*.arb",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "occupation-catalog-failed",
         "filters-failed"
       ]
     },
@@ -753,6 +889,8 @@
       "source": "HB-37 r5 §5 line 74",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "icons-categories",
+        "icons-communities",
         "professional-detail"
       ]
     },
@@ -824,6 +962,7 @@
       "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
       "status": "EXISTING APPLICATION COPY — reuse",
       "screens": [
+        "events-community",
         "professional-empty"
       ]
     },
@@ -834,6 +973,7 @@
       "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
       "status": "EXISTING APPLICATION COPY — reuse",
       "screens": [
+        "events-community",
         "professional-empty"
       ]
     },
@@ -945,7 +1085,8 @@
       "en": "Show my area",
       "tr": "Bölgemi göster",
       "source": "v2.3 v6-final-copy-patch",
-      "status": "APPROVED — source / existing design reference"
+      "status": "APPROVED — source / existing design reference",
+      "screens": []
     },
     {
       "key": "mapUnavailable",
@@ -975,6 +1116,7 @@
       "source": "v2.3 l10n/app_*.arb",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "events-community",
         "professional-list",
         "professional-detail",
         "professional-past",
@@ -988,14 +1130,16 @@
       "en": "Messages",
       "tr": "Mesajlar",
       "source": "v2.3 l10n/app_*.arb",
-      "status": "APPROVED — source / existing design reference"
+      "status": "APPROVED — source / existing design reference",
+      "screens": []
     },
     {
       "key": "navNearby",
       "en": "Nearby",
       "tr": "Yakındakiler",
       "source": "v2.3 l10n/app_*.arb",
-      "status": "APPROVED — source / existing design reference"
+      "status": "APPROVED — source / existing design reference",
+      "screens": []
     },
     {
       "key": "navProfile",
@@ -1004,6 +1148,8 @@
       "source": "v2.3 l10n/app_*.arb",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "occupation-profile-networking",
+        "occupation-profile-friendship",
         "linkedin-connection",
         "linkedin-chat",
         "linkedin-networking-before",
@@ -1050,6 +1196,9 @@
       "source": "HB-37 r5 line 142",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "nearby-networking",
+        "nearby-single",
+        "nearby-empty",
         "filters-loading",
         "filters-options",
         "filters-selected",
@@ -1085,7 +1234,8 @@
       "en": "50+",
       "tr": "50+",
       "source": "HB-37 r5 line 147",
-      "status": "APPROVED — source / existing design reference"
+      "status": "APPROVED — source / existing design reference",
+      "screens": []
     },
     {
       "key": "nearbyFiltersFriendshipNote",
@@ -1303,6 +1453,7 @@
       "source": "v2.3 l10n/app_*.arb",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "nearby-loading",
         "filters-loading"
       ]
     },
@@ -1385,7 +1536,8 @@
       "en": "Other — {group}",
       "tr": "Diğer — {group}",
       "source": "HB-37 r5 line 86",
-      "status": "APPROVED — source / existing design reference"
+      "status": "APPROVED — source / existing design reference",
+      "screens": []
     },
     {
       "key": "occupationOwnTitleHelp",
@@ -1585,6 +1737,12 @@
       "source": "v2.3 release8-approved-patch",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "migration-linkedin-offline",
+        "migration-offline",
+        "nearby-offline",
+        "map-offline",
+        "linkedin-offline",
+        "linkedin-viewer-offline",
         "filters-offline"
       ]
     },
@@ -1595,6 +1753,12 @@
       "source": "HB-20 final §3 line 60; reused by HB-37 §7",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "migration-linkedin-everyone",
+        "migration-linkedin-connections",
+        "migration-linkedin-nobody",
+        "migration-linkedin-saving",
+        "migration-linkedin-failed",
+        "migration-linkedin-offline",
         "linkedin-empty",
         "linkedin-invalid",
         "linkedin-unconfirmed",
@@ -1979,6 +2143,12 @@
       "source": "HB-37 r5 line 118",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "migration-linkedin-everyone",
+        "migration-linkedin-connections",
+        "migration-linkedin-nobody",
+        "migration-linkedin-saving",
+        "migration-linkedin-failed",
+        "migration-linkedin-offline",
         "linkedin-empty",
         "linkedin-invalid",
         "linkedin-unconfirmed",
@@ -2003,6 +2173,12 @@
       "source": "HB-37 r5 line 119",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "migration-linkedin-everyone",
+        "migration-linkedin-connections",
+        "migration-linkedin-nobody",
+        "migration-linkedin-saving",
+        "migration-linkedin-failed",
+        "migration-linkedin-offline",
         "linkedin-empty",
         "linkedin-invalid",
         "linkedin-unconfirmed",
@@ -2048,6 +2224,12 @@
       "source": "HB-37 r5 line 120",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "migration-linkedin-everyone",
+        "migration-linkedin-connections",
+        "migration-linkedin-nobody",
+        "migration-linkedin-saving",
+        "migration-linkedin-failed",
+        "migration-linkedin-offline",
         "linkedin-empty",
         "linkedin-invalid",
         "linkedin-unconfirmed",
@@ -2072,6 +2254,12 @@
       "source": "HB-37 r5 §14.1 FINAL",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "migration-linkedin-everyone",
+        "migration-linkedin-connections",
+        "migration-linkedin-nobody",
+        "migration-linkedin-saving",
+        "migration-linkedin-failed",
+        "migration-linkedin-offline",
         "linkedin-empty",
         "linkedin-invalid",
         "linkedin-unconfirmed",
@@ -2096,6 +2284,12 @@
       "source": "HB-37 r5 line 116",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "migration-linkedin-everyone",
+        "migration-linkedin-connections",
+        "migration-linkedin-nobody",
+        "migration-linkedin-saving",
+        "migration-linkedin-failed",
+        "migration-linkedin-offline",
         "linkedin-empty",
         "linkedin-invalid",
         "linkedin-unconfirmed",
@@ -2120,6 +2314,12 @@
       "source": "HB-37 r5 line 117",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "migration-linkedin-everyone",
+        "migration-linkedin-connections",
+        "migration-linkedin-nobody",
+        "migration-linkedin-saving",
+        "migration-linkedin-failed",
+        "migration-linkedin-offline",
         "linkedin-empty",
         "linkedin-invalid",
         "linkedin-unconfirmed",
@@ -2144,6 +2344,7 @@
       "source": "HB-37 r5 line 124",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "migration-linkedin-failed",
         "linkedin-save-failed"
       ]
     },
@@ -2154,6 +2355,12 @@
       "source": "HB-37 r5 line 115",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "migration-linkedin-everyone",
+        "migration-linkedin-connections",
+        "migration-linkedin-nobody",
+        "migration-linkedin-saving",
+        "migration-linkedin-failed",
+        "migration-linkedin-offline",
         "linkedin-empty",
         "linkedin-invalid",
         "linkedin-unconfirmed",
@@ -2289,11 +2496,8 @@
         "linkedin-saving",
         "linkedin-saved",
         "linkedin-save-failed",
-        "linkedin-stored",
         "linkedin-offline",
-        "linkedin-open-failed",
-        "linkedin-paused",
-        "linkedin-removed"
+        "linkedin-open-failed"
       ]
     },
     {
@@ -2444,6 +2648,15 @@
       "source": "HB-37 r5 line 177",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "community-none",
+        "community-networking",
+        "community-friendship",
+        "community-both",
+        "community-both-start",
+        "community-both-networking",
+        "community-both-friendship",
+        "community-saving",
+        "community-failed",
         "migration-intro",
         "migration-community",
         "migration-linkedin-everyone",
@@ -2536,6 +2749,7 @@
       "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
       "status": "EXISTING APPLICATION COPY — reuse",
       "screens": [
+        "icons-categories",
         "professional-suggest"
       ]
     },

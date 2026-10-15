@@ -4,7 +4,7 @@
 
 Mevcut v2.3 başlık, küçük düğme, bilgi kartı, input, radyo ve satır desenleri. Kenar 24 dp. Başlık 28/600, gövde 16/400, yardım 14/400; satır aralığı 1.18/1.5/1.5. Bölüm başlığı 18/500. Ölçek %200: punto 2×, sabit satır sınırı yok. Küçük düğme görünen yüzey en az 36, bağımsız hedef en az 48×48; radius12. Kart radius15.
 
-Manager meslek-katalogu-uygulama.json1.0.1 gerçek etiketleriyle yerel gruplu liste. Arama tüm etiket/sinonimleri tarar; grup başlıkları48 hedefli açılır satırlar. Bir grup açılınca diğerleri kapanmak zorunda değildir. Her grubun sonunda tek Other (katalogdaki diğer satırını ikinci kez üretme). Seçim ve Mesleğim görünsün aynı kaydırılan ekranda; varsayılan açık yalnız yeni seçimde, mevcut false korunur. Other unvan isteğe bağlı ve filtreye girmez.
+Manager meslek-katalogu-uygulama.json 1.0.1 gerçek etiketleriyle yerel gruplu liste. Arama tüm etiket/sinonimleri tarar; grup başlıkları 48 hedefli açılır satırlar. Bir grup açılınca diğerleri kapanmak zorunda değildir. Her grubun sonunda tek Other (katalogdaki diğer satırını ikinci kez üretme). Seçim ve Mesleğim görünsün aynı kaydırılan ekranda; varsayılan açık yalnız yeni seçimde, mevcut false korunur. Other unvan isteğe bağlı ve filtreye girmez.
 
 ## Durumlar
 
@@ -32,4 +32,4 @@ Her durum tek H1, doğal üstten alta okuma; %200 ve320 genişlikte yatay kaydı
 
 ## ★ / yeni bileşen
 
-★ Yaklaşık150 mesleği dev bir liste yapmamak için mevcut açılır satır düzeni, aramada eşleşen gruplar açık. ★ Gizleme aynı ekranın seçimden sonraki bölümünde. YENİ BİLEŞEN — ONAY GEREKİR: grouped occupation selector (mevcut arama+disclosure+radio birleşimi).
+★ Yaklaşık 150 mesleği dev bir liste yapmamak için mevcut açılır satır düzeni, aramada eşleşen gruplar açık. ★ Gizleme aynı ekranın seçimden sonraki bölümünde. YENİ BİLEŞEN — ONAY GEREKİR: grouped occupation selector (mevcut arama+disclosure+radio birleşimi).

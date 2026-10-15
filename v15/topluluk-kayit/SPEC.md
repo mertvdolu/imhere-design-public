@@ -4,7 +4,7 @@
 
 Mevcut v2.3 başlık, küçük düğme, bilgi kartı, input, radyo ve satır desenleri. Kenar 24 dp. Başlık 28/600, gövde 16/400, yardım 14/400; satır aralığı 1.18/1.5/1.5. Bölüm başlığı 18/500. Ölçek %200: punto 2×, sabit satır sınırı yok. Küçük düğme görünen yüzey en az 36, bağımsız hedef en az 48×48; radius12. Kart radius15.
 
-3 mevcut radyo kartı; önseçim yok. Networking/Friendship ikon+renk+etiket. Both tarafsız Ink, ardından2 radyo ile başlangıç sorusu. Devam için seçim şartı mevcut errorGenderRequired metniyle açık (anahtar adı eski; değeri genel seçim çağrısıdır). Hata seçimi korur. İlk seçim3 değişiklik sınırını tüketmez; mevcut check-in biter. Friendship-only akışı meslek ve LinkedIn’i atlayıp kart adımına geçer.
+3 mevcut radyo kartı; önseçim yok. Networking/Friendship ikon+renk+etiket. Both tarafsız Ink, ardından 2 radyo ile başlangıç sorusu. Devam için seçim şartı mevcut errorGenderRequired metniyle açık (anahtar adı eski; değeri genel seçim çağrısıdır). Hata seçimi korur. İlk seçim 3 değişiklik sınırını tüketmez; mevcut check-in biter. Friendship-only akışı meslek ve LinkedIn’i atlayıp kart adımına geçer.
 
 ## Durumlar
 

@@ -1071,8 +1071,8 @@
               "busy": false
             },
             {
-              "key": "signupLinkedinSkip",
-              "action": "skip-linkedin"
+              "key": "cancel",
+              "action": "existing-back"
             }
           ],
           "equal": true
@@ -1386,8 +1386,8 @@
               "busy": false
             },
             {
-              "key": "signupLinkedinSkip",
-              "action": "skip-linkedin"
+              "key": "cancel",
+              "action": "existing-back"
             }
           ],
           "equal": true
@@ -1498,8 +1498,8 @@
               "busy": false
             },
             {
-              "key": "signupLinkedinSkip",
-              "action": "skip-linkedin"
+              "key": "cancel",
+              "action": "existing-back"
             }
           ],
           "equal": true

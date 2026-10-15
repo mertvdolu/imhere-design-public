@@ -1,0 +1,78 @@
+{
+  "method": "CUA browser, actual user-facing controls and read-only DOM observations; server results are explicit review simulations, not network calls.",
+  "checks": [
+    {
+      "scenario": "community-none",
+      "observed": "0 selected; Continue disabled",
+      "status": "PASS"
+    },
+    {
+      "scenario": "community-friendship -> saving -> failed",
+      "observed": "Friendship selected through pending and failure",
+      "status": "PASS"
+    },
+    {
+      "scenario": "community-failed -> saving -> ack",
+      "observed": "Friendship-only routes to card-empty",
+      "status": "PASS"
+    },
+    {
+      "scenario": "community-both -> continue",
+      "observed": "Starting community: 0 selected; Continue disabled",
+      "status": "PASS"
+    },
+    {
+      "scenario": "filters-options -> five selections",
+      "observed": "5 checked, sixth disabled, limit text present; order unchanged",
+      "status": "PASS"
+    },
+    {
+      "scenario": "filters-options -> remove one -> LinkedIn switch",
+      "observed": "4 checked, all selectable, LinkedIn on, draft preserved",
+      "status": "PASS"
+    },
+    {
+      "scenario": "linkedin-unconfirmed",
+      "observed": "Everyone selected; Save link disabled; Open and check enabled",
+      "status": "PASS"
+    },
+    {
+      "scenario": "linkedin-opening -> ack -> confirm",
+      "observed": "Ownership question visible; no success inferred",
+      "status": "PASS"
+    },
+    {
+      "scenario": "linkedin-confirmed -> save -> reject",
+      "observed": "Save enabled after own confirmation; saving; failed restores Everyone",
+      "status": "PASS"
+    },
+    {
+      "scenario": "card-empty",
+      "observed": "All fields empty; Save card and Not now same font 14/500, colour and surface",
+      "status": "PASS"
+    },
+    {
+      "scenario": "card-empty -> save",
+      "observed": "Routes to card-skipped, no saved success",
+      "status": "PASS"
+    },
+    {
+      "scenario": "card-filled -> save -> ack",
+      "observed": "card-saving then card-saved",
+      "status": "PASS"
+    },
+    {
+      "scenario": "nearby-single -> indicator",
+      "observed": "settings-one; no direct switch",
+      "status": "PASS"
+    },
+    {
+      "scenario": "d0-store-failed",
+      "observed": "No nav or back; Update enabled; delete link https://useimhere.com/delete-account",
+      "status": "PASS"
+    }
+  ],
+  "limitations": [
+    "Prototype state fixtures are not a full form/application model. No backend, account, live map, OS URL launch, VoiceOver or TalkBack test."
+  ]
+}

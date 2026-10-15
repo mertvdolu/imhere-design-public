@@ -15,3 +15,7 @@ Kaynak önceliği: Founder15Eki brief + karar1–52; copyHB-37 r5 §14.1>§13>ö
 - [professional ekran kuralları](professional/SPEC.md)
 
 [★ kararlar ve renkler](TOKENS.md). Onaylı metinler yeniden yazılmaz; ayrı öneriler copy review içindedir. Native ve backend değişikliği bu teslim değildir.
+
+## 4-11 — isteğe bağlı yön
+
+[İtalik / açılış kararı](italik-acilis/README.md): yeni öneri **yok**; Geist ve onaylı H0 korunur.

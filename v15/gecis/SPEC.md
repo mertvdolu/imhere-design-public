@@ -4,7 +4,7 @@
 
 Mevcut v2.3 başlık, küçük düğme, bilgi kartı, input, radyo ve satır desenleri. Kenar 24 dp. Başlık 28/600, gövde 16/400, yardım 14/400; satır aralığı 1.18/1.5/1.5. Bölüm başlığı 18/500. Ölçek %200: punto 2×, sabit satır sınırı yok. Küçük düğme görünen yüzey en az 36, bağımsız hedef en az 48×48; radius12. Kart radius15.
 
-Intro → boş topluluk seçimi → yalnız eski LinkedIn varsa görünürlük → isteğe bağlı meslek daveti. LinkedIn açıklaması §14.1r5. Üç radyoda aynı kenar, renk, ağırlık ve açıklama stili; Everyone yalnız standart radyo noktasıyla seçili. Kaydet/Devam bekleme-hata ayrımı. Kapatınca mevcut Everyone korunur; sonraki açılış tekrar. Meslek seç / Şimdi değil düğmeleri aynı yüzey, punto ve hedef.
+Intro → boş topluluk seçimi → yalnız eski LinkedIn varsa görünürlük → isteğe bağlı meslek daveti. LinkedIn açıklaması §14.1 r5. Üç radyoda aynı kenar, renk, ağırlık ve açıklama stili; Everyone yalnız standart radyo noktasıyla seçili. Kaydet/Devam bekleme-hata ayrımı. Kapatınca mevcut Everyone korunur; sonraki açılış tekrar. Meslek seç / Şimdi değil düğmeleri aynı yüzey, punto ve hedef.
 
 ## Durumlar
 
@@ -25,4 +25,4 @@ Her durum tek H1, doğal üstten alta okuma; %200 ve320 genişlikte yatay kaydı
 
 ## ★ / yeni bileşen
 
-★ Uzun metne göre kaydırılan tam sayfa; bottom sheet değil. ★ Kapat/Vazgeç mevcut cancel değeriyle, üründeki geçiş tekrar davranışı korunarak. YENİ BİLEŞEN — ONAY GEREKİR: yok. METİN-EKİ BEKLİYOR kapanmış: HB-37r5§14.1 son değerleri mevcut.
+★ Uzun metne göre kaydırılan tam sayfa; bottom sheet değil. ★ Kapat/Vazgeç mevcut cancel değeriyle, üründeki geçiş tekrar davranışı korunarak. YENİ BİLEŞEN — ONAY GEREKİR: yok. METİN-EKİ BEKLİYOR kapanmış: HB-37 r5 §14.1 son değerleri mevcut.

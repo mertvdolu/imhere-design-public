@@ -4,7 +4,7 @@
 
 Mevcut v2.3 başlık, küçük düğme, bilgi kartı, input, radyo ve satır desenleri. Kenar 24 dp. Başlık 28/600, gövde 16/400, yardım 14/400; satır aralığı 1.18/1.5/1.5. Bölüm başlığı 18/500. Ölçek %200: punto 2×, sabit satır sınırı yok. Küçük düğme görünen yüzey en az 36, bağımsız hedef en az 48×48; radius12. Kart radius15.
 
-eventV1CategoryNetworking ve y1CategoryNetworking değerleri Professional / Profesyonel; anahtar adı ve teldeNETWORKINGenum değişmez. Listede topluluk pillNetworking yukarıda, kartta çanta+Professional; kategori ve topluluk ayrımı açık. Detay ve geçmişte Category: {category} anahtarı; öneri formunda3radyo aynıağırlık.
+eventV1CategoryNetworking ve y1CategoryNetworking değerleri Professional / Profesyonel; anahtar adı ve veri sözleşmesindeki NETWORKING enum değişmez. Listede topluluk hapı Networking yukarıda, kartta çanta+Professional; kategori ve topluluk ayrımı açık. Detay ve geçmişte Category: {category} anahtarı; öneri formunda 3 radyo aynı ağırlık.
 
 ## Durumlar
 
@@ -22,4 +22,4 @@ Her durum tek H1, doğal üstten alta okuma; %200 ve320 genişlikte yatay kaydı
 
 ## ★ / yeni bileşen
 
-★Networking yalnız topluluk, Professional yalnız kategori etiketi olarak birlikte gösterildi; ikonu farklı. YENİ BİLEŞEN — ONAY GEREKİR: yok.
+★ Networking yalnız topluluk, Professional yalnız kategori etiketi olarak birlikte gösterildi; ikonu farklı. YENİ BİLEŞEN — ONAY GEREKİR: yok.

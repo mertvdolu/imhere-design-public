@@ -4,7 +4,7 @@
 
 Mevcut v2.3 başlık, küçük düğme, bilgi kartı, input, radyo ve satır desenleri. Kenar 24 dp. Başlık 28/600, gövde 16/400, yardım 14/400; satır aralığı 1.18/1.5/1.5. Bölüm başlığı 18/500. Ölçek %200: punto 2×, sabit satır sınırı yok. Küçük düğme görünen yüzey en az 36, bağımsız hedef en az 48×48; radius12. Kart radius15.
 
-İsteğe bağlı kayıt adımı: telefon/e-posta/Instagram. E-posta boş; giriş e-postasından türetilmez. StepBody aynen, EmailNote e-posta altında. StepLater düğmelerin üstünde. Save/Not now aynı ikincil krem yüzey, aynı14/500, en az48 hedef; wrap/flex ile büyük yazıda alt alta. Boş Save etkin; Send bu ekranda yok.
+İsteğe bağlı kayıt adımı: telefon/e-posta/Instagram. E-posta boş; giriş e-postasından türetilmez. StepBody aynen, EmailNote e-posta altında. StepLater düğmelerin üstünde. Save/Not now aynı ikincil krem yüzey, aynı 14/500, en az 48 hedef; wrap/flex ile büyük yazıda alt alta. Boş Save etkin; Send bu ekranda yok.
 
 ## Durumlar
 

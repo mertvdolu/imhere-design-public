@@ -4,7 +4,7 @@
 
 Mevcut v2.3 başlık, küçük düğme, bilgi kartı, input, radyo ve satır desenleri. Kenar 24 dp. Başlık 28/600, gövde 16/400, yardım 14/400; satır aralığı 1.18/1.5/1.5. Bölüm başlığı 18/500. Ölçek %200: punto 2×, sabit satır sınırı yok. Küçük düğme görünen yüzey en az 36, bağımsız hedef en az 48×48; radius12. Kart radius15.
 
-Tam ekran kaydırılan alt sayfa (★), back48. Checkbox meslek satırı + sayım;6 tasarım örneği51/24/12/8/6/3,51→50+. Liste sunucu snapshot sırasıyla açılır; seçimde yer değişmez.5 seçildiğinde seçilmemiş satırlar pasif ve MaxReached görünür. LinkedIn switch yanında hiçbir sayı yok. 0/1/2 TEK not-enough görünümü. Threshold ve privacy notları aynen.
+Tam ekran kaydırılan alt sayfa (★), geri 48. Checkbox meslek satırı + sayım; 6 tasarım örneği 51/24/12/8/6/3,51→50+. Liste sunucu snapshot sırasıyla açılır; seçimde yer değişmez. 5 seçildiğinde seçilmemiş satırlar pasif ve MaxReached görünür. LinkedIn switch yanında hiçbir sayı yok. 0/1/2 TEK not-enough görünümü. Threshold ve privacy notları aynen.
 
 ## Durumlar
 

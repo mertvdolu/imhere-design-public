@@ -41,4 +41,4 @@ Her durum tek H1, doğal üstten alta okuma; %200 ve320 genişlikte yatay kaydı
 
 ## ★ / yeni bileşen
 
-★ Uzun gövdeler tam sayfa kaydırılır; bir onay metni bile kısaltılmadı. ★ Üç seçenek plain radio row; community blue bu alanda kullanılmaz. YENİ BİLEŞEN — ONAY GEREKİR: yok (mevcut form/radio/confirm). HB-37r5§14.1 üç son değer bulundu; METİN-EKİ BEKLİYOR yok.
+★ Uzun gövdeler tam sayfa kaydırılır; bir onay metni bile kısaltılmadı. ★ Üç seçenek plain radio row; community blue bu alanda kullanılmaz. YENİ BİLEŞEN — ONAY GEREKİR: yok (mevcut form/radio/confirm). HB-37 r5 §14.1 üç son değer bulundu; METİN-EKİ BEKLİYOR yok.

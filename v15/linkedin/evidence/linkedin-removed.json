@@ -25,7 +25,7 @@
       "profileLinkedinCheckRequired",
       "profileLinkedinRemoved",
       "profileLinkedinSave",
-      "signupLinkedinSkip"
+      "cancel"
     ],
     "locale": "en",
     "platform": "ios",
@@ -62,7 +62,7 @@
       "profileLinkedinCheckRequired",
       "profileLinkedinRemoved",
       "profileLinkedinSave",
-      "signupLinkedinSkip"
+      "cancel"
     ],
     "locale": "en",
     "platform": "ios",
@@ -99,7 +99,7 @@
       "profileLinkedinCheckRequired",
       "profileLinkedinRemoved",
       "profileLinkedinSave",
-      "signupLinkedinSkip"
+      "cancel"
     ],
     "locale": "en",
     "platform": "ios",
@@ -136,7 +136,7 @@
       "profileLinkedinCheckRequired",
       "profileLinkedinRemoved",
       "profileLinkedinSave",
-      "signupLinkedinSkip"
+      "cancel"
     ],
     "locale": "en",
     "platform": "ios",
@@ -173,7 +173,7 @@
       "profileLinkedinCheckRequired",
       "profileLinkedinRemoved",
       "profileLinkedinSave",
-      "signupLinkedinSkip"
+      "cancel"
     ],
     "locale": "tr",
     "platform": "ios",
@@ -210,7 +210,7 @@
       "profileLinkedinCheckRequired",
       "profileLinkedinRemoved",
       "profileLinkedinSave",
-      "signupLinkedinSkip"
+      "cancel"
     ],
     "locale": "tr",
     "platform": "ios",
@@ -247,7 +247,7 @@
       "profileLinkedinCheckRequired",
       "profileLinkedinRemoved",
       "profileLinkedinSave",
-      "signupLinkedinSkip"
+      "cancel"
     ],
     "locale": "tr",
     "platform": "ios",
@@ -284,7 +284,7 @@
       "profileLinkedinCheckRequired",
       "profileLinkedinRemoved",
       "profileLinkedinSave",
-      "signupLinkedinSkip"
+      "cancel"
     ],
     "locale": "tr",
     "platform": "ios",
@@ -321,7 +321,7 @@
       "profileLinkedinCheckRequired",
       "profileLinkedinRemoved",
       "profileLinkedinSave",
-      "signupLinkedinSkip"
+      "cancel"
     ],
     "locale": "en",
     "platform": "ios",
@@ -358,7 +358,7 @@
       "profileLinkedinCheckRequired",
       "profileLinkedinRemoved",
       "profileLinkedinSave",
-      "signupLinkedinSkip"
+      "cancel"
     ],
     "locale": "en",
     "platform": "ios",
@@ -395,7 +395,7 @@
       "profileLinkedinCheckRequired",
       "profileLinkedinRemoved",
       "profileLinkedinSave",
-      "signupLinkedinSkip"
+      "cancel"
     ],
     "locale": "en",
     "platform": "ios",
@@ -432,7 +432,7 @@
       "profileLinkedinCheckRequired",
       "profileLinkedinRemoved",
       "profileLinkedinSave",
-      "signupLinkedinSkip"
+      "cancel"
     ],
     "locale": "en",
     "platform": "ios",
@@ -469,7 +469,7 @@
       "profileLinkedinCheckRequired",
       "profileLinkedinRemoved",
       "profileLinkedinSave",
-      "signupLinkedinSkip"
+      "cancel"
     ],
     "locale": "tr",
     "platform": "ios",
@@ -506,7 +506,7 @@
       "profileLinkedinCheckRequired",
       "profileLinkedinRemoved",
       "profileLinkedinSave",
-      "signupLinkedinSkip"
+      "cancel"
     ],
     "locale": "tr",
     "platform": "ios",
@@ -543,7 +543,7 @@
       "profileLinkedinCheckRequired",
       "profileLinkedinRemoved",
       "profileLinkedinSave",
-      "signupLinkedinSkip"
+      "cancel"
     ],
     "locale": "tr",
     "platform": "ios",
@@ -580,7 +580,7 @@
       "profileLinkedinCheckRequired",
       "profileLinkedinRemoved",
       "profileLinkedinSave",
-      "signupLinkedinSkip"
+      "cancel"
     ],
     "locale": "tr",
     "platform": "ios",
@@ -617,7 +617,7 @@
       "profileLinkedinCheckRequired",
       "profileLinkedinRemoved",
       "profileLinkedinSave",
-      "signupLinkedinSkip"
+      "cancel"
     ],
     "locale": "en",
     "platform": "ios",
@@ -654,7 +654,7 @@
       "profileLinkedinCheckRequired",
       "profileLinkedinRemoved",
       "profileLinkedinSave",
-      "signupLinkedinSkip"
+      "cancel"
     ],
     "locale": "tr",
     "platform": "ios",
@@ -691,7 +691,7 @@
       "profileLinkedinCheckRequired",
       "profileLinkedinRemoved",
       "profileLinkedinSave",
-      "signupLinkedinSkip"
+      "cancel"
     ],
     "locale": "en",
     "platform": "android",
@@ -728,7 +728,7 @@
       "profileLinkedinCheckRequired",
       "profileLinkedinRemoved",
       "profileLinkedinSave",
-      "signupLinkedinSkip"
+      "cancel"
     ],
     "locale": "tr",
     "platform": "android",

@@ -131,3 +131,7 @@
 | professional | professional-failed | [PNG](professional/screens/png/professional-failed--en--100.png) |
 | professional | professional-empty | [PNG](professional/screens/png/professional-empty--en--100.png) |
 
+
+## 4-11 — isteğe bağlı yön
+
+[İtalik / açılış kararı](italik-acilis/README.md): yeni öneri **yok**; Geist ve onaylı H0 korunur.

@@ -13,7 +13,7 @@ for mode in ['none','networking','friendship','both','both-start','both-networki
  blocks+=[picker(val,start),P('communityNotDating',helper=True)]
  if mode=='failed':blocks+=[N('communityChooseSaveFailed',error=True)]
  blocks+=[AS(A('v15LinkedinContinue',primary=True,disabled=not selected or mode=='saving',busy=mode=='saving',reason='errorGenderRequired' if not selected else None,to='community-both-start' if mode=='both' else 'community-saving'))]
- S('community-'+mode,'topluluk-kayit','communityBothStartWith' if start else 'communityChooseTitle',blocks,'No preselection. Both requires explicit starting community. Initial selection does not consume a change. Friendship-only skips job/LinkedIn; card step still appears. Error retains chosen community.',layout='onboarding',ack='migration-occupation' if mode=='saving' else None,reject='community-failed' if mode=='saving' else None)
+ S('community-'+mode,'topluluk-kayit','communityBothStartWith' if start else 'communityChooseTitle',blocks,'No preselection. Both requires explicit starting community. Initial selection does not consume a change. Friendship-only skips job/LinkedIn; card step still appears. Error retains chosen community.',layout='onboarding',ack='occupation-empty' if mode=='saving' else None,reject='community-failed' if mode=='saving' else None)
 # preserve Networking selected in saving / failure
 for s in states:
  if s['id'] in ['community-saving','community-failed']:s['blocks'][1]=picker('Networking')
@@ -25,7 +25,7 @@ for mode in ['everyone','connections','nobody','saving','failed','offline']:
  val='Everyone' if mode in ['everyone','failed','offline'] else 'Nobody' if mode=='nobody' else 'Connections';blocks=[P('v15LinkedinBody'),visibility(val,mode=='saving'),P('v15LinkedinChangeLater',helper=True)]
  if mode in ['failed','offline']:blocks+=[N('offline' if mode=='offline' else 'profileLinkedinVisibilitySaveFailed',error=True)]
  blocks+=[AS(A('v15LinkedinContinue',primary=True,to='migration-linkedin-saving',disabled=mode=='saving',busy=mode=='saving'),A('cancel',to='migration-intro'))]
- S('migration-linkedin-'+mode,'gecis','v15LinkedinTitle',blocks,'Only for stored LinkedIn. Everyone is existing value; no extra visual emphasis. Dismiss keeps Everyone and repeats next launch. Save failure restores Everyone and stays on screen. Body uses HB-37 r5.',layout='dialog',ack='migration-occupation' if mode=='saving' else None,reject='migration-linkedin-failed' if mode=='saving' else None)
+ S('migration-linkedin-'+mode,'gecis','v15LinkedinTitle',blocks,'Only for stored LinkedIn. Everyone is existing value; no extra visual emphasis. Dismiss keeps Everyone and repeats next launch. Save failure restores Everyone and stays on screen. Body uses HB-37 r5.',layout='dialog',ack='occupation-empty' if mode=='saving' else None,reject='migration-linkedin-failed' if mode=='saving' else None)
 S('migration-occupation','gecis','v15OccupationTitle',[P('v15OccupationBody'),AS(A('v15OccupationChoose',to='occupation-empty'),A('v15OccupationNotNow',action='skip-occupation'),equal=True)],'Optional one-time invitation. Equal button treatment. Existing free text is not mapped automatically.',layout='onboarding')
 S('migration-offline','gecis','v15IntroTitle',[P('v15IntroBody'),N('offline',error=True),AS(A('checkInRetry',to='migration-intro'))],'Network failure keeps route and avoids inferred membership.',layout='onboarding')
 

@@ -17,3 +17,7 @@ APPROVED COPY — HB-37 r5 + existing approved references. Dosya adı proposed t
 ## ÖNERİ
 
 Onaylı metinlerde söz değişikliği yok. Geçerli LinkedIn üç değeri HB-37 r5§14.1; eksik ek metin kalmadı.
+
+## 4-11 — isteğe bağlı yön
+
+[İtalik / açılış kararı](italik-acilis/README.md): yeni öneri **yok**; Geist ve onaylı H0 korunur.

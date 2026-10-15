@@ -50,7 +50,8 @@ write(B/'evidence/summary.json',json.dumps({'states':len(states),'mainPng':pngco
 # Root overview uses first state from each completed group.
 thumbs=[]
 for g in dict.fromkeys(s['group'] for s in states):
- s=next(s for s in states if s['group']==g);p=B/g/'screens/png'/f"{s['id']}--en--100.png"
+ representative={'secici':'map-networking','filtre':'filters-options','meslek':'occupation-search','linkedin':'linkedin-confirmed','kart-adimi':'card-filled','ayarlar-topluluk':'settings-both','professional':'professional-list'}
+ s=next(s for s in states if s['id']==representative[g]) if g in representative else next(s for s in states if s['group']==g);p=B/g/'screens/png'/f"{s['id']}--en--100.png"
  if p.exists():thumbs.append((g,Image.open(p).resize((195,422))))
 if thumbs:
  cols=min(4,len(thumbs));im=Image.new('RGB',(cols*227+32,math.ceil(len(thumbs)/cols)*478+32),'#E7E3DA');draw=ImageDraw.Draw(im);font=ImageFont.truetype(str(B/'assets/Geist-Regular.ttf'),17)
@@ -69,6 +70,11 @@ for row in cat:
 cat=[r for r in cat if r.get('id')!='v15-retirement-rules']
 cat.append({'id':'v15-retirement-rules','kind':'conditional-component-retirement','source':'v15-policy','active':False,'beta':False,'when':'V15.ENABLED == true','hide':['Y2 Why are you here / session purpose selection','nearby person purpose badge','Send anyway / new 10-day mismatch flow','Profile default purpose'],'flagOff':'Existing behaviour remains unchanged','retainExistingExpiry':'Existing 10-day records expire on their existing date; no new ones','replacement':'v15/topluluk-kayit + v15/ayarlar-topluluk','reference':'Founder 15 Oct decisions32,36; earlier y1-y2/profil-al packages retained in their Git history'})
 write(p,json.dumps(cat,ensure_ascii=False,indent=2))
+# Optional direction kept as an explicit no-change decision.
+from optional import prepare
+prepare(B)
+from delivery import prepare as prepare_delivery
+prepare_delivery(B)
 # Manifest files exclude itself, generated last.
 files=[{'file':str(p.relative_to(B)),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted(B.rglob('*')) if p.is_file() and p.name!='MANIFEST.json' and '__pycache__' not in p.parts]
 write(B/'MANIFEST.json',json.dumps({'theme':'2.3','counts':{'states':len(states),'mainPng':pngcount,'fullPng':fullcount,'filesExcludingManifest':len(files)},'files':files},ensure_ascii=False,indent=2))

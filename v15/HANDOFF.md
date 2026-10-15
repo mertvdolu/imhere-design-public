@@ -19,3 +19,11 @@ HB-37 dosyası r5 olarak güncellenmiş: 3 LinkedIn değeri §14.1’den AYNEN. 
 - [professional](professional/HANDOFF.md)
 
 Tasarım, native uygulama/test/yayın değildir. Main birleşimi, deploy veya mağaza işlemi yok.
+
+## 4-11 — isteğe bağlı yön
+
+[İtalik / açılış kararı](italik-acilis/README.md): yeni öneri **yok**; Geist ve onaylı H0 korunur.
+
+## Tek teslim raporu
+
+[Founder / Manager raporu](TESLIM-RAPORU.md) · [Son doğrulama](evidence/final-validation.json)

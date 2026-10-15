@@ -4,7 +4,7 @@ Onaylı kaynak değerleri aynen. Dosya adı teslim standardı gereği `proposed`
 
 | KEY | EN | TR | SCREEN / STATE | SOURCE |
 |---|---|---|---|---|
-| cancel | Cancel | Vazgeç | linkedin-remove-confirm, linkedin-remove-busy, linkedin-remove-failed | v2.3 release8-approved-patch |
+| cancel | Cancel | Vazgeç | linkedin-stored, linkedin-paused, linkedin-removed, linkedin-remove-confirm, linkedin-remove-busy, linkedin-remove-failed | v2.3 release8-approved-patch |
 | checkInRetry | Try again | Tekrar dene | linkedin-viewer-offline, linkedin-viewer-failed | v2.3 l10n/app_*.arb |
 | contactSeenNote | Details already seen or saved can’t be recalled. | Daha önce görülmüş veya kaydedilmiş bilgiler geri alınamaz. | linkedin-remove-confirm, linkedin-remove-busy, linkedin-remove-failed | v2.3 l10n/app_*.arb |
 | linkOpenFailed | The link couldn’t be opened. Try again. | Bağlantı açılamadı. Tekrar dene. | linkedin-open-failed, linkedin-viewer-failed | HB-20 final §3 line 74; reused by HB-37 §7 |
@@ -45,7 +45,7 @@ Onaylı kaynak değerleri aynen. Dosya adı teslim standardı gereği `proposed`
 | profileLinkedinVisibilitySaveFailed | Your choice couldn’t be saved. Try again. | Seçimin kaydedilemedi. Tekrar dene. | linkedin-save-failed | HB-37 r5 line 124 |
 | profileLinkedinVisibilityTitle | Who can see your LinkedIn | LinkedIn’ini kim görsün | linkedin-empty, linkedin-invalid, linkedin-unconfirmed, linkedin-opening, linkedin-confirmed, linkedin-nobody, linkedin-connections, linkedin-saving, linkedin-saved, linkedin-save-failed, linkedin-stored, linkedin-offline, linkedin-open-failed, linkedin-paused, linkedin-removed | HB-37 r5 line 115 |
 | signupLinkedinBody | Optional. You choose who can see it: everyone, only your connections, or no one. It starts as Everyone, so in Networking, people who open your profile in Nearby can see and open it, and you’re counted in the LinkedIn filter. You can change this or remove it at any time. | İsteğe bağlı. Kimin göreceğini sen seçersin: herkes, yalnız bağlantıların ya da kimse. Başlangıçta Herkes seçili; yani Networking’de Yakındakiler’de profilini açanlar onu görebilir ve açabilir, LinkedIn filtresinde de sayılırsın. Bunu ya da bağlantıyı istediğin zaman değiştirebilir veya kaldırabilirsin. | linkedin-empty, linkedin-invalid, linkedin-unconfirmed, linkedin-opening, linkedin-confirmed, linkedin-nobody, linkedin-connections, linkedin-saving, linkedin-saved, linkedin-save-failed, linkedin-offline, linkedin-open-failed | HB-37 r5 §14.1 FINAL |
-| signupLinkedinSkip | Skip | Atla | linkedin-empty, linkedin-invalid, linkedin-unconfirmed, linkedin-opening, linkedin-confirmed, linkedin-nobody, linkedin-connections, linkedin-saving, linkedin-saved, linkedin-save-failed, linkedin-stored, linkedin-offline, linkedin-open-failed, linkedin-paused, linkedin-removed | HB-37 r5 line 110 |
+| signupLinkedinSkip | Skip | Atla | linkedin-empty, linkedin-invalid, linkedin-unconfirmed, linkedin-opening, linkedin-confirmed, linkedin-nobody, linkedin-connections, linkedin-saving, linkedin-saved, linkedin-save-failed, linkedin-offline, linkedin-open-failed | HB-37 r5 line 110 |
 | signupLinkedinTitle | Add your LinkedIn | LinkedIn’ini ekle | linkedin-empty, linkedin-invalid, linkedin-unconfirmed, linkedin-opening, linkedin-confirmed, linkedin-nobody, linkedin-connections, linkedin-saving, linkedin-saved, linkedin-save-failed, linkedin-offline, linkedin-open-failed | HB-37 r5 line 108 |
 
 ## ÖNERİ

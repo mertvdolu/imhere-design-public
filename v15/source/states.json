@@ -581,7 +581,7 @@
     ],
     "notes": "No preselection. Both requires explicit starting community. Initial selection does not consume a change. Friendship-only skips job/LinkedIn; card step still appears. Error retains chosen community.",
     "layout": "onboarding",
-    "ack": "migration-occupation",
+    "ack": "occupation-empty",
     "reject": "community-failed"
   },
   {
@@ -4607,8 +4607,8 @@
             "busy": false
           },
           {
-            "key": "signupLinkedinSkip",
-            "action": "skip-linkedin"
+            "key": "cancel",
+            "action": "existing-back"
           }
         ],
         "equal": true
@@ -4922,8 +4922,8 @@
             "busy": false
           },
           {
-            "key": "signupLinkedinSkip",
-            "action": "skip-linkedin"
+            "key": "cancel",
+            "action": "existing-back"
           }
         ],
         "equal": true
@@ -5034,8 +5034,8 @@
             "busy": false
           },
           {
-            "key": "signupLinkedinSkip",
-            "action": "skip-linkedin"
+            "key": "cancel",
+            "action": "existing-back"
           }
         ],
         "equal": true
