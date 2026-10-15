@@ -1,0 +1,1838 @@
+{
+  "theme": "2.3",
+  "states": [
+    {
+      "id": "linkedin-empty",
+      "group": "linkedin",
+      "title": "signupLinkedinTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "signupLinkedinBody"
+        },
+        {
+          "type": "field",
+          "key": "profileLinkedinFieldLabel",
+          "value": "",
+          "placeholder": "profileLinkedinHint",
+          "error": null,
+          "disabled": false
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinOpenCheck",
+              "icon": "external",
+              "to": "linkedin-opening",
+              "disabled": true,
+              "busy": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinOutsideAppNote",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinNoCheck",
+          "helper": true
+        },
+        {
+          "type": "choices",
+          "key": "profileLinkedinVisibilityTitle",
+          "name": "visibility",
+          "items": [
+            {
+              "key": "profileLinkedinVisibilityNobody",
+              "description": "profileLinkedinVisibilityNobodyDesc",
+              "selected": false,
+              "value": "Nobody",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityConnections",
+              "description": "profileLinkedinVisibilityConnectionsDesc",
+              "selected": false,
+              "value": "Connections",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityEveryone",
+              "description": "profileLinkedinVisibilityEveryoneDesc",
+              "selected": true,
+              "value": "Everyone",
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinVisibilityDefaultNote",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinCheckRequired",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinSave",
+              "to": "linkedin-saving",
+              "disabled": true,
+              "busy": false
+            },
+            {
+              "key": "signupLinkedinSkip",
+              "action": "skip-linkedin"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Optional. Form → external Open/check → return own-profile confirmation → Save. Return/Yes only enables Save, not verification. No success tick or green state. Three equal radios, only dot selected. Failure restores old Everyone; source body HB-37r5. URL is fictional placeholder.",
+      "layout": "onboarding",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "linkedin-invalid",
+      "group": "linkedin",
+      "title": "signupLinkedinTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "signupLinkedinBody"
+        },
+        {
+          "type": "field",
+          "key": "profileLinkedinFieldLabel",
+          "value": "linkedin.com/…",
+          "placeholder": "profileLinkedinHint",
+          "error": "profileLinkedinInvalid",
+          "disabled": false
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinOpenCheck",
+              "icon": "external",
+              "to": "linkedin-opening",
+              "disabled": true,
+              "busy": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinOutsideAppNote",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinNoCheck",
+          "helper": true
+        },
+        {
+          "type": "choices",
+          "key": "profileLinkedinVisibilityTitle",
+          "name": "visibility",
+          "items": [
+            {
+              "key": "profileLinkedinVisibilityNobody",
+              "description": "profileLinkedinVisibilityNobodyDesc",
+              "selected": false,
+              "value": "Nobody",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityConnections",
+              "description": "profileLinkedinVisibilityConnectionsDesc",
+              "selected": false,
+              "value": "Connections",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityEveryone",
+              "description": "profileLinkedinVisibilityEveryoneDesc",
+              "selected": true,
+              "value": "Everyone",
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinVisibilityDefaultNote",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinCheckRequired",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinSave",
+              "to": "linkedin-saving",
+              "disabled": true,
+              "busy": false
+            },
+            {
+              "key": "signupLinkedinSkip",
+              "action": "skip-linkedin"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Optional. Form → external Open/check → return own-profile confirmation → Save. Return/Yes only enables Save, not verification. No success tick or green state. Three equal radios, only dot selected. Failure restores old Everyone; source body HB-37r5. URL is fictional placeholder.",
+      "layout": "onboarding",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "linkedin-unconfirmed",
+      "group": "linkedin",
+      "title": "signupLinkedinTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "signupLinkedinBody"
+        },
+        {
+          "type": "field",
+          "key": "profileLinkedinFieldLabel",
+          "value": "linkedin.com/in/…",
+          "placeholder": "profileLinkedinHint",
+          "error": null,
+          "disabled": false
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinOpenCheck",
+              "icon": "external",
+              "to": "linkedin-opening",
+              "disabled": false,
+              "busy": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinOutsideAppNote",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinNoCheck",
+          "helper": true
+        },
+        {
+          "type": "choices",
+          "key": "profileLinkedinVisibilityTitle",
+          "name": "visibility",
+          "items": [
+            {
+              "key": "profileLinkedinVisibilityNobody",
+              "description": "profileLinkedinVisibilityNobodyDesc",
+              "selected": false,
+              "value": "Nobody",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityConnections",
+              "description": "profileLinkedinVisibilityConnectionsDesc",
+              "selected": false,
+              "value": "Connections",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityEveryone",
+              "description": "profileLinkedinVisibilityEveryoneDesc",
+              "selected": true,
+              "value": "Everyone",
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinVisibilityDefaultNote",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinCheckRequired",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinSave",
+              "to": "linkedin-saving",
+              "disabled": true,
+              "busy": false
+            },
+            {
+              "key": "signupLinkedinSkip",
+              "action": "skip-linkedin"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Optional. Form → external Open/check → return own-profile confirmation → Save. Return/Yes only enables Save, not verification. No success tick or green state. Three equal radios, only dot selected. Failure restores old Everyone; source body HB-37r5. URL is fictional placeholder.",
+      "layout": "onboarding",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "linkedin-opening",
+      "group": "linkedin",
+      "title": "signupLinkedinTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "signupLinkedinBody"
+        },
+        {
+          "type": "field",
+          "key": "profileLinkedinFieldLabel",
+          "value": "linkedin.com/in/…",
+          "placeholder": "profileLinkedinHint",
+          "error": null,
+          "disabled": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinOpenCheck",
+              "icon": "external",
+              "to": "linkedin-opening",
+              "disabled": true,
+              "busy": true
+            }
+          ]
+        },
+        {
+          "type": "notice",
+          "key": "profileLinkedinOpening",
+          "busy": true
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinOutsideAppNote",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinNoCheck",
+          "helper": true
+        },
+        {
+          "type": "choices",
+          "key": "profileLinkedinVisibilityTitle",
+          "name": "visibility",
+          "items": [
+            {
+              "key": "profileLinkedinVisibilityNobody",
+              "description": "profileLinkedinVisibilityNobodyDesc",
+              "selected": false,
+              "value": "Nobody",
+              "disabled": true
+            },
+            {
+              "key": "profileLinkedinVisibilityConnections",
+              "description": "profileLinkedinVisibilityConnectionsDesc",
+              "selected": false,
+              "value": "Connections",
+              "disabled": true
+            },
+            {
+              "key": "profileLinkedinVisibilityEveryone",
+              "description": "profileLinkedinVisibilityEveryoneDesc",
+              "selected": true,
+              "value": "Everyone",
+              "disabled": true
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinVisibilityDefaultNote",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinCheckRequired",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinSave",
+              "to": "linkedin-saving",
+              "disabled": true,
+              "busy": false
+            },
+            {
+              "key": "signupLinkedinSkip",
+              "action": "skip-linkedin"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Optional. Form → external Open/check → return own-profile confirmation → Save. Return/Yes only enables Save, not verification. No success tick or green state. Three equal radios, only dot selected. Failure restores old Everyone; source body HB-37r5. URL is fictional placeholder.",
+      "layout": "onboarding",
+      "ack": "linkedin-confirm-return",
+      "reject": "linkedin-open-failed"
+    },
+    {
+      "id": "linkedin-confirmed",
+      "group": "linkedin",
+      "title": "signupLinkedinTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "signupLinkedinBody"
+        },
+        {
+          "type": "field",
+          "key": "profileLinkedinFieldLabel",
+          "value": "linkedin.com/in/…",
+          "placeholder": "profileLinkedinHint",
+          "error": null,
+          "disabled": false
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinOpenCheck",
+              "icon": "external",
+              "to": "linkedin-opening",
+              "disabled": false,
+              "busy": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinOutsideAppNote",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinNoCheck",
+          "helper": true
+        },
+        {
+          "type": "choices",
+          "key": "profileLinkedinVisibilityTitle",
+          "name": "visibility",
+          "items": [
+            {
+              "key": "profileLinkedinVisibilityNobody",
+              "description": "profileLinkedinVisibilityNobodyDesc",
+              "selected": false,
+              "value": "Nobody",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityConnections",
+              "description": "profileLinkedinVisibilityConnectionsDesc",
+              "selected": false,
+              "value": "Connections",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityEveryone",
+              "description": "profileLinkedinVisibilityEveryoneDesc",
+              "selected": true,
+              "value": "Everyone",
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinVisibilityDefaultNote",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinSave",
+              "to": "linkedin-saving",
+              "disabled": false,
+              "busy": false
+            },
+            {
+              "key": "signupLinkedinSkip",
+              "action": "skip-linkedin"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Optional. Form → external Open/check → return own-profile confirmation → Save. Return/Yes only enables Save, not verification. No success tick or green state. Three equal radios, only dot selected. Failure restores old Everyone; source body HB-37r5. URL is fictional placeholder.",
+      "layout": "onboarding",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "linkedin-nobody",
+      "group": "linkedin",
+      "title": "signupLinkedinTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "signupLinkedinBody"
+        },
+        {
+          "type": "field",
+          "key": "profileLinkedinFieldLabel",
+          "value": "linkedin.com/in/…",
+          "placeholder": "profileLinkedinHint",
+          "error": null,
+          "disabled": false
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinOpenCheck",
+              "icon": "external",
+              "to": "linkedin-opening",
+              "disabled": false,
+              "busy": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinOutsideAppNote",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinNoCheck",
+          "helper": true
+        },
+        {
+          "type": "choices",
+          "key": "profileLinkedinVisibilityTitle",
+          "name": "visibility",
+          "items": [
+            {
+              "key": "profileLinkedinVisibilityNobody",
+              "description": "profileLinkedinVisibilityNobodyDesc",
+              "selected": true,
+              "value": "Nobody",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityConnections",
+              "description": "profileLinkedinVisibilityConnectionsDesc",
+              "selected": false,
+              "value": "Connections",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityEveryone",
+              "description": "profileLinkedinVisibilityEveryoneDesc",
+              "selected": false,
+              "value": "Everyone",
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinVisibilityDefaultNote",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinSave",
+              "to": "linkedin-saving",
+              "disabled": false,
+              "busy": false
+            },
+            {
+              "key": "signupLinkedinSkip",
+              "action": "skip-linkedin"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Optional. Form → external Open/check → return own-profile confirmation → Save. Return/Yes only enables Save, not verification. No success tick or green state. Three equal radios, only dot selected. Failure restores old Everyone; source body HB-37r5. URL is fictional placeholder.",
+      "layout": "onboarding",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "linkedin-connections",
+      "group": "linkedin",
+      "title": "signupLinkedinTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "signupLinkedinBody"
+        },
+        {
+          "type": "field",
+          "key": "profileLinkedinFieldLabel",
+          "value": "linkedin.com/in/…",
+          "placeholder": "profileLinkedinHint",
+          "error": null,
+          "disabled": false
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinOpenCheck",
+              "icon": "external",
+              "to": "linkedin-opening",
+              "disabled": false,
+              "busy": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinOutsideAppNote",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinNoCheck",
+          "helper": true
+        },
+        {
+          "type": "choices",
+          "key": "profileLinkedinVisibilityTitle",
+          "name": "visibility",
+          "items": [
+            {
+              "key": "profileLinkedinVisibilityNobody",
+              "description": "profileLinkedinVisibilityNobodyDesc",
+              "selected": false,
+              "value": "Nobody",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityConnections",
+              "description": "profileLinkedinVisibilityConnectionsDesc",
+              "selected": true,
+              "value": "Connections",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityEveryone",
+              "description": "profileLinkedinVisibilityEveryoneDesc",
+              "selected": false,
+              "value": "Everyone",
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinVisibilityDefaultNote",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinSave",
+              "to": "linkedin-saving",
+              "disabled": false,
+              "busy": false
+            },
+            {
+              "key": "signupLinkedinSkip",
+              "action": "skip-linkedin"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Optional. Form → external Open/check → return own-profile confirmation → Save. Return/Yes only enables Save, not verification. No success tick or green state. Three equal radios, only dot selected. Failure restores old Everyone; source body HB-37r5. URL is fictional placeholder.",
+      "layout": "onboarding",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "linkedin-saving",
+      "group": "linkedin",
+      "title": "signupLinkedinTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "signupLinkedinBody"
+        },
+        {
+          "type": "field",
+          "key": "profileLinkedinFieldLabel",
+          "value": "linkedin.com/in/…",
+          "placeholder": "profileLinkedinHint",
+          "error": null,
+          "disabled": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinOpenCheck",
+              "icon": "external",
+              "to": "linkedin-opening",
+              "disabled": true,
+              "busy": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinOutsideAppNote",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinNoCheck",
+          "helper": true
+        },
+        {
+          "type": "choices",
+          "key": "profileLinkedinVisibilityTitle",
+          "name": "visibility",
+          "items": [
+            {
+              "key": "profileLinkedinVisibilityNobody",
+              "description": "profileLinkedinVisibilityNobodyDesc",
+              "selected": false,
+              "value": "Nobody",
+              "disabled": true
+            },
+            {
+              "key": "profileLinkedinVisibilityConnections",
+              "description": "profileLinkedinVisibilityConnectionsDesc",
+              "selected": true,
+              "value": "Connections",
+              "disabled": true
+            },
+            {
+              "key": "profileLinkedinVisibilityEveryone",
+              "description": "profileLinkedinVisibilityEveryoneDesc",
+              "selected": false,
+              "value": "Everyone",
+              "disabled": true
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinVisibilityDefaultNote",
+          "helper": true
+        },
+        {
+          "type": "notice",
+          "key": "profileLinkedinSaving",
+          "busy": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinSave",
+              "to": "linkedin-saving",
+              "disabled": true,
+              "busy": true
+            },
+            {
+              "key": "signupLinkedinSkip",
+              "action": "skip-linkedin"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Optional. Form → external Open/check → return own-profile confirmation → Save. Return/Yes only enables Save, not verification. No success tick or green state. Three equal radios, only dot selected. Failure restores old Everyone; source body HB-37r5. URL is fictional placeholder.",
+      "layout": "onboarding",
+      "ack": "linkedin-saved",
+      "reject": "linkedin-save-failed"
+    },
+    {
+      "id": "linkedin-saved",
+      "group": "linkedin",
+      "title": "signupLinkedinTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "signupLinkedinBody"
+        },
+        {
+          "type": "field",
+          "key": "profileLinkedinFieldLabel",
+          "value": "linkedin.com/in/…",
+          "placeholder": "profileLinkedinHint",
+          "error": null,
+          "disabled": false
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinOpenCheck",
+              "icon": "external",
+              "to": "linkedin-opening",
+              "disabled": false,
+              "busy": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinOutsideAppNote",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinNoCheck",
+          "helper": true
+        },
+        {
+          "type": "choices",
+          "key": "profileLinkedinVisibilityTitle",
+          "name": "visibility",
+          "items": [
+            {
+              "key": "profileLinkedinVisibilityNobody",
+              "description": "profileLinkedinVisibilityNobodyDesc",
+              "selected": false,
+              "value": "Nobody",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityConnections",
+              "description": "profileLinkedinVisibilityConnectionsDesc",
+              "selected": false,
+              "value": "Connections",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityEveryone",
+              "description": "profileLinkedinVisibilityEveryoneDesc",
+              "selected": true,
+              "value": "Everyone",
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinVisibilityDefaultNote",
+          "helper": true
+        },
+        {
+          "type": "notice",
+          "key": "profileLinkedinSaved"
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinSave",
+              "to": "linkedin-saving",
+              "disabled": false,
+              "busy": false
+            },
+            {
+              "key": "signupLinkedinSkip",
+              "action": "skip-linkedin"
+            }
+          ],
+          "equal": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinRemove",
+              "to": "linkedin-remove-confirm"
+            }
+          ]
+        }
+      ],
+      "notes": "Optional. Form → external Open/check → return own-profile confirmation → Save. Return/Yes only enables Save, not verification. No success tick or green state. Three equal radios, only dot selected. Failure restores old Everyone; source body HB-37r5. URL is fictional placeholder.",
+      "layout": "onboarding",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "linkedin-save-failed",
+      "group": "linkedin",
+      "title": "signupLinkedinTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "signupLinkedinBody"
+        },
+        {
+          "type": "field",
+          "key": "profileLinkedinFieldLabel",
+          "value": "linkedin.com/in/…",
+          "placeholder": "profileLinkedinHint",
+          "error": null,
+          "disabled": false
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinOpenCheck",
+              "icon": "external",
+              "to": "linkedin-opening",
+              "disabled": false,
+              "busy": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinOutsideAppNote",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinNoCheck",
+          "helper": true
+        },
+        {
+          "type": "choices",
+          "key": "profileLinkedinVisibilityTitle",
+          "name": "visibility",
+          "items": [
+            {
+              "key": "profileLinkedinVisibilityNobody",
+              "description": "profileLinkedinVisibilityNobodyDesc",
+              "selected": false,
+              "value": "Nobody",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityConnections",
+              "description": "profileLinkedinVisibilityConnectionsDesc",
+              "selected": false,
+              "value": "Connections",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityEveryone",
+              "description": "profileLinkedinVisibilityEveryoneDesc",
+              "selected": true,
+              "value": "Everyone",
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinVisibilityDefaultNote",
+          "helper": true
+        },
+        {
+          "type": "notice",
+          "key": "profileLinkedinVisibilitySaveFailed",
+          "error": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinSave",
+              "to": "linkedin-saving",
+              "disabled": false,
+              "busy": false
+            },
+            {
+              "key": "signupLinkedinSkip",
+              "action": "skip-linkedin"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Optional. Form → external Open/check → return own-profile confirmation → Save. Return/Yes only enables Save, not verification. No success tick or green state. Three equal radios, only dot selected. Failure restores old Everyone; source body HB-37r5. URL is fictional placeholder.",
+      "layout": "onboarding",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "linkedin-stored",
+      "group": "linkedin",
+      "title": "profileLinkedin",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "profileLinkedinHelp"
+        },
+        {
+          "type": "field",
+          "key": "profileLinkedinFieldLabel",
+          "value": "linkedin.com/in/…",
+          "placeholder": "profileLinkedinHint",
+          "error": null,
+          "disabled": false
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinOpenCheck",
+              "icon": "external",
+              "to": "linkedin-opening",
+              "disabled": false,
+              "busy": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinOutsideAppNote",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinNoCheck",
+          "helper": true
+        },
+        {
+          "type": "choices",
+          "key": "profileLinkedinVisibilityTitle",
+          "name": "visibility",
+          "items": [
+            {
+              "key": "profileLinkedinVisibilityNobody",
+              "description": "profileLinkedinVisibilityNobodyDesc",
+              "selected": false,
+              "value": "Nobody",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityConnections",
+              "description": "profileLinkedinVisibilityConnectionsDesc",
+              "selected": false,
+              "value": "Connections",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityEveryone",
+              "description": "profileLinkedinVisibilityEveryoneDesc",
+              "selected": true,
+              "value": "Everyone",
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinNetworkingNote",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinSave",
+              "to": "linkedin-saving",
+              "disabled": false,
+              "busy": false
+            },
+            {
+              "key": "signupLinkedinSkip",
+              "action": "skip-linkedin"
+            }
+          ],
+          "equal": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinRemove",
+              "to": "linkedin-remove-confirm"
+            }
+          ]
+        }
+      ],
+      "notes": "Optional. Form → external Open/check → return own-profile confirmation → Save. Return/Yes only enables Save, not verification. No success tick or green state. Three equal radios, only dot selected. Failure restores old Everyone; source body HB-37r5. URL is fictional placeholder.",
+      "layout": "subpage",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "linkedin-offline",
+      "group": "linkedin",
+      "title": "signupLinkedinTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "signupLinkedinBody"
+        },
+        {
+          "type": "field",
+          "key": "profileLinkedinFieldLabel",
+          "value": "linkedin.com/in/…",
+          "placeholder": "profileLinkedinHint",
+          "error": null,
+          "disabled": false
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinOpenCheck",
+              "icon": "external",
+              "to": "linkedin-opening",
+              "disabled": false,
+              "busy": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinOutsideAppNote",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinNoCheck",
+          "helper": true
+        },
+        {
+          "type": "choices",
+          "key": "profileLinkedinVisibilityTitle",
+          "name": "visibility",
+          "items": [
+            {
+              "key": "profileLinkedinVisibilityNobody",
+              "description": "profileLinkedinVisibilityNobodyDesc",
+              "selected": false,
+              "value": "Nobody",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityConnections",
+              "description": "profileLinkedinVisibilityConnectionsDesc",
+              "selected": false,
+              "value": "Connections",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityEveryone",
+              "description": "profileLinkedinVisibilityEveryoneDesc",
+              "selected": true,
+              "value": "Everyone",
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinVisibilityDefaultNote",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinCheckRequired",
+          "helper": true
+        },
+        {
+          "type": "notice",
+          "key": "offline",
+          "error": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinSave",
+              "to": "linkedin-saving",
+              "disabled": true,
+              "busy": false
+            },
+            {
+              "key": "signupLinkedinSkip",
+              "action": "skip-linkedin"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Optional. Form → external Open/check → return own-profile confirmation → Save. Return/Yes only enables Save, not verification. No success tick or green state. Three equal radios, only dot selected. Failure restores old Everyone; source body HB-37r5. URL is fictional placeholder.",
+      "layout": "onboarding",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "linkedin-open-failed",
+      "group": "linkedin",
+      "title": "signupLinkedinTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "signupLinkedinBody"
+        },
+        {
+          "type": "field",
+          "key": "profileLinkedinFieldLabel",
+          "value": "linkedin.com/in/…",
+          "placeholder": "profileLinkedinHint",
+          "error": null,
+          "disabled": false
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinOpenCheck",
+              "icon": "external",
+              "to": "linkedin-opening",
+              "disabled": false,
+              "busy": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinOutsideAppNote",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinNoCheck",
+          "helper": true
+        },
+        {
+          "type": "choices",
+          "key": "profileLinkedinVisibilityTitle",
+          "name": "visibility",
+          "items": [
+            {
+              "key": "profileLinkedinVisibilityNobody",
+              "description": "profileLinkedinVisibilityNobodyDesc",
+              "selected": false,
+              "value": "Nobody",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityConnections",
+              "description": "profileLinkedinVisibilityConnectionsDesc",
+              "selected": false,
+              "value": "Connections",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityEveryone",
+              "description": "profileLinkedinVisibilityEveryoneDesc",
+              "selected": true,
+              "value": "Everyone",
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinVisibilityDefaultNote",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinCheckRequired",
+          "helper": true
+        },
+        {
+          "type": "notice",
+          "key": "linkOpenFailed",
+          "error": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinSave",
+              "to": "linkedin-saving",
+              "disabled": true,
+              "busy": false
+            },
+            {
+              "key": "signupLinkedinSkip",
+              "action": "skip-linkedin"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Optional. Form → external Open/check → return own-profile confirmation → Save. Return/Yes only enables Save, not verification. No success tick or green state. Three equal radios, only dot selected. Failure restores old Everyone; source body HB-37r5. URL is fictional placeholder.",
+      "layout": "onboarding",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "linkedin-paused",
+      "group": "linkedin",
+      "title": "profileLinkedin",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "profileLinkedinHelp"
+        },
+        {
+          "type": "notice",
+          "key": "profileLinkedinPausedNote"
+        },
+        {
+          "type": "field",
+          "key": "profileLinkedinFieldLabel",
+          "value": "linkedin.com/in/…",
+          "placeholder": "profileLinkedinHint",
+          "error": null,
+          "disabled": false
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinOpenCheck",
+              "icon": "external",
+              "to": "linkedin-opening",
+              "disabled": false,
+              "busy": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinOutsideAppNote",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinNoCheck",
+          "helper": true
+        },
+        {
+          "type": "choices",
+          "key": "profileLinkedinVisibilityTitle",
+          "name": "visibility",
+          "items": [
+            {
+              "key": "profileLinkedinVisibilityNobody",
+              "description": "profileLinkedinVisibilityNobodyDesc",
+              "selected": false,
+              "value": "Nobody",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityConnections",
+              "description": "profileLinkedinVisibilityConnectionsDesc",
+              "selected": false,
+              "value": "Connections",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityEveryone",
+              "description": "profileLinkedinVisibilityEveryoneDesc",
+              "selected": true,
+              "value": "Everyone",
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinNetworkingNote",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinSave",
+              "to": "linkedin-saving",
+              "disabled": false,
+              "busy": false
+            },
+            {
+              "key": "signupLinkedinSkip",
+              "action": "skip-linkedin"
+            }
+          ],
+          "equal": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinRemove",
+              "to": "linkedin-remove-confirm"
+            }
+          ]
+        }
+      ],
+      "notes": "Optional. Form → external Open/check → return own-profile confirmation → Save. Return/Yes only enables Save, not verification. No success tick or green state. Three equal radios, only dot selected. Failure restores old Everyone; source body HB-37r5. URL is fictional placeholder.",
+      "layout": "subpage",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "linkedin-removed",
+      "group": "linkedin",
+      "title": "profileLinkedin",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "profileLinkedinHelp"
+        },
+        {
+          "type": "field",
+          "key": "profileLinkedinFieldLabel",
+          "value": "",
+          "placeholder": "profileLinkedinHint",
+          "error": null,
+          "disabled": false
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinOpenCheck",
+              "icon": "external",
+              "to": "linkedin-opening",
+              "disabled": false,
+              "busy": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinOutsideAppNote",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinNoCheck",
+          "helper": true
+        },
+        {
+          "type": "choices",
+          "key": "profileLinkedinVisibilityTitle",
+          "name": "visibility",
+          "items": [
+            {
+              "key": "profileLinkedinVisibilityNobody",
+              "description": "profileLinkedinVisibilityNobodyDesc",
+              "selected": false,
+              "value": "Nobody",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityConnections",
+              "description": "profileLinkedinVisibilityConnectionsDesc",
+              "selected": false,
+              "value": "Connections",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityEveryone",
+              "description": "profileLinkedinVisibilityEveryoneDesc",
+              "selected": true,
+              "value": "Everyone",
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinNetworkingNote",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinCheckRequired",
+          "helper": true
+        },
+        {
+          "type": "notice",
+          "key": "profileLinkedinRemoved"
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinSave",
+              "to": "linkedin-saving",
+              "disabled": true,
+              "busy": false
+            },
+            {
+              "key": "signupLinkedinSkip",
+              "action": "skip-linkedin"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Optional. Form → external Open/check → return own-profile confirmation → Save. Return/Yes only enables Save, not verification. No success tick or green state. Three equal radios, only dot selected. Failure restores old Everyone; source body HB-37r5. URL is fictional placeholder.",
+      "layout": "subpage",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "linkedin-confirm-return",
+      "group": "linkedin",
+      "title": "profileLinkedinConfirmTitle",
+      "blocks": [
+        {
+          "type": "fixture",
+          "text": "linkedin.com/in/…"
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinHelp"
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinOutsideAppNote"
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinNoCheck"
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinConfirmYes",
+              "to": "linkedin-confirmed"
+            },
+            {
+              "key": "profileLinkedinConfirmNo",
+              "to": "linkedin-unconfirmed"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Shown only after successful external opening and app return. Yes confirms ownership declaration only; next Save still required. Editing URL invalidates confirmation.",
+      "layout": "dialog"
+    },
+    {
+      "id": "linkedin-remove-confirm",
+      "group": "linkedin",
+      "title": "profileLinkedinRemoveConfirm",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "profileLinkedinRemoveBody"
+        },
+        {
+          "type": "text",
+          "key": "contactSeenNote"
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinRemove",
+              "to": "linkedin-remove-busy",
+              "primary": true,
+              "disabled": false,
+              "busy": false
+            },
+            {
+              "key": "cancel",
+              "to": "linkedin-stored",
+              "disabled": false
+            }
+          ]
+        }
+      ],
+      "notes": "Removal keeps seen-information warning. Failed removal keeps stored link. Acknowledge before Removed.",
+      "layout": "dialog",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "linkedin-remove-busy",
+      "group": "linkedin",
+      "title": "profileLinkedinRemoveConfirm",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "profileLinkedinRemoveBody"
+        },
+        {
+          "type": "text",
+          "key": "contactSeenNote"
+        },
+        {
+          "type": "notice",
+          "key": "profileLinkedinRemoving",
+          "busy": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinRemove",
+              "to": "linkedin-remove-busy",
+              "primary": true,
+              "disabled": true,
+              "busy": true
+            },
+            {
+              "key": "cancel",
+              "to": "linkedin-stored",
+              "disabled": true
+            }
+          ]
+        }
+      ],
+      "notes": "Removal keeps seen-information warning. Failed removal keeps stored link. Acknowledge before Removed.",
+      "layout": "dialog",
+      "ack": "linkedin-removed",
+      "reject": "linkedin-remove-failed"
+    },
+    {
+      "id": "linkedin-remove-failed",
+      "group": "linkedin",
+      "title": "profileLinkedinRemoveConfirm",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "profileLinkedinRemoveBody"
+        },
+        {
+          "type": "text",
+          "key": "contactSeenNote"
+        },
+        {
+          "type": "notice",
+          "key": "profileLinkedinRemoveFailed",
+          "error": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinRemove",
+              "to": "linkedin-remove-busy",
+              "primary": true,
+              "disabled": false,
+              "busy": false
+            },
+            {
+              "key": "cancel",
+              "to": "linkedin-stored",
+              "disabled": false
+            }
+          ]
+        }
+      ],
+      "notes": "Removal keeps seen-information warning. Failed removal keeps stored link. Acknowledge before Removed.",
+      "layout": "dialog",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "linkedin-connection",
+      "group": "linkedin",
+      "title": "navProfile",
+      "blocks": [
+        {
+          "type": "person",
+          "name": "Maya"
+        },
+        {
+          "type": "link",
+          "key": "profileLinkedin",
+          "icon": true,
+          "to": "linkedin-connection"
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinViewerNote",
+          "helper": true
+        }
+      ],
+      "notes": "Link plain text + generic external icon. Connections/chat profile can see according to visibility across communities. Before connection Networking only. Hidden/no link identical omission; no placeholder or community field. Viewer notice immediately below link."
+    },
+    {
+      "id": "linkedin-chat",
+      "group": "linkedin",
+      "title": "navProfile",
+      "blocks": [
+        {
+          "type": "person",
+          "name": "Maya"
+        },
+        {
+          "type": "link",
+          "key": "profileLinkedin",
+          "icon": true,
+          "to": "linkedin-chat"
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinViewerNote",
+          "helper": true
+        }
+      ],
+      "notes": "Link plain text + generic external icon. Connections/chat profile can see according to visibility across communities. Before connection Networking only. Hidden/no link identical omission; no placeholder or community field. Viewer notice immediately below link."
+    },
+    {
+      "id": "linkedin-networking-before",
+      "group": "linkedin",
+      "title": "navProfile",
+      "blocks": [
+        {
+          "type": "person",
+          "name": "Maya"
+        },
+        {
+          "type": "link",
+          "key": "profileLinkedin",
+          "icon": true,
+          "to": "linkedin-networking-before"
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinViewerNote",
+          "helper": true
+        }
+      ],
+      "notes": "Link plain text + generic external icon. Connections/chat profile can see according to visibility across communities. Before connection Networking only. Hidden/no link identical omission; no placeholder or community field. Viewer notice immediately below link."
+    },
+    {
+      "id": "linkedin-friendship-before",
+      "group": "linkedin",
+      "title": "navProfile",
+      "blocks": [
+        {
+          "type": "person",
+          "name": "Maya"
+        }
+      ],
+      "notes": "Link plain text + generic external icon. Connections/chat profile can see according to visibility across communities. Before connection Networking only. Hidden/no link identical omission; no placeholder or community field. Viewer notice immediately below link."
+    },
+    {
+      "id": "linkedin-hidden",
+      "group": "linkedin",
+      "title": "navProfile",
+      "blocks": [
+        {
+          "type": "person",
+          "name": "Maya"
+        }
+      ],
+      "notes": "Link plain text + generic external icon. Connections/chat profile can see according to visibility across communities. Before connection Networking only. Hidden/no link identical omission; no placeholder or community field. Viewer notice immediately below link."
+    },
+    {
+      "id": "linkedin-viewer-offline",
+      "group": "linkedin",
+      "title": "navProfile",
+      "blocks": [
+        {
+          "type": "person",
+          "name": "Maya"
+        },
+        {
+          "type": "link",
+          "key": "profileLinkedin",
+          "icon": true,
+          "to": "linkedin-viewer-offline"
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinViewerNote",
+          "helper": true
+        },
+        {
+          "type": "notice",
+          "key": "offline",
+          "error": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "checkInRetry",
+              "action": "retry-external"
+            }
+          ]
+        }
+      ],
+      "notes": "Link plain text + generic external icon. Connections/chat profile can see according to visibility across communities. Before connection Networking only. Hidden/no link identical omission; no placeholder or community field. Viewer notice immediately below link."
+    },
+    {
+      "id": "linkedin-viewer-failed",
+      "group": "linkedin",
+      "title": "navProfile",
+      "blocks": [
+        {
+          "type": "person",
+          "name": "Maya"
+        },
+        {
+          "type": "link",
+          "key": "profileLinkedin",
+          "icon": true,
+          "to": "linkedin-viewer-failed"
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinViewerNote",
+          "helper": true
+        },
+        {
+          "type": "notice",
+          "key": "linkOpenFailed",
+          "error": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "checkInRetry",
+              "action": "retry-external"
+            }
+          ]
+        }
+      ],
+      "notes": "Link plain text + generic external icon. Connections/chat profile can see according to visibility across communities. Before connection Networking only. Hidden/no link identical omission; no placeholder or community field. Viewer notice immediately below link."
+    }
+  ]
+}

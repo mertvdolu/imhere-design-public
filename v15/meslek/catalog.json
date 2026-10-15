@@ -1,0 +1,960 @@
+{
+  "theme": "2.3",
+  "states": [
+    {
+      "id": "occupation-empty",
+      "group": "meslek",
+      "title": "occupationStepTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "occupationStepBody"
+        },
+        {
+          "type": "text",
+          "key": "occupationStepBodyF",
+          "helper": true
+        },
+        {
+          "type": "field",
+          "key": "occupationSearchHint",
+          "value": "",
+          "inputType": "search",
+          "placeholder": "occupationSearchHint"
+        },
+        {
+          "type": "occupations",
+          "query": "",
+          "selected": "",
+          "expanded": "",
+          "disabled": false
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileSave",
+              "disabled": false,
+              "busy": false,
+              "to": "occupation-saving"
+            },
+            {
+              "key": "occupationSkip",
+              "action": "skip-job"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+      "layout": "onboarding",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "occupation-search",
+      "group": "meslek",
+      "title": "occupationStepTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "occupationStepBody"
+        },
+        {
+          "type": "text",
+          "key": "occupationStepBodyF",
+          "helper": true
+        },
+        {
+          "type": "field",
+          "key": "occupationSearchHint",
+          "value": "designer",
+          "inputType": "search",
+          "placeholder": "occupationSearchHint"
+        },
+        {
+          "type": "occupations",
+          "query": "designer",
+          "selected": "",
+          "expanded": "",
+          "disabled": false
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileSave",
+              "disabled": false,
+              "busy": false,
+              "to": "occupation-saving"
+            },
+            {
+              "key": "occupationSkip",
+              "action": "skip-job"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+      "layout": "onboarding",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "occupation-no-match",
+      "group": "meslek",
+      "title": "occupationStepTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "occupationStepBody"
+        },
+        {
+          "type": "text",
+          "key": "occupationStepBodyF",
+          "helper": true
+        },
+        {
+          "type": "field",
+          "key": "occupationSearchHint",
+          "value": "zzzzz",
+          "inputType": "search",
+          "placeholder": "occupationSearchHint"
+        },
+        {
+          "type": "text",
+          "key": "occupationNoMatch"
+        },
+        {
+          "type": "occupations",
+          "query": "none",
+          "otherOnly": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileSave",
+              "disabled": false,
+              "busy": false,
+              "to": "occupation-saving"
+            },
+            {
+              "key": "occupationSkip",
+              "action": "skip-job"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+      "layout": "onboarding",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "occupation-selected",
+      "group": "meslek",
+      "title": "occupationStepTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "occupationStepBody"
+        },
+        {
+          "type": "text",
+          "key": "occupationStepBodyF",
+          "helper": true
+        },
+        {
+          "type": "field",
+          "key": "occupationSearchHint",
+          "value": "",
+          "inputType": "search",
+          "placeholder": "occupationSearchHint"
+        },
+        {
+          "type": "occupations",
+          "query": "",
+          "selected": "software-engineer",
+          "expanded": "technology",
+          "disabled": false
+        },
+        {
+          "type": "switch",
+          "key": "showOccupation",
+          "checked": true,
+          "disabled": false,
+          "help": "occupationShowHelp"
+        },
+        {
+          "type": "text",
+          "key": "occupationNetworkingNote",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileSave",
+              "disabled": false,
+              "busy": false,
+              "to": "occupation-saving"
+            },
+            {
+              "key": "occupationSkip",
+              "action": "skip-job"
+            }
+          ],
+          "equal": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "occupationRemove",
+              "to": "occupation-removing"
+            }
+          ]
+        }
+      ],
+      "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+      "layout": "subpage",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "occupation-other",
+      "group": "meslek",
+      "title": "occupationStepTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "occupationStepBody"
+        },
+        {
+          "type": "text",
+          "key": "occupationStepBodyF",
+          "helper": true
+        },
+        {
+          "type": "field",
+          "key": "occupationSearchHint",
+          "value": "",
+          "inputType": "search",
+          "placeholder": "occupationSearchHint"
+        },
+        {
+          "type": "occupations",
+          "query": "",
+          "selected": "other-technology",
+          "expanded": "technology",
+          "disabled": false
+        },
+        {
+          "type": "field",
+          "key": "occupationOwnTitleLabel",
+          "en": "Creative technologist",
+          "tr": "Yaratıcı teknoloji uzmanı",
+          "help": "occupationOwnTitleHelp"
+        },
+        {
+          "type": "switch",
+          "key": "showOccupation",
+          "checked": true,
+          "disabled": false,
+          "help": "occupationShowHelp"
+        },
+        {
+          "type": "text",
+          "key": "occupationNetworkingNote",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileSave",
+              "disabled": false,
+              "busy": false,
+              "to": "occupation-saving"
+            },
+            {
+              "key": "occupationSkip",
+              "action": "skip-job"
+            }
+          ],
+          "equal": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "occupationRemove",
+              "to": "occupation-removing"
+            }
+          ]
+        }
+      ],
+      "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+      "layout": "subpage",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "occupation-hidden",
+      "group": "meslek",
+      "title": "occupationStepTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "occupationStepBody"
+        },
+        {
+          "type": "text",
+          "key": "occupationStepBodyF",
+          "helper": true
+        },
+        {
+          "type": "field",
+          "key": "occupationSearchHint",
+          "value": "",
+          "inputType": "search",
+          "placeholder": "occupationSearchHint"
+        },
+        {
+          "type": "occupations",
+          "query": "",
+          "selected": "software-engineer",
+          "expanded": "technology",
+          "disabled": false
+        },
+        {
+          "type": "switch",
+          "key": "showOccupation",
+          "checked": false,
+          "disabled": false,
+          "help": "occupationShowHelp"
+        },
+        {
+          "type": "text",
+          "key": "occupationNetworkingNote",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileSave",
+              "disabled": false,
+              "busy": false,
+              "to": "occupation-saving"
+            },
+            {
+              "key": "occupationSkip",
+              "action": "skip-job"
+            }
+          ],
+          "equal": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "occupationRemove",
+              "to": "occupation-removing"
+            }
+          ]
+        }
+      ],
+      "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+      "layout": "subpage",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "occupation-legacy",
+      "group": "meslek",
+      "title": "occupationStepTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "occupationStepBody"
+        },
+        {
+          "type": "text",
+          "key": "occupationStepBodyF",
+          "helper": true
+        },
+        {
+          "type": "fixture",
+          "en": "Product designer",
+          "tr": "Ürün tasarımcısı"
+        },
+        {
+          "type": "text",
+          "key": "occupationLegacyNote"
+        },
+        {
+          "type": "text",
+          "key": "occupationReplaceNote",
+          "helper": true
+        },
+        {
+          "type": "field",
+          "key": "occupationSearchHint",
+          "value": "",
+          "inputType": "search",
+          "placeholder": "occupationSearchHint"
+        },
+        {
+          "type": "occupations",
+          "query": "",
+          "selected": "",
+          "expanded": "",
+          "disabled": false
+        },
+        {
+          "type": "switch",
+          "key": "showOccupation",
+          "checked": true,
+          "disabled": false,
+          "help": "occupationShowHelp"
+        },
+        {
+          "type": "text",
+          "key": "occupationNetworkingNote",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileSave",
+              "disabled": false,
+              "busy": false,
+              "to": "occupation-saving"
+            },
+            {
+              "key": "occupationSkip",
+              "action": "skip-job"
+            }
+          ],
+          "equal": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "occupationRemove",
+              "to": "occupation-removing"
+            }
+          ]
+        }
+      ],
+      "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+      "layout": "subpage",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "occupation-replace",
+      "group": "meslek",
+      "title": "occupationStepTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "occupationStepBody"
+        },
+        {
+          "type": "text",
+          "key": "occupationStepBodyF",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "occupationReplaceNote"
+        },
+        {
+          "type": "field",
+          "key": "occupationSearchHint",
+          "value": "",
+          "inputType": "search",
+          "placeholder": "occupationSearchHint"
+        },
+        {
+          "type": "occupations",
+          "query": "",
+          "selected": "software-engineer",
+          "expanded": "technology",
+          "disabled": false
+        },
+        {
+          "type": "switch",
+          "key": "showOccupation",
+          "checked": true,
+          "disabled": false,
+          "help": "occupationShowHelp"
+        },
+        {
+          "type": "text",
+          "key": "occupationNetworkingNote",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileSave",
+              "disabled": false,
+              "busy": false,
+              "to": "occupation-saving"
+            },
+            {
+              "key": "occupationSkip",
+              "action": "skip-job"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+      "layout": "subpage",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "occupation-saving",
+      "group": "meslek",
+      "title": "occupationStepTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "occupationStepBody"
+        },
+        {
+          "type": "text",
+          "key": "occupationStepBodyF",
+          "helper": true
+        },
+        {
+          "type": "field",
+          "key": "occupationSearchHint",
+          "value": "",
+          "inputType": "search",
+          "placeholder": "occupationSearchHint"
+        },
+        {
+          "type": "occupations",
+          "query": "",
+          "selected": "software-engineer",
+          "expanded": "technology",
+          "disabled": true
+        },
+        {
+          "type": "switch",
+          "key": "showOccupation",
+          "checked": true,
+          "disabled": true,
+          "help": "occupationShowHelp"
+        },
+        {
+          "type": "text",
+          "key": "occupationNetworkingNote",
+          "helper": true
+        },
+        {
+          "type": "notice",
+          "key": "profileSaving",
+          "busy": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileSave",
+              "disabled": true,
+              "busy": true,
+              "to": "occupation-saving"
+            },
+            {
+              "key": "occupationSkip",
+              "action": "skip-job"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+      "layout": "subpage",
+      "ack": "occupation-saved",
+      "reject": "occupation-failed"
+    },
+    {
+      "id": "occupation-saved",
+      "group": "meslek",
+      "title": "occupationStepTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "occupationStepBody"
+        },
+        {
+          "type": "text",
+          "key": "occupationStepBodyF",
+          "helper": true
+        },
+        {
+          "type": "field",
+          "key": "occupationSearchHint",
+          "value": "",
+          "inputType": "search",
+          "placeholder": "occupationSearchHint"
+        },
+        {
+          "type": "occupations",
+          "query": "",
+          "selected": "software-engineer",
+          "expanded": "technology",
+          "disabled": false
+        },
+        {
+          "type": "switch",
+          "key": "showOccupation",
+          "checked": true,
+          "disabled": false,
+          "help": "occupationShowHelp"
+        },
+        {
+          "type": "text",
+          "key": "occupationNetworkingNote",
+          "helper": true
+        },
+        {
+          "type": "notice",
+          "key": "profileSaved"
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileSave",
+              "disabled": false,
+              "busy": false,
+              "to": "occupation-saving"
+            },
+            {
+              "key": "occupationSkip",
+              "action": "skip-job"
+            }
+          ],
+          "equal": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "occupationRemove",
+              "to": "occupation-removing"
+            }
+          ]
+        }
+      ],
+      "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+      "layout": "subpage",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "occupation-removed",
+      "group": "meslek",
+      "title": "occupationStepTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "occupationStepBody"
+        },
+        {
+          "type": "text",
+          "key": "occupationStepBodyF",
+          "helper": true
+        },
+        {
+          "type": "field",
+          "key": "occupationSearchHint",
+          "value": "",
+          "inputType": "search",
+          "placeholder": "occupationSearchHint"
+        },
+        {
+          "type": "occupations",
+          "query": "",
+          "selected": "",
+          "expanded": "",
+          "disabled": false
+        },
+        {
+          "type": "notice",
+          "key": "occupationRemoved"
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileSave",
+              "disabled": false,
+              "busy": false,
+              "to": "occupation-saving"
+            },
+            {
+              "key": "occupationSkip",
+              "action": "skip-job"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+      "layout": "subpage",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "occupation-failed",
+      "group": "meslek",
+      "title": "occupationStepTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "occupationStepBody"
+        },
+        {
+          "type": "text",
+          "key": "occupationStepBodyF",
+          "helper": true
+        },
+        {
+          "type": "field",
+          "key": "occupationSearchHint",
+          "value": "",
+          "inputType": "search",
+          "placeholder": "occupationSearchHint"
+        },
+        {
+          "type": "occupations",
+          "query": "",
+          "selected": "software-engineer",
+          "expanded": "technology",
+          "disabled": false
+        },
+        {
+          "type": "switch",
+          "key": "showOccupation",
+          "checked": true,
+          "disabled": false,
+          "help": "occupationShowHelp"
+        },
+        {
+          "type": "text",
+          "key": "occupationNetworkingNote",
+          "helper": true
+        },
+        {
+          "type": "notice",
+          "key": "profileSaveFailed",
+          "error": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileSave",
+              "disabled": false,
+              "busy": false,
+              "to": "occupation-saving"
+            },
+            {
+              "key": "occupationSkip",
+              "action": "skip-job"
+            }
+          ],
+          "equal": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "occupationRemove",
+              "to": "occupation-removing"
+            }
+          ]
+        }
+      ],
+      "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+      "layout": "subpage",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "occupation-catalog-failed",
+      "group": "meslek",
+      "title": "occupationStepTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "occupationStepBody"
+        },
+        {
+          "type": "text",
+          "key": "occupationStepBodyF",
+          "helper": true
+        },
+        {
+          "type": "field",
+          "key": "occupationSearchHint",
+          "value": "",
+          "inputType": "search",
+          "placeholder": "occupationSearchHint"
+        },
+        {
+          "type": "notice",
+          "key": "errorStateChanged",
+          "error": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "checkInRetry",
+              "to": "occupation-loading"
+            }
+          ]
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileSave",
+              "disabled": true,
+              "busy": false,
+              "to": "occupation-saving"
+            },
+            {
+              "key": "occupationSkip",
+              "action": "skip-job"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+      "layout": "subpage",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "occupation-loading",
+      "group": "meslek",
+      "title": "occupationStepTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "occupationStepBody"
+        },
+        {
+          "type": "text",
+          "key": "occupationStepBodyF",
+          "helper": true
+        },
+        {
+          "type": "field",
+          "key": "occupationSearchHint",
+          "value": "",
+          "inputType": "search",
+          "placeholder": "occupationSearchHint"
+        },
+        {
+          "type": "skeleton",
+          "key": "profileLoading"
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileSave",
+              "disabled": true,
+              "busy": false,
+              "to": "occupation-saving"
+            },
+            {
+              "key": "occupationSkip",
+              "action": "skip-job"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+      "layout": "onboarding",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "occupation-removing",
+      "group": "meslek",
+      "title": "occupationStepTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "occupationNetworkingNote"
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "occupationRemove",
+              "disabled": true,
+              "busy": true
+            }
+          ]
+        }
+      ],
+      "notes": "Pending remove; no removed status until server confirms. Failure returns selected old title.",
+      "ack": "occupation-removed",
+      "reject": "occupation-failed"
+    },
+    {
+      "id": "occupation-profile-networking",
+      "group": "meslek",
+      "title": "navProfile",
+      "blocks": [
+        {
+          "type": "person",
+          "name": "Maya",
+          "blocks": [
+            {
+              "type": "fixture",
+              "en": "Software engineer",
+              "tr": "Yazılım mühendisi"
+            }
+          ]
+        }
+      ],
+      "notes": "Other profile: community never displayed. Occupation only in Networking, omitted entirely in Friendship; no blank line. Fixture uses catalogue title."
+    },
+    {
+      "id": "occupation-profile-friendship",
+      "group": "meslek",
+      "title": "navProfile",
+      "blocks": [
+        {
+          "type": "person",
+          "name": "Maya",
+          "blocks": []
+        }
+      ],
+      "notes": "Other profile: community never displayed. Occupation only in Networking, omitted entirely in Friendship; no blank line. Fixture uses catalogue title."
+    }
+  ]
+}

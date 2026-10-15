@@ -8,13 +8,9 @@
       "source": "v2.3 release8-approved-patch",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "settings-switch-confirm",
-        "settings-switch-checkin",
-        "settings-switch-going",
-        "settings-join-confirm",
-        "settings-leave-inactive",
-        "settings-leave-active",
-        "settings-leave-active-going"
+        "linkedin-remove-confirm",
+        "linkedin-remove-busy",
+        "linkedin-remove-failed"
       ]
     },
     {
@@ -24,10 +20,8 @@
       "source": "v2.3 l10n/app_*.arb",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "nearby-failed",
-        "nearby-offline",
-        "map-failed",
-        "map-offline"
+        "linkedin-viewer-offline",
+        "linkedin-viewer-failed"
       ]
     },
     {
@@ -552,6 +546,18 @@
       ]
     },
     {
+      "key": "contactSeenNote",
+      "en": "Details already seen or saved can’t be recalled.",
+      "tr": "Daha önce görülmüş veya kaydedilmiş bilgiler geri alınamaz.",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-remove-confirm",
+        "linkedin-remove-busy",
+        "linkedin-remove-failed"
+      ]
+    },
+    {
       "key": "errorGenderRequired",
       "en": "Please choose an option",
       "tr": "Lütfen bir seçim yap.",
@@ -559,6 +565,16 @@
       "status": "APPROVED — source / existing design reference",
       "screens": [
         "migration-community"
+      ]
+    },
+    {
+      "key": "errorStateChanged",
+      "en": "Something changed. Please try again.",
+      "tr": "Bir şey değişti. Lütfen tekrar dene.",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-catalog-failed"
       ]
     },
     {
@@ -579,6 +595,17 @@
       "status": "EXISTING APPLICATION COPY — reuse",
       "screens": [
         "events-community"
+      ]
+    },
+    {
+      "key": "linkOpenFailed",
+      "en": "The link couldn’t be opened. Try again.",
+      "tr": "Bağlantı açılamadı. Tekrar dene.",
+      "source": "HB-20 final §3 line 74; reused by HB-37 §7",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-open-failed",
+        "linkedin-viewer-failed"
       ]
     },
     {
@@ -700,7 +727,16 @@
       "en": "Profile",
       "tr": "Profil",
       "source": "v2.3 l10n/app_*.arb",
-      "status": "APPROVED — source / existing design reference"
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-connection",
+        "linkedin-chat",
+        "linkedin-networking-before",
+        "linkedin-friendship-before",
+        "linkedin-hidden",
+        "linkedin-viewer-offline",
+        "linkedin-viewer-failed"
+      ]
     },
     {
       "key": "nearbyEmpty",
@@ -771,14 +807,634 @@
       ]
     },
     {
+      "key": "occupationLegacyNote",
+      "en": "You wrote this in an earlier version. It’s shown on your profile but isn’t used in filters.",
+      "tr": "Bunu eski bir sürümde yazdın. Profilinde görünür ama filtrelerde kullanılmaz.",
+      "source": "HB-37 r5 line 93",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-legacy"
+      ]
+    },
+    {
+      "key": "occupationNetworkingNote",
+      "en": "Shown only in Networking.",
+      "tr": "Yalnız Networking’de görünür.",
+      "source": "HB-37 r5 line 260",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-selected",
+        "occupation-other",
+        "occupation-hidden",
+        "occupation-legacy",
+        "occupation-replace",
+        "occupation-saving",
+        "occupation-saved",
+        "occupation-failed",
+        "occupation-removing"
+      ]
+    },
+    {
+      "key": "occupationNoMatch",
+      "en": "No match. Choose “Other” in the closest group.",
+      "tr": "Eşleşme yok. En yakın gruptaki “Diğer”i seç.",
+      "source": "HB-37 r5 line 85",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-no-match"
+      ]
+    },
+    {
+      "key": "occupationOther",
+      "en": "Other — {group}",
+      "tr": "Diğer — {group}",
+      "source": "HB-37 r5 line 86",
+      "status": "APPROVED — source / existing design reference"
+    },
+    {
+      "key": "occupationOwnTitleHelp",
+      "en": "Shown only on your profile. It isn’t used in filters.",
+      "tr": "Yalnız profilinde görünür. Filtrelerde kullanılmaz.",
+      "source": "HB-37 r5 line 88",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-other"
+      ]
+    },
+    {
+      "key": "occupationOwnTitleLabel",
+      "en": "Your job title (optional)",
+      "tr": "Unvanın (isteğe bağlı)",
+      "source": "HB-37 r5 line 87",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-other"
+      ]
+    },
+    {
+      "key": "occupationRemove",
+      "en": "Remove job title",
+      "tr": "Mesleği kaldır",
+      "source": "HB-37 r5 line 90",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-selected",
+        "occupation-other",
+        "occupation-hidden",
+        "occupation-legacy",
+        "occupation-saved",
+        "occupation-removed",
+        "occupation-failed",
+        "occupation-removing"
+      ]
+    },
+    {
+      "key": "occupationRemoved",
+      "en": "Your job title has been removed.",
+      "tr": "Mesleğin kaldırıldı.",
+      "source": "HB-37 r5 line 91",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-removed"
+      ]
+    },
+    {
+      "key": "occupationReplaceNote",
+      "en": "Choosing from the list replaces what you wrote before.",
+      "tr": "Listeden seçmek, daha önce yazdığının yerini alır.",
+      "source": "HB-37 r5 line 92",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-legacy",
+        "occupation-replace"
+      ]
+    },
+    {
+      "key": "occupationSearchHint",
+      "en": "Search job titles",
+      "tr": "Meslek ara",
+      "source": "HB-37 r5 line 84",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-empty",
+        "occupation-search",
+        "occupation-no-match",
+        "occupation-selected",
+        "occupation-other",
+        "occupation-hidden",
+        "occupation-legacy",
+        "occupation-replace",
+        "occupation-saving",
+        "occupation-saved",
+        "occupation-removed",
+        "occupation-failed",
+        "occupation-catalog-failed",
+        "occupation-loading"
+      ]
+    },
+    {
+      "key": "occupationShowHelp",
+      "en": "When it’s off, your job title isn’t shown on your profile or counted in filters. It stays saved.",
+      "tr": "Kapalıyken mesleğin profilinde görünmez ve filtrelerde sayılmaz. Kayıtlı kalır.",
+      "source": "HB-37 r5 line 89",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-selected",
+        "occupation-other",
+        "occupation-hidden",
+        "occupation-legacy",
+        "occupation-replace",
+        "occupation-saving",
+        "occupation-saved",
+        "occupation-failed"
+      ]
+    },
+    {
+      "key": "occupationSkip",
+      "en": "Skip",
+      "tr": "Atla",
+      "source": "HB-37 r5 line 94",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-empty",
+        "occupation-search",
+        "occupation-no-match",
+        "occupation-selected",
+        "occupation-other",
+        "occupation-hidden",
+        "occupation-legacy",
+        "occupation-replace",
+        "occupation-saving",
+        "occupation-saved",
+        "occupation-removed",
+        "occupation-failed",
+        "occupation-catalog-failed",
+        "occupation-loading"
+      ]
+    },
+    {
+      "key": "occupationStepBody",
+      "en": "Optional. Choose from the list. When you choose a job title, it’s shown on your profile, and in Networking it counts in Nearby filters. You can hide or remove it at any time.",
+      "tr": "İsteğe bağlı. Listeden seç. Bir meslek seçtiğinde profilinde görünür ve Networking’de Yakındakiler filtrelerinde sayılır. İstediğin zaman gizleyebilir ya da kaldırabilirsin.",
+      "source": "HB-37 r5 line 82",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-empty",
+        "occupation-search",
+        "occupation-no-match",
+        "occupation-selected",
+        "occupation-other",
+        "occupation-hidden",
+        "occupation-legacy",
+        "occupation-replace",
+        "occupation-saving",
+        "occupation-saved",
+        "occupation-removed",
+        "occupation-failed",
+        "occupation-catalog-failed",
+        "occupation-loading"
+      ]
+    },
+    {
+      "key": "occupationStepBodyF",
+      "en": "It isn’t shown in Friendship.",
+      "tr": "Arkadaşlık’ta gösterilmez.",
+      "source": "HB-37 r5 line 83",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-empty",
+        "occupation-search",
+        "occupation-no-match",
+        "occupation-selected",
+        "occupation-other",
+        "occupation-hidden",
+        "occupation-legacy",
+        "occupation-replace",
+        "occupation-saving",
+        "occupation-saved",
+        "occupation-removed",
+        "occupation-failed",
+        "occupation-catalog-failed",
+        "occupation-loading"
+      ]
+    },
+    {
+      "key": "occupationStepTitle",
+      "en": "What do you do?",
+      "tr": "Ne iş yapıyorsun?",
+      "source": "HB-37 r5 line 81",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-empty",
+        "occupation-search",
+        "occupation-no-match",
+        "occupation-selected",
+        "occupation-other",
+        "occupation-hidden",
+        "occupation-legacy",
+        "occupation-replace",
+        "occupation-saving",
+        "occupation-saved",
+        "occupation-removed",
+        "occupation-failed",
+        "occupation-catalog-failed",
+        "occupation-loading",
+        "occupation-removing"
+      ]
+    },
+    {
       "key": "offline",
       "en": "You’re offline.",
       "tr": "İnternet bağlantısı yok.",
       "source": "v2.3 release8-approved-patch",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "migration-linkedin-offline",
-        "migration-offline"
+        "linkedin-offline",
+        "linkedin-viewer-offline"
+      ]
+    },
+    {
+      "key": "profileLinkedin",
+      "en": "LinkedIn",
+      "tr": "LinkedIn",
+      "source": "HB-20 final §3 line 60; reused by HB-37 §7",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-empty",
+        "linkedin-invalid",
+        "linkedin-unconfirmed",
+        "linkedin-opening",
+        "linkedin-confirmed",
+        "linkedin-nobody",
+        "linkedin-connections",
+        "linkedin-saving",
+        "linkedin-saved",
+        "linkedin-save-failed",
+        "linkedin-stored",
+        "linkedin-offline",
+        "linkedin-open-failed",
+        "linkedin-paused",
+        "linkedin-removed",
+        "linkedin-confirm-return",
+        "linkedin-remove-confirm",
+        "linkedin-remove-busy",
+        "linkedin-remove-failed",
+        "linkedin-connection",
+        "linkedin-chat",
+        "linkedin-networking-before",
+        "linkedin-viewer-offline",
+        "linkedin-viewer-failed"
+      ]
+    },
+    {
+      "key": "profileLinkedinCheckRequired",
+      "en": "Before saving, open the link and confirm it’s your profile.",
+      "tr": "Kaydetmeden önce bağlantıyı aç ve senin profilin olduğunu onayla.",
+      "source": "HB-20 final §3 line 67; reused by HB-37 §7",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-empty",
+        "linkedin-invalid",
+        "linkedin-unconfirmed",
+        "linkedin-opening",
+        "linkedin-offline",
+        "linkedin-open-failed",
+        "linkedin-removed"
+      ]
+    },
+    {
+      "key": "profileLinkedinConfirmNo",
+      "en": "No",
+      "tr": "Hayır",
+      "source": "HB-20 final §3 line 70; reused by HB-37 §7",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-confirm-return"
+      ]
+    },
+    {
+      "key": "profileLinkedinConfirmTitle",
+      "en": "Is this your LinkedIn profile?",
+      "tr": "Bu senin LinkedIn profilin mi?",
+      "source": "HB-20 final §3 line 68; reused by HB-37 §7",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-confirm-return"
+      ]
+    },
+    {
+      "key": "profileLinkedinConfirmYes",
+      "en": "Yes, it’s mine",
+      "tr": "Evet, benim",
+      "source": "HB-20 final §3 line 69; reused by HB-37 §7",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-confirm-return"
+      ]
+    },
+    {
+      "key": "profileLinkedinFieldLabel",
+      "en": "Your LinkedIn profile link",
+      "tr": "LinkedIn profil bağlantın",
+      "source": "HB-20 final §3 line 61; reused by HB-37 §7",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-empty",
+        "linkedin-invalid",
+        "linkedin-unconfirmed",
+        "linkedin-opening",
+        "linkedin-confirmed",
+        "linkedin-nobody",
+        "linkedin-connections",
+        "linkedin-saving",
+        "linkedin-saved",
+        "linkedin-save-failed",
+        "linkedin-stored",
+        "linkedin-offline",
+        "linkedin-open-failed",
+        "linkedin-paused",
+        "linkedin-removed"
+      ]
+    },
+    {
+      "key": "profileLinkedinHelp",
+      "en": "Optional. You choose below who can see and open this link: everyone, only your connections, or no one. People may already have seen it before you change this.",
+      "tr": "İsteğe bağlı. Bu bağlantıyı kimin görüp açabileceğini aşağıdan sen seçersin: herkes, yalnız bağlantıların ya da kimse. Sen bunu değiştirmeden önce kişiler onu görmüş olabilir.",
+      "source": "HB-37 r5 line 133",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-stored",
+        "linkedin-paused",
+        "linkedin-removed",
+        "linkedin-confirm-return"
+      ]
+    },
+    {
+      "key": "profileLinkedinHint",
+      "en": "linkedin.com/in/…",
+      "tr": "linkedin.com/in/…",
+      "source": "HB-20 final §3 line 62; reused by HB-37 §7",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-empty",
+        "linkedin-invalid",
+        "linkedin-unconfirmed",
+        "linkedin-opening",
+        "linkedin-confirmed",
+        "linkedin-nobody",
+        "linkedin-connections",
+        "linkedin-saving",
+        "linkedin-saved",
+        "linkedin-save-failed",
+        "linkedin-stored",
+        "linkedin-offline",
+        "linkedin-open-failed",
+        "linkedin-paused",
+        "linkedin-removed"
+      ]
+    },
+    {
+      "key": "profileLinkedinInvalid",
+      "en": "Check the link. It should look like linkedin.com/in/… and contain only Latin letters, numbers and hyphens after /in/.",
+      "tr": "Bağlantıyı kontrol et. linkedin.com/in/… biçiminde olmalı; /in/ sonrasında yalnız Latin harfleri, rakam ve tire bulunmalı.",
+      "source": "HB-20 final §3 line 63; reused by HB-37 §7",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-invalid"
+      ]
+    },
+    {
+      "key": "profileLinkedinNetworkingNote",
+      "en": "Before you connect, people see it only in Networking.",
+      "tr": "Bağlantı kurmadan önce kişiler onu yalnız Networking’de görür.",
+      "source": "HB-37 r5 line 261",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-stored",
+        "linkedin-paused",
+        "linkedin-removed"
+      ]
+    },
+    {
+      "key": "profileLinkedinNoCheck",
+      "en": "We don’t read your LinkedIn page or check whose profile it is. Only add your own profile. If your LinkedIn address changes, update it here too. You can remove it at any time.",
+      "tr": "LinkedIn sayfanı okumuyoruz ve profilin kime ait olduğunu kontrol etmiyoruz. Yalnız kendi profilini ekle. LinkedIn adresin değişirse burada da güncelle. İstediğin zaman kaldırabilirsin.",
+      "source": "HB-20 final §3 line 65; reused by HB-37 §7",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-empty",
+        "linkedin-invalid",
+        "linkedin-unconfirmed",
+        "linkedin-opening",
+        "linkedin-confirmed",
+        "linkedin-nobody",
+        "linkedin-connections",
+        "linkedin-saving",
+        "linkedin-saved",
+        "linkedin-save-failed",
+        "linkedin-stored",
+        "linkedin-offline",
+        "linkedin-open-failed",
+        "linkedin-paused",
+        "linkedin-removed",
+        "linkedin-confirm-return"
+      ]
+    },
+    {
+      "key": "profileLinkedinOpenCheck",
+      "en": "Open and check",
+      "tr": "Aç ve kontrol et",
+      "source": "HB-20 final §3 line 66; reused by HB-37 §7",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-empty",
+        "linkedin-invalid",
+        "linkedin-unconfirmed",
+        "linkedin-opening",
+        "linkedin-confirmed",
+        "linkedin-nobody",
+        "linkedin-connections",
+        "linkedin-saving",
+        "linkedin-saved",
+        "linkedin-save-failed",
+        "linkedin-stored",
+        "linkedin-offline",
+        "linkedin-open-failed",
+        "linkedin-paused",
+        "linkedin-removed"
+      ]
+    },
+    {
+      "key": "profileLinkedinOpening",
+      "en": "Opening link…",
+      "tr": "Bağlantı açılıyor…",
+      "source": "HB-20 final §3 line 86; reused by HB-37 §7",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-opening"
+      ]
+    },
+    {
+      "key": "profileLinkedinOutsideAppNote",
+      "en": "Your LinkedIn page may show your full name and where you work. Details you hide in the app may also be visible on your LinkedIn page. Blocking someone in the app doesn’t block them on LinkedIn.",
+      "tr": "LinkedIn sayfan tam adını ve çalıştığın yeri gösterebilir. Uygulamada gizlediğin bilgiler de LinkedIn sayfanda görünebilir. Uygulamadaki engelleme LinkedIn’e uzanmaz.",
+      "source": "HB-20 final §3 line 75; reused by HB-37 §7",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-empty",
+        "linkedin-invalid",
+        "linkedin-unconfirmed",
+        "linkedin-opening",
+        "linkedin-confirmed",
+        "linkedin-nobody",
+        "linkedin-connections",
+        "linkedin-saving",
+        "linkedin-saved",
+        "linkedin-save-failed",
+        "linkedin-stored",
+        "linkedin-offline",
+        "linkedin-open-failed",
+        "linkedin-paused",
+        "linkedin-removed",
+        "linkedin-confirm-return"
+      ]
+    },
+    {
+      "key": "profileLinkedinPausedNote",
+      "en": "LinkedIn links aren’t shown to others at the moment. If you keep yours saved, it will be shown again as you’ve set when this changes.",
+      "tr": "LinkedIn bağlantıları şu an başkalarına gösterilmiyor. Seninkini kayıtlı tutarsan bu durum değişince seçtiğin ayara göre yeniden görünür.",
+      "source": "HB-37 r5 line 134",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-paused"
+      ]
+    },
+    {
+      "key": "profileLinkedinRemove",
+      "en": "Remove link",
+      "tr": "Bağlantıyı kaldır",
+      "source": "HB-20 final §3 line 71; reused by HB-37 §7",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-saved",
+        "linkedin-stored",
+        "linkedin-paused",
+        "linkedin-removed",
+        "linkedin-remove-confirm",
+        "linkedin-remove-busy",
+        "linkedin-remove-failed"
+      ]
+    },
+    {
+      "key": "profileLinkedinRemoveBody",
+      "en": "It will no longer appear on your profile.",
+      "tr": "Artık profilinde görünmez.",
+      "source": "HB-20 final §3 line 80; reused by HB-37 §7",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-remove-confirm",
+        "linkedin-remove-busy",
+        "linkedin-remove-failed"
+      ]
+    },
+    {
+      "key": "profileLinkedinRemoveConfirm",
+      "en": "Remove your LinkedIn link?",
+      "tr": "LinkedIn bağlantın kaldırılsın mı?",
+      "source": "HB-20 final §3 line 79; reused by HB-37 §7",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-remove-confirm",
+        "linkedin-remove-busy",
+        "linkedin-remove-failed"
+      ]
+    },
+    {
+      "key": "profileLinkedinRemoveFailed",
+      "en": "Your link couldn’t be removed. Try again.",
+      "tr": "Bağlantın kaldırılamadı. Tekrar dene.",
+      "source": "HB-20 final §3 line 89; reused by HB-37 §7",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-remove-failed"
+      ]
+    },
+    {
+      "key": "profileLinkedinRemoved",
+      "en": "Your LinkedIn link has been removed.",
+      "tr": "LinkedIn bağlantın kaldırıldı.",
+      "source": "HB-20 final §3 line 81; reused by HB-37 §7",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-removed"
+      ]
+    },
+    {
+      "key": "profileLinkedinRemoving",
+      "en": "Removing link…",
+      "tr": "Bağlantı kaldırılıyor…",
+      "source": "HB-20 final §3 line 88; reused by HB-37 §7",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-remove-busy"
+      ]
+    },
+    {
+      "key": "profileLinkedinSave",
+      "en": "Save link",
+      "tr": "Bağlantıyı kaydet",
+      "source": "HB-20 final §3 line 82; reused by HB-37 §7",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-empty",
+        "linkedin-invalid",
+        "linkedin-unconfirmed",
+        "linkedin-opening",
+        "linkedin-confirmed",
+        "linkedin-nobody",
+        "linkedin-connections",
+        "linkedin-saving",
+        "linkedin-saved",
+        "linkedin-save-failed",
+        "linkedin-stored",
+        "linkedin-offline",
+        "linkedin-open-failed",
+        "linkedin-paused",
+        "linkedin-removed"
+      ]
+    },
+    {
+      "key": "profileLinkedinSaved",
+      "en": "Your LinkedIn link has been saved.",
+      "tr": "LinkedIn bağlantın kaydedildi.",
+      "source": "HB-20 final §3 line 83; reused by HB-37 §7",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-saved"
+      ]
+    },
+    {
+      "key": "profileLinkedinSaving",
+      "en": "Saving link…",
+      "tr": "Bağlantı kaydediliyor…",
+      "source": "HB-20 final §3 line 87; reused by HB-37 §7",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-saving"
+      ]
+    },
+    {
+      "key": "profileLinkedinViewerNote",
+      "en": "If your LinkedIn settings allow it, this person may see on LinkedIn that you viewed their profile.",
+      "tr": "LinkedIn ayarların izin veriyorsa bu kişi, profiline baktığını LinkedIn’de görebilir.",
+      "source": "HB-20 final §3 line 76; reused by HB-37 §7",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-connection",
+        "linkedin-chat",
+        "linkedin-networking-before",
+        "linkedin-viewer-offline",
+        "linkedin-viewer-failed"
       ]
     },
     {
@@ -788,12 +1444,21 @@
       "source": "HB-37 r5 line 118",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "migration-linkedin-everyone",
-        "migration-linkedin-connections",
-        "migration-linkedin-nobody",
-        "migration-linkedin-saving",
-        "migration-linkedin-failed",
-        "migration-linkedin-offline"
+        "linkedin-empty",
+        "linkedin-invalid",
+        "linkedin-unconfirmed",
+        "linkedin-opening",
+        "linkedin-confirmed",
+        "linkedin-nobody",
+        "linkedin-connections",
+        "linkedin-saving",
+        "linkedin-saved",
+        "linkedin-save-failed",
+        "linkedin-stored",
+        "linkedin-offline",
+        "linkedin-open-failed",
+        "linkedin-paused",
+        "linkedin-removed"
       ]
     },
     {
@@ -803,12 +1468,42 @@
       "source": "HB-37 r5 line 119",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "migration-linkedin-everyone",
-        "migration-linkedin-connections",
-        "migration-linkedin-nobody",
-        "migration-linkedin-saving",
-        "migration-linkedin-failed",
-        "migration-linkedin-offline"
+        "linkedin-empty",
+        "linkedin-invalid",
+        "linkedin-unconfirmed",
+        "linkedin-opening",
+        "linkedin-confirmed",
+        "linkedin-nobody",
+        "linkedin-connections",
+        "linkedin-saving",
+        "linkedin-saved",
+        "linkedin-save-failed",
+        "linkedin-stored",
+        "linkedin-offline",
+        "linkedin-open-failed",
+        "linkedin-paused",
+        "linkedin-removed"
+      ]
+    },
+    {
+      "key": "profileLinkedinVisibilityDefaultNote",
+      "en": "It starts as Everyone. You can change this at any time.",
+      "tr": "Başlangıçta Herkes seçili. Bunu istediğin zaman değiştirebilirsin.",
+      "source": "HB-37 r5 line 122",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-empty",
+        "linkedin-invalid",
+        "linkedin-unconfirmed",
+        "linkedin-opening",
+        "linkedin-confirmed",
+        "linkedin-nobody",
+        "linkedin-connections",
+        "linkedin-saving",
+        "linkedin-saved",
+        "linkedin-save-failed",
+        "linkedin-offline",
+        "linkedin-open-failed"
       ]
     },
     {
@@ -818,12 +1513,21 @@
       "source": "HB-37 r5 line 120",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "migration-linkedin-everyone",
-        "migration-linkedin-connections",
-        "migration-linkedin-nobody",
-        "migration-linkedin-saving",
-        "migration-linkedin-failed",
-        "migration-linkedin-offline"
+        "linkedin-empty",
+        "linkedin-invalid",
+        "linkedin-unconfirmed",
+        "linkedin-opening",
+        "linkedin-confirmed",
+        "linkedin-nobody",
+        "linkedin-connections",
+        "linkedin-saving",
+        "linkedin-saved",
+        "linkedin-save-failed",
+        "linkedin-stored",
+        "linkedin-offline",
+        "linkedin-open-failed",
+        "linkedin-paused",
+        "linkedin-removed"
       ]
     },
     {
@@ -833,12 +1537,21 @@
       "source": "HB-37 r5 §14.1 FINAL",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "migration-linkedin-everyone",
-        "migration-linkedin-connections",
-        "migration-linkedin-nobody",
-        "migration-linkedin-saving",
-        "migration-linkedin-failed",
-        "migration-linkedin-offline"
+        "linkedin-empty",
+        "linkedin-invalid",
+        "linkedin-unconfirmed",
+        "linkedin-opening",
+        "linkedin-confirmed",
+        "linkedin-nobody",
+        "linkedin-connections",
+        "linkedin-saving",
+        "linkedin-saved",
+        "linkedin-save-failed",
+        "linkedin-stored",
+        "linkedin-offline",
+        "linkedin-open-failed",
+        "linkedin-paused",
+        "linkedin-removed"
       ]
     },
     {
@@ -848,12 +1561,21 @@
       "source": "HB-37 r5 line 116",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "migration-linkedin-everyone",
-        "migration-linkedin-connections",
-        "migration-linkedin-nobody",
-        "migration-linkedin-saving",
-        "migration-linkedin-failed",
-        "migration-linkedin-offline"
+        "linkedin-empty",
+        "linkedin-invalid",
+        "linkedin-unconfirmed",
+        "linkedin-opening",
+        "linkedin-confirmed",
+        "linkedin-nobody",
+        "linkedin-connections",
+        "linkedin-saving",
+        "linkedin-saved",
+        "linkedin-save-failed",
+        "linkedin-stored",
+        "linkedin-offline",
+        "linkedin-open-failed",
+        "linkedin-paused",
+        "linkedin-removed"
       ]
     },
     {
@@ -863,12 +1585,21 @@
       "source": "HB-37 r5 line 117",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "migration-linkedin-everyone",
-        "migration-linkedin-connections",
-        "migration-linkedin-nobody",
-        "migration-linkedin-saving",
-        "migration-linkedin-failed",
-        "migration-linkedin-offline"
+        "linkedin-empty",
+        "linkedin-invalid",
+        "linkedin-unconfirmed",
+        "linkedin-opening",
+        "linkedin-confirmed",
+        "linkedin-nobody",
+        "linkedin-connections",
+        "linkedin-saving",
+        "linkedin-saved",
+        "linkedin-save-failed",
+        "linkedin-stored",
+        "linkedin-offline",
+        "linkedin-open-failed",
+        "linkedin-paused",
+        "linkedin-removed"
       ]
     },
     {
@@ -878,7 +1609,7 @@
       "source": "HB-37 r5 line 124",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "migration-linkedin-failed"
+        "linkedin-save-failed"
       ]
     },
     {
@@ -888,12 +1619,167 @@
       "source": "HB-37 r5 line 115",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "migration-linkedin-everyone",
-        "migration-linkedin-connections",
-        "migration-linkedin-nobody",
-        "migration-linkedin-saving",
-        "migration-linkedin-failed",
-        "migration-linkedin-offline"
+        "linkedin-empty",
+        "linkedin-invalid",
+        "linkedin-unconfirmed",
+        "linkedin-opening",
+        "linkedin-confirmed",
+        "linkedin-nobody",
+        "linkedin-connections",
+        "linkedin-saving",
+        "linkedin-saved",
+        "linkedin-save-failed",
+        "linkedin-stored",
+        "linkedin-offline",
+        "linkedin-open-failed",
+        "linkedin-paused",
+        "linkedin-removed"
+      ]
+    },
+    {
+      "key": "profileLoading",
+      "en": "Loading the profile…",
+      "tr": "Profil yükleniyor…",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-loading"
+      ]
+    },
+    {
+      "key": "profileSave",
+      "en": "Save my profile",
+      "tr": "Profilimi kaydet",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-empty",
+        "occupation-search",
+        "occupation-no-match",
+        "occupation-selected",
+        "occupation-other",
+        "occupation-hidden",
+        "occupation-legacy",
+        "occupation-replace",
+        "occupation-saving",
+        "occupation-saved",
+        "occupation-removed",
+        "occupation-failed",
+        "occupation-catalog-failed",
+        "occupation-loading"
+      ]
+    },
+    {
+      "key": "profileSaveFailed",
+      "en": "Your profile couldn’t be saved. Check your details and try again.",
+      "tr": "Profil kaydedilemedi. Bilgilerini kontrol edip tekrar deneyebilirsin.",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-failed"
+      ]
+    },
+    {
+      "key": "profileSaved",
+      "en": "Profile saved",
+      "tr": "Profil kaydedildi.",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-saved"
+      ]
+    },
+    {
+      "key": "profileSaving",
+      "en": "Saving your profile…",
+      "tr": "Profilin kaydediliyor…",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-saving"
+      ]
+    },
+    {
+      "key": "showOccupation",
+      "en": "Show my job title",
+      "tr": "Mesleğim görünsün",
+      "source": "HB-37 r5 §6",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-selected",
+        "occupation-other",
+        "occupation-hidden",
+        "occupation-legacy",
+        "occupation-replace",
+        "occupation-saving",
+        "occupation-saved",
+        "occupation-failed"
+      ]
+    },
+    {
+      "key": "signupLinkedinBody",
+      "en": "Optional. You choose who can see it: everyone, only your connections, or no one. It starts as Everyone, so in Networking, people who open your profile in Nearby can see and open it, and you’re counted in the LinkedIn filter. You can change this or remove it at any time.",
+      "tr": "İsteğe bağlı. Kimin göreceğini sen seçersin: herkes, yalnız bağlantıların ya da kimse. Başlangıçta Herkes seçili; yani Networking’de Yakındakiler’de profilini açanlar onu görebilir ve açabilir, LinkedIn filtresinde de sayılırsın. Bunu ya da bağlantıyı istediğin zaman değiştirebilir veya kaldırabilirsin.",
+      "source": "HB-37 r5 §14.1 FINAL",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-empty",
+        "linkedin-invalid",
+        "linkedin-unconfirmed",
+        "linkedin-opening",
+        "linkedin-confirmed",
+        "linkedin-nobody",
+        "linkedin-connections",
+        "linkedin-saving",
+        "linkedin-saved",
+        "linkedin-save-failed",
+        "linkedin-offline",
+        "linkedin-open-failed"
+      ]
+    },
+    {
+      "key": "signupLinkedinSkip",
+      "en": "Skip",
+      "tr": "Atla",
+      "source": "HB-37 r5 line 110",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-empty",
+        "linkedin-invalid",
+        "linkedin-unconfirmed",
+        "linkedin-opening",
+        "linkedin-confirmed",
+        "linkedin-nobody",
+        "linkedin-connections",
+        "linkedin-saving",
+        "linkedin-saved",
+        "linkedin-save-failed",
+        "linkedin-stored",
+        "linkedin-offline",
+        "linkedin-open-failed",
+        "linkedin-paused",
+        "linkedin-removed"
+      ]
+    },
+    {
+      "key": "signupLinkedinTitle",
+      "en": "Add your LinkedIn",
+      "tr": "LinkedIn’ini ekle",
+      "source": "HB-37 r5 line 108",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-empty",
+        "linkedin-invalid",
+        "linkedin-unconfirmed",
+        "linkedin-opening",
+        "linkedin-confirmed",
+        "linkedin-nobody",
+        "linkedin-connections",
+        "linkedin-saving",
+        "linkedin-saved",
+        "linkedin-save-failed",
+        "linkedin-offline",
+        "linkedin-open-failed"
       ]
     },
     {

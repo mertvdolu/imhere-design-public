@@ -7,6 +7,8 @@ APPROVED COPY — HB-37 r5 + existing approved references. Dosya adı proposed t
 - [gecis](gecis/COPY-REVIEW.md)
 - [ayarlar-topluluk](ayarlar-topluluk/COPY-REVIEW.md)
 - [secici](secici/COPY-REVIEW.md)
+- [meslek](meslek/COPY-REVIEW.md)
+- [linkedin](linkedin/COPY-REVIEW.md)
 
 ## ÖNERİ
 

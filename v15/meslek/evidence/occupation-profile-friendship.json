@@ -1,0 +1,242 @@
+[
+  {
+    "clippedText": [],
+    "contentHeight": 724,
+    "fonts": "loaded",
+    "fullNeeded": false,
+    "h1": 1,
+    "height": 844,
+    "horizontalOverflow": 0,
+    "keys": [
+      "navProfile"
+    ],
+    "locale": "en",
+    "platform": "ios",
+    "position": "top",
+    "scale": 100,
+    "scene": "occupation-profile-friendship",
+    "smallTargets": [],
+    "visibleHeight": 724,
+    "width": 390
+  },
+  {
+    "clippedText": [],
+    "contentHeight": 724,
+    "fonts": "loaded",
+    "fullNeeded": false,
+    "h1": 1,
+    "height": 844,
+    "horizontalOverflow": 0,
+    "keys": [
+      "navProfile"
+    ],
+    "locale": "en",
+    "platform": "ios",
+    "position": "top",
+    "scale": 200,
+    "scene": "occupation-profile-friendship",
+    "smallTargets": [],
+    "visibleHeight": 724,
+    "width": 390
+  },
+  {
+    "clippedText": [],
+    "contentHeight": 724,
+    "fonts": "loaded",
+    "fullNeeded": false,
+    "h1": 1,
+    "height": 844,
+    "horizontalOverflow": 0,
+    "keys": [
+      "navProfile"
+    ],
+    "locale": "tr",
+    "platform": "ios",
+    "position": "top",
+    "scale": 100,
+    "scene": "occupation-profile-friendship",
+    "smallTargets": [],
+    "visibleHeight": 724,
+    "width": 390
+  },
+  {
+    "clippedText": [],
+    "contentHeight": 724,
+    "fonts": "loaded",
+    "fullNeeded": false,
+    "h1": 1,
+    "height": 844,
+    "horizontalOverflow": 0,
+    "keys": [
+      "navProfile"
+    ],
+    "locale": "tr",
+    "platform": "ios",
+    "position": "top",
+    "scale": 200,
+    "scene": "occupation-profile-friendship",
+    "smallTargets": [],
+    "visibleHeight": 724,
+    "width": 390
+  },
+  {
+    "clippedText": [],
+    "contentHeight": 795,
+    "fonts": "loaded",
+    "fullNeeded": false,
+    "h1": 1,
+    "height": 915,
+    "horizontalOverflow": 0,
+    "keys": [
+      "navProfile"
+    ],
+    "locale": "en",
+    "platform": "ios",
+    "position": "top",
+    "scale": 100,
+    "scene": "occupation-profile-friendship",
+    "smallTargets": [],
+    "visibleHeight": 795,
+    "width": 412
+  },
+  {
+    "clippedText": [],
+    "contentHeight": 795,
+    "fonts": "loaded",
+    "fullNeeded": false,
+    "h1": 1,
+    "height": 915,
+    "horizontalOverflow": 0,
+    "keys": [
+      "navProfile"
+    ],
+    "locale": "en",
+    "platform": "ios",
+    "position": "top",
+    "scale": 200,
+    "scene": "occupation-profile-friendship",
+    "smallTargets": [],
+    "visibleHeight": 795,
+    "width": 412
+  },
+  {
+    "clippedText": [],
+    "contentHeight": 795,
+    "fonts": "loaded",
+    "fullNeeded": false,
+    "h1": 1,
+    "height": 915,
+    "horizontalOverflow": 0,
+    "keys": [
+      "navProfile"
+    ],
+    "locale": "tr",
+    "platform": "ios",
+    "position": "top",
+    "scale": 100,
+    "scene": "occupation-profile-friendship",
+    "smallTargets": [],
+    "visibleHeight": 795,
+    "width": 412
+  },
+  {
+    "clippedText": [],
+    "contentHeight": 795,
+    "fonts": "loaded",
+    "fullNeeded": false,
+    "h1": 1,
+    "height": 915,
+    "horizontalOverflow": 0,
+    "keys": [
+      "navProfile"
+    ],
+    "locale": "tr",
+    "platform": "ios",
+    "position": "top",
+    "scale": 200,
+    "scene": "occupation-profile-friendship",
+    "smallTargets": [],
+    "visibleHeight": 795,
+    "width": 412
+  },
+  {
+    "clippedText": [],
+    "contentHeight": 724,
+    "fonts": "loaded",
+    "fullNeeded": false,
+    "h1": 1,
+    "height": 844,
+    "horizontalOverflow": 0,
+    "keys": [
+      "navProfile"
+    ],
+    "locale": "en",
+    "platform": "ios",
+    "position": "top",
+    "scale": 200,
+    "scene": "occupation-profile-friendship",
+    "smallTargets": [],
+    "visibleHeight": 724,
+    "width": 320
+  },
+  {
+    "clippedText": [],
+    "contentHeight": 724,
+    "fonts": "loaded",
+    "fullNeeded": false,
+    "h1": 1,
+    "height": 844,
+    "horizontalOverflow": 0,
+    "keys": [
+      "navProfile"
+    ],
+    "locale": "tr",
+    "platform": "ios",
+    "position": "top",
+    "scale": 200,
+    "scene": "occupation-profile-friendship",
+    "smallTargets": [],
+    "visibleHeight": 724,
+    "width": 320
+  },
+  {
+    "clippedText": [],
+    "contentHeight": 725,
+    "fonts": "loaded",
+    "fullNeeded": false,
+    "h1": 1,
+    "height": 844,
+    "horizontalOverflow": 0,
+    "keys": [
+      "navProfile"
+    ],
+    "locale": "en",
+    "platform": "android",
+    "position": "top",
+    "scale": 200,
+    "scene": "occupation-profile-friendship",
+    "smallTargets": [],
+    "visibleHeight": 725,
+    "width": 320
+  },
+  {
+    "clippedText": [],
+    "contentHeight": 725,
+    "fonts": "loaded",
+    "fullNeeded": false,
+    "h1": 1,
+    "height": 844,
+    "horizontalOverflow": 0,
+    "keys": [
+      "navProfile"
+    ],
+    "locale": "tr",
+    "platform": "android",
+    "position": "top",
+    "scale": 200,
+    "scene": "occupation-profile-friendship",
+    "smallTargets": [],
+    "visibleHeight": 725,
+    "width": 320
+  }
+]

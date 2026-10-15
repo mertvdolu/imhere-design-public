@@ -1,0 +1,346 @@
+{
+  "status": "APPROVED COPY — HB-37 r5 / existing approved reuse; UI decisions proposed ★",
+  "entries": [
+    {
+      "key": "checkInRetry",
+      "en": "Try again",
+      "tr": "Tekrar dene",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-catalog-failed"
+      ]
+    },
+    {
+      "key": "errorStateChanged",
+      "en": "Something changed. Please try again.",
+      "tr": "Bir şey değişti. Lütfen tekrar dene.",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-catalog-failed"
+      ]
+    },
+    {
+      "key": "navProfile",
+      "en": "Profile",
+      "tr": "Profil",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-profile-networking",
+        "occupation-profile-friendship"
+      ]
+    },
+    {
+      "key": "occupationLegacyNote",
+      "en": "You wrote this in an earlier version. It’s shown on your profile but isn’t used in filters.",
+      "tr": "Bunu eski bir sürümde yazdın. Profilinde görünür ama filtrelerde kullanılmaz.",
+      "source": "HB-37 r5 line 93",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-legacy"
+      ]
+    },
+    {
+      "key": "occupationNetworkingNote",
+      "en": "Shown only in Networking.",
+      "tr": "Yalnız Networking’de görünür.",
+      "source": "HB-37 r5 line 260",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-selected",
+        "occupation-other",
+        "occupation-hidden",
+        "occupation-legacy",
+        "occupation-replace",
+        "occupation-saving",
+        "occupation-saved",
+        "occupation-failed",
+        "occupation-removing"
+      ]
+    },
+    {
+      "key": "occupationNoMatch",
+      "en": "No match. Choose “Other” in the closest group.",
+      "tr": "Eşleşme yok. En yakın gruptaki “Diğer”i seç.",
+      "source": "HB-37 r5 line 85",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-no-match"
+      ]
+    },
+    {
+      "key": "occupationOwnTitleHelp",
+      "en": "Shown only on your profile. It isn’t used in filters.",
+      "tr": "Yalnız profilinde görünür. Filtrelerde kullanılmaz.",
+      "source": "HB-37 r5 line 88",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-other"
+      ]
+    },
+    {
+      "key": "occupationOwnTitleLabel",
+      "en": "Your job title (optional)",
+      "tr": "Unvanın (isteğe bağlı)",
+      "source": "HB-37 r5 line 87",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-other"
+      ]
+    },
+    {
+      "key": "occupationRemove",
+      "en": "Remove job title",
+      "tr": "Mesleği kaldır",
+      "source": "HB-37 r5 line 90",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-selected",
+        "occupation-other",
+        "occupation-hidden",
+        "occupation-legacy",
+        "occupation-saved",
+        "occupation-removed",
+        "occupation-failed",
+        "occupation-removing"
+      ]
+    },
+    {
+      "key": "occupationRemoved",
+      "en": "Your job title has been removed.",
+      "tr": "Mesleğin kaldırıldı.",
+      "source": "HB-37 r5 line 91",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-removed"
+      ]
+    },
+    {
+      "key": "occupationReplaceNote",
+      "en": "Choosing from the list replaces what you wrote before.",
+      "tr": "Listeden seçmek, daha önce yazdığının yerini alır.",
+      "source": "HB-37 r5 line 92",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-legacy",
+        "occupation-replace"
+      ]
+    },
+    {
+      "key": "occupationSearchHint",
+      "en": "Search job titles",
+      "tr": "Meslek ara",
+      "source": "HB-37 r5 line 84",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-empty",
+        "occupation-search",
+        "occupation-no-match",
+        "occupation-selected",
+        "occupation-other",
+        "occupation-hidden",
+        "occupation-legacy",
+        "occupation-replace",
+        "occupation-saving",
+        "occupation-saved",
+        "occupation-removed",
+        "occupation-failed",
+        "occupation-catalog-failed",
+        "occupation-loading"
+      ]
+    },
+    {
+      "key": "occupationShowHelp",
+      "en": "When it’s off, your job title isn’t shown on your profile or counted in filters. It stays saved.",
+      "tr": "Kapalıyken mesleğin profilinde görünmez ve filtrelerde sayılmaz. Kayıtlı kalır.",
+      "source": "HB-37 r5 line 89",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-selected",
+        "occupation-other",
+        "occupation-hidden",
+        "occupation-legacy",
+        "occupation-replace",
+        "occupation-saving",
+        "occupation-saved",
+        "occupation-failed"
+      ]
+    },
+    {
+      "key": "occupationSkip",
+      "en": "Skip",
+      "tr": "Atla",
+      "source": "HB-37 r5 line 94",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-empty",
+        "occupation-search",
+        "occupation-no-match",
+        "occupation-selected",
+        "occupation-other",
+        "occupation-hidden",
+        "occupation-legacy",
+        "occupation-replace",
+        "occupation-saving",
+        "occupation-saved",
+        "occupation-removed",
+        "occupation-failed",
+        "occupation-catalog-failed",
+        "occupation-loading"
+      ]
+    },
+    {
+      "key": "occupationStepBody",
+      "en": "Optional. Choose from the list. When you choose a job title, it’s shown on your profile, and in Networking it counts in Nearby filters. You can hide or remove it at any time.",
+      "tr": "İsteğe bağlı. Listeden seç. Bir meslek seçtiğinde profilinde görünür ve Networking’de Yakındakiler filtrelerinde sayılır. İstediğin zaman gizleyebilir ya da kaldırabilirsin.",
+      "source": "HB-37 r5 line 82",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-empty",
+        "occupation-search",
+        "occupation-no-match",
+        "occupation-selected",
+        "occupation-other",
+        "occupation-hidden",
+        "occupation-legacy",
+        "occupation-replace",
+        "occupation-saving",
+        "occupation-saved",
+        "occupation-removed",
+        "occupation-failed",
+        "occupation-catalog-failed",
+        "occupation-loading"
+      ]
+    },
+    {
+      "key": "occupationStepBodyF",
+      "en": "It isn’t shown in Friendship.",
+      "tr": "Arkadaşlık’ta gösterilmez.",
+      "source": "HB-37 r5 line 83",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-empty",
+        "occupation-search",
+        "occupation-no-match",
+        "occupation-selected",
+        "occupation-other",
+        "occupation-hidden",
+        "occupation-legacy",
+        "occupation-replace",
+        "occupation-saving",
+        "occupation-saved",
+        "occupation-removed",
+        "occupation-failed",
+        "occupation-catalog-failed",
+        "occupation-loading"
+      ]
+    },
+    {
+      "key": "occupationStepTitle",
+      "en": "What do you do?",
+      "tr": "Ne iş yapıyorsun?",
+      "source": "HB-37 r5 line 81",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-empty",
+        "occupation-search",
+        "occupation-no-match",
+        "occupation-selected",
+        "occupation-other",
+        "occupation-hidden",
+        "occupation-legacy",
+        "occupation-replace",
+        "occupation-saving",
+        "occupation-saved",
+        "occupation-removed",
+        "occupation-failed",
+        "occupation-catalog-failed",
+        "occupation-loading",
+        "occupation-removing"
+      ]
+    },
+    {
+      "key": "profileLoading",
+      "en": "Loading the profile…",
+      "tr": "Profil yükleniyor…",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-loading"
+      ]
+    },
+    {
+      "key": "profileSave",
+      "en": "Save my profile",
+      "tr": "Profilimi kaydet",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-empty",
+        "occupation-search",
+        "occupation-no-match",
+        "occupation-selected",
+        "occupation-other",
+        "occupation-hidden",
+        "occupation-legacy",
+        "occupation-replace",
+        "occupation-saving",
+        "occupation-saved",
+        "occupation-removed",
+        "occupation-failed",
+        "occupation-catalog-failed",
+        "occupation-loading"
+      ]
+    },
+    {
+      "key": "profileSaveFailed",
+      "en": "Your profile couldn’t be saved. Check your details and try again.",
+      "tr": "Profil kaydedilemedi. Bilgilerini kontrol edip tekrar deneyebilirsin.",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-failed"
+      ]
+    },
+    {
+      "key": "profileSaved",
+      "en": "Profile saved",
+      "tr": "Profil kaydedildi.",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-saved"
+      ]
+    },
+    {
+      "key": "profileSaving",
+      "en": "Saving your profile…",
+      "tr": "Profilin kaydediliyor…",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-saving"
+      ]
+    },
+    {
+      "key": "showOccupation",
+      "en": "Show my job title",
+      "tr": "Mesleğim görünsün",
+      "source": "HB-37 r5 §6",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "occupation-selected",
+        "occupation-other",
+        "occupation-hidden",
+        "occupation-legacy",
+        "occupation-replace",
+        "occupation-saving",
+        "occupation-saved",
+        "occupation-failed"
+      ]
+    }
+  ],
+  "proposals": []
+}

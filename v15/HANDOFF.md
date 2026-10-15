@@ -11,5 +11,7 @@ HB-37 dosyası r5 olarak güncellenmiş: 3 LinkedIn değeri §14.1’den AYNEN. 
 - [gecis](gecis/HANDOFF.md)
 - [ayarlar-topluluk](ayarlar-topluluk/HANDOFF.md)
 - [secici](secici/HANDOFF.md)
+- [meslek](meslek/HANDOFF.md)
+- [linkedin](linkedin/HANDOFF.md)
 
 Tasarım, native uygulama/test/yayın değildir. Main birleşimi, deploy veya mağaza işlemi yok.

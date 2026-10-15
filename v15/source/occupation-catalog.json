@@ -1,0 +1,3428 @@
+{
+  "version": "1.0.1",
+  "groups": [
+    {
+      "id": "technology",
+      "en": "Technology",
+      "tr": "Teknoloji"
+    },
+    {
+      "id": "engineering-science",
+      "en": "Engineering & Science",
+      "tr": "Mühendislik ve bilim"
+    },
+    {
+      "id": "finance",
+      "en": "Finance & Accounting",
+      "tr": "Finans ve muhasebe"
+    },
+    {
+      "id": "business",
+      "en": "Business & Management",
+      "tr": "İş dünyası ve yönetim"
+    },
+    {
+      "id": "sales-marketing",
+      "en": "Sales, Marketing & Communications",
+      "tr": "Satış, pazarlama ve iletişim"
+    },
+    {
+      "id": "creative-media",
+      "en": "Creative, Media & Culture",
+      "tr": "Yaratıcı sektör, medya ve kültür"
+    },
+    {
+      "id": "legal",
+      "en": "Law & Compliance",
+      "tr": "Hukuk ve uyum"
+    },
+    {
+      "id": "health-social-care",
+      "en": "Health & Social Care",
+      "tr": "Sağlık ve sosyal bakım"
+    },
+    {
+      "id": "education",
+      "en": "Education & Research",
+      "tr": "Eğitim ve araştırma"
+    },
+    {
+      "id": "public-nonprofit",
+      "en": "Public Sector & Non-profit",
+      "tr": "Kamu ve sivil toplum"
+    },
+    {
+      "id": "property-construction",
+      "en": "Architecture, Property & Construction",
+      "tr": "Mimarlık, gayrimenkul ve inşaat"
+    },
+    {
+      "id": "skilled-trades",
+      "en": "Skilled Trades",
+      "tr": "Zanaat ve teknik işler"
+    },
+    {
+      "id": "hospitality-events",
+      "en": "Hospitality, Food & Events",
+      "tr": "Konaklama, yeme-içme ve etkinlik"
+    },
+    {
+      "id": "retail-personal-services",
+      "en": "Retail & Personal Services",
+      "tr": "Perakende ve kişisel hizmetler"
+    },
+    {
+      "id": "sport-fitness",
+      "en": "Sport & Fitness",
+      "tr": "Spor ve fitness"
+    },
+    {
+      "id": "transport-logistics",
+      "en": "Transport, Logistics & Manufacturing",
+      "tr": "Ulaşım, lojistik ve üretim"
+    },
+    {
+      "id": "study",
+      "en": "Study & Early Career",
+      "tr": "Öğrenim ve kariyer başlangıcı"
+    }
+  ],
+  "occupations": [
+    {
+      "id": "software-engineer",
+      "group": "technology",
+      "en": "Software engineer",
+      "tr": "Yazılım mühendisi",
+      "synonyms": {
+        "en": [
+          "software developer",
+          "developer",
+          "programmer",
+          "coder",
+          "SWE",
+          "mobile developer",
+          "iOS developer",
+          "Android developer",
+          "app developer"
+        ],
+        "tr": [
+          "yazılımcı",
+          "yazılım geliştirici",
+          "programcı",
+          "geliştirici",
+          "mobil geliştirici",
+          "mobil uygulama geliştirici"
+        ]
+      }
+    },
+    {
+      "id": "frontend-developer",
+      "group": "technology",
+      "en": "Front-end developer",
+      "tr": "Front-end geliştirici",
+      "synonyms": {
+        "en": [
+          "frontend developer",
+          "front-end engineer",
+          "frontend engineer",
+          "web developer",
+          "UI developer",
+          "React developer"
+        ],
+        "tr": [
+          "frontend yazılımcı",
+          "önyüz geliştirici",
+          "web geliştirici",
+          "web yazılımcı"
+        ]
+      }
+    },
+    {
+      "id": "backend-developer",
+      "group": "technology",
+      "en": "Back-end developer",
+      "tr": "Back-end geliştirici",
+      "synonyms": {
+        "en": [
+          "backend developer",
+          "back-end engineer",
+          "backend engineer",
+          "server-side developer",
+          "API developer"
+        ],
+        "tr": [
+          "backend yazılımcı",
+          "arka uç geliştirici",
+          "sunucu tarafı geliştirici"
+        ]
+      }
+    },
+    {
+      "id": "full-stack-developer",
+      "group": "technology",
+      "en": "Full-stack developer",
+      "tr": "Full-stack geliştirici",
+      "synonyms": {
+        "en": [
+          "full stack developer",
+          "full-stack engineer",
+          "fullstack developer"
+        ],
+        "tr": [
+          "fullstack yazılımcı",
+          "full stack geliştirici"
+        ]
+      }
+    },
+    {
+      "id": "devops-engineer",
+      "group": "technology",
+      "en": "DevOps / cloud engineer",
+      "tr": "DevOps / bulut mühendisi",
+      "synonyms": {
+        "en": [
+          "DevOps engineer",
+          "cloud engineer",
+          "site reliability engineer",
+          "SRE",
+          "platform engineer",
+          "infrastructure engineer",
+          "systems administrator",
+          "sysadmin",
+          "network engineer"
+        ],
+        "tr": [
+          "DevOps mühendisi",
+          "bulut mühendisi",
+          "sistem yöneticisi",
+          "sistem mühendisi",
+          "ağ mühendisi",
+          "altyapı mühendisi"
+        ]
+      }
+    },
+    {
+      "id": "data-scientist",
+      "group": "technology",
+      "en": "Data scientist",
+      "tr": "Veri bilimci",
+      "synonyms": {
+        "en": [
+          "data science",
+          "applied scientist",
+          "decision scientist"
+        ],
+        "tr": [
+          "veri bilimi uzmanı",
+          "veri bilimcisi"
+        ]
+      }
+    },
+    {
+      "id": "data-analyst",
+      "group": "technology",
+      "en": "Data analyst",
+      "tr": "Veri analisti",
+      "synonyms": {
+        "en": [
+          "BI analyst",
+          "business intelligence analyst",
+          "analytics analyst",
+          "insights analyst",
+          "reporting analyst"
+        ],
+        "tr": [
+          "veri analizcisi",
+          "veri analiz uzmanı",
+          "iş zekası analisti"
+        ]
+      }
+    },
+    {
+      "id": "data-engineer",
+      "group": "technology",
+      "en": "Data engineer",
+      "tr": "Veri mühendisi",
+      "synonyms": {
+        "en": [
+          "analytics engineer",
+          "big data engineer",
+          "database administrator",
+          "DBA",
+          "database developer"
+        ],
+        "tr": [
+          "büyük veri mühendisi",
+          "veritabanı yöneticisi",
+          "veritabanı uzmanı"
+        ]
+      }
+    },
+    {
+      "id": "ai-engineer",
+      "group": "technology",
+      "en": "AI / machine learning engineer",
+      "tr": "Yapay zekâ / makine öğrenmesi mühendisi",
+      "synonyms": {
+        "en": [
+          "AI engineer",
+          "machine learning engineer",
+          "ML engineer",
+          "MLOps engineer",
+          "deep learning engineer",
+          "LLM engineer"
+        ],
+        "tr": [
+          "yapay zeka mühendisi",
+          "makine öğrenmesi mühendisi",
+          "makine öğrenimi mühendisi",
+          "ML mühendisi"
+        ]
+      }
+    },
+    {
+      "id": "cyber-security-specialist",
+      "group": "technology",
+      "en": "Cyber security specialist",
+      "tr": "Siber güvenlik uzmanı",
+      "synonyms": {
+        "en": [
+          "cybersecurity analyst",
+          "cyber security analyst",
+          "security engineer",
+          "information security specialist",
+          "penetration tester",
+          "ethical hacker",
+          "SOC analyst"
+        ],
+        "tr": [
+          "bilgi güvenliği uzmanı",
+          "siber güvenlik analisti",
+          "sızma testi uzmanı",
+          "güvenlik mühendisi"
+        ]
+      }
+    },
+    {
+      "id": "it-manager",
+      "group": "technology",
+      "en": "IT manager",
+      "tr": "IT / bilgi işlem müdürü",
+      "synonyms": {
+        "en": [
+          "head of IT",
+          "IT director",
+          "CTO",
+          "chief technology officer",
+          "engineering manager",
+          "head of engineering",
+          "VP engineering"
+        ],
+        "tr": [
+          "IT müdürü",
+          "bilgi işlem müdürü",
+          "bilgi teknolojileri müdürü",
+          "teknoloji direktörü",
+          "mühendislik müdürü",
+          "BT müdürü"
+        ]
+      }
+    },
+    {
+      "id": "it-support-technician",
+      "group": "technology",
+      "en": "IT support technician",
+      "tr": "IT destek uzmanı",
+      "synonyms": {
+        "en": [
+          "IT support",
+          "helpdesk analyst",
+          "service desk analyst",
+          "desktop support",
+          "IT technician"
+        ],
+        "tr": [
+          "bilgi işlem destek uzmanı",
+          "teknik destek uzmanı",
+          "yardım masası uzmanı",
+          "IT destek",
+          "BT destek uzmanı"
+        ]
+      }
+    },
+    {
+      "id": "product-manager",
+      "group": "technology",
+      "en": "Product manager",
+      "tr": "Ürün yöneticisi",
+      "synonyms": {
+        "en": [
+          "product owner",
+          "head of product",
+          "product lead",
+          "group product manager"
+        ],
+        "tr": [
+          "ürün müdürü",
+          "ürün sahibi"
+        ]
+      }
+    },
+    {
+      "id": "ux-ui-designer",
+      "group": "technology",
+      "en": "UX / UI designer",
+      "tr": "UX / UI tasarımcı",
+      "synonyms": {
+        "en": [
+          "UX designer",
+          "UI designer",
+          "product designer",
+          "user experience designer",
+          "interaction designer",
+          "UX researcher"
+        ],
+        "tr": [
+          "kullanıcı deneyimi tasarımcısı",
+          "arayüz tasarımcısı",
+          "ürün tasarımcısı",
+          "UX araştırmacısı",
+          "UX / UI tasarımcısı"
+        ]
+      }
+    },
+    {
+      "id": "other-technology",
+      "group": "technology",
+      "en": "Other — Technology",
+      "tr": "Diğer — Teknoloji",
+      "synonyms": {
+        "en": [],
+        "tr": []
+      }
+    },
+    {
+      "id": "civil-engineer",
+      "group": "engineering-science",
+      "en": "Civil engineer",
+      "tr": "İnşaat mühendisi",
+      "synonyms": {
+        "en": [
+          "structural engineer",
+          "geotechnical engineer",
+          "transport engineer",
+          "highways engineer"
+        ],
+        "tr": [
+          "yapı mühendisi",
+          "statik mühendisi",
+          "ulaştırma mühendisi"
+        ]
+      }
+    },
+    {
+      "id": "mechanical-engineer",
+      "group": "engineering-science",
+      "en": "Mechanical engineer",
+      "tr": "Makine mühendisi",
+      "synonyms": {
+        "en": [
+          "aerospace engineer",
+          "automotive engineer",
+          "manufacturing engineer",
+          "design engineer",
+          "product design engineer"
+        ],
+        "tr": [
+          "uçak mühendisi",
+          "havacılık mühendisi",
+          "otomotiv mühendisi",
+          "imalat mühendisi",
+          "tasarım mühendisi"
+        ]
+      }
+    },
+    {
+      "id": "electrical-engineer",
+      "group": "engineering-science",
+      "en": "Electrical / electronics engineer",
+      "tr": "Elektrik / elektronik mühendisi",
+      "synonyms": {
+        "en": [
+          "electrical engineer",
+          "electronics engineer",
+          "hardware engineer",
+          "building services engineer",
+          "MEP engineer",
+          "telecoms engineer"
+        ],
+        "tr": [
+          "elektrik mühendisi",
+          "elektronik mühendisi",
+          "elektrik-elektronik mühendisi",
+          "donanım mühendisi",
+          "telekomünikasyon mühendisi"
+        ]
+      }
+    },
+    {
+      "id": "sustainability-specialist",
+      "group": "engineering-science",
+      "en": "Sustainability / ESG specialist",
+      "tr": "Sürdürülebilirlik / ESG uzmanı",
+      "synonyms": {
+        "en": [
+          "sustainability consultant",
+          "sustainability manager",
+          "ESG analyst",
+          "environmental consultant",
+          "environmental scientist",
+          "environmental engineer",
+          "net zero consultant"
+        ],
+        "tr": [
+          "sürdürülebilirlik danışmanı",
+          "ESG analisti",
+          "çevre danışmanı",
+          "çevre mühendisi",
+          "çevre bilimci"
+        ]
+      }
+    },
+    {
+      "id": "life-scientist",
+      "group": "engineering-science",
+      "en": "Life scientist / biologist",
+      "tr": "Biyolog / yaşam bilimci",
+      "synonyms": {
+        "en": [
+          "biologist",
+          "biomedical scientist",
+          "biochemist",
+          "microbiologist",
+          "geneticist",
+          "biotech scientist"
+        ],
+        "tr": [
+          "biyomedikal bilimci",
+          "biyokimyager",
+          "mikrobiyolog",
+          "genetikçi",
+          "moleküler biyolog"
+        ]
+      }
+    },
+    {
+      "id": "physical-scientist",
+      "group": "engineering-science",
+      "en": "Chemist / physicist",
+      "tr": "Kimyager / fizikçi",
+      "synonyms": {
+        "en": [
+          "chemist",
+          "physicist",
+          "materials scientist",
+          "astronomer",
+          "geologist",
+          "geoscientist"
+        ],
+        "tr": [
+          "kimyacı",
+          "kimyager",
+          "fizikçi",
+          "malzeme bilimci",
+          "jeolog",
+          "astronom"
+        ]
+      }
+    },
+    {
+      "id": "laboratory-technician",
+      "group": "engineering-science",
+      "en": "Laboratory technician",
+      "tr": "Laboratuvar teknisyeni",
+      "synonyms": {
+        "en": [
+          "lab technician",
+          "lab tech",
+          "laboratory analyst",
+          "research technician"
+        ],
+        "tr": [
+          "laborant",
+          "laboratuvar teknikeri"
+        ]
+      }
+    },
+    {
+      "id": "other-engineering-science",
+      "group": "engineering-science",
+      "en": "Other — Engineering & Science",
+      "tr": "Diğer — Mühendislik ve bilim",
+      "synonyms": {
+        "en": [],
+        "tr": []
+      }
+    },
+    {
+      "id": "accountant",
+      "group": "finance",
+      "en": "Accountant",
+      "tr": "Muhasebeci",
+      "synonyms": {
+        "en": [
+          "chartered accountant",
+          "ACA",
+          "ACCA",
+          "CIMA",
+          "management accountant",
+          "financial accountant",
+          "tax accountant",
+          "tax adviser",
+          "bookkeeper"
+        ],
+        "tr": [
+          "mali müşavir",
+          "SMMM",
+          "muhasebe uzmanı",
+          "vergi danışmanı",
+          "ön muhasebeci",
+          "defter tutucu"
+        ]
+      }
+    },
+    {
+      "id": "auditor",
+      "group": "finance",
+      "en": "Auditor",
+      "tr": "Denetçi",
+      "synonyms": {
+        "en": [
+          "external auditor",
+          "internal auditor",
+          "audit associate",
+          "audit manager"
+        ],
+        "tr": [
+          "bağımsız denetçi",
+          "iç denetçi",
+          "denetim uzmanı"
+        ]
+      }
+    },
+    {
+      "id": "financial-analyst",
+      "group": "finance",
+      "en": "Financial analyst",
+      "tr": "Finansal analist",
+      "synonyms": {
+        "en": [
+          "investment analyst",
+          "equity analyst",
+          "credit analyst",
+          "FP&A analyst",
+          "quantitative analyst",
+          "quant",
+          "equity research analyst"
+        ],
+        "tr": [
+          "finans analisti",
+          "yatırım analisti",
+          "kredi analisti",
+          "kantitatif analist"
+        ]
+      }
+    },
+    {
+      "id": "investment-banker",
+      "group": "finance",
+      "en": "Investment banker",
+      "tr": "Yatırım bankacısı",
+      "synonyms": {
+        "en": [
+          "corporate finance",
+          "M&A analyst",
+          "mergers and acquisitions",
+          "IB analyst",
+          "corporate banker",
+          "banker"
+        ],
+        "tr": [
+          "bankacı",
+          "kurumsal finansman uzmanı",
+          "birleşme ve satın alma uzmanı"
+        ]
+      }
+    },
+    {
+      "id": "trader",
+      "group": "finance",
+      "en": "Trader / broker",
+      "tr": "Trader / borsa aracısı",
+      "synonyms": {
+        "en": [
+          "stockbroker",
+          "stock broker",
+          "sales and trading",
+          "commodity trader",
+          "FX trader",
+          "dealer"
+        ],
+        "tr": [
+          "borsacı",
+          "hisse senedi aracısı",
+          "menkul kıymet aracısı",
+          "işlem uzmanı"
+        ]
+      }
+    },
+    {
+      "id": "investment-manager",
+      "group": "finance",
+      "en": "Investment / fund manager",
+      "tr": "Yatırım / fon yöneticisi",
+      "synonyms": {
+        "en": [
+          "fund manager",
+          "asset manager",
+          "portfolio manager",
+          "hedge fund manager",
+          "investment director"
+        ],
+        "tr": [
+          "fon yöneticisi",
+          "portföy yöneticisi",
+          "varlık yöneticisi"
+        ]
+      }
+    },
+    {
+      "id": "venture-investor",
+      "group": "finance",
+      "en": "Investor (venture capital / private equity)",
+      "tr": "Yatırımcı (girişim sermayesi / özel sermaye)",
+      "synonyms": {
+        "en": [
+          "investor",
+          "venture capitalist",
+          "VC",
+          "private equity",
+          "PE investor",
+          "angel investor"
+        ],
+        "tr": [
+          "girişim sermayedarı",
+          "melek yatırımcı",
+          "VC yatırımcısı",
+          "özel sermaye yatırımcısı"
+        ]
+      }
+    },
+    {
+      "id": "financial-adviser",
+      "group": "finance",
+      "en": "Financial adviser",
+      "tr": "Finansal danışman",
+      "synonyms": {
+        "en": [
+          "financial advisor",
+          "IFA",
+          "independent financial adviser",
+          "wealth manager",
+          "financial planner",
+          "mortgage adviser",
+          "mortgage broker"
+        ],
+        "tr": [
+          "mali danışman",
+          "yatırım danışmanı",
+          "servet yöneticisi",
+          "kredi danışmanı",
+          "mortgage danışmanı"
+        ]
+      }
+    },
+    {
+      "id": "risk-analyst",
+      "group": "finance",
+      "en": "Risk analyst / manager",
+      "tr": "Risk analisti / yöneticisi",
+      "synonyms": {
+        "en": [
+          "risk manager",
+          "credit risk analyst",
+          "market risk analyst",
+          "operational risk manager"
+        ],
+        "tr": [
+          "risk uzmanı",
+          "risk yöneticisi",
+          "kredi risk uzmanı"
+        ]
+      }
+    },
+    {
+      "id": "finance-manager",
+      "group": "finance",
+      "en": "Finance manager / director",
+      "tr": "Finans müdürü / direktörü",
+      "synonyms": {
+        "en": [
+          "CFO",
+          "chief financial officer",
+          "finance director",
+          "financial controller",
+          "head of finance",
+          "treasurer"
+        ],
+        "tr": [
+          "mali işler müdürü",
+          "finans direktörü",
+          "finansal kontrolör",
+          "finans yöneticisi"
+        ]
+      }
+    },
+    {
+      "id": "insurance-professional",
+      "group": "finance",
+      "en": "Insurance professional",
+      "tr": "Sigorta uzmanı",
+      "synonyms": {
+        "en": [
+          "insurance broker",
+          "underwriter",
+          "claims handler",
+          "loss adjuster",
+          "actuary"
+        ],
+        "tr": [
+          "sigorta brokeri",
+          "hasar uzmanı",
+          "aktüer",
+          "sigorta acentesi",
+          "sigortacı"
+        ]
+      }
+    },
+    {
+      "id": "economist",
+      "group": "finance",
+      "en": "Economist",
+      "tr": "Ekonomist",
+      "synonyms": {
+        "en": [
+          "economic analyst",
+          "economic consultant"
+        ],
+        "tr": [
+          "iktisatçı",
+          "ekonomi uzmanı"
+        ]
+      }
+    },
+    {
+      "id": "other-finance",
+      "group": "finance",
+      "en": "Other — Finance & Accounting",
+      "tr": "Diğer — Finans ve muhasebe",
+      "synonyms": {
+        "en": [],
+        "tr": []
+      }
+    },
+    {
+      "id": "chief-executive",
+      "group": "business",
+      "en": "Chief executive / managing director",
+      "tr": "Genel müdür / CEO",
+      "synonyms": {
+        "en": [
+          "CEO",
+          "chief executive officer",
+          "managing director",
+          "general manager",
+          "president",
+          "non-executive director",
+          "board member",
+          "chairperson",
+          "chair"
+        ],
+        "tr": [
+          "üst düzey yönetici",
+          "icra kurulu başkanı",
+          "yönetim kurulu üyesi",
+          "yönetim kurulu başkanı"
+        ]
+      }
+    },
+    {
+      "id": "founder",
+      "group": "business",
+      "en": "Founder / co-founder",
+      "tr": "Girişimci / kurucu",
+      "synonyms": {
+        "en": [
+          "co-founder",
+          "startup founder",
+          "entrepreneur"
+        ],
+        "tr": [
+          "kurucu ortak",
+          "startup kurucusu",
+          "girişim kurucusu"
+        ]
+      }
+    },
+    {
+      "id": "business-owner",
+      "group": "business",
+      "en": "Business owner",
+      "tr": "İşletme sahibi",
+      "synonyms": {
+        "en": [
+          "small business owner",
+          "proprietor",
+          "sole trader",
+          "company owner",
+          "shop owner",
+          "restaurant owner"
+        ],
+        "tr": [
+          "işletmeci",
+          "esnaf",
+          "şirket sahibi",
+          "dükkan sahibi",
+          "işyeri sahibi"
+        ]
+      }
+    },
+    {
+      "id": "management-consultant",
+      "group": "business",
+      "en": "Management consultant",
+      "tr": "Yönetim danışmanı",
+      "synonyms": {
+        "en": [
+          "strategy consultant",
+          "business consultant",
+          "consultant",
+          "transformation consultant"
+        ],
+        "tr": [
+          "strateji danışmanı",
+          "iş danışmanı",
+          "danışman"
+        ]
+      }
+    },
+    {
+      "id": "business-analyst",
+      "group": "business",
+      "en": "Business analyst",
+      "tr": "İş analisti",
+      "synonyms": {
+        "en": [
+          "process analyst",
+          "business systems analyst",
+          "systems analyst"
+        ],
+        "tr": [
+          "süreç analisti",
+          "iş süreçleri analisti"
+        ]
+      }
+    },
+    {
+      "id": "project-manager",
+      "group": "business",
+      "en": "Project / programme manager",
+      "tr": "Proje / program yöneticisi",
+      "synonyms": {
+        "en": [
+          "project manager",
+          "programme manager",
+          "program manager",
+          "delivery manager",
+          "scrum master",
+          "agile coach",
+          "PMO",
+          "project coordinator"
+        ],
+        "tr": [
+          "proje müdürü",
+          "proje yöneticisi",
+          "program yöneticisi",
+          "proje koordinatörü"
+        ]
+      }
+    },
+    {
+      "id": "operations-manager",
+      "group": "business",
+      "en": "Operations manager",
+      "tr": "Operasyon müdürü",
+      "synonyms": {
+        "en": [
+          "COO",
+          "chief operating officer",
+          "head of operations",
+          "operations director",
+          "production manager",
+          "plant manager"
+        ],
+        "tr": [
+          "operasyon yöneticisi",
+          "operasyon direktörü",
+          "üretim müdürü",
+          "fabrika müdürü"
+        ]
+      }
+    },
+    {
+      "id": "hr-manager",
+      "group": "business",
+      "en": "HR manager / HR business partner",
+      "tr": "İK müdürü / İK iş ortağı",
+      "synonyms": {
+        "en": [
+          "HR manager",
+          "human resources manager",
+          "HRBP",
+          "HR business partner",
+          "people partner",
+          "head of people",
+          "HR adviser",
+          "HR specialist",
+          "people operations",
+          "learning and development",
+          "L&D specialist"
+        ],
+        "tr": [
+          "insan kaynakları müdürü",
+          "insan kaynakları uzmanı",
+          "İK uzmanı",
+          "eğitim ve gelişim uzmanı"
+        ]
+      }
+    },
+    {
+      "id": "recruiter",
+      "group": "business",
+      "en": "Recruiter / talent acquisition",
+      "tr": "İşe alım uzmanı",
+      "synonyms": {
+        "en": [
+          "recruitment consultant",
+          "talent acquisition specialist",
+          "headhunter",
+          "talent partner",
+          "sourcer"
+        ],
+        "tr": [
+          "işe alım danışmanı",
+          "yetenek kazanım uzmanı",
+          "kafa avcısı"
+        ]
+      }
+    },
+    {
+      "id": "executive-assistant",
+      "group": "business",
+      "en": "Executive / personal assistant",
+      "tr": "Yönetici asistanı",
+      "synonyms": {
+        "en": [
+          "executive assistant",
+          "personal assistant",
+          "EA",
+          "PA",
+          "secretary",
+          "office manager"
+        ],
+        "tr": [
+          "özel asistan",
+          "sekreter",
+          "ofis müdürü"
+        ]
+      }
+    },
+    {
+      "id": "administrator",
+      "group": "business",
+      "en": "Administrator / office assistant",
+      "tr": "İdari asistan / ofis personeli",
+      "synonyms": {
+        "en": [
+          "admin assistant",
+          "administrative assistant",
+          "office administrator",
+          "office assistant",
+          "receptionist",
+          "clerk",
+          "data entry clerk",
+          "office coordinator"
+        ],
+        "tr": [
+          "büro personeli",
+          "ofis asistanı",
+          "idari işler uzmanı",
+          "resepsiyonist",
+          "veri giriş elemanı"
+        ]
+      }
+    },
+    {
+      "id": "other-business",
+      "group": "business",
+      "en": "Other — Business & Management",
+      "tr": "Diğer — İş dünyası ve yönetim",
+      "synonyms": {
+        "en": [],
+        "tr": []
+      }
+    },
+    {
+      "id": "sales-manager",
+      "group": "sales-marketing",
+      "en": "Sales manager",
+      "tr": "Satış müdürü",
+      "synonyms": {
+        "en": [
+          "head of sales",
+          "sales director",
+          "area sales manager",
+          "regional sales manager",
+          "VP sales"
+        ],
+        "tr": [
+          "satış yöneticisi",
+          "satış direktörü",
+          "bölge satış müdürü"
+        ]
+      }
+    },
+    {
+      "id": "account-manager",
+      "group": "sales-marketing",
+      "en": "Account manager",
+      "tr": "Müşteri ilişkileri yöneticisi",
+      "synonyms": {
+        "en": [
+          "key account manager",
+          "client manager",
+          "customer success manager",
+          "account director",
+          "relationship manager"
+        ],
+        "tr": [
+          "kilit müşteri yöneticisi",
+          "müşteri başarı yöneticisi",
+          "kurumsal müşteri temsilcisi",
+          "müşteri yöneticisi"
+        ]
+      }
+    },
+    {
+      "id": "business-development-manager",
+      "group": "sales-marketing",
+      "en": "Business development manager",
+      "tr": "İş geliştirme müdürü",
+      "synonyms": {
+        "en": [
+          "BDM",
+          "business development",
+          "BD manager",
+          "partnerships manager",
+          "commercial manager"
+        ],
+        "tr": [
+          "iş geliştirme uzmanı",
+          "iş geliştirme yöneticisi",
+          "iş ortaklıkları yöneticisi",
+          "ticari müdür"
+        ]
+      }
+    },
+    {
+      "id": "sales-executive",
+      "group": "sales-marketing",
+      "en": "Sales executive / representative",
+      "tr": "Satış temsilcisi",
+      "synonyms": {
+        "en": [
+          "sales representative",
+          "sales rep",
+          "account executive",
+          "SDR",
+          "BDR",
+          "sales development representative",
+          "salesperson",
+          "field sales"
+        ],
+        "tr": [
+          "satış uzmanı",
+          "saha satış temsilcisi",
+          "plasiyer"
+        ]
+      }
+    },
+    {
+      "id": "marketing-manager",
+      "group": "sales-marketing",
+      "en": "Marketing manager",
+      "tr": "Pazarlama müdürü",
+      "synonyms": {
+        "en": [
+          "head of marketing",
+          "CMO",
+          "marketing director",
+          "brand manager",
+          "product marketing manager",
+          "marketing lead"
+        ],
+        "tr": [
+          "pazarlama yöneticisi",
+          "pazarlama direktörü",
+          "marka müdürü",
+          "marka yöneticisi"
+        ]
+      }
+    },
+    {
+      "id": "digital-marketing-specialist",
+      "group": "sales-marketing",
+      "en": "Digital marketing specialist",
+      "tr": "Dijital pazarlama uzmanı",
+      "synonyms": {
+        "en": [
+          "digital marketer",
+          "growth marketer",
+          "performance marketer",
+          "SEO specialist",
+          "PPC specialist",
+          "marketing executive",
+          "email marketer",
+          "CRM marketer"
+        ],
+        "tr": [
+          "dijital pazarlamacı",
+          "pazarlama uzmanı",
+          "SEO uzmanı",
+          "performans pazarlama uzmanı",
+          "büyüme pazarlamacısı"
+        ]
+      }
+    },
+    {
+      "id": "social-media-manager",
+      "group": "sales-marketing",
+      "en": "Social media manager",
+      "tr": "Sosyal medya yöneticisi",
+      "synonyms": {
+        "en": [
+          "social media executive",
+          "social media specialist",
+          "community manager"
+        ],
+        "tr": [
+          "sosyal medya uzmanı",
+          "topluluk yöneticisi"
+        ]
+      }
+    },
+    {
+      "id": "pr-communications-specialist",
+      "group": "sales-marketing",
+      "en": "PR & communications specialist",
+      "tr": "Halkla ilişkiler ve iletişim uzmanı",
+      "synonyms": {
+        "en": [
+          "PR manager",
+          "public relations",
+          "communications manager",
+          "comms manager",
+          "press officer",
+          "internal communications",
+          "publicist"
+        ],
+        "tr": [
+          "halkla ilişkiler uzmanı",
+          "iletişim müdürü",
+          "kurumsal iletişim uzmanı",
+          "basın sorumlusu"
+        ]
+      }
+    },
+    {
+      "id": "market-research-analyst",
+      "group": "sales-marketing",
+      "en": "Market research analyst",
+      "tr": "Pazar araştırma analisti",
+      "synonyms": {
+        "en": [
+          "market researcher",
+          "consumer insights manager",
+          "research executive"
+        ],
+        "tr": [
+          "pazar araştırmacısı",
+          "tüketici içgörü uzmanı",
+          "pazar araştırması analisti"
+        ]
+      }
+    },
+    {
+      "id": "other-sales-marketing",
+      "group": "sales-marketing",
+      "en": "Other — Sales, Marketing & Communications",
+      "tr": "Diğer — Satış, pazarlama ve iletişim",
+      "synonyms": {
+        "en": [],
+        "tr": []
+      }
+    },
+    {
+      "id": "graphic-designer",
+      "group": "creative-media",
+      "en": "Graphic designer",
+      "tr": "Grafik tasarımcı",
+      "synonyms": {
+        "en": [
+          "visual designer",
+          "brand designer",
+          "digital designer",
+          "packaging designer"
+        ],
+        "tr": [
+          "grafiker",
+          "grafik tasarımcısı",
+          "görsel tasarımcı"
+        ]
+      }
+    },
+    {
+      "id": "fashion-designer",
+      "group": "creative-media",
+      "en": "Fashion designer",
+      "tr": "Moda tasarımcısı",
+      "synonyms": {
+        "en": [
+          "clothing designer",
+          "textile designer",
+          "footwear designer",
+          "fashion stylist"
+        ],
+        "tr": [
+          "modacı",
+          "tekstil tasarımcısı",
+          "stilist"
+        ]
+      }
+    },
+    {
+      "id": "illustrator-animator",
+      "group": "creative-media",
+      "en": "Illustrator / animator",
+      "tr": "İllüstratör / animatör",
+      "synonyms": {
+        "en": [
+          "illustrator",
+          "animator",
+          "motion designer",
+          "motion graphics designer",
+          "3D artist",
+          "concept artist"
+        ],
+        "tr": [
+          "çizer",
+          "animasyon sanatçısı",
+          "hareketli grafik tasarımcısı",
+          "3B sanatçı"
+        ]
+      }
+    },
+    {
+      "id": "photographer",
+      "group": "creative-media",
+      "en": "Photographer",
+      "tr": "Fotoğrafçı",
+      "synonyms": {
+        "en": [
+          "photojournalist",
+          "wedding photographer",
+          "fashion photographer"
+        ],
+        "tr": [
+          "fotoğraf sanatçısı",
+          "foto muhabiri"
+        ]
+      }
+    },
+    {
+      "id": "videographer",
+      "group": "creative-media",
+      "en": "Videographer / video editor",
+      "tr": "Videograf / video kurgucu",
+      "synonyms": {
+        "en": [
+          "video editor",
+          "camera operator",
+          "cameraman",
+          "cinematographer",
+          "film editor",
+          "video producer"
+        ],
+        "tr": [
+          "kamera operatörü",
+          "kameraman",
+          "kurgucu",
+          "video editörü",
+          "görüntü yönetmeni"
+        ]
+      }
+    },
+    {
+      "id": "producer-director",
+      "group": "creative-media",
+      "en": "Producer / director (film, TV, stage)",
+      "tr": "Yapımcı / yönetmen (film, TV, sahne)",
+      "synonyms": {
+        "en": [
+          "film producer",
+          "TV producer",
+          "film director",
+          "theatre director",
+          "creative producer",
+          "assistant director"
+        ],
+        "tr": [
+          "yapımcı",
+          "yönetmen",
+          "film yönetmeni",
+          "tiyatro yönetmeni",
+          "televizyon yapımcısı"
+        ]
+      }
+    },
+    {
+      "id": "actor",
+      "group": "creative-media",
+      "en": "Actor",
+      "tr": "Oyuncu",
+      "synonyms": {
+        "en": [
+          "actress",
+          "stage actor",
+          "screen actor",
+          "voice actor"
+        ],
+        "tr": [
+          "aktör",
+          "aktris",
+          "tiyatro oyuncusu",
+          "seslendirme sanatçısı"
+        ]
+      }
+    },
+    {
+      "id": "musician",
+      "group": "creative-media",
+      "en": "Musician",
+      "tr": "Müzisyen",
+      "synonyms": {
+        "en": [
+          "singer",
+          "composer",
+          "songwriter",
+          "DJ",
+          "music producer",
+          "instrumentalist"
+        ],
+        "tr": [
+          "şarkıcı",
+          "besteci",
+          "söz yazarı",
+          "müzik prodüktörü"
+        ]
+      }
+    },
+    {
+      "id": "visual-artist",
+      "group": "creative-media",
+      "en": "Artist (visual arts)",
+      "tr": "Sanatçı (görsel sanatlar)",
+      "synonyms": {
+        "en": [
+          "artist",
+          "fine artist",
+          "fine art painter",
+          "sculptor",
+          "ceramicist",
+          "printmaker"
+        ],
+        "tr": [
+          "ressam",
+          "heykeltıraş",
+          "seramik sanatçısı",
+          "görsel sanatçı"
+        ]
+      }
+    },
+    {
+      "id": "writer",
+      "group": "creative-media",
+      "en": "Writer / author",
+      "tr": "Yazar",
+      "synonyms": {
+        "en": [
+          "author",
+          "novelist",
+          "copywriter",
+          "content writer",
+          "screenwriter",
+          "playwright",
+          "poet",
+          "ghostwriter",
+          "technical writer"
+        ],
+        "tr": [
+          "metin yazarı",
+          "senarist",
+          "romancı",
+          "şair",
+          "içerik yazarı",
+          "teknik yazar"
+        ]
+      }
+    },
+    {
+      "id": "journalist",
+      "group": "creative-media",
+      "en": "Journalist / editor",
+      "tr": "Gazeteci / editör",
+      "synonyms": {
+        "en": [
+          "reporter",
+          "editor",
+          "news editor",
+          "correspondent",
+          "sub-editor",
+          "magazine editor"
+        ],
+        "tr": [
+          "muhabir",
+          "haber editörü",
+          "köşe yazarı",
+          "editör"
+        ]
+      }
+    },
+    {
+      "id": "content-creator",
+      "group": "creative-media",
+      "en": "Content creator / influencer",
+      "tr": "İçerik üreticisi / influencer",
+      "synonyms": {
+        "en": [
+          "influencer",
+          "creator",
+          "YouTuber",
+          "podcaster",
+          "blogger",
+          "streamer"
+        ],
+        "tr": [
+          "içerik üretici",
+          "podcast yapımcısı",
+          "sosyal medya fenomeni",
+          "fenomen"
+        ]
+      }
+    },
+    {
+      "id": "translator-interpreter",
+      "group": "creative-media",
+      "en": "Translator / interpreter",
+      "tr": "Çevirmen / tercüman",
+      "synonyms": {
+        "en": [
+          "translator",
+          "interpreter",
+          "linguist",
+          "localisation specialist",
+          "subtitler",
+          "BSL interpreter"
+        ],
+        "tr": [
+          "tercüman",
+          "mütercim",
+          "yeminli tercüman",
+          "işaret dili tercümanı",
+          "yerelleştirme uzmanı"
+        ]
+      }
+    },
+    {
+      "id": "creative-director",
+      "group": "creative-media",
+      "en": "Creative / art director",
+      "tr": "Kreatif direktör / sanat yönetmeni",
+      "synonyms": {
+        "en": [
+          "creative director",
+          "art director",
+          "design director",
+          "head of design"
+        ],
+        "tr": [
+          "yaratıcı direktör",
+          "sanat yönetmeni",
+          "tasarım direktörü"
+        ]
+      }
+    },
+    {
+      "id": "other-creative-media",
+      "group": "creative-media",
+      "en": "Other — Creative, Media & Culture",
+      "tr": "Diğer — Yaratıcı sektör, medya ve kültür",
+      "synonyms": {
+        "en": [],
+        "tr": []
+      }
+    },
+    {
+      "id": "solicitor",
+      "group": "legal",
+      "en": "Solicitor",
+      "tr": "Avukat (solicitor)",
+      "synonyms": {
+        "en": [
+          "lawyer",
+          "attorney",
+          "legal adviser",
+          "trainee solicitor",
+          "associate solicitor"
+        ],
+        "tr": [
+          "avukat",
+          "hukukçu",
+          "stajyer avukat"
+        ]
+      }
+    },
+    {
+      "id": "barrister",
+      "group": "legal",
+      "en": "Barrister",
+      "tr": "Barrister (duruşma avukatı)",
+      "synonyms": {
+        "en": [
+          "advocate",
+          "KC",
+          "King's Counsel",
+          "pupil barrister"
+        ],
+        "tr": [
+          "duruşma avukatı"
+        ]
+      }
+    },
+    {
+      "id": "legal-counsel",
+      "group": "legal",
+      "en": "In-house lawyer / legal counsel",
+      "tr": "Şirket avukatı / hukuk müşaviri",
+      "synonyms": {
+        "en": [
+          "in-house lawyer",
+          "in-house counsel",
+          "legal counsel",
+          "general counsel",
+          "corporate lawyer",
+          "head of legal"
+        ],
+        "tr": [
+          "hukuk müşaviri",
+          "şirket avukatı",
+          "kurumsal avukat",
+          "hukuk direktörü"
+        ]
+      }
+    },
+    {
+      "id": "paralegal",
+      "group": "legal",
+      "en": "Paralegal",
+      "tr": "Hukuk asistanı",
+      "synonyms": {
+        "en": [
+          "legal assistant",
+          "legal executive",
+          "CILEX lawyer",
+          "conveyancer",
+          "legal secretary"
+        ],
+        "tr": [
+          "avukat asistanı",
+          "hukuk sekreteri"
+        ]
+      }
+    },
+    {
+      "id": "compliance-officer",
+      "group": "legal",
+      "en": "Compliance / regulatory specialist",
+      "tr": "Uyum / mevzuat uzmanı",
+      "synonyms": {
+        "en": [
+          "compliance officer",
+          "compliance manager",
+          "regulatory affairs",
+          "AML analyst",
+          "KYC analyst",
+          "financial crime analyst",
+          "data protection officer",
+          "DPO"
+        ],
+        "tr": [
+          "uyum uzmanı",
+          "uyum görevlisi",
+          "mevzuat uzmanı",
+          "kara para aklamayı önleme uzmanı",
+          "veri koruma görevlisi"
+        ]
+      }
+    },
+    {
+      "id": "other-legal",
+      "group": "legal",
+      "en": "Other — Law & Compliance",
+      "tr": "Diğer — Hukuk ve uyum",
+      "synonyms": {
+        "en": [],
+        "tr": []
+      }
+    },
+    {
+      "id": "general-practitioner",
+      "group": "health-social-care",
+      "en": "GP (general practitioner)",
+      "tr": "Aile hekimi",
+      "synonyms": {
+        "en": [
+          "GP",
+          "general practitioner",
+          "family doctor",
+          "family physician"
+        ],
+        "tr": [
+          "pratisyen hekim",
+          "aile doktoru",
+          "pratisyen doktor"
+        ]
+      }
+    },
+    {
+      "id": "hospital-doctor",
+      "group": "health-social-care",
+      "en": "Doctor (hospital / specialist)",
+      "tr": "Doktor (hastane / uzman)",
+      "synonyms": {
+        "en": [
+          "doctor",
+          "physician",
+          "medic",
+          "medical consultant",
+          "surgeon",
+          "junior doctor",
+          "resident doctor",
+          "registrar",
+          "anaesthetist",
+          "psychiatrist",
+          "paediatrician"
+        ],
+        "tr": [
+          "doktor",
+          "hekim",
+          "uzman doktor",
+          "uzman hekim",
+          "cerrah",
+          "asistan doktor",
+          "psikiyatrist",
+          "çocuk doktoru",
+          "anestezi uzmanı"
+        ]
+      }
+    },
+    {
+      "id": "nurse",
+      "group": "health-social-care",
+      "en": "Nurse",
+      "tr": "Hemşire",
+      "synonyms": {
+        "en": [
+          "registered nurse",
+          "RN",
+          "staff nurse",
+          "nurse practitioner",
+          "charge nurse",
+          "theatre nurse"
+        ],
+        "tr": [
+          "uzman hemşire",
+          "ameliyathane hemşiresi",
+          "sorumlu hemşire"
+        ]
+      }
+    },
+    {
+      "id": "midwife",
+      "group": "health-social-care",
+      "en": "Midwife",
+      "tr": "Ebe",
+      "synonyms": {
+        "en": [
+          "community midwife",
+          "registered midwife"
+        ],
+        "tr": [
+          "toplum ebesi"
+        ]
+      }
+    },
+    {
+      "id": "paramedic",
+      "group": "health-social-care",
+      "en": "Paramedic",
+      "tr": "Paramedik",
+      "synonyms": {
+        "en": [
+          "ambulance paramedic",
+          "emergency medical technician",
+          "EMT",
+          "ambulance technician"
+        ],
+        "tr": [
+          "acil tıp teknisyeni",
+          "ATT",
+          "ambulans personeli"
+        ]
+      }
+    },
+    {
+      "id": "pharmacist",
+      "group": "health-social-care",
+      "en": "Pharmacist",
+      "tr": "Eczacı",
+      "synonyms": {
+        "en": [
+          "clinical pharmacist",
+          "community pharmacist",
+          "hospital pharmacist"
+        ],
+        "tr": [
+          "klinik eczacı",
+          "hastane eczacısı"
+        ]
+      }
+    },
+    {
+      "id": "dentist",
+      "group": "health-social-care",
+      "en": "Dentist",
+      "tr": "Diş hekimi",
+      "synonyms": {
+        "en": [
+          "dental surgeon",
+          "orthodontist",
+          "dental hygienist",
+          "dental therapist"
+        ],
+        "tr": [
+          "dişçi",
+          "diş doktoru",
+          "ortodontist",
+          "ağız ve diş sağlığı"
+        ]
+      }
+    },
+    {
+      "id": "physiotherapist",
+      "group": "health-social-care",
+      "en": "Physiotherapist",
+      "tr": "Fizyoterapist",
+      "synonyms": {
+        "en": [
+          "physio",
+          "physical therapist",
+          "sports physio",
+          "osteopath",
+          "chiropractor"
+        ],
+        "tr": [
+          "fizik tedavi uzmanı",
+          "fizyoterapi uzmanı",
+          "osteopat"
+        ]
+      }
+    },
+    {
+      "id": "psychologist",
+      "group": "health-social-care",
+      "en": "Psychologist",
+      "tr": "Psikolog",
+      "synonyms": {
+        "en": [
+          "clinical psychologist",
+          "counselling psychologist",
+          "educational psychologist",
+          "occupational psychologist"
+        ],
+        "tr": [
+          "klinik psikolog",
+          "uzman psikolog",
+          "okul psikoloğu"
+        ]
+      }
+    },
+    {
+      "id": "counsellor-psychotherapist",
+      "group": "health-social-care",
+      "en": "Counsellor / psychotherapist",
+      "tr": "Psikoterapist / psikolojik danışman",
+      "synonyms": {
+        "en": [
+          "counsellor",
+          "counselor",
+          "psychotherapist",
+          "therapist",
+          "CBT therapist",
+          "family therapist",
+          "art therapist"
+        ],
+        "tr": [
+          "psikoterapist",
+          "psikolojik danışman",
+          "terapist",
+          "aile terapisti"
+        ]
+      }
+    },
+    {
+      "id": "veterinarian",
+      "group": "health-social-care",
+      "en": "Vet",
+      "tr": "Veteriner hekim",
+      "synonyms": {
+        "en": [
+          "veterinary surgeon",
+          "veterinarian",
+          "veterinary nurse",
+          "vet nurse"
+        ],
+        "tr": [
+          "veteriner",
+          "veteriner teknikeri"
+        ]
+      }
+    },
+    {
+      "id": "healthcare-assistant",
+      "group": "health-social-care",
+      "en": "Healthcare assistant",
+      "tr": "Sağlık asistanı",
+      "synonyms": {
+        "en": [
+          "HCA",
+          "nursing assistant",
+          "nursing associate",
+          "clinical support worker",
+          "health care assistant"
+        ],
+        "tr": [
+          "hasta bakım teknisyeni",
+          "hemşire yardımcısı",
+          "sağlık bakım teknisyeni"
+        ]
+      }
+    },
+    {
+      "id": "healthcare-manager",
+      "group": "health-social-care",
+      "en": "Healthcare manager",
+      "tr": "Sağlık yöneticisi",
+      "synonyms": {
+        "en": [
+          "NHS manager",
+          "practice manager",
+          "hospital manager",
+          "clinic manager"
+        ],
+        "tr": [
+          "hastane yöneticisi",
+          "klinik müdürü",
+          "sağlık kurumları yöneticisi"
+        ]
+      }
+    },
+    {
+      "id": "social-worker",
+      "group": "health-social-care",
+      "en": "Social worker",
+      "tr": "Sosyal hizmet uzmanı",
+      "synonyms": {
+        "en": [
+          "child protection social worker",
+          "family support worker",
+          "case worker",
+          "housing officer"
+        ],
+        "tr": [
+          "sosyal çalışmacı",
+          "sosyal hizmet görevlisi"
+        ]
+      }
+    },
+    {
+      "id": "care-worker",
+      "group": "health-social-care",
+      "en": "Care worker / support worker",
+      "tr": "Bakım personeli / destek çalışanı",
+      "synonyms": {
+        "en": [
+          "carer",
+          "support worker",
+          "care assistant",
+          "home carer",
+          "domiciliary care worker"
+        ],
+        "tr": [
+          "bakıcı",
+          "hasta bakıcı",
+          "yaşlı bakıcısı",
+          "evde bakım personeli"
+        ]
+      }
+    },
+    {
+      "id": "nanny-childminder",
+      "group": "health-social-care",
+      "en": "Nanny / childminder",
+      "tr": "Çocuk bakıcısı",
+      "synonyms": {
+        "en": [
+          "nanny",
+          "childminder",
+          "au pair",
+          "babysitter",
+          "childcare worker"
+        ],
+        "tr": [
+          "dadı",
+          "bebek bakıcısı",
+          "çocuk bakım elemanı"
+        ]
+      }
+    },
+    {
+      "id": "other-health-social-care",
+      "group": "health-social-care",
+      "en": "Other — Health & Social Care",
+      "tr": "Diğer — Sağlık ve sosyal bakım",
+      "synonyms": {
+        "en": [],
+        "tr": []
+      }
+    },
+    {
+      "id": "primary-teacher",
+      "group": "education",
+      "en": "Primary school teacher",
+      "tr": "İlkokul öğretmeni",
+      "synonyms": {
+        "en": [
+          "primary teacher",
+          "class teacher",
+          "KS2 teacher",
+          "elementary school teacher"
+        ],
+        "tr": [
+          "sınıf öğretmeni",
+          "ilköğretim öğretmeni"
+        ]
+      }
+    },
+    {
+      "id": "secondary-teacher",
+      "group": "education",
+      "en": "Secondary school teacher",
+      "tr": "Ortaokul / lise öğretmeni",
+      "synonyms": {
+        "en": [
+          "secondary teacher",
+          "high school teacher",
+          "sixth form teacher",
+          "subject teacher",
+          "maths teacher",
+          "science teacher"
+        ],
+        "tr": [
+          "lise öğretmeni",
+          "ortaokul öğretmeni",
+          "branş öğretmeni"
+        ]
+      }
+    },
+    {
+      "id": "early-years-practitioner",
+      "group": "education",
+      "en": "Early years practitioner / nursery teacher",
+      "tr": "Okul öncesi öğretmeni",
+      "synonyms": {
+        "en": [
+          "nursery teacher",
+          "nursery nurse",
+          "early years educator",
+          "preschool teacher",
+          "kindergarten teacher"
+        ],
+        "tr": [
+          "anaokulu öğretmeni",
+          "kreş öğretmeni",
+          "okul öncesi eğitimci"
+        ]
+      }
+    },
+    {
+      "id": "teaching-assistant",
+      "group": "education",
+      "en": "Teaching assistant",
+      "tr": "Öğretmen yardımcısı",
+      "synonyms": {
+        "en": [
+          "learning support assistant",
+          "LSA",
+          "classroom assistant"
+        ],
+        "tr": [
+          "yardımcı öğretmen",
+          "sınıf asistanı"
+        ]
+      }
+    },
+    {
+      "id": "lecturer",
+      "group": "education",
+      "en": "Lecturer / professor",
+      "tr": "Akademisyen / öğretim üyesi",
+      "synonyms": {
+        "en": [
+          "university lecturer",
+          "professor",
+          "academic",
+          "senior lecturer",
+          "associate professor",
+          "teaching fellow"
+        ],
+        "tr": [
+          "akademisyen",
+          "öğretim görevlisi",
+          "doçent",
+          "üniversite hocası",
+          "profesör"
+        ]
+      }
+    },
+    {
+      "id": "researcher",
+      "group": "education",
+      "en": "Researcher",
+      "tr": "Araştırmacı",
+      "synonyms": {
+        "en": [
+          "research fellow",
+          "postdoctoral researcher",
+          "postdoc",
+          "research associate",
+          "research scientist",
+          "research assistant"
+        ],
+        "tr": [
+          "araştırma görevlisi",
+          "doktora sonrası araştırmacı",
+          "bilim insanı"
+        ]
+      }
+    },
+    {
+      "id": "language-teacher",
+      "group": "education",
+      "en": "Language teacher",
+      "tr": "Dil öğretmeni",
+      "synonyms": {
+        "en": [
+          "EFL teacher",
+          "ESL teacher",
+          "ESOL teacher",
+          "TEFL teacher",
+          "English language teacher",
+          "language tutor"
+        ],
+        "tr": [
+          "İngilizce öğretmeni",
+          "yabancı dil öğretmeni",
+          "Türkçe öğretmeni"
+        ]
+      }
+    },
+    {
+      "id": "tutor",
+      "group": "education",
+      "en": "Private tutor",
+      "tr": "Özel ders öğretmeni",
+      "synonyms": {
+        "en": [
+          "tutor",
+          "home tutor",
+          "online tutor",
+          "exam tutor"
+        ],
+        "tr": [
+          "özel öğretmen",
+          "özel ders hocası"
+        ]
+      }
+    },
+    {
+      "id": "other-education",
+      "group": "education",
+      "en": "Other — Education & Research",
+      "tr": "Diğer — Eğitim ve araştırma",
+      "synonyms": {
+        "en": [],
+        "tr": []
+      }
+    },
+    {
+      "id": "civil-servant",
+      "group": "public-nonprofit",
+      "en": "Civil servant",
+      "tr": "Devlet memuru",
+      "synonyms": {
+        "en": [
+          "public servant",
+          "government official",
+          "government employee"
+        ],
+        "tr": [
+          "kamu görevlisi",
+          "memur",
+          "kamu çalışanı"
+        ]
+      }
+    },
+    {
+      "id": "policy-adviser",
+      "group": "public-nonprofit",
+      "en": "Policy adviser / analyst",
+      "tr": "Kamu politikası uzmanı / analisti",
+      "synonyms": {
+        "en": [
+          "policy advisor",
+          "policy analyst",
+          "policy officer",
+          "policy manager",
+          "think tank researcher"
+        ],
+        "tr": [
+          "politika danışmanı",
+          "kamu politikası uzmanı"
+        ]
+      }
+    },
+    {
+      "id": "local-government-officer",
+      "group": "public-nonprofit",
+      "en": "Local government officer",
+      "tr": "Yerel yönetim görevlisi",
+      "synonyms": {
+        "en": [
+          "council officer",
+          "local authority officer",
+          "council worker"
+        ],
+        "tr": [
+          "belediye çalışanı",
+          "belediye memuru",
+          "yerel yönetim uzmanı"
+        ]
+      }
+    },
+    {
+      "id": "firefighter",
+      "group": "public-nonprofit",
+      "en": "Firefighter",
+      "tr": "İtfaiyeci",
+      "synonyms": {
+        "en": [
+          "fire fighter",
+          "fireman",
+          "fire officer"
+        ],
+        "tr": [
+          "itfaiye eri",
+          "itfaiye görevlisi"
+        ]
+      }
+    },
+    {
+      "id": "charity-professional",
+      "group": "public-nonprofit",
+      "en": "Charity / non-profit professional",
+      "tr": "Sivil toplum (STK) çalışanı",
+      "synonyms": {
+        "en": [
+          "charity worker",
+          "NGO worker",
+          "non-profit manager",
+          "fundraiser",
+          "fundraising manager",
+          "programme officer",
+          "volunteer coordinator",
+          "humanitarian worker",
+          "third sector"
+        ],
+        "tr": [
+          "STK çalışanı",
+          "vakıf çalışanı",
+          "dernek çalışanı",
+          "bağış toplama uzmanı",
+          "gönüllü koordinatörü",
+          "insani yardım çalışanı",
+          "sivil toplum çalışanı"
+        ]
+      }
+    },
+    {
+      "id": "other-public-nonprofit",
+      "group": "public-nonprofit",
+      "en": "Other — Public Sector & Non-profit",
+      "tr": "Diğer — Kamu ve sivil toplum",
+      "synonyms": {
+        "en": [],
+        "tr": []
+      }
+    },
+    {
+      "id": "architect",
+      "group": "property-construction",
+      "en": "Architect",
+      "tr": "Mimar",
+      "synonyms": {
+        "en": [
+          "architectural designer",
+          "architectural assistant",
+          "architectural technologist",
+          "landscape architect",
+          "interior architect",
+          "interior designer"
+        ],
+        "tr": [
+          "yüksek mimar",
+          "peyzaj mimarı",
+          "iç mimar",
+          "iç mekân tasarımcısı"
+        ]
+      }
+    },
+    {
+      "id": "urban-planner",
+      "group": "property-construction",
+      "en": "Town planner / urban planner",
+      "tr": "Şehir plancısı",
+      "synonyms": {
+        "en": [
+          "town planner",
+          "urban planner",
+          "planning officer",
+          "urban designer",
+          "transport planner"
+        ],
+        "tr": [
+          "şehir ve bölge plancısı",
+          "kent plancısı",
+          "kentsel tasarımcı"
+        ]
+      }
+    },
+    {
+      "id": "quantity-surveyor",
+      "group": "property-construction",
+      "en": "Quantity surveyor",
+      "tr": "Metraj ve maliyet uzmanı",
+      "synonyms": {
+        "en": [
+          "QS",
+          "cost consultant",
+          "cost manager"
+        ],
+        "tr": [
+          "hakediş uzmanı",
+          "maliyet mühendisi",
+          "metraj uzmanı"
+        ]
+      }
+    },
+    {
+      "id": "chartered-surveyor",
+      "group": "property-construction",
+      "en": "Chartered surveyor",
+      "tr": "Sörveyör (yapı / arazi / değerleme)",
+      "synonyms": {
+        "en": [
+          "building surveyor",
+          "land surveyor",
+          "geomatics surveyor",
+          "valuation surveyor",
+          "property surveyor",
+          "RICS surveyor"
+        ],
+        "tr": [
+          "harita mühendisi",
+          "gayrimenkul değerleme uzmanı",
+          "ekspertiz uzmanı",
+          "yapı denetçisi"
+        ]
+      }
+    },
+    {
+      "id": "construction-manager",
+      "group": "property-construction",
+      "en": "Construction / site manager",
+      "tr": "İnşaat / şantiye müdürü",
+      "synonyms": {
+        "en": [
+          "construction manager",
+          "site manager",
+          "site supervisor",
+          "construction project manager",
+          "foreman",
+          "clerk of works",
+          "building contractor"
+        ],
+        "tr": [
+          "şantiye şefi",
+          "şantiye müdürü",
+          "saha mühendisi",
+          "inşaat proje müdürü",
+          "müteahhit",
+          "ustabaşı"
+        ]
+      }
+    },
+    {
+      "id": "estate-agent",
+      "group": "property-construction",
+      "en": "Estate agent / letting agent",
+      "tr": "Emlak danışmanı",
+      "synonyms": {
+        "en": [
+          "real estate agent",
+          "letting agent",
+          "lettings negotiator",
+          "sales negotiator",
+          "property consultant",
+          "realtor"
+        ],
+        "tr": [
+          "emlakçı",
+          "gayrimenkul danışmanı",
+          "emlak komisyoncusu"
+        ]
+      }
+    },
+    {
+      "id": "property-manager",
+      "group": "property-construction",
+      "en": "Property / facilities manager",
+      "tr": "Gayrimenkul / tesis yöneticisi",
+      "synonyms": {
+        "en": [
+          "property manager",
+          "facilities manager",
+          "building manager",
+          "block manager",
+          "estates manager",
+          "property developer"
+        ],
+        "tr": [
+          "site yöneticisi",
+          "apartman yöneticisi",
+          "tesis müdürü",
+          "bina yöneticisi",
+          "gayrimenkul geliştirici",
+          "mülk yöneticisi"
+        ]
+      }
+    },
+    {
+      "id": "other-property-construction",
+      "group": "property-construction",
+      "en": "Other — Architecture, Property & Construction",
+      "tr": "Diğer — Mimarlık, gayrimenkul ve inşaat",
+      "synonyms": {
+        "en": [],
+        "tr": []
+      }
+    },
+    {
+      "id": "electrician",
+      "group": "skilled-trades",
+      "en": "Electrician",
+      "tr": "Elektrikçi",
+      "synonyms": {
+        "en": [
+          "electrical installer",
+          "electrical contractor",
+          "sparky"
+        ],
+        "tr": [
+          "elektrik ustası",
+          "elektrik teknisyeni"
+        ]
+      }
+    },
+    {
+      "id": "plumber",
+      "group": "skilled-trades",
+      "en": "Plumber / heating engineer",
+      "tr": "Tesisatçı",
+      "synonyms": {
+        "en": [
+          "plumber",
+          "gas engineer",
+          "heating engineer",
+          "Gas Safe engineer",
+          "boiler engineer",
+          "HVAC engineer",
+          "air conditioning engineer"
+        ],
+        "tr": [
+          "su tesisatçısı",
+          "sıhhi tesisatçı",
+          "doğalgaz ustası",
+          "kalorifer tesisatçısı",
+          "klima teknisyeni"
+        ]
+      }
+    },
+    {
+      "id": "carpenter",
+      "group": "skilled-trades",
+      "en": "Carpenter / joiner",
+      "tr": "Marangoz",
+      "synonyms": {
+        "en": [
+          "joiner",
+          "cabinet maker",
+          "furniture maker",
+          "kitchen fitter",
+          "shopfitter"
+        ],
+        "tr": [
+          "doğramacı",
+          "mobilya ustası",
+          "ahşap ustası"
+        ]
+      }
+    },
+    {
+      "id": "builder",
+      "group": "skilled-trades",
+      "en": "Builder",
+      "tr": "İnşaat ustası",
+      "synonyms": {
+        "en": [
+          "general builder",
+          "bricklayer",
+          "plasterer",
+          "tiler",
+          "roofer",
+          "groundworker",
+          "construction worker",
+          "stonemason"
+        ],
+        "tr": [
+          "duvar ustası",
+          "sıvacı",
+          "fayansçı",
+          "çatı ustası",
+          "inşaat işçisi",
+          "kalfa"
+        ]
+      }
+    },
+    {
+      "id": "painter-decorator",
+      "group": "skilled-trades",
+      "en": "Painter and decorator",
+      "tr": "Boyacı / dekorasyon ustası",
+      "synonyms": {
+        "en": [
+          "decorator",
+          "painter decorator",
+          "wallpaper hanger"
+        ],
+        "tr": [
+          "boya ustası",
+          "badanacı"
+        ]
+      }
+    },
+    {
+      "id": "gardener",
+      "group": "skilled-trades",
+      "en": "Gardener / landscaper",
+      "tr": "Bahçıvan / peyzaj ustası",
+      "synonyms": {
+        "en": [
+          "landscaper",
+          "landscape gardener",
+          "tree surgeon",
+          "arborist",
+          "groundskeeper"
+        ],
+        "tr": [
+          "peyzajcı",
+          "bahçe bakım uzmanı"
+        ]
+      }
+    },
+    {
+      "id": "mechanic",
+      "group": "skilled-trades",
+      "en": "Vehicle mechanic / technician",
+      "tr": "Oto tamircisi / araç teknisyeni",
+      "synonyms": {
+        "en": [
+          "mechanic",
+          "car mechanic",
+          "motor mechanic",
+          "vehicle technician",
+          "auto electrician",
+          "MOT tester",
+          "bike mechanic"
+        ],
+        "tr": [
+          "tamirci",
+          "oto elektrikçisi",
+          "kaportacı",
+          "otomotiv teknisyeni",
+          "bisiklet tamircisi"
+        ]
+      }
+    },
+    {
+      "id": "handyperson",
+      "group": "skilled-trades",
+      "en": "Handyperson / maintenance technician",
+      "tr": "Tamir ve bakım ustası",
+      "synonyms": {
+        "en": [
+          "handyman",
+          "maintenance technician",
+          "maintenance engineer",
+          "multi-trader"
+        ],
+        "tr": [
+          "tadilatçı",
+          "bakım teknisyeni",
+          "tamirat ustası"
+        ]
+      }
+    },
+    {
+      "id": "tailor",
+      "group": "skilled-trades",
+      "en": "Tailor / dressmaker",
+      "tr": "Terzi",
+      "synonyms": {
+        "en": [
+          "dressmaker",
+          "seamstress",
+          "alterations specialist",
+          "garment maker",
+          "upholsterer",
+          "shoemaker",
+          "cobbler"
+        ],
+        "tr": [
+          "dikişçi",
+          "döşemeci",
+          "kunduracı",
+          "ayakkabı tamircisi"
+        ]
+      }
+    },
+    {
+      "id": "other-skilled-trades",
+      "group": "skilled-trades",
+      "en": "Other — Skilled Trades",
+      "tr": "Diğer — Zanaat ve teknik işler",
+      "synonyms": {
+        "en": [],
+        "tr": []
+      }
+    },
+    {
+      "id": "chef",
+      "group": "hospitality-events",
+      "en": "Chef / cook",
+      "tr": "Aşçı / şef",
+      "synonyms": {
+        "en": [
+          "chef",
+          "cook",
+          "head chef",
+          "sous chef",
+          "pastry chef",
+          "chef de partie",
+          "private chef",
+          "baker"
+        ],
+        "tr": [
+          "aşçı",
+          "şef aşçı",
+          "aşçıbaşı",
+          "pasta şefi",
+          "pastacı",
+          "fırıncı"
+        ]
+      }
+    },
+    {
+      "id": "server",
+      "group": "hospitality-events",
+      "en": "Server / waiting staff",
+      "tr": "Garson",
+      "synonyms": {
+        "en": [
+          "waiter",
+          "waitress",
+          "waiting staff",
+          "front of house",
+          "restaurant host",
+          "maître d'"
+        ],
+        "tr": [
+          "servis elemanı",
+          "komi",
+          "restoran personeli"
+        ]
+      }
+    },
+    {
+      "id": "bartender",
+      "group": "hospitality-events",
+      "en": "Bartender",
+      "tr": "Bar görevlisi (bartender)",
+      "synonyms": {
+        "en": [
+          "barman",
+          "barmaid",
+          "bar staff",
+          "mixologist"
+        ],
+        "tr": [
+          "barmen",
+          "barmeyd",
+          "miksolog"
+        ]
+      }
+    },
+    {
+      "id": "barista",
+      "group": "hospitality-events",
+      "en": "Barista",
+      "tr": "Barista",
+      "synonyms": {
+        "en": [
+          "coffee shop staff",
+          "café assistant",
+          "coffee roaster"
+        ],
+        "tr": [
+          "kahve ustası",
+          "kafe çalışanı"
+        ]
+      }
+    },
+    {
+      "id": "restaurant-manager",
+      "group": "hospitality-events",
+      "en": "Restaurant / bar manager",
+      "tr": "Restoran / bar müdürü",
+      "synonyms": {
+        "en": [
+          "restaurant manager",
+          "bar manager",
+          "café manager",
+          "pub manager",
+          "catering manager",
+          "food and beverage manager",
+          "F&B manager"
+        ],
+        "tr": [
+          "restoran müdürü",
+          "kafe müdürü",
+          "yiyecek içecek müdürü"
+        ]
+      }
+    },
+    {
+      "id": "hotel-manager",
+      "group": "hospitality-events",
+      "en": "Hotel manager",
+      "tr": "Otel müdürü",
+      "synonyms": {
+        "en": [
+          "hotel general manager",
+          "front office manager",
+          "guest relations manager",
+          "hospitality manager",
+          "concierge"
+        ],
+        "tr": [
+          "otel yöneticisi",
+          "ön büro müdürü",
+          "konaklama müdürü",
+          "misafir ilişkileri yöneticisi",
+          "resepsiyon şefi"
+        ]
+      }
+    },
+    {
+      "id": "event-manager",
+      "group": "hospitality-events",
+      "en": "Event manager / planner",
+      "tr": "Etkinlik yöneticisi / organizatör",
+      "synonyms": {
+        "en": [
+          "event planner",
+          "events coordinator",
+          "wedding planner",
+          "conference organiser",
+          "event producer"
+        ],
+        "tr": [
+          "organizatör",
+          "etkinlik planlayıcısı",
+          "düğün organizatörü",
+          "organizasyon uzmanı"
+        ]
+      }
+    },
+    {
+      "id": "tour-guide",
+      "group": "hospitality-events",
+      "en": "Tour guide",
+      "tr": "Tur rehberi",
+      "synonyms": {
+        "en": [
+          "tourist guide",
+          "Blue Badge guide",
+          "travel consultant",
+          "travel agent",
+          "tour operator"
+        ],
+        "tr": [
+          "rehber",
+          "turist rehberi",
+          "seyahat danışmanı",
+          "tur operatörü"
+        ]
+      }
+    },
+    {
+      "id": "other-hospitality-events",
+      "group": "hospitality-events",
+      "en": "Other — Hospitality, Food & Events",
+      "tr": "Diğer — Konaklama, yeme-içme ve etkinlik",
+      "synonyms": {
+        "en": [],
+        "tr": []
+      }
+    },
+    {
+      "id": "sales-assistant",
+      "group": "retail-personal-services",
+      "en": "Sales assistant (retail)",
+      "tr": "Mağaza satış danışmanı",
+      "synonyms": {
+        "en": [
+          "retail assistant",
+          "shop assistant",
+          "sales associate",
+          "store associate",
+          "cashier",
+          "retail staff",
+          "visual merchandiser"
+        ],
+        "tr": [
+          "satış danışmanı",
+          "mağaza çalışanı",
+          "kasiyer",
+          "tezgâhtar",
+          "satış elemanı"
+        ]
+      }
+    },
+    {
+      "id": "store-manager",
+      "group": "retail-personal-services",
+      "en": "Store / retail manager",
+      "tr": "Mağaza müdürü",
+      "synonyms": {
+        "en": [
+          "store manager",
+          "shop manager",
+          "retail manager",
+          "assistant store manager"
+        ],
+        "tr": [
+          "mağaza yöneticisi",
+          "perakende müdürü",
+          "mağaza sorumlusu"
+        ]
+      }
+    },
+    {
+      "id": "customer-service-adviser",
+      "group": "retail-personal-services",
+      "en": "Customer service adviser",
+      "tr": "Müşteri hizmetleri temsilcisi",
+      "synonyms": {
+        "en": [
+          "customer service advisor",
+          "call centre agent",
+          "contact centre agent",
+          "customer support agent",
+          "customer care"
+        ],
+        "tr": [
+          "çağrı merkezi temsilcisi",
+          "müşteri temsilcisi",
+          "müşteri destek uzmanı"
+        ]
+      }
+    },
+    {
+      "id": "hairdresser",
+      "group": "retail-personal-services",
+      "en": "Hairdresser / hair stylist",
+      "tr": "Kuaför",
+      "synonyms": {
+        "en": [
+          "hair stylist",
+          "hairstylist",
+          "colourist"
+        ],
+        "tr": [
+          "saç tasarımcısı",
+          "saç stilisti"
+        ]
+      }
+    },
+    {
+      "id": "barber",
+      "group": "retail-personal-services",
+      "en": "Barber",
+      "tr": "Berber",
+      "synonyms": {
+        "en": [
+          "barbershop",
+          "gents' barber"
+        ],
+        "tr": [
+          "erkek kuaförü"
+        ]
+      }
+    },
+    {
+      "id": "beauty-therapist",
+      "group": "retail-personal-services",
+      "en": "Beauty therapist",
+      "tr": "Güzellik uzmanı",
+      "synonyms": {
+        "en": [
+          "beautician",
+          "aesthetician",
+          "nail technician",
+          "make-up artist",
+          "makeup artist",
+          "lash technician",
+          "massage therapist",
+          "spa therapist"
+        ],
+        "tr": [
+          "estetisyen",
+          "manikürcü",
+          "makyaj sanatçısı",
+          "masaj terapisti",
+          "cilt bakım uzmanı"
+        ]
+      }
+    },
+    {
+      "id": "cleaner",
+      "group": "retail-personal-services",
+      "en": "Cleaner / housekeeper",
+      "tr": "Temizlik görevlisi",
+      "synonyms": {
+        "en": [
+          "cleaner",
+          "housekeeper",
+          "domestic cleaner",
+          "office cleaner",
+          "room attendant",
+          "cleaning operative",
+          "caretaker"
+        ],
+        "tr": [
+          "temizlikçi",
+          "temizlik personeli",
+          "kat görevlisi",
+          "kapıcı"
+        ]
+      }
+    },
+    {
+      "id": "security-officer",
+      "group": "retail-personal-services",
+      "en": "Security officer",
+      "tr": "Güvenlik görevlisi",
+      "synonyms": {
+        "en": [
+          "security guard",
+          "door supervisor",
+          "bouncer",
+          "CCTV operator"
+        ],
+        "tr": [
+          "güvenlikçi",
+          "özel güvenlik görevlisi",
+          "güvenlik personeli"
+        ]
+      }
+    },
+    {
+      "id": "other-retail-personal-services",
+      "group": "retail-personal-services",
+      "en": "Other — Retail & Personal Services",
+      "tr": "Diğer — Perakende ve kişisel hizmetler",
+      "synonyms": {
+        "en": [],
+        "tr": []
+      }
+    },
+    {
+      "id": "personal-trainer",
+      "group": "sport-fitness",
+      "en": "Personal trainer",
+      "tr": "Kişisel antrenör",
+      "synonyms": {
+        "en": [
+          "PT",
+          "fitness instructor",
+          "gym instructor",
+          "fitness coach",
+          "strength and conditioning coach",
+          "group exercise instructor"
+        ],
+        "tr": [
+          "fitness eğitmeni",
+          "spor eğitmeni",
+          "kişisel eğitmen",
+          "spor salonu eğitmeni"
+        ]
+      }
+    },
+    {
+      "id": "yoga-instructor",
+      "group": "sport-fitness",
+      "en": "Yoga / Pilates instructor",
+      "tr": "Yoga / Pilates eğitmeni",
+      "synonyms": {
+        "en": [
+          "yoga teacher",
+          "yoga instructor",
+          "pilates instructor",
+          "pilates teacher",
+          "barre instructor"
+        ],
+        "tr": [
+          "yoga öğretmeni",
+          "yoga hocası",
+          "pilates hocası",
+          "pilates eğitmeni"
+        ]
+      }
+    },
+    {
+      "id": "sports-coach",
+      "group": "sport-fitness",
+      "en": "Sports coach",
+      "tr": "Spor koçu / antrenör",
+      "synonyms": {
+        "en": [
+          "football coach",
+          "tennis coach",
+          "swimming instructor",
+          "swim teacher",
+          "referee",
+          "sports official"
+        ],
+        "tr": [
+          "antrenör",
+          "futbol antrenörü",
+          "yüzme hocası",
+          "hakem"
+        ]
+      }
+    },
+    {
+      "id": "professional-athlete",
+      "group": "sport-fitness",
+      "en": "Professional athlete",
+      "tr": "Profesyonel sporcu",
+      "synonyms": {
+        "en": [
+          "athlete",
+          "sportsperson",
+          "footballer",
+          "professional footballer"
+        ],
+        "tr": [
+          "sporcu",
+          "futbolcu",
+          "atlet"
+        ]
+      }
+    },
+    {
+      "id": "other-sport-fitness",
+      "group": "sport-fitness",
+      "en": "Other — Sport & Fitness",
+      "tr": "Diğer — Spor ve fitness",
+      "synonyms": {
+        "en": [],
+        "tr": []
+      }
+    },
+    {
+      "id": "supply-chain-manager",
+      "group": "transport-logistics",
+      "en": "Supply chain / logistics manager",
+      "tr": "Tedarik zinciri / lojistik müdürü",
+      "synonyms": {
+        "en": [
+          "supply chain manager",
+          "logistics manager",
+          "procurement manager",
+          "purchasing manager",
+          "buyer",
+          "procurement specialist",
+          "distribution manager",
+          "logistics coordinator",
+          "warehouse manager"
+        ],
+        "tr": [
+          "lojistik müdürü",
+          "lojistik uzmanı",
+          "satın alma müdürü",
+          "satın alma uzmanı",
+          "depo müdürü",
+          "dış ticaret uzmanı"
+        ]
+      }
+    },
+    {
+      "id": "warehouse-operative",
+      "group": "transport-logistics",
+      "en": "Warehouse operative",
+      "tr": "Depo çalışanı",
+      "synonyms": {
+        "en": [
+          "warehouse worker",
+          "picker packer",
+          "order picker",
+          "forklift driver",
+          "stock controller",
+          "warehouse assistant"
+        ],
+        "tr": [
+          "depocu",
+          "depo elemanı",
+          "forklift operatörü",
+          "stok sorumlusu"
+        ]
+      }
+    },
+    {
+      "id": "delivery-driver",
+      "group": "transport-logistics",
+      "en": "Delivery driver / courier",
+      "tr": "Kurye / teslimat sürücüsü",
+      "synonyms": {
+        "en": [
+          "courier",
+          "van driver",
+          "delivery rider",
+          "cycle courier",
+          "postal worker",
+          "postman",
+          "multi-drop driver",
+          "lorry driver",
+          "HGV driver",
+          "truck driver"
+        ],
+        "tr": [
+          "kurye",
+          "motorlu kurye",
+          "kargo dağıtıcı",
+          "postacı",
+          "tır şoförü",
+          "kamyon şoförü"
+        ]
+      }
+    },
+    {
+      "id": "taxi-driver",
+      "group": "transport-logistics",
+      "en": "Taxi / private hire driver",
+      "tr": "Taksi / özel araç şoförü",
+      "synonyms": {
+        "en": [
+          "cab driver",
+          "black cab driver",
+          "minicab driver",
+          "private hire driver",
+          "Uber driver",
+          "rideshare driver",
+          "chauffeur"
+        ],
+        "tr": [
+          "taksici",
+          "taksi şoförü",
+          "özel şoför",
+          "şoför"
+        ]
+      }
+    },
+    {
+      "id": "bus-driver",
+      "group": "transport-logistics",
+      "en": "Bus driver",
+      "tr": "Otobüs şoförü",
+      "synonyms": {
+        "en": [
+          "bus operator",
+          "coach driver",
+          "tram driver"
+        ],
+        "tr": [
+          "otobüs sürücüsü",
+          "tramvay sürücüsü",
+          "servis şoförü"
+        ]
+      }
+    },
+    {
+      "id": "train-driver",
+      "group": "transport-logistics",
+      "en": "Train driver",
+      "tr": "Makinist",
+      "synonyms": {
+        "en": [
+          "tube driver",
+          "train operator",
+          "railway worker",
+          "rail worker",
+          "signaller",
+          "train conductor"
+        ],
+        "tr": [
+          "tren makinisti",
+          "tren sürücüsü",
+          "metro sürücüsü",
+          "demiryolu çalışanı"
+        ]
+      }
+    },
+    {
+      "id": "pilot",
+      "group": "transport-logistics",
+      "en": "Pilot",
+      "tr": "Pilot",
+      "synonyms": {
+        "en": [
+          "airline pilot",
+          "commercial pilot",
+          "first officer"
+        ],
+        "tr": [
+          "kaptan pilot",
+          "yardımcı pilot",
+          "havayolu pilotu"
+        ]
+      }
+    },
+    {
+      "id": "flight-attendant",
+      "group": "transport-logistics",
+      "en": "Flight attendant / cabin crew",
+      "tr": "Kabin memuru",
+      "synonyms": {
+        "en": [
+          "cabin crew",
+          "cabin crew member",
+          "air steward",
+          "stewardess",
+          "air hostess"
+        ],
+        "tr": [
+          "hostes",
+          "kabin görevlisi",
+          "uçuş görevlisi"
+        ]
+      }
+    },
+    {
+      "id": "production-operative",
+      "group": "transport-logistics",
+      "en": "Production / factory operative",
+      "tr": "Üretim / fabrika çalışanı",
+      "synonyms": {
+        "en": [
+          "factory worker",
+          "machine operator",
+          "production worker",
+          "assembly worker",
+          "manufacturing operative",
+          "packer"
+        ],
+        "tr": [
+          "fabrika işçisi",
+          "üretim operatörü",
+          "makine operatörü",
+          "montaj işçisi"
+        ]
+      }
+    },
+    {
+      "id": "other-transport-logistics",
+      "group": "transport-logistics",
+      "en": "Other — Transport, Logistics & Manufacturing",
+      "tr": "Diğer — Ulaşım, lojistik ve üretim",
+      "synonyms": {
+        "en": [],
+        "tr": []
+      }
+    },
+    {
+      "id": "university-student",
+      "group": "study",
+      "en": "University student",
+      "tr": "Üniversite öğrencisi",
+      "synonyms": {
+        "en": [
+          "student",
+          "undergraduate",
+          "undergrad",
+          "uni student",
+          "college student"
+        ],
+        "tr": [
+          "öğrenci",
+          "lisans öğrencisi",
+          "üniversiteli"
+        ]
+      }
+    },
+    {
+      "id": "postgraduate-student",
+      "group": "study",
+      "en": "Postgraduate student (Master's / PhD)",
+      "tr": "Lisansüstü öğrenci (yüksek lisans / doktora)",
+      "synonyms": {
+        "en": [
+          "master's student",
+          "MSc student",
+          "MBA student",
+          "PhD student",
+          "PhD candidate",
+          "doctoral student",
+          "postgrad"
+        ],
+        "tr": [
+          "yüksek lisans öğrencisi",
+          "master öğrencisi",
+          "doktora öğrencisi",
+          "MBA öğrencisi"
+        ]
+      }
+    },
+    {
+      "id": "apprentice",
+      "group": "study",
+      "en": "Apprentice",
+      "tr": "Çırak",
+      "synonyms": {
+        "en": [
+          "apprenticeship",
+          "degree apprentice",
+          "trade apprentice"
+        ],
+        "tr": [
+          "çıraklık",
+          "meslek çırağı"
+        ]
+      }
+    },
+    {
+      "id": "intern-graduate-trainee",
+      "group": "study",
+      "en": "Intern / graduate trainee",
+      "tr": "Stajyer / yeni mezun",
+      "synonyms": {
+        "en": [
+          "intern",
+          "internship",
+          "graduate",
+          "graduate trainee",
+          "graduate scheme",
+          "placement student",
+          "management trainee"
+        ],
+        "tr": [
+          "stajyer",
+          "yeni mezun",
+          "yönetici adayı",
+          "staj"
+        ]
+      }
+    },
+    {
+      "id": "other-study",
+      "group": "study",
+      "en": "Other — Study & Early Career",
+      "tr": "Diğer — Öğrenim ve kariyer başlangıcı",
+      "synonyms": {
+        "en": [],
+        "tr": []
+      }
+    }
+  ]
+}

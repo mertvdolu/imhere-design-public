@@ -11,11 +11,11 @@ def collect(o):
   for v in o:collect(v)
 collect(states)
 # Renderer common references remain explicit.
-keys.update(k for k in ['viewBack','loading','navProfile','navMessages','navNearby','navEvents','communityActiveLabel','communityPickerA11yLabel','communityPickerA11yHint','mapShowMyArea'] if k in bank)
+keys.update(k for k in ['viewBack','loading','navProfile','navMessages','navNearby','navEvents','communityActiveLabel','communityPickerA11yLabel','communityPickerA11yHint','mapShowMyArea','occupationOther','occupationShowHelp','occupationNetworkingNote','profileLinkedinCheckRequired'] if k in bank)
 missing=keys-bank.keys()
 if missing:raise SystemExit('Missing: '+str(missing))
 copy={k:bank[k] for k in sorted(keys)}
-(B/'data.js').write_text('window.V15 = '+json.dumps({'states':states,'copy':copy},ensure_ascii=False)+';\n')
+(B/'data.js').write_text('window.V15 = '+json.dumps({'states':states,'copy':copy,'occupations':json.loads((B/'source/occupation-catalog.json').read_text()) if (B/'source/occupation-catalog.json').exists() else None},ensure_ascii=False)+';\n')
 (B/'catalog.json').write_text(json.dumps({'version':'1.0','theme':'2.3','featureGate':'V15.ENABLED except d0 (1.4.2)','states':states},ensure_ascii=False,indent=2)+'\n')
 for group in dict.fromkeys(s['group'] for s in states):
  d=B/group;d.mkdir(exist_ok=True);(d/'screens/png').mkdir(parents=True,exist_ok=True);(d/'evidence').mkdir(exist_ok=True)
