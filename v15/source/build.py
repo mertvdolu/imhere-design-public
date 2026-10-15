@@ -5,13 +5,14 @@ keys=set()
 def collect(o):
  if isinstance(o,dict):
   for k,v in o.items():
+   if k=='keys' and isinstance(v,dict):keys.update(v.values())
    if k in ['key','title','description','placeholder','help','error','reason','a11y'] and isinstance(v,str):keys.add(v)
    collect(v)
  elif isinstance(o,list):
   for v in o:collect(v)
 collect(states)
 # Renderer common references remain explicit.
-keys.update(k for k in ['viewBack','loading','navProfile','navMessages','navNearby','navEvents','communityActiveLabel','communityPickerA11yLabel','communityPickerA11yHint','mapShowMyArea','occupationOther','occupationShowHelp','occupationNetworkingNote','profileLinkedinCheckRequired','nearbyFiltersCountMany'] if k in bank)
+keys.update(k for k in ['viewBack','loading','navProfile','navMessages','navNearby','navEvents','communityActiveLabel','communityPickerA11yLabel','communityPickerA11yHint','mapShowMyArea','occupationOther','occupationShowHelp','occupationNetworkingNote','profileLinkedinCheckRequired','nearbyFiltersCountMany','eventV1CategoryNetworking','eventV1CategorySocial','eventV1CategoryActivity','communityOptionNetworking','communityOptionFriendship'] if k in bank)
 missing=keys-bank.keys()
 if missing:raise SystemExit('Missing: '+str(missing))
 copy={k:bank[k] for k in sorted(keys)}

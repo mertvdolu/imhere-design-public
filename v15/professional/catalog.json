@@ -1,0 +1,241 @@
+{
+  "theme": "2.3",
+  "states": [
+    {
+      "id": "professional-list",
+      "group": "professional",
+      "title": "navEvents",
+      "blocks": [
+        {
+          "type": "community",
+          "community": "Networking"
+        },
+        {
+          "type": "row",
+          "label": {
+            "en": "Open Studio Meetup",
+            "tr": "Açık Stüdyo Buluşması"
+          },
+          "icon": "professional",
+          "blocks": [
+            {
+              "type": "text",
+              "key": "eventV1CategoryLabel",
+              "params": {
+                "category": {
+                  "en": "Professional",
+                  "tr": "Profesyonel"
+                }
+              },
+              "helper": true
+            },
+            {
+              "type": "fixture",
+              "en": "14 Nov 2026 · 14:00",
+              "tr": "14 Kas 2026 · 14:00",
+              "helper": true
+            }
+          ]
+        }
+      ],
+      "notes": "Category label renamed to Professional/Profesyonel; enum and keys preserved. Category is not community. Fictional event/venue for layout; other Events controls remain governed by existing Events spec, no new RSVP behavior.",
+      "nav": "Events"
+    },
+    {
+      "id": "professional-detail",
+      "group": "professional",
+      "title": "navEvents",
+      "blocks": [
+        {
+          "type": "fixture",
+          "en": "Open Studio Meetup",
+          "tr": "Açık Stüdyo Buluşması"
+        },
+        {
+          "type": "row",
+          "key": "eventV1CategoryNetworking",
+          "icon": "professional"
+        },
+        {
+          "type": "text",
+          "key": "eventV1CategoryLabel",
+          "params": {
+            "category": {
+              "en": "Professional",
+              "tr": "Profesyonel"
+            }
+          }
+        },
+        {
+          "type": "heading",
+          "key": "eventV1Venue"
+        },
+        {
+          "type": "fixture",
+          "en": "The Example Room",
+          "tr": "Örnek Salon"
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "eventV1Interested",
+              "action": "existing-rsvp"
+            },
+            {
+              "key": "eventV1Going",
+              "action": "existing-rsvp"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Category label renamed to Professional/Profesyonel; enum and keys preserved. Category is not community. Fictional event/venue for layout; other Events controls remain governed by existing Events spec, no new RSVP behavior."
+    },
+    {
+      "id": "professional-suggest",
+      "group": "professional",
+      "title": "y1Suggest",
+      "blocks": [
+        {
+          "type": "choices",
+          "key": "y1Category",
+          "name": "event-category",
+          "items": [
+            {
+              "key": "y1CategoryNetworking",
+              "icon": "professional",
+              "value": "Networking",
+              "selected": true
+            },
+            {
+              "key": "y1CategorySocial",
+              "icon": "social",
+              "value": "Social",
+              "selected": false
+            },
+            {
+              "key": "y1CategoryActivity",
+              "icon": "activity",
+              "value": "Activity",
+              "selected": false
+            }
+          ]
+        }
+      ],
+      "notes": "Category label renamed to Professional/Profesyonel; enum and keys preserved. Category is not community. Fictional event/venue for layout; other Events controls remain governed by existing Events spec, no new RSVP behavior."
+    },
+    {
+      "id": "professional-past",
+      "group": "professional",
+      "title": "navEvents",
+      "blocks": [
+        {
+          "type": "row",
+          "label": {
+            "en": "Open Studio Meetup",
+            "tr": "Açık Stüdyo Buluşması"
+          },
+          "icon": "professional",
+          "blocks": [
+            {
+              "type": "text",
+              "key": "eventV1CategoryLabel",
+              "params": {
+                "category": {
+                  "en": "Professional",
+                  "tr": "Profesyonel"
+                }
+              }
+            },
+            {
+              "type": "fixture",
+              "en": "12 Sep 2026 · 14:00",
+              "tr": "12 Eyl 2026 · 14:00"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "eventV1Started"
+        },
+        {
+          "type": "text",
+          "key": "eventV1LockedBody",
+          "helper": true
+        }
+      ],
+      "notes": "Category label renamed to Professional/Profesyonel; enum and keys preserved. Category is not community. Fictional event/venue for layout; other Events controls remain governed by existing Events spec, no new RSVP behavior."
+    },
+    {
+      "id": "professional-loading",
+      "group": "professional",
+      "title": "navEvents",
+      "blocks": [
+        {
+          "type": "community",
+          "community": "Networking"
+        },
+        {
+          "type": "notice",
+          "key": "eventsV1Loading",
+          "busy": true
+        }
+      ],
+      "notes": "Category label renamed to Professional/Profesyonel; enum and keys preserved. Category is not community. Fictional event/venue for layout; other Events controls remain governed by existing Events spec, no new RSVP behavior.",
+      "nav": "Events"
+    },
+    {
+      "id": "professional-failed",
+      "group": "professional",
+      "title": "navEvents",
+      "blocks": [
+        {
+          "type": "community",
+          "community": "Networking"
+        },
+        {
+          "type": "notice",
+          "key": "eventsV1ErrorTitle",
+          "error": true
+        },
+        {
+          "type": "text",
+          "key": "eventsV1ErrorBody"
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "checkInRetry",
+              "to": "professional-loading"
+            }
+          ]
+        }
+      ],
+      "notes": "Category label renamed to Professional/Profesyonel; enum and keys preserved. Category is not community. Fictional event/venue for layout; other Events controls remain governed by existing Events spec, no new RSVP behavior.",
+      "nav": "Events"
+    },
+    {
+      "id": "professional-empty",
+      "group": "professional",
+      "title": "navEvents",
+      "blocks": [
+        {
+          "type": "community",
+          "community": "Networking"
+        },
+        {
+          "type": "text",
+          "key": "eventsV1EmptyTitle"
+        },
+        {
+          "type": "text",
+          "key": "eventsV1EmptyBody"
+        }
+      ],
+      "notes": "Category label renamed to Professional/Profesyonel; enum and keys preserved. Category is not community. Fictional event/venue for layout; other Events controls remain governed by existing Events spec, no new RSVP behavior.",
+      "nav": "Events"
+    }
+  ]
+}

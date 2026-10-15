@@ -1,0 +1,81 @@
+{
+  "status": "APPROVED COPY — HB-37 r5 / existing approved reuse; UI decisions proposed ★",
+  "entries": [
+    {
+      "key": "communityOptionFriendship",
+      "en": "Friendship",
+      "tr": "Arkadaşlık",
+      "source": "HB-37 r5 line 28",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "icons-categories",
+        "icons-communities"
+      ]
+    },
+    {
+      "key": "communityOptionNetworking",
+      "en": "Networking",
+      "tr": "Networking",
+      "source": "HB-37 r5 line 26",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "icons-categories",
+        "icons-communities"
+      ]
+    },
+    {
+      "key": "communitySettingsTitle",
+      "en": "Communities",
+      "tr": "Topluluklar",
+      "source": "HB-37 r5 line 49",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "icons-communities"
+      ]
+    },
+    {
+      "key": "eventV1CategoryActivity",
+      "en": "Activity",
+      "tr": "Aktivite",
+      "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+      "status": "EXISTING APPLICATION COPY — reuse",
+      "screens": [
+        "icons-categories",
+        "icons-communities"
+      ]
+    },
+    {
+      "key": "eventV1CategoryNetworking",
+      "en": "Professional",
+      "tr": "Profesyonel",
+      "source": "HB-37 r5 §5 line 74",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "icons-categories",
+        "icons-communities"
+      ]
+    },
+    {
+      "key": "eventV1CategorySocial",
+      "en": "Social",
+      "tr": "Sosyal",
+      "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+      "status": "EXISTING APPLICATION COPY — reuse",
+      "screens": [
+        "icons-categories",
+        "icons-communities"
+      ]
+    },
+    {
+      "key": "y1Category",
+      "en": "Category",
+      "tr": "Kategori",
+      "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+      "status": "EXISTING APPLICATION COPY — reuse",
+      "screens": [
+        "icons-categories"
+      ]
+    }
+  ],
+  "proposals": []
+}

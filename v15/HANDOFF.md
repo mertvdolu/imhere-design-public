@@ -15,5 +15,7 @@ HB-37 dosyası r5 olarak güncellenmiş: 3 LinkedIn değeri §14.1’den AYNEN. 
 - [linkedin](linkedin/HANDOFF.md)
 - [filtre](filtre/HANDOFF.md)
 - [kart-adimi](kart-adimi/HANDOFF.md)
+- [ikonlar](ikonlar/HANDOFF.md)
+- [professional](professional/HANDOFF.md)
 
 Tasarım, native uygulama/test/yayın değildir. Main birleşimi, deploy veya mağaza işlemi yok.

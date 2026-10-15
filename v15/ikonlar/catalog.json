@@ -1,0 +1,50 @@
+{
+  "theme": "2.3",
+  "states": [
+    {
+      "id": "icons-categories",
+      "group": "ikonlar",
+      "title": "y1Category",
+      "blocks": [
+        {
+          "type": "icons",
+          "names": [
+            "professional",
+            "social",
+            "activity"
+          ],
+          "keys": {
+            "professional": "eventV1CategoryNetworking",
+            "social": "eventV1CategorySocial",
+            "activity": "eventV1CategoryActivity",
+            "networking": "communityOptionNetworking",
+            "friendship": "communityOptionFriendship"
+          }
+        }
+      ],
+      "notes": "Design-system specimen:16/20/24 visible sizes,48 interaction target. Category Ink; community coloured only with text. Professional bag differs from Networking connected squares."
+    },
+    {
+      "id": "icons-communities",
+      "group": "ikonlar",
+      "title": "communitySettingsTitle",
+      "blocks": [
+        {
+          "type": "icons",
+          "names": [
+            "networking",
+            "friendship"
+          ],
+          "keys": {
+            "professional": "eventV1CategoryNetworking",
+            "social": "eventV1CategorySocial",
+            "activity": "eventV1CategoryActivity",
+            "networking": "communityOptionNetworking",
+            "friendship": "communityOptionFriendship"
+          }
+        }
+      ],
+      "notes": "Design-system specimen:16/20/24 visible sizes,48 interaction target. Category Ink; community coloured only with text. Professional bag differs from Networking connected squares."
+    }
+  ]
+}

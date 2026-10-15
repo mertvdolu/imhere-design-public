@@ -121,4 +121,13 @@
 | kart-adimi | card-saved | [PNG](kart-adimi/screens/png/card-saved--en--100.png) |
 | kart-adimi | card-failed | [PNG](kart-adimi/screens/png/card-failed--en--100.png) |
 | kart-adimi | card-skipped | [PNG](kart-adimi/screens/png/card-skipped--en--100.png) |
+| ikonlar | icons-categories | [PNG](ikonlar/screens/png/icons-categories--en--100.png) |
+| ikonlar | icons-communities | [PNG](ikonlar/screens/png/icons-communities--en--100.png) |
+| professional | professional-list | [PNG](professional/screens/png/professional-list--en--100.png) |
+| professional | professional-detail | [PNG](professional/screens/png/professional-detail--en--100.png) |
+| professional | professional-suggest | [PNG](professional/screens/png/professional-suggest--en--100.png) |
+| professional | professional-past | [PNG](professional/screens/png/professional-past--en--100.png) |
+| professional | professional-loading | [PNG](professional/screens/png/professional-loading--en--100.png) |
+| professional | professional-failed | [PNG](professional/screens/png/professional-failed--en--100.png) |
+| professional | professional-empty | [PNG](professional/screens/png/professional-empty--en--100.png) |
 

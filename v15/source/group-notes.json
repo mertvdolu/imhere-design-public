@@ -38,5 +38,15 @@
     "spec": "İsteğe bağlı kayıt adımı: telefon/e-posta/Instagram. E-posta boş; giriş e-postasından türetilmez. StepBody aynen, EmailNote e-posta altında. StepLater düğmelerin üstünde. Save/Not now aynı ikincil krem yüzey, aynı14/500, en az48 hedef; wrap/flex ile büyük yazıda alt alta. Boş Save etkin; Send bu ekranda yok.",
     "handoff": "Tüm topluluklarda yeni kayıt için. Mevcut kullanıcılara zorunlu adım yok. Kaydetme yalnız kart sahibinin verisini günceller; sohbete gönderim değildir. CardSaved sadece server-ack; hata alanları korur. Boş Save=skip; tamamlanan onboarding ardından normalNearby, kalan adım varsa önce o. skipped PNG hedef görünümüdür, yeni ürün onay ekranı değil.",
     "decisions": "★ Boş Save, Not now ile aynı ilerlemeyi yapar; boş kart kaydı/başarı mesajı üretmez. ★ Eşit ağırlık için iki düğme de aynı kabartmalı krem. YENİ BİLEŞEN — ONAY GEREKİR: yok. Kurmaca e-posta example.invalid; iletişim kurulmaz."
+  },
+  "ikonlar": {
+    "spec": "5 çizgi işareti: Professional çanta, Social konuşma, Activity yükselen hareket çizgisi, Networking bağlı kareler, Friendship iki kişi. Professional ve Networking farklı geometridir. 16/20/24 SVG, görünür çizgi1.8dp; 24grid. Kategori Ink, topluluk ikon/etiketli control içinde kendi tonu.",
+    "handoff": "SVG’ler assets/svg altında; Flutter yerleşik CustomPainter ile aynı path koordinatları çizilebilir, SVG runtime bağımlılığı ekleme. Hedef en az48; görünen simge16/20/24, paddingilehedef. Kategori simgesi decorative; aynı etiket okunur. Topluluk düğmesi a11y label/hint kullanır.",
+    "decisions": "★5 ikon yeterli; yeni bir ikon ailesi yok, v2.3round cap/join1.8 devamı. ★Kategoriler renksiz, topluluk ikonu yalnız community yüzeylerinde renkli. YENİ BİLEŞEN — ONAY GEREKİR: yok; talep edilen mevcut çizgi ailesi uzantısı."
+  },
+  "professional": {
+    "spec": "eventV1CategoryNetworking ve y1CategoryNetworking değerleri Professional / Profesyonel; anahtar adı ve teldeNETWORKINGenum değişmez. Listede topluluk pillNetworking yukarıda, kartta çanta+Professional; kategori ve topluluk ayrımı açık. Detay ve geçmişte Category: {category} anahtarı; öneri formunda3radyo aynıağırlık.",
+    "handoff": "Bu sayfalar kategori/ikon yerleştirme bağlamı örnekleridir; mevcutEventsV1 ayrıntı/RSVP/tarih/iptal akışlarını kaldırmaz. Aynı etiket geçmiş etkinliğe de uygulanır; veri göçü veya kategoriden topluluk çıkarımı yok. Kayıt fixturegerçeketkinlik/konum içermez.",
+    "decisions": "★Networking yalnız topluluk, Professional yalnız kategori etiketi olarak birlikte gösterildi; ikonu farklı. YENİ BİLEŞEN — ONAY GEREKİR: yok."
   }
 }

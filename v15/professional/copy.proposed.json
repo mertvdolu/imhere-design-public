@@ -1,0 +1,203 @@
+{
+  "status": "APPROVED COPY — HB-37 r5 / existing approved reuse; UI decisions proposed ★",
+  "entries": [
+    {
+      "key": "checkInRetry",
+      "en": "Try again",
+      "tr": "Tekrar dene",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "professional-failed"
+      ]
+    },
+    {
+      "key": "eventV1CategoryLabel",
+      "en": "Category: {category}",
+      "tr": "Kategori: {category}",
+      "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+      "status": "EXISTING APPLICATION COPY — reuse",
+      "screens": [
+        "professional-list",
+        "professional-detail",
+        "professional-past"
+      ]
+    },
+    {
+      "key": "eventV1CategoryNetworking",
+      "en": "Professional",
+      "tr": "Profesyonel",
+      "source": "HB-37 r5 §5 line 74",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "professional-detail"
+      ]
+    },
+    {
+      "key": "eventV1Going",
+      "en": "Going",
+      "tr": "Gideceğim",
+      "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+      "status": "EXISTING APPLICATION COPY — reuse",
+      "screens": [
+        "professional-detail"
+      ]
+    },
+    {
+      "key": "eventV1Interested",
+      "en": "Interested",
+      "tr": "İlgileniyorum",
+      "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+      "status": "EXISTING APPLICATION COPY — reuse",
+      "screens": [
+        "professional-detail"
+      ]
+    },
+    {
+      "key": "eventV1LockedBody",
+      "en": "Choices can no longer be changed after the event starts.",
+      "tr": "Etkinlik başladıktan sonra tercihler değiştirilemez.",
+      "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+      "status": "EXISTING APPLICATION COPY — reuse",
+      "screens": [
+        "professional-past"
+      ]
+    },
+    {
+      "key": "eventV1Started",
+      "en": "Event started",
+      "tr": "Etkinlik başladı",
+      "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+      "status": "EXISTING APPLICATION COPY — reuse",
+      "screens": [
+        "professional-past"
+      ]
+    },
+    {
+      "key": "eventV1Venue",
+      "en": "Venue",
+      "tr": "Mekân",
+      "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+      "status": "EXISTING APPLICATION COPY — reuse",
+      "screens": [
+        "professional-detail"
+      ]
+    },
+    {
+      "key": "eventsV1EmptyBody",
+      "en": "Events will appear here when they’re available.",
+      "tr": "Etkinlikler hazır olduğunda burada görünecek.",
+      "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+      "status": "EXISTING APPLICATION COPY — reuse",
+      "screens": [
+        "professional-empty"
+      ]
+    },
+    {
+      "key": "eventsV1EmptyTitle",
+      "en": "Nothing planned just yet.",
+      "tr": "Henüz bir etkinlik yok.",
+      "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+      "status": "EXISTING APPLICATION COPY — reuse",
+      "screens": [
+        "professional-empty"
+      ]
+    },
+    {
+      "key": "eventsV1ErrorBody",
+      "en": "Please try again.",
+      "tr": "Tekrar deneyebilirsin.",
+      "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+      "status": "EXISTING APPLICATION COPY — reuse",
+      "screens": [
+        "professional-failed"
+      ]
+    },
+    {
+      "key": "eventsV1ErrorTitle",
+      "en": "Events aren’t available right now.",
+      "tr": "Şu an etkinliklere ulaşılamıyor.",
+      "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+      "status": "EXISTING APPLICATION COPY — reuse",
+      "screens": [
+        "professional-failed"
+      ]
+    },
+    {
+      "key": "eventsV1Loading",
+      "en": "Loading events…",
+      "tr": "Etkinlikler yükleniyor…",
+      "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+      "status": "EXISTING APPLICATION COPY — reuse",
+      "screens": [
+        "professional-loading"
+      ]
+    },
+    {
+      "key": "navEvents",
+      "en": "Events",
+      "tr": "Etkinlikler",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "professional-list",
+        "professional-detail",
+        "professional-past",
+        "professional-loading",
+        "professional-failed",
+        "professional-empty"
+      ]
+    },
+    {
+      "key": "y1Category",
+      "en": "Category",
+      "tr": "Kategori",
+      "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+      "status": "EXISTING APPLICATION COPY — reuse",
+      "screens": [
+        "professional-suggest"
+      ]
+    },
+    {
+      "key": "y1CategoryActivity",
+      "en": "Activity",
+      "tr": "Aktivite",
+      "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+      "status": "EXISTING APPLICATION COPY — reuse",
+      "screens": [
+        "professional-suggest"
+      ]
+    },
+    {
+      "key": "y1CategoryNetworking",
+      "en": "Professional",
+      "tr": "Profesyonel",
+      "source": "HB-37 r5 §5 line 75",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "professional-suggest"
+      ]
+    },
+    {
+      "key": "y1CategorySocial",
+      "en": "Social",
+      "tr": "Sosyal",
+      "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+      "status": "EXISTING APPLICATION COPY — reuse",
+      "screens": [
+        "professional-suggest"
+      ]
+    },
+    {
+      "key": "y1Suggest",
+      "en": "Suggest an event",
+      "tr": "Etkinlik öner",
+      "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+      "status": "EXISTING APPLICATION COPY — reuse",
+      "screens": [
+        "professional-suggest"
+      ]
+    }
+  ],
+  "proposals": []
+}

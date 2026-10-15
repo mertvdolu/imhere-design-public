@@ -11,5 +11,7 @@ Kaynak önceliği: Founder15Eki brief + karar1–52; copyHB-37 r5 §14.1>§13>ö
 - [linkedin ekran kuralları](linkedin/SPEC.md)
 - [filtre ekran kuralları](filtre/SPEC.md)
 - [kart-adimi ekran kuralları](kart-adimi/SPEC.md)
+- [ikonlar ekran kuralları](ikonlar/SPEC.md)
+- [professional ekran kuralları](professional/SPEC.md)
 
 [★ kararlar ve renkler](TOKENS.md). Onaylı metinler yeniden yazılmaz; ayrı öneriler copy review içindedir. Native ve backend değişikliği bu teslim değildir.
