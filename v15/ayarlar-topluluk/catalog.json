@@ -645,6 +645,10 @@
           "community": "Friendship"
         },
         {
+          "type": "notice",
+          "key": "communityCheckInEndsNote"
+        },
+        {
           "type": "text",
           "key": "communitySwitchRemaining",
           "params": {
@@ -681,6 +685,10 @@
           "type": "text",
           "key": "communitySwitchBodyCheckedIn",
           "community": "Friendship"
+        },
+        {
+          "type": "notice",
+          "key": "communityCheckInEndsNote"
         },
         {
           "type": "text",
@@ -897,9 +905,7 @@
       "title": "communitySettingsTitle",
       "blocks": [
         {
-          "type": "notice",
-          "key": "communitySwitching",
-          "busy": true
+          "type": "progress"
         },
         {
           "type": "text",
@@ -907,7 +913,7 @@
           "helper": true
         }
       ],
-      "notes": "Pending server response, no premature success. Controls replaced by status; completion restores action availability.",
+      "notes": "Pending join/leave response, no visible progress text. Reuse 24×24 loading arc, stroke1.8; progressbar labelled by screen title for accessibility. Failure uses communitySettingsChangeFailed; no premature success.",
       "layout": "dialog",
       "ack": "settings-join-done",
       "reject": "settings-failed"
@@ -918,9 +924,7 @@
       "title": "communitySettingsTitle",
       "blocks": [
         {
-          "type": "notice",
-          "key": "communitySwitching",
-          "busy": true
+          "type": "progress"
         },
         {
           "type": "text",
@@ -928,7 +932,7 @@
           "helper": true
         }
       ],
-      "notes": "Pending server response, no premature success. Controls replaced by status; completion restores action availability.",
+      "notes": "Pending join/leave response, no visible progress text. Reuse 24×24 loading arc, stroke1.8; progressbar labelled by screen title for accessibility. Failure uses communitySettingsChangeFailed; no premature success.",
       "layout": "dialog",
       "ack": "settings-leave-done",
       "reject": "settings-failed"
@@ -952,7 +956,114 @@
       "notes": "Pending server response, no premature success. Controls replaced by status; completion restores action availability.",
       "layout": "dialog",
       "ack": "settings-switch-done",
-      "reject": "settings-failed"
+      "reject": "settings-switch-failed"
+    },
+    {
+      "id": "settings-switch-failed",
+      "group": "ayarlar-topluluk",
+      "title": "communitySettingsTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "communitySettingsHelp"
+        },
+        {
+          "type": "row",
+          "key": "communityOptionNetworking",
+          "community": "Networking",
+          "blocks": [
+            {
+              "type": "tag",
+              "key": "communitySettingsInUse",
+              "community": "Networking"
+            },
+            {
+              "type": "actions",
+              "items": [
+                {
+                  "key": "communitySettingsLeave",
+                  "community": "Networking",
+                  "to": "settings-leave-active"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "key": "communityOptionFriendship",
+          "community": "Friendship",
+          "blocks": [
+            {
+              "type": "actions",
+              "items": [
+                {
+                  "key": "communitySwitchConfirm",
+                  "to": "settings-switch-confirm"
+                },
+                {
+                  "key": "communitySettingsLeave",
+                  "community": "Friendship",
+                  "to": "settings-leave-inactive"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "communitySettingsLimitRule",
+          "helper": true
+        },
+        {
+          "type": "notice",
+          "key": "communitySwitchFailed",
+          "error": true
+        }
+      ],
+      "notes": "Switch failed: old membership and active community remain. Uses communitySwitchFailed; join/leave failure remains settings-failed / communitySettingsChangeFailed.",
+      "back": "nearby-networking"
+    },
+    {
+      "id": "settings-loading",
+      "group": "ayarlar-topluluk",
+      "title": "communitySettingsTitle",
+      "layout": "subpage",
+      "context": "settings",
+      "back": "nearby-networking",
+      "blocks": [
+        {
+          "type": "progress"
+        }
+      ],
+      "notes": "Settings read gate. No guessed membership, link, default visibility, or stale controls until current server data is read. Existing generic error + Retry; no mutation is attempted.",
+      "ack": "settings-both",
+      "reject": "settings-read-failed"
+    },
+    {
+      "id": "settings-read-failed",
+      "group": "ayarlar-topluluk",
+      "title": "communitySettingsTitle",
+      "layout": "subpage",
+      "context": "settings",
+      "back": "nearby-networking",
+      "blocks": [
+        {
+          "type": "notice",
+          "key": "errorStateChanged",
+          "error": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "checkInRetry",
+              "to": "settings-loading"
+            }
+          ]
+        }
+      ],
+      "notes": "Settings read gate. No guessed membership, link, default visibility, or stale controls until current server data is read. Existing generic error + Retry; no mutation is attempted."
     }
   ]
 }

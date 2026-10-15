@@ -12,5 +12,13 @@
     }
   ],
   "precedence": "HB-37 r5 §14.1 > §13 > earlier tables. Latest approved source resolves METİN-EKİ BEKLİYOR.",
-  "privacy": "No real profile or contact data. Fictional labels and layout fixtures only."
+  "privacy": "No real profile or contact data. Fictional labels and layout fixtures only.",
+  "correction1": {
+    "baseline": "0aaa981d83241d30e24b28fcdc70a76ca48563bf",
+    "task": "PROMPT-V15-DUZELTME-1.md",
+    "promptSha256": "90244735b7e3ae427b2d12341c1fac2f5769f7ea42b6061a2ade65411c26a51d",
+    "copyRevision": "HB-37 r6 / HB-41 §15",
+    "copySha256": "a3547faec833d3ce4e7ad27c7fc95327d93370c1cb190e9ad787bb68de8fee97",
+    "approvedExistingValuesChanged": 0
+  }
 }

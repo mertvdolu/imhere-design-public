@@ -38,3 +38,7 @@ Metin: Ink/cream 15.486:1; yardımcı 4.847:1; kontrol kenarı 3.693:1. Açık t
 ## Renk algısı kanıtı
 
 `evidence/colors-none.png`, `colors-protanopia.png`, `colors-deuteranopia.png`: Chromium vision deficiency emülasyonu; yalnız tasarım kontrolü, tıbbi test değil. Etiket + farklı ikon + kenar anlamı renk ayrımına bağlamaz. Simülasyon yakalama sonunda sıfırlandı.
+
+## Yasak eşleşme — Düzeltme 1
+
+**#696A62 yardımcı metin + #E5E9EF Networking açık yüzeyi YASAK: 4.490:1.** Normal metin eşiği 4.5:1 altında. Bu yüzeyde Ink (#191A17) kullanılır; yardımcı metin yalnız krem (#F4F1E9) zeminde kalır. Hiçbir renk değeri değiştirilmedi. Ekrandaki topluluk ikonu açık yüzeyinde yalnız kendi koyu rengi bulunur; yardımcı metin taşımaz.

@@ -1,5 +1,5 @@
 {
-  "status": "APPROVED COPY — HB-37 r5 / existing approved reuse; UI decisions proposed ★",
+  "status": "APPROVED COPY — HB-37 r6 / existing approved reuse; UI decisions proposed ★",
   "entries": [
     {
       "key": "cancel",
@@ -13,7 +13,8 @@
         "linkedin-removed",
         "linkedin-remove-confirm",
         "linkedin-remove-busy",
-        "linkedin-remove-failed"
+        "linkedin-remove-failed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -24,7 +25,8 @@
       "status": "APPROVED — source / existing design reference",
       "screens": [
         "linkedin-viewer-offline",
-        "linkedin-viewer-failed"
+        "linkedin-viewer-failed",
+        "linkedin-settings-read-failed"
       ]
     },
     {
@@ -37,6 +39,16 @@
         "linkedin-remove-confirm",
         "linkedin-remove-busy",
         "linkedin-remove-failed"
+      ]
+    },
+    {
+      "key": "errorStateChanged",
+      "en": "Something changed. Please try again.",
+      "tr": "Bir şey değişti. Lütfen tekrar dene.",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-settings-read-failed"
       ]
     },
     {
@@ -57,8 +69,6 @@
       "source": "v2.3 l10n/app_*.arb",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "linkedin-connection",
-        "linkedin-chat",
         "linkedin-networking-before",
         "linkedin-friendship-before",
         "linkedin-hidden",
@@ -103,11 +113,14 @@
         "linkedin-remove-confirm",
         "linkedin-remove-busy",
         "linkedin-remove-failed",
-        "linkedin-connection",
+        "linkedin-chat-connection",
         "linkedin-chat",
         "linkedin-networking-before",
         "linkedin-viewer-offline",
-        "linkedin-viewer-failed"
+        "linkedin-viewer-failed",
+        "linkedin-settings-empty",
+        "linkedin-settings-loading",
+        "linkedin-settings-read-failed"
       ]
     },
     {
@@ -123,7 +136,8 @@
         "linkedin-opening",
         "linkedin-offline",
         "linkedin-open-failed",
-        "linkedin-removed"
+        "linkedin-removed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -177,7 +191,8 @@
         "linkedin-offline",
         "linkedin-open-failed",
         "linkedin-paused",
-        "linkedin-removed"
+        "linkedin-removed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -190,7 +205,8 @@
         "linkedin-stored",
         "linkedin-paused",
         "linkedin-removed",
-        "linkedin-confirm-return"
+        "linkedin-confirm-return",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -214,7 +230,8 @@
         "linkedin-offline",
         "linkedin-open-failed",
         "linkedin-paused",
-        "linkedin-removed"
+        "linkedin-removed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -236,7 +253,8 @@
       "screens": [
         "linkedin-stored",
         "linkedin-paused",
-        "linkedin-removed"
+        "linkedin-removed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -261,7 +279,8 @@
         "linkedin-open-failed",
         "linkedin-paused",
         "linkedin-removed",
-        "linkedin-confirm-return"
+        "linkedin-confirm-return",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -285,7 +304,8 @@
         "linkedin-offline",
         "linkedin-open-failed",
         "linkedin-paused",
-        "linkedin-removed"
+        "linkedin-removed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -320,7 +340,8 @@
         "linkedin-open-failed",
         "linkedin-paused",
         "linkedin-removed",
-        "linkedin-confirm-return"
+        "linkedin-confirm-return",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -424,7 +445,8 @@
         "linkedin-offline",
         "linkedin-open-failed",
         "linkedin-paused",
-        "linkedin-removed"
+        "linkedin-removed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -454,7 +476,7 @@
       "source": "HB-20 final §3 line 76; reused by HB-37 §7",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "linkedin-connection",
+        "linkedin-chat-connection",
         "linkedin-chat",
         "linkedin-networking-before",
         "linkedin-viewer-offline",
@@ -482,7 +504,8 @@
         "linkedin-offline",
         "linkedin-open-failed",
         "linkedin-paused",
-        "linkedin-removed"
+        "linkedin-removed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -506,7 +529,8 @@
         "linkedin-offline",
         "linkedin-open-failed",
         "linkedin-paused",
-        "linkedin-removed"
+        "linkedin-removed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -527,7 +551,8 @@
         "linkedin-saved",
         "linkedin-save-failed",
         "linkedin-offline",
-        "linkedin-open-failed"
+        "linkedin-open-failed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -551,7 +576,8 @@
         "linkedin-offline",
         "linkedin-open-failed",
         "linkedin-paused",
-        "linkedin-removed"
+        "linkedin-removed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -575,7 +601,8 @@
         "linkedin-offline",
         "linkedin-open-failed",
         "linkedin-paused",
-        "linkedin-removed"
+        "linkedin-removed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -599,7 +626,8 @@
         "linkedin-offline",
         "linkedin-open-failed",
         "linkedin-paused",
-        "linkedin-removed"
+        "linkedin-removed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -623,7 +651,8 @@
         "linkedin-offline",
         "linkedin-open-failed",
         "linkedin-paused",
-        "linkedin-removed"
+        "linkedin-removed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -657,7 +686,8 @@
         "linkedin-offline",
         "linkedin-open-failed",
         "linkedin-paused",
-        "linkedin-removed"
+        "linkedin-removed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -696,7 +726,6 @@
         "linkedin-nobody",
         "linkedin-connections",
         "linkedin-saving",
-        "linkedin-saved",
         "linkedin-save-failed",
         "linkedin-offline",
         "linkedin-open-failed"
@@ -721,6 +750,16 @@
         "linkedin-save-failed",
         "linkedin-offline",
         "linkedin-open-failed"
+      ]
+    },
+    {
+      "key": "v15LinkedinContinue",
+      "en": "Continue",
+      "tr": "Devam",
+      "source": "HB-37 r5 line 177",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "linkedin-saved"
       ]
     }
   ],

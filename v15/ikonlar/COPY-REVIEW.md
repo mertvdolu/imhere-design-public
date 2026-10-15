@@ -1,6 +1,6 @@
 # ikonlar — copy review
 
-Onaylı kaynak değerleri aynen. Dosya adı teslim standardı gereği `proposed`; metin onayı HB-37 r5 ve atıf yapılan mevcut anahtarlarla sınırlıdır. Ana ARB üzerine yazılmaz.
+Onaylı kaynak değerleri aynen. Dosya adı teslim standardı gereği `proposed`; metin onayı HB-37 r6 ve atıf yapılan mevcut anahtarlarla sınırlıdır. Ana ARB üzerine yazılmaz.
 
 | KEY | EN | TR | SCREEN / STATE | SOURCE |
 |---|---|---|---|---|

@@ -4,7 +4,7 @@
 
 Mevcut v2.3 başlık, küçük düğme, bilgi kartı, input, radyo ve satır desenleri. Kenar 24 dp. Başlık 28/600, gövde 16/400, yardım 14/400; satır aralığı 1.18/1.5/1.5. Bölüm başlığı 18/500. Ölçek %200: punto 2×, sabit satır sınırı yok. Küçük düğme görünen yüzey en az 36, bağımsız hedef en az 48×48; radius12. Kart radius15.
 
-Mevcut düz Ayarlar satırı (yeni kabartmalı kutu yok), iki topluluk. Aktif: In use + ikon. Tek üyelikte ayrıl düğmesi yok, LastOne açıklaması var. Sınırda join/leave/switch kaldırılır, LimitReached gösterilir. Sabit 24 saat kuralı. Onayda remaining sayısı; saat/tarih/geri sayım yok. Aktiften ayrılma metin sırası birebir: ActiveNote → CheckInEndsNote(varsa) → GoingNote(varsa) → LeaveBody → Remaining.
+Mevcut düz Ayarlar satırı (yeni kabartmalı kutu yok), iki topluluk. Aktif: In use + ikon. Tek üyelikte ayrıl düğmesi yok, LastOne açıklaması var. Sınırda join/leave/switch kaldırılır, LimitReached gösterilir. Sabit 24 saat kuralı. Onayda remaining sayısı; saat/tarih/geri sayım yok. Aktiften ayrılma metin sırası birebir: ActiveNote → CheckInEndsNote(varsa) → GoingNote(varsa) → LeaveBody → Remaining. Düzeltme1: switch hatası communitySwitchFailed; join/leave hatası communitySettingsChangeFailed. Joining/leaving metinsiz 24×24, çizgi1.8 ilerleme göstergesi; accessible progressbar etiketi H1’den. Aktif check-in geçiş onayında ikonlu communityCheckInEndsNote. settings-loading/read-failed, eski/varsayılan üyeliği göstermeden okuma kapısıdır.
 
 ## Durumlar
 
@@ -25,9 +25,12 @@ Mevcut düz Ayarlar satırı (yeni kabartmalı kutu yok), iki topluluk. Aktif: I
 - **settings-leave-inactive**: Confirmation before mutation. Inactive leave/join does not change active community or end check-in. Active leave order: active note, check-in, Going, leave body, remaining. No reset time or countdown.
 - **settings-leave-active**: Confirmation before mutation. Inactive leave/join does not change active community or end check-in. Active leave order: active note, check-in, Going, leave body, remaining. No reset time or countdown.
 - **settings-leave-active-going**: Confirmation before mutation. Inactive leave/join does not change active community or end check-in. Active leave order: active note, check-in, Going, leave body, remaining. No reset time or countdown.
-- **settings-joining**: Pending server response, no premature success. Controls replaced by status; completion restores action availability.
-- **settings-leaving**: Pending server response, no premature success. Controls replaced by status; completion restores action availability.
+- **settings-joining**: Pending join/leave response, no visible progress text. Reuse 24×24 loading arc, stroke1.8; progressbar labelled by screen title for accessibility. Failure uses communitySettingsChangeFailed; no premature success.
+- **settings-leaving**: Pending join/leave response, no visible progress text. Reuse 24×24 loading arc, stroke1.8; progressbar labelled by screen title for accessibility. Failure uses communitySettingsChangeFailed; no premature success.
 - **settings-switching**: Pending server response, no premature success. Controls replaced by status; completion restores action availability.
+- **settings-switch-failed**: Switch failed: old membership and active community remain. Uses communitySwitchFailed; join/leave failure remains settings-failed / communitySettingsChangeFailed.
+- **settings-loading**: Settings read gate. No guessed membership, link, default visibility, or stale controls until current server data is read. Existing generic error + Retry; no mutation is attempted.
+- **settings-read-failed**: Settings read gate. No guessed membership, link, default visibility, or stale controls until current server data is read. Existing generic error + Retry; no mutation is attempted.
 
 ## Erişilebilirlik / native
 

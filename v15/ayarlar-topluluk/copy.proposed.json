@@ -1,5 +1,5 @@
 {
-  "status": "APPROVED COPY — HB-37 r5 / existing approved reuse; UI decisions proposed ★",
+  "status": "APPROVED COPY — HB-37 r6 / existing approved reuse; UI decisions proposed ★",
   "entries": [
     {
       "key": "cancel",
@@ -18,6 +18,16 @@
       ]
     },
     {
+      "key": "checkInRetry",
+      "en": "Try again",
+      "tr": "Tekrar dene",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-read-failed"
+      ]
+    },
+    {
       "key": "communityCheckInEndsNote",
       "en": "Your current check-in will end.",
       "tr": "Şu anki check-in’in biter.",
@@ -26,6 +36,8 @@
       "screens": [
         "settings-checked-in",
         "settings-going",
+        "settings-switch-checkin",
+        "settings-switch-going",
         "settings-leave-active",
         "settings-leave-active-going"
       ]
@@ -46,7 +58,8 @@
         "settings-failed",
         "settings-switch-done",
         "settings-join-done",
-        "settings-leave-done"
+        "settings-leave-done",
+        "settings-switch-failed"
       ]
     },
     {
@@ -65,7 +78,8 @@
         "settings-failed",
         "settings-switch-done",
         "settings-join-done",
-        "settings-leave-done"
+        "settings-leave-done",
+        "settings-switch-failed"
       ]
     },
     {
@@ -75,7 +89,10 @@
       "source": "HB-37 r5 line 241",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "settings-failed"
+        "settings-failed",
+        "settings-joining",
+        "settings-leaving",
+        "settings-switch-failed"
       ]
     },
     {
@@ -94,7 +111,8 @@
         "settings-failed",
         "settings-switch-done",
         "settings-join-done",
-        "settings-leave-done"
+        "settings-leave-done",
+        "settings-switch-failed"
       ]
     },
     {
@@ -113,7 +131,8 @@
         "settings-failed",
         "settings-switch-done",
         "settings-join-done",
-        "settings-leave-done"
+        "settings-leave-done",
+        "settings-switch-failed"
       ]
     },
     {
@@ -197,7 +216,8 @@
         "settings-join-done",
         "settings-leave-inactive",
         "settings-leave-active",
-        "settings-leave-active-going"
+        "settings-leave-active-going",
+        "settings-switch-failed"
       ]
     },
     {
@@ -276,7 +296,8 @@
         "settings-leave-done",
         "settings-joining",
         "settings-leaving",
-        "settings-switching"
+        "settings-switching",
+        "settings-switch-failed"
       ]
     },
     {
@@ -298,7 +319,10 @@
         "settings-leave-done",
         "settings-joining",
         "settings-leaving",
-        "settings-switching"
+        "settings-switching",
+        "settings-switch-failed",
+        "settings-loading",
+        "settings-read-failed"
       ]
     },
     {
@@ -339,7 +363,8 @@
         "settings-join-done",
         "settings-switch-confirm",
         "settings-switch-checkin",
-        "settings-switch-going"
+        "settings-switch-going",
+        "settings-switch-failed"
       ]
     },
     {
@@ -350,6 +375,16 @@
       "status": "APPROVED — source / existing design reference",
       "screens": [
         "settings-switch-done"
+      ]
+    },
+    {
+      "key": "communitySwitchFailed",
+      "en": "Couldn’t switch. Try again.",
+      "tr": "Geçiş yapılamadı. Tekrar dene.",
+      "source": "HB-37 r5 line 67",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-switch-failed"
       ]
     },
     {
@@ -409,9 +444,17 @@
       "source": "HB-37 r5 line 43",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "settings-joining",
-        "settings-leaving",
         "settings-switching"
+      ]
+    },
+    {
+      "key": "errorStateChanged",
+      "en": "Something changed. Please try again.",
+      "tr": "Bir şey değişti. Lütfen tekrar dene.",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-read-failed"
       ]
     }
   ],

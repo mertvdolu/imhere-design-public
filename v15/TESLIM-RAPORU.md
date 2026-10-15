@@ -9,7 +9,7 @@ TASK: V15-TASARIM · Son parça ve bütün teslim
 - Depo: https://github.com/mertvdolu/imhere-design-public
 - Dal: `design/v15-cream-ink-v23`
 - Klasör: `v15/`; ortak katalog: `EKRAN-KATALOGU.json`.
-- 130 durum · 1040 ana PNG · 475 uzun içerik PNG. Tam dosya sayısı ve SHA256: `MANIFEST.json`.
+- 147 durum · 1176 ana PNG · 552 uzun içerik PNG. Tam dosya sayısı ve SHA256: `MANIFEST.json`.
 - 12 bölüm: d0, topluluk-kayit, gecis, ayarlar-topluluk, secici, meslek, linkedin, filtre, kart-adimi, ikonlar, professional, italik-acilis.
 - İtalik/açılış bölümü yeni durum üretmez; mevcut H0 referansını ve “yeni yön yok” kararını içerir.
 - HTML önizleme + kaynak HTML/CSS/JS, SVG ikonlar, Geist dosyaları/lisansı, PNG, SPEC, HANDOFF, COPY-REVIEW, katalog, matris ve ölçüm kanıtları dahildir.
@@ -17,7 +17,7 @@ TASK: V15-TASARIM · Son parça ve bütün teslim
 
 ## VALIDATION
 
-2035 DOM yerleşim ölçümü: yatay taşma 0, 48×48 altı hedef 0, yatay kesilen metin 0.
+2316 DOM yerleşim ölçümü: yatay taşma 0, 48×48 altı hedef 0, yatay kesilen metin 0; dikey çakışma 0, dikey metin taşması 0, erişilemeyen başlangıç 0.
 Her durum EN/TR × %100/%200 × 390/412 mantıksal boyut; ana PNG’ler 4×, opak RGB.
 Her durumda ek 320 px / %200 iOS ve Android kabuğu ölçümü var. Uzun içerik dikey kaydırılır; `--full` kareler ayrıca verilir.
 
@@ -62,7 +62,7 @@ Cream & Ink v2.3 normatif yüzeyleri korundu: kabartma ve iç yüzey krem #F4F1E
 ## METİN
 
 Onaylı değerden sapma hedefi 0; ölçülmüş sonuç `evidence/final-validation.json` içinde.
-HB-37 dosyası artık **r5**: §14.1’deki son üç LinkedIn değeri aynen alındı. Önceki “METİN-EKİ BEKLİYOR” durumu bu kaynakta kapanmış.
+HB-37 **r6**: §15 v15LinkedinChangedBody eklendi; r5 §14.1’deki üç değer aynen korundu. Güncel fark listesi DUZELTME-1.md dosyasındadır. Önceki “METİN-EKİ BEKLİYOR” durumu bu kaynakta kapanmış.
 Copy dosyasının `proposed` adı teslim standardıdır; mevcut onaylı metin statüsünü değiştirmez. Yeni wording önerisi yok. Canonical uygulama ARB dosyalarına merge yapılmadı.
 
 ## AÇIK / RİSK

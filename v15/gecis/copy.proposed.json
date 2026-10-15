@@ -1,5 +1,5 @@
 {
-  "status": "APPROVED COPY — HB-37 r5 / existing approved reuse; UI decisions proposed ★",
+  "status": "APPROVED COPY — HB-37 r6 / existing approved reuse; UI decisions proposed ★",
   "entries": [
     {
       "key": "cancel",
@@ -13,7 +13,12 @@
         "migration-linkedin-nobody",
         "migration-linkedin-saving",
         "migration-linkedin-failed",
-        "migration-linkedin-offline"
+        "migration-linkedin-offline",
+        "migration-linkedin-changed-default",
+        "migration-linkedin-changed-other",
+        "migration-linkedin-changed-saving",
+        "migration-linkedin-changed-failed",
+        "migration-linkedin-changed-offline"
       ]
     },
     {
@@ -134,7 +139,8 @@
       "status": "APPROVED — source / existing design reference",
       "screens": [
         "migration-linkedin-offline",
-        "migration-offline"
+        "migration-offline",
+        "migration-linkedin-changed-offline"
       ]
     },
     {
@@ -149,7 +155,12 @@
         "migration-linkedin-nobody",
         "migration-linkedin-saving",
         "migration-linkedin-failed",
-        "migration-linkedin-offline"
+        "migration-linkedin-offline",
+        "migration-linkedin-changed-default",
+        "migration-linkedin-changed-other",
+        "migration-linkedin-changed-saving",
+        "migration-linkedin-changed-failed",
+        "migration-linkedin-changed-offline"
       ]
     },
     {
@@ -164,7 +175,12 @@
         "migration-linkedin-nobody",
         "migration-linkedin-saving",
         "migration-linkedin-failed",
-        "migration-linkedin-offline"
+        "migration-linkedin-offline",
+        "migration-linkedin-changed-default",
+        "migration-linkedin-changed-other",
+        "migration-linkedin-changed-saving",
+        "migration-linkedin-changed-failed",
+        "migration-linkedin-changed-offline"
       ]
     },
     {
@@ -179,7 +195,12 @@
         "migration-linkedin-nobody",
         "migration-linkedin-saving",
         "migration-linkedin-failed",
-        "migration-linkedin-offline"
+        "migration-linkedin-offline",
+        "migration-linkedin-changed-default",
+        "migration-linkedin-changed-other",
+        "migration-linkedin-changed-saving",
+        "migration-linkedin-changed-failed",
+        "migration-linkedin-changed-offline"
       ]
     },
     {
@@ -194,7 +215,12 @@
         "migration-linkedin-nobody",
         "migration-linkedin-saving",
         "migration-linkedin-failed",
-        "migration-linkedin-offline"
+        "migration-linkedin-offline",
+        "migration-linkedin-changed-default",
+        "migration-linkedin-changed-other",
+        "migration-linkedin-changed-saving",
+        "migration-linkedin-changed-failed",
+        "migration-linkedin-changed-offline"
       ]
     },
     {
@@ -209,7 +235,12 @@
         "migration-linkedin-nobody",
         "migration-linkedin-saving",
         "migration-linkedin-failed",
-        "migration-linkedin-offline"
+        "migration-linkedin-offline",
+        "migration-linkedin-changed-default",
+        "migration-linkedin-changed-other",
+        "migration-linkedin-changed-saving",
+        "migration-linkedin-changed-failed",
+        "migration-linkedin-changed-offline"
       ]
     },
     {
@@ -224,7 +255,12 @@
         "migration-linkedin-nobody",
         "migration-linkedin-saving",
         "migration-linkedin-failed",
-        "migration-linkedin-offline"
+        "migration-linkedin-offline",
+        "migration-linkedin-changed-default",
+        "migration-linkedin-changed-other",
+        "migration-linkedin-changed-saving",
+        "migration-linkedin-changed-failed",
+        "migration-linkedin-changed-offline"
       ]
     },
     {
@@ -234,7 +270,8 @@
       "source": "HB-37 r5 line 124",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "migration-linkedin-failed"
+        "migration-linkedin-failed",
+        "migration-linkedin-changed-failed"
       ]
     },
     {
@@ -249,7 +286,12 @@
         "migration-linkedin-nobody",
         "migration-linkedin-saving",
         "migration-linkedin-failed",
-        "migration-linkedin-offline"
+        "migration-linkedin-offline",
+        "migration-linkedin-changed-default",
+        "migration-linkedin-changed-other",
+        "migration-linkedin-changed-saving",
+        "migration-linkedin-changed-failed",
+        "migration-linkedin-changed-offline"
       ]
     },
     {
@@ -311,7 +353,26 @@
         "migration-linkedin-nobody",
         "migration-linkedin-saving",
         "migration-linkedin-failed",
-        "migration-linkedin-offline"
+        "migration-linkedin-offline",
+        "migration-linkedin-changed-default",
+        "migration-linkedin-changed-other",
+        "migration-linkedin-changed-saving",
+        "migration-linkedin-changed-failed",
+        "migration-linkedin-changed-offline"
+      ]
+    },
+    {
+      "key": "v15LinkedinChangedBody",
+      "en": "Your LinkedIn link has changed. Check who can see it.",
+      "tr": "LinkedIn bağlantın değişti. Kimin görebileceğini kontrol et.",
+      "source": "HB-37 r6 / HB-41 §15 r6-10; decision58",
+      "status": "APPROVED — Manager (Founder delegation), decision58",
+      "screens": [
+        "migration-linkedin-changed-default",
+        "migration-linkedin-changed-other",
+        "migration-linkedin-changed-saving",
+        "migration-linkedin-changed-failed",
+        "migration-linkedin-changed-offline"
       ]
     },
     {
@@ -328,7 +389,12 @@
         "migration-linkedin-nobody",
         "migration-linkedin-saving",
         "migration-linkedin-failed",
-        "migration-linkedin-offline"
+        "migration-linkedin-offline",
+        "migration-linkedin-changed-default",
+        "migration-linkedin-changed-other",
+        "migration-linkedin-changed-saving",
+        "migration-linkedin-changed-failed",
+        "migration-linkedin-changed-offline"
       ]
     },
     {
@@ -343,7 +409,12 @@
         "migration-linkedin-nobody",
         "migration-linkedin-saving",
         "migration-linkedin-failed",
-        "migration-linkedin-offline"
+        "migration-linkedin-offline",
+        "migration-linkedin-changed-default",
+        "migration-linkedin-changed-other",
+        "migration-linkedin-changed-saving",
+        "migration-linkedin-changed-failed",
+        "migration-linkedin-changed-offline"
       ]
     },
     {

@@ -14,7 +14,7 @@ for g in ['']+groups:check('required files '+(g or 'root'),all((B/g/x).exists() 
 main=full=measurecount=0
 for s in states:
  d=B/s['group'];ms=json.loads((d/'evidence'/f"{s['id']}.json").read_text());measurecount+=len(ms)
- check('layout '+s['id'], all(not(x['horizontalOverflow'] or x['smallTargets'] or x['clippedText']) and x['h1']==1 and x['fonts']=='loaded' for x in ms))
+ check('layout '+s['id'], all(not(x['horizontalOverflow'] or x['smallTargets'] or x['clippedText'] or x.get('verticalOverlaps') or x.get('verticalTextOverflow') or x.get('unreachableContent')) and x.get('measurementVersion')==2 and x['h1']==1 and x['fonts']=='loaded' for x in ms))
  check('320 iOS/Android '+s['id'],all(any(x['width']==320 and x['scale']==200 and x['locale']==l and x['platform']==p for x in ms) for l in ['en','tr'] for p in ['ios','android']))
  for w,h in [(390,844),(412,915)]:
   for l in ['en','tr']:
@@ -57,11 +57,17 @@ for line in hb.splitlines():
 for k,l,v in re.findall(r'`(\w+)` (EN|TR)[^\n]*\n```\n([^\n]+)\n```',hb):
  if k in expected:
   pair=list(expected[k]);pair[0 if l=='EN' else 1]=v;expected[k]=tuple(pair)
+r6=re.search(r'\| r6-10[^\n]*EN `([^`]+)` · TR `([^`]+)`',hb)
+assert r6, 'Approved r6 key missing'
+expected['v15LinkedinChangedBody']=r6.groups()
 copy=json.loads((B/'copy.proposed.json').read_text())['entries'];deviations=[]
 for e in copy:
  if expected.get(e['key'])!=(e['en'],e['tr']):deviations.append({'key':e['key'],'expected':expected.get(e['key']),'delivered':(e['en'],e['tr'])})
 check('copy exact authoritative EN/TR',not deviations,{'keys':len(copy),'deviations':deviations})
 retired=['occupationPlaceholder','profileOccupationRequired','profileLinkedinShow','profileLinkedinShowHelp','profileLinkedinPausedResumeNote']
+baseline=json.loads(subprocess.check_output(['git','show','0aaa981d83241d30e24b28fcdc70a76ca48563bf:v15/copy.proposed.json'],cwd=R,text=True))['entries']
+now={e['key']:e for e in copy}
+check('195 existing approved values unchanged',all(e['key'] in now and (e['en'],e['tr'])==(now[e['key']]['en'],now[e['key']]['tr']) for e in baseline))
 check('retired copy absent',not any(e['key'] in retired or e['key'].startswith('profilePurpose') for e in copy))
 alltext=json.dumps(states,ensure_ascii=False)
 check('only placeholder LinkedIn URL',not re.search(r'linkedin\.com/in/(?!…)',alltext))
@@ -72,6 +78,36 @@ check('community contrast',all(t['contrastOnCream'][k]>=4.5 and t['communityOnRa
 check('contrast stress',all(not (x['horizontalOverflow'] or x['smallTargets'] or x['clippedText']) for x in json.loads((B/'evidence/contrast-stress.json').read_text())))
 inter=json.loads((B/'evidence/interaction-results.json').read_text());check('observed interactions',len(inter['checks'])==14 and all(x['status']=='PASS' for x in inter['checks']))
 check('SVG icon count',len(list((B/'ikonlar/assets/svg').glob('*.svg')))==15)
+baseline_tokens=json.loads(subprocess.check_output(['git','show','0aaa981d83241d30e24b28fcdc70a76ca48563bf:v15/tokens.json'],cwd=R,text=True))
+check('approved appearance tokens unchanged',all(t[k]==baseline_tokens[k] for k in ['colors','space','radius','iconStroke','targetMin','motion']))
+cat=json.loads((R/'EKRAN-KATALOGU.json').read_text());matches=[x for x in cat if x.get('id')=='match-different']
+check('match-different flag-off only',bool(matches) and all(x.get('visibilityCondition')=='V15.ENABLED == false' for x in matches))
+check('state matrix header','| Bölüm | State | Görsel |' in (B/'SCREEN-STATE-MATRIX.md').read_text())
+# Manager correction requirements, separately from generic layout checks.
+byid={x['id']:x for x in states}
+def walk(x):
+ if isinstance(x,dict):
+  yield x
+  for v in x.values():yield from walk(v)
+ elif isinstance(x,list):
+  for v in x:yield from walk(v)
+def keys(id):return [n['key'] for n in walk(byid[id]) if 'key' in n]
+changed=['migration-linkedin-changed-'+x for x in ['default','other','saving','failed','offline']]
+check('R1 standalone changed-link states',all(x in byid and 'v15LinkedinChangedBody' in keys(x) and 'v15LinkedinBody' not in keys(x) and byid[x]['storedVisibility']=='Nobody' for x in changed))
+check('R1 stored selection restored',all(next(n for n in walk(byid[x]) if n.get('type')=='choices')['items'][0]['selected'] for x in [changed[0],changed[3],changed[4]]))
+check('R1 conversation placement', 'linkedin-connection' not in byid and 'linkedin-chat-connection' in byid and byid['linkedin-chat-connection']['fixtureTitle']['en']=='Maya')
+check('R1 operation failures','communitySwitchFailed' in keys('settings-switch-failed') and 'communitySettingsChangeFailed' in keys('settings-failed') and byid['settings-switching']['reject']=='settings-switch-failed')
+check('R1 textless progress',all('communitySwitching' not in keys(x) and any(n.get('type')=='progress' for n in walk(byid[x])) for x in ['settings-joining','settings-leaving']))
+check('R1 check-in notice',all(any(n.get('type')=='notice' and n.get('key')=='communityCheckInEndsNote' for n in walk(byid[x])) for x in ['settings-switch-checkin','settings-switch-going']))
+edit=[x for x in states if x.get('context')=='profile-edit']
+check('R1 profile job editing',bool(edit) and all(x['title']=='occupation' and x.get('back') and 'occupationSkip' not in keys(x['id']) for x in edit))
+check('R1 Other title inline',all(any(n.get('type')=='occupations' and n.get('inlineTitle',{}).get('key')=='occupationOwnTitleLabel' for n in walk(byid[x])) for x in ['occupation-other','occupation-signup-other']))
+check('R1 hidden duplicate legend',all(n.get('hideLegend') for x in states if x['id'].startswith('migration-linkedin-') for n in x['blocks'] if n.get('type')=='choices'))
+check('R1 Continue after saved','signupLinkedinSkip' not in keys('linkedin-saved') and 'v15LinkedinContinue' in keys('linkedin-saved'))
+check('R1 settings first add default note','profileLinkedinVisibilityDefaultNote' in keys('linkedin-settings-empty') and 'signupLinkedinSkip' not in keys('linkedin-settings-empty'))
+check('R1 settings read gates',all(x in byid for x in ['settings-loading','settings-read-failed','linkedin-settings-loading','linkedin-settings-read-failed']))
+check('R1 filtered Nearby context',all(byid[x]['title']=='navNearby' and any(b.get('type')=='community' for b in byid[x]['blocks']) and 'nearbyFiltersOnBadge' in keys(x) for x in ['filters-not-enough','filters-no-longer-enough']))
+check('R1 forbidden colour pair',any(x['foreground']=='#696A62' and x['background']=='#E5E9EF' and x['contrast']<4.5 for x in t['forbiddenPairings']))
 # Actual tracked and untracked scope, including currently uncommitted delivery work.
 changed=subprocess.check_output(['git','diff','--name-only','58bf8c4380c9e2b8487b32d5d94f6f1e683ad649'],cwd=R,text=True).splitlines()
 changed+=subprocess.check_output(['git','ls-files','--others','--exclude-standard'],cwd=R,text=True).splitlines()

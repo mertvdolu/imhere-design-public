@@ -1,10 +1,10 @@
 {
   "status": "PASS",
-  "states": 130,
-  "mainPng": 1040,
-  "fullPng": 475,
-  "measuredLayouts": 2035,
-  "approvedCopyKeys": 195,
+  "states": 147,
+  "mainPng": 1176,
+  "fullPng": 552,
+  "measuredLayouts": 2316,
+  "approvedCopyKeys": 198,
   "copyDeviations": 0,
   "failedChecks": [],
   "checks": [
@@ -121,6 +121,11 @@
       "detail": null
     },
     {
+      "check": "full PNG d0-required--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
       "check": "PNG d0/screens/png/d0-required--tr--100.png",
       "pass": true,
       "detail": {
@@ -222,6 +227,11 @@
       "detail": null
     },
     {
+      "check": "full PNG d0-required--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
       "check": "layout d0-opening",
       "pass": true,
       "detail": null
@@ -260,6 +270,11 @@
     },
     {
       "check": "full coverage d0-opening--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG d0-opening--en--200",
       "pass": true,
       "detail": null
     },
@@ -361,6 +376,11 @@
     },
     {
       "check": "full coverage d0-opening--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG d0-opening--tr--200--412",
       "pass": true,
       "detail": null
     },
@@ -2371,11 +2391,6 @@
       "detail": null
     },
     {
-      "check": "full PNG migration-linkedin-everyone--en--100--412",
-      "pass": true,
-      "detail": null
-    },
-    {
       "check": "PNG gecis/screens/png/migration-linkedin-everyone--en--200--412.png",
       "pass": true,
       "detail": {
@@ -2409,11 +2424,6 @@
     },
     {
       "check": "full coverage migration-linkedin-everyone--tr--100--412",
-      "pass": true,
-      "detail": null
-    },
-    {
-      "check": "full PNG migration-linkedin-everyone--tr--100--412",
       "pass": true,
       "detail": null
     },
@@ -2549,11 +2559,6 @@
       "detail": null
     },
     {
-      "check": "full PNG migration-linkedin-connections--en--100--412",
-      "pass": true,
-      "detail": null
-    },
-    {
       "check": "PNG gecis/screens/png/migration-linkedin-connections--en--200--412.png",
       "pass": true,
       "detail": {
@@ -2587,11 +2592,6 @@
     },
     {
       "check": "full coverage migration-linkedin-connections--tr--100--412",
-      "pass": true,
-      "detail": null
-    },
-    {
-      "check": "full PNG migration-linkedin-connections--tr--100--412",
       "pass": true,
       "detail": null
     },
@@ -2727,11 +2727,6 @@
       "detail": null
     },
     {
-      "check": "full PNG migration-linkedin-nobody--en--100--412",
-      "pass": true,
-      "detail": null
-    },
-    {
       "check": "PNG gecis/screens/png/migration-linkedin-nobody--en--200--412.png",
       "pass": true,
       "detail": {
@@ -2765,11 +2760,6 @@
     },
     {
       "check": "full coverage migration-linkedin-nobody--tr--100--412",
-      "pass": true,
-      "detail": null
-    },
-    {
-      "check": "full PNG migration-linkedin-nobody--tr--100--412",
       "pass": true,
       "detail": null
     },
@@ -2905,11 +2895,6 @@
       "detail": null
     },
     {
-      "check": "full PNG migration-linkedin-saving--en--100--412",
-      "pass": true,
-      "detail": null
-    },
-    {
       "check": "PNG gecis/screens/png/migration-linkedin-saving--en--200--412.png",
       "pass": true,
       "detail": {
@@ -2943,11 +2928,6 @@
     },
     {
       "check": "full coverage migration-linkedin-saving--tr--100--412",
-      "pass": true,
-      "detail": null
-    },
-    {
-      "check": "full PNG migration-linkedin-saving--tr--100--412",
       "pass": true,
       "detail": null
     },
@@ -3621,6 +3601,796 @@
     },
     {
       "check": "full PNG migration-offline--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "layout migration-linkedin-changed-default",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320 iOS/Android migration-linkedin-changed-default",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-default--en--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-default--en--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-default--en--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-default--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG migration-linkedin-changed-default--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-default--tr--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-default--tr--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-default--tr--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-default--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG migration-linkedin-changed-default--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-default--en--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-default--en--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-default--en--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-default--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG migration-linkedin-changed-default--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-default--tr--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-default--tr--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-default--tr--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-default--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG migration-linkedin-changed-default--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "layout migration-linkedin-changed-other",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320 iOS/Android migration-linkedin-changed-other",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-other--en--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-other--en--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-other--en--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-other--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG migration-linkedin-changed-other--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-other--tr--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-other--tr--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-other--tr--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-other--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG migration-linkedin-changed-other--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-other--en--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-other--en--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-other--en--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-other--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG migration-linkedin-changed-other--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-other--tr--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-other--tr--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-other--tr--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-other--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG migration-linkedin-changed-other--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "layout migration-linkedin-changed-saving",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320 iOS/Android migration-linkedin-changed-saving",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-saving--en--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-saving--en--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-saving--en--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-saving--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG migration-linkedin-changed-saving--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-saving--tr--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-saving--tr--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-saving--tr--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-saving--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG migration-linkedin-changed-saving--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-saving--en--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-saving--en--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-saving--en--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-saving--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG migration-linkedin-changed-saving--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-saving--tr--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-saving--tr--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-saving--tr--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-saving--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG migration-linkedin-changed-saving--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "layout migration-linkedin-changed-failed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320 iOS/Android migration-linkedin-changed-failed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-failed--en--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-failed--en--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-failed--en--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-failed--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG migration-linkedin-changed-failed--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-failed--tr--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-failed--tr--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-failed--tr--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-failed--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG migration-linkedin-changed-failed--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-failed--en--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-failed--en--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-failed--en--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-failed--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG migration-linkedin-changed-failed--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-failed--tr--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-failed--tr--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-failed--tr--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-failed--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG migration-linkedin-changed-failed--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "layout migration-linkedin-changed-offline",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320 iOS/Android migration-linkedin-changed-offline",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-offline--en--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-offline--en--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-offline--en--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-offline--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG migration-linkedin-changed-offline--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-offline--tr--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-offline--tr--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-offline--tr--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-offline--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG migration-linkedin-changed-offline--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-offline--en--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-offline--en--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-offline--en--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-offline--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG migration-linkedin-changed-offline--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-offline--tr--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-offline--tr--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG gecis/screens/png/migration-linkedin-changed-offline--tr--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage migration-linkedin-changed-offline--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG migration-linkedin-changed-offline--tr--200--412",
       "pass": true,
       "detail": null
     },
@@ -5385,6 +6155,11 @@
       "detail": null
     },
     {
+      "check": "full PNG settings-switch-checkin--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
       "check": "PNG ayarlar-topluluk/screens/png/settings-switch-checkin--tr--100.png",
       "pass": true,
       "detail": {
@@ -5413,6 +6188,11 @@
     },
     {
       "check": "full coverage settings-switch-checkin--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG settings-switch-checkin--tr--200",
       "pass": true,
       "detail": null
     },
@@ -5477,6 +6257,11 @@
     },
     {
       "check": "full coverage settings-switch-checkin--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG settings-switch-checkin--tr--200--412",
       "pass": true,
       "detail": null
     },
@@ -5593,6 +6378,11 @@
     },
     {
       "check": "full coverage settings-switch-going--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG settings-switch-going--en--200--412",
       "pass": true,
       "detail": null
     },
@@ -6641,6 +7431,440 @@
     },
     {
       "check": "full coverage settings-switching--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "layout settings-switch-failed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320 iOS/Android settings-switch-failed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG ayarlar-topluluk/screens/png/settings-switch-failed--en--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage settings-switch-failed--en--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG ayarlar-topluluk/screens/png/settings-switch-failed--en--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage settings-switch-failed--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG settings-switch-failed--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG ayarlar-topluluk/screens/png/settings-switch-failed--tr--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage settings-switch-failed--tr--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG ayarlar-topluluk/screens/png/settings-switch-failed--tr--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage settings-switch-failed--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG settings-switch-failed--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG ayarlar-topluluk/screens/png/settings-switch-failed--en--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage settings-switch-failed--en--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG ayarlar-topluluk/screens/png/settings-switch-failed--en--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage settings-switch-failed--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG settings-switch-failed--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG ayarlar-topluluk/screens/png/settings-switch-failed--tr--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage settings-switch-failed--tr--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG ayarlar-topluluk/screens/png/settings-switch-failed--tr--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage settings-switch-failed--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG settings-switch-failed--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "layout settings-loading",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320 iOS/Android settings-loading",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG ayarlar-topluluk/screens/png/settings-loading--en--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage settings-loading--en--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG ayarlar-topluluk/screens/png/settings-loading--en--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage settings-loading--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG ayarlar-topluluk/screens/png/settings-loading--tr--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage settings-loading--tr--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG ayarlar-topluluk/screens/png/settings-loading--tr--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage settings-loading--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG ayarlar-topluluk/screens/png/settings-loading--en--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage settings-loading--en--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG ayarlar-topluluk/screens/png/settings-loading--en--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage settings-loading--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG ayarlar-topluluk/screens/png/settings-loading--tr--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage settings-loading--tr--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG ayarlar-topluluk/screens/png/settings-loading--tr--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage settings-loading--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "layout settings-read-failed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320 iOS/Android settings-read-failed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG ayarlar-topluluk/screens/png/settings-read-failed--en--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage settings-read-failed--en--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG ayarlar-topluluk/screens/png/settings-read-failed--en--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage settings-read-failed--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG ayarlar-topluluk/screens/png/settings-read-failed--tr--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage settings-read-failed--tr--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG ayarlar-topluluk/screens/png/settings-read-failed--tr--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage settings-read-failed--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG ayarlar-topluluk/screens/png/settings-read-failed--en--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage settings-read-failed--en--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG ayarlar-topluluk/screens/png/settings-read-failed--en--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage settings-read-failed--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG ayarlar-topluluk/screens/png/settings-read-failed--tr--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage settings-read-failed--tr--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG ayarlar-topluluk/screens/png/settings-read-failed--tr--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage settings-read-failed--tr--200--412",
       "pass": true,
       "detail": null
     },
@@ -11194,11 +12418,6 @@
       "detail": null
     },
     {
-      "check": "full PNG occupation-catalog-failed--en--200",
-      "pass": true,
-      "detail": null
-    },
-    {
       "check": "PNG meslek/screens/png/occupation-catalog-failed--tr--100.png",
       "pass": true,
       "detail": {
@@ -11227,11 +12446,6 @@
     },
     {
       "check": "full coverage occupation-catalog-failed--tr--200",
-      "pass": true,
-      "detail": null
-    },
-    {
-      "check": "full PNG occupation-catalog-failed--tr--200",
       "pass": true,
       "detail": null
     },
@@ -11268,11 +12482,6 @@
       "detail": null
     },
     {
-      "check": "full PNG occupation-catalog-failed--en--200--412",
-      "pass": true,
-      "detail": null
-    },
-    {
       "check": "PNG meslek/screens/png/occupation-catalog-failed--tr--100--412.png",
       "pass": true,
       "detail": {
@@ -11301,11 +12510,6 @@
     },
     {
       "check": "full coverage occupation-catalog-failed--tr--200--412",
-      "pass": true,
-      "detail": null
-    },
-    {
-      "check": "full PNG occupation-catalog-failed--tr--200--412",
       "pass": true,
       "detail": null
     },
@@ -11878,6 +13082,1074 @@
     },
     {
       "check": "full coverage occupation-profile-friendship--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "layout occupation-signup-selected",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320 iOS/Android occupation-signup-selected",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-selected--en--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-selected--en--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-selected--en--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-selected--en--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-selected--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-selected--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-selected--tr--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-selected--tr--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-selected--tr--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-selected--tr--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-selected--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-selected--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-selected--en--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-selected--en--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-selected--en--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-selected--en--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-selected--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-selected--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-selected--tr--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-selected--tr--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-selected--tr--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-selected--tr--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-selected--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-selected--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "layout occupation-signup-other",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320 iOS/Android occupation-signup-other",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-other--en--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-other--en--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-other--en--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-other--en--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-other--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-other--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-other--tr--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-other--tr--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-other--tr--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-other--tr--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-other--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-other--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-other--en--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-other--en--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-other--en--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-other--en--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-other--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-other--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-other--tr--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-other--tr--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-other--tr--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-other--tr--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-other--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-other--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "layout occupation-signup-saving",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320 iOS/Android occupation-signup-saving",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-saving--en--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-saving--en--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-saving--en--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-saving--en--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-saving--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-saving--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-saving--tr--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-saving--tr--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-saving--tr--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-saving--tr--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-saving--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-saving--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-saving--en--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-saving--en--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-saving--en--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-saving--en--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-saving--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-saving--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-saving--tr--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-saving--tr--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-saving--tr--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-saving--tr--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-saving--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-saving--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "layout occupation-signup-saved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320 iOS/Android occupation-signup-saved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-saved--en--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-saved--en--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-saved--en--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-saved--en--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-saved--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-saved--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-saved--tr--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-saved--tr--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-saved--tr--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-saved--tr--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-saved--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-saved--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-saved--en--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-saved--en--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-saved--en--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-saved--en--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-saved--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-saved--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-saved--tr--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-saved--tr--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-saved--tr--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-saved--tr--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-saved--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-saved--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "layout occupation-signup-failed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320 iOS/Android occupation-signup-failed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-failed--en--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-failed--en--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-failed--en--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-failed--en--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-failed--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-failed--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-failed--tr--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-failed--tr--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-failed--tr--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-failed--tr--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-failed--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-failed--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-failed--en--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-failed--en--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-failed--en--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-failed--en--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-failed--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-failed--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-failed--tr--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-failed--tr--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-failed--tr--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-signup-failed--tr--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-signup-failed--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-signup-failed--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "layout occupation-edit-empty",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320 iOS/Android occupation-edit-empty",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-edit-empty--en--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-edit-empty--en--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-edit-empty--en--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-edit-empty--en--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-edit-empty--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-edit-empty--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-edit-empty--tr--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-edit-empty--tr--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-edit-empty--tr--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-edit-empty--tr--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-edit-empty--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-edit-empty--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-edit-empty--en--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-edit-empty--en--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-edit-empty--en--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-edit-empty--en--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-edit-empty--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-edit-empty--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-edit-empty--tr--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-edit-empty--tr--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-edit-empty--tr--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG meslek/screens/png/occupation-edit-empty--tr--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage occupation-edit-empty--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG occupation-edit-empty--tr--200--412",
       "pass": true,
       "detail": null
     },
@@ -15149,17 +17421,17 @@
       "detail": null
     },
     {
-      "check": "layout linkedin-connection",
+      "check": "layout linkedin-chat-connection",
       "pass": true,
       "detail": null
     },
     {
-      "check": "320 iOS/Android linkedin-connection",
+      "check": "320 iOS/Android linkedin-chat-connection",
       "pass": true,
       "detail": null
     },
     {
-      "check": "PNG linkedin/screens/png/linkedin-connection--en--100.png",
+      "check": "PNG linkedin/screens/png/linkedin-chat-connection--en--100.png",
       "pass": true,
       "detail": {
         "size": [
@@ -15170,12 +17442,12 @@
       }
     },
     {
-      "check": "full coverage linkedin-connection--en--100",
+      "check": "full coverage linkedin-chat-connection--en--100",
       "pass": true,
       "detail": null
     },
     {
-      "check": "PNG linkedin/screens/png/linkedin-connection--en--200.png",
+      "check": "PNG linkedin/screens/png/linkedin-chat-connection--en--200.png",
       "pass": true,
       "detail": {
         "size": [
@@ -15186,12 +17458,12 @@
       }
     },
     {
-      "check": "full coverage linkedin-connection--en--200",
+      "check": "full coverage linkedin-chat-connection--en--200",
       "pass": true,
       "detail": null
     },
     {
-      "check": "PNG linkedin/screens/png/linkedin-connection--tr--100.png",
+      "check": "PNG linkedin/screens/png/linkedin-chat-connection--tr--100.png",
       "pass": true,
       "detail": {
         "size": [
@@ -15202,12 +17474,12 @@
       }
     },
     {
-      "check": "full coverage linkedin-connection--tr--100",
+      "check": "full coverage linkedin-chat-connection--tr--100",
       "pass": true,
       "detail": null
     },
     {
-      "check": "PNG linkedin/screens/png/linkedin-connection--tr--200.png",
+      "check": "PNG linkedin/screens/png/linkedin-chat-connection--tr--200.png",
       "pass": true,
       "detail": {
         "size": [
@@ -15218,12 +17490,12 @@
       }
     },
     {
-      "check": "full coverage linkedin-connection--tr--200",
+      "check": "full coverage linkedin-chat-connection--tr--200",
       "pass": true,
       "detail": null
     },
     {
-      "check": "PNG linkedin/screens/png/linkedin-connection--en--100--412.png",
+      "check": "PNG linkedin/screens/png/linkedin-chat-connection--en--100--412.png",
       "pass": true,
       "detail": {
         "size": [
@@ -15234,12 +17506,12 @@
       }
     },
     {
-      "check": "full coverage linkedin-connection--en--100--412",
+      "check": "full coverage linkedin-chat-connection--en--100--412",
       "pass": true,
       "detail": null
     },
     {
-      "check": "PNG linkedin/screens/png/linkedin-connection--en--200--412.png",
+      "check": "PNG linkedin/screens/png/linkedin-chat-connection--en--200--412.png",
       "pass": true,
       "detail": {
         "size": [
@@ -15250,12 +17522,12 @@
       }
     },
     {
-      "check": "full coverage linkedin-connection--en--200--412",
+      "check": "full coverage linkedin-chat-connection--en--200--412",
       "pass": true,
       "detail": null
     },
     {
-      "check": "PNG linkedin/screens/png/linkedin-connection--tr--100--412.png",
+      "check": "PNG linkedin/screens/png/linkedin-chat-connection--tr--100--412.png",
       "pass": true,
       "detail": {
         "size": [
@@ -15266,12 +17538,12 @@
       }
     },
     {
-      "check": "full coverage linkedin-connection--tr--100--412",
+      "check": "full coverage linkedin-chat-connection--tr--100--412",
       "pass": true,
       "detail": null
     },
     {
-      "check": "PNG linkedin/screens/png/linkedin-connection--tr--200--412.png",
+      "check": "PNG linkedin/screens/png/linkedin-chat-connection--tr--200--412.png",
       "pass": true,
       "detail": {
         "size": [
@@ -15282,7 +17554,7 @@
       }
     },
     {
-      "check": "full coverage linkedin-connection--tr--200--412",
+      "check": "full coverage linkedin-chat-connection--tr--200--412",
       "pass": true,
       "detail": null
     },
@@ -16111,6 +18383,460 @@
     },
     {
       "check": "full coverage linkedin-viewer-failed--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "layout linkedin-settings-empty",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320 iOS/Android linkedin-settings-empty",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG linkedin/screens/png/linkedin-settings-empty--en--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage linkedin-settings-empty--en--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG linkedin-settings-empty--en--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG linkedin/screens/png/linkedin-settings-empty--en--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage linkedin-settings-empty--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG linkedin-settings-empty--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG linkedin/screens/png/linkedin-settings-empty--tr--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage linkedin-settings-empty--tr--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG linkedin-settings-empty--tr--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG linkedin/screens/png/linkedin-settings-empty--tr--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage linkedin-settings-empty--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG linkedin-settings-empty--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG linkedin/screens/png/linkedin-settings-empty--en--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage linkedin-settings-empty--en--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG linkedin-settings-empty--en--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG linkedin/screens/png/linkedin-settings-empty--en--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage linkedin-settings-empty--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG linkedin-settings-empty--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG linkedin/screens/png/linkedin-settings-empty--tr--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage linkedin-settings-empty--tr--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG linkedin-settings-empty--tr--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG linkedin/screens/png/linkedin-settings-empty--tr--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage linkedin-settings-empty--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG linkedin-settings-empty--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "layout linkedin-settings-loading",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320 iOS/Android linkedin-settings-loading",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG linkedin/screens/png/linkedin-settings-loading--en--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage linkedin-settings-loading--en--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG linkedin/screens/png/linkedin-settings-loading--en--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage linkedin-settings-loading--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG linkedin/screens/png/linkedin-settings-loading--tr--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage linkedin-settings-loading--tr--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG linkedin/screens/png/linkedin-settings-loading--tr--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage linkedin-settings-loading--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG linkedin/screens/png/linkedin-settings-loading--en--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage linkedin-settings-loading--en--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG linkedin/screens/png/linkedin-settings-loading--en--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage linkedin-settings-loading--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG linkedin/screens/png/linkedin-settings-loading--tr--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage linkedin-settings-loading--tr--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG linkedin/screens/png/linkedin-settings-loading--tr--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage linkedin-settings-loading--tr--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "layout linkedin-settings-read-failed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320 iOS/Android linkedin-settings-read-failed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG linkedin/screens/png/linkedin-settings-read-failed--en--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage linkedin-settings-read-failed--en--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG linkedin/screens/png/linkedin-settings-read-failed--en--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage linkedin-settings-read-failed--en--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG linkedin/screens/png/linkedin-settings-read-failed--tr--100.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage linkedin-settings-read-failed--tr--100",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG linkedin/screens/png/linkedin-settings-read-failed--tr--200.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1560,
+          3376
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage linkedin-settings-read-failed--tr--200",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG linkedin/screens/png/linkedin-settings-read-failed--en--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage linkedin-settings-read-failed--en--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG linkedin/screens/png/linkedin-settings-read-failed--en--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage linkedin-settings-read-failed--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG linkedin/screens/png/linkedin-settings-read-failed--tr--100--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage linkedin-settings-read-failed--tr--100--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PNG linkedin/screens/png/linkedin-settings-read-failed--tr--200--412.png",
+      "pass": true,
+      "detail": {
+        "size": [
+          1648,
+          3660
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "check": "full coverage linkedin-settings-read-failed--tr--200--412",
       "pass": true,
       "detail": null
     },
@@ -17571,6 +20297,11 @@
     },
     {
       "check": "full coverage filters-not-enough--en--200--412",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "full PNG filters-not-enough--en--200--412",
       "pass": true,
       "detail": null
     },
@@ -20397,17 +23128,22 @@
       "check": "PNG totals",
       "pass": true,
       "detail": {
-        "main": 1040,
-        "full": 475
+        "main": 1176,
+        "full": 552
       }
     },
     {
       "check": "copy exact authoritative EN/TR",
       "pass": true,
       "detail": {
-        "keys": 195,
+        "keys": 198,
         "deviations": []
       }
+    },
+    {
+      "check": "195 existing approved values unchanged",
+      "pass": true,
+      "detail": null
     },
     {
       "check": "retired copy absent",
@@ -20446,6 +23182,91 @@
     },
     {
       "check": "SVG icon count",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "approved appearance tokens unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "match-different flag-off only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "state matrix header",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "R1 standalone changed-link states",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "R1 stored selection restored",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "R1 conversation placement",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "R1 operation failures",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "R1 textless progress",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "R1 check-in notice",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "R1 profile job editing",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "R1 Other title inline",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "R1 hidden duplicate legend",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "R1 Continue after saved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "R1 settings first add default note",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "R1 settings read gates",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "R1 filtered Nearby context",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "R1 forbidden colour pair",
       "pass": true,
       "detail": null
     },

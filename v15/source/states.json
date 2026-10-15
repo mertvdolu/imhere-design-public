@@ -783,7 +783,8 @@
             "disabled": false,
             "value": "Everyone"
           }
-        ]
+        ],
+        "hideLegend": true
       },
       {
         "type": "text",
@@ -807,10 +808,12 @@
         ]
       }
     ],
-    "notes": "Only for stored LinkedIn. Everyone is existing value; no extra visual emphasis. Dismiss keeps Everyone and repeats next launch. Save failure restores Everyone and stays on screen. Body uses HB-37 r5.",
+    "notes": "Shown only when linkedinTransitionNeeded=true. FIRST uses v15LinkedinBody. Dismiss keeps the stored setting; first-transition fixture is Everyone. Failure restores the stored setting and stays here. Group legend is visually hidden but accessible.",
     "layout": "dialog",
     "ack": null,
-    "reject": null
+    "reject": null,
+    "storedVisibility": "Everyone",
+    "transitionReason": "FIRST"
   },
   {
     "id": "migration-linkedin-connections",
@@ -847,7 +850,8 @@
             "disabled": false,
             "value": "Everyone"
           }
-        ]
+        ],
+        "hideLegend": true
       },
       {
         "type": "text",
@@ -871,10 +875,12 @@
         ]
       }
     ],
-    "notes": "Only for stored LinkedIn. Everyone is existing value; no extra visual emphasis. Dismiss keeps Everyone and repeats next launch. Save failure restores Everyone and stays on screen. Body uses HB-37 r5.",
+    "notes": "Shown only when linkedinTransitionNeeded=true. FIRST uses v15LinkedinBody. Dismiss keeps the stored setting; first-transition fixture is Everyone. Failure restores the stored setting and stays here. Group legend is visually hidden but accessible.",
     "layout": "dialog",
     "ack": null,
-    "reject": null
+    "reject": null,
+    "storedVisibility": "Everyone",
+    "transitionReason": "FIRST"
   },
   {
     "id": "migration-linkedin-nobody",
@@ -911,7 +917,8 @@
             "disabled": false,
             "value": "Everyone"
           }
-        ]
+        ],
+        "hideLegend": true
       },
       {
         "type": "text",
@@ -935,10 +942,12 @@
         ]
       }
     ],
-    "notes": "Only for stored LinkedIn. Everyone is existing value; no extra visual emphasis. Dismiss keeps Everyone and repeats next launch. Save failure restores Everyone and stays on screen. Body uses HB-37 r5.",
+    "notes": "Shown only when linkedinTransitionNeeded=true. FIRST uses v15LinkedinBody. Dismiss keeps the stored setting; first-transition fixture is Everyone. Failure restores the stored setting and stays here. Group legend is visually hidden but accessible.",
     "layout": "dialog",
     "ack": null,
-    "reject": null
+    "reject": null,
+    "storedVisibility": "Everyone",
+    "transitionReason": "FIRST"
   },
   {
     "id": "migration-linkedin-saving",
@@ -975,7 +984,8 @@
             "disabled": true,
             "value": "Everyone"
           }
-        ]
+        ],
+        "hideLegend": true
       },
       {
         "type": "text",
@@ -999,10 +1009,12 @@
         ]
       }
     ],
-    "notes": "Only for stored LinkedIn. Everyone is existing value; no extra visual emphasis. Dismiss keeps Everyone and repeats next launch. Save failure restores Everyone and stays on screen. Body uses HB-37 r5.",
+    "notes": "Shown only when linkedinTransitionNeeded=true. FIRST uses v15LinkedinBody. Dismiss keeps the stored setting; first-transition fixture is Everyone. Failure restores the stored setting and stays here. Group legend is visually hidden but accessible.",
     "layout": "dialog",
     "ack": "migration-occupation",
-    "reject": "migration-linkedin-failed"
+    "reject": "migration-linkedin-failed",
+    "storedVisibility": "Everyone",
+    "transitionReason": "FIRST"
   },
   {
     "id": "migration-linkedin-failed",
@@ -1039,7 +1051,8 @@
             "disabled": false,
             "value": "Everyone"
           }
-        ]
+        ],
+        "hideLegend": true
       },
       {
         "type": "text",
@@ -1068,10 +1081,12 @@
         ]
       }
     ],
-    "notes": "Only for stored LinkedIn. Everyone is existing value; no extra visual emphasis. Dismiss keeps Everyone and repeats next launch. Save failure restores Everyone and stays on screen. Body uses HB-37 r5.",
+    "notes": "Shown only when linkedinTransitionNeeded=true. FIRST uses v15LinkedinBody. Dismiss keeps the stored setting; first-transition fixture is Everyone. Failure restores the stored setting and stays here. Group legend is visually hidden but accessible.",
     "layout": "dialog",
     "ack": null,
-    "reject": null
+    "reject": null,
+    "storedVisibility": "Everyone",
+    "transitionReason": "FIRST"
   },
   {
     "id": "migration-linkedin-offline",
@@ -1108,7 +1123,8 @@
             "disabled": false,
             "value": "Everyone"
           }
-        ]
+        ],
+        "hideLegend": true
       },
       {
         "type": "text",
@@ -1137,10 +1153,12 @@
         ]
       }
     ],
-    "notes": "Only for stored LinkedIn. Everyone is existing value; no extra visual emphasis. Dismiss keeps Everyone and repeats next launch. Save failure restores Everyone and stays on screen. Body uses HB-37 r5.",
+    "notes": "Shown only when linkedinTransitionNeeded=true. FIRST uses v15LinkedinBody. Dismiss keeps the stored setting; first-transition fixture is Everyone. Failure restores the stored setting and stays here. Group legend is visually hidden but accessible.",
     "layout": "dialog",
     "ack": null,
-    "reject": null
+    "reject": null,
+    "storedVisibility": "Everyone",
+    "transitionReason": "FIRST"
   },
   {
     "id": "migration-occupation",
@@ -1195,6 +1213,351 @@
     ],
     "notes": "Network failure keeps route and avoids inferred membership.",
     "layout": "onboarding"
+  },
+  {
+    "id": "migration-linkedin-changed-default",
+    "group": "gecis",
+    "title": "v15LinkedinTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "v15LinkedinChangedBody"
+      },
+      {
+        "type": "choices",
+        "key": "profileLinkedinVisibilityTitle",
+        "name": "visibility",
+        "items": [
+          {
+            "key": "profileLinkedinVisibilityNobody",
+            "description": "profileLinkedinVisibilityNobodyDesc",
+            "selected": true,
+            "disabled": false,
+            "value": "Nobody"
+          },
+          {
+            "key": "profileLinkedinVisibilityConnections",
+            "description": "profileLinkedinVisibilityConnectionsDesc",
+            "selected": false,
+            "disabled": false,
+            "value": "Connections"
+          },
+          {
+            "key": "profileLinkedinVisibilityEveryone",
+            "description": "profileLinkedinVisibilityEveryoneDesc",
+            "selected": false,
+            "disabled": false,
+            "value": "Everyone"
+          }
+        ],
+        "hideLegend": true
+      },
+      {
+        "type": "text",
+        "key": "v15LinkedinChangeLater",
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "v15LinkedinContinue",
+            "primary": true,
+            "to": "migration-linkedin-changed-saving",
+            "disabled": false,
+            "busy": false
+          },
+          {
+            "key": "cancel",
+            "to": "nearby-networking"
+          }
+        ]
+      }
+    ],
+    "notes": "Standalone LINK_CHANGED review, no intro/community steps. Stored setting Nobody; other-selection example Connections. Dismiss and failure retain stored Nobody; success only after server ack returns to the existing app. No transition if linkedinTransitionNeeded=false.",
+    "layout": "dialog",
+    "ack": null,
+    "reject": null,
+    "storedVisibility": "Nobody",
+    "transitionReason": "LINK_CHANGED"
+  },
+  {
+    "id": "migration-linkedin-changed-other",
+    "group": "gecis",
+    "title": "v15LinkedinTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "v15LinkedinChangedBody"
+      },
+      {
+        "type": "choices",
+        "key": "profileLinkedinVisibilityTitle",
+        "name": "visibility",
+        "items": [
+          {
+            "key": "profileLinkedinVisibilityNobody",
+            "description": "profileLinkedinVisibilityNobodyDesc",
+            "selected": false,
+            "disabled": false,
+            "value": "Nobody"
+          },
+          {
+            "key": "profileLinkedinVisibilityConnections",
+            "description": "profileLinkedinVisibilityConnectionsDesc",
+            "selected": true,
+            "disabled": false,
+            "value": "Connections"
+          },
+          {
+            "key": "profileLinkedinVisibilityEveryone",
+            "description": "profileLinkedinVisibilityEveryoneDesc",
+            "selected": false,
+            "disabled": false,
+            "value": "Everyone"
+          }
+        ],
+        "hideLegend": true
+      },
+      {
+        "type": "text",
+        "key": "v15LinkedinChangeLater",
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "v15LinkedinContinue",
+            "primary": true,
+            "to": "migration-linkedin-changed-saving",
+            "disabled": false,
+            "busy": false
+          },
+          {
+            "key": "cancel",
+            "to": "nearby-networking"
+          }
+        ]
+      }
+    ],
+    "notes": "Standalone LINK_CHANGED review, no intro/community steps. Stored setting Nobody; other-selection example Connections. Dismiss and failure retain stored Nobody; success only after server ack returns to the existing app. No transition if linkedinTransitionNeeded=false.",
+    "layout": "dialog",
+    "ack": null,
+    "reject": null,
+    "storedVisibility": "Nobody",
+    "transitionReason": "LINK_CHANGED"
+  },
+  {
+    "id": "migration-linkedin-changed-saving",
+    "group": "gecis",
+    "title": "v15LinkedinTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "v15LinkedinChangedBody"
+      },
+      {
+        "type": "choices",
+        "key": "profileLinkedinVisibilityTitle",
+        "name": "visibility",
+        "items": [
+          {
+            "key": "profileLinkedinVisibilityNobody",
+            "description": "profileLinkedinVisibilityNobodyDesc",
+            "selected": false,
+            "disabled": true,
+            "value": "Nobody"
+          },
+          {
+            "key": "profileLinkedinVisibilityConnections",
+            "description": "profileLinkedinVisibilityConnectionsDesc",
+            "selected": true,
+            "disabled": true,
+            "value": "Connections"
+          },
+          {
+            "key": "profileLinkedinVisibilityEveryone",
+            "description": "profileLinkedinVisibilityEveryoneDesc",
+            "selected": false,
+            "disabled": true,
+            "value": "Everyone"
+          }
+        ],
+        "hideLegend": true
+      },
+      {
+        "type": "text",
+        "key": "v15LinkedinChangeLater",
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "v15LinkedinContinue",
+            "primary": true,
+            "to": "migration-linkedin-changed-saving",
+            "disabled": true,
+            "busy": true
+          },
+          {
+            "key": "cancel",
+            "to": "nearby-networking"
+          }
+        ]
+      }
+    ],
+    "notes": "Standalone LINK_CHANGED review, no intro/community steps. Stored setting Nobody; other-selection example Connections. Dismiss and failure retain stored Nobody; success only after server ack returns to the existing app. No transition if linkedinTransitionNeeded=false.",
+    "layout": "dialog",
+    "ack": "nearby-networking",
+    "reject": "migration-linkedin-changed-failed",
+    "storedVisibility": "Nobody",
+    "transitionReason": "LINK_CHANGED"
+  },
+  {
+    "id": "migration-linkedin-changed-failed",
+    "group": "gecis",
+    "title": "v15LinkedinTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "v15LinkedinChangedBody"
+      },
+      {
+        "type": "choices",
+        "key": "profileLinkedinVisibilityTitle",
+        "name": "visibility",
+        "items": [
+          {
+            "key": "profileLinkedinVisibilityNobody",
+            "description": "profileLinkedinVisibilityNobodyDesc",
+            "selected": true,
+            "disabled": false,
+            "value": "Nobody"
+          },
+          {
+            "key": "profileLinkedinVisibilityConnections",
+            "description": "profileLinkedinVisibilityConnectionsDesc",
+            "selected": false,
+            "disabled": false,
+            "value": "Connections"
+          },
+          {
+            "key": "profileLinkedinVisibilityEveryone",
+            "description": "profileLinkedinVisibilityEveryoneDesc",
+            "selected": false,
+            "disabled": false,
+            "value": "Everyone"
+          }
+        ],
+        "hideLegend": true
+      },
+      {
+        "type": "text",
+        "key": "v15LinkedinChangeLater",
+        "helper": true
+      },
+      {
+        "type": "notice",
+        "key": "profileLinkedinVisibilitySaveFailed",
+        "error": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "v15LinkedinContinue",
+            "primary": true,
+            "to": "migration-linkedin-changed-saving",
+            "disabled": false,
+            "busy": false
+          },
+          {
+            "key": "cancel",
+            "to": "nearby-networking"
+          }
+        ]
+      }
+    ],
+    "notes": "Standalone LINK_CHANGED review, no intro/community steps. Stored setting Nobody; other-selection example Connections. Dismiss and failure retain stored Nobody; success only after server ack returns to the existing app. No transition if linkedinTransitionNeeded=false.",
+    "layout": "dialog",
+    "ack": null,
+    "reject": null,
+    "storedVisibility": "Nobody",
+    "transitionReason": "LINK_CHANGED"
+  },
+  {
+    "id": "migration-linkedin-changed-offline",
+    "group": "gecis",
+    "title": "v15LinkedinTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "v15LinkedinChangedBody"
+      },
+      {
+        "type": "choices",
+        "key": "profileLinkedinVisibilityTitle",
+        "name": "visibility",
+        "items": [
+          {
+            "key": "profileLinkedinVisibilityNobody",
+            "description": "profileLinkedinVisibilityNobodyDesc",
+            "selected": true,
+            "disabled": false,
+            "value": "Nobody"
+          },
+          {
+            "key": "profileLinkedinVisibilityConnections",
+            "description": "profileLinkedinVisibilityConnectionsDesc",
+            "selected": false,
+            "disabled": false,
+            "value": "Connections"
+          },
+          {
+            "key": "profileLinkedinVisibilityEveryone",
+            "description": "profileLinkedinVisibilityEveryoneDesc",
+            "selected": false,
+            "disabled": false,
+            "value": "Everyone"
+          }
+        ],
+        "hideLegend": true
+      },
+      {
+        "type": "text",
+        "key": "v15LinkedinChangeLater",
+        "helper": true
+      },
+      {
+        "type": "notice",
+        "key": "offline",
+        "error": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "v15LinkedinContinue",
+            "primary": true,
+            "to": "migration-linkedin-changed-saving",
+            "disabled": false,
+            "busy": false
+          },
+          {
+            "key": "cancel",
+            "to": "nearby-networking"
+          }
+        ]
+      }
+    ],
+    "notes": "Standalone LINK_CHANGED review, no intro/community steps. Stored setting Nobody; other-selection example Connections. Dismiss and failure retain stored Nobody; success only after server ack returns to the existing app. No transition if linkedinTransitionNeeded=false.",
+    "layout": "dialog",
+    "ack": null,
+    "reject": null,
+    "storedVisibility": "Nobody",
+    "transitionReason": "LINK_CHANGED"
   },
   {
     "id": "settings-one",
@@ -1840,6 +2203,10 @@
         "community": "Friendship"
       },
       {
+        "type": "notice",
+        "key": "communityCheckInEndsNote"
+      },
+      {
         "type": "text",
         "key": "communitySwitchRemaining",
         "params": {
@@ -1876,6 +2243,10 @@
         "type": "text",
         "key": "communitySwitchBodyCheckedIn",
         "community": "Friendship"
+      },
+      {
+        "type": "notice",
+        "key": "communityCheckInEndsNote"
       },
       {
         "type": "text",
@@ -2092,9 +2463,7 @@
     "title": "communitySettingsTitle",
     "blocks": [
       {
-        "type": "notice",
-        "key": "communitySwitching",
-        "busy": true
+        "type": "progress"
       },
       {
         "type": "text",
@@ -2102,7 +2471,7 @@
         "helper": true
       }
     ],
-    "notes": "Pending server response, no premature success. Controls replaced by status; completion restores action availability.",
+    "notes": "Pending join/leave response, no visible progress text. Reuse 24×24 loading arc, stroke1.8; progressbar labelled by screen title for accessibility. Failure uses communitySettingsChangeFailed; no premature success.",
     "layout": "dialog",
     "ack": "settings-join-done",
     "reject": "settings-failed"
@@ -2113,9 +2482,7 @@
     "title": "communitySettingsTitle",
     "blocks": [
       {
-        "type": "notice",
-        "key": "communitySwitching",
-        "busy": true
+        "type": "progress"
       },
       {
         "type": "text",
@@ -2123,7 +2490,7 @@
         "helper": true
       }
     ],
-    "notes": "Pending server response, no premature success. Controls replaced by status; completion restores action availability.",
+    "notes": "Pending join/leave response, no visible progress text. Reuse 24×24 loading arc, stroke1.8; progressbar labelled by screen title for accessibility. Failure uses communitySettingsChangeFailed; no premature success.",
     "layout": "dialog",
     "ack": "settings-leave-done",
     "reject": "settings-failed"
@@ -2147,7 +2514,114 @@
     "notes": "Pending server response, no premature success. Controls replaced by status; completion restores action availability.",
     "layout": "dialog",
     "ack": "settings-switch-done",
-    "reject": "settings-failed"
+    "reject": "settings-switch-failed"
+  },
+  {
+    "id": "settings-switch-failed",
+    "group": "ayarlar-topluluk",
+    "title": "communitySettingsTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "communitySettingsHelp"
+      },
+      {
+        "type": "row",
+        "key": "communityOptionNetworking",
+        "community": "Networking",
+        "blocks": [
+          {
+            "type": "tag",
+            "key": "communitySettingsInUse",
+            "community": "Networking"
+          },
+          {
+            "type": "actions",
+            "items": [
+              {
+                "key": "communitySettingsLeave",
+                "community": "Networking",
+                "to": "settings-leave-active"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "key": "communityOptionFriendship",
+        "community": "Friendship",
+        "blocks": [
+          {
+            "type": "actions",
+            "items": [
+              {
+                "key": "communitySwitchConfirm",
+                "to": "settings-switch-confirm"
+              },
+              {
+                "key": "communitySettingsLeave",
+                "community": "Friendship",
+                "to": "settings-leave-inactive"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "communitySettingsLimitRule",
+        "helper": true
+      },
+      {
+        "type": "notice",
+        "key": "communitySwitchFailed",
+        "error": true
+      }
+    ],
+    "notes": "Switch failed: old membership and active community remain. Uses communitySwitchFailed; join/leave failure remains settings-failed / communitySettingsChangeFailed.",
+    "back": "nearby-networking"
+  },
+  {
+    "id": "settings-loading",
+    "group": "ayarlar-topluluk",
+    "title": "communitySettingsTitle",
+    "layout": "subpage",
+    "context": "settings",
+    "back": "nearby-networking",
+    "blocks": [
+      {
+        "type": "progress"
+      }
+    ],
+    "notes": "Settings read gate. No guessed membership, link, default visibility, or stale controls until current server data is read. Existing generic error + Retry; no mutation is attempted.",
+    "ack": "settings-both",
+    "reject": "settings-read-failed"
+  },
+  {
+    "id": "settings-read-failed",
+    "group": "ayarlar-topluluk",
+    "title": "communitySettingsTitle",
+    "layout": "subpage",
+    "context": "settings",
+    "back": "nearby-networking",
+    "blocks": [
+      {
+        "type": "notice",
+        "key": "errorStateChanged",
+        "error": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "checkInRetry",
+            "to": "settings-loading"
+          }
+        ]
+      }
+    ],
+    "notes": "Settings read gate. No guessed membership, link, default visibility, or stale controls until current server data is read. Existing generic error + Retry; no mutation is attempted."
   },
   {
     "id": "nearby-networking",
@@ -2608,7 +3082,9 @@
         "query": "",
         "selected": "",
         "expanded": "",
-        "disabled": false
+        "disabled": false,
+        "selectedTo": "occupation-signup-selected",
+        "otherTo": "occupation-signup-other"
       },
       {
         "type": "actions",
@@ -2630,7 +3106,8 @@
     "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
     "layout": "onboarding",
     "ack": null,
-    "reject": null
+    "reject": null,
+    "context": "signup"
   },
   {
     "id": "occupation-search",
@@ -2658,7 +3135,9 @@
         "query": "designer",
         "selected": "",
         "expanded": "",
-        "disabled": false
+        "disabled": false,
+        "selectedTo": "occupation-signup-selected",
+        "otherTo": "occupation-signup-other"
       },
       {
         "type": "actions",
@@ -2680,7 +3159,8 @@
     "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
     "layout": "onboarding",
     "ack": null,
-    "reject": null
+    "reject": null,
+    "context": "signup"
   },
   {
     "id": "occupation-no-match",
@@ -2710,7 +3190,9 @@
       {
         "type": "occupations",
         "query": "none",
-        "otherOnly": true
+        "otherOnly": true,
+        "selectedTo": "occupation-signup-selected",
+        "otherTo": "occupation-signup-other"
       },
       {
         "type": "actions",
@@ -2732,22 +3214,14 @@
     "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
     "layout": "onboarding",
     "ack": null,
-    "reject": null
+    "reject": null,
+    "context": "signup"
   },
   {
     "id": "occupation-selected",
     "group": "meslek",
-    "title": "occupationStepTitle",
+    "title": "occupation",
     "blocks": [
-      {
-        "type": "text",
-        "key": "occupationStepBody"
-      },
-      {
-        "type": "text",
-        "key": "occupationStepBodyF",
-        "helper": true
-      },
       {
         "type": "field",
         "key": "occupationSearchHint",
@@ -2760,7 +3234,9 @@
         "query": "",
         "selected": "software-engineer",
         "expanded": "technology",
-        "disabled": false
+        "disabled": false,
+        "selectedTo": "occupation-selected",
+        "otherTo": "occupation-other"
       },
       {
         "type": "switch",
@@ -2782,13 +3258,8 @@
             "disabled": false,
             "busy": false,
             "to": "occupation-saving"
-          },
-          {
-            "key": "occupationSkip",
-            "action": "skip-job"
           }
-        ],
-        "equal": true
+        ]
       },
       {
         "type": "actions",
@@ -2800,25 +3271,18 @@
         ]
       }
     ],
-    "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+    "notes": "Profile editing: Job title label/H1, Back and Save; no Skip. Return to the existing Profile editor. Other title immediately follows the selected Other row. Save/remove success only after server response; existing visibility preserved.",
     "layout": "subpage",
     "ack": null,
-    "reject": null
+    "reject": null,
+    "context": "profile-edit",
+    "back": "occupation-profile-networking"
   },
   {
     "id": "occupation-other",
     "group": "meslek",
-    "title": "occupationStepTitle",
+    "title": "occupation",
     "blocks": [
-      {
-        "type": "text",
-        "key": "occupationStepBody"
-      },
-      {
-        "type": "text",
-        "key": "occupationStepBodyF",
-        "helper": true
-      },
       {
         "type": "field",
         "key": "occupationSearchHint",
@@ -2831,14 +3295,16 @@
         "query": "",
         "selected": "other-technology",
         "expanded": "technology",
-        "disabled": false
-      },
-      {
-        "type": "field",
-        "key": "occupationOwnTitleLabel",
-        "en": "Creative technologist",
-        "tr": "Yaratıcı teknoloji uzmanı",
-        "help": "occupationOwnTitleHelp"
+        "disabled": false,
+        "selectedTo": "occupation-selected",
+        "otherTo": "occupation-other",
+        "inlineTitle": {
+          "type": "field",
+          "key": "occupationOwnTitleLabel",
+          "en": "Creative technologist",
+          "tr": "Yaratıcı teknoloji uzmanı",
+          "help": "occupationOwnTitleHelp"
+        }
       },
       {
         "type": "switch",
@@ -2860,13 +3326,8 @@
             "disabled": false,
             "busy": false,
             "to": "occupation-saving"
-          },
-          {
-            "key": "occupationSkip",
-            "action": "skip-job"
           }
-        ],
-        "equal": true
+        ]
       },
       {
         "type": "actions",
@@ -2878,25 +3339,18 @@
         ]
       }
     ],
-    "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+    "notes": "Profile editing: Job title label/H1, Back and Save; no Skip. Return to the existing Profile editor. Other title immediately follows the selected Other row. Save/remove success only after server response; existing visibility preserved.",
     "layout": "subpage",
     "ack": null,
-    "reject": null
+    "reject": null,
+    "context": "profile-edit",
+    "back": "occupation-profile-networking"
   },
   {
     "id": "occupation-hidden",
     "group": "meslek",
-    "title": "occupationStepTitle",
+    "title": "occupation",
     "blocks": [
-      {
-        "type": "text",
-        "key": "occupationStepBody"
-      },
-      {
-        "type": "text",
-        "key": "occupationStepBodyF",
-        "helper": true
-      },
       {
         "type": "field",
         "key": "occupationSearchHint",
@@ -2909,7 +3363,9 @@
         "query": "",
         "selected": "software-engineer",
         "expanded": "technology",
-        "disabled": false
+        "disabled": false,
+        "selectedTo": "occupation-selected",
+        "otherTo": "occupation-other"
       },
       {
         "type": "switch",
@@ -2931,13 +3387,8 @@
             "disabled": false,
             "busy": false,
             "to": "occupation-saving"
-          },
-          {
-            "key": "occupationSkip",
-            "action": "skip-job"
           }
-        ],
-        "equal": true
+        ]
       },
       {
         "type": "actions",
@@ -2949,25 +3400,18 @@
         ]
       }
     ],
-    "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+    "notes": "Profile editing: Job title label/H1, Back and Save; no Skip. Return to the existing Profile editor. Other title immediately follows the selected Other row. Save/remove success only after server response; existing visibility preserved.",
     "layout": "subpage",
     "ack": null,
-    "reject": null
+    "reject": null,
+    "context": "profile-edit",
+    "back": "occupation-profile-networking"
   },
   {
     "id": "occupation-legacy",
     "group": "meslek",
-    "title": "occupationStepTitle",
+    "title": "occupation",
     "blocks": [
-      {
-        "type": "text",
-        "key": "occupationStepBody"
-      },
-      {
-        "type": "text",
-        "key": "occupationStepBodyF",
-        "helper": true
-      },
       {
         "type": "fixture",
         "en": "Product designer",
@@ -2994,7 +3438,9 @@
         "query": "",
         "selected": "",
         "expanded": "",
-        "disabled": false
+        "disabled": false,
+        "selectedTo": "occupation-selected",
+        "otherTo": "occupation-other"
       },
       {
         "type": "switch",
@@ -3016,13 +3462,8 @@
             "disabled": false,
             "busy": false,
             "to": "occupation-saving"
-          },
-          {
-            "key": "occupationSkip",
-            "action": "skip-job"
           }
-        ],
-        "equal": true
+        ]
       },
       {
         "type": "actions",
@@ -3034,25 +3475,18 @@
         ]
       }
     ],
-    "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+    "notes": "Profile editing: Job title label/H1, Back and Save; no Skip. Return to the existing Profile editor. Other title immediately follows the selected Other row. Save/remove success only after server response; existing visibility preserved.",
     "layout": "subpage",
     "ack": null,
-    "reject": null
+    "reject": null,
+    "context": "profile-edit",
+    "back": "occupation-profile-networking"
   },
   {
     "id": "occupation-replace",
     "group": "meslek",
-    "title": "occupationStepTitle",
+    "title": "occupation",
     "blocks": [
-      {
-        "type": "text",
-        "key": "occupationStepBody"
-      },
-      {
-        "type": "text",
-        "key": "occupationStepBodyF",
-        "helper": true
-      },
       {
         "type": "text",
         "key": "occupationReplaceNote"
@@ -3069,7 +3503,9 @@
         "query": "",
         "selected": "software-engineer",
         "expanded": "technology",
-        "disabled": false
+        "disabled": false,
+        "selectedTo": "occupation-selected",
+        "otherTo": "occupation-other"
       },
       {
         "type": "switch",
@@ -3091,34 +3527,22 @@
             "disabled": false,
             "busy": false,
             "to": "occupation-saving"
-          },
-          {
-            "key": "occupationSkip",
-            "action": "skip-job"
           }
-        ],
-        "equal": true
+        ]
       }
     ],
-    "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+    "notes": "Profile editing: Job title label/H1, Back and Save; no Skip. Return to the existing Profile editor. Other title immediately follows the selected Other row. Save/remove success only after server response; existing visibility preserved.",
     "layout": "subpage",
     "ack": null,
-    "reject": null
+    "reject": null,
+    "context": "profile-edit",
+    "back": "occupation-profile-networking"
   },
   {
     "id": "occupation-saving",
     "group": "meslek",
-    "title": "occupationStepTitle",
+    "title": "occupation",
     "blocks": [
-      {
-        "type": "text",
-        "key": "occupationStepBody"
-      },
-      {
-        "type": "text",
-        "key": "occupationStepBodyF",
-        "helper": true
-      },
       {
         "type": "field",
         "key": "occupationSearchHint",
@@ -3131,7 +3555,9 @@
         "query": "",
         "selected": "software-engineer",
         "expanded": "technology",
-        "disabled": true
+        "disabled": true,
+        "selectedTo": "occupation-selected",
+        "otherTo": "occupation-other"
       },
       {
         "type": "switch",
@@ -3158,34 +3584,22 @@
             "disabled": true,
             "busy": true,
             "to": "occupation-saving"
-          },
-          {
-            "key": "occupationSkip",
-            "action": "skip-job"
           }
-        ],
-        "equal": true
+        ]
       }
     ],
-    "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+    "notes": "Profile editing: Job title label/H1, Back and Save; no Skip. Return to the existing Profile editor. Other title immediately follows the selected Other row. Save/remove success only after server response; existing visibility preserved.",
     "layout": "subpage",
     "ack": "occupation-saved",
-    "reject": "occupation-failed"
+    "reject": "occupation-failed",
+    "context": "profile-edit",
+    "back": "occupation-profile-networking"
   },
   {
     "id": "occupation-saved",
     "group": "meslek",
-    "title": "occupationStepTitle",
+    "title": "occupation",
     "blocks": [
-      {
-        "type": "text",
-        "key": "occupationStepBody"
-      },
-      {
-        "type": "text",
-        "key": "occupationStepBodyF",
-        "helper": true
-      },
       {
         "type": "field",
         "key": "occupationSearchHint",
@@ -3198,7 +3612,9 @@
         "query": "",
         "selected": "software-engineer",
         "expanded": "technology",
-        "disabled": false
+        "disabled": false,
+        "selectedTo": "occupation-selected",
+        "otherTo": "occupation-other"
       },
       {
         "type": "switch",
@@ -3224,13 +3640,8 @@
             "disabled": false,
             "busy": false,
             "to": "occupation-saving"
-          },
-          {
-            "key": "occupationSkip",
-            "action": "skip-job"
           }
-        ],
-        "equal": true
+        ]
       },
       {
         "type": "actions",
@@ -3242,25 +3653,18 @@
         ]
       }
     ],
-    "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+    "notes": "Profile editing: Job title label/H1, Back and Save; no Skip. Return to the existing Profile editor. Other title immediately follows the selected Other row. Save/remove success only after server response; existing visibility preserved.",
     "layout": "subpage",
     "ack": null,
-    "reject": null
+    "reject": null,
+    "context": "profile-edit",
+    "back": "occupation-profile-networking"
   },
   {
     "id": "occupation-removed",
     "group": "meslek",
-    "title": "occupationStepTitle",
+    "title": "occupation",
     "blocks": [
-      {
-        "type": "text",
-        "key": "occupationStepBody"
-      },
-      {
-        "type": "text",
-        "key": "occupationStepBodyF",
-        "helper": true
-      },
       {
         "type": "field",
         "key": "occupationSearchHint",
@@ -3273,7 +3677,9 @@
         "query": "",
         "selected": "",
         "expanded": "",
-        "disabled": false
+        "disabled": false,
+        "selectedTo": "occupation-selected",
+        "otherTo": "occupation-other"
       },
       {
         "type": "notice",
@@ -3287,34 +3693,22 @@
             "disabled": false,
             "busy": false,
             "to": "occupation-saving"
-          },
-          {
-            "key": "occupationSkip",
-            "action": "skip-job"
           }
-        ],
-        "equal": true
+        ]
       }
     ],
-    "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+    "notes": "Profile editing: Job title label/H1, Back and Save; no Skip. Return to the existing Profile editor. Other title immediately follows the selected Other row. Save/remove success only after server response; existing visibility preserved.",
     "layout": "subpage",
     "ack": null,
-    "reject": null
+    "reject": null,
+    "context": "profile-edit",
+    "back": "occupation-profile-networking"
   },
   {
     "id": "occupation-failed",
     "group": "meslek",
-    "title": "occupationStepTitle",
+    "title": "occupation",
     "blocks": [
-      {
-        "type": "text",
-        "key": "occupationStepBody"
-      },
-      {
-        "type": "text",
-        "key": "occupationStepBodyF",
-        "helper": true
-      },
       {
         "type": "field",
         "key": "occupationSearchHint",
@@ -3327,7 +3721,9 @@
         "query": "",
         "selected": "software-engineer",
         "expanded": "technology",
-        "disabled": false
+        "disabled": false,
+        "selectedTo": "occupation-selected",
+        "otherTo": "occupation-other"
       },
       {
         "type": "switch",
@@ -3354,13 +3750,8 @@
             "disabled": false,
             "busy": false,
             "to": "occupation-saving"
-          },
-          {
-            "key": "occupationSkip",
-            "action": "skip-job"
           }
-        ],
-        "equal": true
+        ]
       },
       {
         "type": "actions",
@@ -3372,25 +3763,18 @@
         ]
       }
     ],
-    "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+    "notes": "Profile editing: Job title label/H1, Back and Save; no Skip. Return to the existing Profile editor. Other title immediately follows the selected Other row. Save/remove success only after server response; existing visibility preserved.",
     "layout": "subpage",
     "ack": null,
-    "reject": null
+    "reject": null,
+    "context": "profile-edit",
+    "back": "occupation-profile-networking"
   },
   {
     "id": "occupation-catalog-failed",
     "group": "meslek",
-    "title": "occupationStepTitle",
+    "title": "occupation",
     "blocks": [
-      {
-        "type": "text",
-        "key": "occupationStepBody"
-      },
-      {
-        "type": "text",
-        "key": "occupationStepBodyF",
-        "helper": true
-      },
       {
         "type": "field",
         "key": "occupationSearchHint",
@@ -3420,19 +3804,16 @@
             "disabled": true,
             "busy": false,
             "to": "occupation-saving"
-          },
-          {
-            "key": "occupationSkip",
-            "action": "skip-job"
           }
-        ],
-        "equal": true
+        ]
       }
     ],
-    "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+    "notes": "Profile editing: Job title label/H1, Back and Save; no Skip. Return to the existing Profile editor. Other title immediately follows the selected Other row. Save/remove success only after server response; existing visibility preserved.",
     "layout": "subpage",
     "ack": null,
-    "reject": null
+    "reject": null,
+    "context": "profile-edit",
+    "back": "occupation-profile-networking"
   },
   {
     "id": "occupation-loading",
@@ -3479,12 +3860,13 @@
     "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
     "layout": "onboarding",
     "ack": null,
-    "reject": null
+    "reject": null,
+    "context": "signup"
   },
   {
     "id": "occupation-removing",
     "group": "meslek",
-    "title": "occupationStepTitle",
+    "title": "occupation",
     "blocks": [
       {
         "type": "text",
@@ -3501,9 +3883,12 @@
         ]
       }
     ],
-    "notes": "Pending remove; no removed status until server confirms. Failure returns selected old title.",
+    "notes": "Profile editing: Job title label/H1, Back and Save; no Skip. Return to the existing Profile editor. Other title immediately follows the selected Other row. Save/remove success only after server response; existing visibility preserved.",
     "ack": "occupation-removed",
-    "reject": "occupation-failed"
+    "reject": "occupation-failed",
+    "context": "profile-edit",
+    "layout": "subpage",
+    "back": "occupation-profile-networking"
   },
   {
     "id": "occupation-profile-networking",
@@ -3536,6 +3921,392 @@
       }
     ],
     "notes": "Other profile: community never displayed. Occupation only in Networking, omitted entirely in Friendship; no blank line. Fixture uses catalogue title."
+  },
+  {
+    "id": "occupation-signup-selected",
+    "group": "meslek",
+    "title": "occupationStepTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "occupationStepBody"
+      },
+      {
+        "type": "text",
+        "key": "occupationStepBodyF",
+        "helper": true
+      },
+      {
+        "type": "field",
+        "key": "occupationSearchHint",
+        "value": "",
+        "inputType": "search",
+        "placeholder": "occupationSearchHint"
+      },
+      {
+        "type": "occupations",
+        "query": "",
+        "selected": "software-engineer",
+        "expanded": "technology",
+        "disabled": false,
+        "selectedTo": "occupation-signup-selected",
+        "otherTo": "occupation-signup-other"
+      },
+      {
+        "type": "switch",
+        "key": "showOccupation",
+        "checked": true,
+        "disabled": false,
+        "help": "occupationShowHelp"
+      },
+      {
+        "type": "text",
+        "key": "occupationNetworkingNote",
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "profileSave",
+            "disabled": false,
+            "busy": false,
+            "to": "occupation-signup-saving"
+          },
+          {
+            "key": "occupationSkip",
+            "action": "skip-job"
+          }
+        ],
+        "equal": true
+      }
+    ],
+    "notes": "Optional signup job step; Skip stays available. Separate from Profile editing. Save waits for server acknowledgement; no forced occupation. Other title is directly under the selected Other row.",
+    "layout": "onboarding",
+    "ack": null,
+    "reject": null,
+    "context": "signup"
+  },
+  {
+    "id": "occupation-signup-other",
+    "group": "meslek",
+    "title": "occupationStepTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "occupationStepBody"
+      },
+      {
+        "type": "text",
+        "key": "occupationStepBodyF",
+        "helper": true
+      },
+      {
+        "type": "field",
+        "key": "occupationSearchHint",
+        "value": "",
+        "inputType": "search",
+        "placeholder": "occupationSearchHint"
+      },
+      {
+        "type": "occupations",
+        "query": "",
+        "selected": "other-technology",
+        "expanded": "technology",
+        "disabled": false,
+        "selectedTo": "occupation-signup-selected",
+        "otherTo": "occupation-signup-other",
+        "inlineTitle": {
+          "type": "field",
+          "key": "occupationOwnTitleLabel",
+          "en": "Creative technologist",
+          "tr": "Yaratıcı teknoloji uzmanı",
+          "help": "occupationOwnTitleHelp"
+        }
+      },
+      {
+        "type": "switch",
+        "key": "showOccupation",
+        "checked": true,
+        "disabled": false,
+        "help": "occupationShowHelp"
+      },
+      {
+        "type": "text",
+        "key": "occupationNetworkingNote",
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "profileSave",
+            "disabled": false,
+            "busy": false,
+            "to": "occupation-signup-saving"
+          },
+          {
+            "key": "occupationSkip",
+            "action": "skip-job"
+          }
+        ],
+        "equal": true
+      }
+    ],
+    "notes": "Optional signup job step; Skip stays available. Separate from Profile editing. Save waits for server acknowledgement; no forced occupation. Other title is directly under the selected Other row.",
+    "layout": "onboarding",
+    "ack": null,
+    "reject": null,
+    "context": "signup"
+  },
+  {
+    "id": "occupation-signup-saving",
+    "group": "meslek",
+    "title": "occupationStepTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "occupationStepBody"
+      },
+      {
+        "type": "text",
+        "key": "occupationStepBodyF",
+        "helper": true
+      },
+      {
+        "type": "field",
+        "key": "occupationSearchHint",
+        "value": "",
+        "inputType": "search",
+        "placeholder": "occupationSearchHint"
+      },
+      {
+        "type": "occupations",
+        "query": "",
+        "selected": "software-engineer",
+        "expanded": "technology",
+        "disabled": true,
+        "selectedTo": "occupation-signup-selected",
+        "otherTo": "occupation-signup-other"
+      },
+      {
+        "type": "switch",
+        "key": "showOccupation",
+        "checked": true,
+        "disabled": true,
+        "help": "occupationShowHelp"
+      },
+      {
+        "type": "text",
+        "key": "occupationNetworkingNote",
+        "helper": true
+      },
+      {
+        "type": "notice",
+        "key": "profileSaving",
+        "busy": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "profileSave",
+            "disabled": true,
+            "busy": true,
+            "to": "occupation-signup-saving"
+          },
+          {
+            "key": "occupationSkip",
+            "action": "skip-job"
+          }
+        ],
+        "equal": true
+      }
+    ],
+    "notes": "Optional signup job step; Skip stays available. Separate from Profile editing. Save waits for server acknowledgement; no forced occupation. Other title is directly under the selected Other row.",
+    "layout": "onboarding",
+    "ack": "occupation-signup-saved",
+    "reject": "occupation-signup-failed",
+    "context": "signup"
+  },
+  {
+    "id": "occupation-signup-saved",
+    "group": "meslek",
+    "title": "occupationStepTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "occupationStepBody"
+      },
+      {
+        "type": "text",
+        "key": "occupationStepBodyF",
+        "helper": true
+      },
+      {
+        "type": "field",
+        "key": "occupationSearchHint",
+        "value": "",
+        "inputType": "search",
+        "placeholder": "occupationSearchHint"
+      },
+      {
+        "type": "occupations",
+        "query": "",
+        "selected": "software-engineer",
+        "expanded": "technology",
+        "disabled": false,
+        "selectedTo": "occupation-signup-selected",
+        "otherTo": "occupation-signup-other"
+      },
+      {
+        "type": "switch",
+        "key": "showOccupation",
+        "checked": true,
+        "disabled": false,
+        "help": "occupationShowHelp"
+      },
+      {
+        "type": "text",
+        "key": "occupationNetworkingNote",
+        "helper": true
+      },
+      {
+        "type": "notice",
+        "key": "profileSaved"
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "profileSave",
+            "disabled": false,
+            "busy": false,
+            "to": "occupation-signup-saving"
+          },
+          {
+            "key": "occupationSkip",
+            "action": "skip-job"
+          }
+        ],
+        "equal": true
+      }
+    ],
+    "notes": "Optional signup job step; Skip stays available. Separate from Profile editing. Save waits for server acknowledgement; no forced occupation. Other title is directly under the selected Other row.",
+    "layout": "onboarding",
+    "ack": null,
+    "reject": null,
+    "context": "signup"
+  },
+  {
+    "id": "occupation-signup-failed",
+    "group": "meslek",
+    "title": "occupationStepTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "occupationStepBody"
+      },
+      {
+        "type": "text",
+        "key": "occupationStepBodyF",
+        "helper": true
+      },
+      {
+        "type": "field",
+        "key": "occupationSearchHint",
+        "value": "",
+        "inputType": "search",
+        "placeholder": "occupationSearchHint"
+      },
+      {
+        "type": "occupations",
+        "query": "",
+        "selected": "software-engineer",
+        "expanded": "technology",
+        "disabled": false,
+        "selectedTo": "occupation-signup-selected",
+        "otherTo": "occupation-signup-other"
+      },
+      {
+        "type": "switch",
+        "key": "showOccupation",
+        "checked": true,
+        "disabled": false,
+        "help": "occupationShowHelp"
+      },
+      {
+        "type": "text",
+        "key": "occupationNetworkingNote",
+        "helper": true
+      },
+      {
+        "type": "notice",
+        "key": "profileSaveFailed",
+        "error": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "profileSave",
+            "disabled": false,
+            "busy": false,
+            "to": "occupation-signup-saving"
+          },
+          {
+            "key": "occupationSkip",
+            "action": "skip-job"
+          }
+        ],
+        "equal": true
+      }
+    ],
+    "notes": "Optional signup job step; Skip stays available. Separate from Profile editing. Save waits for server acknowledgement; no forced occupation. Other title is directly under the selected Other row.",
+    "layout": "onboarding",
+    "ack": null,
+    "reject": null,
+    "context": "signup"
+  },
+  {
+    "id": "occupation-edit-empty",
+    "group": "meslek",
+    "title": "occupation",
+    "blocks": [
+      {
+        "type": "field",
+        "key": "occupationSearchHint",
+        "value": "",
+        "inputType": "search",
+        "placeholder": "occupationSearchHint"
+      },
+      {
+        "type": "occupations",
+        "query": "",
+        "selected": "",
+        "expanded": "",
+        "disabled": false,
+        "selectedTo": "occupation-selected",
+        "otherTo": "occupation-other"
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "profileSave",
+            "disabled": false,
+            "busy": false,
+            "to": "occupation-saving"
+          }
+        ]
+      }
+    ],
+    "notes": "Profile editing: Job title label/H1, Back and Save; no Skip. Return to the existing Profile editor. Other title immediately follows the selected Other row. Save/remove success only after server response; existing visibility preserved.",
+    "layout": "subpage",
+    "ack": null,
+    "reject": null,
+    "context": "profile-edit",
+    "back": "occupation-profile-networking"
   },
   {
     "id": "linkedin-empty",
@@ -4405,8 +5176,8 @@
             "busy": false
           },
           {
-            "key": "signupLinkedinSkip",
-            "action": "skip-linkedin"
+            "key": "v15LinkedinContinue",
+            "to": "card-empty"
           }
         ],
         "equal": true
@@ -4421,7 +5192,7 @@
         ]
       }
     ],
-    "notes": "Optional. Form → external Open/check → return own-profile confirmation → Save. Return/Yes only enables Save, not verification. No success tick or green state. Three equal radios, only dot selected. Failure restores old Everyone; source body HB-37r5. URL is fictional placeholder.",
+    "notes": "Optional. Form → external Open/check → return own-profile confirmation → Save. Return/Yes only enables Save, not verification. No success tick or green state. Three equal radios, only dot selected. Failure restores old Everyone; source body HB-37r5. URL is fictional placeholder. Server-confirmed saved state: Continue replaces Skip and opens the optional card step.",
     "layout": "onboarding",
     "ack": null,
     "reject": null
@@ -5204,19 +5975,15 @@
     "reject": null
   },
   {
-    "id": "linkedin-connection",
+    "id": "linkedin-chat-connection",
     "group": "linkedin",
-    "title": "navProfile",
+    "title": null,
     "blocks": [
-      {
-        "type": "person",
-        "name": "Maya"
-      },
       {
         "type": "link",
         "key": "profileLinkedin",
         "icon": true,
-        "to": "linkedin-connection"
+        "to": "linkedin-chat-connection"
       },
       {
         "type": "text",
@@ -5224,17 +5991,18 @@
         "helper": true
       }
     ],
-    "notes": "Link plain text + generic external icon. Connections/chat profile can see according to visibility across communities. Before connection Networking only. Hidden/no link identical omission; no placeholder or community field. Viewer notice immediately below link."
+    "notes": "Decision 56(5): LinkedIn row and ViewerNote in the connected conversation screen, never in the Connections/inbox list. Maya is the fictional conversation title. Visibility still follows the stored preference; this is a focused row-placement drawing, not a replacement for the full chat composer.",
+    "fixtureTitle": {
+      "en": "Maya",
+      "tr": "Maya"
+    },
+    "layout": "subpage"
   },
   {
     "id": "linkedin-chat",
     "group": "linkedin",
-    "title": "navProfile",
+    "title": null,
     "blocks": [
-      {
-        "type": "person",
-        "name": "Maya"
-      },
       {
         "type": "link",
         "key": "profileLinkedin",
@@ -5247,7 +6015,12 @@
         "helper": true
       }
     ],
-    "notes": "Link plain text + generic external icon. Connections/chat profile can see according to visibility across communities. Before connection Networking only. Hidden/no link identical omission; no placeholder or community field. Viewer notice immediately below link."
+    "notes": "Same conversation-surface placement as linkedin-chat-connection. Historical connection entry routes to this conversation; no LinkedIn field is added to readInbox/Connections list. Existing chat controls remain outside this focused specimen.",
+    "fixtureTitle": {
+      "en": "Maya",
+      "tr": "Maya"
+    },
+    "layout": "subpage"
   },
   {
     "id": "linkedin-networking-before",
@@ -5369,6 +6142,153 @@
       }
     ],
     "notes": "Link plain text + generic external icon. Connections/chat profile can see according to visibility across communities. Before connection Networking only. Hidden/no link identical omission; no placeholder or community field. Viewer notice immediately below link."
+  },
+  {
+    "id": "linkedin-settings-empty",
+    "group": "linkedin",
+    "title": "profileLinkedin",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "profileLinkedinHelp"
+      },
+      {
+        "type": "field",
+        "key": "profileLinkedinFieldLabel",
+        "value": "",
+        "placeholder": "profileLinkedinHint",
+        "error": null,
+        "disabled": false
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "profileLinkedinOpenCheck",
+            "icon": "external",
+            "to": "linkedin-opening",
+            "disabled": true,
+            "busy": false
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "profileLinkedinOutsideAppNote",
+        "helper": true
+      },
+      {
+        "type": "text",
+        "key": "profileLinkedinNoCheck",
+        "helper": true
+      },
+      {
+        "type": "choices",
+        "key": "profileLinkedinVisibilityTitle",
+        "name": "visibility",
+        "items": [
+          {
+            "key": "profileLinkedinVisibilityNobody",
+            "description": "profileLinkedinVisibilityNobodyDesc",
+            "selected": false,
+            "value": "Nobody",
+            "disabled": false
+          },
+          {
+            "key": "profileLinkedinVisibilityConnections",
+            "description": "profileLinkedinVisibilityConnectionsDesc",
+            "selected": false,
+            "value": "Connections",
+            "disabled": false
+          },
+          {
+            "key": "profileLinkedinVisibilityEveryone",
+            "description": "profileLinkedinVisibilityEveryoneDesc",
+            "selected": true,
+            "value": "Everyone",
+            "disabled": false
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "profileLinkedinVisibilityDefaultNote",
+        "helper": true
+      },
+      {
+        "type": "text",
+        "key": "profileLinkedinCheckRequired",
+        "helper": true
+      },
+      {
+        "type": "text",
+        "key": "profileLinkedinNetworkingNote",
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "profileLinkedinSave",
+            "to": "linkedin-saving",
+            "disabled": true,
+            "busy": false
+          },
+          {
+            "key": "cancel",
+            "action": "existing-back"
+          }
+        ],
+        "equal": true
+      }
+    ],
+    "notes": "Settings → LinkedIn, first add with no stored link. Everyone standard radio selection; profileLinkedinVisibilityDefaultNote below options. Back/Cancel, not Skip. Open/check and own confirmation still required before Save.",
+    "layout": "subpage",
+    "ack": null,
+    "reject": null,
+    "context": "settings",
+    "back": "occupation-profile-networking"
+  },
+  {
+    "id": "linkedin-settings-loading",
+    "group": "linkedin",
+    "title": "profileLinkedin",
+    "layout": "subpage",
+    "context": "settings",
+    "back": "nearby-networking",
+    "blocks": [
+      {
+        "type": "progress"
+      }
+    ],
+    "notes": "Settings read gate. No guessed membership, link, default visibility, or stale controls until current server data is read. Existing generic error + Retry; no mutation is attempted.",
+    "ack": "linkedin-stored",
+    "reject": "linkedin-settings-read-failed"
+  },
+  {
+    "id": "linkedin-settings-read-failed",
+    "group": "linkedin",
+    "title": "profileLinkedin",
+    "layout": "subpage",
+    "context": "settings",
+    "back": "nearby-networking",
+    "blocks": [
+      {
+        "type": "notice",
+        "key": "errorStateChanged",
+        "error": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "checkInRetry",
+            "to": "linkedin-settings-loading"
+          }
+        ]
+      }
+    ],
+    "notes": "Settings read gate. No guessed membership, link, default visibility, or stale controls until current server data is read. Existing generic error + Retry; no mutation is attempted."
   },
   {
     "id": "filters-loading",
@@ -6035,14 +6955,24 @@
   {
     "id": "filters-not-enough",
     "group": "filtre",
-    "title": "nearbyFilters",
+    "title": "navNearby",
     "blocks": [
       {
-        "type": "text",
-        "key": "nearbyFiltersOnBadge",
-        "params": {
-          "count": 2
-        }
+        "type": "community",
+        "community": "Networking"
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "nearbyFiltersOnBadge",
+            "params": {
+              "count": 2
+            },
+            "icon": "filter",
+            "to": "filters-selected"
+          }
+        ]
       },
       {
         "type": "notice",
@@ -6056,30 +6986,36 @@
         "type": "actions",
         "items": [
           {
-            "key": "nearbyFilters",
-            "to": "filters-selected"
-          },
-          {
             "key": "nearbyFiltersClear",
             "to": "nearby-networking"
           }
         ]
       }
     ],
-    "notes": "Networking only. Counts are explicit design fixtures, never live. Each visible option≥3, cap50+. OR among≤5 jobs, AND with LinkedIn Everyone. Panel order frozen while open; 0/1/2 same state; no saved filters.",
+    "notes": "Filtered Nearby list: Nearby H1, own community indicator, 2 filters on button, selected filters retained. 0/1/2 share this threshold state; no hidden count shown. Edit via count button or explicitly clear.",
     "nav": "Nearby"
   },
   {
     "id": "filters-no-longer-enough",
     "group": "filtre",
-    "title": "nearbyFilters",
+    "title": "navNearby",
     "blocks": [
       {
-        "type": "text",
-        "key": "nearbyFiltersOnBadge",
-        "params": {
-          "count": 2
-        }
+        "type": "community",
+        "community": "Networking"
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "nearbyFiltersOnBadge",
+            "params": {
+              "count": 2
+            },
+            "icon": "filter",
+            "to": "filters-selected"
+          }
+        ]
       },
       {
         "type": "notice",
@@ -6093,17 +7029,13 @@
         "type": "actions",
         "items": [
           {
-            "key": "nearbyFilters",
-            "to": "filters-selected"
-          },
-          {
             "key": "nearbyFiltersClear",
             "to": "nearby-networking"
           }
         ]
       }
     ],
-    "notes": "Networking only. Counts are explicit design fixtures, never live. Each visible option≥3, cap50+. OR among≤5 jobs, AND with LinkedIn Everyone. Panel order frozen while open; 0/1/2 same state; no saved filters.",
+    "notes": "Filtered Nearby list: Nearby H1, own community indicator, 2 filters on button, selected filters retained. 0/1/2 share this threshold state; no hidden count shown. Edit via count button or explicitly clear.",
     "nav": "Nearby"
   },
   {

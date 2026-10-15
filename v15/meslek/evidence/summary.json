@@ -1,12 +1,15 @@
 {
-  "states": 17,
-  "expectedMainPng": 136,
-  "mainPng": 136,
-  "fullPng": 104,
-  "measuredLayouts": 308,
+  "states": 23,
+  "expectedMainPng": 184,
+  "mainPng": 184,
+  "fullPng": 148,
+  "measuredLayouts": 424,
   "horizontalOverflow": 0,
   "smallTargets": 0,
   "clippedText": 0,
+  "verticalOverlaps": 0,
+  "verticalTextOverflow": 0,
+  "unreachableContent": 0,
   "issues": [],
   "status": "PASS"
 }

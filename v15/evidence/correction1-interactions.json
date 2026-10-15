@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "method": "CUA actual UI controls; explicit simulated server responses; no backend calls",
+  "observations": [
+    {
+      "body": "Your LinkedIn link has changed. Check who can see it.",
+      "case": "Changed link initial",
+      "hiddenLegend": true,
+      "selected": "Nobody"
+    },
+    {
+      "case": "Changed link saving",
+      "scene": "migration-linkedin-changed-saving",
+      "selected": "Connections"
+    },
+    {
+      "case": "Changed link failed",
+      "scene": "migration-linkedin-changed-failed",
+      "selected": "Nobody"
+    },
+    {
+      "case": "Standalone close",
+      "scene": "nearby-networking"
+    },
+    {
+      "back": true,
+      "case": "Profile Other field placement",
+      "h1": "Meslek",
+      "nextToOther": "Unvanın (isteğe bağlı)",
+      "skip": false
+    },
+    {
+      "case": "Signup saved",
+      "continue": true,
+      "skip": false
+    },
+    {
+      "case": "Saved Continue",
+      "scene": "card-empty"
+    },
+    {
+      "case": "Switch failure key",
+      "key": "communitySwitchFailed",
+      "scene": "settings-switch-failed"
+    },
+    {
+      "case": "Joining spinner",
+      "progress": 1,
+      "visibleSwitching": false
+    },
+    {
+      "case": "Join failure key",
+      "key": "communitySettingsChangeFailed",
+      "scene": "settings-failed"
+    }
+  ]
+}

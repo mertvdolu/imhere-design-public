@@ -20,6 +20,10 @@ Cream & Ink v2.3. Başlangıç: remote main58bf8c4; yalnız design/v15-cream-ink
 
 [İtalik / açılış kararı](italik-acilis/README.md): yeni öneri **yok**; Geist ve onaylı H0 korunur.
 
+## Güncel düzeltme
+
+[14 maddelik Düzeltme 1](DUZELTME-1.md) bu teslimin güncel fark listesidir.
+
 ## Tek teslim raporu
 
 [Founder / Manager raporu](TESLIM-RAPORU.md) · [Son doğrulama](evidence/final-validation.json)

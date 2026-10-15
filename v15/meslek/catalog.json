@@ -27,7 +27,9 @@
           "query": "",
           "selected": "",
           "expanded": "",
-          "disabled": false
+          "disabled": false,
+          "selectedTo": "occupation-signup-selected",
+          "otherTo": "occupation-signup-other"
         },
         {
           "type": "actions",
@@ -49,7 +51,8 @@
       "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
       "layout": "onboarding",
       "ack": null,
-      "reject": null
+      "reject": null,
+      "context": "signup"
     },
     {
       "id": "occupation-search",
@@ -77,7 +80,9 @@
           "query": "designer",
           "selected": "",
           "expanded": "",
-          "disabled": false
+          "disabled": false,
+          "selectedTo": "occupation-signup-selected",
+          "otherTo": "occupation-signup-other"
         },
         {
           "type": "actions",
@@ -99,7 +104,8 @@
       "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
       "layout": "onboarding",
       "ack": null,
-      "reject": null
+      "reject": null,
+      "context": "signup"
     },
     {
       "id": "occupation-no-match",
@@ -129,7 +135,9 @@
         {
           "type": "occupations",
           "query": "none",
-          "otherOnly": true
+          "otherOnly": true,
+          "selectedTo": "occupation-signup-selected",
+          "otherTo": "occupation-signup-other"
         },
         {
           "type": "actions",
@@ -151,22 +159,14 @@
       "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
       "layout": "onboarding",
       "ack": null,
-      "reject": null
+      "reject": null,
+      "context": "signup"
     },
     {
       "id": "occupation-selected",
       "group": "meslek",
-      "title": "occupationStepTitle",
+      "title": "occupation",
       "blocks": [
-        {
-          "type": "text",
-          "key": "occupationStepBody"
-        },
-        {
-          "type": "text",
-          "key": "occupationStepBodyF",
-          "helper": true
-        },
         {
           "type": "field",
           "key": "occupationSearchHint",
@@ -179,7 +179,9 @@
           "query": "",
           "selected": "software-engineer",
           "expanded": "technology",
-          "disabled": false
+          "disabled": false,
+          "selectedTo": "occupation-selected",
+          "otherTo": "occupation-other"
         },
         {
           "type": "switch",
@@ -201,13 +203,8 @@
               "disabled": false,
               "busy": false,
               "to": "occupation-saving"
-            },
-            {
-              "key": "occupationSkip",
-              "action": "skip-job"
             }
-          ],
-          "equal": true
+          ]
         },
         {
           "type": "actions",
@@ -219,25 +216,18 @@
           ]
         }
       ],
-      "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+      "notes": "Profile editing: Job title label/H1, Back and Save; no Skip. Return to the existing Profile editor. Other title immediately follows the selected Other row. Save/remove success only after server response; existing visibility preserved.",
       "layout": "subpage",
       "ack": null,
-      "reject": null
+      "reject": null,
+      "context": "profile-edit",
+      "back": "occupation-profile-networking"
     },
     {
       "id": "occupation-other",
       "group": "meslek",
-      "title": "occupationStepTitle",
+      "title": "occupation",
       "blocks": [
-        {
-          "type": "text",
-          "key": "occupationStepBody"
-        },
-        {
-          "type": "text",
-          "key": "occupationStepBodyF",
-          "helper": true
-        },
         {
           "type": "field",
           "key": "occupationSearchHint",
@@ -250,14 +240,16 @@
           "query": "",
           "selected": "other-technology",
           "expanded": "technology",
-          "disabled": false
-        },
-        {
-          "type": "field",
-          "key": "occupationOwnTitleLabel",
-          "en": "Creative technologist",
-          "tr": "Yaratıcı teknoloji uzmanı",
-          "help": "occupationOwnTitleHelp"
+          "disabled": false,
+          "selectedTo": "occupation-selected",
+          "otherTo": "occupation-other",
+          "inlineTitle": {
+            "type": "field",
+            "key": "occupationOwnTitleLabel",
+            "en": "Creative technologist",
+            "tr": "Yaratıcı teknoloji uzmanı",
+            "help": "occupationOwnTitleHelp"
+          }
         },
         {
           "type": "switch",
@@ -279,13 +271,8 @@
               "disabled": false,
               "busy": false,
               "to": "occupation-saving"
-            },
-            {
-              "key": "occupationSkip",
-              "action": "skip-job"
             }
-          ],
-          "equal": true
+          ]
         },
         {
           "type": "actions",
@@ -297,25 +284,18 @@
           ]
         }
       ],
-      "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+      "notes": "Profile editing: Job title label/H1, Back and Save; no Skip. Return to the existing Profile editor. Other title immediately follows the selected Other row. Save/remove success only after server response; existing visibility preserved.",
       "layout": "subpage",
       "ack": null,
-      "reject": null
+      "reject": null,
+      "context": "profile-edit",
+      "back": "occupation-profile-networking"
     },
     {
       "id": "occupation-hidden",
       "group": "meslek",
-      "title": "occupationStepTitle",
+      "title": "occupation",
       "blocks": [
-        {
-          "type": "text",
-          "key": "occupationStepBody"
-        },
-        {
-          "type": "text",
-          "key": "occupationStepBodyF",
-          "helper": true
-        },
         {
           "type": "field",
           "key": "occupationSearchHint",
@@ -328,7 +308,9 @@
           "query": "",
           "selected": "software-engineer",
           "expanded": "technology",
-          "disabled": false
+          "disabled": false,
+          "selectedTo": "occupation-selected",
+          "otherTo": "occupation-other"
         },
         {
           "type": "switch",
@@ -350,13 +332,8 @@
               "disabled": false,
               "busy": false,
               "to": "occupation-saving"
-            },
-            {
-              "key": "occupationSkip",
-              "action": "skip-job"
             }
-          ],
-          "equal": true
+          ]
         },
         {
           "type": "actions",
@@ -368,25 +345,18 @@
           ]
         }
       ],
-      "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+      "notes": "Profile editing: Job title label/H1, Back and Save; no Skip. Return to the existing Profile editor. Other title immediately follows the selected Other row. Save/remove success only after server response; existing visibility preserved.",
       "layout": "subpage",
       "ack": null,
-      "reject": null
+      "reject": null,
+      "context": "profile-edit",
+      "back": "occupation-profile-networking"
     },
     {
       "id": "occupation-legacy",
       "group": "meslek",
-      "title": "occupationStepTitle",
+      "title": "occupation",
       "blocks": [
-        {
-          "type": "text",
-          "key": "occupationStepBody"
-        },
-        {
-          "type": "text",
-          "key": "occupationStepBodyF",
-          "helper": true
-        },
         {
           "type": "fixture",
           "en": "Product designer",
@@ -413,7 +383,9 @@
           "query": "",
           "selected": "",
           "expanded": "",
-          "disabled": false
+          "disabled": false,
+          "selectedTo": "occupation-selected",
+          "otherTo": "occupation-other"
         },
         {
           "type": "switch",
@@ -435,13 +407,8 @@
               "disabled": false,
               "busy": false,
               "to": "occupation-saving"
-            },
-            {
-              "key": "occupationSkip",
-              "action": "skip-job"
             }
-          ],
-          "equal": true
+          ]
         },
         {
           "type": "actions",
@@ -453,25 +420,18 @@
           ]
         }
       ],
-      "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+      "notes": "Profile editing: Job title label/H1, Back and Save; no Skip. Return to the existing Profile editor. Other title immediately follows the selected Other row. Save/remove success only after server response; existing visibility preserved.",
       "layout": "subpage",
       "ack": null,
-      "reject": null
+      "reject": null,
+      "context": "profile-edit",
+      "back": "occupation-profile-networking"
     },
     {
       "id": "occupation-replace",
       "group": "meslek",
-      "title": "occupationStepTitle",
+      "title": "occupation",
       "blocks": [
-        {
-          "type": "text",
-          "key": "occupationStepBody"
-        },
-        {
-          "type": "text",
-          "key": "occupationStepBodyF",
-          "helper": true
-        },
         {
           "type": "text",
           "key": "occupationReplaceNote"
@@ -488,7 +448,9 @@
           "query": "",
           "selected": "software-engineer",
           "expanded": "technology",
-          "disabled": false
+          "disabled": false,
+          "selectedTo": "occupation-selected",
+          "otherTo": "occupation-other"
         },
         {
           "type": "switch",
@@ -510,34 +472,22 @@
               "disabled": false,
               "busy": false,
               "to": "occupation-saving"
-            },
-            {
-              "key": "occupationSkip",
-              "action": "skip-job"
             }
-          ],
-          "equal": true
+          ]
         }
       ],
-      "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+      "notes": "Profile editing: Job title label/H1, Back and Save; no Skip. Return to the existing Profile editor. Other title immediately follows the selected Other row. Save/remove success only after server response; existing visibility preserved.",
       "layout": "subpage",
       "ack": null,
-      "reject": null
+      "reject": null,
+      "context": "profile-edit",
+      "back": "occupation-profile-networking"
     },
     {
       "id": "occupation-saving",
       "group": "meslek",
-      "title": "occupationStepTitle",
+      "title": "occupation",
       "blocks": [
-        {
-          "type": "text",
-          "key": "occupationStepBody"
-        },
-        {
-          "type": "text",
-          "key": "occupationStepBodyF",
-          "helper": true
-        },
         {
           "type": "field",
           "key": "occupationSearchHint",
@@ -550,7 +500,9 @@
           "query": "",
           "selected": "software-engineer",
           "expanded": "technology",
-          "disabled": true
+          "disabled": true,
+          "selectedTo": "occupation-selected",
+          "otherTo": "occupation-other"
         },
         {
           "type": "switch",
@@ -577,34 +529,22 @@
               "disabled": true,
               "busy": true,
               "to": "occupation-saving"
-            },
-            {
-              "key": "occupationSkip",
-              "action": "skip-job"
             }
-          ],
-          "equal": true
+          ]
         }
       ],
-      "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+      "notes": "Profile editing: Job title label/H1, Back and Save; no Skip. Return to the existing Profile editor. Other title immediately follows the selected Other row. Save/remove success only after server response; existing visibility preserved.",
       "layout": "subpage",
       "ack": "occupation-saved",
-      "reject": "occupation-failed"
+      "reject": "occupation-failed",
+      "context": "profile-edit",
+      "back": "occupation-profile-networking"
     },
     {
       "id": "occupation-saved",
       "group": "meslek",
-      "title": "occupationStepTitle",
+      "title": "occupation",
       "blocks": [
-        {
-          "type": "text",
-          "key": "occupationStepBody"
-        },
-        {
-          "type": "text",
-          "key": "occupationStepBodyF",
-          "helper": true
-        },
         {
           "type": "field",
           "key": "occupationSearchHint",
@@ -617,7 +557,9 @@
           "query": "",
           "selected": "software-engineer",
           "expanded": "technology",
-          "disabled": false
+          "disabled": false,
+          "selectedTo": "occupation-selected",
+          "otherTo": "occupation-other"
         },
         {
           "type": "switch",
@@ -643,13 +585,8 @@
               "disabled": false,
               "busy": false,
               "to": "occupation-saving"
-            },
-            {
-              "key": "occupationSkip",
-              "action": "skip-job"
             }
-          ],
-          "equal": true
+          ]
         },
         {
           "type": "actions",
@@ -661,25 +598,18 @@
           ]
         }
       ],
-      "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+      "notes": "Profile editing: Job title label/H1, Back and Save; no Skip. Return to the existing Profile editor. Other title immediately follows the selected Other row. Save/remove success only after server response; existing visibility preserved.",
       "layout": "subpage",
       "ack": null,
-      "reject": null
+      "reject": null,
+      "context": "profile-edit",
+      "back": "occupation-profile-networking"
     },
     {
       "id": "occupation-removed",
       "group": "meslek",
-      "title": "occupationStepTitle",
+      "title": "occupation",
       "blocks": [
-        {
-          "type": "text",
-          "key": "occupationStepBody"
-        },
-        {
-          "type": "text",
-          "key": "occupationStepBodyF",
-          "helper": true
-        },
         {
           "type": "field",
           "key": "occupationSearchHint",
@@ -692,7 +622,9 @@
           "query": "",
           "selected": "",
           "expanded": "",
-          "disabled": false
+          "disabled": false,
+          "selectedTo": "occupation-selected",
+          "otherTo": "occupation-other"
         },
         {
           "type": "notice",
@@ -706,34 +638,22 @@
               "disabled": false,
               "busy": false,
               "to": "occupation-saving"
-            },
-            {
-              "key": "occupationSkip",
-              "action": "skip-job"
             }
-          ],
-          "equal": true
+          ]
         }
       ],
-      "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+      "notes": "Profile editing: Job title label/H1, Back and Save; no Skip. Return to the existing Profile editor. Other title immediately follows the selected Other row. Save/remove success only after server response; existing visibility preserved.",
       "layout": "subpage",
       "ack": null,
-      "reject": null
+      "reject": null,
+      "context": "profile-edit",
+      "back": "occupation-profile-networking"
     },
     {
       "id": "occupation-failed",
       "group": "meslek",
-      "title": "occupationStepTitle",
+      "title": "occupation",
       "blocks": [
-        {
-          "type": "text",
-          "key": "occupationStepBody"
-        },
-        {
-          "type": "text",
-          "key": "occupationStepBodyF",
-          "helper": true
-        },
         {
           "type": "field",
           "key": "occupationSearchHint",
@@ -746,7 +666,9 @@
           "query": "",
           "selected": "software-engineer",
           "expanded": "technology",
-          "disabled": false
+          "disabled": false,
+          "selectedTo": "occupation-selected",
+          "otherTo": "occupation-other"
         },
         {
           "type": "switch",
@@ -773,13 +695,8 @@
               "disabled": false,
               "busy": false,
               "to": "occupation-saving"
-            },
-            {
-              "key": "occupationSkip",
-              "action": "skip-job"
             }
-          ],
-          "equal": true
+          ]
         },
         {
           "type": "actions",
@@ -791,25 +708,18 @@
           ]
         }
       ],
-      "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+      "notes": "Profile editing: Job title label/H1, Back and Save; no Skip. Return to the existing Profile editor. Other title immediately follows the selected Other row. Save/remove success only after server response; existing visibility preserved.",
       "layout": "subpage",
       "ack": null,
-      "reject": null
+      "reject": null,
+      "context": "profile-edit",
+      "back": "occupation-profile-networking"
     },
     {
       "id": "occupation-catalog-failed",
       "group": "meslek",
-      "title": "occupationStepTitle",
+      "title": "occupation",
       "blocks": [
-        {
-          "type": "text",
-          "key": "occupationStepBody"
-        },
-        {
-          "type": "text",
-          "key": "occupationStepBodyF",
-          "helper": true
-        },
         {
           "type": "field",
           "key": "occupationSearchHint",
@@ -839,19 +749,16 @@
               "disabled": true,
               "busy": false,
               "to": "occupation-saving"
-            },
-            {
-              "key": "occupationSkip",
-              "action": "skip-job"
             }
-          ],
-          "equal": true
+          ]
         }
       ],
-      "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
+      "notes": "Profile editing: Job title label/H1, Back and Save; no Skip. Return to the existing Profile editor. Other title immediately follows the selected Other row. Save/remove success only after server response; existing visibility preserved.",
       "layout": "subpage",
       "ack": null,
-      "reject": null
+      "reject": null,
+      "context": "profile-edit",
+      "back": "occupation-profile-networking"
     },
     {
       "id": "occupation-loading",
@@ -898,12 +805,13 @@
       "notes": "Optional catalogue selection; labels from Manager catalogue1.0.1. No sensitive occupations invented. Group disclosure reuses existing expandable list. Show defaults on for first new selection, existing false preserved. Other custom title excluded from filters. Saving waits for server acknowledgement.",
       "layout": "onboarding",
       "ack": null,
-      "reject": null
+      "reject": null,
+      "context": "signup"
     },
     {
       "id": "occupation-removing",
       "group": "meslek",
-      "title": "occupationStepTitle",
+      "title": "occupation",
       "blocks": [
         {
           "type": "text",
@@ -920,9 +828,12 @@
           ]
         }
       ],
-      "notes": "Pending remove; no removed status until server confirms. Failure returns selected old title.",
+      "notes": "Profile editing: Job title label/H1, Back and Save; no Skip. Return to the existing Profile editor. Other title immediately follows the selected Other row. Save/remove success only after server response; existing visibility preserved.",
       "ack": "occupation-removed",
-      "reject": "occupation-failed"
+      "reject": "occupation-failed",
+      "context": "profile-edit",
+      "layout": "subpage",
+      "back": "occupation-profile-networking"
     },
     {
       "id": "occupation-profile-networking",
@@ -955,6 +866,392 @@
         }
       ],
       "notes": "Other profile: community never displayed. Occupation only in Networking, omitted entirely in Friendship; no blank line. Fixture uses catalogue title."
+    },
+    {
+      "id": "occupation-signup-selected",
+      "group": "meslek",
+      "title": "occupationStepTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "occupationStepBody"
+        },
+        {
+          "type": "text",
+          "key": "occupationStepBodyF",
+          "helper": true
+        },
+        {
+          "type": "field",
+          "key": "occupationSearchHint",
+          "value": "",
+          "inputType": "search",
+          "placeholder": "occupationSearchHint"
+        },
+        {
+          "type": "occupations",
+          "query": "",
+          "selected": "software-engineer",
+          "expanded": "technology",
+          "disabled": false,
+          "selectedTo": "occupation-signup-selected",
+          "otherTo": "occupation-signup-other"
+        },
+        {
+          "type": "switch",
+          "key": "showOccupation",
+          "checked": true,
+          "disabled": false,
+          "help": "occupationShowHelp"
+        },
+        {
+          "type": "text",
+          "key": "occupationNetworkingNote",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileSave",
+              "disabled": false,
+              "busy": false,
+              "to": "occupation-signup-saving"
+            },
+            {
+              "key": "occupationSkip",
+              "action": "skip-job"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Optional signup job step; Skip stays available. Separate from Profile editing. Save waits for server acknowledgement; no forced occupation. Other title is directly under the selected Other row.",
+      "layout": "onboarding",
+      "ack": null,
+      "reject": null,
+      "context": "signup"
+    },
+    {
+      "id": "occupation-signup-other",
+      "group": "meslek",
+      "title": "occupationStepTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "occupationStepBody"
+        },
+        {
+          "type": "text",
+          "key": "occupationStepBodyF",
+          "helper": true
+        },
+        {
+          "type": "field",
+          "key": "occupationSearchHint",
+          "value": "",
+          "inputType": "search",
+          "placeholder": "occupationSearchHint"
+        },
+        {
+          "type": "occupations",
+          "query": "",
+          "selected": "other-technology",
+          "expanded": "technology",
+          "disabled": false,
+          "selectedTo": "occupation-signup-selected",
+          "otherTo": "occupation-signup-other",
+          "inlineTitle": {
+            "type": "field",
+            "key": "occupationOwnTitleLabel",
+            "en": "Creative technologist",
+            "tr": "Yaratıcı teknoloji uzmanı",
+            "help": "occupationOwnTitleHelp"
+          }
+        },
+        {
+          "type": "switch",
+          "key": "showOccupation",
+          "checked": true,
+          "disabled": false,
+          "help": "occupationShowHelp"
+        },
+        {
+          "type": "text",
+          "key": "occupationNetworkingNote",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileSave",
+              "disabled": false,
+              "busy": false,
+              "to": "occupation-signup-saving"
+            },
+            {
+              "key": "occupationSkip",
+              "action": "skip-job"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Optional signup job step; Skip stays available. Separate from Profile editing. Save waits for server acknowledgement; no forced occupation. Other title is directly under the selected Other row.",
+      "layout": "onboarding",
+      "ack": null,
+      "reject": null,
+      "context": "signup"
+    },
+    {
+      "id": "occupation-signup-saving",
+      "group": "meslek",
+      "title": "occupationStepTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "occupationStepBody"
+        },
+        {
+          "type": "text",
+          "key": "occupationStepBodyF",
+          "helper": true
+        },
+        {
+          "type": "field",
+          "key": "occupationSearchHint",
+          "value": "",
+          "inputType": "search",
+          "placeholder": "occupationSearchHint"
+        },
+        {
+          "type": "occupations",
+          "query": "",
+          "selected": "software-engineer",
+          "expanded": "technology",
+          "disabled": true,
+          "selectedTo": "occupation-signup-selected",
+          "otherTo": "occupation-signup-other"
+        },
+        {
+          "type": "switch",
+          "key": "showOccupation",
+          "checked": true,
+          "disabled": true,
+          "help": "occupationShowHelp"
+        },
+        {
+          "type": "text",
+          "key": "occupationNetworkingNote",
+          "helper": true
+        },
+        {
+          "type": "notice",
+          "key": "profileSaving",
+          "busy": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileSave",
+              "disabled": true,
+              "busy": true,
+              "to": "occupation-signup-saving"
+            },
+            {
+              "key": "occupationSkip",
+              "action": "skip-job"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Optional signup job step; Skip stays available. Separate from Profile editing. Save waits for server acknowledgement; no forced occupation. Other title is directly under the selected Other row.",
+      "layout": "onboarding",
+      "ack": "occupation-signup-saved",
+      "reject": "occupation-signup-failed",
+      "context": "signup"
+    },
+    {
+      "id": "occupation-signup-saved",
+      "group": "meslek",
+      "title": "occupationStepTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "occupationStepBody"
+        },
+        {
+          "type": "text",
+          "key": "occupationStepBodyF",
+          "helper": true
+        },
+        {
+          "type": "field",
+          "key": "occupationSearchHint",
+          "value": "",
+          "inputType": "search",
+          "placeholder": "occupationSearchHint"
+        },
+        {
+          "type": "occupations",
+          "query": "",
+          "selected": "software-engineer",
+          "expanded": "technology",
+          "disabled": false,
+          "selectedTo": "occupation-signup-selected",
+          "otherTo": "occupation-signup-other"
+        },
+        {
+          "type": "switch",
+          "key": "showOccupation",
+          "checked": true,
+          "disabled": false,
+          "help": "occupationShowHelp"
+        },
+        {
+          "type": "text",
+          "key": "occupationNetworkingNote",
+          "helper": true
+        },
+        {
+          "type": "notice",
+          "key": "profileSaved"
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileSave",
+              "disabled": false,
+              "busy": false,
+              "to": "occupation-signup-saving"
+            },
+            {
+              "key": "occupationSkip",
+              "action": "skip-job"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Optional signup job step; Skip stays available. Separate from Profile editing. Save waits for server acknowledgement; no forced occupation. Other title is directly under the selected Other row.",
+      "layout": "onboarding",
+      "ack": null,
+      "reject": null,
+      "context": "signup"
+    },
+    {
+      "id": "occupation-signup-failed",
+      "group": "meslek",
+      "title": "occupationStepTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "occupationStepBody"
+        },
+        {
+          "type": "text",
+          "key": "occupationStepBodyF",
+          "helper": true
+        },
+        {
+          "type": "field",
+          "key": "occupationSearchHint",
+          "value": "",
+          "inputType": "search",
+          "placeholder": "occupationSearchHint"
+        },
+        {
+          "type": "occupations",
+          "query": "",
+          "selected": "software-engineer",
+          "expanded": "technology",
+          "disabled": false,
+          "selectedTo": "occupation-signup-selected",
+          "otherTo": "occupation-signup-other"
+        },
+        {
+          "type": "switch",
+          "key": "showOccupation",
+          "checked": true,
+          "disabled": false,
+          "help": "occupationShowHelp"
+        },
+        {
+          "type": "text",
+          "key": "occupationNetworkingNote",
+          "helper": true
+        },
+        {
+          "type": "notice",
+          "key": "profileSaveFailed",
+          "error": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileSave",
+              "disabled": false,
+              "busy": false,
+              "to": "occupation-signup-saving"
+            },
+            {
+              "key": "occupationSkip",
+              "action": "skip-job"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Optional signup job step; Skip stays available. Separate from Profile editing. Save waits for server acknowledgement; no forced occupation. Other title is directly under the selected Other row.",
+      "layout": "onboarding",
+      "ack": null,
+      "reject": null,
+      "context": "signup"
+    },
+    {
+      "id": "occupation-edit-empty",
+      "group": "meslek",
+      "title": "occupation",
+      "blocks": [
+        {
+          "type": "field",
+          "key": "occupationSearchHint",
+          "value": "",
+          "inputType": "search",
+          "placeholder": "occupationSearchHint"
+        },
+        {
+          "type": "occupations",
+          "query": "",
+          "selected": "",
+          "expanded": "",
+          "disabled": false,
+          "selectedTo": "occupation-selected",
+          "otherTo": "occupation-other"
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileSave",
+              "disabled": false,
+              "busy": false,
+              "to": "occupation-saving"
+            }
+          ]
+        }
+      ],
+      "notes": "Profile editing: Job title label/H1, Back and Save; no Skip. Return to the existing Profile editor. Other title immediately follows the selected Other row. Save/remove success only after server response; existing visibility preserved.",
+      "layout": "subpage",
+      "ack": null,
+      "reject": null,
+      "context": "profile-edit",
+      "back": "occupation-profile-networking"
     }
   ]
 }

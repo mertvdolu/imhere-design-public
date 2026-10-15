@@ -869,8 +869,8 @@
               "busy": false
             },
             {
-              "key": "signupLinkedinSkip",
-              "action": "skip-linkedin"
+              "key": "v15LinkedinContinue",
+              "to": "card-empty"
             }
           ],
           "equal": true
@@ -885,7 +885,7 @@
           ]
         }
       ],
-      "notes": "Optional. Form → external Open/check → return own-profile confirmation → Save. Return/Yes only enables Save, not verification. No success tick or green state. Three equal radios, only dot selected. Failure restores old Everyone; source body HB-37r5. URL is fictional placeholder.",
+      "notes": "Optional. Form → external Open/check → return own-profile confirmation → Save. Return/Yes only enables Save, not verification. No success tick or green state. Three equal radios, only dot selected. Failure restores old Everyone; source body HB-37r5. URL is fictional placeholder. Server-confirmed saved state: Continue replaces Skip and opens the optional card step.",
       "layout": "onboarding",
       "ack": null,
       "reject": null
@@ -1668,19 +1668,15 @@
       "reject": null
     },
     {
-      "id": "linkedin-connection",
+      "id": "linkedin-chat-connection",
       "group": "linkedin",
-      "title": "navProfile",
+      "title": null,
       "blocks": [
-        {
-          "type": "person",
-          "name": "Maya"
-        },
         {
           "type": "link",
           "key": "profileLinkedin",
           "icon": true,
-          "to": "linkedin-connection"
+          "to": "linkedin-chat-connection"
         },
         {
           "type": "text",
@@ -1688,17 +1684,18 @@
           "helper": true
         }
       ],
-      "notes": "Link plain text + generic external icon. Connections/chat profile can see according to visibility across communities. Before connection Networking only. Hidden/no link identical omission; no placeholder or community field. Viewer notice immediately below link."
+      "notes": "Decision 56(5): LinkedIn row and ViewerNote in the connected conversation screen, never in the Connections/inbox list. Maya is the fictional conversation title. Visibility still follows the stored preference; this is a focused row-placement drawing, not a replacement for the full chat composer.",
+      "fixtureTitle": {
+        "en": "Maya",
+        "tr": "Maya"
+      },
+      "layout": "subpage"
     },
     {
       "id": "linkedin-chat",
       "group": "linkedin",
-      "title": "navProfile",
+      "title": null,
       "blocks": [
-        {
-          "type": "person",
-          "name": "Maya"
-        },
         {
           "type": "link",
           "key": "profileLinkedin",
@@ -1711,7 +1708,12 @@
           "helper": true
         }
       ],
-      "notes": "Link plain text + generic external icon. Connections/chat profile can see according to visibility across communities. Before connection Networking only. Hidden/no link identical omission; no placeholder or community field. Viewer notice immediately below link."
+      "notes": "Same conversation-surface placement as linkedin-chat-connection. Historical connection entry routes to this conversation; no LinkedIn field is added to readInbox/Connections list. Existing chat controls remain outside this focused specimen.",
+      "fixtureTitle": {
+        "en": "Maya",
+        "tr": "Maya"
+      },
+      "layout": "subpage"
     },
     {
       "id": "linkedin-networking-before",
@@ -1833,6 +1835,153 @@
         }
       ],
       "notes": "Link plain text + generic external icon. Connections/chat profile can see according to visibility across communities. Before connection Networking only. Hidden/no link identical omission; no placeholder or community field. Viewer notice immediately below link."
+    },
+    {
+      "id": "linkedin-settings-empty",
+      "group": "linkedin",
+      "title": "profileLinkedin",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "profileLinkedinHelp"
+        },
+        {
+          "type": "field",
+          "key": "profileLinkedinFieldLabel",
+          "value": "",
+          "placeholder": "profileLinkedinHint",
+          "error": null,
+          "disabled": false
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinOpenCheck",
+              "icon": "external",
+              "to": "linkedin-opening",
+              "disabled": true,
+              "busy": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinOutsideAppNote",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinNoCheck",
+          "helper": true
+        },
+        {
+          "type": "choices",
+          "key": "profileLinkedinVisibilityTitle",
+          "name": "visibility",
+          "items": [
+            {
+              "key": "profileLinkedinVisibilityNobody",
+              "description": "profileLinkedinVisibilityNobodyDesc",
+              "selected": false,
+              "value": "Nobody",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityConnections",
+              "description": "profileLinkedinVisibilityConnectionsDesc",
+              "selected": false,
+              "value": "Connections",
+              "disabled": false
+            },
+            {
+              "key": "profileLinkedinVisibilityEveryone",
+              "description": "profileLinkedinVisibilityEveryoneDesc",
+              "selected": true,
+              "value": "Everyone",
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinVisibilityDefaultNote",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinCheckRequired",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "profileLinkedinNetworkingNote",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "profileLinkedinSave",
+              "to": "linkedin-saving",
+              "disabled": true,
+              "busy": false
+            },
+            {
+              "key": "cancel",
+              "action": "existing-back"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Settings → LinkedIn, first add with no stored link. Everyone standard radio selection; profileLinkedinVisibilityDefaultNote below options. Back/Cancel, not Skip. Open/check and own confirmation still required before Save.",
+      "layout": "subpage",
+      "ack": null,
+      "reject": null,
+      "context": "settings",
+      "back": "occupation-profile-networking"
+    },
+    {
+      "id": "linkedin-settings-loading",
+      "group": "linkedin",
+      "title": "profileLinkedin",
+      "layout": "subpage",
+      "context": "settings",
+      "back": "nearby-networking",
+      "blocks": [
+        {
+          "type": "progress"
+        }
+      ],
+      "notes": "Settings read gate. No guessed membership, link, default visibility, or stale controls until current server data is read. Existing generic error + Retry; no mutation is attempted.",
+      "ack": "linkedin-stored",
+      "reject": "linkedin-settings-read-failed"
+    },
+    {
+      "id": "linkedin-settings-read-failed",
+      "group": "linkedin",
+      "title": "profileLinkedin",
+      "layout": "subpage",
+      "context": "settings",
+      "back": "nearby-networking",
+      "blocks": [
+        {
+          "type": "notice",
+          "key": "errorStateChanged",
+          "error": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "checkInRetry",
+              "to": "linkedin-settings-loading"
+            }
+          ]
+        }
+      ],
+      "notes": "Settings read gate. No guessed membership, link, default visibility, or stale controls until current server data is read. Existing generic error + Retry; no mutation is attempted."
     }
   ]
 }

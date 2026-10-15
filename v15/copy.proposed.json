@@ -1,5 +1,5 @@
 {
-  "status": "APPROVED COPY — HB-37 r5 / approved reuse; proposed UI decisions separate",
+  "status": "APPROVED COPY — HB-37 r6 / approved reuse; proposed UI decisions separate",
   "entries": [
     {
       "key": "cancel",
@@ -14,6 +14,11 @@
         "migration-linkedin-saving",
         "migration-linkedin-failed",
         "migration-linkedin-offline",
+        "migration-linkedin-changed-default",
+        "migration-linkedin-changed-other",
+        "migration-linkedin-changed-saving",
+        "migration-linkedin-changed-failed",
+        "migration-linkedin-changed-offline",
         "settings-switch-confirm",
         "settings-switch-checkin",
         "settings-switch-going",
@@ -26,7 +31,8 @@
         "linkedin-removed",
         "linkedin-remove-confirm",
         "linkedin-remove-busy",
-        "linkedin-remove-failed"
+        "linkedin-remove-failed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -37,6 +43,7 @@
       "status": "APPROVED — source / existing design reference",
       "screens": [
         "migration-offline",
+        "settings-read-failed",
         "nearby-failed",
         "nearby-offline",
         "map-failed",
@@ -44,6 +51,7 @@
         "occupation-catalog-failed",
         "linkedin-viewer-offline",
         "linkedin-viewer-failed",
+        "linkedin-settings-read-failed",
         "filters-failed",
         "filters-offline",
         "professional-failed"
@@ -88,6 +96,8 @@
       "screens": [
         "settings-checked-in",
         "settings-going",
+        "settings-switch-checkin",
+        "settings-switch-going",
         "settings-leave-active",
         "settings-leave-active-going"
       ]
@@ -212,6 +222,7 @@
         "settings-switch-done",
         "settings-join-done",
         "settings-leave-done",
+        "settings-switch-failed",
         "icons-categories",
         "icons-communities"
       ]
@@ -262,6 +273,7 @@
         "settings-switch-done",
         "settings-join-done",
         "settings-leave-done",
+        "settings-switch-failed",
         "icons-categories",
         "icons-communities"
       ]
@@ -308,7 +320,10 @@
       "source": "HB-37 r5 line 241",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "settings-failed"
+        "settings-failed",
+        "settings-joining",
+        "settings-leaving",
+        "settings-switch-failed"
       ]
     },
     {
@@ -327,7 +342,8 @@
         "settings-failed",
         "settings-switch-done",
         "settings-join-done",
-        "settings-leave-done"
+        "settings-leave-done",
+        "settings-switch-failed"
       ]
     },
     {
@@ -346,7 +362,8 @@
         "settings-failed",
         "settings-switch-done",
         "settings-join-done",
-        "settings-leave-done"
+        "settings-leave-done",
+        "settings-switch-failed"
       ]
     },
     {
@@ -430,7 +447,8 @@
         "settings-join-done",
         "settings-leave-inactive",
         "settings-leave-active",
-        "settings-leave-active-going"
+        "settings-leave-active-going",
+        "settings-switch-failed"
       ]
     },
     {
@@ -509,7 +527,8 @@
         "settings-leave-done",
         "settings-joining",
         "settings-leaving",
-        "settings-switching"
+        "settings-switching",
+        "settings-switch-failed"
       ]
     },
     {
@@ -532,6 +551,9 @@
         "settings-joining",
         "settings-leaving",
         "settings-switching",
+        "settings-switch-failed",
+        "settings-loading",
+        "settings-read-failed",
         "icons-communities"
       ]
     },
@@ -573,7 +595,8 @@
         "settings-join-done",
         "settings-switch-confirm",
         "settings-switch-checkin",
-        "settings-switch-going"
+        "settings-switch-going",
+        "settings-switch-failed"
       ]
     },
     {
@@ -584,6 +607,16 @@
       "status": "APPROVED — source / existing design reference",
       "screens": [
         "settings-switch-done"
+      ]
+    },
+    {
+      "key": "communitySwitchFailed",
+      "en": "Couldn’t switch. Try again.",
+      "tr": "Geçiş yapılamadı. Tekrar dene.",
+      "source": "HB-37 r5 line 67",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-switch-failed"
       ]
     },
     {
@@ -643,8 +676,6 @@
       "source": "HB-37 r5 line 43",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "settings-joining",
-        "settings-leaving",
         "settings-switching"
       ]
     },
@@ -855,7 +886,9 @@
       "source": "v2.3 l10n/app_*.arb",
       "status": "APPROVED — source / existing design reference",
       "screens": [
+        "settings-read-failed",
         "occupation-catalog-failed",
+        "linkedin-settings-read-failed",
         "filters-failed"
       ]
     },
@@ -1139,7 +1172,10 @@
       "tr": "Yakındakiler",
       "source": "v2.3 l10n/app_*.arb",
       "status": "APPROVED — source / existing design reference",
-      "screens": []
+      "screens": [
+        "filters-not-enough",
+        "filters-no-longer-enough"
+      ]
     },
     {
       "key": "navProfile",
@@ -1150,8 +1186,6 @@
       "screens": [
         "occupation-profile-networking",
         "occupation-profile-friendship",
-        "linkedin-connection",
-        "linkedin-chat",
         "linkedin-networking-before",
         "linkedin-friendship-before",
         "linkedin-hidden",
@@ -1494,6 +1528,42 @@
       ]
     },
     {
+      "key": "occupation",
+      "en": "Job title",
+      "tr": "Meslek",
+      "source": "HB-37 r5 §6",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "community-saving",
+        "migration-linkedin-saving",
+        "migration-occupation",
+        "occupation-empty",
+        "occupation-search",
+        "occupation-no-match",
+        "occupation-selected",
+        "occupation-other",
+        "occupation-hidden",
+        "occupation-legacy",
+        "occupation-replace",
+        "occupation-saving",
+        "occupation-saved",
+        "occupation-removed",
+        "occupation-failed",
+        "occupation-catalog-failed",
+        "occupation-loading",
+        "occupation-removing",
+        "occupation-profile-networking",
+        "occupation-profile-friendship",
+        "occupation-signup-selected",
+        "occupation-signup-other",
+        "occupation-signup-saving",
+        "occupation-signup-saved",
+        "occupation-signup-failed",
+        "occupation-edit-empty",
+        "linkedin-settings-empty"
+      ]
+    },
+    {
       "key": "occupationLegacyNote",
       "en": "You wrote this in an earlier version. It’s shown on your profile but isn’t used in filters.",
       "tr": "Bunu eski bir sürümde yazdın. Profilinde görünür ama filtrelerde kullanılmaz.",
@@ -1518,7 +1588,12 @@
         "occupation-saving",
         "occupation-saved",
         "occupation-failed",
-        "occupation-removing"
+        "occupation-removing",
+        "occupation-signup-selected",
+        "occupation-signup-other",
+        "occupation-signup-saving",
+        "occupation-signup-saved",
+        "occupation-signup-failed"
       ]
     },
     {
@@ -1546,7 +1621,8 @@
       "source": "HB-37 r5 line 88",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "occupation-other"
+        "occupation-other",
+        "occupation-signup-other"
       ]
     },
     {
@@ -1556,7 +1632,8 @@
       "source": "HB-37 r5 line 87",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "occupation-other"
+        "occupation-other",
+        "occupation-signup-other"
       ]
     },
     {
@@ -1617,7 +1694,13 @@
         "occupation-removed",
         "occupation-failed",
         "occupation-catalog-failed",
-        "occupation-loading"
+        "occupation-loading",
+        "occupation-signup-selected",
+        "occupation-signup-other",
+        "occupation-signup-saving",
+        "occupation-signup-saved",
+        "occupation-signup-failed",
+        "occupation-edit-empty"
       ]
     },
     {
@@ -1634,7 +1717,12 @@
         "occupation-replace",
         "occupation-saving",
         "occupation-saved",
-        "occupation-failed"
+        "occupation-failed",
+        "occupation-signup-selected",
+        "occupation-signup-other",
+        "occupation-signup-saving",
+        "occupation-signup-saved",
+        "occupation-signup-failed"
       ]
     },
     {
@@ -1647,17 +1735,12 @@
         "occupation-empty",
         "occupation-search",
         "occupation-no-match",
-        "occupation-selected",
-        "occupation-other",
-        "occupation-hidden",
-        "occupation-legacy",
-        "occupation-replace",
-        "occupation-saving",
-        "occupation-saved",
-        "occupation-removed",
-        "occupation-failed",
-        "occupation-catalog-failed",
-        "occupation-loading"
+        "occupation-loading",
+        "occupation-signup-selected",
+        "occupation-signup-other",
+        "occupation-signup-saving",
+        "occupation-signup-saved",
+        "occupation-signup-failed"
       ]
     },
     {
@@ -1670,17 +1753,12 @@
         "occupation-empty",
         "occupation-search",
         "occupation-no-match",
-        "occupation-selected",
-        "occupation-other",
-        "occupation-hidden",
-        "occupation-legacy",
-        "occupation-replace",
-        "occupation-saving",
-        "occupation-saved",
-        "occupation-removed",
-        "occupation-failed",
-        "occupation-catalog-failed",
-        "occupation-loading"
+        "occupation-loading",
+        "occupation-signup-selected",
+        "occupation-signup-other",
+        "occupation-signup-saving",
+        "occupation-signup-saved",
+        "occupation-signup-failed"
       ]
     },
     {
@@ -1693,17 +1771,12 @@
         "occupation-empty",
         "occupation-search",
         "occupation-no-match",
-        "occupation-selected",
-        "occupation-other",
-        "occupation-hidden",
-        "occupation-legacy",
-        "occupation-replace",
-        "occupation-saving",
-        "occupation-saved",
-        "occupation-removed",
-        "occupation-failed",
-        "occupation-catalog-failed",
-        "occupation-loading"
+        "occupation-loading",
+        "occupation-signup-selected",
+        "occupation-signup-other",
+        "occupation-signup-saving",
+        "occupation-signup-saved",
+        "occupation-signup-failed"
       ]
     },
     {
@@ -1716,18 +1789,12 @@
         "occupation-empty",
         "occupation-search",
         "occupation-no-match",
-        "occupation-selected",
-        "occupation-other",
-        "occupation-hidden",
-        "occupation-legacy",
-        "occupation-replace",
-        "occupation-saving",
-        "occupation-saved",
-        "occupation-removed",
-        "occupation-failed",
-        "occupation-catalog-failed",
         "occupation-loading",
-        "occupation-removing"
+        "occupation-signup-selected",
+        "occupation-signup-other",
+        "occupation-signup-saving",
+        "occupation-signup-saved",
+        "occupation-signup-failed"
       ]
     },
     {
@@ -1739,6 +1806,7 @@
       "screens": [
         "migration-linkedin-offline",
         "migration-offline",
+        "migration-linkedin-changed-offline",
         "nearby-offline",
         "map-offline",
         "linkedin-offline",
@@ -1759,6 +1827,11 @@
         "migration-linkedin-saving",
         "migration-linkedin-failed",
         "migration-linkedin-offline",
+        "migration-linkedin-changed-default",
+        "migration-linkedin-changed-other",
+        "migration-linkedin-changed-saving",
+        "migration-linkedin-changed-failed",
+        "migration-linkedin-changed-offline",
         "linkedin-empty",
         "linkedin-invalid",
         "linkedin-unconfirmed",
@@ -1778,11 +1851,14 @@
         "linkedin-remove-confirm",
         "linkedin-remove-busy",
         "linkedin-remove-failed",
-        "linkedin-connection",
+        "linkedin-chat-connection",
         "linkedin-chat",
         "linkedin-networking-before",
         "linkedin-viewer-offline",
-        "linkedin-viewer-failed"
+        "linkedin-viewer-failed",
+        "linkedin-settings-empty",
+        "linkedin-settings-loading",
+        "linkedin-settings-read-failed"
       ]
     },
     {
@@ -1798,7 +1874,8 @@
         "linkedin-opening",
         "linkedin-offline",
         "linkedin-open-failed",
-        "linkedin-removed"
+        "linkedin-removed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -1852,7 +1929,8 @@
         "linkedin-offline",
         "linkedin-open-failed",
         "linkedin-paused",
-        "linkedin-removed"
+        "linkedin-removed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -1865,7 +1943,8 @@
         "linkedin-stored",
         "linkedin-paused",
         "linkedin-removed",
-        "linkedin-confirm-return"
+        "linkedin-confirm-return",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -1889,7 +1968,8 @@
         "linkedin-offline",
         "linkedin-open-failed",
         "linkedin-paused",
-        "linkedin-removed"
+        "linkedin-removed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -1911,7 +1991,8 @@
       "screens": [
         "linkedin-stored",
         "linkedin-paused",
-        "linkedin-removed"
+        "linkedin-removed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -1936,7 +2017,8 @@
         "linkedin-open-failed",
         "linkedin-paused",
         "linkedin-removed",
-        "linkedin-confirm-return"
+        "linkedin-confirm-return",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -1960,7 +2042,8 @@
         "linkedin-offline",
         "linkedin-open-failed",
         "linkedin-paused",
-        "linkedin-removed"
+        "linkedin-removed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -1995,7 +2078,8 @@
         "linkedin-open-failed",
         "linkedin-paused",
         "linkedin-removed",
-        "linkedin-confirm-return"
+        "linkedin-confirm-return",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -2099,7 +2183,8 @@
         "linkedin-offline",
         "linkedin-open-failed",
         "linkedin-paused",
-        "linkedin-removed"
+        "linkedin-removed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -2129,7 +2214,7 @@
       "source": "HB-20 final §3 line 76; reused by HB-37 §7",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "linkedin-connection",
+        "linkedin-chat-connection",
         "linkedin-chat",
         "linkedin-networking-before",
         "linkedin-viewer-offline",
@@ -2149,6 +2234,11 @@
         "migration-linkedin-saving",
         "migration-linkedin-failed",
         "migration-linkedin-offline",
+        "migration-linkedin-changed-default",
+        "migration-linkedin-changed-other",
+        "migration-linkedin-changed-saving",
+        "migration-linkedin-changed-failed",
+        "migration-linkedin-changed-offline",
         "linkedin-empty",
         "linkedin-invalid",
         "linkedin-unconfirmed",
@@ -2163,7 +2253,8 @@
         "linkedin-offline",
         "linkedin-open-failed",
         "linkedin-paused",
-        "linkedin-removed"
+        "linkedin-removed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -2179,6 +2270,11 @@
         "migration-linkedin-saving",
         "migration-linkedin-failed",
         "migration-linkedin-offline",
+        "migration-linkedin-changed-default",
+        "migration-linkedin-changed-other",
+        "migration-linkedin-changed-saving",
+        "migration-linkedin-changed-failed",
+        "migration-linkedin-changed-offline",
         "linkedin-empty",
         "linkedin-invalid",
         "linkedin-unconfirmed",
@@ -2193,7 +2289,8 @@
         "linkedin-offline",
         "linkedin-open-failed",
         "linkedin-paused",
-        "linkedin-removed"
+        "linkedin-removed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -2214,7 +2311,8 @@
         "linkedin-saved",
         "linkedin-save-failed",
         "linkedin-offline",
-        "linkedin-open-failed"
+        "linkedin-open-failed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -2230,6 +2328,11 @@
         "migration-linkedin-saving",
         "migration-linkedin-failed",
         "migration-linkedin-offline",
+        "migration-linkedin-changed-default",
+        "migration-linkedin-changed-other",
+        "migration-linkedin-changed-saving",
+        "migration-linkedin-changed-failed",
+        "migration-linkedin-changed-offline",
         "linkedin-empty",
         "linkedin-invalid",
         "linkedin-unconfirmed",
@@ -2244,7 +2347,8 @@
         "linkedin-offline",
         "linkedin-open-failed",
         "linkedin-paused",
-        "linkedin-removed"
+        "linkedin-removed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -2260,6 +2364,11 @@
         "migration-linkedin-saving",
         "migration-linkedin-failed",
         "migration-linkedin-offline",
+        "migration-linkedin-changed-default",
+        "migration-linkedin-changed-other",
+        "migration-linkedin-changed-saving",
+        "migration-linkedin-changed-failed",
+        "migration-linkedin-changed-offline",
         "linkedin-empty",
         "linkedin-invalid",
         "linkedin-unconfirmed",
@@ -2274,7 +2383,8 @@
         "linkedin-offline",
         "linkedin-open-failed",
         "linkedin-paused",
-        "linkedin-removed"
+        "linkedin-removed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -2290,6 +2400,11 @@
         "migration-linkedin-saving",
         "migration-linkedin-failed",
         "migration-linkedin-offline",
+        "migration-linkedin-changed-default",
+        "migration-linkedin-changed-other",
+        "migration-linkedin-changed-saving",
+        "migration-linkedin-changed-failed",
+        "migration-linkedin-changed-offline",
         "linkedin-empty",
         "linkedin-invalid",
         "linkedin-unconfirmed",
@@ -2304,7 +2419,8 @@
         "linkedin-offline",
         "linkedin-open-failed",
         "linkedin-paused",
-        "linkedin-removed"
+        "linkedin-removed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -2320,6 +2436,11 @@
         "migration-linkedin-saving",
         "migration-linkedin-failed",
         "migration-linkedin-offline",
+        "migration-linkedin-changed-default",
+        "migration-linkedin-changed-other",
+        "migration-linkedin-changed-saving",
+        "migration-linkedin-changed-failed",
+        "migration-linkedin-changed-offline",
         "linkedin-empty",
         "linkedin-invalid",
         "linkedin-unconfirmed",
@@ -2334,7 +2455,8 @@
         "linkedin-offline",
         "linkedin-open-failed",
         "linkedin-paused",
-        "linkedin-removed"
+        "linkedin-removed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -2345,6 +2467,7 @@
       "status": "APPROVED — source / existing design reference",
       "screens": [
         "migration-linkedin-failed",
+        "migration-linkedin-changed-failed",
         "linkedin-save-failed"
       ]
     },
@@ -2361,6 +2484,11 @@
         "migration-linkedin-saving",
         "migration-linkedin-failed",
         "migration-linkedin-offline",
+        "migration-linkedin-changed-default",
+        "migration-linkedin-changed-other",
+        "migration-linkedin-changed-saving",
+        "migration-linkedin-changed-failed",
+        "migration-linkedin-changed-offline",
         "linkedin-empty",
         "linkedin-invalid",
         "linkedin-unconfirmed",
@@ -2375,7 +2503,8 @@
         "linkedin-offline",
         "linkedin-open-failed",
         "linkedin-paused",
-        "linkedin-removed"
+        "linkedin-removed",
+        "linkedin-settings-empty"
       ]
     },
     {
@@ -2408,7 +2537,13 @@
         "occupation-removed",
         "occupation-failed",
         "occupation-catalog-failed",
-        "occupation-loading"
+        "occupation-loading",
+        "occupation-signup-selected",
+        "occupation-signup-other",
+        "occupation-signup-saving",
+        "occupation-signup-saved",
+        "occupation-signup-failed",
+        "occupation-edit-empty"
       ]
     },
     {
@@ -2418,7 +2553,8 @@
       "source": "v2.3 l10n/app_*.arb",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "occupation-failed"
+        "occupation-failed",
+        "occupation-signup-failed"
       ]
     },
     {
@@ -2428,7 +2564,8 @@
       "source": "v2.3 l10n/app_*.arb",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "occupation-saved"
+        "occupation-saved",
+        "occupation-signup-saved"
       ]
     },
     {
@@ -2438,7 +2575,8 @@
       "source": "v2.3 l10n/app_*.arb",
       "status": "APPROVED — source / existing design reference",
       "screens": [
-        "occupation-saving"
+        "occupation-saving",
+        "occupation-signup-saving"
       ]
     },
     {
@@ -2455,7 +2593,12 @@
         "occupation-replace",
         "occupation-saving",
         "occupation-saved",
-        "occupation-failed"
+        "occupation-failed",
+        "occupation-signup-selected",
+        "occupation-signup-other",
+        "occupation-signup-saving",
+        "occupation-signup-saved",
+        "occupation-signup-failed"
       ]
     },
     {
@@ -2494,7 +2637,6 @@
         "linkedin-nobody",
         "linkedin-connections",
         "linkedin-saving",
-        "linkedin-saved",
         "linkedin-save-failed",
         "linkedin-offline",
         "linkedin-open-failed"
@@ -2638,7 +2780,26 @@
         "migration-linkedin-nobody",
         "migration-linkedin-saving",
         "migration-linkedin-failed",
-        "migration-linkedin-offline"
+        "migration-linkedin-offline",
+        "migration-linkedin-changed-default",
+        "migration-linkedin-changed-other",
+        "migration-linkedin-changed-saving",
+        "migration-linkedin-changed-failed",
+        "migration-linkedin-changed-offline"
+      ]
+    },
+    {
+      "key": "v15LinkedinChangedBody",
+      "en": "Your LinkedIn link has changed. Check who can see it.",
+      "tr": "LinkedIn bağlantın değişti. Kimin görebileceğini kontrol et.",
+      "source": "HB-37 r6 / HB-41 §15 r6-10; decision58",
+      "status": "APPROVED — Manager (Founder delegation), decision58",
+      "screens": [
+        "migration-linkedin-changed-default",
+        "migration-linkedin-changed-other",
+        "migration-linkedin-changed-saving",
+        "migration-linkedin-changed-failed",
+        "migration-linkedin-changed-offline"
       ]
     },
     {
@@ -2664,7 +2825,13 @@
         "migration-linkedin-nobody",
         "migration-linkedin-saving",
         "migration-linkedin-failed",
-        "migration-linkedin-offline"
+        "migration-linkedin-offline",
+        "migration-linkedin-changed-default",
+        "migration-linkedin-changed-other",
+        "migration-linkedin-changed-saving",
+        "migration-linkedin-changed-failed",
+        "migration-linkedin-changed-offline",
+        "linkedin-saved"
       ]
     },
     {
@@ -2679,7 +2846,12 @@
         "migration-linkedin-nobody",
         "migration-linkedin-saving",
         "migration-linkedin-failed",
-        "migration-linkedin-offline"
+        "migration-linkedin-offline",
+        "migration-linkedin-changed-default",
+        "migration-linkedin-changed-other",
+        "migration-linkedin-changed-saving",
+        "migration-linkedin-changed-failed",
+        "migration-linkedin-changed-offline"
       ]
     },
     {

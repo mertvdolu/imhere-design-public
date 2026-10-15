@@ -7,6 +7,9 @@
   "horizontalOverflow": 0,
   "smallTargets": 0,
   "clippedText": 0,
+  "verticalOverlaps": 0,
+  "verticalTextOverflow": 0,
+  "unreachableContent": 0,
   "issues": [],
   "status": "PASS"
 }

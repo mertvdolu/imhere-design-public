@@ -1,11 +1,12 @@
 # filtre — copy review
 
-Onaylı kaynak değerleri aynen. Dosya adı teslim standardı gereği `proposed`; metin onayı HB-37 r5 ve atıf yapılan mevcut anahtarlarla sınırlıdır. Ana ARB üzerine yazılmaz.
+Onaylı kaynak değerleri aynen. Dosya adı teslim standardı gereği `proposed`; metin onayı HB-37 r6 ve atıf yapılan mevcut anahtarlarla sınırlıdır. Ana ARB üzerine yazılmaz.
 
 | KEY | EN | TR | SCREEN / STATE | SOURCE |
 |---|---|---|---|---|
 | checkInRetry | Try again | Tekrar dene | filters-failed, filters-offline | v2.3 l10n/app_*.arb |
 | errorStateChanged | Something changed. Please try again. | Bir şey değişti. Lütfen tekrar dene. | filters-failed | v2.3 l10n/app_*.arb |
+| navNearby | Nearby | Yakındakiler | filters-not-enough, filters-no-longer-enough | v2.3 l10n/app_*.arb |
 | nearbyFilters | Filters | Filtreler | filters-loading, filters-options, filters-selected, filters-max-five, filters-no-options, filters-linkedin-only, filters-failed, filters-offline, filters-not-enough, filters-no-longer-enough, filters-friendship, filters-list | HB-37 r5 line 142 |
 | nearbyFiltersClear | Clear filters | Filtreleri temizle | filters-options, filters-selected, filters-max-five, filters-no-options, filters-linkedin-only, filters-not-enough, filters-no-longer-enough | HB-37 r5 line 155 |
 | nearbyFiltersFriendshipNote | Job title filters are only in Networking. | Meslek filtreleri yalnız Networking’de var. | filters-friendship | HB-37 r5 line 159 |

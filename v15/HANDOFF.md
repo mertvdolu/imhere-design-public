@@ -4,7 +4,7 @@ V15 tasarımının parça teslimleri aynı dalda birikir. D0 ilk commit ve ayrı
 
 Okuma: README → grupSPEC → ONIZLEME → COPY-REVIEW → VALIDATION → MANIFEST. SHA/push kanıtı teslim mesajında; MANIFEST kendini listelemez.
 
-HB-37 dosyası r5 olarak güncellenmiş: 3 LinkedIn değeri §14.1’den AYNEN. METİN-EKİ BEKLİYOR durumu kaynakta kapanmış; ek söz uydurulmadı.
+HB-37 r6 §15: v15LinkedinChangedBody eklendi; önceki 3 LinkedIn değeri r5 §14.1’den AYNEN. METİN-EKİ BEKLİYOR durumu kaynakta kapanmış; ek söz uydurulmadı.
 
 - [d0](d0/HANDOFF.md)
 - [topluluk-kayit](topluluk-kayit/HANDOFF.md)
@@ -23,6 +23,10 @@ Tasarım, native uygulama/test/yayın değildir. Main birleşimi, deploy veya ma
 ## 4-11 — isteğe bağlı yön
 
 [İtalik / açılış kararı](italik-acilis/README.md): yeni öneri **yok**; Geist ve onaylı H0 korunur.
+
+## Güncel düzeltme
+
+[14 maddelik Düzeltme 1](DUZELTME-1.md) bu teslimin güncel fark listesidir.
 
 ## Tek teslim raporu
 

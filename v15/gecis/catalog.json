@@ -129,7 +129,8 @@
               "disabled": false,
               "value": "Everyone"
             }
-          ]
+          ],
+          "hideLegend": true
         },
         {
           "type": "text",
@@ -153,10 +154,12 @@
           ]
         }
       ],
-      "notes": "Only for stored LinkedIn. Everyone is existing value; no extra visual emphasis. Dismiss keeps Everyone and repeats next launch. Save failure restores Everyone and stays on screen. Body uses HB-37 r5.",
+      "notes": "Shown only when linkedinTransitionNeeded=true. FIRST uses v15LinkedinBody. Dismiss keeps the stored setting; first-transition fixture is Everyone. Failure restores the stored setting and stays here. Group legend is visually hidden but accessible.",
       "layout": "dialog",
       "ack": null,
-      "reject": null
+      "reject": null,
+      "storedVisibility": "Everyone",
+      "transitionReason": "FIRST"
     },
     {
       "id": "migration-linkedin-connections",
@@ -193,7 +196,8 @@
               "disabled": false,
               "value": "Everyone"
             }
-          ]
+          ],
+          "hideLegend": true
         },
         {
           "type": "text",
@@ -217,10 +221,12 @@
           ]
         }
       ],
-      "notes": "Only for stored LinkedIn. Everyone is existing value; no extra visual emphasis. Dismiss keeps Everyone and repeats next launch. Save failure restores Everyone and stays on screen. Body uses HB-37 r5.",
+      "notes": "Shown only when linkedinTransitionNeeded=true. FIRST uses v15LinkedinBody. Dismiss keeps the stored setting; first-transition fixture is Everyone. Failure restores the stored setting and stays here. Group legend is visually hidden but accessible.",
       "layout": "dialog",
       "ack": null,
-      "reject": null
+      "reject": null,
+      "storedVisibility": "Everyone",
+      "transitionReason": "FIRST"
     },
     {
       "id": "migration-linkedin-nobody",
@@ -257,7 +263,8 @@
               "disabled": false,
               "value": "Everyone"
             }
-          ]
+          ],
+          "hideLegend": true
         },
         {
           "type": "text",
@@ -281,10 +288,12 @@
           ]
         }
       ],
-      "notes": "Only for stored LinkedIn. Everyone is existing value; no extra visual emphasis. Dismiss keeps Everyone and repeats next launch. Save failure restores Everyone and stays on screen. Body uses HB-37 r5.",
+      "notes": "Shown only when linkedinTransitionNeeded=true. FIRST uses v15LinkedinBody. Dismiss keeps the stored setting; first-transition fixture is Everyone. Failure restores the stored setting and stays here. Group legend is visually hidden but accessible.",
       "layout": "dialog",
       "ack": null,
-      "reject": null
+      "reject": null,
+      "storedVisibility": "Everyone",
+      "transitionReason": "FIRST"
     },
     {
       "id": "migration-linkedin-saving",
@@ -321,7 +330,8 @@
               "disabled": true,
               "value": "Everyone"
             }
-          ]
+          ],
+          "hideLegend": true
         },
         {
           "type": "text",
@@ -345,10 +355,12 @@
           ]
         }
       ],
-      "notes": "Only for stored LinkedIn. Everyone is existing value; no extra visual emphasis. Dismiss keeps Everyone and repeats next launch. Save failure restores Everyone and stays on screen. Body uses HB-37 r5.",
+      "notes": "Shown only when linkedinTransitionNeeded=true. FIRST uses v15LinkedinBody. Dismiss keeps the stored setting; first-transition fixture is Everyone. Failure restores the stored setting and stays here. Group legend is visually hidden but accessible.",
       "layout": "dialog",
       "ack": "migration-occupation",
-      "reject": "migration-linkedin-failed"
+      "reject": "migration-linkedin-failed",
+      "storedVisibility": "Everyone",
+      "transitionReason": "FIRST"
     },
     {
       "id": "migration-linkedin-failed",
@@ -385,7 +397,8 @@
               "disabled": false,
               "value": "Everyone"
             }
-          ]
+          ],
+          "hideLegend": true
         },
         {
           "type": "text",
@@ -414,10 +427,12 @@
           ]
         }
       ],
-      "notes": "Only for stored LinkedIn. Everyone is existing value; no extra visual emphasis. Dismiss keeps Everyone and repeats next launch. Save failure restores Everyone and stays on screen. Body uses HB-37 r5.",
+      "notes": "Shown only when linkedinTransitionNeeded=true. FIRST uses v15LinkedinBody. Dismiss keeps the stored setting; first-transition fixture is Everyone. Failure restores the stored setting and stays here. Group legend is visually hidden but accessible.",
       "layout": "dialog",
       "ack": null,
-      "reject": null
+      "reject": null,
+      "storedVisibility": "Everyone",
+      "transitionReason": "FIRST"
     },
     {
       "id": "migration-linkedin-offline",
@@ -454,7 +469,8 @@
               "disabled": false,
               "value": "Everyone"
             }
-          ]
+          ],
+          "hideLegend": true
         },
         {
           "type": "text",
@@ -483,10 +499,12 @@
           ]
         }
       ],
-      "notes": "Only for stored LinkedIn. Everyone is existing value; no extra visual emphasis. Dismiss keeps Everyone and repeats next launch. Save failure restores Everyone and stays on screen. Body uses HB-37 r5.",
+      "notes": "Shown only when linkedinTransitionNeeded=true. FIRST uses v15LinkedinBody. Dismiss keeps the stored setting; first-transition fixture is Everyone. Failure restores the stored setting and stays here. Group legend is visually hidden but accessible.",
       "layout": "dialog",
       "ack": null,
-      "reject": null
+      "reject": null,
+      "storedVisibility": "Everyone",
+      "transitionReason": "FIRST"
     },
     {
       "id": "migration-occupation",
@@ -541,6 +559,351 @@
       ],
       "notes": "Network failure keeps route and avoids inferred membership.",
       "layout": "onboarding"
+    },
+    {
+      "id": "migration-linkedin-changed-default",
+      "group": "gecis",
+      "title": "v15LinkedinTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "v15LinkedinChangedBody"
+        },
+        {
+          "type": "choices",
+          "key": "profileLinkedinVisibilityTitle",
+          "name": "visibility",
+          "items": [
+            {
+              "key": "profileLinkedinVisibilityNobody",
+              "description": "profileLinkedinVisibilityNobodyDesc",
+              "selected": true,
+              "disabled": false,
+              "value": "Nobody"
+            },
+            {
+              "key": "profileLinkedinVisibilityConnections",
+              "description": "profileLinkedinVisibilityConnectionsDesc",
+              "selected": false,
+              "disabled": false,
+              "value": "Connections"
+            },
+            {
+              "key": "profileLinkedinVisibilityEveryone",
+              "description": "profileLinkedinVisibilityEveryoneDesc",
+              "selected": false,
+              "disabled": false,
+              "value": "Everyone"
+            }
+          ],
+          "hideLegend": true
+        },
+        {
+          "type": "text",
+          "key": "v15LinkedinChangeLater",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "v15LinkedinContinue",
+              "primary": true,
+              "to": "migration-linkedin-changed-saving",
+              "disabled": false,
+              "busy": false
+            },
+            {
+              "key": "cancel",
+              "to": "nearby-networking"
+            }
+          ]
+        }
+      ],
+      "notes": "Standalone LINK_CHANGED review, no intro/community steps. Stored setting Nobody; other-selection example Connections. Dismiss and failure retain stored Nobody; success only after server ack returns to the existing app. No transition if linkedinTransitionNeeded=false.",
+      "layout": "dialog",
+      "ack": null,
+      "reject": null,
+      "storedVisibility": "Nobody",
+      "transitionReason": "LINK_CHANGED"
+    },
+    {
+      "id": "migration-linkedin-changed-other",
+      "group": "gecis",
+      "title": "v15LinkedinTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "v15LinkedinChangedBody"
+        },
+        {
+          "type": "choices",
+          "key": "profileLinkedinVisibilityTitle",
+          "name": "visibility",
+          "items": [
+            {
+              "key": "profileLinkedinVisibilityNobody",
+              "description": "profileLinkedinVisibilityNobodyDesc",
+              "selected": false,
+              "disabled": false,
+              "value": "Nobody"
+            },
+            {
+              "key": "profileLinkedinVisibilityConnections",
+              "description": "profileLinkedinVisibilityConnectionsDesc",
+              "selected": true,
+              "disabled": false,
+              "value": "Connections"
+            },
+            {
+              "key": "profileLinkedinVisibilityEveryone",
+              "description": "profileLinkedinVisibilityEveryoneDesc",
+              "selected": false,
+              "disabled": false,
+              "value": "Everyone"
+            }
+          ],
+          "hideLegend": true
+        },
+        {
+          "type": "text",
+          "key": "v15LinkedinChangeLater",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "v15LinkedinContinue",
+              "primary": true,
+              "to": "migration-linkedin-changed-saving",
+              "disabled": false,
+              "busy": false
+            },
+            {
+              "key": "cancel",
+              "to": "nearby-networking"
+            }
+          ]
+        }
+      ],
+      "notes": "Standalone LINK_CHANGED review, no intro/community steps. Stored setting Nobody; other-selection example Connections. Dismiss and failure retain stored Nobody; success only after server ack returns to the existing app. No transition if linkedinTransitionNeeded=false.",
+      "layout": "dialog",
+      "ack": null,
+      "reject": null,
+      "storedVisibility": "Nobody",
+      "transitionReason": "LINK_CHANGED"
+    },
+    {
+      "id": "migration-linkedin-changed-saving",
+      "group": "gecis",
+      "title": "v15LinkedinTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "v15LinkedinChangedBody"
+        },
+        {
+          "type": "choices",
+          "key": "profileLinkedinVisibilityTitle",
+          "name": "visibility",
+          "items": [
+            {
+              "key": "profileLinkedinVisibilityNobody",
+              "description": "profileLinkedinVisibilityNobodyDesc",
+              "selected": false,
+              "disabled": true,
+              "value": "Nobody"
+            },
+            {
+              "key": "profileLinkedinVisibilityConnections",
+              "description": "profileLinkedinVisibilityConnectionsDesc",
+              "selected": true,
+              "disabled": true,
+              "value": "Connections"
+            },
+            {
+              "key": "profileLinkedinVisibilityEveryone",
+              "description": "profileLinkedinVisibilityEveryoneDesc",
+              "selected": false,
+              "disabled": true,
+              "value": "Everyone"
+            }
+          ],
+          "hideLegend": true
+        },
+        {
+          "type": "text",
+          "key": "v15LinkedinChangeLater",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "v15LinkedinContinue",
+              "primary": true,
+              "to": "migration-linkedin-changed-saving",
+              "disabled": true,
+              "busy": true
+            },
+            {
+              "key": "cancel",
+              "to": "nearby-networking"
+            }
+          ]
+        }
+      ],
+      "notes": "Standalone LINK_CHANGED review, no intro/community steps. Stored setting Nobody; other-selection example Connections. Dismiss and failure retain stored Nobody; success only after server ack returns to the existing app. No transition if linkedinTransitionNeeded=false.",
+      "layout": "dialog",
+      "ack": "nearby-networking",
+      "reject": "migration-linkedin-changed-failed",
+      "storedVisibility": "Nobody",
+      "transitionReason": "LINK_CHANGED"
+    },
+    {
+      "id": "migration-linkedin-changed-failed",
+      "group": "gecis",
+      "title": "v15LinkedinTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "v15LinkedinChangedBody"
+        },
+        {
+          "type": "choices",
+          "key": "profileLinkedinVisibilityTitle",
+          "name": "visibility",
+          "items": [
+            {
+              "key": "profileLinkedinVisibilityNobody",
+              "description": "profileLinkedinVisibilityNobodyDesc",
+              "selected": true,
+              "disabled": false,
+              "value": "Nobody"
+            },
+            {
+              "key": "profileLinkedinVisibilityConnections",
+              "description": "profileLinkedinVisibilityConnectionsDesc",
+              "selected": false,
+              "disabled": false,
+              "value": "Connections"
+            },
+            {
+              "key": "profileLinkedinVisibilityEveryone",
+              "description": "profileLinkedinVisibilityEveryoneDesc",
+              "selected": false,
+              "disabled": false,
+              "value": "Everyone"
+            }
+          ],
+          "hideLegend": true
+        },
+        {
+          "type": "text",
+          "key": "v15LinkedinChangeLater",
+          "helper": true
+        },
+        {
+          "type": "notice",
+          "key": "profileLinkedinVisibilitySaveFailed",
+          "error": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "v15LinkedinContinue",
+              "primary": true,
+              "to": "migration-linkedin-changed-saving",
+              "disabled": false,
+              "busy": false
+            },
+            {
+              "key": "cancel",
+              "to": "nearby-networking"
+            }
+          ]
+        }
+      ],
+      "notes": "Standalone LINK_CHANGED review, no intro/community steps. Stored setting Nobody; other-selection example Connections. Dismiss and failure retain stored Nobody; success only after server ack returns to the existing app. No transition if linkedinTransitionNeeded=false.",
+      "layout": "dialog",
+      "ack": null,
+      "reject": null,
+      "storedVisibility": "Nobody",
+      "transitionReason": "LINK_CHANGED"
+    },
+    {
+      "id": "migration-linkedin-changed-offline",
+      "group": "gecis",
+      "title": "v15LinkedinTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "v15LinkedinChangedBody"
+        },
+        {
+          "type": "choices",
+          "key": "profileLinkedinVisibilityTitle",
+          "name": "visibility",
+          "items": [
+            {
+              "key": "profileLinkedinVisibilityNobody",
+              "description": "profileLinkedinVisibilityNobodyDesc",
+              "selected": true,
+              "disabled": false,
+              "value": "Nobody"
+            },
+            {
+              "key": "profileLinkedinVisibilityConnections",
+              "description": "profileLinkedinVisibilityConnectionsDesc",
+              "selected": false,
+              "disabled": false,
+              "value": "Connections"
+            },
+            {
+              "key": "profileLinkedinVisibilityEveryone",
+              "description": "profileLinkedinVisibilityEveryoneDesc",
+              "selected": false,
+              "disabled": false,
+              "value": "Everyone"
+            }
+          ],
+          "hideLegend": true
+        },
+        {
+          "type": "text",
+          "key": "v15LinkedinChangeLater",
+          "helper": true
+        },
+        {
+          "type": "notice",
+          "key": "offline",
+          "error": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "v15LinkedinContinue",
+              "primary": true,
+              "to": "migration-linkedin-changed-saving",
+              "disabled": false,
+              "busy": false
+            },
+            {
+              "key": "cancel",
+              "to": "nearby-networking"
+            }
+          ]
+        }
+      ],
+      "notes": "Standalone LINK_CHANGED review, no intro/community steps. Stored setting Nobody; other-selection example Connections. Dismiss and failure retain stored Nobody; success only after server ack returns to the existing app. No transition if linkedinTransitionNeeded=false.",
+      "layout": "dialog",
+      "ack": null,
+      "reject": null,
+      "storedVisibility": "Nobody",
+      "transitionReason": "LINK_CHANGED"
     }
   ]
 }

@@ -22,7 +22,7 @@ TASK: V15-TASARIM · Son parça ve bütün teslim
 
 ## VALIDATION
 
-{summary['measurements']} DOM yerleşim ölçümü: yatay taşma {summary['horizontalOverflow']}, 48×48 altı hedef {summary['smallTargets']}, yatay kesilen metin {summary['clippedText']}.
+{summary['measurements']} DOM yerleşim ölçümü: yatay taşma {summary['horizontalOverflow']}, 48×48 altı hedef {summary['smallTargets']}, yatay kesilen metin {summary['clippedText']}; dikey çakışma {summary['verticalOverlaps']}, dikey metin taşması {summary['verticalTextOverflow']}, erişilemeyen başlangıç {summary['unreachableContent']}.
 Her durum EN/TR × %100/%200 × 390/412 mantıksal boyut; ana PNG’ler 4×, opak RGB.
 Her durumda ek 320 px / %200 iOS ve Android kabuğu ölçümü var. Uzun içerik dikey kaydırılır; `--full` kareler ayrıca verilir.
 
@@ -67,7 +67,7 @@ Cream & Ink v2.3 normatif yüzeyleri korundu: kabartma ve iç yüzey krem #F4F1E
 ## METİN
 
 Onaylı değerden sapma hedefi 0; ölçülmüş sonuç `evidence/final-validation.json` içinde.
-HB-37 dosyası artık **r5**: §14.1’deki son üç LinkedIn değeri aynen alındı. Önceki “METİN-EKİ BEKLİYOR” durumu bu kaynakta kapanmış.
+HB-37 **r6**: §15 v15LinkedinChangedBody eklendi; r5 §14.1’deki üç değer aynen korundu. Güncel fark listesi DUZELTME-1.md dosyasındadır. Önceki “METİN-EKİ BEKLİYOR” durumu bu kaynakta kapanmış.
 Copy dosyasının `proposed` adı teslim standardıdır; mevcut onaylı metin statüsünü değiştirmez. Yeni wording önerisi yok. Canonical uygulama ARB dosyalarına merge yapılmadı.
 
 ## AÇIK / RİSK

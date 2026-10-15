@@ -4,7 +4,7 @@
 
 Mevcut v2.3 başlık, küçük düğme, bilgi kartı, input, radyo ve satır desenleri. Kenar 24 dp. Başlık 28/600, gövde 16/400, yardım 14/400; satır aralığı 1.18/1.5/1.5. Bölüm başlığı 18/500. Ölçek %200: punto 2×, sabit satır sınırı yok. Küçük düğme görünen yüzey en az 36, bağımsız hedef en az 48×48; radius12. Kart radius15.
 
-D0: tek ekran, geri/alt menü yok. Logo mevcut splash-mark SVG; yeni ikon veya renk yok. Başlık/gövde/Update/delete-account link okuma sırası. Gövde normalde dikey ortalı; büyük metinde doğal akış ve kaydırma. Açılış beklerken Update devre dışı ve aria-busy; etiketi korunur, spinner durumun görsel işaretidir. Mağaza açma hata metni Update üstünde, eylem yeniden kullanılabilir. Silme notunun tamamı en az48 hedefli gerçek web bağlantısıdır; uygulama içinde silme vaadi yok.
+D0: tek ekran, geri/alt menü yok. Logo mevcut splash-mark SVG; yeni ikon veya renk yok. Başlık/gövde/Update/delete-account link okuma sırası. Gövde sığıyorsa safe center ile ortalı; içerik flex:1 0 auto, çocuklar flex-shrink:0. Büyük metinde yükseklik doğal büyür ve kaydırılır; negatif merkezleme veya metin hedefinin küçülmesi yok. Açılış beklerken Update devre dışı ve aria-busy; etiketi korunur, spinner durumun görsel işaretidir. Mağaza açma hata metni Update üstünde, eylem yeniden kullanılabilir. Silme notunun tamamı en az48 hedefli gerçek web bağlantısıdır; uygulama içinde silme vaadi yok.
 
 ## Durumlar
 

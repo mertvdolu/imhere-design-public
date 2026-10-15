@@ -666,14 +666,24 @@
     {
       "id": "filters-not-enough",
       "group": "filtre",
-      "title": "nearbyFilters",
+      "title": "navNearby",
       "blocks": [
         {
-          "type": "text",
-          "key": "nearbyFiltersOnBadge",
-          "params": {
-            "count": 2
-          }
+          "type": "community",
+          "community": "Networking"
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "nearbyFiltersOnBadge",
+              "params": {
+                "count": 2
+              },
+              "icon": "filter",
+              "to": "filters-selected"
+            }
+          ]
         },
         {
           "type": "notice",
@@ -687,30 +697,36 @@
           "type": "actions",
           "items": [
             {
-              "key": "nearbyFilters",
-              "to": "filters-selected"
-            },
-            {
               "key": "nearbyFiltersClear",
               "to": "nearby-networking"
             }
           ]
         }
       ],
-      "notes": "Networking only. Counts are explicit design fixtures, never live. Each visible option≥3, cap50+. OR among≤5 jobs, AND with LinkedIn Everyone. Panel order frozen while open; 0/1/2 same state; no saved filters.",
+      "notes": "Filtered Nearby list: Nearby H1, own community indicator, 2 filters on button, selected filters retained. 0/1/2 share this threshold state; no hidden count shown. Edit via count button or explicitly clear.",
       "nav": "Nearby"
     },
     {
       "id": "filters-no-longer-enough",
       "group": "filtre",
-      "title": "nearbyFilters",
+      "title": "navNearby",
       "blocks": [
         {
-          "type": "text",
-          "key": "nearbyFiltersOnBadge",
-          "params": {
-            "count": 2
-          }
+          "type": "community",
+          "community": "Networking"
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "nearbyFiltersOnBadge",
+              "params": {
+                "count": 2
+              },
+              "icon": "filter",
+              "to": "filters-selected"
+            }
+          ]
         },
         {
           "type": "notice",
@@ -724,17 +740,13 @@
           "type": "actions",
           "items": [
             {
-              "key": "nearbyFilters",
-              "to": "filters-selected"
-            },
-            {
               "key": "nearbyFiltersClear",
               "to": "nearby-networking"
             }
           ]
         }
       ],
-      "notes": "Networking only. Counts are explicit design fixtures, never live. Each visible option≥3, cap50+. OR among≤5 jobs, AND with LinkedIn Everyone. Panel order frozen while open; 0/1/2 same state; no saved filters.",
+      "notes": "Filtered Nearby list: Nearby H1, own community indicator, 2 filters on button, selected filters retained. 0/1/2 share this threshold state; no hidden count shown. Edit via count button or explicitly clear.",
       "nav": "Nearby"
     },
     {

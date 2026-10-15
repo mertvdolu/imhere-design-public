@@ -5647,5 +5647,12 @@
     "tr": "Şu anki oturumunun amacı değişmez. Değişiklik bir sonraki oturumundan itibaren geçerli olur.",
     "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
     "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "v15LinkedinChangedBody": {
+    "key": "v15LinkedinChangedBody",
+    "en": "Your LinkedIn link has changed. Check who can see it.",
+    "tr": "LinkedIn bağlantın değişti. Kimin görebileceğini kontrol et.",
+    "source": "HB-37 r6 / HB-41 §15 r6-10; decision58",
+    "status": "APPROVED — Manager (Founder delegation), decision58"
   }
 }

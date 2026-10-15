@@ -8,6 +8,6 @@ Cream & Ink v2.3 · Tasarım teslimi, canlı uygulama değildir.
 4. [Copy review](COPY-REVIEW.md)
 5. [Ölçüm](VALIDATION.md)
 
-20 durum · 160 ana PNG · 52 uzun içerik PNG. Dosyalar `screens/png/`; her durum EN/TR, %100/%200, 390 ve 412 mantıksal genişlikte 4× opak RGB.
+23 durum · 184 ana PNG · 60 uzun içerik PNG. Dosyalar `screens/png/`; her durum EN/TR, %100/%200, 390 ve 412 mantıksal genişlikte 4× opak RGB.
 
 Durum: PASS. Görseller tasarım önizlemesidir; native cihaz/backend kanıtı değildir.

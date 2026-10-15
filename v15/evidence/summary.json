@@ -1,9 +1,12 @@
 {
-  "states": 130,
-  "mainPng": 1040,
-  "fullPng": 475,
-  "measurements": 2035,
+  "states": 147,
+  "mainPng": 1176,
+  "fullPng": 552,
+  "measurements": 2316,
   "horizontalOverflow": 0,
   "smallTargets": 0,
-  "clippedText": 0
+  "clippedText": 0,
+  "verticalOverlaps": 0,
+  "verticalTextOverflow": 0,
+  "unreachableContent": 0
 }

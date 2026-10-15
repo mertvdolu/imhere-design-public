@@ -1,6 +1,6 @@
 # V15 — ortak SPEC
 
-Kaynak önceliği: Founder15Eki brief + karar1–52; copyHB-37 r5 §14.1>§13>önceki tablolar; yüzeyv2.3, düzenv10. `source/provenance.json` kaynak özet/hash.
+Kaynak önceliği: Founder15Eki brief + karar1–52; copy HB-37 r6 §15 (yeni anahtar) + r5 §14.1 > §13 > önceki tablolar; yüzeyv2.3, düzenv10. `source/provenance.json` kaynak özet/hash.
 
 - [d0 ekran kuralları](d0/SPEC.md)
 - [topluluk-kayit ekran kuralları](topluluk-kayit/SPEC.md)

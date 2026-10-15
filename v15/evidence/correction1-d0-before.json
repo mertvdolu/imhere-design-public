@@ -1,0 +1,64 @@
+{
+  "clippedText": [],
+  "contentHeight": 787,
+  "fonts": "loaded",
+  "fullNeeded": true,
+  "h1": 1,
+  "height": 844,
+  "horizontalOverflow": 0,
+  "keys": [
+    "updateRequiredTitle",
+    "updateRequiredBody",
+    "updateRequiredButton",
+    "updateRequiredDeleteNote"
+  ],
+  "locale": "tr",
+  "measurementVersion": 2,
+  "platform": "ios",
+  "position": "top",
+  "scale": 200,
+  "scene": "d0-required",
+  "smallTargets": [],
+  "unreachableContent": [],
+  "verticalOverlaps": [],
+  "verticalTextOverflow": [
+    {
+      "above": 3.5,
+      "below": 0,
+      "container": "updateRequiredTitle",
+      "text": "Güncelleme gerekli"
+    },
+    {
+      "above": 0,
+      "below": 3.421875,
+      "container": "updateRequiredTitle",
+      "text": "Güncelleme gerekli"
+    },
+    {
+      "above": 44.171875,
+      "below": 0,
+      "container": "updateRequiredDeleteNote",
+      "text": "Hesabını useimhere.com/delete-account adresinden de silebilirsin."
+    },
+    {
+      "above": 2.171875,
+      "below": 0,
+      "container": "updateRequiredDeleteNote",
+      "text": "Hesabını useimhere.com/delete-account adresinden de silebilirsin."
+    },
+    {
+      "above": 0,
+      "below": 1.6796875,
+      "container": "updateRequiredDeleteNote",
+      "text": "Hesabını useimhere.com/delete-account adresinden de silebilirsin."
+    },
+    {
+      "above": 0,
+      "below": 43.6796875,
+      "container": "updateRequiredDeleteNote",
+      "text": "Hesabını useimhere.com/delete-account adresinden de silebilirsin."
+    }
+  ],
+  "visibleHeight": 772,
+  "width": 390
+}

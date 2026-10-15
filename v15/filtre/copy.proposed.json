@@ -1,5 +1,5 @@
 {
-  "status": "APPROVED COPY — HB-37 r5 / existing approved reuse; UI decisions proposed ★",
+  "status": "APPROVED COPY — HB-37 r6 / existing approved reuse; UI decisions proposed ★",
   "entries": [
     {
       "key": "checkInRetry",
@@ -20,6 +20,17 @@
       "status": "APPROVED — source / existing design reference",
       "screens": [
         "filters-failed"
+      ]
+    },
+    {
+      "key": "navNearby",
+      "en": "Nearby",
+      "tr": "Yakındakiler",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "filters-not-enough",
+        "filters-no-longer-enough"
       ]
     },
     {

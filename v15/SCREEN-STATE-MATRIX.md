@@ -1,5 +1,7 @@
 # V15 — toplam durum matrisi
 
+| Bölüm | State | Görsel |
+|---|---|---|
 | d0 | d0-required | [PNG](d0/screens/png/d0-required--en--100.png) |
 | d0 | d0-opening | [PNG](d0/screens/png/d0-opening--en--100.png) |
 | d0 | d0-store-failed | [PNG](d0/screens/png/d0-store-failed--en--100.png) |
@@ -22,6 +24,11 @@
 | gecis | migration-linkedin-offline | [PNG](gecis/screens/png/migration-linkedin-offline--en--100.png) |
 | gecis | migration-occupation | [PNG](gecis/screens/png/migration-occupation--en--100.png) |
 | gecis | migration-offline | [PNG](gecis/screens/png/migration-offline--en--100.png) |
+| gecis | migration-linkedin-changed-default | [PNG](gecis/screens/png/migration-linkedin-changed-default--en--100.png) |
+| gecis | migration-linkedin-changed-other | [PNG](gecis/screens/png/migration-linkedin-changed-other--en--100.png) |
+| gecis | migration-linkedin-changed-saving | [PNG](gecis/screens/png/migration-linkedin-changed-saving--en--100.png) |
+| gecis | migration-linkedin-changed-failed | [PNG](gecis/screens/png/migration-linkedin-changed-failed--en--100.png) |
+| gecis | migration-linkedin-changed-offline | [PNG](gecis/screens/png/migration-linkedin-changed-offline--en--100.png) |
 | ayarlar-topluluk | settings-one | [PNG](ayarlar-topluluk/screens/png/settings-one--en--100.png) |
 | ayarlar-topluluk | settings-both | [PNG](ayarlar-topluluk/screens/png/settings-both--en--100.png) |
 | ayarlar-topluluk | settings-checked-in | [PNG](ayarlar-topluluk/screens/png/settings-checked-in--en--100.png) |
@@ -42,6 +49,9 @@
 | ayarlar-topluluk | settings-joining | [PNG](ayarlar-topluluk/screens/png/settings-joining--en--100.png) |
 | ayarlar-topluluk | settings-leaving | [PNG](ayarlar-topluluk/screens/png/settings-leaving--en--100.png) |
 | ayarlar-topluluk | settings-switching | [PNG](ayarlar-topluluk/screens/png/settings-switching--en--100.png) |
+| ayarlar-topluluk | settings-switch-failed | [PNG](ayarlar-topluluk/screens/png/settings-switch-failed--en--100.png) |
+| ayarlar-topluluk | settings-loading | [PNG](ayarlar-topluluk/screens/png/settings-loading--en--100.png) |
+| ayarlar-topluluk | settings-read-failed | [PNG](ayarlar-topluluk/screens/png/settings-read-failed--en--100.png) |
 | secici | nearby-networking | [PNG](secici/screens/png/nearby-networking--en--100.png) |
 | secici | nearby-friendship | [PNG](secici/screens/png/nearby-friendship--en--100.png) |
 | secici | nearby-single | [PNG](secici/screens/png/nearby-single--en--100.png) |
@@ -76,6 +86,12 @@
 | meslek | occupation-removing | [PNG](meslek/screens/png/occupation-removing--en--100.png) |
 | meslek | occupation-profile-networking | [PNG](meslek/screens/png/occupation-profile-networking--en--100.png) |
 | meslek | occupation-profile-friendship | [PNG](meslek/screens/png/occupation-profile-friendship--en--100.png) |
+| meslek | occupation-signup-selected | [PNG](meslek/screens/png/occupation-signup-selected--en--100.png) |
+| meslek | occupation-signup-other | [PNG](meslek/screens/png/occupation-signup-other--en--100.png) |
+| meslek | occupation-signup-saving | [PNG](meslek/screens/png/occupation-signup-saving--en--100.png) |
+| meslek | occupation-signup-saved | [PNG](meslek/screens/png/occupation-signup-saved--en--100.png) |
+| meslek | occupation-signup-failed | [PNG](meslek/screens/png/occupation-signup-failed--en--100.png) |
+| meslek | occupation-edit-empty | [PNG](meslek/screens/png/occupation-edit-empty--en--100.png) |
 | linkedin | linkedin-empty | [PNG](linkedin/screens/png/linkedin-empty--en--100.png) |
 | linkedin | linkedin-invalid | [PNG](linkedin/screens/png/linkedin-invalid--en--100.png) |
 | linkedin | linkedin-unconfirmed | [PNG](linkedin/screens/png/linkedin-unconfirmed--en--100.png) |
@@ -95,13 +111,16 @@
 | linkedin | linkedin-remove-confirm | [PNG](linkedin/screens/png/linkedin-remove-confirm--en--100.png) |
 | linkedin | linkedin-remove-busy | [PNG](linkedin/screens/png/linkedin-remove-busy--en--100.png) |
 | linkedin | linkedin-remove-failed | [PNG](linkedin/screens/png/linkedin-remove-failed--en--100.png) |
-| linkedin | linkedin-connection | [PNG](linkedin/screens/png/linkedin-connection--en--100.png) |
+| linkedin | linkedin-chat-connection | [PNG](linkedin/screens/png/linkedin-chat-connection--en--100.png) |
 | linkedin | linkedin-chat | [PNG](linkedin/screens/png/linkedin-chat--en--100.png) |
 | linkedin | linkedin-networking-before | [PNG](linkedin/screens/png/linkedin-networking-before--en--100.png) |
 | linkedin | linkedin-friendship-before | [PNG](linkedin/screens/png/linkedin-friendship-before--en--100.png) |
 | linkedin | linkedin-hidden | [PNG](linkedin/screens/png/linkedin-hidden--en--100.png) |
 | linkedin | linkedin-viewer-offline | [PNG](linkedin/screens/png/linkedin-viewer-offline--en--100.png) |
 | linkedin | linkedin-viewer-failed | [PNG](linkedin/screens/png/linkedin-viewer-failed--en--100.png) |
+| linkedin | linkedin-settings-empty | [PNG](linkedin/screens/png/linkedin-settings-empty--en--100.png) |
+| linkedin | linkedin-settings-loading | [PNG](linkedin/screens/png/linkedin-settings-loading--en--100.png) |
+| linkedin | linkedin-settings-read-failed | [PNG](linkedin/screens/png/linkedin-settings-read-failed--en--100.png) |
 | filtre | filters-loading | [PNG](filtre/screens/png/filters-loading--en--100.png) |
 | filtre | filters-options | [PNG](filtre/screens/png/filters-options--en--100.png) |
 | filtre | filters-selected | [PNG](filtre/screens/png/filters-selected--en--100.png) |
