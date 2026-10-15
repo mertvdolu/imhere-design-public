@@ -10,5 +10,6 @@ Cream & Ink v2.3. Başlangıç: remote main58bf8c4; yalnız design/v15-cream-ink
 - [meslek](meslek/README.md)
 - [linkedin](linkedin/README.md)
 - [filtre](filtre/README.md)
+- [kart-adimi](kart-adimi/README.md)
 
 [Önizleme](ONIZLEME.html) · [Tokenlar](TOKENS.md) · [MANIFEST](MANIFEST.json)

@@ -10,6 +10,7 @@ APPROVED COPY — HB-37 r5 + existing approved references. Dosya adı proposed t
 - [meslek](meslek/COPY-REVIEW.md)
 - [linkedin](linkedin/COPY-REVIEW.md)
 - [filtre](filtre/COPY-REVIEW.md)
+- [kart-adimi](kart-adimi/COPY-REVIEW.md)
 
 ## ÖNERİ
 

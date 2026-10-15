@@ -1,0 +1,400 @@
+{
+  "theme": "2.3",
+  "states": [
+    {
+      "id": "card-empty",
+      "group": "kart-adimi",
+      "title": "contactCardStepTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "contactCardStepBody"
+        },
+        {
+          "type": "field",
+          "key": "contactPhone",
+          "inputType": "tel",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "type": "field",
+          "key": "contactEmail",
+          "inputType": "email",
+          "value": "",
+          "disabled": false,
+          "help": "contactCardStepEmailNote",
+          "error": null
+        },
+        {
+          "type": "field",
+          "key": "contactInstagram",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "type": "text",
+          "key": "contactCardStepLater",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "contactCardSave",
+              "disabled": false,
+              "busy": false,
+              "to": "card-skipped"
+            },
+            {
+              "key": "contactCardNotNow",
+              "to": "card-skipped",
+              "disabled": false
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "layout": "onboarding",
+      "notes": "Optional for both communities. Sign-in email not prefilled. Example.invalid is reserved fictional layout data. Fields only shared when sent in a chat, never on profile. Blank Save behaves as Not now. Equal action treatment; invalid input reason inline. Saved only after server acknowledgement.",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "card-filled",
+      "group": "kart-adimi",
+      "title": "contactCardStepTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "contactCardStepBody"
+        },
+        {
+          "type": "field",
+          "key": "contactPhone",
+          "inputType": "tel",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "type": "field",
+          "key": "contactEmail",
+          "inputType": "email",
+          "value": "maya@example.invalid",
+          "disabled": false,
+          "help": "contactCardStepEmailNote",
+          "error": null
+        },
+        {
+          "type": "field",
+          "key": "contactInstagram",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "type": "text",
+          "key": "contactCardStepLater",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "contactCardSave",
+              "disabled": false,
+              "busy": false,
+              "to": "card-saving"
+            },
+            {
+              "key": "contactCardNotNow",
+              "to": "card-skipped",
+              "disabled": false
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "layout": "onboarding",
+      "notes": "Optional for both communities. Sign-in email not prefilled. Example.invalid is reserved fictional layout data. Fields only shared when sent in a chat, never on profile. Blank Save behaves as Not now. Equal action treatment; invalid input reason inline. Saved only after server acknowledgement.",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "card-invalid",
+      "group": "kart-adimi",
+      "title": "contactCardStepTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "contactCardStepBody"
+        },
+        {
+          "type": "field",
+          "key": "contactPhone",
+          "inputType": "tel",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "type": "field",
+          "key": "contactEmail",
+          "inputType": "email",
+          "value": "maya",
+          "disabled": false,
+          "help": "contactCardStepEmailNote",
+          "error": "contactFieldInvalid"
+        },
+        {
+          "type": "field",
+          "key": "contactInstagram",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "type": "text",
+          "key": "contactCardStepEmailNote",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "contactCardStepLater",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "contactCardSave",
+              "disabled": true,
+              "busy": false,
+              "to": "card-saving"
+            },
+            {
+              "key": "contactCardNotNow",
+              "to": "card-skipped",
+              "disabled": false
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "layout": "onboarding",
+      "notes": "Optional for both communities. Sign-in email not prefilled. Example.invalid is reserved fictional layout data. Fields only shared when sent in a chat, never on profile. Blank Save behaves as Not now. Equal action treatment; invalid input reason inline. Saved only after server acknowledgement.",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "card-saving",
+      "group": "kart-adimi",
+      "title": "contactCardStepTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "contactCardStepBody"
+        },
+        {
+          "type": "field",
+          "key": "contactPhone",
+          "inputType": "tel",
+          "value": "",
+          "disabled": true
+        },
+        {
+          "type": "field",
+          "key": "contactEmail",
+          "inputType": "email",
+          "value": "maya@example.invalid",
+          "disabled": true,
+          "help": "contactCardStepEmailNote",
+          "error": null
+        },
+        {
+          "type": "field",
+          "key": "contactInstagram",
+          "value": "",
+          "disabled": true
+        },
+        {
+          "type": "text",
+          "key": "contactCardStepLater",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "contactCardSave",
+              "disabled": true,
+              "busy": true,
+              "to": "card-saving"
+            },
+            {
+              "key": "contactCardNotNow",
+              "to": "card-skipped",
+              "disabled": true
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "layout": "onboarding",
+      "notes": "Optional for both communities. Sign-in email not prefilled. Example.invalid is reserved fictional layout data. Fields only shared when sent in a chat, never on profile. Blank Save behaves as Not now. Equal action treatment; invalid input reason inline. Saved only after server acknowledgement.",
+      "ack": "card-saved",
+      "reject": "card-failed"
+    },
+    {
+      "id": "card-saved",
+      "group": "kart-adimi",
+      "title": "contactCardStepTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "contactCardStepBody"
+        },
+        {
+          "type": "field",
+          "key": "contactPhone",
+          "inputType": "tel",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "type": "field",
+          "key": "contactEmail",
+          "inputType": "email",
+          "value": "maya@example.invalid",
+          "disabled": false,
+          "help": "contactCardStepEmailNote",
+          "error": null
+        },
+        {
+          "type": "field",
+          "key": "contactInstagram",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "type": "notice",
+          "key": "contactCardSaved"
+        },
+        {
+          "type": "text",
+          "key": "contactCardStepLater",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "contactCardSave",
+              "disabled": false,
+              "busy": false,
+              "to": "card-saving"
+            },
+            {
+              "key": "contactCardNotNow",
+              "to": "card-skipped",
+              "disabled": false
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "layout": "onboarding",
+      "notes": "Optional for both communities. Sign-in email not prefilled. Example.invalid is reserved fictional layout data. Fields only shared when sent in a chat, never on profile. Blank Save behaves as Not now. Equal action treatment; invalid input reason inline. Saved only after server acknowledgement.",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "card-failed",
+      "group": "kart-adimi",
+      "title": "contactCardStepTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "contactCardStepBody"
+        },
+        {
+          "type": "field",
+          "key": "contactPhone",
+          "inputType": "tel",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "type": "field",
+          "key": "contactEmail",
+          "inputType": "email",
+          "value": "maya@example.invalid",
+          "disabled": false,
+          "help": "contactCardStepEmailNote",
+          "error": null
+        },
+        {
+          "type": "field",
+          "key": "contactInstagram",
+          "value": "",
+          "disabled": false
+        },
+        {
+          "type": "notice",
+          "key": "contactCardSaveFailed",
+          "error": true
+        },
+        {
+          "type": "text",
+          "key": "contactCardStepLater",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "contactCardSave",
+              "disabled": false,
+              "busy": false,
+              "to": "card-saving"
+            },
+            {
+              "key": "contactCardNotNow",
+              "to": "card-skipped",
+              "disabled": false
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "layout": "onboarding",
+      "notes": "Optional for both communities. Sign-in email not prefilled. Example.invalid is reserved fictional layout data. Fields only shared when sent in a chat, never on profile. Blank Save behaves as Not now. Equal action treatment; invalid input reason inline. Saved only after server acknowledgement.",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "card-skipped",
+      "group": "kart-adimi",
+      "title": "nearbyTitle",
+      "blocks": [
+        {
+          "type": "community",
+          "community": "Friendship"
+        },
+        {
+          "type": "text",
+          "key": "nearbyBody"
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "checkInStart",
+              "primary": true,
+              "action": "existing-checkin"
+            }
+          ]
+        }
+      ],
+      "nav": "Nearby",
+      "notes": "No skipped confirmation screen in production. Shown destination after optional onboarding completes; Friendship-only also gets card step. No card is created by skipping. Other pending onboarding steps take precedence."
+    }
+  ]
+}

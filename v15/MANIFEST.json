@@ -1,10 +1,10 @@
 {
   "theme": "2.3",
   "counts": {
-    "states": 114,
-    "mainPng": 912,
-    "fullPng": 447,
-    "filesExcludingManifest": 2056
+    "states": 121,
+    "mainPng": 968,
+    "fullPng": 475,
+    "filesExcludingManifest": 2187
   },
   "files": [
     {
@@ -14,13 +14,13 @@
     },
     {
       "file": "COPY-REVIEW.md",
-      "bytes": 692,
-      "sha256": "c57871cfb91f11bb61a8bcde61d332849b4a3bf6bf156020b6ff303c5866fb5f"
+      "bytes": 734,
+      "sha256": "3eae6ff6e2258e2c058f6d1ba10f164369f4495fea6c74157fe27ff816a1bbe5"
     },
     {
       "file": "HANDOFF.md",
-      "bytes": 864,
-      "sha256": "467654e9ae171c2ae6a0e59684de584b9b57c2ae6360d65b4873fdcbfd5aa1ff"
+      "bytes": 902,
+      "sha256": "f3bd2fb669899972b17c424b73c88e2795781b8edb34a8692d7eef9898738c53"
     },
     {
       "file": "ONIZLEME.html",
@@ -29,23 +29,23 @@
     },
     {
       "file": "OVERVIEW.png",
-      "bytes": 251898,
-      "sha256": "d2838829fd8105196e03e0a63a241ddfaa5d25be25524e2958a67597dc218c95"
+      "bytes": 290969,
+      "sha256": "e1effff4b240465843acaf19e28a27d87c16ba9376d02ff2ffc981c6d2fed2a6"
     },
     {
       "file": "README.md",
-      "bytes": 540,
-      "sha256": "c197494f6259f113547deda66cb053aa80cedac63df4bbc6da626c37f6452aa7"
+      "bytes": 577,
+      "sha256": "79bc75ce830a5c6ec6d8f7e6da737004da8356c7728b91f07f8a4a5630b7f3bc"
     },
     {
       "file": "SCREEN-STATE-MATRIX.md",
-      "bytes": 11127,
-      "sha256": "9c6ecd526b21a26a943beaafa038d2995e5f5370b09841a3055432ea2a844739"
+      "bytes": 11729,
+      "sha256": "88e69f72f00225e283082d8d2015bed497d139e13022d0774b3eab625f1f09a2"
     },
     {
       "file": "SPEC.md",
-      "bytes": 737,
-      "sha256": "4105a5eee42a1cdb82d679e39a677b889d1d59b3b8b69bedb4f6e823df50d688"
+      "bytes": 789,
+      "sha256": "0b27e863b74eab1a3222f92c3afe39ed37c35cb911d78a4cce3bf1302199c2df"
     },
     {
       "file": "TOKENS.md",
@@ -55,7 +55,7 @@
     {
       "file": "VALIDATION.md",
       "bytes": 312,
-      "sha256": "bc66525913ef229e07b85bcb6652af278eb1d9e2507325ce0eb50670e4bceda8"
+      "sha256": "5c4352044632cb9d55f26f923925b3e86e65f48d61b1f80f7f777bf7782e73da"
     },
     {
       "file": "assets/Geist-Medium.ttf",
@@ -1699,13 +1699,13 @@
     },
     {
       "file": "catalog.json",
-      "bytes": 177657,
-      "sha256": "f4e6e92d1e9824acad8e18816e554af7d25215d835f77364d6a5cf03f5a34285"
+      "bytes": 188810,
+      "sha256": "f2627c9c9dc81f0a24180723782c9aff35db7bfa1f01cb28f2f641083152bbdb"
     },
     {
       "file": "copy.proposed.json",
-      "bytes": 74124,
-      "sha256": "9ab543eb3847d46ddca8b562a84d2771c82b76d5ed73bf869c67a44c3187c87e"
+      "bytes": 79934,
+      "sha256": "169883afba009c0739a6efaf825fe62a04febe6c4449d87eb6242160c69e181a"
     },
     {
       "file": "d0/COPY-REVIEW.md",
@@ -1994,8 +1994,8 @@
     },
     {
       "file": "data.js",
-      "bytes": 209986,
-      "sha256": "76464b8facdcbd072733dbe68c8b1fcf66ee6f3917d93d85ca3957485dd80731"
+      "bytes": 221036,
+      "sha256": "d03578e45dab9820b32ba3040413ce9e1f931894805452ecfc5b8a1e9159193d"
     },
     {
       "file": "evidence/colors-deuteranopia.png",
@@ -2015,7 +2015,7 @@
     {
       "file": "evidence/summary.json",
       "bytes": 148,
-      "sha256": "71fde0072131d1b0589ecdf62f3790ee11b25f5c23433d0c0d2b1704c2c7dc26"
+      "sha256": "c52f6c5d70659853ba8812f397ac1333850e727feb334ca5ddf357d0503bce46"
     },
     {
       "file": "filtre/COPY-REVIEW.md",
@@ -4131,6 +4131,656 @@
       "file": "gecis/screens/png/migration-offline--tr--200.png",
       "bytes": 312458,
       "sha256": "fa432300db8fbc45d38ceaa1a08a5bcf32a07abe0aae4c1ff2448a1f027cc5b8"
+    },
+    {
+      "file": "kart-adimi/COPY-REVIEW.md",
+      "bytes": 3138,
+      "sha256": "b9961a600a7383f23b31154934e7ee35ad01feef935301e9be1e2e902ddd40a3"
+    },
+    {
+      "file": "kart-adimi/HANDOFF.md",
+      "bytes": 1001,
+      "sha256": "a711cdf3a324bffb3241c396022464a52049b73decaaa4e38ccb0cccaf5c46ac"
+    },
+    {
+      "file": "kart-adimi/ONIZLEME.html",
+      "bytes": 254,
+      "sha256": "15bf91d10cc534a5869b2ecda53ec9edd7d27e24e89d4f030b5f723ddf91033b"
+    },
+    {
+      "file": "kart-adimi/OVERVIEW.png",
+      "bytes": 130153,
+      "sha256": "1e368c7dc4c8726a41eb7b4dc361c472f219e1402c56eed028a0daebc54ccf40"
+    },
+    {
+      "file": "kart-adimi/README.md",
+      "bytes": 484,
+      "sha256": "a5f3d1ba5c8d623dcf20048ad5cb3baa64fa2fabb8fff5d452362e74d759e428"
+    },
+    {
+      "file": "kart-adimi/SCREEN-STATE-MATRIX.md",
+      "bytes": 2329,
+      "sha256": "0cb0be70e4b0c0433e999b5e5c96c22b17b01aa699412449bfce14528561d5ec"
+    },
+    {
+      "file": "kart-adimi/SPEC.md",
+      "bytes": 3655,
+      "sha256": "17f840b552707750b9c73f91b0a8a60681d40cc8237c4730495fd7296e70eed1"
+    },
+    {
+      "file": "kart-adimi/VALIDATION.md",
+      "bytes": 761,
+      "sha256": "b9e3d231a12684517f00b61f2573beee7e4fe5d80e9bc0f2f4bd31b2d420b481"
+    },
+    {
+      "file": "kart-adimi/catalog.json",
+      "bytes": 11192,
+      "sha256": "e3fc55d7f3ff7ce8c49678d3237ff88e0617270460390e23b4afc5ae4b2305c4"
+    },
+    {
+      "file": "kart-adimi/copy.proposed.json",
+      "bytes": 5946,
+      "sha256": "8055b82557c801b09fd580b16ab091ddc14678db99bb4f6abcc0438e8c61efc7"
+    },
+    {
+      "file": "kart-adimi/evidence/card-empty--en--200--320--android.png",
+      "bytes": 62017,
+      "sha256": "1cf962a9bf364ab3d6e8a3a3eb47a5ab6a733a9a13aae7045dae3ebdfc7acd88"
+    },
+    {
+      "file": "kart-adimi/evidence/card-empty--en--200--320--ios.png",
+      "bytes": 62030,
+      "sha256": "7408f90c12dcb7537cdac41789f260881c4988a7cf9cb49002d1bdf1bde94e82"
+    },
+    {
+      "file": "kart-adimi/evidence/card-empty--tr--200--320--android.png",
+      "bytes": 55102,
+      "sha256": "d4f1c2d7a11fce3c4509f66814e1a3063d86e23bb6bf39992cbbe84c59de436a"
+    },
+    {
+      "file": "kart-adimi/evidence/card-empty--tr--200--320--ios.png",
+      "bytes": 55116,
+      "sha256": "2c2defb02b9a27d4ac206050dad4b5fd12e3ce91bde4b25697a0188149b93f44"
+    },
+    {
+      "file": "kart-adimi/evidence/card-empty.json",
+      "bytes": 9812,
+      "sha256": "4f0b7553b2611cfa13da3d691ab1e4cb41b2201af12bd54189b83e5862b73fcf"
+    },
+    {
+      "file": "kart-adimi/evidence/card-failed--en--200--320--android.png",
+      "bytes": 62017,
+      "sha256": "1cf962a9bf364ab3d6e8a3a3eb47a5ab6a733a9a13aae7045dae3ebdfc7acd88"
+    },
+    {
+      "file": "kart-adimi/evidence/card-failed--en--200--320--ios.png",
+      "bytes": 62030,
+      "sha256": "7408f90c12dcb7537cdac41789f260881c4988a7cf9cb49002d1bdf1bde94e82"
+    },
+    {
+      "file": "kart-adimi/evidence/card-failed--tr--200--320--android.png",
+      "bytes": 55102,
+      "sha256": "d4f1c2d7a11fce3c4509f66814e1a3063d86e23bb6bf39992cbbe84c59de436a"
+    },
+    {
+      "file": "kart-adimi/evidence/card-failed--tr--200--320--ios.png",
+      "bytes": 55116,
+      "sha256": "2c2defb02b9a27d4ac206050dad4b5fd12e3ce91bde4b25697a0188149b93f44"
+    },
+    {
+      "file": "kart-adimi/evidence/card-failed.json",
+      "bytes": 11622,
+      "sha256": "d0657d8a0a8454e97624422b6744214c27feb6235c18adaec3f14728ab241725"
+    },
+    {
+      "file": "kart-adimi/evidence/card-filled--en--200--320--android.png",
+      "bytes": 62017,
+      "sha256": "1cf962a9bf364ab3d6e8a3a3eb47a5ab6a733a9a13aae7045dae3ebdfc7acd88"
+    },
+    {
+      "file": "kart-adimi/evidence/card-filled--en--200--320--ios.png",
+      "bytes": 62030,
+      "sha256": "7408f90c12dcb7537cdac41789f260881c4988a7cf9cb49002d1bdf1bde94e82"
+    },
+    {
+      "file": "kart-adimi/evidence/card-filled--tr--200--320--android.png",
+      "bytes": 55102,
+      "sha256": "d4f1c2d7a11fce3c4509f66814e1a3063d86e23bb6bf39992cbbe84c59de436a"
+    },
+    {
+      "file": "kart-adimi/evidence/card-filled--tr--200--320--ios.png",
+      "bytes": 55116,
+      "sha256": "2c2defb02b9a27d4ac206050dad4b5fd12e3ce91bde4b25697a0188149b93f44"
+    },
+    {
+      "file": "kart-adimi/evidence/card-filled.json",
+      "bytes": 9828,
+      "sha256": "1f88343fdabf013aa5955bbf8c2331c90eaa1d7eba0d7a52d0555fb7ce209f4e"
+    },
+    {
+      "file": "kart-adimi/evidence/card-invalid--en--200--320--android.png",
+      "bytes": 62017,
+      "sha256": "1cf962a9bf364ab3d6e8a3a3eb47a5ab6a733a9a13aae7045dae3ebdfc7acd88"
+    },
+    {
+      "file": "kart-adimi/evidence/card-invalid--en--200--320--ios.png",
+      "bytes": 62030,
+      "sha256": "7408f90c12dcb7537cdac41789f260881c4988a7cf9cb49002d1bdf1bde94e82"
+    },
+    {
+      "file": "kart-adimi/evidence/card-invalid--tr--200--320--android.png",
+      "bytes": 55102,
+      "sha256": "d4f1c2d7a11fce3c4509f66814e1a3063d86e23bb6bf39992cbbe84c59de436a"
+    },
+    {
+      "file": "kart-adimi/evidence/card-invalid--tr--200--320--ios.png",
+      "bytes": 55116,
+      "sha256": "2c2defb02b9a27d4ac206050dad4b5fd12e3ce91bde4b25697a0188149b93f44"
+    },
+    {
+      "file": "kart-adimi/evidence/card-invalid.json",
+      "bytes": 10308,
+      "sha256": "48c7ae611a920e98fae078dcddb2f63214c1ee0ee51921ac11e546afb4053260"
+    },
+    {
+      "file": "kart-adimi/evidence/card-saved--en--200--320--android.png",
+      "bytes": 62017,
+      "sha256": "1cf962a9bf364ab3d6e8a3a3eb47a5ab6a733a9a13aae7045dae3ebdfc7acd88"
+    },
+    {
+      "file": "kart-adimi/evidence/card-saved--en--200--320--ios.png",
+      "bytes": 62030,
+      "sha256": "7408f90c12dcb7537cdac41789f260881c4988a7cf9cb49002d1bdf1bde94e82"
+    },
+    {
+      "file": "kart-adimi/evidence/card-saved--tr--200--320--android.png",
+      "bytes": 55102,
+      "sha256": "d4f1c2d7a11fce3c4509f66814e1a3063d86e23bb6bf39992cbbe84c59de436a"
+    },
+    {
+      "file": "kart-adimi/evidence/card-saved--tr--200--320--ios.png",
+      "bytes": 55116,
+      "sha256": "2c2defb02b9a27d4ac206050dad4b5fd12e3ce91bde4b25697a0188149b93f44"
+    },
+    {
+      "file": "kart-adimi/evidence/card-saved.json",
+      "bytes": 11514,
+      "sha256": "b2255ea5b56fd03acff5958cb8d509ec99154521781fa41ce3a50dd1c26388ed"
+    },
+    {
+      "file": "kart-adimi/evidence/card-saving--en--200--320--android.png",
+      "bytes": 62017,
+      "sha256": "1cf962a9bf364ab3d6e8a3a3eb47a5ab6a733a9a13aae7045dae3ebdfc7acd88"
+    },
+    {
+      "file": "kart-adimi/evidence/card-saving--en--200--320--ios.png",
+      "bytes": 62030,
+      "sha256": "7408f90c12dcb7537cdac41789f260881c4988a7cf9cb49002d1bdf1bde94e82"
+    },
+    {
+      "file": "kart-adimi/evidence/card-saving--tr--200--320--android.png",
+      "bytes": 55102,
+      "sha256": "d4f1c2d7a11fce3c4509f66814e1a3063d86e23bb6bf39992cbbe84c59de436a"
+    },
+    {
+      "file": "kart-adimi/evidence/card-saving--tr--200--320--ios.png",
+      "bytes": 55116,
+      "sha256": "2c2defb02b9a27d4ac206050dad4b5fd12e3ce91bde4b25697a0188149b93f44"
+    },
+    {
+      "file": "kart-adimi/evidence/card-saving.json",
+      "bytes": 9822,
+      "sha256": "42c6230766ff70d81f056b192aed9e200d253aa84d7cd2054c99d262ed7fbaf0"
+    },
+    {
+      "file": "kart-adimi/evidence/card-skipped--en--200--320--android.png",
+      "bytes": 47735,
+      "sha256": "add3c76c05d5c39beae3a6333f5a3377e6e85e98758b0ce8227af3eaa0284ab4"
+    },
+    {
+      "file": "kart-adimi/evidence/card-skipped--en--200--320--ios.png",
+      "bytes": 47759,
+      "sha256": "30f8837f5fcb61165495c69a1b7500132aea3fd4ce32404bc9f270beaee7d9dc"
+    },
+    {
+      "file": "kart-adimi/evidence/card-skipped--tr--200--320--android.png",
+      "bytes": 51765,
+      "sha256": "a2235496ff82fe5706d9b59f8a34a9b78e3f129ed8fe7dc0aebfb6237d88a563"
+    },
+    {
+      "file": "kart-adimi/evidence/card-skipped--tr--200--320--ios.png",
+      "bytes": 51692,
+      "sha256": "6503e36fe2dae3f990ce6dadcd15c3d3eacb5035fef2b848cbefbe5ab0b165c7"
+    },
+    {
+      "file": "kart-adimi/evidence/card-skipped.json",
+      "bytes": 6872,
+      "sha256": "ce029c78d5967a4832516e2fbc624352e4cc845e3feba9991b2f87f9c147a702"
+    },
+    {
+      "file": "kart-adimi/evidence/summary.json",
+      "bytes": 207,
+      "sha256": "441cc709b7367da48c9240f7f15e32303975db7cd8fa6a80b7b2cc2c9ddd67fa"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-empty--en--100--412.png",
+      "bytes": 266103,
+      "sha256": "c5426d494d1c4ba3e1a6efc70594cba84978b6592193f08b0aa664c1a99b9976"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-empty--en--100.png",
+      "bytes": 263495,
+      "sha256": "21f5c3b0a7d31ffc6ad8d9175fb40f1c40fb36aa24a08e81bcde3298dc73ecb5"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-empty--en--200--412--full.png",
+      "bytes": 504954,
+      "sha256": "fd6eba53164c3e457afcf3a604244f6f7633c96974f587330d7706ec555be0a2"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-empty--en--200--412.png",
+      "bytes": 330634,
+      "sha256": "0fa2d833382cd013d62179758333fa19e040e3f90e053f449e56bde70e3d1616"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-empty--en--200--full.png",
+      "bytes": 496224,
+      "sha256": "7211ae32d964ab7ac23af0d928bd021f6c29c0dca62d1bed0860b45c3e9842fb"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-empty--en--200.png",
+      "bytes": 307302,
+      "sha256": "3126beb0db002349dd10fb84ccfe2a5bde6ff0658e6734a066999ed5e206204f"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-empty--tr--100--412.png",
+      "bytes": 279575,
+      "sha256": "dd941aaa2784710b130dc61458134573f9651f7e57de75820235c8e16351726e"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-empty--tr--100.png",
+      "bytes": 281283,
+      "sha256": "662940cc16cffdd7603281b338949aa2f530fa51f24775b1282ac9d4ae23201a"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-empty--tr--200--412--full.png",
+      "bytes": 542456,
+      "sha256": "086a08225caf4beb94cf08abf1a797d0aeea68d27a2fa39cd179a893b4b7355f"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-empty--tr--200--412.png",
+      "bytes": 316884,
+      "sha256": "b33ce806375998b7613ca66f8fffeb0bb44a97dc4e28e372c2f9117ad86cd022"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-empty--tr--200--full.png",
+      "bytes": 537718,
+      "sha256": "821b35ce1a3cc77fe95f85bb43c51c10bfa90b927347ac8a0aeca1c0ba365aeb"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-empty--tr--200.png",
+      "bytes": 305199,
+      "sha256": "b7b739f33bed0df5cae88e631c1975a158ca8ac168345f0face8b2dcc5be42d1"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-failed--en--100--412.png",
+      "bytes": 323500,
+      "sha256": "4709c0fd32bee0d888cf9e319ad203ad2cbfe1f5f76e494aa2d315e934ee7854"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-failed--en--100--full.png",
+      "bytes": 321224,
+      "sha256": "e2027e19004c982c1e50de503fd18fe283287e1505de67448ee5e89d4bb95b8d"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-failed--en--100.png",
+      "bytes": 348813,
+      "sha256": "e83efcc76de9682a92bfbd29f0fc6a7c79c4a95d30a8cac452a29cd616a272a9"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-failed--en--200--412--full.png",
+      "bytes": 607416,
+      "sha256": "df6a35b301ceaee103814c6ba7a02aee168591f38316de2c220ea4f595e24fdb"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-failed--en--200--412.png",
+      "bytes": 330642,
+      "sha256": "99b218b1168f350cf4abaf21db34b7b763bea717d8128c6bfa2f4fd6e6f35e00"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-failed--en--200--full.png",
+      "bytes": 596671,
+      "sha256": "7f7d73909ef1747020fa5a6b652dcdd8fd8ba7d4bfc6e88d55cbb1b7b28894db"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-failed--en--200.png",
+      "bytes": 307318,
+      "sha256": "d5d7ccd4403b08d4006d329141b9b4428ce345f71dec7c3765f5b2a9bb032b07"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-failed--tr--100--412.png",
+      "bytes": 332525,
+      "sha256": "50e8ee46e0df1daa05c535cccb61e7df7247396bf3a30ace38c5d94071975701"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-failed--tr--100--full.png",
+      "bytes": 337351,
+      "sha256": "dffa7fbe2693fa8bcb78db469fec88e344be98e6727f158d60b131070375c097"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-failed--tr--100.png",
+      "bytes": 362889,
+      "sha256": "4979d31c86f97d708a22bc341b650f7f83c3d9eea395f4d2fc84265d94c26eb0"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-failed--tr--200--412--full.png",
+      "bytes": 635108,
+      "sha256": "9846d81524ff5bb1c02156c5b0d3144dab3359a8b47f1d124f68d861224c1592"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-failed--tr--200--412.png",
+      "bytes": 316884,
+      "sha256": "b33ce806375998b7613ca66f8fffeb0bb44a97dc4e28e372c2f9117ad86cd022"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-failed--tr--200--full.png",
+      "bytes": 629316,
+      "sha256": "a4a2253dbeda8a503194ca7cc65d62d0d04332353275a7ffecf08f60e82e5369"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-failed--tr--200.png",
+      "bytes": 305193,
+      "sha256": "8a590621dd691d4d728122546eeb7251291f4d8796bfbbac87bac3b26cfb03bd"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-filled--en--100--412.png",
+      "bytes": 281549,
+      "sha256": "f0e35a997687298c0513d69a7f4c86615c81e23d11a8546c84b9490509c183e9"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-filled--en--100.png",
+      "bytes": 278915,
+      "sha256": "5ffff34fe77e2beabd42767b9862350eca80c2b0eeb5a01c1cea363705d4eb60"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-filled--en--200--412--full.png",
+      "bytes": 532952,
+      "sha256": "dd9021a065fd67c61f7878b9e8a998f69af0f789e6e1032087740d3083f549e0"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-filled--en--200--412.png",
+      "bytes": 330635,
+      "sha256": "6ea60205d45ae8321b841e9a8564bbe41911177019fd22ffb3aba191709245c9"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-filled--en--200--full.png",
+      "bytes": 522895,
+      "sha256": "8a6a9f509be75ae9856e8b1d3227a6e0546adbc84282878a5c0fde8f8ae11ca9"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-filled--en--200.png",
+      "bytes": 307315,
+      "sha256": "c6c1429cfece565fefd373b87fedce0f5b4e6ec65850e4fb61e4ad6938b579fe"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-filled--tr--100--412.png",
+      "bytes": 294157,
+      "sha256": "0c5c95fcd7821e86a2180a3411415fa58d8f1e2a345985ff3a61dc693d574ef7"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-filled--tr--100.png",
+      "bytes": 295141,
+      "sha256": "85b701543b79364222c7411d3699bb6b5dc35e59be4f8fdaec691d0047c607c4"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-filled--tr--200--412--full.png",
+      "bytes": 569494,
+      "sha256": "13dd8c5da02beac3299a718917c2e81ced18a4b9789c7484b6578c6d7c053294"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-filled--tr--200--412.png",
+      "bytes": 316884,
+      "sha256": "b33ce806375998b7613ca66f8fffeb0bb44a97dc4e28e372c2f9117ad86cd022"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-filled--tr--200--full.png",
+      "bytes": 565565,
+      "sha256": "800419d5966b8da020556fe0a04efd04c95b285bc3543663f7e155e77a93da22"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-filled--tr--200.png",
+      "bytes": 305188,
+      "sha256": "55c0e6f87c849ad656a84a0f053b8c51f9b488a724ecab969a01a844e2a103ec"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-invalid--en--100--412.png",
+      "bytes": 276742,
+      "sha256": "31c83a1e57e9c8b50845f07b5d31c31004b18722952d8679b40c82e865e3df13"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-invalid--en--100.png",
+      "bytes": 274587,
+      "sha256": "6764285bb7a1d48c4241ac1ca20863add8a79137ff5401d91be4007884fdcc09"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-invalid--en--200--412--full.png",
+      "bytes": 549879,
+      "sha256": "435061183d831b05f36a194297d140967d76f665871d90397a659cfed86f6a3a"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-invalid--en--200--412.png",
+      "bytes": 330635,
+      "sha256": "5e241b675917ec32e9a85f98a28a8f2e3c287e3dc4d7c0feded0e379977166a8"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-invalid--en--200--full.png",
+      "bytes": 540229,
+      "sha256": "b250aee2f75d06649b163f8581165666ded02aac5313d41c1061023eda6d9857"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-invalid--en--200.png",
+      "bytes": 307317,
+      "sha256": "474dfe89223be6ce0388bc433d9e65110764989279ee64061f83b287a5cf730e"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-invalid--tr--100--412.png",
+      "bytes": 293048,
+      "sha256": "4834eccba24afc238ab1e87d3dfe02a9e1dafc8127f6e678cd97e674fe7e28cf"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-invalid--tr--100.png",
+      "bytes": 293053,
+      "sha256": "704dca151cb92e78d430ec8fed8b20f56c8a5b42d9f3693191d0fb40956f24c5"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-invalid--tr--200--412--full.png",
+      "bytes": 584814,
+      "sha256": "5893a7228d7c959143178df5bf6df6e1a87809f992c2998295d2f276c134b7cd"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-invalid--tr--200--412.png",
+      "bytes": 316880,
+      "sha256": "3ab9038140408ba27dfce4c8bd51a27f211f4055e0c72edddb7d532d1a699c11"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-invalid--tr--200--full.png",
+      "bytes": 580792,
+      "sha256": "a9c3095ee3f0b11c8c2092e1ce7adb61f1dcfd790b2bb963b034cdf576b3a68e"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-invalid--tr--200.png",
+      "bytes": 305196,
+      "sha256": "a9d4b5540fbcb850ab599c89b39ec604ce7ba83007e08a8ee63b8196dd03c18b"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-saved--en--100--412.png",
+      "bytes": 316208,
+      "sha256": "6190216b6312bde6a995acca826c890e2e88563da0579b0e94ea18994e358996"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-saved--en--100--full.png",
+      "bytes": 313146,
+      "sha256": "c69c1e2bf2ddbc09d737c482995aef35406a3a51feb89e3f10f4896697f3a0b3"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-saved--en--100.png",
+      "bytes": 342274,
+      "sha256": "1d1a7c8fee8f110abb60642d43510ee22df54e009e5a285b9a704d61c65290b0"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-saved--en--200--412--full.png",
+      "bytes": 588748,
+      "sha256": "fed0c0ac464c53ed4134ef0650750a14bd2926626241203acfc57968e416ebd7"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-saved--en--200--412.png",
+      "bytes": 330637,
+      "sha256": "ef8350627f0978973993933a34f095a56afdc922e4ac36d0a7a6b759be334e95"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-saved--en--200--full.png",
+      "bytes": 577082,
+      "sha256": "704b1d74bb834cf514c018c7a5101b6d5a669bef22e7f401590795cb4c2b6c0d"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-saved--en--200.png",
+      "bytes": 307302,
+      "sha256": "3126beb0db002349dd10fb84ccfe2a5bde6ff0658e6734a066999ed5e206204f"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-saved--tr--100--412.png",
+      "bytes": 325269,
+      "sha256": "189e3ef956885e5ec55965a543cea33a603a8a8f8b1811138fbef9c1026ea184"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-saved--tr--100--full.png",
+      "bytes": 327232,
+      "sha256": "6d6ed9b96eceb51cb7d7a86661d8d576e4c63a4cc431fd892083ada60fe1ee80"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-saved--tr--100.png",
+      "bytes": 355802,
+      "sha256": "ef96a8735534e9b4bdd33ce8854347164992323b68f86480c6392e5137fe1d12"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-saved--tr--200--412--full.png",
+      "bytes": 609405,
+      "sha256": "5883142fd2537ea5aed61729403690b29b6b1f613d2a92c042b3dc54dc4c7246"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-saved--tr--200--412.png",
+      "bytes": 316878,
+      "sha256": "0c74868d7d67dcd1356829ec1c811d07ad691fb0ad1c188c59bb40ea4bd3988c"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-saved--tr--200--full.png",
+      "bytes": 605671,
+      "sha256": "280677f69687a2bd35b23e219172a3b05c09b32736cfb9cb027fd4d36696b7e2"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-saved--tr--200.png",
+      "bytes": 305183,
+      "sha256": "ec20069db3d94549456a7e85d38034216b0116b1a9235229fa3b32748e551da1"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-saving--en--100--412.png",
+      "bytes": 262045,
+      "sha256": "bfc32b1f8b0a8444485525710f6616b2840c1e8e28027585799d80ec7d57d1f9"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-saving--en--100.png",
+      "bytes": 258850,
+      "sha256": "b000a3dc80362e9fff7093170dcf9ce0af9d951b2d8abd539b5bafaf64c74d05"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-saving--en--200--412--full.png",
+      "bytes": 526709,
+      "sha256": "1b0728176b089140e8fbf1e3db00b0de37ec4a79f6a2b99755989dbde48d2903"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-saving--en--200--412.png",
+      "bytes": 330641,
+      "sha256": "7e5924898bcd661ead13ece4940eacf540f4f64d14e1683bd708eb630f9034c7"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-saving--en--200--full.png",
+      "bytes": 516065,
+      "sha256": "6eb9ea59a1f763b5434a1583277dcd424cf35a72b041831ad91292061a7d0f52"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-saving--en--200.png",
+      "bytes": 307303,
+      "sha256": "0db508754d20020471ba3d7cc719fc57e918c5da8c986ff478b372d837c6fc5c"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-saving--tr--100--412.png",
+      "bytes": 275061,
+      "sha256": "1134baee8ca3c1398d0025ec41376ecea0cf1644540659d63bdf3a295e07ec07"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-saving--tr--100.png",
+      "bytes": 275880,
+      "sha256": "4f437bd97b36f4a66736af1aeeb22005c68274ece41f9398d5ea9e5989d4bf31"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-saving--tr--200--412--full.png",
+      "bytes": 554301,
+      "sha256": "35e96ff51548bc61d03a8c494623979bb4cdc354cb5992ffce121b7b090bbe57"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-saving--tr--200--412.png",
+      "bytes": 316887,
+      "sha256": "be9531833f2b43262087d271b089b37c52aca019df20cdeab2eb28a4b28a2fac"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-saving--tr--200--full.png",
+      "bytes": 549758,
+      "sha256": "730ead4d2f09ebd90a37f3f22a3232f79ac3c406ae505c1137ec08c8d8c072d3"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-saving--tr--200.png",
+      "bytes": 305182,
+      "sha256": "fe7ab05d4db4884f67b2df0910bdbde44ca906f6c493e0f4dc43c3897542db7f"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-skipped--en--100--412.png",
+      "bytes": 171131,
+      "sha256": "e4ac2c9eb9d0c30f963d0c9390bcd0bc17f5587ad4f08522cf85079ac76f8988"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-skipped--en--100.png",
+      "bytes": 167855,
+      "sha256": "d26321a8e5f6f3811c6c24d923a2cb8e71e97972230c3dbb60cd0b4b34a4feef"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-skipped--en--200--412.png",
+      "bytes": 243499,
+      "sha256": "2aea816bff0d031185a9e406ced395c4a4f12f8b9fb8ced2fe00f42f77e7d833"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-skipped--en--200.png",
+      "bytes": 241418,
+      "sha256": "304c61d8aa2046bf9a359e1b2dc40640ef1a9f5e74fb2dd1b8aa660d440f8552"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-skipped--tr--100--412.png",
+      "bytes": 184391,
+      "sha256": "35de41904944d063ea1c504377d954ce31241c40c72184d71aa82317280194c0"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-skipped--tr--100.png",
+      "bytes": 181671,
+      "sha256": "db9995e6b51feb2290463bea69603fa48da2a2854b47dc920bee09600922e3fa"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-skipped--tr--200--412.png",
+      "bytes": 273184,
+      "sha256": "1623ad0dd0191dd21161c7fd7ba4bcf1f1188e84e8e73352667663423789d286"
+    },
+    {
+      "file": "kart-adimi/screens/png/card-skipped--tr--200.png",
+      "bytes": 270379,
+      "sha256": "fb8d10a1763a2684a5bf2f1f2cd5afd791758d6aec3a0559eacfb1ffed7f3c1c"
     },
     {
       "file": "linkedin/COPY-REVIEW.md",
@@ -9393,6 +10043,11 @@
       "sha256": "963b32c62036697fa84bcaa1c1f9bc39f2f9f3a8f52b3edb1931d4184d57a6b1"
     },
     {
+      "file": "source/add_card.py",
+      "bytes": 3572,
+      "sha256": "f922a4a7e390942c55c667bcc315cb5456ecde46764e678b524aa610af142672"
+    },
+    {
       "file": "source/add_communities.py",
       "bytes": 11157,
       "sha256": "170cd0336886e92318aa12614bcb9dcfb854730f8877224e6531545e57ab2b71"
@@ -9429,8 +10084,8 @@
     },
     {
       "file": "source/group-notes.json",
-      "bytes": 8449,
-      "sha256": "2e29799fa4e601ee936fbca0245d7104ff41c6671b21c5b9233671142dc9f556"
+      "bytes": 9482,
+      "sha256": "e59242c824844e4f1e5f10dc2f865a8d770b82530b20a72ea6a8627674c4c560"
     },
     {
       "file": "source/measure.js",
@@ -9454,8 +10109,8 @@
     },
     {
       "file": "source/states.json",
-      "bytes": 165217,
-      "sha256": "44d7a09e0e3e6c871395908ee75a7bb5c9ec9af5aad49ee1804d2acc4a19cde9"
+      "bytes": 175580,
+      "sha256": "763aa8a9fbc1fa95a2a4add7a448d3ce874b49335c84f177f53dc79ea5943e39"
     },
     {
       "file": "style.css",

@@ -1,0 +1,12 @@
+{
+  "states": 7,
+  "expectedMainPng": 56,
+  "mainPng": 56,
+  "fullPng": 28,
+  "measuredLayouts": 112,
+  "horizontalOverflow": 0,
+  "smallTargets": 0,
+  "clippedText": 0,
+  "issues": [],
+  "status": "PASS"
+}

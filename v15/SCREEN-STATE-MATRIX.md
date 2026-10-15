@@ -114,4 +114,11 @@
 | filtre | filters-no-longer-enough | [PNG](filtre/screens/png/filters-no-longer-enough--en--100.png) |
 | filtre | filters-friendship | [PNG](filtre/screens/png/filters-friendship--en--100.png) |
 | filtre | filters-list | [PNG](filtre/screens/png/filters-list--en--100.png) |
+| kart-adimi | card-empty | [PNG](kart-adimi/screens/png/card-empty--en--100.png) |
+| kart-adimi | card-filled | [PNG](kart-adimi/screens/png/card-filled--en--100.png) |
+| kart-adimi | card-invalid | [PNG](kart-adimi/screens/png/card-invalid--en--100.png) |
+| kart-adimi | card-saving | [PNG](kart-adimi/screens/png/card-saving--en--100.png) |
+| kart-adimi | card-saved | [PNG](kart-adimi/screens/png/card-saved--en--100.png) |
+| kart-adimi | card-failed | [PNG](kart-adimi/screens/png/card-failed--en--100.png) |
+| kart-adimi | card-skipped | [PNG](kart-adimi/screens/png/card-skipped--en--100.png) |
 

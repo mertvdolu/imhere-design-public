@@ -1,0 +1,201 @@
+{
+  "status": "APPROVED COPY — HB-37 r5 / existing approved reuse; UI decisions proposed ★",
+  "entries": [
+    {
+      "key": "checkInStart",
+      "en": "I’m here",
+      "tr": "Buradayım",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "card-skipped"
+      ]
+    },
+    {
+      "key": "contactCardNotNow",
+      "en": "Not now",
+      "tr": "Şimdi değil",
+      "source": "v2.3 contact-card-v1-patch",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "card-empty",
+        "card-filled",
+        "card-invalid",
+        "card-saving",
+        "card-saved",
+        "card-failed"
+      ]
+    },
+    {
+      "key": "contactCardSave",
+      "en": "Save card",
+      "tr": "Kartı kaydet",
+      "source": "v2.3 contact-card-complete-patch",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "card-empty",
+        "card-filled",
+        "card-invalid",
+        "card-saving",
+        "card-saved",
+        "card-failed"
+      ]
+    },
+    {
+      "key": "contactCardSaveFailed",
+      "en": "Your card couldn’t be saved. You can try again.",
+      "tr": "Kartın kaydedilemedi. Tekrar deneyebilirsin.",
+      "source": "v2.3 contact-card-complete-patch",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "card-failed"
+      ]
+    },
+    {
+      "key": "contactCardSaved",
+      "en": "Your card has been saved.",
+      "tr": "Kartın kaydedildi.",
+      "source": "v2.3 contact-card-complete-patch",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "card-saved"
+      ]
+    },
+    {
+      "key": "contactCardStepBody",
+      "en": "Optional. Add the details you’d like to share, so it’s easy to stay in touch with people you meet here. Your card isn’t shown on your profile: it’s shared only when you send it in a chat, and only with that person, who then keeps it.",
+      "tr": "İsteğe bağlı. Burada tanıştığın kişilerle iletişimde kalmak kolaylaşsın diye paylaşmak istediğin bilgileri ekle. Kartın profilinde görünmez; yalnız bir sohbette gönderdiğinde, yalnız o kişiyle paylaşılır ve bilgiler onda kalır.",
+      "source": "HB-37 r5 line 213",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "card-empty",
+        "card-filled",
+        "card-invalid",
+        "card-saving",
+        "card-saved",
+        "card-failed"
+      ]
+    },
+    {
+      "key": "contactCardStepEmailNote",
+      "en": "Your sign-in email isn’t added for you. Add only what you want to share.",
+      "tr": "Giriş e-postan karta kendiliğinden eklenmez. Yalnız paylaşmak istediklerini ekle.",
+      "source": "HB-37 r5 line 214",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "card-empty",
+        "card-filled",
+        "card-invalid",
+        "card-saving",
+        "card-saved",
+        "card-failed"
+      ]
+    },
+    {
+      "key": "contactCardStepLater",
+      "en": "You can add or change it later in Profile.",
+      "tr": "Bunu sonra Profil’den ekleyebilir ya da değiştirebilirsin.",
+      "source": "HB-37 r5 line 215",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "card-empty",
+        "card-filled",
+        "card-invalid",
+        "card-saving",
+        "card-saved",
+        "card-failed"
+      ]
+    },
+    {
+      "key": "contactCardStepTitle",
+      "en": "Add your contact card",
+      "tr": "İletişim kartını ekle",
+      "source": "HB-37 r5 line 212",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "card-empty",
+        "card-filled",
+        "card-invalid",
+        "card-saving",
+        "card-saved",
+        "card-failed"
+      ]
+    },
+    {
+      "key": "contactEmail",
+      "en": "Email",
+      "tr": "E-posta",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "card-empty",
+        "card-filled",
+        "card-invalid",
+        "card-saving",
+        "card-saved",
+        "card-failed"
+      ]
+    },
+    {
+      "key": "contactFieldInvalid",
+      "en": "Check the detail you want to share.",
+      "tr": "Paylaşmak istediğin bilgiyi kontrol et.",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "card-invalid"
+      ]
+    },
+    {
+      "key": "contactInstagram",
+      "en": "Instagram",
+      "tr": "Instagram",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "card-empty",
+        "card-filled",
+        "card-invalid",
+        "card-saving",
+        "card-saved",
+        "card-failed"
+      ]
+    },
+    {
+      "key": "contactPhone",
+      "en": "Phone",
+      "tr": "Telefon",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "card-empty",
+        "card-filled",
+        "card-invalid",
+        "card-saving",
+        "card-saved",
+        "card-failed"
+      ]
+    },
+    {
+      "key": "nearbyBody",
+      "en": "Be present. Make room for a connection.",
+      "tr": "Görünür ol. Karşılaşmalara yer aç.",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "card-skipped"
+      ]
+    },
+    {
+      "key": "nearbyTitle",
+      "en": "How about a hello?",
+      "tr": "Bir merhabaya ne dersin?",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "card-skipped"
+      ]
+    }
+  ],
+  "proposals": []
+}
