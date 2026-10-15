@@ -1,0 +1,211 @@
+{
+  "status": "APPROVED COPY — HB-37 r5 / existing approved reuse; UI decisions proposed ★",
+  "entries": [
+    {
+      "key": "checkInRetry",
+      "en": "Try again",
+      "tr": "Tekrar dene",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "nearby-failed",
+        "nearby-offline",
+        "map-failed",
+        "map-offline"
+      ]
+    },
+    {
+      "key": "connectionCommunityBadge",
+      "en": "Met in {community}",
+      "tr": "{community} topluluğunda tanıştınız",
+      "source": "HB-37 r5 line 44",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "connection-networking",
+        "connection-friendship"
+      ]
+    },
+    {
+      "key": "eventsV1EmptyBody",
+      "en": "Events will appear here when they’re available.",
+      "tr": "Etkinlikler hazır olduğunda burada görünecek.",
+      "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+      "status": "EXISTING APPLICATION COPY — reuse",
+      "screens": [
+        "events-community"
+      ]
+    },
+    {
+      "key": "eventsV1EmptyTitle",
+      "en": "Nothing planned just yet.",
+      "tr": "Henüz bir etkinlik yok.",
+      "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+      "status": "EXISTING APPLICATION COPY — reuse",
+      "screens": [
+        "events-community"
+      ]
+    },
+    {
+      "key": "mapBody",
+      "en": "Explore activity across areas.",
+      "tr": "Bölgelerin hareketliliğini keşfet.",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "map-networking",
+        "map-friendship",
+        "map-single",
+        "map-empty",
+        "map-loading",
+        "map-failed",
+        "map-offline"
+      ]
+    },
+    {
+      "key": "mapLoading",
+      "en": "Loading the map…",
+      "tr": "Harita yükleniyor…",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "map-loading"
+      ]
+    },
+    {
+      "key": "mapNoActivity",
+      "en": "No activity to show in this area.",
+      "tr": "Bu bölgede gösterilecek hareketlilik yok.",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "map-empty"
+      ]
+    },
+    {
+      "key": "mapOffline",
+      "en": "No internet connection. The map can’t update right now.",
+      "tr": "İnternet bağlantısı yok. Harita şu anda güncellenemiyor.",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "map-offline"
+      ]
+    },
+    {
+      "key": "mapOpen",
+      "en": "Area activity",
+      "tr": "Bölge hareketliliği",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "map-networking",
+        "map-friendship",
+        "map-single",
+        "map-empty",
+        "map-loading",
+        "map-failed",
+        "map-offline"
+      ]
+    },
+    {
+      "key": "mapUnavailable",
+      "en": "The map can’t load right now.",
+      "tr": "Harita şu anda yüklenemiyor.",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "map-failed"
+      ]
+    },
+    {
+      "key": "messagesConnections",
+      "en": "Connections",
+      "tr": "Bağlantılar",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "connection-networking",
+        "connection-friendship"
+      ]
+    },
+    {
+      "key": "navEvents",
+      "en": "Events",
+      "tr": "Etkinlikler",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "events-community"
+      ]
+    },
+    {
+      "key": "nearbyEmpty",
+      "en": "No new profiles to show right now.",
+      "tr": "Şimdilik yeni bir profil görünmüyor.",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "nearby-empty"
+      ]
+    },
+    {
+      "key": "nearbyFailed",
+      "en": "Profiles couldn’t be loaded.",
+      "tr": "Profiller yüklenemedi.",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "nearby-failed"
+      ]
+    },
+    {
+      "key": "nearbyFilters",
+      "en": "Filters",
+      "tr": "Filtreler",
+      "source": "HB-37 r5 line 142",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "nearby-networking",
+        "nearby-single",
+        "nearby-empty"
+      ]
+    },
+    {
+      "key": "nearbyLoading",
+      "en": "Loading profiles…",
+      "tr": "Profiller yükleniyor…",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "nearby-loading"
+      ]
+    },
+    {
+      "key": "nearbyOffline",
+      "en": "No internet connection. Profiles can’t update right now.",
+      "tr": "İnternet bağlantısı yok. Profiller şu anda güncellenemiyor.",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "nearby-offline"
+      ]
+    },
+    {
+      "key": "nearbyPeople",
+      "en": "People nearby",
+      "tr": "Yakınındaki insanlar",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "nearby-networking",
+        "nearby-friendship",
+        "nearby-single",
+        "nearby-loading",
+        "nearby-empty",
+        "nearby-failed",
+        "nearby-offline"
+      ]
+    }
+  ],
+  "proposals": []
+}

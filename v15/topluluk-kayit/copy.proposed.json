@@ -1,0 +1,207 @@
+{
+  "status": "APPROVED COPY — HB-37 r5 / existing approved reuse; UI decisions proposed ★",
+  "entries": [
+    {
+      "key": "communityBothStartWith",
+      "en": "Which one do you want to start with?",
+      "tr": "Hangisiyle başlamak istersin?",
+      "source": "HB-37 r5 line 32",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "community-both-start",
+        "community-both-networking",
+        "community-both-friendship"
+      ]
+    },
+    {
+      "key": "communityChooseBody",
+      "en": "Choose who you want to meet. You’ll only see, and be seen by, people in the community you’re using. You can change this later.",
+      "tr": "Kimlerle tanışmak istediğini seç. Yalnız kullandığın topluluktaki kişileri görürsün, onlar da seni görür. Bunu sonra değiştirebilirsin.",
+      "source": "HB-37 r5 line 25",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "community-none",
+        "community-networking",
+        "community-friendship",
+        "community-both",
+        "community-saving",
+        "community-failed"
+      ]
+    },
+    {
+      "key": "communityChooseSaveFailed",
+      "en": "Your choice couldn’t be saved. Try again.",
+      "tr": "Seçimin kaydedilemedi. Tekrar dene.",
+      "source": "HB-37 r5 line 34",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "community-failed"
+      ]
+    },
+    {
+      "key": "communityChooseTitle",
+      "en": "What are you looking for in the app?",
+      "tr": "Uygulamada ne arıyorsun?",
+      "source": "HB-37 r5 line 24",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "community-none",
+        "community-networking",
+        "community-friendship",
+        "community-both",
+        "community-saving",
+        "community-failed"
+      ]
+    },
+    {
+      "key": "communityNotDating",
+      "en": "I’M HERE isn’t a dating app.",
+      "tr": "I’M HERE bir flört uygulaması değildir.",
+      "source": "HB-37 r5 line 33",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "community-none",
+        "community-networking",
+        "community-friendship",
+        "community-both",
+        "community-both-start",
+        "community-both-networking",
+        "community-both-friendship",
+        "community-saving",
+        "community-failed"
+      ]
+    },
+    {
+      "key": "communityOptionBoth",
+      "en": "Both",
+      "tr": "İkisi",
+      "source": "HB-37 r5 line 30",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "community-none",
+        "community-networking",
+        "community-friendship",
+        "community-both",
+        "community-saving",
+        "community-failed"
+      ]
+    },
+    {
+      "key": "communityOptionBothDesc",
+      "en": "Join both and switch between them. You use one at a time.",
+      "tr": "İkisine de katıl, aralarında geçiş yap. Bir anda birini kullanırsın.",
+      "source": "HB-37 r5 line 31",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "community-none",
+        "community-networking",
+        "community-friendship",
+        "community-both",
+        "community-saving",
+        "community-failed"
+      ]
+    },
+    {
+      "key": "communityOptionFriendship",
+      "en": "Friendship",
+      "tr": "Arkadaşlık",
+      "source": "HB-37 r5 line 28",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "community-none",
+        "community-networking",
+        "community-friendship",
+        "community-both",
+        "community-both-start",
+        "community-both-networking",
+        "community-both-friendship",
+        "community-saving",
+        "community-failed"
+      ]
+    },
+    {
+      "key": "communityOptionFriendshipDesc",
+      "en": "Meet people to make new friends.",
+      "tr": "Yeni arkadaşlar edinmek için insanlarla tanış.",
+      "source": "HB-37 r5 line 29",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "community-none",
+        "community-networking",
+        "community-friendship",
+        "community-both",
+        "community-both-start",
+        "community-both-networking",
+        "community-both-friendship",
+        "community-saving",
+        "community-failed"
+      ]
+    },
+    {
+      "key": "communityOptionNetworking",
+      "en": "Networking",
+      "tr": "Networking",
+      "source": "HB-37 r5 line 26",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "community-none",
+        "community-networking",
+        "community-friendship",
+        "community-both",
+        "community-both-start",
+        "community-both-networking",
+        "community-both-friendship",
+        "community-saving",
+        "community-failed"
+      ]
+    },
+    {
+      "key": "communityOptionNetworkingDesc",
+      "en": "Meet people for work and professional connections.",
+      "tr": "İş ve profesyonel bağlantılar için insanlarla tanış.",
+      "source": "HB-37 r5 line 27",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "community-none",
+        "community-networking",
+        "community-friendship",
+        "community-both",
+        "community-both-start",
+        "community-both-networking",
+        "community-both-friendship",
+        "community-saving",
+        "community-failed"
+      ]
+    },
+    {
+      "key": "errorGenderRequired",
+      "en": "Please choose an option",
+      "tr": "Lütfen bir seçim yap.",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "community-none",
+        "community-both-start"
+      ]
+    },
+    {
+      "key": "v15LinkedinContinue",
+      "en": "Continue",
+      "tr": "Devam",
+      "source": "HB-37 r5 line 177",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "community-none",
+        "community-networking",
+        "community-friendship",
+        "community-both",
+        "community-both-start",
+        "community-both-networking",
+        "community-both-friendship",
+        "community-saving",
+        "community-failed"
+      ]
+    }
+  ],
+  "proposals": []
+}

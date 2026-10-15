@@ -1,0 +1,546 @@
+{
+  "theme": "2.3",
+  "states": [
+    {
+      "id": "migration-intro",
+      "group": "gecis",
+      "title": "v15IntroTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "v15IntroBody"
+        },
+        {
+          "type": "text",
+          "key": "v15IntroNoGuess"
+        },
+        {
+          "type": "link",
+          "key": "v15WhatChanged",
+          "href": "https://useimhere.com/privacy"
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "v15LinkedinContinue",
+              "primary": true,
+              "to": "migration-community"
+            }
+          ]
+        }
+      ],
+      "notes": "No inferred choice. Not visible in discovery until community selection.",
+      "layout": "onboarding"
+    },
+    {
+      "id": "migration-community",
+      "group": "gecis",
+      "title": "communityChooseTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "communityChooseBody"
+        },
+        {
+          "type": "choices",
+          "key": "communityChooseTitle",
+          "hideLegend": true,
+          "name": "community",
+          "cards": true,
+          "items": [
+            {
+              "key": "communityOptionNetworking",
+              "description": "communityOptionNetworkingDesc",
+              "community": "Networking",
+              "selected": false,
+              "value": "Networking",
+              "to": "community-networking"
+            },
+            {
+              "key": "communityOptionFriendship",
+              "description": "communityOptionFriendshipDesc",
+              "community": "Friendship",
+              "selected": false,
+              "value": "Friendship",
+              "to": "community-friendship"
+            },
+            {
+              "key": "communityOptionBoth",
+              "description": "communityOptionBothDesc",
+              "community": null,
+              "selected": false,
+              "value": "Both",
+              "to": "community-both"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "communityNotDating",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "v15LinkedinContinue",
+              "disabled": true,
+              "reason": "errorGenderRequired"
+            }
+          ]
+        }
+      ],
+      "notes": "Reuses registration selection component. Initial selection ends previous check-in; no rate-limit cost. LinkedIn step only if stored.",
+      "layout": "onboarding"
+    },
+    {
+      "id": "migration-linkedin-everyone",
+      "group": "gecis",
+      "title": "v15LinkedinTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "v15LinkedinBody"
+        },
+        {
+          "type": "choices",
+          "key": "profileLinkedinVisibilityTitle",
+          "name": "visibility",
+          "items": [
+            {
+              "key": "profileLinkedinVisibilityNobody",
+              "description": "profileLinkedinVisibilityNobodyDesc",
+              "selected": false,
+              "disabled": false,
+              "value": "Nobody"
+            },
+            {
+              "key": "profileLinkedinVisibilityConnections",
+              "description": "profileLinkedinVisibilityConnectionsDesc",
+              "selected": false,
+              "disabled": false,
+              "value": "Connections"
+            },
+            {
+              "key": "profileLinkedinVisibilityEveryone",
+              "description": "profileLinkedinVisibilityEveryoneDesc",
+              "selected": true,
+              "disabled": false,
+              "value": "Everyone"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "v15LinkedinChangeLater",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "v15LinkedinContinue",
+              "primary": true,
+              "to": "migration-linkedin-saving",
+              "disabled": false,
+              "busy": false
+            },
+            {
+              "key": "cancel",
+              "to": "migration-intro"
+            }
+          ]
+        }
+      ],
+      "notes": "Only for stored LinkedIn. Everyone is existing value; no extra visual emphasis. Dismiss keeps Everyone and repeats next launch. Save failure restores Everyone and stays on screen. Body uses HB-37 r5.",
+      "layout": "dialog",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "migration-linkedin-connections",
+      "group": "gecis",
+      "title": "v15LinkedinTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "v15LinkedinBody"
+        },
+        {
+          "type": "choices",
+          "key": "profileLinkedinVisibilityTitle",
+          "name": "visibility",
+          "items": [
+            {
+              "key": "profileLinkedinVisibilityNobody",
+              "description": "profileLinkedinVisibilityNobodyDesc",
+              "selected": false,
+              "disabled": false,
+              "value": "Nobody"
+            },
+            {
+              "key": "profileLinkedinVisibilityConnections",
+              "description": "profileLinkedinVisibilityConnectionsDesc",
+              "selected": true,
+              "disabled": false,
+              "value": "Connections"
+            },
+            {
+              "key": "profileLinkedinVisibilityEveryone",
+              "description": "profileLinkedinVisibilityEveryoneDesc",
+              "selected": false,
+              "disabled": false,
+              "value": "Everyone"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "v15LinkedinChangeLater",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "v15LinkedinContinue",
+              "primary": true,
+              "to": "migration-linkedin-saving",
+              "disabled": false,
+              "busy": false
+            },
+            {
+              "key": "cancel",
+              "to": "migration-intro"
+            }
+          ]
+        }
+      ],
+      "notes": "Only for stored LinkedIn. Everyone is existing value; no extra visual emphasis. Dismiss keeps Everyone and repeats next launch. Save failure restores Everyone and stays on screen. Body uses HB-37 r5.",
+      "layout": "dialog",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "migration-linkedin-nobody",
+      "group": "gecis",
+      "title": "v15LinkedinTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "v15LinkedinBody"
+        },
+        {
+          "type": "choices",
+          "key": "profileLinkedinVisibilityTitle",
+          "name": "visibility",
+          "items": [
+            {
+              "key": "profileLinkedinVisibilityNobody",
+              "description": "profileLinkedinVisibilityNobodyDesc",
+              "selected": true,
+              "disabled": false,
+              "value": "Nobody"
+            },
+            {
+              "key": "profileLinkedinVisibilityConnections",
+              "description": "profileLinkedinVisibilityConnectionsDesc",
+              "selected": false,
+              "disabled": false,
+              "value": "Connections"
+            },
+            {
+              "key": "profileLinkedinVisibilityEveryone",
+              "description": "profileLinkedinVisibilityEveryoneDesc",
+              "selected": false,
+              "disabled": false,
+              "value": "Everyone"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "v15LinkedinChangeLater",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "v15LinkedinContinue",
+              "primary": true,
+              "to": "migration-linkedin-saving",
+              "disabled": false,
+              "busy": false
+            },
+            {
+              "key": "cancel",
+              "to": "migration-intro"
+            }
+          ]
+        }
+      ],
+      "notes": "Only for stored LinkedIn. Everyone is existing value; no extra visual emphasis. Dismiss keeps Everyone and repeats next launch. Save failure restores Everyone and stays on screen. Body uses HB-37 r5.",
+      "layout": "dialog",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "migration-linkedin-saving",
+      "group": "gecis",
+      "title": "v15LinkedinTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "v15LinkedinBody"
+        },
+        {
+          "type": "choices",
+          "key": "profileLinkedinVisibilityTitle",
+          "name": "visibility",
+          "items": [
+            {
+              "key": "profileLinkedinVisibilityNobody",
+              "description": "profileLinkedinVisibilityNobodyDesc",
+              "selected": false,
+              "disabled": true,
+              "value": "Nobody"
+            },
+            {
+              "key": "profileLinkedinVisibilityConnections",
+              "description": "profileLinkedinVisibilityConnectionsDesc",
+              "selected": true,
+              "disabled": true,
+              "value": "Connections"
+            },
+            {
+              "key": "profileLinkedinVisibilityEveryone",
+              "description": "profileLinkedinVisibilityEveryoneDesc",
+              "selected": false,
+              "disabled": true,
+              "value": "Everyone"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "v15LinkedinChangeLater",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "v15LinkedinContinue",
+              "primary": true,
+              "to": "migration-linkedin-saving",
+              "disabled": true,
+              "busy": true
+            },
+            {
+              "key": "cancel",
+              "to": "migration-intro"
+            }
+          ]
+        }
+      ],
+      "notes": "Only for stored LinkedIn. Everyone is existing value; no extra visual emphasis. Dismiss keeps Everyone and repeats next launch. Save failure restores Everyone and stays on screen. Body uses HB-37 r5.",
+      "layout": "dialog",
+      "ack": "migration-occupation",
+      "reject": "migration-linkedin-failed"
+    },
+    {
+      "id": "migration-linkedin-failed",
+      "group": "gecis",
+      "title": "v15LinkedinTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "v15LinkedinBody"
+        },
+        {
+          "type": "choices",
+          "key": "profileLinkedinVisibilityTitle",
+          "name": "visibility",
+          "items": [
+            {
+              "key": "profileLinkedinVisibilityNobody",
+              "description": "profileLinkedinVisibilityNobodyDesc",
+              "selected": false,
+              "disabled": false,
+              "value": "Nobody"
+            },
+            {
+              "key": "profileLinkedinVisibilityConnections",
+              "description": "profileLinkedinVisibilityConnectionsDesc",
+              "selected": false,
+              "disabled": false,
+              "value": "Connections"
+            },
+            {
+              "key": "profileLinkedinVisibilityEveryone",
+              "description": "profileLinkedinVisibilityEveryoneDesc",
+              "selected": true,
+              "disabled": false,
+              "value": "Everyone"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "v15LinkedinChangeLater",
+          "helper": true
+        },
+        {
+          "type": "notice",
+          "key": "profileLinkedinVisibilitySaveFailed",
+          "error": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "v15LinkedinContinue",
+              "primary": true,
+              "to": "migration-linkedin-saving",
+              "disabled": false,
+              "busy": false
+            },
+            {
+              "key": "cancel",
+              "to": "migration-intro"
+            }
+          ]
+        }
+      ],
+      "notes": "Only for stored LinkedIn. Everyone is existing value; no extra visual emphasis. Dismiss keeps Everyone and repeats next launch. Save failure restores Everyone and stays on screen. Body uses HB-37 r5.",
+      "layout": "dialog",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "migration-linkedin-offline",
+      "group": "gecis",
+      "title": "v15LinkedinTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "v15LinkedinBody"
+        },
+        {
+          "type": "choices",
+          "key": "profileLinkedinVisibilityTitle",
+          "name": "visibility",
+          "items": [
+            {
+              "key": "profileLinkedinVisibilityNobody",
+              "description": "profileLinkedinVisibilityNobodyDesc",
+              "selected": false,
+              "disabled": false,
+              "value": "Nobody"
+            },
+            {
+              "key": "profileLinkedinVisibilityConnections",
+              "description": "profileLinkedinVisibilityConnectionsDesc",
+              "selected": false,
+              "disabled": false,
+              "value": "Connections"
+            },
+            {
+              "key": "profileLinkedinVisibilityEveryone",
+              "description": "profileLinkedinVisibilityEveryoneDesc",
+              "selected": true,
+              "disabled": false,
+              "value": "Everyone"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "v15LinkedinChangeLater",
+          "helper": true
+        },
+        {
+          "type": "notice",
+          "key": "offline",
+          "error": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "v15LinkedinContinue",
+              "primary": true,
+              "to": "migration-linkedin-saving",
+              "disabled": false,
+              "busy": false
+            },
+            {
+              "key": "cancel",
+              "to": "migration-intro"
+            }
+          ]
+        }
+      ],
+      "notes": "Only for stored LinkedIn. Everyone is existing value; no extra visual emphasis. Dismiss keeps Everyone and repeats next launch. Save failure restores Everyone and stays on screen. Body uses HB-37 r5.",
+      "layout": "dialog",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "migration-occupation",
+      "group": "gecis",
+      "title": "v15OccupationTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "v15OccupationBody"
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "v15OccupationChoose",
+              "to": "occupation-empty"
+            },
+            {
+              "key": "v15OccupationNotNow",
+              "action": "skip-occupation"
+            }
+          ],
+          "equal": true
+        }
+      ],
+      "notes": "Optional one-time invitation. Equal button treatment. Existing free text is not mapped automatically.",
+      "layout": "onboarding"
+    },
+    {
+      "id": "migration-offline",
+      "group": "gecis",
+      "title": "v15IntroTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "v15IntroBody"
+        },
+        {
+          "type": "notice",
+          "key": "offline",
+          "error": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "checkInRetry",
+              "to": "migration-intro"
+            }
+          ]
+        }
+      ],
+      "notes": "Network failure keeps route and avoids inferred membership.",
+      "layout": "onboarding"
+    }
+  ]
+}

@@ -62,6 +62,12 @@ for s in states:
  for lang in ['en','tr']:
   for scale in ['100','200']:
    for width in [390,412]:cat.append({'id':s['id'],'lang':lang,'scale':scale,'width':width,'source':'v15','themeVersion':'2.3','active':True,'beta':True,'featureGate':'minimum-supported-version (1.4.2)' if s['group']=='d0' else 'V15.ENABLED','file':f'v15/{s["group"]}/screens/png/{s["id"]}--{lang}--{scale}'+('--412' if width==412 else '')+'.png','spec':f'v15/{s["group"]}/SPEC.md'})
+for row in cat:
+ if row.get('source')!='v15' and row.get('id','').startswith(('intent-send-','intent-accept-')):
+  row['visibilityCondition']='V15.ENABLED == false'
+  row['v15Retirement']='Session purpose selection removed. Keep historical asset for flag-off only.'
+cat=[r for r in cat if r.get('id')!='v15-retirement-rules']
+cat.append({'id':'v15-retirement-rules','kind':'conditional-component-retirement','source':'v15-policy','active':False,'beta':False,'when':'V15.ENABLED == true','hide':['Y2 Why are you here / session purpose selection','nearby person purpose badge','Send anyway / new 10-day mismatch flow','Profile default purpose'],'flagOff':'Existing behaviour remains unchanged','retainExistingExpiry':'Existing 10-day records expire on their existing date; no new ones','replacement':'v15/topluluk-kayit + v15/ayarlar-topluluk','reference':'Founder 15 Oct decisions32,36; earlier y1-y2/profil-al packages retained in their Git history'})
 write(p,json.dumps(cat,ensure_ascii=False,indent=2))
 # Manifest files exclude itself, generated last.
 files=[{'file':str(p.relative_to(B)),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted(B.rglob('*')) if p.is_file() and p.name!='MANIFEST.json' and '__pycache__' not in p.parts]

@@ -1,0 +1,22 @@
+{
+  "topluluk-kayit": {
+    "spec": "3 mevcut radyo kartı; önseçim yok. Networking/Friendship ikon+renk+etiket. Both tarafsız Ink, ardından2 radyo ile başlangıç sorusu. Devam için seçim şartı mevcut errorGenderRequired metniyle açık (anahtar adı eski; değeri genel seçim çağrısıdır). Hata seçimi korur. İlk seçim3 değişiklik sınırını tüketmez; mevcut check-in biter. Friendship-only akışı meslek ve LinkedIn’i atlayıp kart adımına geçer.",
+    "handoff": "İlk seçim öncesi keşif görünürlüğü kapalı. Both=iki üyelik+tek aktif topluluk, iki paralel aktif topluluk değil. İşlem beklerken seçim kontrolleri kilitlenmeli. Kayıt sunucu yanıtıyla ilerler. Radyo name=community; H1 aynı zamanda grup etiketi.",
+    "decisions": "★ Both kartı nötr; mavi-yeşil karışım üçüncü bir topluluk izlenimi vermesin. ★ Mevcut errorGenderRequired değeri genel seçim gereğini anlatmak için yeniden kullanıldı; Code isterse alias kullanabilir, değer değişmez. YENİ BİLEŞEN — ONAY GEREKİR: yok; mevcut radyo kartı, yeni topluluk renk tokenları öneri."
+  },
+  "gecis": {
+    "spec": "Intro → boş topluluk seçimi → yalnız eski LinkedIn varsa görünürlük → isteğe bağlı meslek daveti. LinkedIn açıklaması §14.1r5. Üç radyoda aynı kenar, renk, ağırlık ve açıklama stili; Everyone yalnız standart radyo noktasıyla seçili. Kaydet/Devam bekleme-hata ayrımı. Kapatınca mevcut Everyone korunur; sonraki açılış tekrar. Meslek seç / Şimdi değil düğmeleri aynı yüzey, punto ve hedef.",
+    "handoff": "K-L2: eski link, geçiş gösterilmeden bağlantılar/filtrede açılmaz. Mevcut üyelik kaydından geçiş adımı ilerletilir; kullanıcıdan tahmin yapılmaz. Hata görünürlük Everyone değerini geri getirir; ekran kapanmaz. Offline genel offline metni. Uzun açıklama ve seçenekler tek ScrollView; alt eylemler içeriğin sonunda, tümüne erişilir.",
+    "decisions": "★ Uzun metne göre kaydırılan tam sayfa; bottom sheet değil. ★ Kapat/Vazgeç mevcut cancel değeriyle, üründeki geçiş tekrar davranışı korunarak. YENİ BİLEŞEN — ONAY GEREKİR: yok. METİN-EKİ BEKLİYOR kapanmış: HB-37r5§14.1 son değerleri mevcut."
+  },
+  "ayarlar-topluluk": {
+    "spec": "Mevcut düz Ayarlar satırı (yeni kabartmalı kutu yok), iki topluluk. Aktif: In use + ikon. Tek üyelikte ayrıl düğmesi yok, LastOne açıklaması var. Sınırda join/leave/switch kaldırılır, LimitReached gösterilir. Sabit24 saat kuralı. Onayda remaining sayısı; saat/tarih/geri sayım yok. Aktiften ayrılma metin sırası birebir: ActiveNote → CheckInEndsNote(varsa) → GoingNote(varsa) → LeaveBody → Remaining.",
+    "handoff": "Katılma ve kullanılmayan topluluktan ayrılma aktif topluluğu değiştirmez; check-in bitirmez. Aktif değiştirme/aktiften ayrılma check-in’i bitirir. Eski sohbetler kalır. Going hatırlatmaları sürer. Yalnız server-ack sonrası In use/Joined/Left/Done. Fail eski üyelik ve active görünür; tekrar yolu açık. Başarılı geçişte eski liste/harita/etkinlik verisini anında temizle, yeni yükleme ayrı.",
+    "decisions": "★ Son topluluktan ayrıl düğmesi kaldırıldı; neden satırda. ★ Katıl/ayrıl beklerken aynı işlem durum alanı, yeni başarı rengi yok. YENİ BİLEŞEN — ONAY GEREKİR: yok; mevcut satır, tam sayfa onay ve bekleme desenleri."
+  },
+  "secici": {
+    "spec": "B varyantı:48 hedefli hap, own active community. Dokunma→Ayarlar. Segment/switch rolü yok. Harita üstünde sol, konum hedefi sağ48; %200 hap metni sarar. Alt menü v10 edge16/radius26/inner4, büyük yazıda2×2. Atıf ayrı opak akış satırı: © OpenStreetMap contributors · OpenFreeMap. Eski harita temizlenir; K=2 altında mevcut mapNoActivity. STATE_CHANGED boş harita diye gösterilmez: failed ve retry.",
+    "handoff": "Role button; communityPickerA11yLabel + communityPickerA11yHint. Tek toplulukta da aynı davranış. Kişi satırında amaç/topluluk rozeti yok. connectionCommunityBadge yalnız bağlantının tarihsel kaydından; karşı kişinin güncel topluluğu değildir. Bu görselde harita sentetik geometridir, gerçek konum/kişi nokta/verisi içermez.",
+    "decisions": "★ Hap seçildi: iki seçenekli kontrol gibi davranma beklentisi yaratmaz. ★ Tek toplulukta dokunulur, ikinci topluluğa katılma yolu aynı yerde bulunur. ★ Atıf büyük yazıda da ayrı12px harita lisans satırı olarak korunur; uygulama metinleri2× büyür. YENİ BİLEŞEN — ONAY GEREKİR: Community indicator (mevcut hap+ikon+etiketin yeni birleşimi), 2 topluluk renk token ailesi."
+  }
+}

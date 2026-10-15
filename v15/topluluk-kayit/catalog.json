@@ -1,0 +1,571 @@
+{
+  "theme": "2.3",
+  "states": [
+    {
+      "id": "community-none",
+      "group": "topluluk-kayit",
+      "title": "communityChooseTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "communityChooseBody"
+        },
+        {
+          "type": "choices",
+          "key": "communityChooseTitle",
+          "hideLegend": true,
+          "name": "community",
+          "cards": true,
+          "items": [
+            {
+              "key": "communityOptionNetworking",
+              "description": "communityOptionNetworkingDesc",
+              "community": "Networking",
+              "selected": false,
+              "value": "Networking",
+              "to": "community-networking"
+            },
+            {
+              "key": "communityOptionFriendship",
+              "description": "communityOptionFriendshipDesc",
+              "community": "Friendship",
+              "selected": false,
+              "value": "Friendship",
+              "to": "community-friendship"
+            },
+            {
+              "key": "communityOptionBoth",
+              "description": "communityOptionBothDesc",
+              "community": null,
+              "selected": false,
+              "value": "Both",
+              "to": "community-both"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "communityNotDating",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "v15LinkedinContinue",
+              "primary": true,
+              "disabled": true,
+              "busy": false,
+              "reason": "errorGenderRequired",
+              "to": "community-saving"
+            }
+          ]
+        }
+      ],
+      "notes": "No preselection. Both requires explicit starting community. Initial selection does not consume a change. Friendship-only skips job/LinkedIn; card step still appears. Error retains chosen community.",
+      "layout": "onboarding",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "community-networking",
+      "group": "topluluk-kayit",
+      "title": "communityChooseTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "communityChooseBody"
+        },
+        {
+          "type": "choices",
+          "key": "communityChooseTitle",
+          "hideLegend": true,
+          "name": "community",
+          "cards": true,
+          "items": [
+            {
+              "key": "communityOptionNetworking",
+              "description": "communityOptionNetworkingDesc",
+              "community": "Networking",
+              "selected": true,
+              "value": "Networking",
+              "to": "community-networking"
+            },
+            {
+              "key": "communityOptionFriendship",
+              "description": "communityOptionFriendshipDesc",
+              "community": "Friendship",
+              "selected": false,
+              "value": "Friendship",
+              "to": "community-friendship"
+            },
+            {
+              "key": "communityOptionBoth",
+              "description": "communityOptionBothDesc",
+              "community": null,
+              "selected": false,
+              "value": "Both",
+              "to": "community-both"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "communityNotDating",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "v15LinkedinContinue",
+              "primary": true,
+              "disabled": false,
+              "busy": false,
+              "reason": null,
+              "to": "community-saving"
+            }
+          ]
+        }
+      ],
+      "notes": "No preselection. Both requires explicit starting community. Initial selection does not consume a change. Friendship-only skips job/LinkedIn; card step still appears. Error retains chosen community.",
+      "layout": "onboarding",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "community-friendship",
+      "group": "topluluk-kayit",
+      "title": "communityChooseTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "communityChooseBody"
+        },
+        {
+          "type": "choices",
+          "key": "communityChooseTitle",
+          "hideLegend": true,
+          "name": "community",
+          "cards": true,
+          "items": [
+            {
+              "key": "communityOptionNetworking",
+              "description": "communityOptionNetworkingDesc",
+              "community": "Networking",
+              "selected": false,
+              "value": "Networking",
+              "to": "community-networking"
+            },
+            {
+              "key": "communityOptionFriendship",
+              "description": "communityOptionFriendshipDesc",
+              "community": "Friendship",
+              "selected": true,
+              "value": "Friendship",
+              "to": "community-friendship"
+            },
+            {
+              "key": "communityOptionBoth",
+              "description": "communityOptionBothDesc",
+              "community": null,
+              "selected": false,
+              "value": "Both",
+              "to": "community-both"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "communityNotDating",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "v15LinkedinContinue",
+              "primary": true,
+              "disabled": false,
+              "busy": false,
+              "reason": null,
+              "to": "community-saving"
+            }
+          ]
+        }
+      ],
+      "notes": "No preselection. Both requires explicit starting community. Initial selection does not consume a change. Friendship-only skips job/LinkedIn; card step still appears. Error retains chosen community.",
+      "layout": "onboarding",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "community-both",
+      "group": "topluluk-kayit",
+      "title": "communityChooseTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "communityChooseBody"
+        },
+        {
+          "type": "choices",
+          "key": "communityChooseTitle",
+          "hideLegend": true,
+          "name": "community",
+          "cards": true,
+          "items": [
+            {
+              "key": "communityOptionNetworking",
+              "description": "communityOptionNetworkingDesc",
+              "community": "Networking",
+              "selected": false,
+              "value": "Networking",
+              "to": "community-networking"
+            },
+            {
+              "key": "communityOptionFriendship",
+              "description": "communityOptionFriendshipDesc",
+              "community": "Friendship",
+              "selected": false,
+              "value": "Friendship",
+              "to": "community-friendship"
+            },
+            {
+              "key": "communityOptionBoth",
+              "description": "communityOptionBothDesc",
+              "community": null,
+              "selected": true,
+              "value": "Both",
+              "to": "community-both"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "communityNotDating",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "v15LinkedinContinue",
+              "primary": true,
+              "disabled": false,
+              "busy": false,
+              "reason": null,
+              "to": "community-both-start"
+            }
+          ]
+        }
+      ],
+      "notes": "No preselection. Both requires explicit starting community. Initial selection does not consume a change. Friendship-only skips job/LinkedIn; card step still appears. Error retains chosen community.",
+      "layout": "onboarding",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "community-both-start",
+      "group": "topluluk-kayit",
+      "title": "communityBothStartWith",
+      "blocks": [
+        {
+          "type": "choices",
+          "key": "communityBothStartWith",
+          "hideLegend": false,
+          "name": "community",
+          "cards": true,
+          "items": [
+            {
+              "key": "communityOptionNetworking",
+              "description": "communityOptionNetworkingDesc",
+              "community": "Networking",
+              "selected": false,
+              "value": "Networking",
+              "to": "community-both-networking"
+            },
+            {
+              "key": "communityOptionFriendship",
+              "description": "communityOptionFriendshipDesc",
+              "community": "Friendship",
+              "selected": false,
+              "value": "Friendship",
+              "to": "community-both-friendship"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "communityNotDating",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "v15LinkedinContinue",
+              "primary": true,
+              "disabled": true,
+              "busy": false,
+              "reason": "errorGenderRequired",
+              "to": "community-saving"
+            }
+          ]
+        }
+      ],
+      "notes": "No preselection. Both requires explicit starting community. Initial selection does not consume a change. Friendship-only skips job/LinkedIn; card step still appears. Error retains chosen community.",
+      "layout": "onboarding",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "community-both-networking",
+      "group": "topluluk-kayit",
+      "title": "communityBothStartWith",
+      "blocks": [
+        {
+          "type": "choices",
+          "key": "communityBothStartWith",
+          "hideLegend": false,
+          "name": "community",
+          "cards": true,
+          "items": [
+            {
+              "key": "communityOptionNetworking",
+              "description": "communityOptionNetworkingDesc",
+              "community": "Networking",
+              "selected": true,
+              "value": "Networking",
+              "to": "community-both-networking"
+            },
+            {
+              "key": "communityOptionFriendship",
+              "description": "communityOptionFriendshipDesc",
+              "community": "Friendship",
+              "selected": false,
+              "value": "Friendship",
+              "to": "community-both-friendship"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "communityNotDating",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "v15LinkedinContinue",
+              "primary": true,
+              "disabled": false,
+              "busy": false,
+              "reason": null,
+              "to": "community-saving"
+            }
+          ]
+        }
+      ],
+      "notes": "No preselection. Both requires explicit starting community. Initial selection does not consume a change. Friendship-only skips job/LinkedIn; card step still appears. Error retains chosen community.",
+      "layout": "onboarding",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "community-both-friendship",
+      "group": "topluluk-kayit",
+      "title": "communityBothStartWith",
+      "blocks": [
+        {
+          "type": "choices",
+          "key": "communityBothStartWith",
+          "hideLegend": false,
+          "name": "community",
+          "cards": true,
+          "items": [
+            {
+              "key": "communityOptionNetworking",
+              "description": "communityOptionNetworkingDesc",
+              "community": "Networking",
+              "selected": false,
+              "value": "Networking",
+              "to": "community-both-networking"
+            },
+            {
+              "key": "communityOptionFriendship",
+              "description": "communityOptionFriendshipDesc",
+              "community": "Friendship",
+              "selected": true,
+              "value": "Friendship",
+              "to": "community-both-friendship"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "communityNotDating",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "v15LinkedinContinue",
+              "primary": true,
+              "disabled": false,
+              "busy": false,
+              "reason": null,
+              "to": "community-saving"
+            }
+          ]
+        }
+      ],
+      "notes": "No preselection. Both requires explicit starting community. Initial selection does not consume a change. Friendship-only skips job/LinkedIn; card step still appears. Error retains chosen community.",
+      "layout": "onboarding",
+      "ack": null,
+      "reject": null
+    },
+    {
+      "id": "community-saving",
+      "group": "topluluk-kayit",
+      "title": "communityChooseTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "communityChooseBody"
+        },
+        {
+          "type": "choices",
+          "key": "communityChooseTitle",
+          "hideLegend": true,
+          "name": "community",
+          "cards": true,
+          "items": [
+            {
+              "key": "communityOptionNetworking",
+              "description": "communityOptionNetworkingDesc",
+              "community": "Networking",
+              "selected": true,
+              "value": "Networking",
+              "to": "community-networking",
+              "disabled": true
+            },
+            {
+              "key": "communityOptionFriendship",
+              "description": "communityOptionFriendshipDesc",
+              "community": "Friendship",
+              "selected": false,
+              "value": "Friendship",
+              "to": "community-friendship",
+              "disabled": true
+            },
+            {
+              "key": "communityOptionBoth",
+              "description": "communityOptionBothDesc",
+              "community": null,
+              "selected": false,
+              "value": "Both",
+              "to": "community-both",
+              "disabled": true
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "communityNotDating",
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "v15LinkedinContinue",
+              "primary": true,
+              "disabled": true,
+              "busy": true,
+              "reason": null,
+              "to": "community-saving"
+            }
+          ]
+        }
+      ],
+      "notes": "No preselection. Both requires explicit starting community. Initial selection does not consume a change. Friendship-only skips job/LinkedIn; card step still appears. Error retains chosen community.",
+      "layout": "onboarding",
+      "ack": "migration-occupation",
+      "reject": "community-failed"
+    },
+    {
+      "id": "community-failed",
+      "group": "topluluk-kayit",
+      "title": "communityChooseTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "communityChooseBody"
+        },
+        {
+          "type": "choices",
+          "key": "communityChooseTitle",
+          "hideLegend": true,
+          "name": "community",
+          "cards": true,
+          "items": [
+            {
+              "key": "communityOptionNetworking",
+              "description": "communityOptionNetworkingDesc",
+              "community": "Networking",
+              "selected": true,
+              "value": "Networking",
+              "to": "community-networking"
+            },
+            {
+              "key": "communityOptionFriendship",
+              "description": "communityOptionFriendshipDesc",
+              "community": "Friendship",
+              "selected": false,
+              "value": "Friendship",
+              "to": "community-friendship"
+            },
+            {
+              "key": "communityOptionBoth",
+              "description": "communityOptionBothDesc",
+              "community": null,
+              "selected": false,
+              "value": "Both",
+              "to": "community-both"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "communityNotDating",
+          "helper": true
+        },
+        {
+          "type": "notice",
+          "key": "communityChooseSaveFailed",
+          "error": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "v15LinkedinContinue",
+              "primary": true,
+              "disabled": false,
+              "busy": false,
+              "reason": null,
+              "to": "community-saving"
+            }
+          ]
+        }
+      ],
+      "notes": "No preselection. Both requires explicit starting community. Initial selection does not consume a change. Friendship-only skips job/LinkedIn; card step still appears. Error retains chosen community.",
+      "layout": "onboarding",
+      "ack": null,
+      "reject": null
+    }
+  ]
+}

@@ -4569,5 +4569,1083 @@
     "tr": "Çıkış yaparsan şu anki check-in’in biter.",
     "source": "HB-37 r5 line 313",
     "status": "APPROVED — source / existing design reference"
+  },
+  "authConsentPrivacy": {
+    "key": "authConsentPrivacy",
+    "en": "Privacy Policy",
+    "tr": "Gizlilik Politikası",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "authConsentTerms": {
+    "key": "authConsentTerms",
+    "en": "Terms of Use",
+    "tr": "Kullanım Şartları",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "authEmailInUseBody": {
+    "key": "authEmailInUseBody",
+    "en": "A sign-up may already have been started with this email address. Try again in an hour or so, or sign in if you already have an account.",
+    "tr": "Bu adresle başlanmış bir kayıt olabilir. Bir saat kadar sonra yeniden dene ya da hesabın varsa giriş yap.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "authVerifyDeadline": {
+    "key": "authVerifyDeadline",
+    "en": "Verify your email within an hour. If you don’t, you’ll need to sign up again.",
+    "tr": "E-postanı bir saat içinde doğrula. Doğrulamazsan yeniden kayıt olman gerekir.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "chatContactSharedInvite": {
+    "key": "chatContactSharedInvite",
+    "en": "{name} shared their contact details. You can share yours if you’d like.",
+    "tr": "{name} iletişim bilgilerini paylaştı. İstersen sen de paylaşabilirsin.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "chatContactShareMine": {
+    "key": "chatContactShareMine",
+    "en": "Share my details",
+    "tr": "Bilgilerimi paylaş",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "endConfirmBody": {
+    "key": "endConfirmBody",
+    "en": "This chat will leave your chat list; its message history will be kept for safety for 30 days, then deleted. You can reconnect if you both want to.",
+    "tr": "Bu sohbet sohbet listenden kalkar; mesaj geçmişi güvenlik için 30 gün saklanır, sonra silinir. İkiniz de isterseniz yeniden bağlantı kurabilirsiniz.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "endReportInstead": {
+    "key": "endReportInstead",
+    "en": "Report instead",
+    "tr": "Bunun yerine şikâyet et",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "locationRationaleContinue": {
+    "key": "locationRationaleContinue",
+    "en": "Continue",
+    "tr": "Devam",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "mapAttribution": {
+    "key": "mapAttribution",
+    "en": "© OpenStreetMap contributors · OpenFreeMap",
+    "tr": "© OpenStreetMap contributors · OpenFreeMap",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "settingsChangePassword": {
+    "key": "settingsChangePassword",
+    "en": "Change password",
+    "tr": "Parolayı değiştir",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "passwordChangeTitle": {
+    "key": "passwordChangeTitle",
+    "en": "Change your password",
+    "tr": "Parolanı değiştir",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "passwordChangeBody": {
+    "key": "passwordChangeBody",
+    "en": "Enter your current password, then choose a new one.",
+    "tr": "Önce mevcut parolanı, sonra yeni parolanı gir.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "passwordChangeCurrentLabel": {
+    "key": "passwordChangeCurrentLabel",
+    "en": "Current password",
+    "tr": "Mevcut parola",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "passwordChangeNewLabel": {
+    "key": "passwordChangeNewLabel",
+    "en": "New password",
+    "tr": "Yeni parola",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "passwordChangeSubmit": {
+    "key": "passwordChangeSubmit",
+    "en": "Change password",
+    "tr": "Parolayı değiştir",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "passwordChangeSaving": {
+    "key": "passwordChangeSaving",
+    "en": "Changing your password…",
+    "tr": "Parolan değiştiriliyor…",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "passwordChangeSuccess": {
+    "key": "passwordChangeSuccess",
+    "en": "Your password has been changed. Other devices signed in to this account will need to sign in again.",
+    "tr": "Parolan değiştirildi. Bu hesapla giriş yapılmış diğer cihazlarda yeniden giriş yapman gerekecek.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "passwordChangeFailed": {
+    "key": "passwordChangeFailed",
+    "en": "Your password couldn’t be changed. Check your current password and try again.",
+    "tr": "Parolan değiştirilemedi. Mevcut parolanı kontrol edip tekrar dene.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "passwordChangeForgotHint": {
+    "key": "passwordChangeForgotHint",
+    "en": "Don’t know your current password? Sign out and choose Forgot password on the sign-in screen.",
+    "tr": "Mevcut parolanı bilmiyor musun? Çıkış yap ve giriş ekranında \"Parolamı unuttum\"u seç.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "emailChangeCurrent": {
+    "key": "emailChangeCurrent",
+    "en": "Current email address: {email}",
+    "tr": "Mevcut e-posta adresi: {email}",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "emailChangeSameAccountNote": {
+    "key": "emailChangeSameAccountNote",
+    "en": "This only changes the sign-in email for this account; your profile, photo and connections stay the same. For a separate account, sign out and create one with an invitation code.",
+    "tr": "Bu işlem yalnız bu hesabın giriş e-postasını değiştirir; profilin, fotoğrafın ve bağlantıların aynı kalır. Ayrı bir hesap için çıkış yapıp davet koduyla yeni hesap oluştur.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "notificationChannelMessagesConnections": {
+    "key": "notificationChannelMessagesConnections",
+    "en": "Messages and connections",
+    "tr": "Mesajlar ve bağlantılar",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "notificationChannelMessagesConnectionsDescription": {
+    "key": "notificationChannelMessagesConnectionsDescription",
+    "en": "When someone sends you a request, accepts your request, messages you, or shares their contact details.",
+    "tr": "Birisi sana istek gönderdiğinde, isteğini kabul ettiğinde, sana mesaj gönderdiğinde veya iletişim bilgilerini seninle paylaştığında.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "notificationContactShared": {
+    "key": "notificationContactShared",
+    "en": "Contact details were shared with you.",
+    "tr": "Seninle iletişim bilgileri paylaşıldı.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "notificationRequestAccepted": {
+    "key": "notificationRequestAccepted",
+    "en": "Your request was accepted.",
+    "tr": "İsteğin kabul edildi.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "occupationPlaceholder": {
+    "key": "occupationPlaceholder",
+    "en": "Your occupation",
+    "tr": "Mesleğin",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "profileOccupationRequired": {
+    "key": "profileOccupationRequired",
+    "en": "Add your occupation.",
+    "tr": "Mesleğini ekle.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "reportChildSafety": {
+    "key": "reportChildSafety",
+    "en": "Underage user or child safety",
+    "tr": "Reşit olmayan kullanıcı veya çocuk güvenliği",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "settingsLicenses": {
+    "key": "settingsLicenses",
+    "en": "Licences",
+    "tr": "Lisanslar",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "licensesEscoAttribution": {
+    "key": "licensesEscoAttribution",
+    "en": "This service uses the ESCO classification of the European Commission. Our job title list is an adapted version: the titles, groups and Turkish translations are our own and are not endorsed by the European Commission.",
+    "tr": "Bu hizmet Avrupa Komisyonu'nun ESCO sınıflandırmasını kullanır. Meslek listemiz uyarlanmış bir sürümdür: meslek adları, gruplar ve Türkçe çeviriler bizim hazırladığımızdır ve Avrupa Komisyonu tarafından onaylanmamıştır.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "motionHelloSent": {
+    "key": "motionHelloSent",
+    "en": "Hello sent",
+    "tr": "Merhaba gönderildi",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventsV1Intro": {
+    "key": "eventsV1Intro",
+    "en": "Find a moment that fits.",
+    "tr": "Sana uyan bir an bul.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventsV1Loading": {
+    "key": "eventsV1Loading",
+    "en": "Loading events…",
+    "tr": "Etkinlikler yükleniyor…",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1Loading": {
+    "key": "eventV1Loading",
+    "en": "Loading event…",
+    "tr": "Etkinlik yükleniyor…",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventsV1EmptyTitle": {
+    "key": "eventsV1EmptyTitle",
+    "en": "Nothing planned just yet.",
+    "tr": "Henüz bir etkinlik yok.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventsV1EmptyBody": {
+    "key": "eventsV1EmptyBody",
+    "en": "Events will appear here when they’re available.",
+    "tr": "Etkinlikler hazır olduğunda burada görünecek.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventsV1ErrorTitle": {
+    "key": "eventsV1ErrorTitle",
+    "en": "Events aren’t available right now.",
+    "tr": "Şu an etkinliklere ulaşılamıyor.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventsV1ErrorBody": {
+    "key": "eventsV1ErrorBody",
+    "en": "Please try again.",
+    "tr": "Tekrar deneyebilirsin.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventsV1OfflineTitle": {
+    "key": "eventsV1OfflineTitle",
+    "en": "You’re offline.",
+    "tr": "Çevrimdışısın.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventsV1OfflineBody": {
+    "key": "eventsV1OfflineBody",
+    "en": "Reconnect to see the latest event details.",
+    "tr": "Güncel etkinlik bilgilerini görmek için yeniden bağlan.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1UnavailableTitle": {
+    "key": "eventV1UnavailableTitle",
+    "en": "This event isn’t available.",
+    "tr": "Bu etkinliğe ulaşılamıyor.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1UnavailableBody": {
+    "key": "eventV1UnavailableBody",
+    "en": "You can return to the events list.",
+    "tr": "Etkinlik listesine dönebilirsin.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1Back": {
+    "key": "eventV1Back",
+    "en": "Back to events",
+    "tr": "Etkinliklere dön",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1CategorySocial": {
+    "key": "eventV1CategorySocial",
+    "en": "Social",
+    "tr": "Sosyal",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1CategoryActivity": {
+    "key": "eventV1CategoryActivity",
+    "en": "Activity",
+    "tr": "Aktivite",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1CategoryLabel": {
+    "key": "eventV1CategoryLabel",
+    "en": "Category: {category}",
+    "tr": "Kategori: {category}",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1Start": {
+    "key": "eventV1Start",
+    "en": "Starts",
+    "tr": "Başlangıç",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1End": {
+    "key": "eventV1End",
+    "en": "Ends",
+    "tr": "Bitiş",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1Venue": {
+    "key": "eventV1Venue",
+    "en": "Venue",
+    "tr": "Mekân",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1About": {
+    "key": "eventV1About",
+    "en": "About this event",
+    "tr": "Etkinlik hakkında",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1YourChoice": {
+    "key": "eventV1YourChoice",
+    "en": "Your choice",
+    "tr": "Tercihin",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1Interested": {
+    "key": "eventV1Interested",
+    "en": "Interested",
+    "tr": "İlgileniyorum",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1Going": {
+    "key": "eventV1Going",
+    "en": "Going",
+    "tr": "Gideceğim",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1None": {
+    "key": "eventV1None",
+    "en": "No choice yet",
+    "tr": "Henüz bir tercih yok",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1Withdraw": {
+    "key": "eventV1Withdraw",
+    "en": "Withdraw",
+    "tr": "Tercihimi geri çek",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1ChoiceHelp": {
+    "key": "eventV1ChoiceHelp",
+    "en": "Only your own choice is shown here. Going does not check you in.",
+    "tr": "Burada yalnız kendi tercihin görünür. “Gideceğim” seçeneği check-in oluşturmaz.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1Saving": {
+    "key": "eventV1Saving",
+    "en": "Updating your choice…",
+    "tr": "Tercihin güncelleniyor…",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1SaveFailed": {
+    "key": "eventV1SaveFailed",
+    "en": "Your choice couldn’t be updated. Please try again.",
+    "tr": "Tercihin güncellenemedi. Tekrar deneyebilirsin.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1SavedAnnouncement": {
+    "key": "eventV1SavedAnnouncement",
+    "en": "Your choice is now {choice}.",
+    "tr": "Tercihin artık {choice}.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1WithdrawnAnnouncement": {
+    "key": "eventV1WithdrawnAnnouncement",
+    "en": "Your choice has been withdrawn.",
+    "tr": "Tercihin geri çekildi.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1Started": {
+    "key": "eventV1Started",
+    "en": "Event started",
+    "tr": "Etkinlik başladı",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1LockedBody": {
+    "key": "eventV1LockedBody",
+    "en": "Choices can no longer be changed after the event starts.",
+    "tr": "Etkinlik başladıktan sonra tercihler değiştirilemez.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1Cancelled": {
+    "key": "eventV1Cancelled",
+    "en": "Cancelled",
+    "tr": "İptal edildi",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1CancelledBody": {
+    "key": "eventV1CancelledBody",
+    "en": "This event has been cancelled. Event actions are unavailable.",
+    "tr": "Bu etkinlik iptal edildi. Etkinlik işlemleri artık kullanılamıyor.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1CancelledChoice": {
+    "key": "eventV1CancelledChoice",
+    "en": "Your previous choice: {choice}. It is no longer active.",
+    "tr": "Önceki tercihin: {choice}. Artık geçerli değil.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1ChangedTitle": {
+    "key": "eventV1ChangedTitle",
+    "en": "Event details updated",
+    "tr": "Etkinlik bilgileri güncellendi",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1ChangedBody": {
+    "key": "eventV1ChangedBody",
+    "en": "Review the latest information below.",
+    "tr": "Güncel bilgileri aşağıda inceleyebilirsin.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1ChoiceKept": {
+    "key": "eventV1ChoiceKept",
+    "en": "Your choice is unchanged.",
+    "tr": "Tercihin değişmedi.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1Plan": {
+    "key": "eventV1Plan",
+    "en": "Make a plan",
+    "tr": "Planına ekle",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1Calendar": {
+    "key": "eventV1Calendar",
+    "en": "Add to Calendar",
+    "tr": "Takvime ekle",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1Map": {
+    "key": "eventV1Map",
+    "en": "Open venue on map",
+    "tr": "Mekânı haritada aç",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1CalendarHelp": {
+    "key": "eventV1CalendarHelp",
+    "en": "Calendar entries won’t update automatically if event details change.",
+    "tr": "Etkinlik bilgileri değişirse takvim kaydı otomatik güncellenmez.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1CalendarOpening": {
+    "key": "eventV1CalendarOpening",
+    "en": "Opening your calendar…",
+    "tr": "Takvimin açılıyor…",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1CalendarFailed": {
+    "key": "eventV1CalendarFailed",
+    "en": "Your calendar couldn’t be opened. Please try again.",
+    "tr": "Takvimin açılamadı. Tekrar deneyebilirsin.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1MapOpening": {
+    "key": "eventV1MapOpening",
+    "en": "Opening the venue on your map…",
+    "tr": "Mekân haritada açılıyor…",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1MapFailed": {
+    "key": "eventV1MapFailed",
+    "en": "The map couldn’t be opened. Please try again.",
+    "tr": "Harita açılamadı. Tekrar deneyebilirsin.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1ReminderPush": {
+    "key": "eventV1ReminderPush",
+    "en": "An event you’re going to starts soon.",
+    "tr": "Gideceğin bir etkinlik yakında başlıyor.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1ChangedPush": {
+    "key": "eventV1ChangedPush",
+    "en": "An event you chose has been updated.",
+    "tr": "Seçtiğin bir etkinliğin bilgileri güncellendi.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1CancelledPush": {
+    "key": "eventV1CancelledPush",
+    "en": "An event you chose has been cancelled.",
+    "tr": "Seçtiğin bir etkinlik iptal edildi.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1TimeZone": {
+    "key": "eventV1TimeZone",
+    "en": "Times shown in {zone}.",
+    "tr": "Saatler {zone} saat diliminde gösterilir.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1ImageUnavailable": {
+    "key": "eventV1ImageUnavailable",
+    "en": "Event image unavailable",
+    "tr": "Etkinlik görseli kullanılamıyor",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "eventV1ListChoice": {
+    "key": "eventV1ListChoice",
+    "en": "Your choice: {choice}",
+    "tr": "Tercihin: {choice}",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "accountStatusDeletionTitle": {
+    "key": "accountStatusDeletionTitle",
+    "en": "Your account is being deleted",
+    "tr": "Hesabın siliniyor",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "accountStatusDeletionBody": {
+    "key": "accountStatusDeletionBody",
+    "en": "Your access has ended and can't be restored. We're deleting your profile, photo, location records and other account data in the order set out in our Privacy Policy. Messages you sent stay in the other person's chat until that chat's messages are deleted, at most 30 days after it stopped being writable.",
+    "tr": "Erişimin sona erdi ve geri açılamaz. Profilini, fotoğrafını, konum kayıtlarını ve diğer hesap verilerini Gizlilik Politikası'nda yazan sırayla siliyoruz. Gönderdiğin mesajlar, karşı taraftaki sohbetin mesajları silinene kadar, yani sohbet yazılamaz hâle geldikten en fazla 30 gün sonrasına kadar orada kalır.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "accountStatusClosedTitle": {
+    "key": "accountStatusClosedTitle",
+    "en": "Your account has been closed",
+    "tr": "Hesabın kapatıldı",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "accountStatusClosedBody": {
+    "key": "accountStatusClosedBody",
+    "en": "We've closed this account, so your access has ended. Our Privacy Policy explains what happens to your data. If you have a question, email info@useimhere.com from the email address on this account.",
+    "tr": "Bu hesabı kapattık; erişimin sona erdi. Verilerine ne olacağını Gizlilik Politikası anlatıyor. Sorun varsa bu hesaptaki e-posta adresinden info@useimhere.com adresine yaz.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "accountStatusCopied": {
+    "key": "accountStatusCopied",
+    "en": "Copied",
+    "tr": "Kopyalandı",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1Suggest": {
+    "key": "y1Suggest",
+    "en": "Suggest an event",
+    "tr": "Etkinlik öner",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1ReviewHelp": {
+    "key": "y1ReviewHelp",
+    "en": "Our team reviews suggestions before anything is published. We may not publish yours.",
+    "tr": "Ekibimiz önerileri yayından önce inceler. Önerini yayınlamayabiliriz.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1Sent": {
+    "key": "y1Sent",
+    "en": "Suggestion sent.",
+    "tr": "Önerin gönderildi.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1Mine": {
+    "key": "y1Mine",
+    "en": "My suggestions",
+    "tr": "Önerilerim",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1Pending": {
+    "key": "y1Pending",
+    "en": "Pending",
+    "tr": "Bekliyor",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1Accepted": {
+    "key": "y1Accepted",
+    "en": "Accepted",
+    "tr": "Kabul edildi",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1NotAccepted": {
+    "key": "y1NotAccepted",
+    "en": "Not accepted",
+    "tr": "Kabul edilmedi",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1Withdraw": {
+    "key": "y1Withdraw",
+    "en": "Withdraw",
+    "tr": "Geri çek",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1DailyHelp": {
+    "key": "y1DailyHelp",
+    "en": "You can send up to 3 suggestions a day.",
+    "tr": "Günde en fazla 3 öneri gönderebilirsin.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1StartHelp": {
+    "key": "y1StartHelp",
+    "en": "Events must start between 48 hours and 90 days from now.",
+    "tr": "Etkinlik en erken 48 saat, en geç 90 gün sonra başlamalı.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y2Why": {
+    "key": "y2Why",
+    "en": "Why are you here?",
+    "tr": "Burada olma amacın ne?",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y2Networking": {
+    "key": "y2Networking",
+    "en": "Networking",
+    "tr": "Networking",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y2Friendship": {
+    "key": "y2Friendship",
+    "en": "Friendship",
+    "tr": "Arkadaşlık",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y2Different": {
+    "key": "y2Different",
+    "en": "Different reason",
+    "tr": "Farklı amaç",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y2DifferentBody": {
+    "key": "y2DifferentBody",
+    "en": "This person is here for {reason}. If you send anyway, your request won’t go through and you won’t see each other for 10 days.",
+    "tr": "Bu kişinin burada olma amacı: {reason}. Yine de gönderirsen isteğin iletilmez ve 10 gün boyunca birbirinizi görmezsiniz.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y2SendAnyway": {
+    "key": "y2SendAnyway",
+    "en": "Send anyway",
+    "tr": "Yine de gönder",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y2Cancel": {
+    "key": "y2Cancel",
+    "en": "Cancel",
+    "tr": "Vazgeç",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y2NotSent": {
+    "key": "y2NotSent",
+    "en": "Request not sent. You won’t see each other for 10 days.",
+    "tr": "İstek gönderilmedi. 10 gün birbirinizi görmeyeceksiniz.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1Title": {
+    "key": "y1Title",
+    "en": "Title",
+    "tr": "Başlık",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1Description": {
+    "key": "y1Description",
+    "en": "Description",
+    "tr": "Açıklama",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1Category": {
+    "key": "y1Category",
+    "en": "Category",
+    "tr": "Kategori",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1CategorySocial": {
+    "key": "y1CategorySocial",
+    "en": "Social",
+    "tr": "Sosyal",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1CategoryActivity": {
+    "key": "y1CategoryActivity",
+    "en": "Activity",
+    "tr": "Aktivite",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1Starts": {
+    "key": "y1Starts",
+    "en": "Starts",
+    "tr": "Başlangıç",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1Ends": {
+    "key": "y1Ends",
+    "en": "Ends",
+    "tr": "Bitiş",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1Date": {
+    "key": "y1Date",
+    "en": "Choose date",
+    "tr": "Tarih seç",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1Time": {
+    "key": "y1Time",
+    "en": "Choose time",
+    "tr": "Saat seç",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1Venue": {
+    "key": "y1Venue",
+    "en": "Venue name",
+    "tr": "Mekân adı",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1Address": {
+    "key": "y1Address",
+    "en": "Venue address",
+    "tr": "Mekân adresi",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1Submit": {
+    "key": "y1Submit",
+    "en": "Send suggestion",
+    "tr": "Öneriyi gönder",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1Required": {
+    "key": "y1Required",
+    "en": "Complete this field.",
+    "tr": "Bu alanı doldur.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1CategoryRequired": {
+    "key": "y1CategoryRequired",
+    "en": "Choose a category.",
+    "tr": "Bir kategori seç.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1DateRequired": {
+    "key": "y1DateRequired",
+    "en": "Choose a date and time.",
+    "tr": "Tarih ve saat seç.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1EndError": {
+    "key": "y1EndError",
+    "en": "Choose an end time after the start.",
+    "tr": "Başlangıçtan sonraki bir bitiş zamanı seç.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1TooLong": {
+    "key": "y1TooLong",
+    "en": "Use no more than {max} characters.",
+    "tr": "En fazla {max} karakter kullan.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1Count": {
+    "key": "y1Count",
+    "en": "{used}/{max}",
+    "tr": "{used}/{max}",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1CountLabel": {
+    "key": "y1CountLabel",
+    "en": "{used} of {max} characters",
+    "tr": "{max} karakterden {used} tanesi kullanıldı",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1Sending": {
+    "key": "y1Sending",
+    "en": "Sending suggestion…",
+    "tr": "Önerin gönderiliyor…",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1SendFailed": {
+    "key": "y1SendFailed",
+    "en": "We couldn’t send your suggestion. Your details are still here.",
+    "tr": "Önerini gönderemedik. Yazdıkların burada duruyor.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1Offline": {
+    "key": "y1Offline",
+    "en": "You’re offline. Reconnect to send your suggestion.",
+    "tr": "Çevrimdışısın. Önerini göndermek için yeniden bağlan.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1NoSuggestions": {
+    "key": "y1NoSuggestions",
+    "en": "No suggestions yet",
+    "tr": "Henüz önerin yok",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1EmptyHelp": {
+    "key": "y1EmptyHelp",
+    "en": "Your suggestions will appear here.",
+    "tr": "Önerilerin burada görünecek.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1DailyFull": {
+    "key": "y1DailyFull",
+    "en": "Daily limit reached",
+    "tr": "Günlük sınır doldu",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1PendingFull": {
+    "key": "y1PendingFull",
+    "en": "Pending limit reached",
+    "tr": "Bekleyen öneri sınırı doldu",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1PendingHelp": {
+    "key": "y1PendingHelp",
+    "en": "You can have up to 3 pending suggestions at a time.",
+    "tr": "Aynı anda en fazla 3 önerin bekliyor olabilir.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1AcceptedHelp": {
+    "key": "y1AcceptedHelp",
+    "en": "Acceptance does not mean the event is published.",
+    "tr": "Kabul edilmesi, etkinliğin yayınlandığı anlamına gelmez.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1Withdrawing": {
+    "key": "y1Withdrawing",
+    "en": "Withdrawing suggestion…",
+    "tr": "Önerin geri çekiliyor…",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1Withdrawn": {
+    "key": "y1Withdrawn",
+    "en": "Suggestion withdrawn.",
+    "tr": "Önerin geri çekildi.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1WithdrawFailed": {
+    "key": "y1WithdrawFailed",
+    "en": "We couldn’t withdraw your suggestion. Try again.",
+    "tr": "Önerini geri çekemedik. Tekrar dene.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1Loading": {
+    "key": "y1Loading",
+    "en": "Loading suggestions…",
+    "tr": "Öneriler yükleniyor…",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1ListFailed": {
+    "key": "y1ListFailed",
+    "en": "We couldn’t load your suggestions.",
+    "tr": "Önerilerini yükleyemedik.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1ListOffline": {
+    "key": "y1ListOffline",
+    "en": "You’re offline. Reconnect to see your suggestions.",
+    "tr": "Çevrimdışısın. Önerilerini görmek için yeniden bağlan.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y2PurposeHelp": {
+    "key": "y2PurposeHelp",
+    "en": "Choose one purpose for this session. People nearby can see it.",
+    "tr": "Bu oturum için bir amaç seç. Yakındakiler bunu görebilir.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y2Continue": {
+    "key": "y2Continue",
+    "en": "Continue",
+    "tr": "Devam",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y2CheckinBusy": {
+    "key": "y2CheckinBusy",
+    "en": "Starting your session…",
+    "tr": "Oturumun başlatılıyor…",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y2CheckinFailed": {
+    "key": "y2CheckinFailed",
+    "en": "Your session couldn’t start. Try again.",
+    "tr": "Oturumun başlatılamadı. Tekrar dene.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y2PurposeLabel": {
+    "key": "y2PurposeLabel",
+    "en": "Here for {reason}",
+    "tr": "Burada olma amacı: {reason}",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y2Sending": {
+    "key": "y2Sending",
+    "en": "Sending request…",
+    "tr": "İstek gönderiliyor…",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y2SendFailed": {
+    "key": "y2SendFailed",
+    "en": "We couldn’t confirm the result. Try again.",
+    "tr": "Sonucu doğrulayamadık. Tekrar dene.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y2RequestFailed": {
+    "key": "y2RequestFailed",
+    "en": "Your request couldn’t be sent. Try again.",
+    "tr": "İsteğin gönderilemedi. Tekrar dene.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y2BackNearby": {
+    "key": "y2BackNearby",
+    "en": "Back to Nearby",
+    "tr": "Yakındakiler’e dön",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y1ContentHelp": {
+    "key": "y1ContentHelp",
+    "en": "Only free, non-commercial events. Don’t include anyone’s contact details or a private home address.",
+    "tr": "Yalnız ücretsiz ve ticari olmayan etkinlikler. Kimsenin iletişim bilgisini veya özel bir ev adresini yazma.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "y2PolicyNotice": {
+    "key": "y2PolicyNotice",
+    "en": "What’s changed: when you say you’re here, you now choose networking or friendship, and people nearby can see it. If a request is sent between people with different purposes, it doesn’t go through and you won’t see each other for 10 days. You can also suggest events. Read the updated Privacy Policy and Terms.",
+    "tr": "Neler değişti: \"Buradayım\" derken artık networking ya da arkadaşlık seçiyorsun ve yakınındakiler bunu görebiliyor. Farklı amaçtaki iki kişi arasında istek gönderilirse iletilmez ve 10 gün birbirinizi görmezsiniz. Ayrıca etkinlik önerebilirsin. Güncellenen Gizlilik Politikası’nı ve Şartlar’ı oku.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "profilePurposeTitle": {
+    "key": "profilePurposeTitle",
+    "en": "Your default purpose",
+    "tr": "Varsayılan amacın",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "profilePurposeHelp": {
+    "key": "profilePurposeHelp",
+    "en": "Optional. When you tap I’m here, this purpose is already selected, and you can change it each time. Others don’t see this setting. People nearby can see the purpose you choose for each session.",
+    "tr": "İsteğe bağlı. Buradayım’a dokunduğunda bu amaç seçili gelir; istersen her seferinde değiştirebilirsin. Başkaları bu ayarı görmez. Yakınındakiler her oturum için seçtiğin amacı görebilir.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
+  },
+  "profilePurposeActiveNote": {
+    "key": "profilePurposeActiveNote",
+    "en": "Your current session keeps its purpose. The change applies from your next session.",
+    "tr": "Şu anki oturumunun amacı değişmez. Değişiklik bir sonraki oturumundan itibaren geçerli olur.",
+    "source": "Manager ops/V15/graph snapshot app l10n (read-only reference)",
+    "status": "EXISTING APPLICATION COPY — reuse"
   }
 }

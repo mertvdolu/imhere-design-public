@@ -23551,7 +23551,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-both",
@@ -23577,7 +23579,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-both",
@@ -23603,7 +23607,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-both",
@@ -23629,7 +23635,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-both",
@@ -23655,7 +23663,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-both",
@@ -23681,7 +23691,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-both",
@@ -23707,7 +23719,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-both",
@@ -23733,7 +23747,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-empty",
@@ -23759,7 +23775,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-empty",
@@ -23785,7 +23803,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-empty",
@@ -23811,7 +23831,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-empty",
@@ -23837,7 +23859,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-empty",
@@ -23863,7 +23887,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-empty",
@@ -23889,7 +23915,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-empty",
@@ -23915,7 +23943,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-empty",
@@ -23941,7 +23971,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-failed",
@@ -23968,7 +24000,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-failed",
@@ -23995,7 +24029,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-failed",
@@ -24022,7 +24058,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-failed",
@@ -24049,7 +24087,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-failed",
@@ -24076,7 +24116,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-failed",
@@ -24103,7 +24145,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-failed",
@@ -24130,7 +24174,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-failed",
@@ -24157,7 +24203,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-offline",
@@ -24184,7 +24232,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-offline",
@@ -24211,7 +24261,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-offline",
@@ -24238,7 +24290,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-offline",
@@ -24265,7 +24319,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-offline",
@@ -24292,7 +24348,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-offline",
@@ -24319,7 +24377,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-offline",
@@ -24346,7 +24406,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-offline",
@@ -24373,7 +24435,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-one",
@@ -24399,7 +24463,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-one",
@@ -24425,7 +24491,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-one",
@@ -24451,7 +24519,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-one",
@@ -24477,7 +24547,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-one",
@@ -24503,7 +24575,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-one",
@@ -24529,7 +24603,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-one",
@@ -24555,7 +24631,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-one",
@@ -24581,7 +24659,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-submitting",
@@ -24607,7 +24687,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-submitting",
@@ -24633,7 +24715,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-submitting",
@@ -24659,7 +24743,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-submitting",
@@ -24685,7 +24771,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-submitting",
@@ -24711,7 +24799,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-submitting",
@@ -24737,7 +24827,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-submitting",
@@ -24763,7 +24855,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-accept-submitting",
@@ -24789,7 +24883,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-both",
@@ -24816,7 +24912,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-both",
@@ -24843,7 +24941,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-both",
@@ -24870,7 +24970,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-both",
@@ -24897,7 +24999,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-both",
@@ -24924,7 +25028,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-both",
@@ -24951,7 +25057,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-both",
@@ -24978,7 +25086,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-both",
@@ -25005,7 +25115,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-empty",
@@ -25032,7 +25144,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-empty",
@@ -25059,7 +25173,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-empty",
@@ -25086,7 +25202,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-empty",
@@ -25113,7 +25231,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-empty",
@@ -25140,7 +25260,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-empty",
@@ -25167,7 +25289,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-empty",
@@ -25194,7 +25318,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-empty",
@@ -25221,7 +25347,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-failed",
@@ -25249,7 +25377,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-failed",
@@ -25277,7 +25407,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-failed",
@@ -25305,7 +25437,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-failed",
@@ -25333,7 +25467,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-failed",
@@ -25361,7 +25497,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-failed",
@@ -25389,7 +25527,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-failed",
@@ -25417,7 +25557,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-failed",
@@ -25445,7 +25587,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-offline",
@@ -25473,7 +25617,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-offline",
@@ -25501,7 +25647,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-offline",
@@ -25529,7 +25677,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-offline",
@@ -25557,7 +25707,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-offline",
@@ -25585,7 +25737,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-offline",
@@ -25613,7 +25767,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-offline",
@@ -25641,7 +25797,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-offline",
@@ -25669,7 +25827,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-one",
@@ -25696,7 +25856,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-one",
@@ -25723,7 +25885,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-one",
@@ -25750,7 +25914,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-one",
@@ -25777,7 +25943,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-one",
@@ -25804,7 +25972,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-one",
@@ -25831,7 +26001,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-one",
@@ -25858,7 +26030,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-one",
@@ -25885,7 +26059,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-submitting",
@@ -25912,7 +26088,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-submitting",
@@ -25939,7 +26117,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-submitting",
@@ -25966,7 +26146,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-submitting",
@@ -25993,7 +26175,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-submitting",
@@ -26020,7 +26204,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-submitting",
@@ -26047,7 +26233,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-submitting",
@@ -26074,7 +26262,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "intent-send-submitting",
@@ -26101,7 +26291,9 @@
       "H2"
     ],
     "themeVersion": "2.3",
-    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md"
+    "surfaceSpec": "02-SON-EKLER/imhere-cream-complete-v2.2/theme-v2.3/SPEC.md",
+    "visibilityCondition": "V15.ENABLED == false",
+    "v15Retirement": "Session purpose selection removed. Keep historical asset for flag-off only."
   },
   {
     "id": "interests-empty",
@@ -58814,5 +59006,5847 @@
     "featureGate": "minimum-supported-version (1.4.2)",
     "file": "v15/d0/screens/png/d0-store-failed--tr--200--412.png",
     "spec": "v15/d0/SPEC.md"
+  },
+  {
+    "id": "community-none",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-none--en--100.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-none",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-none--en--100--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-none",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-none--en--200.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-none",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-none--en--200--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-none",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-none--tr--100.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-none",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-none--tr--100--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-none",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-none--tr--200.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-none",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-none--tr--200--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-networking",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-networking--en--100.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-networking",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-networking--en--100--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-networking",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-networking--en--200.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-networking",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-networking--en--200--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-networking",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-networking--tr--100.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-networking",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-networking--tr--100--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-networking",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-networking--tr--200.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-networking",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-networking--tr--200--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-friendship",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-friendship--en--100.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-friendship",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-friendship--en--100--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-friendship",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-friendship--en--200.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-friendship",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-friendship--en--200--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-friendship",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-friendship--tr--100.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-friendship",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-friendship--tr--100--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-friendship",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-friendship--tr--200.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-friendship",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-friendship--tr--200--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both--en--100.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both--en--100--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both--en--200.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both--en--200--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both--tr--100.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both--tr--100--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both--tr--200.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both--tr--200--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both-start",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both-start--en--100.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both-start",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both-start--en--100--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both-start",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both-start--en--200.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both-start",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both-start--en--200--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both-start",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both-start--tr--100.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both-start",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both-start--tr--100--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both-start",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both-start--tr--200.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both-start",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both-start--tr--200--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both-networking",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both-networking--en--100.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both-networking",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both-networking--en--100--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both-networking",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both-networking--en--200.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both-networking",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both-networking--en--200--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both-networking",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both-networking--tr--100.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both-networking",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both-networking--tr--100--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both-networking",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both-networking--tr--200.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both-networking",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both-networking--tr--200--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both-friendship",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both-friendship--en--100.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both-friendship",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both-friendship--en--100--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both-friendship",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both-friendship--en--200.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both-friendship",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both-friendship--en--200--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both-friendship",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both-friendship--tr--100.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both-friendship",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both-friendship--tr--100--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both-friendship",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both-friendship--tr--200.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-both-friendship",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-both-friendship--tr--200--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-saving",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-saving--en--100.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-saving",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-saving--en--100--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-saving",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-saving--en--200.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-saving",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-saving--en--200--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-saving",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-saving--tr--100.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-saving",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-saving--tr--100--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-saving",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-saving--tr--200.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-saving",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-saving--tr--200--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-failed",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-failed--en--100.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-failed",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-failed--en--100--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-failed",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-failed--en--200.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-failed",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-failed--en--200--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-failed",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-failed--tr--100.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-failed",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-failed--tr--100--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-failed",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-failed--tr--200.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "community-failed",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/topluluk-kayit/screens/png/community-failed--tr--200--412.png",
+    "spec": "v15/topluluk-kayit/SPEC.md"
+  },
+  {
+    "id": "migration-intro",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-intro--en--100.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-intro",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-intro--en--100--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-intro",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-intro--en--200.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-intro",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-intro--en--200--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-intro",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-intro--tr--100.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-intro",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-intro--tr--100--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-intro",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-intro--tr--200.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-intro",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-intro--tr--200--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-community",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-community--en--100.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-community",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-community--en--100--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-community",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-community--en--200.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-community",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-community--en--200--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-community",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-community--tr--100.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-community",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-community--tr--100--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-community",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-community--tr--200.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-community",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-community--tr--200--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-everyone",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-everyone--en--100.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-everyone",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-everyone--en--100--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-everyone",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-everyone--en--200.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-everyone",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-everyone--en--200--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-everyone",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-everyone--tr--100.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-everyone",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-everyone--tr--100--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-everyone",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-everyone--tr--200.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-everyone",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-everyone--tr--200--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-connections",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-connections--en--100.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-connections",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-connections--en--100--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-connections",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-connections--en--200.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-connections",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-connections--en--200--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-connections",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-connections--tr--100.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-connections",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-connections--tr--100--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-connections",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-connections--tr--200.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-connections",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-connections--tr--200--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-nobody",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-nobody--en--100.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-nobody",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-nobody--en--100--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-nobody",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-nobody--en--200.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-nobody",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-nobody--en--200--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-nobody",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-nobody--tr--100.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-nobody",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-nobody--tr--100--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-nobody",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-nobody--tr--200.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-nobody",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-nobody--tr--200--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-saving",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-saving--en--100.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-saving",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-saving--en--100--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-saving",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-saving--en--200.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-saving",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-saving--en--200--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-saving",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-saving--tr--100.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-saving",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-saving--tr--100--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-saving",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-saving--tr--200.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-saving",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-saving--tr--200--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-failed",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-failed--en--100.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-failed",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-failed--en--100--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-failed",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-failed--en--200.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-failed",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-failed--en--200--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-failed",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-failed--tr--100.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-failed",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-failed--tr--100--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-failed",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-failed--tr--200.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-failed",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-failed--tr--200--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-offline",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-offline--en--100.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-offline",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-offline--en--100--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-offline",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-offline--en--200.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-offline",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-offline--en--200--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-offline",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-offline--tr--100.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-offline",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-offline--tr--100--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-offline",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-offline--tr--200.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-linkedin-offline",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-linkedin-offline--tr--200--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-occupation",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-occupation--en--100.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-occupation",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-occupation--en--100--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-occupation",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-occupation--en--200.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-occupation",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-occupation--en--200--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-occupation",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-occupation--tr--100.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-occupation",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-occupation--tr--100--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-occupation",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-occupation--tr--200.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-occupation",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-occupation--tr--200--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-offline",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-offline--en--100.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-offline",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-offline--en--100--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-offline",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-offline--en--200.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-offline",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-offline--en--200--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-offline",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-offline--tr--100.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-offline",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-offline--tr--100--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-offline",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-offline--tr--200.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "migration-offline",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/gecis/screens/png/migration-offline--tr--200--412.png",
+    "spec": "v15/gecis/SPEC.md"
+  },
+  {
+    "id": "settings-one",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-one--en--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-one",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-one--en--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-one",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-one--en--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-one",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-one--en--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-one",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-one--tr--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-one",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-one--tr--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-one",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-one--tr--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-one",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-one--tr--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-both",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-both--en--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-both",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-both--en--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-both",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-both--en--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-both",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-both--en--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-both",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-both--tr--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-both",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-both--tr--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-both",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-both--tr--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-both",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-both--tr--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-checked-in",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-checked-in--en--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-checked-in",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-checked-in--en--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-checked-in",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-checked-in--en--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-checked-in",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-checked-in--en--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-checked-in",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-checked-in--tr--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-checked-in",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-checked-in--tr--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-checked-in",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-checked-in--tr--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-checked-in",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-checked-in--tr--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-going",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-going--en--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-going",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-going--en--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-going",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-going--en--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-going",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-going--en--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-going",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-going--tr--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-going",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-going--tr--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-going",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-going--tr--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-going",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-going--tr--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-limit",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-limit--en--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-limit",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-limit--en--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-limit",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-limit--en--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-limit",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-limit--en--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-limit",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-limit--tr--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-limit",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-limit--tr--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-limit",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-limit--tr--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-limit",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-limit--tr--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-last-one",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-last-one--en--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-last-one",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-last-one--en--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-last-one",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-last-one--en--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-last-one",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-last-one--en--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-last-one",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-last-one--tr--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-last-one",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-last-one--tr--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-last-one",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-last-one--tr--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-last-one",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-last-one--tr--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-failed",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-failed--en--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-failed",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-failed--en--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-failed",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-failed--en--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-failed",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-failed--en--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-failed",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-failed--tr--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-failed",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-failed--tr--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-failed",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-failed--tr--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-failed",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-failed--tr--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-done",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-done--en--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-done",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-done--en--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-done",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-done--en--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-done",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-done--en--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-done",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-done--tr--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-done",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-done--tr--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-done",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-done--tr--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-done",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-done--tr--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-join-done",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-join-done--en--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-join-done",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-join-done--en--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-join-done",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-join-done--en--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-join-done",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-join-done--en--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-join-done",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-join-done--tr--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-join-done",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-join-done--tr--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-join-done",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-join-done--tr--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-join-done",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-join-done--tr--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-done",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-done--en--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-done",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-done--en--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-done",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-done--en--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-done",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-done--en--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-done",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-done--tr--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-done",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-done--tr--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-done",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-done--tr--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-done",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-done--tr--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-confirm",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-confirm--en--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-confirm",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-confirm--en--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-confirm",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-confirm--en--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-confirm",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-confirm--en--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-confirm",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-confirm--tr--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-confirm",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-confirm--tr--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-confirm",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-confirm--tr--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-confirm",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-confirm--tr--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-checkin",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-checkin--en--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-checkin",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-checkin--en--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-checkin",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-checkin--en--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-checkin",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-checkin--en--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-checkin",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-checkin--tr--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-checkin",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-checkin--tr--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-checkin",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-checkin--tr--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-checkin",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-checkin--tr--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-going",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-going--en--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-going",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-going--en--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-going",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-going--en--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-going",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-going--en--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-going",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-going--tr--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-going",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-going--tr--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-going",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-going--tr--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switch-going",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switch-going--tr--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-join-confirm",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-join-confirm--en--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-join-confirm",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-join-confirm--en--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-join-confirm",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-join-confirm--en--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-join-confirm",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-join-confirm--en--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-join-confirm",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-join-confirm--tr--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-join-confirm",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-join-confirm--tr--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-join-confirm",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-join-confirm--tr--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-join-confirm",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-join-confirm--tr--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-inactive",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-inactive--en--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-inactive",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-inactive--en--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-inactive",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-inactive--en--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-inactive",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-inactive--en--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-inactive",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-inactive--tr--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-inactive",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-inactive--tr--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-inactive",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-inactive--tr--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-inactive",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-inactive--tr--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-active",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-active--en--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-active",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-active--en--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-active",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-active--en--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-active",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-active--en--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-active",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-active--tr--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-active",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-active--tr--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-active",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-active--tr--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-active",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-active--tr--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-active-going",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-active-going--en--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-active-going",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-active-going--en--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-active-going",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-active-going--en--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-active-going",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-active-going--en--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-active-going",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-active-going--tr--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-active-going",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-active-going--tr--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-active-going",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-active-going--tr--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leave-active-going",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leave-active-going--tr--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-joining",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-joining--en--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-joining",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-joining--en--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-joining",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-joining--en--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-joining",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-joining--en--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-joining",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-joining--tr--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-joining",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-joining--tr--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-joining",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-joining--tr--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-joining",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-joining--tr--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leaving",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leaving--en--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leaving",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leaving--en--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leaving",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leaving--en--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leaving",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leaving--en--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leaving",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leaving--tr--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leaving",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leaving--tr--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leaving",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leaving--tr--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-leaving",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-leaving--tr--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switching",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switching--en--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switching",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switching--en--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switching",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switching--en--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switching",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switching--en--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switching",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switching--tr--100.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switching",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switching--tr--100--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switching",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switching--tr--200.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "settings-switching",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/ayarlar-topluluk/screens/png/settings-switching--tr--200--412.png",
+    "spec": "v15/ayarlar-topluluk/SPEC.md"
+  },
+  {
+    "id": "nearby-networking",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-networking--en--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-networking",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-networking--en--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-networking",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-networking--en--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-networking",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-networking--en--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-networking",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-networking--tr--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-networking",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-networking--tr--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-networking",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-networking--tr--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-networking",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-networking--tr--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-friendship",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-friendship--en--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-friendship",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-friendship--en--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-friendship",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-friendship--en--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-friendship",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-friendship--en--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-friendship",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-friendship--tr--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-friendship",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-friendship--tr--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-friendship",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-friendship--tr--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-friendship",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-friendship--tr--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-single",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-single--en--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-single",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-single--en--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-single",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-single--en--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-single",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-single--en--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-single",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-single--tr--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-single",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-single--tr--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-single",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-single--tr--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-single",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-single--tr--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-loading",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-loading--en--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-loading",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-loading--en--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-loading",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-loading--en--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-loading",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-loading--en--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-loading",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-loading--tr--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-loading",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-loading--tr--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-loading",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-loading--tr--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-loading",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-loading--tr--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-empty",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-empty--en--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-empty",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-empty--en--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-empty",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-empty--en--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-empty",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-empty--en--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-empty",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-empty--tr--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-empty",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-empty--tr--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-empty",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-empty--tr--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-empty",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-empty--tr--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-failed",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-failed--en--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-failed",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-failed--en--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-failed",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-failed--en--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-failed",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-failed--en--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-failed",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-failed--tr--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-failed",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-failed--tr--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-failed",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-failed--tr--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-failed",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-failed--tr--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-offline",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-offline--en--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-offline",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-offline--en--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-offline",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-offline--en--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-offline",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-offline--en--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-offline",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-offline--tr--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-offline",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-offline--tr--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-offline",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-offline--tr--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "nearby-offline",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/nearby-offline--tr--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-networking",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-networking--en--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-networking",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-networking--en--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-networking",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-networking--en--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-networking",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-networking--en--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-networking",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-networking--tr--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-networking",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-networking--tr--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-networking",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-networking--tr--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-networking",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-networking--tr--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-friendship",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-friendship--en--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-friendship",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-friendship--en--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-friendship",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-friendship--en--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-friendship",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-friendship--en--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-friendship",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-friendship--tr--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-friendship",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-friendship--tr--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-friendship",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-friendship--tr--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-friendship",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-friendship--tr--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-single",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-single--en--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-single",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-single--en--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-single",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-single--en--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-single",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-single--en--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-single",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-single--tr--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-single",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-single--tr--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-single",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-single--tr--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-single",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-single--tr--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-empty",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-empty--en--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-empty",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-empty--en--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-empty",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-empty--en--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-empty",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-empty--en--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-empty",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-empty--tr--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-empty",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-empty--tr--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-empty",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-empty--tr--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-empty",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-empty--tr--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-loading",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-loading--en--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-loading",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-loading--en--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-loading",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-loading--en--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-loading",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-loading--en--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-loading",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-loading--tr--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-loading",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-loading--tr--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-loading",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-loading--tr--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-loading",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-loading--tr--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-failed",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-failed--en--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-failed",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-failed--en--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-failed",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-failed--en--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-failed",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-failed--en--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-failed",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-failed--tr--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-failed",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-failed--tr--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-failed",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-failed--tr--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-failed",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-failed--tr--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-offline",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-offline--en--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-offline",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-offline--en--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-offline",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-offline--en--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-offline",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-offline--en--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-offline",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-offline--tr--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-offline",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-offline--tr--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-offline",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-offline--tr--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "map-offline",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/map-offline--tr--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "events-community",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/events-community--en--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "events-community",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/events-community--en--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "events-community",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/events-community--en--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "events-community",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/events-community--en--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "events-community",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/events-community--tr--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "events-community",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/events-community--tr--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "events-community",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/events-community--tr--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "events-community",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/events-community--tr--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "connection-networking",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/connection-networking--en--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "connection-networking",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/connection-networking--en--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "connection-networking",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/connection-networking--en--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "connection-networking",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/connection-networking--en--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "connection-networking",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/connection-networking--tr--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "connection-networking",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/connection-networking--tr--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "connection-networking",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/connection-networking--tr--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "connection-networking",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/connection-networking--tr--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "connection-friendship",
+    "lang": "en",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/connection-friendship--en--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "connection-friendship",
+    "lang": "en",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/connection-friendship--en--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "connection-friendship",
+    "lang": "en",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/connection-friendship--en--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "connection-friendship",
+    "lang": "en",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/connection-friendship--en--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "connection-friendship",
+    "lang": "tr",
+    "scale": "100",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/connection-friendship--tr--100.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "connection-friendship",
+    "lang": "tr",
+    "scale": "100",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/connection-friendship--tr--100--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "connection-friendship",
+    "lang": "tr",
+    "scale": "200",
+    "width": 390,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/connection-friendship--tr--200.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "connection-friendship",
+    "lang": "tr",
+    "scale": "200",
+    "width": 412,
+    "source": "v15",
+    "themeVersion": "2.3",
+    "active": true,
+    "beta": true,
+    "featureGate": "V15.ENABLED",
+    "file": "v15/secici/screens/png/connection-friendship--tr--200--412.png",
+    "spec": "v15/secici/SPEC.md"
+  },
+  {
+    "id": "v15-retirement-rules",
+    "kind": "conditional-component-retirement",
+    "source": "v15-policy",
+    "active": false,
+    "beta": false,
+    "when": "V15.ENABLED == true",
+    "hide": [
+      "Y2 Why are you here / session purpose selection",
+      "nearby person purpose badge",
+      "Send anyway / new 10-day mismatch flow",
+      "Profile default purpose"
+    ],
+    "flagOff": "Existing behaviour remains unchanged",
+    "retainExistingExpiry": "Existing 10-day records expire on their existing date; no new ones",
+    "replacement": "v15/topluluk-kayit + v15/ayarlar-topluluk",
+    "reference": "Founder 15 Oct decisions32,36; earlier y1-y2/profil-al packages retained in their Git history"
   }
 ]

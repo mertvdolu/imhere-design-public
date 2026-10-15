@@ -88,5 +88,2498 @@
       }
     ],
     "notes": "Store opener failed; Update remains retryable. No invented store URL. Delete link opens approved web deletion route."
+  },
+  {
+    "id": "community-none",
+    "group": "topluluk-kayit",
+    "title": "communityChooseTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "communityChooseBody"
+      },
+      {
+        "type": "choices",
+        "key": "communityChooseTitle",
+        "hideLegend": true,
+        "name": "community",
+        "cards": true,
+        "items": [
+          {
+            "key": "communityOptionNetworking",
+            "description": "communityOptionNetworkingDesc",
+            "community": "Networking",
+            "selected": false,
+            "value": "Networking",
+            "to": "community-networking"
+          },
+          {
+            "key": "communityOptionFriendship",
+            "description": "communityOptionFriendshipDesc",
+            "community": "Friendship",
+            "selected": false,
+            "value": "Friendship",
+            "to": "community-friendship"
+          },
+          {
+            "key": "communityOptionBoth",
+            "description": "communityOptionBothDesc",
+            "community": null,
+            "selected": false,
+            "value": "Both",
+            "to": "community-both"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "communityNotDating",
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "v15LinkedinContinue",
+            "primary": true,
+            "disabled": true,
+            "busy": false,
+            "reason": "errorGenderRequired",
+            "to": "community-saving"
+          }
+        ]
+      }
+    ],
+    "notes": "No preselection. Both requires explicit starting community. Initial selection does not consume a change. Friendship-only skips job/LinkedIn; card step still appears. Error retains chosen community.",
+    "layout": "onboarding",
+    "ack": null,
+    "reject": null
+  },
+  {
+    "id": "community-networking",
+    "group": "topluluk-kayit",
+    "title": "communityChooseTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "communityChooseBody"
+      },
+      {
+        "type": "choices",
+        "key": "communityChooseTitle",
+        "hideLegend": true,
+        "name": "community",
+        "cards": true,
+        "items": [
+          {
+            "key": "communityOptionNetworking",
+            "description": "communityOptionNetworkingDesc",
+            "community": "Networking",
+            "selected": true,
+            "value": "Networking",
+            "to": "community-networking"
+          },
+          {
+            "key": "communityOptionFriendship",
+            "description": "communityOptionFriendshipDesc",
+            "community": "Friendship",
+            "selected": false,
+            "value": "Friendship",
+            "to": "community-friendship"
+          },
+          {
+            "key": "communityOptionBoth",
+            "description": "communityOptionBothDesc",
+            "community": null,
+            "selected": false,
+            "value": "Both",
+            "to": "community-both"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "communityNotDating",
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "v15LinkedinContinue",
+            "primary": true,
+            "disabled": false,
+            "busy": false,
+            "reason": null,
+            "to": "community-saving"
+          }
+        ]
+      }
+    ],
+    "notes": "No preselection. Both requires explicit starting community. Initial selection does not consume a change. Friendship-only skips job/LinkedIn; card step still appears. Error retains chosen community.",
+    "layout": "onboarding",
+    "ack": null,
+    "reject": null
+  },
+  {
+    "id": "community-friendship",
+    "group": "topluluk-kayit",
+    "title": "communityChooseTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "communityChooseBody"
+      },
+      {
+        "type": "choices",
+        "key": "communityChooseTitle",
+        "hideLegend": true,
+        "name": "community",
+        "cards": true,
+        "items": [
+          {
+            "key": "communityOptionNetworking",
+            "description": "communityOptionNetworkingDesc",
+            "community": "Networking",
+            "selected": false,
+            "value": "Networking",
+            "to": "community-networking"
+          },
+          {
+            "key": "communityOptionFriendship",
+            "description": "communityOptionFriendshipDesc",
+            "community": "Friendship",
+            "selected": true,
+            "value": "Friendship",
+            "to": "community-friendship"
+          },
+          {
+            "key": "communityOptionBoth",
+            "description": "communityOptionBothDesc",
+            "community": null,
+            "selected": false,
+            "value": "Both",
+            "to": "community-both"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "communityNotDating",
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "v15LinkedinContinue",
+            "primary": true,
+            "disabled": false,
+            "busy": false,
+            "reason": null,
+            "to": "community-saving"
+          }
+        ]
+      }
+    ],
+    "notes": "No preselection. Both requires explicit starting community. Initial selection does not consume a change. Friendship-only skips job/LinkedIn; card step still appears. Error retains chosen community.",
+    "layout": "onboarding",
+    "ack": null,
+    "reject": null
+  },
+  {
+    "id": "community-both",
+    "group": "topluluk-kayit",
+    "title": "communityChooseTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "communityChooseBody"
+      },
+      {
+        "type": "choices",
+        "key": "communityChooseTitle",
+        "hideLegend": true,
+        "name": "community",
+        "cards": true,
+        "items": [
+          {
+            "key": "communityOptionNetworking",
+            "description": "communityOptionNetworkingDesc",
+            "community": "Networking",
+            "selected": false,
+            "value": "Networking",
+            "to": "community-networking"
+          },
+          {
+            "key": "communityOptionFriendship",
+            "description": "communityOptionFriendshipDesc",
+            "community": "Friendship",
+            "selected": false,
+            "value": "Friendship",
+            "to": "community-friendship"
+          },
+          {
+            "key": "communityOptionBoth",
+            "description": "communityOptionBothDesc",
+            "community": null,
+            "selected": true,
+            "value": "Both",
+            "to": "community-both"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "communityNotDating",
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "v15LinkedinContinue",
+            "primary": true,
+            "disabled": false,
+            "busy": false,
+            "reason": null,
+            "to": "community-both-start"
+          }
+        ]
+      }
+    ],
+    "notes": "No preselection. Both requires explicit starting community. Initial selection does not consume a change. Friendship-only skips job/LinkedIn; card step still appears. Error retains chosen community.",
+    "layout": "onboarding",
+    "ack": null,
+    "reject": null
+  },
+  {
+    "id": "community-both-start",
+    "group": "topluluk-kayit",
+    "title": "communityBothStartWith",
+    "blocks": [
+      {
+        "type": "choices",
+        "key": "communityBothStartWith",
+        "hideLegend": false,
+        "name": "community",
+        "cards": true,
+        "items": [
+          {
+            "key": "communityOptionNetworking",
+            "description": "communityOptionNetworkingDesc",
+            "community": "Networking",
+            "selected": false,
+            "value": "Networking",
+            "to": "community-both-networking"
+          },
+          {
+            "key": "communityOptionFriendship",
+            "description": "communityOptionFriendshipDesc",
+            "community": "Friendship",
+            "selected": false,
+            "value": "Friendship",
+            "to": "community-both-friendship"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "communityNotDating",
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "v15LinkedinContinue",
+            "primary": true,
+            "disabled": true,
+            "busy": false,
+            "reason": "errorGenderRequired",
+            "to": "community-saving"
+          }
+        ]
+      }
+    ],
+    "notes": "No preselection. Both requires explicit starting community. Initial selection does not consume a change. Friendship-only skips job/LinkedIn; card step still appears. Error retains chosen community.",
+    "layout": "onboarding",
+    "ack": null,
+    "reject": null
+  },
+  {
+    "id": "community-both-networking",
+    "group": "topluluk-kayit",
+    "title": "communityBothStartWith",
+    "blocks": [
+      {
+        "type": "choices",
+        "key": "communityBothStartWith",
+        "hideLegend": false,
+        "name": "community",
+        "cards": true,
+        "items": [
+          {
+            "key": "communityOptionNetworking",
+            "description": "communityOptionNetworkingDesc",
+            "community": "Networking",
+            "selected": true,
+            "value": "Networking",
+            "to": "community-both-networking"
+          },
+          {
+            "key": "communityOptionFriendship",
+            "description": "communityOptionFriendshipDesc",
+            "community": "Friendship",
+            "selected": false,
+            "value": "Friendship",
+            "to": "community-both-friendship"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "communityNotDating",
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "v15LinkedinContinue",
+            "primary": true,
+            "disabled": false,
+            "busy": false,
+            "reason": null,
+            "to": "community-saving"
+          }
+        ]
+      }
+    ],
+    "notes": "No preselection. Both requires explicit starting community. Initial selection does not consume a change. Friendship-only skips job/LinkedIn; card step still appears. Error retains chosen community.",
+    "layout": "onboarding",
+    "ack": null,
+    "reject": null
+  },
+  {
+    "id": "community-both-friendship",
+    "group": "topluluk-kayit",
+    "title": "communityBothStartWith",
+    "blocks": [
+      {
+        "type": "choices",
+        "key": "communityBothStartWith",
+        "hideLegend": false,
+        "name": "community",
+        "cards": true,
+        "items": [
+          {
+            "key": "communityOptionNetworking",
+            "description": "communityOptionNetworkingDesc",
+            "community": "Networking",
+            "selected": false,
+            "value": "Networking",
+            "to": "community-both-networking"
+          },
+          {
+            "key": "communityOptionFriendship",
+            "description": "communityOptionFriendshipDesc",
+            "community": "Friendship",
+            "selected": true,
+            "value": "Friendship",
+            "to": "community-both-friendship"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "communityNotDating",
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "v15LinkedinContinue",
+            "primary": true,
+            "disabled": false,
+            "busy": false,
+            "reason": null,
+            "to": "community-saving"
+          }
+        ]
+      }
+    ],
+    "notes": "No preselection. Both requires explicit starting community. Initial selection does not consume a change. Friendship-only skips job/LinkedIn; card step still appears. Error retains chosen community.",
+    "layout": "onboarding",
+    "ack": null,
+    "reject": null
+  },
+  {
+    "id": "community-saving",
+    "group": "topluluk-kayit",
+    "title": "communityChooseTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "communityChooseBody"
+      },
+      {
+        "type": "choices",
+        "key": "communityChooseTitle",
+        "hideLegend": true,
+        "name": "community",
+        "cards": true,
+        "items": [
+          {
+            "key": "communityOptionNetworking",
+            "description": "communityOptionNetworkingDesc",
+            "community": "Networking",
+            "selected": true,
+            "value": "Networking",
+            "to": "community-networking",
+            "disabled": true
+          },
+          {
+            "key": "communityOptionFriendship",
+            "description": "communityOptionFriendshipDesc",
+            "community": "Friendship",
+            "selected": false,
+            "value": "Friendship",
+            "to": "community-friendship",
+            "disabled": true
+          },
+          {
+            "key": "communityOptionBoth",
+            "description": "communityOptionBothDesc",
+            "community": null,
+            "selected": false,
+            "value": "Both",
+            "to": "community-both",
+            "disabled": true
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "communityNotDating",
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "v15LinkedinContinue",
+            "primary": true,
+            "disabled": true,
+            "busy": true,
+            "reason": null,
+            "to": "community-saving"
+          }
+        ]
+      }
+    ],
+    "notes": "No preselection. Both requires explicit starting community. Initial selection does not consume a change. Friendship-only skips job/LinkedIn; card step still appears. Error retains chosen community.",
+    "layout": "onboarding",
+    "ack": "migration-occupation",
+    "reject": "community-failed"
+  },
+  {
+    "id": "community-failed",
+    "group": "topluluk-kayit",
+    "title": "communityChooseTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "communityChooseBody"
+      },
+      {
+        "type": "choices",
+        "key": "communityChooseTitle",
+        "hideLegend": true,
+        "name": "community",
+        "cards": true,
+        "items": [
+          {
+            "key": "communityOptionNetworking",
+            "description": "communityOptionNetworkingDesc",
+            "community": "Networking",
+            "selected": true,
+            "value": "Networking",
+            "to": "community-networking"
+          },
+          {
+            "key": "communityOptionFriendship",
+            "description": "communityOptionFriendshipDesc",
+            "community": "Friendship",
+            "selected": false,
+            "value": "Friendship",
+            "to": "community-friendship"
+          },
+          {
+            "key": "communityOptionBoth",
+            "description": "communityOptionBothDesc",
+            "community": null,
+            "selected": false,
+            "value": "Both",
+            "to": "community-both"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "communityNotDating",
+        "helper": true
+      },
+      {
+        "type": "notice",
+        "key": "communityChooseSaveFailed",
+        "error": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "v15LinkedinContinue",
+            "primary": true,
+            "disabled": false,
+            "busy": false,
+            "reason": null,
+            "to": "community-saving"
+          }
+        ]
+      }
+    ],
+    "notes": "No preselection. Both requires explicit starting community. Initial selection does not consume a change. Friendship-only skips job/LinkedIn; card step still appears. Error retains chosen community.",
+    "layout": "onboarding",
+    "ack": null,
+    "reject": null
+  },
+  {
+    "id": "migration-intro",
+    "group": "gecis",
+    "title": "v15IntroTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "v15IntroBody"
+      },
+      {
+        "type": "text",
+        "key": "v15IntroNoGuess"
+      },
+      {
+        "type": "link",
+        "key": "v15WhatChanged",
+        "href": "https://useimhere.com/privacy"
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "v15LinkedinContinue",
+            "primary": true,
+            "to": "migration-community"
+          }
+        ]
+      }
+    ],
+    "notes": "No inferred choice. Not visible in discovery until community selection.",
+    "layout": "onboarding"
+  },
+  {
+    "id": "migration-community",
+    "group": "gecis",
+    "title": "communityChooseTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "communityChooseBody"
+      },
+      {
+        "type": "choices",
+        "key": "communityChooseTitle",
+        "hideLegend": true,
+        "name": "community",
+        "cards": true,
+        "items": [
+          {
+            "key": "communityOptionNetworking",
+            "description": "communityOptionNetworkingDesc",
+            "community": "Networking",
+            "selected": false,
+            "value": "Networking",
+            "to": "community-networking"
+          },
+          {
+            "key": "communityOptionFriendship",
+            "description": "communityOptionFriendshipDesc",
+            "community": "Friendship",
+            "selected": false,
+            "value": "Friendship",
+            "to": "community-friendship"
+          },
+          {
+            "key": "communityOptionBoth",
+            "description": "communityOptionBothDesc",
+            "community": null,
+            "selected": false,
+            "value": "Both",
+            "to": "community-both"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "communityNotDating",
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "v15LinkedinContinue",
+            "disabled": true,
+            "reason": "errorGenderRequired"
+          }
+        ]
+      }
+    ],
+    "notes": "Reuses registration selection component. Initial selection ends previous check-in; no rate-limit cost. LinkedIn step only if stored.",
+    "layout": "onboarding"
+  },
+  {
+    "id": "migration-linkedin-everyone",
+    "group": "gecis",
+    "title": "v15LinkedinTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "v15LinkedinBody"
+      },
+      {
+        "type": "choices",
+        "key": "profileLinkedinVisibilityTitle",
+        "name": "visibility",
+        "items": [
+          {
+            "key": "profileLinkedinVisibilityNobody",
+            "description": "profileLinkedinVisibilityNobodyDesc",
+            "selected": false,
+            "disabled": false,
+            "value": "Nobody"
+          },
+          {
+            "key": "profileLinkedinVisibilityConnections",
+            "description": "profileLinkedinVisibilityConnectionsDesc",
+            "selected": false,
+            "disabled": false,
+            "value": "Connections"
+          },
+          {
+            "key": "profileLinkedinVisibilityEveryone",
+            "description": "profileLinkedinVisibilityEveryoneDesc",
+            "selected": true,
+            "disabled": false,
+            "value": "Everyone"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "v15LinkedinChangeLater",
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "v15LinkedinContinue",
+            "primary": true,
+            "to": "migration-linkedin-saving",
+            "disabled": false,
+            "busy": false
+          },
+          {
+            "key": "cancel",
+            "to": "migration-intro"
+          }
+        ]
+      }
+    ],
+    "notes": "Only for stored LinkedIn. Everyone is existing value; no extra visual emphasis. Dismiss keeps Everyone and repeats next launch. Save failure restores Everyone and stays on screen. Body uses HB-37 r5.",
+    "layout": "dialog",
+    "ack": null,
+    "reject": null
+  },
+  {
+    "id": "migration-linkedin-connections",
+    "group": "gecis",
+    "title": "v15LinkedinTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "v15LinkedinBody"
+      },
+      {
+        "type": "choices",
+        "key": "profileLinkedinVisibilityTitle",
+        "name": "visibility",
+        "items": [
+          {
+            "key": "profileLinkedinVisibilityNobody",
+            "description": "profileLinkedinVisibilityNobodyDesc",
+            "selected": false,
+            "disabled": false,
+            "value": "Nobody"
+          },
+          {
+            "key": "profileLinkedinVisibilityConnections",
+            "description": "profileLinkedinVisibilityConnectionsDesc",
+            "selected": true,
+            "disabled": false,
+            "value": "Connections"
+          },
+          {
+            "key": "profileLinkedinVisibilityEveryone",
+            "description": "profileLinkedinVisibilityEveryoneDesc",
+            "selected": false,
+            "disabled": false,
+            "value": "Everyone"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "v15LinkedinChangeLater",
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "v15LinkedinContinue",
+            "primary": true,
+            "to": "migration-linkedin-saving",
+            "disabled": false,
+            "busy": false
+          },
+          {
+            "key": "cancel",
+            "to": "migration-intro"
+          }
+        ]
+      }
+    ],
+    "notes": "Only for stored LinkedIn. Everyone is existing value; no extra visual emphasis. Dismiss keeps Everyone and repeats next launch. Save failure restores Everyone and stays on screen. Body uses HB-37 r5.",
+    "layout": "dialog",
+    "ack": null,
+    "reject": null
+  },
+  {
+    "id": "migration-linkedin-nobody",
+    "group": "gecis",
+    "title": "v15LinkedinTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "v15LinkedinBody"
+      },
+      {
+        "type": "choices",
+        "key": "profileLinkedinVisibilityTitle",
+        "name": "visibility",
+        "items": [
+          {
+            "key": "profileLinkedinVisibilityNobody",
+            "description": "profileLinkedinVisibilityNobodyDesc",
+            "selected": true,
+            "disabled": false,
+            "value": "Nobody"
+          },
+          {
+            "key": "profileLinkedinVisibilityConnections",
+            "description": "profileLinkedinVisibilityConnectionsDesc",
+            "selected": false,
+            "disabled": false,
+            "value": "Connections"
+          },
+          {
+            "key": "profileLinkedinVisibilityEveryone",
+            "description": "profileLinkedinVisibilityEveryoneDesc",
+            "selected": false,
+            "disabled": false,
+            "value": "Everyone"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "v15LinkedinChangeLater",
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "v15LinkedinContinue",
+            "primary": true,
+            "to": "migration-linkedin-saving",
+            "disabled": false,
+            "busy": false
+          },
+          {
+            "key": "cancel",
+            "to": "migration-intro"
+          }
+        ]
+      }
+    ],
+    "notes": "Only for stored LinkedIn. Everyone is existing value; no extra visual emphasis. Dismiss keeps Everyone and repeats next launch. Save failure restores Everyone and stays on screen. Body uses HB-37 r5.",
+    "layout": "dialog",
+    "ack": null,
+    "reject": null
+  },
+  {
+    "id": "migration-linkedin-saving",
+    "group": "gecis",
+    "title": "v15LinkedinTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "v15LinkedinBody"
+      },
+      {
+        "type": "choices",
+        "key": "profileLinkedinVisibilityTitle",
+        "name": "visibility",
+        "items": [
+          {
+            "key": "profileLinkedinVisibilityNobody",
+            "description": "profileLinkedinVisibilityNobodyDesc",
+            "selected": false,
+            "disabled": true,
+            "value": "Nobody"
+          },
+          {
+            "key": "profileLinkedinVisibilityConnections",
+            "description": "profileLinkedinVisibilityConnectionsDesc",
+            "selected": true,
+            "disabled": true,
+            "value": "Connections"
+          },
+          {
+            "key": "profileLinkedinVisibilityEveryone",
+            "description": "profileLinkedinVisibilityEveryoneDesc",
+            "selected": false,
+            "disabled": true,
+            "value": "Everyone"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "v15LinkedinChangeLater",
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "v15LinkedinContinue",
+            "primary": true,
+            "to": "migration-linkedin-saving",
+            "disabled": true,
+            "busy": true
+          },
+          {
+            "key": "cancel",
+            "to": "migration-intro"
+          }
+        ]
+      }
+    ],
+    "notes": "Only for stored LinkedIn. Everyone is existing value; no extra visual emphasis. Dismiss keeps Everyone and repeats next launch. Save failure restores Everyone and stays on screen. Body uses HB-37 r5.",
+    "layout": "dialog",
+    "ack": "migration-occupation",
+    "reject": "migration-linkedin-failed"
+  },
+  {
+    "id": "migration-linkedin-failed",
+    "group": "gecis",
+    "title": "v15LinkedinTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "v15LinkedinBody"
+      },
+      {
+        "type": "choices",
+        "key": "profileLinkedinVisibilityTitle",
+        "name": "visibility",
+        "items": [
+          {
+            "key": "profileLinkedinVisibilityNobody",
+            "description": "profileLinkedinVisibilityNobodyDesc",
+            "selected": false,
+            "disabled": false,
+            "value": "Nobody"
+          },
+          {
+            "key": "profileLinkedinVisibilityConnections",
+            "description": "profileLinkedinVisibilityConnectionsDesc",
+            "selected": false,
+            "disabled": false,
+            "value": "Connections"
+          },
+          {
+            "key": "profileLinkedinVisibilityEveryone",
+            "description": "profileLinkedinVisibilityEveryoneDesc",
+            "selected": true,
+            "disabled": false,
+            "value": "Everyone"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "v15LinkedinChangeLater",
+        "helper": true
+      },
+      {
+        "type": "notice",
+        "key": "profileLinkedinVisibilitySaveFailed",
+        "error": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "v15LinkedinContinue",
+            "primary": true,
+            "to": "migration-linkedin-saving",
+            "disabled": false,
+            "busy": false
+          },
+          {
+            "key": "cancel",
+            "to": "migration-intro"
+          }
+        ]
+      }
+    ],
+    "notes": "Only for stored LinkedIn. Everyone is existing value; no extra visual emphasis. Dismiss keeps Everyone and repeats next launch. Save failure restores Everyone and stays on screen. Body uses HB-37 r5.",
+    "layout": "dialog",
+    "ack": null,
+    "reject": null
+  },
+  {
+    "id": "migration-linkedin-offline",
+    "group": "gecis",
+    "title": "v15LinkedinTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "v15LinkedinBody"
+      },
+      {
+        "type": "choices",
+        "key": "profileLinkedinVisibilityTitle",
+        "name": "visibility",
+        "items": [
+          {
+            "key": "profileLinkedinVisibilityNobody",
+            "description": "profileLinkedinVisibilityNobodyDesc",
+            "selected": false,
+            "disabled": false,
+            "value": "Nobody"
+          },
+          {
+            "key": "profileLinkedinVisibilityConnections",
+            "description": "profileLinkedinVisibilityConnectionsDesc",
+            "selected": false,
+            "disabled": false,
+            "value": "Connections"
+          },
+          {
+            "key": "profileLinkedinVisibilityEveryone",
+            "description": "profileLinkedinVisibilityEveryoneDesc",
+            "selected": true,
+            "disabled": false,
+            "value": "Everyone"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "v15LinkedinChangeLater",
+        "helper": true
+      },
+      {
+        "type": "notice",
+        "key": "offline",
+        "error": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "v15LinkedinContinue",
+            "primary": true,
+            "to": "migration-linkedin-saving",
+            "disabled": false,
+            "busy": false
+          },
+          {
+            "key": "cancel",
+            "to": "migration-intro"
+          }
+        ]
+      }
+    ],
+    "notes": "Only for stored LinkedIn. Everyone is existing value; no extra visual emphasis. Dismiss keeps Everyone and repeats next launch. Save failure restores Everyone and stays on screen. Body uses HB-37 r5.",
+    "layout": "dialog",
+    "ack": null,
+    "reject": null
+  },
+  {
+    "id": "migration-occupation",
+    "group": "gecis",
+    "title": "v15OccupationTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "v15OccupationBody"
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "v15OccupationChoose",
+            "to": "occupation-empty"
+          },
+          {
+            "key": "v15OccupationNotNow",
+            "action": "skip-occupation"
+          }
+        ],
+        "equal": true
+      }
+    ],
+    "notes": "Optional one-time invitation. Equal button treatment. Existing free text is not mapped automatically.",
+    "layout": "onboarding"
+  },
+  {
+    "id": "migration-offline",
+    "group": "gecis",
+    "title": "v15IntroTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "v15IntroBody"
+      },
+      {
+        "type": "notice",
+        "key": "offline",
+        "error": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "checkInRetry",
+            "to": "migration-intro"
+          }
+        ]
+      }
+    ],
+    "notes": "Network failure keeps route and avoids inferred membership.",
+    "layout": "onboarding"
+  },
+  {
+    "id": "settings-one",
+    "group": "ayarlar-topluluk",
+    "title": "communitySettingsTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "communitySettingsHelp"
+      },
+      {
+        "type": "row",
+        "key": "communityOptionNetworking",
+        "community": "Networking",
+        "blocks": [
+          {
+            "type": "tag",
+            "key": "communitySettingsInUse",
+            "community": "Networking"
+          },
+          {
+            "type": "text",
+            "key": "communitySettingsLastOne",
+            "helper": true
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "key": "communityOptionFriendship",
+        "community": "Friendship",
+        "blocks": [
+          {
+            "type": "actions",
+            "items": [
+              {
+                "key": "communitySettingsJoin",
+                "community": "Friendship",
+                "to": "settings-join-confirm"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "communitySettingsLimitRule",
+        "helper": true
+      }
+    ],
+    "notes": "Only own membership. Join/leave/switch count separately in rolling24h; first selection free. No optimistic membership change.",
+    "back": "nearby-networking"
+  },
+  {
+    "id": "settings-both",
+    "group": "ayarlar-topluluk",
+    "title": "communitySettingsTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "communitySettingsHelp"
+      },
+      {
+        "type": "row",
+        "key": "communityOptionNetworking",
+        "community": "Networking",
+        "blocks": [
+          {
+            "type": "tag",
+            "key": "communitySettingsInUse",
+            "community": "Networking"
+          },
+          {
+            "type": "actions",
+            "items": [
+              {
+                "key": "communitySettingsLeave",
+                "community": "Networking",
+                "to": "settings-leave-active"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "key": "communityOptionFriendship",
+        "community": "Friendship",
+        "blocks": [
+          {
+            "type": "actions",
+            "items": [
+              {
+                "key": "communitySwitchConfirm",
+                "to": "settings-switch-confirm"
+              },
+              {
+                "key": "communitySettingsLeave",
+                "community": "Friendship",
+                "to": "settings-leave-inactive"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "communitySettingsLimitRule",
+        "helper": true
+      }
+    ],
+    "notes": "Only own membership. Join/leave/switch count separately in rolling24h; first selection free. No optimistic membership change.",
+    "back": "nearby-networking"
+  },
+  {
+    "id": "settings-checked-in",
+    "group": "ayarlar-topluluk",
+    "title": "communitySettingsTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "communitySettingsHelp"
+      },
+      {
+        "type": "row",
+        "key": "communityOptionNetworking",
+        "community": "Networking",
+        "blocks": [
+          {
+            "type": "tag",
+            "key": "communitySettingsInUse",
+            "community": "Networking"
+          },
+          {
+            "type": "actions",
+            "items": [
+              {
+                "key": "communitySettingsLeave",
+                "community": "Networking",
+                "to": "settings-leave-active"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "key": "communityOptionFriendship",
+        "community": "Friendship",
+        "blocks": [
+          {
+            "type": "actions",
+            "items": [
+              {
+                "key": "communitySwitchConfirm",
+                "to": "settings-switch-confirm"
+              },
+              {
+                "key": "communitySettingsLeave",
+                "community": "Friendship",
+                "to": "settings-leave-inactive"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "communitySettingsLimitRule",
+        "helper": true
+      },
+      {
+        "type": "notice",
+        "key": "communityCheckInEndsNote"
+      }
+    ],
+    "notes": "Only own membership. Join/leave/switch count separately in rolling24h; first selection free. No optimistic membership change.",
+    "back": "nearby-networking"
+  },
+  {
+    "id": "settings-going",
+    "group": "ayarlar-topluluk",
+    "title": "communitySettingsTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "communitySettingsHelp"
+      },
+      {
+        "type": "row",
+        "key": "communityOptionNetworking",
+        "community": "Networking",
+        "blocks": [
+          {
+            "type": "tag",
+            "key": "communitySettingsInUse",
+            "community": "Networking"
+          },
+          {
+            "type": "actions",
+            "items": [
+              {
+                "key": "communitySettingsLeave",
+                "community": "Networking",
+                "to": "settings-leave-active"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "key": "communityOptionFriendship",
+        "community": "Friendship",
+        "blocks": [
+          {
+            "type": "actions",
+            "items": [
+              {
+                "key": "communitySwitchConfirm",
+                "to": "settings-switch-confirm"
+              },
+              {
+                "key": "communitySettingsLeave",
+                "community": "Friendship",
+                "to": "settings-leave-inactive"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "communitySettingsLimitRule",
+        "helper": true
+      },
+      {
+        "type": "notice",
+        "key": "communityCheckInEndsNote"
+      },
+      {
+        "type": "text",
+        "key": "communitySwitchGoingNote",
+        "helper": true
+      }
+    ],
+    "notes": "Only own membership. Join/leave/switch count separately in rolling24h; first selection free. No optimistic membership change.",
+    "back": "nearby-networking"
+  },
+  {
+    "id": "settings-limit",
+    "group": "ayarlar-topluluk",
+    "title": "communitySettingsTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "communitySettingsHelp"
+      },
+      {
+        "type": "row",
+        "key": "communityOptionNetworking",
+        "community": "Networking",
+        "blocks": [
+          {
+            "type": "tag",
+            "key": "communitySettingsInUse",
+            "community": "Networking"
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "key": "communityOptionFriendship",
+        "community": "Friendship",
+        "blocks": []
+      },
+      {
+        "type": "text",
+        "key": "communitySettingsLimitRule",
+        "helper": true
+      },
+      {
+        "type": "notice",
+        "key": "communitySwitchLimitReached"
+      }
+    ],
+    "notes": "Only own membership. Join/leave/switch count separately in rolling24h; first selection free. No optimistic membership change.",
+    "back": "nearby-networking"
+  },
+  {
+    "id": "settings-last-one",
+    "group": "ayarlar-topluluk",
+    "title": "communitySettingsTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "communitySettingsHelp"
+      },
+      {
+        "type": "row",
+        "key": "communityOptionNetworking",
+        "community": "Networking",
+        "blocks": [
+          {
+            "type": "tag",
+            "key": "communitySettingsInUse",
+            "community": "Networking"
+          },
+          {
+            "type": "text",
+            "key": "communitySettingsLastOne",
+            "helper": true
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "key": "communityOptionFriendship",
+        "community": "Friendship",
+        "blocks": [
+          {
+            "type": "actions",
+            "items": [
+              {
+                "key": "communitySettingsJoin",
+                "community": "Friendship",
+                "to": "settings-join-confirm"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "communitySettingsLimitRule",
+        "helper": true
+      }
+    ],
+    "notes": "Only own membership. Join/leave/switch count separately in rolling24h; first selection free. No optimistic membership change.",
+    "back": "nearby-networking"
+  },
+  {
+    "id": "settings-failed",
+    "group": "ayarlar-topluluk",
+    "title": "communitySettingsTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "communitySettingsHelp"
+      },
+      {
+        "type": "row",
+        "key": "communityOptionNetworking",
+        "community": "Networking",
+        "blocks": [
+          {
+            "type": "tag",
+            "key": "communitySettingsInUse",
+            "community": "Networking"
+          },
+          {
+            "type": "actions",
+            "items": [
+              {
+                "key": "communitySettingsLeave",
+                "community": "Networking",
+                "to": "settings-leave-active"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "key": "communityOptionFriendship",
+        "community": "Friendship",
+        "blocks": [
+          {
+            "type": "actions",
+            "items": [
+              {
+                "key": "communitySwitchConfirm",
+                "to": "settings-switch-confirm"
+              },
+              {
+                "key": "communitySettingsLeave",
+                "community": "Friendship",
+                "to": "settings-leave-inactive"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "communitySettingsLimitRule",
+        "helper": true
+      },
+      {
+        "type": "notice",
+        "key": "communitySettingsChangeFailed",
+        "error": true
+      }
+    ],
+    "notes": "Only own membership. Join/leave/switch count separately in rolling24h; first selection free. No optimistic membership change.",
+    "back": "nearby-networking"
+  },
+  {
+    "id": "settings-switch-done",
+    "group": "ayarlar-topluluk",
+    "title": "communitySettingsTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "communitySettingsHelp"
+      },
+      {
+        "type": "row",
+        "key": "communityOptionNetworking",
+        "community": "Networking",
+        "blocks": [
+          {
+            "type": "actions",
+            "items": [
+              {
+                "key": "communitySwitchConfirm",
+                "to": "settings-switch-confirm"
+              },
+              {
+                "key": "communitySettingsLeave",
+                "community": "Networking",
+                "to": "settings-leave-inactive"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "key": "communityOptionFriendship",
+        "community": "Friendship",
+        "blocks": [
+          {
+            "type": "tag",
+            "key": "communitySettingsInUse",
+            "community": "Friendship"
+          },
+          {
+            "type": "actions",
+            "items": [
+              {
+                "key": "communitySettingsLeave",
+                "community": "Friendship",
+                "to": "settings-leave-active"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "communitySettingsLimitRule",
+        "helper": true
+      },
+      {
+        "type": "notice",
+        "key": "communitySwitchDone",
+        "community": "Friendship"
+      }
+    ],
+    "notes": "Only own membership. Join/leave/switch count separately in rolling24h; first selection free. Server acknowledgement received.",
+    "back": "nearby-networking"
+  },
+  {
+    "id": "settings-join-done",
+    "group": "ayarlar-topluluk",
+    "title": "communitySettingsTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "communitySettingsHelp"
+      },
+      {
+        "type": "row",
+        "key": "communityOptionNetworking",
+        "community": "Networking",
+        "blocks": [
+          {
+            "type": "tag",
+            "key": "communitySettingsInUse",
+            "community": "Networking"
+          },
+          {
+            "type": "actions",
+            "items": [
+              {
+                "key": "communitySettingsLeave",
+                "community": "Networking",
+                "to": "settings-leave-active"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "key": "communityOptionFriendship",
+        "community": "Friendship",
+        "blocks": [
+          {
+            "type": "actions",
+            "items": [
+              {
+                "key": "communitySwitchConfirm",
+                "to": "settings-switch-confirm"
+              },
+              {
+                "key": "communitySettingsLeave",
+                "community": "Friendship",
+                "to": "settings-leave-inactive"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "communitySettingsLimitRule",
+        "helper": true
+      },
+      {
+        "type": "notice",
+        "key": "communitySettingsJoined",
+        "community": "Friendship"
+      }
+    ],
+    "notes": "Only own membership. Join/leave/switch count separately in rolling24h; first selection free. Server acknowledgement received.",
+    "back": "nearby-networking"
+  },
+  {
+    "id": "settings-leave-done",
+    "group": "ayarlar-topluluk",
+    "title": "communitySettingsTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "communitySettingsHelp"
+      },
+      {
+        "type": "row",
+        "key": "communityOptionNetworking",
+        "community": "Networking",
+        "blocks": [
+          {
+            "type": "tag",
+            "key": "communitySettingsInUse",
+            "community": "Networking"
+          },
+          {
+            "type": "text",
+            "key": "communitySettingsLastOne",
+            "helper": true
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "key": "communityOptionFriendship",
+        "community": "Friendship",
+        "blocks": [
+          {
+            "type": "actions",
+            "items": [
+              {
+                "key": "communitySettingsJoin",
+                "community": "Friendship",
+                "to": "settings-join-confirm"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "communitySettingsLimitRule",
+        "helper": true
+      },
+      {
+        "type": "notice",
+        "key": "communitySettingsLeft",
+        "community": "Friendship"
+      }
+    ],
+    "notes": "Only own membership. Join/leave/switch count separately in rolling24h; first selection free. Server acknowledgement received.",
+    "back": "nearby-networking"
+  },
+  {
+    "id": "settings-switch-confirm",
+    "group": "ayarlar-topluluk",
+    "title": "communitySwitchTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "communitySwitchBody",
+        "community": "Friendship"
+      },
+      {
+        "type": "text",
+        "key": "communitySwitchRemaining",
+        "params": {
+          "remaining": 2
+        },
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "communitySwitchConfirm",
+            "primary": true,
+            "to": "settings-switching"
+          },
+          {
+            "key": "cancel",
+            "to": "settings-both"
+          }
+        ]
+      }
+    ],
+    "notes": "Confirmation before mutation. Inactive leave/join does not change active community or end check-in. Active leave order: active note, check-in, Going, leave body, remaining. No reset time or countdown.",
+    "community": "Friendship",
+    "other": "Friendship",
+    "layout": "dialog"
+  },
+  {
+    "id": "settings-switch-checkin",
+    "group": "ayarlar-topluluk",
+    "title": "communitySwitchTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "communitySwitchBodyCheckedIn",
+        "community": "Friendship"
+      },
+      {
+        "type": "text",
+        "key": "communitySwitchRemaining",
+        "params": {
+          "remaining": 2
+        },
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "communitySwitchConfirm",
+            "primary": true,
+            "to": "settings-switching"
+          },
+          {
+            "key": "cancel",
+            "to": "settings-both"
+          }
+        ]
+      }
+    ],
+    "notes": "Confirmation before mutation. Inactive leave/join does not change active community or end check-in. Active leave order: active note, check-in, Going, leave body, remaining. No reset time or countdown.",
+    "community": "Friendship",
+    "other": "Friendship",
+    "layout": "dialog"
+  },
+  {
+    "id": "settings-switch-going",
+    "group": "ayarlar-topluluk",
+    "title": "communitySwitchTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "communitySwitchBodyCheckedIn",
+        "community": "Friendship"
+      },
+      {
+        "type": "text",
+        "key": "communitySwitchGoingNote",
+        "helper": true
+      },
+      {
+        "type": "text",
+        "key": "communitySwitchRemaining",
+        "params": {
+          "remaining": 2
+        },
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "communitySwitchConfirm",
+            "primary": true,
+            "to": "settings-switching"
+          },
+          {
+            "key": "cancel",
+            "to": "settings-both"
+          }
+        ]
+      }
+    ],
+    "notes": "Confirmation before mutation. Inactive leave/join does not change active community or end check-in. Active leave order: active note, check-in, Going, leave body, remaining. No reset time or countdown.",
+    "community": "Friendship",
+    "other": "Friendship",
+    "layout": "dialog"
+  },
+  {
+    "id": "settings-join-confirm",
+    "group": "ayarlar-topluluk",
+    "title": "communitySettingsJoinTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "communitySettingsJoinBody"
+      },
+      {
+        "type": "text",
+        "key": "communitySwitchRemaining",
+        "params": {
+          "remaining": 2
+        },
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "communitySettingsJoinConfirm",
+            "primary": true,
+            "to": "settings-joining"
+          },
+          {
+            "key": "cancel",
+            "to": "settings-both"
+          }
+        ]
+      }
+    ],
+    "notes": "Confirmation before mutation. Inactive leave/join does not change active community or end check-in. Active leave order: active note, check-in, Going, leave body, remaining. No reset time or countdown.",
+    "community": "Friendship",
+    "other": "Friendship",
+    "layout": "dialog"
+  },
+  {
+    "id": "settings-leave-inactive",
+    "group": "ayarlar-topluluk",
+    "title": "communitySettingsLeaveTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "communitySettingsLeaveBody",
+        "community": "Friendship"
+      },
+      {
+        "type": "text",
+        "key": "communitySwitchRemaining",
+        "params": {
+          "remaining": 2
+        },
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "communitySettingsLeaveConfirm",
+            "primary": true,
+            "to": "settings-leaving"
+          },
+          {
+            "key": "cancel",
+            "to": "settings-both"
+          }
+        ]
+      }
+    ],
+    "notes": "Confirmation before mutation. Inactive leave/join does not change active community or end check-in. Active leave order: active note, check-in, Going, leave body, remaining. No reset time or countdown.",
+    "community": "Friendship",
+    "other": "Friendship",
+    "layout": "dialog"
+  },
+  {
+    "id": "settings-leave-active",
+    "group": "ayarlar-topluluk",
+    "title": "communitySettingsLeaveTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "communitySettingsLeaveActiveNote",
+        "community": "Networking",
+        "other": "Friendship"
+      },
+      {
+        "type": "notice",
+        "key": "communityCheckInEndsNote"
+      },
+      {
+        "type": "text",
+        "key": "communitySettingsLeaveBody",
+        "community": "Networking"
+      },
+      {
+        "type": "text",
+        "key": "communitySwitchRemaining",
+        "params": {
+          "remaining": 2
+        },
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "communitySettingsLeaveConfirm",
+            "primary": true,
+            "to": "settings-leaving"
+          },
+          {
+            "key": "cancel",
+            "to": "settings-both"
+          }
+        ]
+      }
+    ],
+    "notes": "Confirmation before mutation. Inactive leave/join does not change active community or end check-in. Active leave order: active note, check-in, Going, leave body, remaining. No reset time or countdown.",
+    "community": "Networking",
+    "other": "Friendship",
+    "layout": "dialog"
+  },
+  {
+    "id": "settings-leave-active-going",
+    "group": "ayarlar-topluluk",
+    "title": "communitySettingsLeaveTitle",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "communitySettingsLeaveActiveNote",
+        "community": "Networking",
+        "other": "Friendship"
+      },
+      {
+        "type": "notice",
+        "key": "communityCheckInEndsNote"
+      },
+      {
+        "type": "text",
+        "key": "communitySwitchGoingNote",
+        "helper": true
+      },
+      {
+        "type": "text",
+        "key": "communitySettingsLeaveBody",
+        "community": "Networking"
+      },
+      {
+        "type": "text",
+        "key": "communitySwitchRemaining",
+        "params": {
+          "remaining": 2
+        },
+        "helper": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "communitySettingsLeaveConfirm",
+            "primary": true,
+            "to": "settings-leaving"
+          },
+          {
+            "key": "cancel",
+            "to": "settings-both"
+          }
+        ]
+      }
+    ],
+    "notes": "Confirmation before mutation. Inactive leave/join does not change active community or end check-in. Active leave order: active note, check-in, Going, leave body, remaining. No reset time or countdown.",
+    "community": "Networking",
+    "other": "Friendship",
+    "layout": "dialog"
+  },
+  {
+    "id": "settings-joining",
+    "group": "ayarlar-topluluk",
+    "title": "communitySettingsTitle",
+    "blocks": [
+      {
+        "type": "notice",
+        "key": "communitySwitching",
+        "busy": true
+      },
+      {
+        "type": "text",
+        "key": "communitySettingsLimitRule",
+        "helper": true
+      }
+    ],
+    "notes": "Pending server response, no premature success. Controls replaced by status; completion restores action availability.",
+    "layout": "dialog",
+    "ack": "settings-join-done",
+    "reject": "settings-failed"
+  },
+  {
+    "id": "settings-leaving",
+    "group": "ayarlar-topluluk",
+    "title": "communitySettingsTitle",
+    "blocks": [
+      {
+        "type": "notice",
+        "key": "communitySwitching",
+        "busy": true
+      },
+      {
+        "type": "text",
+        "key": "communitySettingsLimitRule",
+        "helper": true
+      }
+    ],
+    "notes": "Pending server response, no premature success. Controls replaced by status; completion restores action availability.",
+    "layout": "dialog",
+    "ack": "settings-leave-done",
+    "reject": "settings-failed"
+  },
+  {
+    "id": "settings-switching",
+    "group": "ayarlar-topluluk",
+    "title": "communitySettingsTitle",
+    "blocks": [
+      {
+        "type": "notice",
+        "key": "communitySwitching",
+        "busy": true
+      },
+      {
+        "type": "text",
+        "key": "communitySettingsLimitRule",
+        "helper": true
+      }
+    ],
+    "notes": "Pending server response, no premature success. Controls replaced by status; completion restores action availability.",
+    "layout": "dialog",
+    "ack": "settings-switch-done",
+    "reject": "settings-failed"
+  },
+  {
+    "id": "nearby-networking",
+    "group": "secici",
+    "title": "nearbyPeople",
+    "blocks": [
+      {
+        "type": "community",
+        "community": "Networking"
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "nearbyFilters",
+            "icon": "filter",
+            "to": "filters-options"
+          }
+        ]
+      },
+      {
+        "type": "person",
+        "name": "Maya",
+        "blocks": []
+      }
+    ],
+    "notes": "Indicator only: opens Settings → Communities. Single community is also actionable. Other person community label absent. Switching removes old content before new load.",
+    "nav": "Nearby"
+  },
+  {
+    "id": "nearby-friendship",
+    "group": "secici",
+    "title": "nearbyPeople",
+    "blocks": [
+      {
+        "type": "community",
+        "community": "Friendship"
+      },
+      {
+        "type": "person",
+        "name": "Maya",
+        "blocks": []
+      }
+    ],
+    "notes": "Indicator only: opens Settings → Communities. Single community is also actionable. Other person community label absent. Switching removes old content before new load.",
+    "nav": "Nearby"
+  },
+  {
+    "id": "nearby-single",
+    "group": "secici",
+    "title": "nearbyPeople",
+    "blocks": [
+      {
+        "type": "community",
+        "community": "Networking"
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "nearbyFilters",
+            "icon": "filter",
+            "to": "filters-options"
+          }
+        ]
+      },
+      {
+        "type": "person",
+        "name": "Maya",
+        "blocks": []
+      }
+    ],
+    "notes": "Indicator only: opens Settings → Communities. Single community is also actionable. Other person community label absent. Switching removes old content before new load.",
+    "nav": "Nearby"
+  },
+  {
+    "id": "nearby-loading",
+    "group": "secici",
+    "title": "nearbyPeople",
+    "blocks": [
+      {
+        "type": "community",
+        "community": "Networking"
+      },
+      {
+        "type": "notice",
+        "key": "nearbyLoading",
+        "busy": true
+      }
+    ],
+    "notes": "Indicator only: opens Settings → Communities. Single community is also actionable. Other person community label absent. Switching removes old content before new load.",
+    "nav": "Nearby"
+  },
+  {
+    "id": "nearby-empty",
+    "group": "secici",
+    "title": "nearbyPeople",
+    "blocks": [
+      {
+        "type": "community",
+        "community": "Networking"
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "nearbyFilters",
+            "icon": "filter",
+            "to": "filters-options"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "nearbyEmpty"
+      }
+    ],
+    "notes": "Indicator only: opens Settings → Communities. Single community is also actionable. Other person community label absent. Switching removes old content before new load.",
+    "nav": "Nearby"
+  },
+  {
+    "id": "nearby-failed",
+    "group": "secici",
+    "title": "nearbyPeople",
+    "blocks": [
+      {
+        "type": "community",
+        "community": "Networking"
+      },
+      {
+        "type": "notice",
+        "key": "nearbyFailed",
+        "error": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "checkInRetry",
+            "to": "nearby-loading"
+          }
+        ]
+      }
+    ],
+    "notes": "Indicator only: opens Settings → Communities. Single community is also actionable. Other person community label absent. Switching removes old content before new load.",
+    "nav": "Nearby"
+  },
+  {
+    "id": "nearby-offline",
+    "group": "secici",
+    "title": "nearbyPeople",
+    "blocks": [
+      {
+        "type": "community",
+        "community": "Networking"
+      },
+      {
+        "type": "notice",
+        "key": "nearbyOffline",
+        "error": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "checkInRetry",
+            "to": "nearby-loading"
+          }
+        ]
+      }
+    ],
+    "notes": "Indicator only: opens Settings → Communities. Single community is also actionable. Other person community label absent. Switching removes old content before new load.",
+    "nav": "Nearby"
+  },
+  {
+    "id": "map-networking",
+    "group": "secici",
+    "title": "mapOpen",
+    "blocks": [
+      {
+        "type": "map",
+        "empty": false
+      },
+      {
+        "type": "maptools",
+        "community": "Networking"
+      },
+      {
+        "type": "text",
+        "key": "mapBody",
+        "helper": true
+      }
+    ],
+    "notes": "Full-area map. Own community pill top-left and Show my area top-right, attribution separate above bottom nav. K=2 suppression empty result; no inference about people. Geometry is a fictional design fixture; no precise locations.",
+    "layout": "map",
+    "nav": "Nearby"
+  },
+  {
+    "id": "map-friendship",
+    "group": "secici",
+    "title": "mapOpen",
+    "blocks": [
+      {
+        "type": "map",
+        "empty": false
+      },
+      {
+        "type": "maptools",
+        "community": "Friendship"
+      },
+      {
+        "type": "text",
+        "key": "mapBody",
+        "helper": true
+      }
+    ],
+    "notes": "Full-area map. Own community pill top-left and Show my area top-right, attribution separate above bottom nav. K=2 suppression empty result; no inference about people. Geometry is a fictional design fixture; no precise locations.",
+    "layout": "map",
+    "nav": "Nearby"
+  },
+  {
+    "id": "map-single",
+    "group": "secici",
+    "title": "mapOpen",
+    "blocks": [
+      {
+        "type": "map",
+        "empty": false
+      },
+      {
+        "type": "maptools",
+        "community": "Networking"
+      },
+      {
+        "type": "text",
+        "key": "mapBody",
+        "helper": true
+      }
+    ],
+    "notes": "Full-area map. Own community pill top-left and Show my area top-right, attribution separate above bottom nav. K=2 suppression empty result; no inference about people. Geometry is a fictional design fixture; no precise locations.",
+    "layout": "map",
+    "nav": "Nearby"
+  },
+  {
+    "id": "map-empty",
+    "group": "secici",
+    "title": "mapOpen",
+    "blocks": [
+      {
+        "type": "map",
+        "empty": true
+      },
+      {
+        "type": "maptools",
+        "community": "Networking"
+      },
+      {
+        "type": "text",
+        "key": "mapNoActivity",
+        "helper": true
+      },
+      {
+        "type": "text",
+        "key": "mapBody",
+        "helper": true
+      }
+    ],
+    "notes": "Full-area map. Own community pill top-left and Show my area top-right, attribution separate above bottom nav. K=2 suppression empty result; no inference about people. Geometry is a fictional design fixture; no precise locations.",
+    "layout": "map",
+    "nav": "Nearby"
+  },
+  {
+    "id": "map-loading",
+    "group": "secici",
+    "title": "mapOpen",
+    "blocks": [
+      {
+        "type": "map",
+        "empty": true
+      },
+      {
+        "type": "maptools",
+        "community": "Networking"
+      },
+      {
+        "type": "notice",
+        "key": "mapLoading",
+        "busy": true
+      },
+      {
+        "type": "text",
+        "key": "mapBody",
+        "helper": true
+      }
+    ],
+    "notes": "Full-area map. Own community pill top-left and Show my area top-right, attribution separate above bottom nav. K=2 suppression empty result; no inference about people. Geometry is a fictional design fixture; no precise locations.",
+    "layout": "map",
+    "nav": "Nearby"
+  },
+  {
+    "id": "map-failed",
+    "group": "secici",
+    "title": "mapOpen",
+    "blocks": [
+      {
+        "type": "map",
+        "empty": true
+      },
+      {
+        "type": "maptools",
+        "community": "Networking"
+      },
+      {
+        "type": "notice",
+        "key": "mapUnavailable",
+        "error": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "checkInRetry",
+            "to": "map-loading"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "mapBody",
+        "helper": true
+      }
+    ],
+    "notes": "Full-area map. Own community pill top-left and Show my area top-right, attribution separate above bottom nav. K=2 suppression empty result; no inference about people. Geometry is a fictional design fixture; no precise locations.",
+    "layout": "map",
+    "nav": "Nearby"
+  },
+  {
+    "id": "map-offline",
+    "group": "secici",
+    "title": "mapOpen",
+    "blocks": [
+      {
+        "type": "map",
+        "empty": true
+      },
+      {
+        "type": "maptools",
+        "community": "Networking"
+      },
+      {
+        "type": "notice",
+        "key": "mapOffline",
+        "error": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "checkInRetry",
+            "to": "map-loading"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "key": "mapBody",
+        "helper": true
+      }
+    ],
+    "notes": "Full-area map. Own community pill top-left and Show my area top-right, attribution separate above bottom nav. K=2 suppression empty result; no inference about people. Geometry is a fictional design fixture; no precise locations.",
+    "layout": "map",
+    "nav": "Nearby"
+  },
+  {
+    "id": "events-community",
+    "group": "secici",
+    "title": "navEvents",
+    "blocks": [
+      {
+        "type": "community",
+        "community": "Networking"
+      },
+      {
+        "type": "text",
+        "key": "eventsV1EmptyTitle"
+      },
+      {
+        "type": "text",
+        "key": "eventsV1EmptyBody"
+      }
+    ],
+    "notes": "Own active community indicator opens Settings; Events-specific approved empty state.",
+    "nav": "Events"
+  },
+  {
+    "id": "connection-networking",
+    "group": "secici",
+    "title": "messagesConnections",
+    "blocks": [
+      {
+        "type": "person",
+        "name": "Maya",
+        "blocks": [
+          {
+            "type": "tag",
+            "key": "connectionCommunityBadge",
+            "community": "Networking"
+          }
+        ]
+      }
+    ],
+    "notes": "Historical connection community from the connection record only. Not the other person’s current membership.",
+    "nav": "Messages"
+  },
+  {
+    "id": "connection-friendship",
+    "group": "secici",
+    "title": "messagesConnections",
+    "blocks": [
+      {
+        "type": "person",
+        "name": "Maya",
+        "blocks": [
+          {
+            "type": "tag",
+            "key": "connectionCommunityBadge",
+            "community": "Friendship"
+          }
+        ]
+      }
+    ],
+    "notes": "Historical connection community from the connection record only. Not the other person’s current membership.",
+    "nav": "Messages"
   }
 ]

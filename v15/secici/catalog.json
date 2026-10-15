@@ -1,0 +1,438 @@
+{
+  "theme": "2.3",
+  "states": [
+    {
+      "id": "nearby-networking",
+      "group": "secici",
+      "title": "nearbyPeople",
+      "blocks": [
+        {
+          "type": "community",
+          "community": "Networking"
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "nearbyFilters",
+              "icon": "filter",
+              "to": "filters-options"
+            }
+          ]
+        },
+        {
+          "type": "person",
+          "name": "Maya",
+          "blocks": []
+        }
+      ],
+      "notes": "Indicator only: opens Settings → Communities. Single community is also actionable. Other person community label absent. Switching removes old content before new load.",
+      "nav": "Nearby"
+    },
+    {
+      "id": "nearby-friendship",
+      "group": "secici",
+      "title": "nearbyPeople",
+      "blocks": [
+        {
+          "type": "community",
+          "community": "Friendship"
+        },
+        {
+          "type": "person",
+          "name": "Maya",
+          "blocks": []
+        }
+      ],
+      "notes": "Indicator only: opens Settings → Communities. Single community is also actionable. Other person community label absent. Switching removes old content before new load.",
+      "nav": "Nearby"
+    },
+    {
+      "id": "nearby-single",
+      "group": "secici",
+      "title": "nearbyPeople",
+      "blocks": [
+        {
+          "type": "community",
+          "community": "Networking"
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "nearbyFilters",
+              "icon": "filter",
+              "to": "filters-options"
+            }
+          ]
+        },
+        {
+          "type": "person",
+          "name": "Maya",
+          "blocks": []
+        }
+      ],
+      "notes": "Indicator only: opens Settings → Communities. Single community is also actionable. Other person community label absent. Switching removes old content before new load.",
+      "nav": "Nearby"
+    },
+    {
+      "id": "nearby-loading",
+      "group": "secici",
+      "title": "nearbyPeople",
+      "blocks": [
+        {
+          "type": "community",
+          "community": "Networking"
+        },
+        {
+          "type": "notice",
+          "key": "nearbyLoading",
+          "busy": true
+        }
+      ],
+      "notes": "Indicator only: opens Settings → Communities. Single community is also actionable. Other person community label absent. Switching removes old content before new load.",
+      "nav": "Nearby"
+    },
+    {
+      "id": "nearby-empty",
+      "group": "secici",
+      "title": "nearbyPeople",
+      "blocks": [
+        {
+          "type": "community",
+          "community": "Networking"
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "nearbyFilters",
+              "icon": "filter",
+              "to": "filters-options"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "nearbyEmpty"
+        }
+      ],
+      "notes": "Indicator only: opens Settings → Communities. Single community is also actionable. Other person community label absent. Switching removes old content before new load.",
+      "nav": "Nearby"
+    },
+    {
+      "id": "nearby-failed",
+      "group": "secici",
+      "title": "nearbyPeople",
+      "blocks": [
+        {
+          "type": "community",
+          "community": "Networking"
+        },
+        {
+          "type": "notice",
+          "key": "nearbyFailed",
+          "error": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "checkInRetry",
+              "to": "nearby-loading"
+            }
+          ]
+        }
+      ],
+      "notes": "Indicator only: opens Settings → Communities. Single community is also actionable. Other person community label absent. Switching removes old content before new load.",
+      "nav": "Nearby"
+    },
+    {
+      "id": "nearby-offline",
+      "group": "secici",
+      "title": "nearbyPeople",
+      "blocks": [
+        {
+          "type": "community",
+          "community": "Networking"
+        },
+        {
+          "type": "notice",
+          "key": "nearbyOffline",
+          "error": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "checkInRetry",
+              "to": "nearby-loading"
+            }
+          ]
+        }
+      ],
+      "notes": "Indicator only: opens Settings → Communities. Single community is also actionable. Other person community label absent. Switching removes old content before new load.",
+      "nav": "Nearby"
+    },
+    {
+      "id": "map-networking",
+      "group": "secici",
+      "title": "mapOpen",
+      "blocks": [
+        {
+          "type": "map",
+          "empty": false
+        },
+        {
+          "type": "maptools",
+          "community": "Networking"
+        },
+        {
+          "type": "text",
+          "key": "mapBody",
+          "helper": true
+        }
+      ],
+      "notes": "Full-area map. Own community pill top-left and Show my area top-right, attribution separate above bottom nav. K=2 suppression empty result; no inference about people. Geometry is a fictional design fixture; no precise locations.",
+      "layout": "map",
+      "nav": "Nearby"
+    },
+    {
+      "id": "map-friendship",
+      "group": "secici",
+      "title": "mapOpen",
+      "blocks": [
+        {
+          "type": "map",
+          "empty": false
+        },
+        {
+          "type": "maptools",
+          "community": "Friendship"
+        },
+        {
+          "type": "text",
+          "key": "mapBody",
+          "helper": true
+        }
+      ],
+      "notes": "Full-area map. Own community pill top-left and Show my area top-right, attribution separate above bottom nav. K=2 suppression empty result; no inference about people. Geometry is a fictional design fixture; no precise locations.",
+      "layout": "map",
+      "nav": "Nearby"
+    },
+    {
+      "id": "map-single",
+      "group": "secici",
+      "title": "mapOpen",
+      "blocks": [
+        {
+          "type": "map",
+          "empty": false
+        },
+        {
+          "type": "maptools",
+          "community": "Networking"
+        },
+        {
+          "type": "text",
+          "key": "mapBody",
+          "helper": true
+        }
+      ],
+      "notes": "Full-area map. Own community pill top-left and Show my area top-right, attribution separate above bottom nav. K=2 suppression empty result; no inference about people. Geometry is a fictional design fixture; no precise locations.",
+      "layout": "map",
+      "nav": "Nearby"
+    },
+    {
+      "id": "map-empty",
+      "group": "secici",
+      "title": "mapOpen",
+      "blocks": [
+        {
+          "type": "map",
+          "empty": true
+        },
+        {
+          "type": "maptools",
+          "community": "Networking"
+        },
+        {
+          "type": "text",
+          "key": "mapNoActivity",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "mapBody",
+          "helper": true
+        }
+      ],
+      "notes": "Full-area map. Own community pill top-left and Show my area top-right, attribution separate above bottom nav. K=2 suppression empty result; no inference about people. Geometry is a fictional design fixture; no precise locations.",
+      "layout": "map",
+      "nav": "Nearby"
+    },
+    {
+      "id": "map-loading",
+      "group": "secici",
+      "title": "mapOpen",
+      "blocks": [
+        {
+          "type": "map",
+          "empty": true
+        },
+        {
+          "type": "maptools",
+          "community": "Networking"
+        },
+        {
+          "type": "notice",
+          "key": "mapLoading",
+          "busy": true
+        },
+        {
+          "type": "text",
+          "key": "mapBody",
+          "helper": true
+        }
+      ],
+      "notes": "Full-area map. Own community pill top-left and Show my area top-right, attribution separate above bottom nav. K=2 suppression empty result; no inference about people. Geometry is a fictional design fixture; no precise locations.",
+      "layout": "map",
+      "nav": "Nearby"
+    },
+    {
+      "id": "map-failed",
+      "group": "secici",
+      "title": "mapOpen",
+      "blocks": [
+        {
+          "type": "map",
+          "empty": true
+        },
+        {
+          "type": "maptools",
+          "community": "Networking"
+        },
+        {
+          "type": "notice",
+          "key": "mapUnavailable",
+          "error": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "checkInRetry",
+              "to": "map-loading"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "mapBody",
+          "helper": true
+        }
+      ],
+      "notes": "Full-area map. Own community pill top-left and Show my area top-right, attribution separate above bottom nav. K=2 suppression empty result; no inference about people. Geometry is a fictional design fixture; no precise locations.",
+      "layout": "map",
+      "nav": "Nearby"
+    },
+    {
+      "id": "map-offline",
+      "group": "secici",
+      "title": "mapOpen",
+      "blocks": [
+        {
+          "type": "map",
+          "empty": true
+        },
+        {
+          "type": "maptools",
+          "community": "Networking"
+        },
+        {
+          "type": "notice",
+          "key": "mapOffline",
+          "error": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "checkInRetry",
+              "to": "map-loading"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "mapBody",
+          "helper": true
+        }
+      ],
+      "notes": "Full-area map. Own community pill top-left and Show my area top-right, attribution separate above bottom nav. K=2 suppression empty result; no inference about people. Geometry is a fictional design fixture; no precise locations.",
+      "layout": "map",
+      "nav": "Nearby"
+    },
+    {
+      "id": "events-community",
+      "group": "secici",
+      "title": "navEvents",
+      "blocks": [
+        {
+          "type": "community",
+          "community": "Networking"
+        },
+        {
+          "type": "text",
+          "key": "eventsV1EmptyTitle"
+        },
+        {
+          "type": "text",
+          "key": "eventsV1EmptyBody"
+        }
+      ],
+      "notes": "Own active community indicator opens Settings; Events-specific approved empty state.",
+      "nav": "Events"
+    },
+    {
+      "id": "connection-networking",
+      "group": "secici",
+      "title": "messagesConnections",
+      "blocks": [
+        {
+          "type": "person",
+          "name": "Maya",
+          "blocks": [
+            {
+              "type": "tag",
+              "key": "connectionCommunityBadge",
+              "community": "Networking"
+            }
+          ]
+        }
+      ],
+      "notes": "Historical connection community from the connection record only. Not the other person’s current membership.",
+      "nav": "Messages"
+    },
+    {
+      "id": "connection-friendship",
+      "group": "secici",
+      "title": "messagesConnections",
+      "blocks": [
+        {
+          "type": "person",
+          "name": "Maya",
+          "blocks": [
+            {
+              "type": "tag",
+              "key": "connectionCommunityBadge",
+              "community": "Friendship"
+            }
+          ]
+        }
+      ],
+      "notes": "Historical connection community from the connection record only. Not the other person’s current membership.",
+      "nav": "Messages"
+    }
+  ]
+}

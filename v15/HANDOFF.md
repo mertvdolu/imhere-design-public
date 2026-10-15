@@ -7,5 +7,9 @@ Okuma: README → grupSPEC → ONIZLEME → COPY-REVIEW → VALIDATION → MANIF
 HB-37 dosyası r5 olarak güncellenmiş: 3 LinkedIn değeri §14.1’den AYNEN. METİN-EKİ BEKLİYOR durumu kaynakta kapanmış; ek söz uydurulmadı.
 
 - [d0](d0/HANDOFF.md)
+- [topluluk-kayit](topluluk-kayit/HANDOFF.md)
+- [gecis](gecis/HANDOFF.md)
+- [ayarlar-topluluk](ayarlar-topluluk/HANDOFF.md)
+- [secici](secici/HANDOFF.md)
 
 Tasarım, native uygulama/test/yayın değildir. Main birleşimi, deploy veya mağaza işlemi yok.

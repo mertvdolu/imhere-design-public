@@ -1,0 +1,419 @@
+{
+  "status": "APPROVED COPY — HB-37 r5 / existing approved reuse; UI decisions proposed ★",
+  "entries": [
+    {
+      "key": "cancel",
+      "en": "Cancel",
+      "tr": "Vazgeç",
+      "source": "v2.3 release8-approved-patch",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-switch-confirm",
+        "settings-switch-checkin",
+        "settings-switch-going",
+        "settings-join-confirm",
+        "settings-leave-inactive",
+        "settings-leave-active",
+        "settings-leave-active-going"
+      ]
+    },
+    {
+      "key": "communityCheckInEndsNote",
+      "en": "Your current check-in will end.",
+      "tr": "Şu anki check-in’in biter.",
+      "source": "HB-37 r5 line 238",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-checked-in",
+        "settings-going",
+        "settings-leave-active",
+        "settings-leave-active-going"
+      ]
+    },
+    {
+      "key": "communityOptionFriendship",
+      "en": "Friendship",
+      "tr": "Arkadaşlık",
+      "source": "HB-37 r5 line 28",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-one",
+        "settings-both",
+        "settings-checked-in",
+        "settings-going",
+        "settings-limit",
+        "settings-last-one",
+        "settings-failed",
+        "settings-switch-done",
+        "settings-join-done",
+        "settings-leave-done"
+      ]
+    },
+    {
+      "key": "communityOptionNetworking",
+      "en": "Networking",
+      "tr": "Networking",
+      "source": "HB-37 r5 line 26",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-one",
+        "settings-both",
+        "settings-checked-in",
+        "settings-going",
+        "settings-limit",
+        "settings-last-one",
+        "settings-failed",
+        "settings-switch-done",
+        "settings-join-done",
+        "settings-leave-done"
+      ]
+    },
+    {
+      "key": "communitySettingsChangeFailed",
+      "en": "This couldn’t be changed. Try again.",
+      "tr": "Bu değiştirilemedi. Tekrar dene.",
+      "source": "HB-37 r5 line 241",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-failed"
+      ]
+    },
+    {
+      "key": "communitySettingsHelp",
+      "en": "You only see, and are seen by, people in the community you’re using. People in one community aren’t told whether you’ve also joined the other.",
+      "tr": "Yalnız kullandığın topluluktaki kişileri görürsün, onlar da seni görür. Bir topluluktaki kişilere diğerine de katılıp katılmadığın söylenmez.",
+      "source": "HB-37 r5 line 50",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-one",
+        "settings-both",
+        "settings-checked-in",
+        "settings-going",
+        "settings-limit",
+        "settings-last-one",
+        "settings-failed",
+        "settings-switch-done",
+        "settings-join-done",
+        "settings-leave-done"
+      ]
+    },
+    {
+      "key": "communitySettingsInUse",
+      "en": "In use",
+      "tr": "Kullanılıyor",
+      "source": "HB-37 r5 line 229",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-one",
+        "settings-both",
+        "settings-checked-in",
+        "settings-going",
+        "settings-limit",
+        "settings-last-one",
+        "settings-failed",
+        "settings-switch-done",
+        "settings-join-done",
+        "settings-leave-done"
+      ]
+    },
+    {
+      "key": "communitySettingsJoin",
+      "en": "Join {community}",
+      "tr": "{community} topluluğuna katıl",
+      "source": "HB-37 r5 line 51",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-one",
+        "settings-last-one",
+        "settings-join-done",
+        "settings-leave-done",
+        "settings-join-confirm"
+      ]
+    },
+    {
+      "key": "communitySettingsJoinBody",
+      "en": "You’ll be able to switch between Networking and Friendship here. You use one at a time.",
+      "tr": "Networking ve Arkadaşlık arasında buradan geçiş yapabilirsin. Bir anda birini kullanırsın.",
+      "source": "HB-37 r5 line 232",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-join-confirm"
+      ]
+    },
+    {
+      "key": "communitySettingsJoinConfirm",
+      "en": "Join",
+      "tr": "Katıl",
+      "source": "HB-37 r5 line 233",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-join-confirm"
+      ]
+    },
+    {
+      "key": "communitySettingsJoinTitle",
+      "en": "Join {community}?",
+      "tr": "{community} topluluğuna katılınsın mı?",
+      "source": "HB-37 r5 line 231",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-join-confirm"
+      ]
+    },
+    {
+      "key": "communitySettingsJoined",
+      "en": "You’ve joined {community}.",
+      "tr": "{community} topluluğuna katıldın.",
+      "source": "HB-37 r5 line 234",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-join-done"
+      ]
+    },
+    {
+      "key": "communitySettingsLastOne",
+      "en": "You need at least one community.",
+      "tr": "En az bir toplulukta olmalısın.",
+      "source": "HB-37 r5 line 54",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-one",
+        "settings-last-one",
+        "settings-leave-done"
+      ]
+    },
+    {
+      "key": "communitySettingsLeave",
+      "en": "Leave {community}",
+      "tr": "{community} topluluğundan ayrıl",
+      "source": "HB-37 r5 line 52",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-both",
+        "settings-checked-in",
+        "settings-going",
+        "settings-failed",
+        "settings-switch-done",
+        "settings-join-done",
+        "settings-leave-inactive",
+        "settings-leave-active",
+        "settings-leave-active-going"
+      ]
+    },
+    {
+      "key": "communitySettingsLeaveActiveNote",
+      "en": "You’re using {community} now. If you leave, you’ll switch to {other}.",
+      "tr": "Şu an {community} topluluğunu kullanıyorsun. Ayrılırsan {other} topluluğuna geçersin.",
+      "source": "HB-37 r5 line 237",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-leave-active",
+        "settings-leave-active-going"
+      ]
+    },
+    {
+      "key": "communitySettingsLeaveBody",
+      "en": "You won’t be able to use {community} until you join again. Your chats stay as they are.",
+      "tr": "Yeniden katılana kadar {community} topluluğunu kullanamazsın. Sohbetlerin olduğu gibi kalır.",
+      "source": "HB-37 r5 line 236",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-leave-inactive",
+        "settings-leave-active",
+        "settings-leave-active-going"
+      ]
+    },
+    {
+      "key": "communitySettingsLeaveConfirm",
+      "en": "Leave",
+      "tr": "Ayrıl",
+      "source": "HB-37 r5 line 239",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-leave-inactive",
+        "settings-leave-active",
+        "settings-leave-active-going"
+      ]
+    },
+    {
+      "key": "communitySettingsLeaveTitle",
+      "en": "Leave {community}?",
+      "tr": "{community} topluluğundan ayrılınsın mı?",
+      "source": "HB-37 r5 line 235",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-leave-inactive",
+        "settings-leave-active",
+        "settings-leave-active-going"
+      ]
+    },
+    {
+      "key": "communitySettingsLeft",
+      "en": "You’ve left {community}.",
+      "tr": "{community} topluluğundan ayrıldın.",
+      "source": "HB-37 r5 line 240",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-leave-done"
+      ]
+    },
+    {
+      "key": "communitySettingsLimitRule",
+      "en": "You can make up to 3 changes in 24 hours. Joining, leaving and switching each count as one.",
+      "tr": "24 saat içinde en çok 3 değişiklik yapabilirsin. Katılmak, ayrılmak ve geçiş yapmak birer değişiklik sayılır.",
+      "source": "HB-37 r5 line 230",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-one",
+        "settings-both",
+        "settings-checked-in",
+        "settings-going",
+        "settings-limit",
+        "settings-last-one",
+        "settings-failed",
+        "settings-switch-done",
+        "settings-join-done",
+        "settings-leave-done",
+        "settings-joining",
+        "settings-leaving",
+        "settings-switching"
+      ]
+    },
+    {
+      "key": "communitySettingsTitle",
+      "en": "Communities",
+      "tr": "Topluluklar",
+      "source": "HB-37 r5 line 49",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-one",
+        "settings-both",
+        "settings-checked-in",
+        "settings-going",
+        "settings-limit",
+        "settings-last-one",
+        "settings-failed",
+        "settings-switch-done",
+        "settings-join-done",
+        "settings-leave-done",
+        "settings-joining",
+        "settings-leaving",
+        "settings-switching"
+      ]
+    },
+    {
+      "key": "communitySwitchBody",
+      "en": "You’ll see people, the map and events in {community}. Your chats stay as they are.",
+      "tr": "{community} topluluğundaki kişileri, haritayı ve etkinlikleri görürsün. Sohbetlerin olduğu gibi kalır.",
+      "source": "HB-37 r5 line 61",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-switch-confirm",
+        "settings-switch-checkin",
+        "settings-switch-going"
+      ]
+    },
+    {
+      "key": "communitySwitchBodyCheckedIn",
+      "en": "Your current check-in will end. You’ll see people, the map and events in {community}. Your chats stay as they are.",
+      "tr": "Şu anki check-in’in biter. {community} topluluğundaki kişileri, haritayı ve etkinlikleri görürsün. Sohbetlerin olduğu gibi kalır.",
+      "source": "HB-37 r5 line 60",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-switch-checkin",
+        "settings-switch-going"
+      ]
+    },
+    {
+      "key": "communitySwitchConfirm",
+      "en": "Switch",
+      "tr": "Geç",
+      "source": "HB-37 r5 line 64",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-both",
+        "settings-checked-in",
+        "settings-going",
+        "settings-failed",
+        "settings-switch-done",
+        "settings-join-done",
+        "settings-switch-confirm",
+        "settings-switch-checkin",
+        "settings-switch-going"
+      ]
+    },
+    {
+      "key": "communitySwitchDone",
+      "en": "You’re now in {community}.",
+      "tr": "Artık {community} topluluğundasın.",
+      "source": "HB-37 r5 line 66",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-switch-done"
+      ]
+    },
+    {
+      "key": "communitySwitchGoingNote",
+      "en": "Reminders for events you’re going to will still arrive.",
+      "tr": "Gideceğin etkinliklerin hatırlatmaları gelmeye devam eder.",
+      "source": "HB-37 r5 line 62",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-going",
+        "settings-switch-going",
+        "settings-leave-active-going"
+      ]
+    },
+    {
+      "key": "communitySwitchLimitReached",
+      "en": "You’ve reached the limit of 3 changes. Try again later.",
+      "tr": "3 değişiklik sınırına ulaştın. Daha sonra tekrar dene.",
+      "source": "HB-37 r5 line 243",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-limit"
+      ]
+    },
+    {
+      "key": "communitySwitchRemaining",
+      "en": "{remaining, plural, =1{You can make 1 more change for now.} other{You can make {remaining} more changes for now.}}",
+      "tr": "Şimdilik {remaining} değişiklik hakkın kaldı.",
+      "source": "HB-37 r5 line 242",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-switch-confirm",
+        "settings-switch-checkin",
+        "settings-switch-going",
+        "settings-join-confirm",
+        "settings-leave-inactive",
+        "settings-leave-active",
+        "settings-leave-active-going"
+      ]
+    },
+    {
+      "key": "communitySwitchTitle",
+      "en": "Switch to {community}?",
+      "tr": "{community} topluluğuna geçilsin mi?",
+      "source": "HB-37 r5 line 59",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-switch-confirm",
+        "settings-switch-checkin",
+        "settings-switch-going"
+      ]
+    },
+    {
+      "key": "communitySwitching",
+      "en": "Switching…",
+      "tr": "Geçiliyor…",
+      "source": "HB-37 r5 line 43",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "settings-joining",
+        "settings-leaving",
+        "settings-switching"
+      ]
+    }
+  ],
+  "proposals": []
+}

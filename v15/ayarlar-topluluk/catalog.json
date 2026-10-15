@@ -1,0 +1,958 @@
+{
+  "theme": "2.3",
+  "states": [
+    {
+      "id": "settings-one",
+      "group": "ayarlar-topluluk",
+      "title": "communitySettingsTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "communitySettingsHelp"
+        },
+        {
+          "type": "row",
+          "key": "communityOptionNetworking",
+          "community": "Networking",
+          "blocks": [
+            {
+              "type": "tag",
+              "key": "communitySettingsInUse",
+              "community": "Networking"
+            },
+            {
+              "type": "text",
+              "key": "communitySettingsLastOne",
+              "helper": true
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "key": "communityOptionFriendship",
+          "community": "Friendship",
+          "blocks": [
+            {
+              "type": "actions",
+              "items": [
+                {
+                  "key": "communitySettingsJoin",
+                  "community": "Friendship",
+                  "to": "settings-join-confirm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "communitySettingsLimitRule",
+          "helper": true
+        }
+      ],
+      "notes": "Only own membership. Join/leave/switch count separately in rolling24h; first selection free. No optimistic membership change.",
+      "back": "nearby-networking"
+    },
+    {
+      "id": "settings-both",
+      "group": "ayarlar-topluluk",
+      "title": "communitySettingsTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "communitySettingsHelp"
+        },
+        {
+          "type": "row",
+          "key": "communityOptionNetworking",
+          "community": "Networking",
+          "blocks": [
+            {
+              "type": "tag",
+              "key": "communitySettingsInUse",
+              "community": "Networking"
+            },
+            {
+              "type": "actions",
+              "items": [
+                {
+                  "key": "communitySettingsLeave",
+                  "community": "Networking",
+                  "to": "settings-leave-active"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "key": "communityOptionFriendship",
+          "community": "Friendship",
+          "blocks": [
+            {
+              "type": "actions",
+              "items": [
+                {
+                  "key": "communitySwitchConfirm",
+                  "to": "settings-switch-confirm"
+                },
+                {
+                  "key": "communitySettingsLeave",
+                  "community": "Friendship",
+                  "to": "settings-leave-inactive"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "communitySettingsLimitRule",
+          "helper": true
+        }
+      ],
+      "notes": "Only own membership. Join/leave/switch count separately in rolling24h; first selection free. No optimistic membership change.",
+      "back": "nearby-networking"
+    },
+    {
+      "id": "settings-checked-in",
+      "group": "ayarlar-topluluk",
+      "title": "communitySettingsTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "communitySettingsHelp"
+        },
+        {
+          "type": "row",
+          "key": "communityOptionNetworking",
+          "community": "Networking",
+          "blocks": [
+            {
+              "type": "tag",
+              "key": "communitySettingsInUse",
+              "community": "Networking"
+            },
+            {
+              "type": "actions",
+              "items": [
+                {
+                  "key": "communitySettingsLeave",
+                  "community": "Networking",
+                  "to": "settings-leave-active"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "key": "communityOptionFriendship",
+          "community": "Friendship",
+          "blocks": [
+            {
+              "type": "actions",
+              "items": [
+                {
+                  "key": "communitySwitchConfirm",
+                  "to": "settings-switch-confirm"
+                },
+                {
+                  "key": "communitySettingsLeave",
+                  "community": "Friendship",
+                  "to": "settings-leave-inactive"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "communitySettingsLimitRule",
+          "helper": true
+        },
+        {
+          "type": "notice",
+          "key": "communityCheckInEndsNote"
+        }
+      ],
+      "notes": "Only own membership. Join/leave/switch count separately in rolling24h; first selection free. No optimistic membership change.",
+      "back": "nearby-networking"
+    },
+    {
+      "id": "settings-going",
+      "group": "ayarlar-topluluk",
+      "title": "communitySettingsTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "communitySettingsHelp"
+        },
+        {
+          "type": "row",
+          "key": "communityOptionNetworking",
+          "community": "Networking",
+          "blocks": [
+            {
+              "type": "tag",
+              "key": "communitySettingsInUse",
+              "community": "Networking"
+            },
+            {
+              "type": "actions",
+              "items": [
+                {
+                  "key": "communitySettingsLeave",
+                  "community": "Networking",
+                  "to": "settings-leave-active"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "key": "communityOptionFriendship",
+          "community": "Friendship",
+          "blocks": [
+            {
+              "type": "actions",
+              "items": [
+                {
+                  "key": "communitySwitchConfirm",
+                  "to": "settings-switch-confirm"
+                },
+                {
+                  "key": "communitySettingsLeave",
+                  "community": "Friendship",
+                  "to": "settings-leave-inactive"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "communitySettingsLimitRule",
+          "helper": true
+        },
+        {
+          "type": "notice",
+          "key": "communityCheckInEndsNote"
+        },
+        {
+          "type": "text",
+          "key": "communitySwitchGoingNote",
+          "helper": true
+        }
+      ],
+      "notes": "Only own membership. Join/leave/switch count separately in rolling24h; first selection free. No optimistic membership change.",
+      "back": "nearby-networking"
+    },
+    {
+      "id": "settings-limit",
+      "group": "ayarlar-topluluk",
+      "title": "communitySettingsTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "communitySettingsHelp"
+        },
+        {
+          "type": "row",
+          "key": "communityOptionNetworking",
+          "community": "Networking",
+          "blocks": [
+            {
+              "type": "tag",
+              "key": "communitySettingsInUse",
+              "community": "Networking"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "key": "communityOptionFriendship",
+          "community": "Friendship",
+          "blocks": []
+        },
+        {
+          "type": "text",
+          "key": "communitySettingsLimitRule",
+          "helper": true
+        },
+        {
+          "type": "notice",
+          "key": "communitySwitchLimitReached"
+        }
+      ],
+      "notes": "Only own membership. Join/leave/switch count separately in rolling24h; first selection free. No optimistic membership change.",
+      "back": "nearby-networking"
+    },
+    {
+      "id": "settings-last-one",
+      "group": "ayarlar-topluluk",
+      "title": "communitySettingsTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "communitySettingsHelp"
+        },
+        {
+          "type": "row",
+          "key": "communityOptionNetworking",
+          "community": "Networking",
+          "blocks": [
+            {
+              "type": "tag",
+              "key": "communitySettingsInUse",
+              "community": "Networking"
+            },
+            {
+              "type": "text",
+              "key": "communitySettingsLastOne",
+              "helper": true
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "key": "communityOptionFriendship",
+          "community": "Friendship",
+          "blocks": [
+            {
+              "type": "actions",
+              "items": [
+                {
+                  "key": "communitySettingsJoin",
+                  "community": "Friendship",
+                  "to": "settings-join-confirm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "communitySettingsLimitRule",
+          "helper": true
+        }
+      ],
+      "notes": "Only own membership. Join/leave/switch count separately in rolling24h; first selection free. No optimistic membership change.",
+      "back": "nearby-networking"
+    },
+    {
+      "id": "settings-failed",
+      "group": "ayarlar-topluluk",
+      "title": "communitySettingsTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "communitySettingsHelp"
+        },
+        {
+          "type": "row",
+          "key": "communityOptionNetworking",
+          "community": "Networking",
+          "blocks": [
+            {
+              "type": "tag",
+              "key": "communitySettingsInUse",
+              "community": "Networking"
+            },
+            {
+              "type": "actions",
+              "items": [
+                {
+                  "key": "communitySettingsLeave",
+                  "community": "Networking",
+                  "to": "settings-leave-active"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "key": "communityOptionFriendship",
+          "community": "Friendship",
+          "blocks": [
+            {
+              "type": "actions",
+              "items": [
+                {
+                  "key": "communitySwitchConfirm",
+                  "to": "settings-switch-confirm"
+                },
+                {
+                  "key": "communitySettingsLeave",
+                  "community": "Friendship",
+                  "to": "settings-leave-inactive"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "communitySettingsLimitRule",
+          "helper": true
+        },
+        {
+          "type": "notice",
+          "key": "communitySettingsChangeFailed",
+          "error": true
+        }
+      ],
+      "notes": "Only own membership. Join/leave/switch count separately in rolling24h; first selection free. No optimistic membership change.",
+      "back": "nearby-networking"
+    },
+    {
+      "id": "settings-switch-done",
+      "group": "ayarlar-topluluk",
+      "title": "communitySettingsTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "communitySettingsHelp"
+        },
+        {
+          "type": "row",
+          "key": "communityOptionNetworking",
+          "community": "Networking",
+          "blocks": [
+            {
+              "type": "actions",
+              "items": [
+                {
+                  "key": "communitySwitchConfirm",
+                  "to": "settings-switch-confirm"
+                },
+                {
+                  "key": "communitySettingsLeave",
+                  "community": "Networking",
+                  "to": "settings-leave-inactive"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "key": "communityOptionFriendship",
+          "community": "Friendship",
+          "blocks": [
+            {
+              "type": "tag",
+              "key": "communitySettingsInUse",
+              "community": "Friendship"
+            },
+            {
+              "type": "actions",
+              "items": [
+                {
+                  "key": "communitySettingsLeave",
+                  "community": "Friendship",
+                  "to": "settings-leave-active"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "communitySettingsLimitRule",
+          "helper": true
+        },
+        {
+          "type": "notice",
+          "key": "communitySwitchDone",
+          "community": "Friendship"
+        }
+      ],
+      "notes": "Only own membership. Join/leave/switch count separately in rolling24h; first selection free. Server acknowledgement received.",
+      "back": "nearby-networking"
+    },
+    {
+      "id": "settings-join-done",
+      "group": "ayarlar-topluluk",
+      "title": "communitySettingsTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "communitySettingsHelp"
+        },
+        {
+          "type": "row",
+          "key": "communityOptionNetworking",
+          "community": "Networking",
+          "blocks": [
+            {
+              "type": "tag",
+              "key": "communitySettingsInUse",
+              "community": "Networking"
+            },
+            {
+              "type": "actions",
+              "items": [
+                {
+                  "key": "communitySettingsLeave",
+                  "community": "Networking",
+                  "to": "settings-leave-active"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "key": "communityOptionFriendship",
+          "community": "Friendship",
+          "blocks": [
+            {
+              "type": "actions",
+              "items": [
+                {
+                  "key": "communitySwitchConfirm",
+                  "to": "settings-switch-confirm"
+                },
+                {
+                  "key": "communitySettingsLeave",
+                  "community": "Friendship",
+                  "to": "settings-leave-inactive"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "communitySettingsLimitRule",
+          "helper": true
+        },
+        {
+          "type": "notice",
+          "key": "communitySettingsJoined",
+          "community": "Friendship"
+        }
+      ],
+      "notes": "Only own membership. Join/leave/switch count separately in rolling24h; first selection free. Server acknowledgement received.",
+      "back": "nearby-networking"
+    },
+    {
+      "id": "settings-leave-done",
+      "group": "ayarlar-topluluk",
+      "title": "communitySettingsTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "communitySettingsHelp"
+        },
+        {
+          "type": "row",
+          "key": "communityOptionNetworking",
+          "community": "Networking",
+          "blocks": [
+            {
+              "type": "tag",
+              "key": "communitySettingsInUse",
+              "community": "Networking"
+            },
+            {
+              "type": "text",
+              "key": "communitySettingsLastOne",
+              "helper": true
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "key": "communityOptionFriendship",
+          "community": "Friendship",
+          "blocks": [
+            {
+              "type": "actions",
+              "items": [
+                {
+                  "key": "communitySettingsJoin",
+                  "community": "Friendship",
+                  "to": "settings-join-confirm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "key": "communitySettingsLimitRule",
+          "helper": true
+        },
+        {
+          "type": "notice",
+          "key": "communitySettingsLeft",
+          "community": "Friendship"
+        }
+      ],
+      "notes": "Only own membership. Join/leave/switch count separately in rolling24h; first selection free. Server acknowledgement received.",
+      "back": "nearby-networking"
+    },
+    {
+      "id": "settings-switch-confirm",
+      "group": "ayarlar-topluluk",
+      "title": "communitySwitchTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "communitySwitchBody",
+          "community": "Friendship"
+        },
+        {
+          "type": "text",
+          "key": "communitySwitchRemaining",
+          "params": {
+            "remaining": 2
+          },
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "communitySwitchConfirm",
+              "primary": true,
+              "to": "settings-switching"
+            },
+            {
+              "key": "cancel",
+              "to": "settings-both"
+            }
+          ]
+        }
+      ],
+      "notes": "Confirmation before mutation. Inactive leave/join does not change active community or end check-in. Active leave order: active note, check-in, Going, leave body, remaining. No reset time or countdown.",
+      "community": "Friendship",
+      "other": "Friendship",
+      "layout": "dialog"
+    },
+    {
+      "id": "settings-switch-checkin",
+      "group": "ayarlar-topluluk",
+      "title": "communitySwitchTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "communitySwitchBodyCheckedIn",
+          "community": "Friendship"
+        },
+        {
+          "type": "text",
+          "key": "communitySwitchRemaining",
+          "params": {
+            "remaining": 2
+          },
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "communitySwitchConfirm",
+              "primary": true,
+              "to": "settings-switching"
+            },
+            {
+              "key": "cancel",
+              "to": "settings-both"
+            }
+          ]
+        }
+      ],
+      "notes": "Confirmation before mutation. Inactive leave/join does not change active community or end check-in. Active leave order: active note, check-in, Going, leave body, remaining. No reset time or countdown.",
+      "community": "Friendship",
+      "other": "Friendship",
+      "layout": "dialog"
+    },
+    {
+      "id": "settings-switch-going",
+      "group": "ayarlar-topluluk",
+      "title": "communitySwitchTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "communitySwitchBodyCheckedIn",
+          "community": "Friendship"
+        },
+        {
+          "type": "text",
+          "key": "communitySwitchGoingNote",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "communitySwitchRemaining",
+          "params": {
+            "remaining": 2
+          },
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "communitySwitchConfirm",
+              "primary": true,
+              "to": "settings-switching"
+            },
+            {
+              "key": "cancel",
+              "to": "settings-both"
+            }
+          ]
+        }
+      ],
+      "notes": "Confirmation before mutation. Inactive leave/join does not change active community or end check-in. Active leave order: active note, check-in, Going, leave body, remaining. No reset time or countdown.",
+      "community": "Friendship",
+      "other": "Friendship",
+      "layout": "dialog"
+    },
+    {
+      "id": "settings-join-confirm",
+      "group": "ayarlar-topluluk",
+      "title": "communitySettingsJoinTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "communitySettingsJoinBody"
+        },
+        {
+          "type": "text",
+          "key": "communitySwitchRemaining",
+          "params": {
+            "remaining": 2
+          },
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "communitySettingsJoinConfirm",
+              "primary": true,
+              "to": "settings-joining"
+            },
+            {
+              "key": "cancel",
+              "to": "settings-both"
+            }
+          ]
+        }
+      ],
+      "notes": "Confirmation before mutation. Inactive leave/join does not change active community or end check-in. Active leave order: active note, check-in, Going, leave body, remaining. No reset time or countdown.",
+      "community": "Friendship",
+      "other": "Friendship",
+      "layout": "dialog"
+    },
+    {
+      "id": "settings-leave-inactive",
+      "group": "ayarlar-topluluk",
+      "title": "communitySettingsLeaveTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "communitySettingsLeaveBody",
+          "community": "Friendship"
+        },
+        {
+          "type": "text",
+          "key": "communitySwitchRemaining",
+          "params": {
+            "remaining": 2
+          },
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "communitySettingsLeaveConfirm",
+              "primary": true,
+              "to": "settings-leaving"
+            },
+            {
+              "key": "cancel",
+              "to": "settings-both"
+            }
+          ]
+        }
+      ],
+      "notes": "Confirmation before mutation. Inactive leave/join does not change active community or end check-in. Active leave order: active note, check-in, Going, leave body, remaining. No reset time or countdown.",
+      "community": "Friendship",
+      "other": "Friendship",
+      "layout": "dialog"
+    },
+    {
+      "id": "settings-leave-active",
+      "group": "ayarlar-topluluk",
+      "title": "communitySettingsLeaveTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "communitySettingsLeaveActiveNote",
+          "community": "Networking",
+          "other": "Friendship"
+        },
+        {
+          "type": "notice",
+          "key": "communityCheckInEndsNote"
+        },
+        {
+          "type": "text",
+          "key": "communitySettingsLeaveBody",
+          "community": "Networking"
+        },
+        {
+          "type": "text",
+          "key": "communitySwitchRemaining",
+          "params": {
+            "remaining": 2
+          },
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "communitySettingsLeaveConfirm",
+              "primary": true,
+              "to": "settings-leaving"
+            },
+            {
+              "key": "cancel",
+              "to": "settings-both"
+            }
+          ]
+        }
+      ],
+      "notes": "Confirmation before mutation. Inactive leave/join does not change active community or end check-in. Active leave order: active note, check-in, Going, leave body, remaining. No reset time or countdown.",
+      "community": "Networking",
+      "other": "Friendship",
+      "layout": "dialog"
+    },
+    {
+      "id": "settings-leave-active-going",
+      "group": "ayarlar-topluluk",
+      "title": "communitySettingsLeaveTitle",
+      "blocks": [
+        {
+          "type": "text",
+          "key": "communitySettingsLeaveActiveNote",
+          "community": "Networking",
+          "other": "Friendship"
+        },
+        {
+          "type": "notice",
+          "key": "communityCheckInEndsNote"
+        },
+        {
+          "type": "text",
+          "key": "communitySwitchGoingNote",
+          "helper": true
+        },
+        {
+          "type": "text",
+          "key": "communitySettingsLeaveBody",
+          "community": "Networking"
+        },
+        {
+          "type": "text",
+          "key": "communitySwitchRemaining",
+          "params": {
+            "remaining": 2
+          },
+          "helper": true
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "key": "communitySettingsLeaveConfirm",
+              "primary": true,
+              "to": "settings-leaving"
+            },
+            {
+              "key": "cancel",
+              "to": "settings-both"
+            }
+          ]
+        }
+      ],
+      "notes": "Confirmation before mutation. Inactive leave/join does not change active community or end check-in. Active leave order: active note, check-in, Going, leave body, remaining. No reset time or countdown.",
+      "community": "Networking",
+      "other": "Friendship",
+      "layout": "dialog"
+    },
+    {
+      "id": "settings-joining",
+      "group": "ayarlar-topluluk",
+      "title": "communitySettingsTitle",
+      "blocks": [
+        {
+          "type": "notice",
+          "key": "communitySwitching",
+          "busy": true
+        },
+        {
+          "type": "text",
+          "key": "communitySettingsLimitRule",
+          "helper": true
+        }
+      ],
+      "notes": "Pending server response, no premature success. Controls replaced by status; completion restores action availability.",
+      "layout": "dialog",
+      "ack": "settings-join-done",
+      "reject": "settings-failed"
+    },
+    {
+      "id": "settings-leaving",
+      "group": "ayarlar-topluluk",
+      "title": "communitySettingsTitle",
+      "blocks": [
+        {
+          "type": "notice",
+          "key": "communitySwitching",
+          "busy": true
+        },
+        {
+          "type": "text",
+          "key": "communitySettingsLimitRule",
+          "helper": true
+        }
+      ],
+      "notes": "Pending server response, no premature success. Controls replaced by status; completion restores action availability.",
+      "layout": "dialog",
+      "ack": "settings-leave-done",
+      "reject": "settings-failed"
+    },
+    {
+      "id": "settings-switching",
+      "group": "ayarlar-topluluk",
+      "title": "communitySettingsTitle",
+      "blocks": [
+        {
+          "type": "notice",
+          "key": "communitySwitching",
+          "busy": true
+        },
+        {
+          "type": "text",
+          "key": "communitySettingsLimitRule",
+          "helper": true
+        }
+      ],
+      "notes": "Pending server response, no premature success. Controls replaced by status; completion restores action availability.",
+      "layout": "dialog",
+      "ack": "settings-switch-done",
+      "reject": "settings-failed"
+    }
+  ]
+}
