@@ -1,0 +1,4573 @@
+{
+  "welcomeTitle": {
+    "key": "welcomeTitle",
+    "en": "One hello can change a lot.",
+    "tr": "Bir merhaba, çok şey değiştirir.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "welcomeBody": {
+    "key": "welcomeBody",
+    "en": "Connect with people nearby who are open to meeting, right now.",
+    "tr": "Şu anda yakınında, tanışmaya açık insanlarla bağlantı kur.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "invitationTitle": {
+    "key": "invitationTitle",
+    "en": "You’re in good company.",
+    "tr": "İyi ki geldin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "invitationCode": {
+    "key": "invitationCode",
+    "en": "Invitation code",
+    "tr": "Davet kodu",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "invitationUse": {
+    "key": "invitationUse",
+    "en": "Use my invitation",
+    "tr": "Davetimi kullan",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "invitationInvalid": {
+    "key": "invitationInvalid",
+    "en": "We couldn’t verify this invitation code. Check it and try again.",
+    "tr": "Bu davet kodunu doğrulayamadık. Kontrol edip tekrar dene.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "emailSend": {
+    "key": "emailSend",
+    "en": "Send verification link",
+    "tr": "Doğrulama bağlantısı gönder",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "emailSent": {
+    "key": "emailSent",
+    "en": "We sent a verification link to your email.",
+    "tr": "Doğrulama bağlantısını e-postana gönderdik.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "emailPrivate": {
+    "key": "emailPrivate",
+    "en": "Your email address never appears on your profile.",
+    "tr": "E-posta adresin profilinde görünmez.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "emailResend": {
+    "key": "emailResend",
+    "en": "Resend link",
+    "tr": "Bağlantıyı tekrar gönder",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileTitle": {
+    "key": "profileTitle",
+    "en": "A little about you.",
+    "tr": "Seni biraz tanıyalım.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "photoAdd": {
+    "key": "photoAdd",
+    "en": "Add one profile photo",
+    "tr": "Bir profil fotoğrafı ekle",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "displayName": {
+    "key": "displayName",
+    "en": "Display name",
+    "tr": "Görünen ad",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "age": {
+    "key": "age",
+    "en": "Age",
+    "tr": "Yaş",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "gender": {
+    "key": "gender",
+    "en": "Gender",
+    "tr": "Cinsiyet",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "genderWoman": {
+    "key": "genderWoman",
+    "en": "Woman",
+    "tr": "Kadın",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "genderMan": {
+    "key": "genderMan",
+    "en": "Man",
+    "tr": "Erkek",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "genderNonbinary": {
+    "key": "genderNonbinary",
+    "en": "Non-binary",
+    "tr": "Non-binary",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "genderPrivate": {
+    "key": "genderPrivate",
+    "en": "Prefer not to say",
+    "tr": "Belirtmek istemiyorum",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "occupation": {
+    "key": "occupation",
+    "en": "Job title",
+    "tr": "Meslek",
+    "source": "HB-37 r5 §6",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "bio": {
+    "key": "bio",
+    "en": "About you",
+    "tr": "Kısaca sen",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interests": {
+    "key": "interests",
+    "en": "Interests · Choose 1–5",
+    "tr": "İlgi alanları · 1–5 seç",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "languages": {
+    "key": "languages",
+    "en": "Languages · Optional",
+    "tr": "Konuştuğun diller · İsteğe bağlı",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "showOnProfile": {
+    "key": "showOnProfile",
+    "en": "Show on my profile",
+    "tr": "Profilimde göster",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileSave": {
+    "key": "profileSave",
+    "en": "Save my profile",
+    "tr": "Profilimi kaydet",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyEyebrow": {
+    "key": "nearbyEyebrow",
+    "en": "HERE & NOW",
+    "tr": "ŞİMDİ & BURADA",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyTitle": {
+    "key": "nearbyTitle",
+    "en": "How about a hello?",
+    "tr": "Bir merhabaya ne dersin?",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyBody": {
+    "key": "nearbyBody",
+    "en": "Be present. Make room for a connection.",
+    "tr": "Görünür ol. Karşılaşmalara yer aç.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyActiveTitle": {
+    "key": "nearbyActiveTitle",
+    "en": "Good, you’re here.",
+    "tr": "Güzel, buradasın.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyPeople": {
+    "key": "nearbyPeople",
+    "en": "People nearby",
+    "tr": "Yakınındaki insanlar",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyLocked": {
+    "key": "nearbyLocked",
+    "en": "Tap I’m here to discover active people nearby.",
+    "tr": "Yakınındaki aktif profilleri görmek için Buradayım’a dokun.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyEmpty": {
+    "key": "nearbyEmpty",
+    "en": "No new profiles to show right now.",
+    "tr": "Şimdilik yeni bir profil görünmüyor.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyPrivacy": {
+    "key": "nearbyPrivacy",
+    "en": "Your exact location and distance stay private.",
+    "tr": "Kesin konumun ve mesafen görünmez.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInStart": {
+    "key": "checkInStart",
+    "en": "I’m here",
+    "tr": "Buradayım",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInDuration": {
+    "key": "checkInDuration",
+    "en": "30 minutes, yours",
+    "tr": "30 dakika senin",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInStop": {
+    "key": "checkInStop",
+    "en": "Stop",
+    "tr": "Durdur",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInRenew": {
+    "key": "checkInRenew",
+    "en": "I’m still here",
+    "tr": "Hâlâ buradayım",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInReminderTitle": {
+    "key": "checkInReminderTitle",
+    "en": "Still around? 👀",
+    "tr": "Hâlâ buralarda mısın? 👀",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInReminderBody": {
+    "key": "checkInReminderBody",
+    "en": "Your check-in is ending soon.",
+    "tr": "Check-in’in birazdan sona erecek.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInRestart": {
+    "key": "checkInRestart",
+    "en": "Check in again",
+    "tr": "Yeniden Buradayım de",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInRetry": {
+    "key": "checkInRetry",
+    "en": "Try again",
+    "tr": "Tekrar dene",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "offline": {
+    "key": "offline",
+    "en": "You’re offline.",
+    "tr": "İnternet bağlantısı yok.",
+    "source": "v2.3 release8-approved-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "mapTitle": {
+    "key": "mapTitle",
+    "en": "Where’s the energy?",
+    "tr": "Nerede hayat var?",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "mapBody": {
+    "key": "mapBody",
+    "en": "Explore activity across areas.",
+    "tr": "Bölgelerin hareketliliğini keşfet.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "densityBlue": {
+    "key": "densityBlue",
+    "en": "Quiet",
+    "tr": "Sakin",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "densityYellow": {
+    "key": "densityYellow",
+    "en": "Lively",
+    "tr": "Canlı",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "densityGreen": {
+    "key": "densityGreen",
+    "en": "Busy",
+    "tr": "Hareketli",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "densityRed": {
+    "key": "densityRed",
+    "en": "Buzzing",
+    "tr": "Çok hareketli",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "mapNoActivity": {
+    "key": "mapNoActivity",
+    "en": "No activity to show in this area.",
+    "tr": "Bu bölgede gösterilecek hareketlilik yok.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "mapUnavailable": {
+    "key": "mapUnavailable",
+    "en": "The map can’t load right now.",
+    "tr": "Harita şu anda yüklenemiyor.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "mapStale": {
+    "key": "mapStale",
+    "en": "The activity shown may be out of date.",
+    "tr": "Gösterilen hareketlilik güncel olmayabilir.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "intentQuestion": {
+    "key": "intentQuestion",
+    "en": "Why would you like to connect with this person?",
+    "tr": "Bu kişiyle neden bağlantı kurmak istiyorsun?",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "intentFriendship": {
+    "key": "intentFriendship",
+    "en": "Friendship",
+    "tr": "Arkadaşlık",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "intentNetworking": {
+    "key": "intentNetworking",
+    "en": "Networking",
+    "tr": "Networking",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "intentHint": {
+    "key": "intentHint",
+    "en": "Choose one or both.",
+    "tr": "Birini veya ikisini seç.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "intentPrivate": {
+    "key": "intentPrivate",
+    "en": "Your choices stay private until you connect.",
+    "tr": "Seçimlerin bağlantı kurulana kadar gizli.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "intentRequired": {
+    "key": "intentRequired",
+    "en": "Choose at least one intention.",
+    "tr": "En az bir niyet seç.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "requestSend": {
+    "key": "requestSend",
+    "en": "Send a hello",
+    "tr": "Bir merhaba gönder",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "requestIncoming": {
+    "key": "requestIncoming",
+    "en": "Would like to connect.",
+    "tr": "Tanışmak istiyor.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "requestAccept": {
+    "key": "requestAccept",
+    "en": "I’d like to connect",
+    "tr": "Tanışmak isterim",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "requestDecline": {
+    "key": "requestDecline",
+    "en": "Not this time",
+    "tr": "Bu kez değil",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "requestPending": {
+    "key": "requestPending",
+    "en": "Awaiting a reply",
+    "tr": "Yanıt bekleniyor",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "requestCancel": {
+    "key": "requestCancel",
+    "en": "Cancel request",
+    "tr": "İsteği iptal et",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "requestExpired": {
+    "key": "requestExpired",
+    "en": "The request has expired.",
+    "tr": "İsteğin süresi doldu.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "requestFull": {
+    "key": "requestFull",
+    "en": "Your pending slots are full. A slot opens when a request resolves.",
+    "tr": "Bekleyen isteklerin dolu. Bir istek sonuçlandığında yer açılır.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "pendingHeading": {
+    "key": "pendingHeading",
+    "en": "Pending requests",
+    "tr": "Bekleyen istekler",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "matchTitle": {
+    "key": "matchTitle",
+    "en": "You’re connected.",
+    "tr": "Artık bağlantıdasınız.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "matchYou": {
+    "key": "matchYou",
+    "en": "You",
+    "tr": "Sen",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "matchThem": {
+    "key": "matchThem",
+    "en": "Other person",
+    "tr": "Karşı taraf",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "matchCommon": {
+    "key": "matchCommon",
+    "en": "You share",
+    "tr": "Ortak noktanız",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "matchNoCommon": {
+    "key": "matchNoCommon",
+    "en": "Different intentions, a new possibility.",
+    "tr": "Farklı niyetler, yeni bir ihtimal.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "chatPlaceholder": {
+    "key": "chatPlaceholder",
+    "en": "Write a hello…",
+    "tr": "Bir merhaba yaz…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "chatSend": {
+    "key": "chatSend",
+    "en": "Send",
+    "tr": "Gönder",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "chatNoTimer": {
+    "key": "chatNoTimer",
+    "en": "Enough to get to know each other. No time limit.",
+    "tr": "Birbirinizi tanıyacak kadar. Zaman sınırı yok.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "chatLimit": {
+    "key": "chatLimit",
+    "en": "You’ve used your messages. You can choose whether to continue.",
+    "tr": "Mesaj hakkın bitti. Devam kararını verebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "chatSoftTitle": {
+    "key": "chatSoftTitle",
+    "en": "You’re about to share contact details",
+    "tr": "İletişim bilgisi paylaşmak üzeresin",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "chatSoftBody": {
+    "key": "chatSoftBody",
+    "en": "Your message may contain contact details. You can review it or send it anyway.",
+    "tr": "Mesajın iletişim bilgisi içeriyor olabilir. Gözden geçirebilir veya yine de gönderebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "chatSoftReview": {
+    "key": "chatSoftReview",
+    "en": "Review message",
+    "tr": "Mesajı gözden geçir",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "chatSoftSendAnyway": {
+    "key": "chatSoftSendAnyway",
+    "en": "Send Anyway",
+    "tr": "Yine de gönder",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "continueTitle": {
+    "key": "continueTitle",
+    "en": "Continue this connection",
+    "tr": "Bu bağlantıyı devam ettir",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "continueBody": {
+    "key": "continueBody",
+    "en": "Your choice stays private. Contact sharing opens if you both want to continue.",
+    "tr": "Kararın özel kalır. İkiniz de devam etmek isterseniz iletişim paylaşımı açılır.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "continueYes": {
+    "key": "continueYes",
+    "en": "I’d like to continue",
+    "tr": "Devam etmek istiyorum",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "continueSaved": {
+    "key": "continueSaved",
+    "en": "Your preference is saved.",
+    "tr": "Tercihin kaydedildi.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "continueBack": {
+    "key": "continueBack",
+    "en": "Back to chat",
+    "tr": "Sohbete dön",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "continueNo": {
+    "key": "continueNo",
+    "en": "I don't want to continue",
+    "tr": "Devam etmek istemiyorum",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "mutualTitle": {
+    "key": "mutualTitle",
+    "en": "You both chose to continue.",
+    "tr": "İkiniz de devam dediniz.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactTitle": {
+    "key": "contactTitle",
+    "en": "Where do we go from here?",
+    "tr": "Nereden devam edelim?",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactBody": {
+    "key": "contactBody",
+    "en": "Choose which details to share. Every field is optional.",
+    "tr": "Paylaşmak istediğin bilgileri sen seç. Hiçbir alan zorunlu değil.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactPhone": {
+    "key": "contactPhone",
+    "en": "Phone",
+    "tr": "Telefon",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactInstagram": {
+    "key": "contactInstagram",
+    "en": "Instagram",
+    "tr": "Instagram",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactEmail": {
+    "key": "contactEmail",
+    "en": "Email",
+    "tr": "E-posta",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactOther": {
+    "key": "contactOther",
+    "en": "Other",
+    "tr": "Diğer",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactShare": {
+    "key": "contactShare",
+    "en": "Share selected details",
+    "tr": "Seçtiklerimi paylaş",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactSkip": {
+    "key": "contactSkip",
+    "en": "Not now",
+    "tr": "Şimdi paylaşma",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactSaved": {
+    "key": "contactSaved",
+    "en": "Your selected details have been shared.",
+    "tr": "Seçtiğin bilgiler paylaşıldı.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactEmpty": {
+    "key": "contactEmpty",
+    "en": "You haven’t selected any details. You can continue without sharing now.",
+    "tr": "Henüz bir bilgi seçmedin. Şimdi paylaşmadan devam edebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "reportTitle": {
+    "key": "reportTitle",
+    "en": "Something wrong?",
+    "tr": "Bir sorun mu var?",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "reportHarassment": {
+    "key": "reportHarassment",
+    "en": "Harassment",
+    "tr": "Taciz",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "reportSpam": {
+    "key": "reportSpam",
+    "en": "Spam",
+    "tr": "Spam",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "reportInappropriate": {
+    "key": "reportInappropriate",
+    "en": "Inappropriate content",
+    "tr": "Uygunsuz içerik",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "reportSafety": {
+    "key": "reportSafety",
+    "en": "Safety concern",
+    "tr": "Güvenlik endişesi",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "reportOther": {
+    "key": "reportOther",
+    "en": "Other",
+    "tr": "Diğer",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "reportSubmit": {
+    "key": "reportSubmit",
+    "en": "Submit report",
+    "tr": "Şikâyeti gönder",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "reportSent": {
+    "key": "reportSent",
+    "en": "Your report has been received.",
+    "tr": "Şikâyetin alındı.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "block": {
+    "key": "block",
+    "en": "Block",
+    "tr": "Engelle",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "unblock": {
+    "key": "unblock",
+    "en": "Unblock",
+    "tr": "Engeli kaldır",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "blockConfirm": {
+    "key": "blockConfirm",
+    "en": "Block this person?",
+    "tr": "Bu kişiyi engellemek istiyor musun?",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "endConnection": {
+    "key": "endConnection",
+    "en": "End connection",
+    "tr": "Bağlantıyı bitir",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "endConfirm": {
+    "key": "endConfirm",
+    "en": "End this connection?",
+    "tr": "Bu bağlantı burada bitsin mi?",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "deleteAccount": {
+    "key": "deleteAccount",
+    "en": "Delete my account",
+    "tr": "Hesabımı sil",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "deleteConfirm": {
+    "key": "deleteConfirm",
+    "en": "Delete your account?",
+    "tr": "Hesabını silmek istiyor musun?",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "deleteBody": {
+    "key": "deleteBody",
+    "en": "Review which data will be deleted before confirming.",
+    "tr": "Bu işlemi onaylamadan önce hangi verilerin silineceğini incele.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "cancel": {
+    "key": "cancel",
+    "en": "Cancel",
+    "tr": "Vazgeç",
+    "source": "v2.3 release8-approved-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "settings": {
+    "key": "settings",
+    "en": "Settings",
+    "tr": "Ayarlar",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "navNearby": {
+    "key": "navNearby",
+    "en": "Nearby",
+    "tr": "Yakındakiler",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "navProfile": {
+    "key": "navProfile",
+    "en": "Profile",
+    "tr": "Profil",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "navEvents": {
+    "key": "navEvents",
+    "en": "Events",
+    "tr": "Etkinlikler",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "eventsPlaceholder": {
+    "key": "eventsPlaceholder",
+    "en": "Events will have a place here.",
+    "tr": "Etkinlikler burada yerini alacak.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "eventsPlaceholderBody": {
+    "key": "eventsPlaceholderBody",
+    "en": "This section isn’t available yet.",
+    "tr": "Bu bölüm henüz kullanıma açık değil.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "ambientNotification": {
+    "key": "ambientNotification",
+    "en": "Someone nearby might be active 👀",
+    "tr": "Yakınlarda aktif biri olabilir 👀",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "pendingSlots": {
+    "key": "pendingSlots",
+    "en": "{used}/{max} pending requests",
+    "tr": "{used}/{max} bekleyen istek",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "pendingRemaining": {
+    "key": "pendingRemaining",
+    "en": "Request expires in {time}",
+    "tr": "İstek süresi: {time}",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "chatRemaining": {
+    "key": "chatRemaining",
+    "en": "{remaining}/20 messages left",
+    "tr": "{remaining}/20 mesajın kaldı",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInStatusInactive": {
+    "key": "checkInStatusInactive",
+    "en": "You’re not checked in.",
+    "tr": "Şu an check-in yapmadın.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInStatusAcquiring": {
+    "key": "checkInStatusAcquiring",
+    "en": "Finding your location…",
+    "tr": "Konumunu buluyoruz…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInStatusVerifying": {
+    "key": "checkInStatusVerifying",
+    "en": "Checking your check-in status.",
+    "tr": "Check-in durumunu doğruluyoruz.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInStatusActive": {
+    "key": "checkInStatusActive",
+    "en": "You’re here. Ends at {time}.",
+    "tr": "Buradasın. Bitiş: {time}.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInStatusStopped": {
+    "key": "checkInStatusStopped",
+    "en": "Check-in stopped.",
+    "tr": "Check-in durduruldu.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInStatusExpired": {
+    "key": "checkInStatusExpired",
+    "en": "Your check-in has ended.",
+    "tr": "Check-in süren doldu.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInMinutesRemaining": {
+    "key": "checkInMinutesRemaining",
+    "en": "{minutes} min left",
+    "tr": "{minutes} dk kaldı",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInEndTime": {
+    "key": "checkInEndTime",
+    "en": "Ends at {time}",
+    "tr": "Bitiş: {time}",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInCancel": {
+    "key": "checkInCancel",
+    "en": "Cancel",
+    "tr": "Vazgeç",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInOpenSettings": {
+    "key": "checkInOpenSettings",
+    "en": "Open settings",
+    "tr": "Ayarları aç",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInLocationSettings": {
+    "key": "checkInLocationSettings",
+    "en": "Location settings",
+    "tr": "Konum ayarları",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInReconcile": {
+    "key": "checkInReconcile",
+    "en": "Try again",
+    "tr": "Tekrar dene",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "backendUnavailable": {
+    "key": "backendUnavailable",
+    "en": "Check-in isn’t connected in this build.",
+    "tr": "Bu sürümde check-in bağlantısı yok.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileNameHint": {
+    "key": "profileNameHint",
+    "en": "2–30 characters",
+    "tr": "2–30 karakter",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileNameError": {
+    "key": "profileNameError",
+    "en": "Your name must be 2–30 characters.",
+    "tr": "Adın 2–30 karakter olmalı.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileBioRequired": {
+    "key": "profileBioRequired",
+    "en": "Add your bio.",
+    "tr": "Kısa açıklamanı ekle.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileBirthDate": {
+    "key": "profileBirthDate",
+    "en": "Date of birth",
+    "tr": "Doğum tarihi",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileBirthDateError": {
+    "key": "profileBirthDateError",
+    "en": "We couldn’t verify your date of birth. Check it and try again.",
+    "tr": "Doğum tarihini doğrulayamadık. Kontrol edip tekrar dene.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileOtherInterest": {
+    "key": "profileOtherInterest",
+    "en": "Other",
+    "tr": "Diğer",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileCharactersRemaining": {
+    "key": "profileCharactersRemaining",
+    "en": "{remaining} characters left",
+    "tr": "{remaining} karakter kaldı",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileSaveUnavailable": {
+    "key": "profileSaveUnavailable",
+    "en": "Profile saving isn’t connected in this build yet.",
+    "tr": "Profil kaydetme bu sürümde henüz bağlı değil.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "photoUnavailable": {
+    "key": "photoUnavailable",
+    "en": "Adding a photo isn’t connected in this build yet.",
+    "tr": "Fotoğraf ekleme bu sürümde henüz bağlı değil.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "requestSelectAccept": {
+    "key": "requestSelectAccept",
+    "en": "Choose and accept",
+    "tr": "Seç ve Kabul Et",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "requestIncomingInstead": {
+    "key": "requestIncomingInstead",
+    "en": "You have a request from this person. Review it and choose your own intentions.",
+    "tr": "Bu kişiden bir isteğin var. İnceleyip kendi niyetlerini seçebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "requestReviewIncoming": {
+    "key": "requestReviewIncoming",
+    "en": "Review incoming request",
+    "tr": "Gelen isteği incele",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "continueWithdraw": {
+    "key": "continueWithdraw",
+    "en": "Withdraw my continue preference",
+    "tr": "Devam tercihimi geri al",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "continueWithdrawn": {
+    "key": "continueWithdrawn",
+    "en": "Your continue preference has been withdrawn.",
+    "tr": "Devam tercihin geri alındı.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "connectionEndedNeutral": {
+    "key": "connectionEndedNeutral",
+    "en": "The connection has ended.",
+    "tr": "Bağlantı sona erdi.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "chatClosedReadOnly": {
+    "key": "chatClosedReadOnly",
+    "en": "This conversation is currently read-only.",
+    "tr": "Bu sohbet şu anda salt okunur.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactEdit": {
+    "key": "contactEdit",
+    "en": "Edit shared detail",
+    "tr": "Paylaşılan bilgiyi düzenle",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactHide": {
+    "key": "contactHide",
+    "en": "Stop showing this detail",
+    "tr": "Görünürlüğünü kaldır",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactHideNote": {
+    "key": "contactHideNote",
+    "en": "This detail will no longer appear here. Copies already seen or saved can’t be recalled.",
+    "tr": "Bu bilgi artık burada görünmez. Daha önce görülmüş veya kaydedilmiş kopyalar geri alınamaz.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactPublishChange": {
+    "key": "contactPublishChange",
+    "en": "Share update",
+    "tr": "Değişikliği paylaş",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactHidden": {
+    "key": "contactHidden",
+    "en": "The detail is no longer visible.",
+    "tr": "Bilginin görünürlüğü kaldırıldı.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "reportAlsoBlock": {
+    "key": "reportAlsoBlock",
+    "en": "Would you also like to block this person?",
+    "tr": "Bu kişiyi ayrıca engellemek ister misin?",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "reportNoBlock": {
+    "key": "reportNoBlock",
+    "en": "Not now",
+    "tr": "Şimdi değil",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "reportFailed": {
+    "key": "reportFailed",
+    "en": "Your report wasn’t sent. You can try again.",
+    "tr": "Şikâyet gönderilemedi. Tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "notificationDenied": {
+    "key": "notificationDenied",
+    "en": "Notifications are off. You can keep using the app.",
+    "tr": "Bildirimler kapalı. Uygulamayı kullanmaya devam edebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "deviceLanguage": {
+    "key": "deviceLanguage",
+    "en": "Device language",
+    "tr": "Cihaz dili",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "languageTurkish": {
+    "key": "languageTurkish",
+    "en": "Türkçe",
+    "tr": "Türkçe",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "languageEnglish": {
+    "key": "languageEnglish",
+    "en": "English",
+    "tr": "English",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "navMessages": {
+    "key": "navMessages",
+    "en": "Messages",
+    "tr": "Mesajlar",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "mapSnapshot": {
+    "key": "mapSnapshot",
+    "en": "Activity snapshot: {time}",
+    "tr": "Yoğunluk görünümü: {time}",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "mapSnapshotExplanation": {
+    "key": "mapSnapshotExplanation",
+    "en": "This is a snapshot; it doesn’t confirm that people are still there.",
+    "tr": "Bu görünüm bir anlık görüntüdür; kişilerin hâlâ orada olduğunu doğrulamaz.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInPresenceNote": {
+    "key": "checkInPresenceNote",
+    "en": "A check-in isn’t continuous location tracking.",
+    "tr": "Check-in, sürekli konum takibi değildir.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "locationPermissionRationale": {
+    "key": "locationPermissionRationale",
+    "en": "To check in, I’M HERE uses your phone’s location once, now. It is used only to show you to people nearby for 30 minutes and is never shown to anyone. Erasure starts when your check-in ends. It is not tracked in the background.",
+    "tr": "Check-in için I’M HERE telefonunun konumunu şimdi, bir kez kullanır. Konumun yalnızca 30 dakika boyunca yakınındakilere görünmen için kullanılır ve kimseye gösterilmez. Check-in bitince silme başlar. Arka planda takip edilmez.",
+    "source": "v2.3 v6-final-copy-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInNoticeNoFix": {
+    "key": "checkInNoticeNoFix",
+    "en": "We couldn’t verify your location. You can try again in a few seconds.",
+    "tr": "Konumunu doğrulayamadık. Birkaç saniye sonra tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInNoticePermission": {
+    "key": "checkInNoticePermission",
+    "en": "To check in, we need your device’s location permission during this step.",
+    "tr": "Buradayım demek için bu adımda cihazının konum iznine ihtiyacımız var.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInNoticePermissionForever": {
+    "key": "checkInNoticePermissionForever",
+    "en": "Location access is off for I’M HERE. You can turn it on in app settings.",
+    "tr": "I’M HERE için konum izni kapalı. Uygulama ayarlarından açabilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInNoticeServicesOff": {
+    "key": "checkInNoticeServicesOff",
+    "en": "Your device’s location services are off. Turn them on and try again.",
+    "tr": "Cihazının konum servisleri kapalı. Açıp tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInNoticePrecise": {
+    "key": "checkInNoticePrecise",
+    "en": "Check-in needs a more precise location.",
+    "tr": "Check-in için daha hassas konum gerekiyor.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInNoticeRenewalFailed": {
+    "key": "checkInNoticeRenewalFailed",
+    "en": "We couldn’t renew. Your current check-in continues. Ends at {time}.",
+    "tr": "Yenileyemedik. Mevcut check-in’in devam ediyor. Bitiş: {time}.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInNoticeOldExpiredVerifying": {
+    "key": "checkInNoticeOldExpiredVerifying",
+    "en": "Your previous check-in has ended. We’re verifying your location.",
+    "tr": "Önceki check-in’in sona erdi. Konumunu doğruluyoruz.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInNoticeVerifying": {
+    "key": "checkInNoticeVerifying",
+    "en": "We’re confirming your check-in result.",
+    "tr": "Check-in sonucunu doğruluyoruz.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInNoticeNetwork": {
+    "key": "checkInNoticeNetwork",
+    "en": "No connection. The action wasn’t completed; you can try again.",
+    "tr": "Bağlantı yok. İşlem tamamlanmadı; tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInNoticeServer": {
+    "key": "checkInNoticeServer",
+    "en": "Check-in couldn’t be completed. You can try again.",
+    "tr": "Check-in tamamlanamadı. Tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInNoticeStopPending": {
+    "key": "checkInNoticeStopPending",
+    "en": "Stopping hasn’t been confirmed yet. We’ll retry when you’re back online.",
+    "tr": "Durdurma henüz teyit edilmedi. Bağlantı gelince tekrar denenecek.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInNoticeStopSuperseded": {
+    "key": "checkInNoticeStopSuperseded",
+    "en": "Your newer check-in is active. The earlier stop request wasn’t applied.",
+    "tr": "Yeni check-in’in aktif. Önceki durdurma isteği uygulanmadı.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "mapPartial": {
+    "key": "mapPartial",
+    "en": "Zoom in to see activity",
+    "tr": "Hareketliliği görmek için yaklaştır",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "mapEmptyNoRegion": {
+    "key": "mapEmptyNoRegion",
+    "en": "Check in or explore the map",
+    "tr": "Buradayım de ya da haritayı gez",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileSaved": {
+    "key": "profileSaved",
+    "en": "Profile saved",
+    "tr": "Profil kaydedildi.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileIncomplete": {
+    "key": "profileIncomplete",
+    "en": "Add one photo to finish your profile",
+    "tr": "Profilini tamamlamak için bir fotoğraf ekle.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileComplete": {
+    "key": "profileComplete",
+    "en": "Your profile is complete",
+    "tr": "Profilin tamam.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "fieldInterests": {
+    "key": "fieldInterests",
+    "en": "Interests",
+    "tr": "İlgi alanları",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "dobHelp": {
+    "key": "dobHelp",
+    "en": "You must be 18 or older to use I’M HERE.",
+    "tr": "I’M HERE’i kullanmak için 18 yaşında veya daha büyük olmalısın.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestsHelp": {
+    "key": "interestsHelp",
+    "en": "Choose between {min} and {max}.",
+    "tr": "En az {min}, en fazla {max} tane seç.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "charactersLeft": {
+    "key": "charactersLeft",
+    "en": "{count} characters left",
+    "tr": "{count} karakter kaldı",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "visibilityTitle": {
+    "key": "visibilityTitle",
+    "en": "What others can see",
+    "tr": "Diğerlerinin görebildikleri",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "visibilityHelp": {
+    "key": "visibilityHelp",
+    "en": "Hidden fields are removed on the server from the data sent to other people, not just hidden in the app.",
+    "tr": "Gizlediğin alanlar yalnızca uygulamada gizlenmez; sunucuda, diğer kişilere gönderilen veriden çıkarılır.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "showAge": {
+    "key": "showAge",
+    "en": "Show my age",
+    "tr": "Yaşım görünsün",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "showGender": {
+    "key": "showGender",
+    "en": "Show my gender",
+    "tr": "Cinsiyetim görünsün",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "showOccupation": {
+    "key": "showOccupation",
+    "en": "Show my job title",
+    "tr": "Mesleğim görünsün",
+    "source": "HB-37 r5 §6",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "photoTitle": {
+    "key": "photoTitle",
+    "en": "Profile photo",
+    "tr": "Profil fotoğrafı",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "photoNone": {
+    "key": "photoNone",
+    "en": "No photo yet",
+    "tr": "Henüz fotoğraf yok",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "photoChoose": {
+    "key": "photoChoose",
+    "en": "Choose photo",
+    "tr": "Fotoğraf seç",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "photoReplace": {
+    "key": "photoReplace",
+    "en": "Replace photo",
+    "tr": "Fotoğrafı değiştir",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "photoPrivacyNote": {
+    "key": "photoPrivacyNote",
+    "en": "Location data is removed from your photo before it is saved.",
+    "tr": "Fotoğrafın kaydedilmeden önce konum bilgisi temizlenir.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "settingsLanguage": {
+    "key": "settingsLanguage",
+    "en": "Language",
+    "tr": "Dil",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "errorRequired": {
+    "key": "errorRequired",
+    "en": "This field is required",
+    "tr": "Bu alan zorunlu.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "errorTextTooLong": {
+    "key": "errorTextTooLong",
+    "en": "This text is too long",
+    "tr": "Bu metin çok uzun.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "errorTextTooShort": {
+    "key": "errorTextTooShort",
+    "en": "This text is too short",
+    "tr": "Bu metin çok kısa.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "errorInterestsRange": {
+    "key": "errorInterestsRange",
+    "en": "Choose between {min} and {max} interests",
+    "tr": "En az {min}, en fazla {max} ilgi alanı seç.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "errorGenderRequired": {
+    "key": "errorGenderRequired",
+    "en": "Please choose an option",
+    "tr": "Lütfen bir seçim yap.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "errorQualityInsufficient": {
+    "key": "errorQualityInsufficient",
+    "en": "This photo could not be used. Try another one.",
+    "tr": "Bu fotoğraf kullanılamadı. Başka bir fotoğraf dene.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "errorStateChanged": {
+    "key": "errorStateChanged",
+    "en": "Something changed. Please try again.",
+    "tr": "Bir şey değişti. Lütfen tekrar dene.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "errorNetwork": {
+    "key": "errorNetwork",
+    "en": "No connection. Please try again.",
+    "tr": "Bağlantı yok. Lütfen tekrar dene.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestMusic": {
+    "key": "interestMusic",
+    "en": "Music",
+    "tr": "Müzik",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestLiveMusic": {
+    "key": "interestLiveMusic",
+    "en": "Live music",
+    "tr": "Canlı müzik",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestFilmTv": {
+    "key": "interestFilmTv",
+    "en": "Film and TV",
+    "tr": "Film ve dizi",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestBooks": {
+    "key": "interestBooks",
+    "en": "Books",
+    "tr": "Kitap",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestArtMuseums": {
+    "key": "interestArtMuseums",
+    "en": "Art and museums",
+    "tr": "Sanat ve müze",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestPhotography": {
+    "key": "interestPhotography",
+    "en": "Photography",
+    "tr": "Fotoğrafçılık",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestCoffee": {
+    "key": "interestCoffee",
+    "en": "Coffee",
+    "tr": "Kahve",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestFoodCooking": {
+    "key": "interestFoodCooking",
+    "en": "Food and cooking",
+    "tr": "Yemek ve mutfak",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestTravel": {
+    "key": "interestTravel",
+    "en": "Travel",
+    "tr": "Seyahat",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestNatureHiking": {
+    "key": "interestNatureHiking",
+    "en": "Nature and hiking",
+    "tr": "Doğa ve yürüyüş",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestWatchingSports": {
+    "key": "interestWatchingSports",
+    "en": "Watching sports",
+    "tr": "Spor izlemek",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestFitness": {
+    "key": "interestFitness",
+    "en": "Fitness",
+    "tr": "Spor salonu",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestRunning": {
+    "key": "interestRunning",
+    "en": "Running",
+    "tr": "Koşu",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestCycling": {
+    "key": "interestCycling",
+    "en": "Cycling",
+    "tr": "Bisiklet",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestWaterSports": {
+    "key": "interestWaterSports",
+    "en": "Water sports",
+    "tr": "Su sporları",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestYoga": {
+    "key": "interestYoga",
+    "en": "Yoga",
+    "tr": "Yoga",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestDancing": {
+    "key": "interestDancing",
+    "en": "Dancing",
+    "tr": "Dans",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestVideoGames": {
+    "key": "interestVideoGames",
+    "en": "Video games",
+    "tr": "Video oyunları",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestBoardGames": {
+    "key": "interestBoardGames",
+    "en": "Board games",
+    "tr": "Kutu oyunları",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestTechnology": {
+    "key": "interestTechnology",
+    "en": "Technology",
+    "tr": "Teknoloji",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestEntrepreneurship": {
+    "key": "interestEntrepreneurship",
+    "en": "Entrepreneurship",
+    "tr": "Girişimcilik",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestDesign": {
+    "key": "interestDesign",
+    "en": "Design",
+    "tr": "Tasarım",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestLanguages": {
+    "key": "interestLanguages",
+    "en": "Languages",
+    "tr": "Diller",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestVolunteering": {
+    "key": "interestVolunteering",
+    "en": "Volunteering",
+    "tr": "Gönüllülük",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestAnimals": {
+    "key": "interestAnimals",
+    "en": "Animals",
+    "tr": "Hayvanlar",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestGardening": {
+    "key": "interestGardening",
+    "en": "Gardening",
+    "tr": "Bahçecilik",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "interestOther": {
+    "key": "interestOther",
+    "en": "Other",
+    "tr": "Diğer",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInTitle": {
+    "key": "checkInTitle",
+    "en": "Check-in",
+    "tr": "Check-in",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "devEmulatorBanner": {
+    "key": "devEmulatorBanner",
+    "en": "DEV: local emulators ({uid})",
+    "tr": "DEV: yerel emülatör ({uid})",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "appTitle": {
+    "key": "appTitle",
+    "en": "I’M HERE",
+    "tr": "I’M HERE",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "mapOpen": {
+    "key": "mapOpen",
+    "en": "Area activity",
+    "tr": "Bölge hareketliliği",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "mapLoading": {
+    "key": "mapLoading",
+    "en": "Loading the map…",
+    "tr": "Harita yükleniyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "mapOffline": {
+    "key": "mapOffline",
+    "en": "No internet connection. The map can’t update right now.",
+    "tr": "İnternet bağlantısı yok. Harita şu anda güncellenemiyor.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "mapBack": {
+    "key": "mapBack",
+    "en": "Back to Nearby",
+    "tr": "Yakındakiler’e dön",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "mapLegend": {
+    "key": "mapLegend",
+    "en": "Activity",
+    "tr": "Hareketlilik",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "mapZoomIn": {
+    "key": "mapZoomIn",
+    "en": "Zoom in",
+    "tr": "Yakınlaştır",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "mapZoomOut": {
+    "key": "mapZoomOut",
+    "en": "Zoom out",
+    "tr": "Uzaklaştır",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyLoading": {
+    "key": "nearbyLoading",
+    "en": "Loading profiles…",
+    "tr": "Profiller yükleniyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyOffline": {
+    "key": "nearbyOffline",
+    "en": "No internet connection. Profiles can’t update right now.",
+    "tr": "İnternet bağlantısı yok. Profiller şu anda güncellenemiyor.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyFailed": {
+    "key": "nearbyFailed",
+    "en": "Profiles couldn’t be loaded.",
+    "tr": "Profiller yüklenemedi.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "checkInRenewing": {
+    "key": "checkInRenewing",
+    "en": "Verifying your location again…",
+    "tr": "Konumunu yeniden doğruluyoruz…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "viewBack": {
+    "key": "viewBack",
+    "en": "Back",
+    "tr": "Geri",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileView": {
+    "key": "profileView",
+    "en": "View profile",
+    "tr": "Profili aç",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "onboardingStart": {
+    "key": "onboardingStart",
+    "en": "Let’s begin",
+    "tr": "Başlayalım",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "onboardingIntro": {
+    "key": "onboardingIntro",
+    "en": "Start with your invitation. Make room for a hello.",
+    "tr": "Davetinle başla. Bir merhabaya yer aç.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "invitationHelp": {
+    "key": "invitationHelp",
+    "en": "Enter your invitation code to continue.",
+    "tr": "Davet kodunu girerek devam et.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "invitationChecking": {
+    "key": "invitationChecking",
+    "en": "Checking your invitation code…",
+    "tr": "Davet kodunu doğruluyoruz…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "emailTitle": {
+    "key": "emailTitle",
+    "en": "Create your account",
+    "tr": "Hesabını oluştur",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "emailHelp": {
+    "key": "emailHelp",
+    "en": "Create your account with your email and password. Then verify your email address.",
+    "tr": "E-posta adresin ve parolanla hesabını oluştur. Ardından e-posta adresini doğrula.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "emailSending": {
+    "key": "emailSending",
+    "en": "Sending the verification link…",
+    "tr": "Doğrulama bağlantısı gönderiliyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "emailWaitingTitle": {
+    "key": "emailWaitingTitle",
+    "en": "Verify your email",
+    "tr": "E-postanı doğrula",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "emailWaitingHelp": {
+    "key": "emailWaitingHelp",
+    "en": "Tap the link in the email to verify your address.",
+    "tr": "E-postadaki bağlantıya dokunarak adresini doğrula.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "emailChange": {
+    "key": "emailChange",
+    "en": "Change email address",
+    "tr": "E-posta adresini değiştir",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "emailVerifying": {
+    "key": "emailVerifying",
+    "en": "Verifying your email address…",
+    "tr": "E-posta adresini doğruluyoruz…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "emailVerifyFailed": {
+    "key": "emailVerifyFailed",
+    "en": "We couldn’t finish verification with this link. You can request a new one.",
+    "tr": "Bu bağlantıyla doğrulamayı tamamlayamadık. Yeni bir bağlantı isteyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileEdit": {
+    "key": "profileEdit",
+    "en": "Edit my profile",
+    "tr": "Profilimi düzenle",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileEditTitle": {
+    "key": "profileEditTitle",
+    "en": "Edit your profile",
+    "tr": "Profilini düzenle",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileBasics": {
+    "key": "profileBasics",
+    "en": "A little about you",
+    "tr": "Seni tanıyalım",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileAbout": {
+    "key": "profileAbout",
+    "en": "Tell us a little about yourself",
+    "tr": "Kendinden biraz bahset",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileInterestsTitle": {
+    "key": "profileInterestsTitle",
+    "en": "Your interests",
+    "tr": "İlgi alanların",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileInterestsChoose": {
+    "key": "profileInterestsChoose",
+    "en": "Choose interests",
+    "tr": "İlgi alanlarını seç",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLanguagesChoose": {
+    "key": "profileLanguagesChoose",
+    "en": "Choose languages you speak",
+    "tr": "Konuştuğun dilleri seç",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileDobPrivacy": {
+    "key": "profileDobPrivacy",
+    "en": "Your date of birth is not shown on your profile.",
+    "tr": "Doğum tarihin profilinde gösterilmez.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileGenderChoose": {
+    "key": "profileGenderChoose",
+    "en": "Choose an option",
+    "tr": "Bir seçenek seç",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profilePhotoRequired": {
+    "key": "profilePhotoRequired",
+    "en": "Choose one photo to complete your profile.",
+    "tr": "Profilini tamamlamak için bir fotoğraf seç.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileSaving": {
+    "key": "profileSaving",
+    "en": "Saving your profile…",
+    "tr": "Profilin kaydediliyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLoading": {
+    "key": "profileLoading",
+    "en": "Loading the profile…",
+    "tr": "Profil yükleniyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLoadFailed": {
+    "key": "profileLoadFailed",
+    "en": "The profile couldn’t be loaded.",
+    "tr": "Profil yüklenemedi.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileSaveFailed": {
+    "key": "profileSaveFailed",
+    "en": "Your profile couldn’t be saved. Check your details and try again.",
+    "tr": "Profil kaydedilemedi. Bilgilerini kontrol edip tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileUnavailable": {
+    "key": "profileUnavailable",
+    "en": "This profile isn’t available right now.",
+    "tr": "Bu profil şu anda görüntülenemiyor.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileNextCheckIn": {
+    "key": "profileNextCheckIn",
+    "en": "Go to check-in",
+    "tr": "Buradayım’a geç",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileReadyBody": {
+    "key": "profileReadyBody",
+    "en": "Your profile is ready. You can check in from Nearby.",
+    "tr": "Profilin hazır. Yakındakiler’den Buradayım diyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileVisibilitySection": {
+    "key": "profileVisibilitySection",
+    "en": "Visible on your profile",
+    "tr": "Profilinde görünenler",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileVisibilityOn": {
+    "key": "profileVisibilityOn",
+    "en": "Visible",
+    "tr": "Görünür",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileVisibilityOff": {
+    "key": "profileVisibilityOff",
+    "en": "Hidden",
+    "tr": "Gizli",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "photoSelecting": {
+    "key": "photoSelecting",
+    "en": "Preparing your photo…",
+    "tr": "Fotoğraf hazırlanıyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "photoPermissionDenied": {
+    "key": "photoPermissionDenied",
+    "en": "The photo can’t be accessed. Check system permissions and try again.",
+    "tr": "Fotoğrafa erişilemiyor. Sistem izinlerini kontrol edip tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "photoSelectionFailed": {
+    "key": "photoSelectionFailed",
+    "en": "The photo couldn’t be added. You can try again.",
+    "tr": "Fotoğraf eklenemedi. Tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "photoContinue": {
+    "key": "photoContinue",
+    "en": "Use this photo",
+    "tr": "Fotoğrafı kullan",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "selectionDone": {
+    "key": "selectionDone",
+    "en": "Done",
+    "tr": "Tamam",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "selectionCount": {
+    "key": "selectionCount",
+    "en": "{selected}/{max} selected",
+    "tr": "{selected}/{max} seçildi",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "selectionMaxReached": {
+    "key": "selectionMaxReached",
+    "en": "You can choose up to {max} interests. Remove one before choosing another.",
+    "tr": "En fazla {max} ilgi alanı seçebilirsin. Yeni bir seçim için öncekilerden birini kaldır.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "languageOptionalEmpty": {
+    "key": "languageOptionalEmpty",
+    "en": "No languages selected yet. This field is optional.",
+    "tr": "Henüz dil seçmedin. Bu alan isteğe bağlı.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileNoDraftPromise": {
+    "key": "profileNoDraftPromise",
+    "en": "Changes apply when you save.",
+    "tr": "Değişiklikler kaydettiğinde uygulanır.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileNamePlaceholder": {
+    "key": "profileNamePlaceholder",
+    "en": "Your name",
+    "tr": "Adın",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "bioPlaceholder": {
+    "key": "bioPlaceholder",
+    "en": "A few words about you",
+    "tr": "Seni anlatan birkaç cümle",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "dobPlaceholder": {
+    "key": "dobPlaceholder",
+    "en": "Choose your date of birth",
+    "tr": "Doğum tarihini seç",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLanguagesLabel": {
+    "key": "profileLanguagesLabel",
+    "en": "Languages spoken",
+    "tr": "Konuşulan diller",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authCreateAccount": {
+    "key": "authCreateAccount",
+    "en": "Create account",
+    "tr": "Hesap oluştur",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authPassword": {
+    "key": "authPassword",
+    "en": "Password",
+    "tr": "Parola",
+    "source": "v2.3 release8-approved-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authCreating": {
+    "key": "authCreating",
+    "en": "Creating your account…",
+    "tr": "Hesabın oluşturuluyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authCreateFailed": {
+    "key": "authCreateFailed",
+    "en": "Your account couldn’t be created. Check your details and try again.",
+    "tr": "Hesap oluşturulamadı. Bilgilerini kontrol edip tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authSignInTitle": {
+    "key": "authSignInTitle",
+    "en": "Hello again",
+    "tr": "Tekrar merhaba",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authSignInBody": {
+    "key": "authSignInBody",
+    "en": "Sign in with your email and password.",
+    "tr": "E-posta adresin ve parolanla giriş yap.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authSignIn": {
+    "key": "authSignIn",
+    "en": "Sign in",
+    "tr": "Giriş yap",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authExistingAccount": {
+    "key": "authExistingAccount",
+    "en": "I have an account · Sign in",
+    "tr": "Hesabım var · Giriş yap",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authSigningIn": {
+    "key": "authSigningIn",
+    "en": "Signing in…",
+    "tr": "Giriş yapılıyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authSignInFailed": {
+    "key": "authSignInFailed",
+    "en": "Couldn’t sign in. Check your details and try again.",
+    "tr": "Giriş yapılamadı. Bilgilerini kontrol edip tekrar dene.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authForgotPassword": {
+    "key": "authForgotPassword",
+    "en": "Forgot password",
+    "tr": "Parolamı unuttum",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authResetTitle": {
+    "key": "authResetTitle",
+    "en": "Reset your password",
+    "tr": "Parolanı sıfırla",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authResetBody": {
+    "key": "authResetBody",
+    "en": "Enter the email address you use for your account.",
+    "tr": "Hesabınla kullandığın e-posta adresini gir.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authResetSend": {
+    "key": "authResetSend",
+    "en": "Send reset email",
+    "tr": "Sıfırlama e-postası gönder",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authResetSending": {
+    "key": "authResetSending",
+    "en": "Sending your password reset request…",
+    "tr": "Parola sıfırlama isteğin gönderiliyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authResetSent": {
+    "key": "authResetSent",
+    "en": "If this email address is registered, a password reset link has been sent.",
+    "tr": "Bu e-posta adresi kayıtlıysa parola sıfırlama bağlantısı gönderildi.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authResetFailed": {
+    "key": "authResetFailed",
+    "en": "Your password reset request couldn’t be completed. You can try again.",
+    "tr": "Parola sıfırlama isteği tamamlanamadı. Tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authVerifyCheck": {
+    "key": "authVerifyCheck",
+    "en": "Check verification",
+    "tr": "Doğrulamayı kontrol et",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authVerifyRequired": {
+    "key": "authVerifyRequired",
+    "en": "Verify your email address to continue.",
+    "tr": "Devam etmek için e-posta adresini doğrula.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authVerifyNotYet": {
+    "key": "authVerifyNotYet",
+    "en": "Email verification hasn’t been confirmed yet. Tap the link in your inbox and check again.",
+    "tr": "E-posta doğrulaması henüz onaylanmadı. Gelen kutundaki bağlantıya dokunup tekrar kontrol edebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authVerifySendFailed": {
+    "key": "authVerifySendFailed",
+    "en": "The verification email couldn’t be sent. You can try sending it again.",
+    "tr": "Doğrulama e-postası gönderilemedi. Tekrar göndermeyi deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authVerifyResendUnavailable": {
+    "key": "authVerifyResendUnavailable",
+    "en": "The verification email can’t be resent right now.",
+    "tr": "Doğrulama e-postası şu anda yeniden gönderilemiyor.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authSignOut": {
+    "key": "authSignOut",
+    "en": "Sign out",
+    "tr": "Çıkış yap",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authSigningOut": {
+    "key": "authSigningOut",
+    "en": "Signing out…",
+    "tr": "Çıkış yapılıyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authSignOutFailed": {
+    "key": "authSignOutFailed",
+    "en": "You couldn’t be signed out. You can try again.",
+    "tr": "Çıkış yapılamadı. Tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authEmail": {
+    "key": "authEmail",
+    "en": "Email address",
+    "tr": "E-posta adresi",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authPasswordRule": {
+    "key": "authPasswordRule",
+    "en": "At least 8 characters.",
+    "tr": "En az 8 karakter.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authPasswordShow": {
+    "key": "authPasswordShow",
+    "en": "Show password",
+    "tr": "Parolayı göster",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authPasswordHide": {
+    "key": "authPasswordHide",
+    "en": "Hide password",
+    "tr": "Parolayı gizle",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authEmailInvalid": {
+    "key": "authEmailInvalid",
+    "en": "Check your email address.",
+    "tr": "E-posta adresini kontrol et.",
+    "source": "v2.3 release8-approved-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authPasswordWeak": {
+    "key": "authPasswordWeak",
+    "en": "Password must be at least 8 characters.",
+    "tr": "Parola en az 8 karakter olmalı.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authEmailUnavailable": {
+    "key": "authEmailUnavailable",
+    "en": "This email can't be used to create a new account. If you already have one, sign in instead.",
+    "tr": "Bu e-posta ile yeni hesap oluşturulamıyor. Zaten bir hesabın varsa giriş yap.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authTooManyAttempts": {
+    "key": "authTooManyAttempts",
+    "en": "We can’t complete this action right now. Please try again later.",
+    "tr": "Şu anda işlemi tamamlayamıyoruz. Daha sonra tekrar dene.",
+    "source": "v2.3 release8-approved-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authReauthRequired": {
+    "key": "authReauthRequired",
+    "en": "Sign in again to continue.",
+    "tr": "Devam etmek için yeniden giriş yap.",
+    "source": "v2.3 release8-approved-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authResetBackToSignIn": {
+    "key": "authResetBackToSignIn",
+    "en": "Back to sign in",
+    "tr": "Girişe dön",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "messagesConnections": {
+    "key": "messagesConnections",
+    "en": "Connections",
+    "tr": "Bağlantılar",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "messagesRequests": {
+    "key": "messagesRequests",
+    "en": "Requests",
+    "tr": "İstekler",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "messagesIncoming": {
+    "key": "messagesIncoming",
+    "en": "Incoming requests",
+    "tr": "Gelen istekler",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "messagesOutgoing": {
+    "key": "messagesOutgoing",
+    "en": "Outgoing requests",
+    "tr": "Giden istekler",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "messagesEmptyConnections": {
+    "key": "messagesEmptyConnections",
+    "en": "You don’t have any connections yet.",
+    "tr": "Henüz bir bağlantın yok.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "messagesEmptyRequests": {
+    "key": "messagesEmptyRequests",
+    "en": "You don’t have any requests right now.",
+    "tr": "Şu anda bir isteğin yok.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "messagesLoading": {
+    "key": "messagesLoading",
+    "en": "Loading your messages…",
+    "tr": "Mesajların yükleniyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "messagesLoadFailed": {
+    "key": "messagesLoadFailed",
+    "en": "Your messages couldn’t be loaded. You can try again.",
+    "tr": "Mesajların yüklenemedi. Tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "messagesUnavailable": {
+    "key": "messagesUnavailable",
+    "en": "This content isn’t available right now.",
+    "tr": "Bu içerik şu anda kullanılamıyor.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "messagesReturn": {
+    "key": "messagesReturn",
+    "en": "Back to messages",
+    "tr": "Mesajlara dön",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "messagesViewRequest": {
+    "key": "messagesViewRequest",
+    "en": "View request",
+    "tr": "İsteği görüntüle",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "requestSending": {
+    "key": "requestSending",
+    "en": "Sending your request…",
+    "tr": "İsteğin gönderiliyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "requestFailed": {
+    "key": "requestFailed",
+    "en": "Your request couldn’t be sent. You can try again.",
+    "tr": "İstek gönderilemedi. Tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "requestAccepting": {
+    "key": "requestAccepting",
+    "en": "Accepting the request…",
+    "tr": "İsteği kabul ediyorsun…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "requestAcceptFailed": {
+    "key": "requestAcceptFailed",
+    "en": "The request couldn’t be accepted. You can try again.",
+    "tr": "İstek kabul edilemedi. Tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "requestDeclining": {
+    "key": "requestDeclining",
+    "en": "Saving your response…",
+    "tr": "İstek yanıtın kaydediliyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "requestDeclineFailed": {
+    "key": "requestDeclineFailed",
+    "en": "Your response couldn’t be saved. You can try again.",
+    "tr": "Yanıtın kaydedilemedi. Tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "requestCancelling": {
+    "key": "requestCancelling",
+    "en": "Cancelling your request…",
+    "tr": "İsteğin iptal ediliyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "requestCancelFailed": {
+    "key": "requestCancelFailed",
+    "en": "The request couldn’t be cancelled. You can try again.",
+    "tr": "İstek iptal edilemedi. Tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "requestCancelled": {
+    "key": "requestCancelled",
+    "en": "Your request was cancelled.",
+    "tr": "İsteğin iptal edildi.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "requestClosed": {
+    "key": "requestClosed",
+    "en": "This request has ended.",
+    "tr": "Bu istek sona erdi.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "requestUnavailable": {
+    "key": "requestUnavailable",
+    "en": "This request isn’t available right now.",
+    "tr": "Bu istek şu anda kullanılamıyor.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "requestTimeLeft": {
+    "key": "requestTimeLeft",
+    "en": "Time left: {time}",
+    "tr": "Kalan süre: {time}",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "matchLoading": {
+    "key": "matchLoading",
+    "en": "Loading your connection…",
+    "tr": "Bağlantın yükleniyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "matchLoadFailed": {
+    "key": "matchLoadFailed",
+    "en": "Your connection couldn’t be loaded. You can try again.",
+    "tr": "Bağlantın yüklenemedi. Tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "matchOpenChat": {
+    "key": "matchOpenChat",
+    "en": "Open chat",
+    "tr": "Sohbete geç",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "chatMessageLabel": {
+    "key": "chatMessageLabel",
+    "en": "Your message",
+    "tr": "Mesajın",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "chatEmptyBody": {
+    "key": "chatEmptyBody",
+    "en": "You can be the first to say hello.",
+    "tr": "İlk merhaba senden gelebilir.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "chatCharacters": {
+    "key": "chatCharacters",
+    "en": "{used}/500 characters",
+    "tr": "{used}/500 karakter",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "chatTooLong": {
+    "key": "chatTooLong",
+    "en": "Your message can contain up to 500 characters.",
+    "tr": "Mesajın en fazla 500 karakter olabilir.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "chatLoading": {
+    "key": "chatLoading",
+    "en": "Loading the conversation…",
+    "tr": "Sohbet yükleniyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "chatLoadFailed": {
+    "key": "chatLoadFailed",
+    "en": "The conversation couldn’t be loaded. You can try again.",
+    "tr": "Sohbet yüklenemedi. Tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "chatSending": {
+    "key": "chatSending",
+    "en": "Sending your message…",
+    "tr": "Mesajın gönderiliyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "chatSendFailed": {
+    "key": "chatSendFailed",
+    "en": "Your message couldn’t be sent. You can try again.",
+    "tr": "Mesajın gönderilemedi. Tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "chatSendUnconfirmed": {
+    "key": "chatSendUnconfirmed",
+    "en": "We haven’t confirmed whether your message was sent.",
+    "tr": "Mesajının gönderilip gönderilmediği henüz doğrulanamadı.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "chatCountPending": {
+    "key": "chatCountPending",
+    "en": "Checking your remaining messages…",
+    "tr": "Kalan mesaj hakkın kontrol ediliyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "chatCheckResult": {
+    "key": "chatCheckResult",
+    "en": "Check sending status",
+    "tr": "Gönderim durumunu kontrol et",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "chatSoftPreview": {
+    "key": "chatSoftPreview",
+    "en": "The message you want to send",
+    "tr": "Göndermek istediğin mesaj",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "chatContactOpen": {
+    "key": "chatContactOpen",
+    "en": "Contact details",
+    "tr": "İletişim bilgileri",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "continueSaving": {
+    "key": "continueSaving",
+    "en": "Saving your preference…",
+    "tr": "Tercihin kaydediliyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "continueSaveFailed": {
+    "key": "continueSaveFailed",
+    "en": "Your preference couldn’t be saved. You can try again.",
+    "tr": "Tercihin kaydedilemedi. Tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "continueWithdrawing": {
+    "key": "continueWithdrawing",
+    "en": "Withdrawing your continue preference…",
+    "tr": "Devam tercihin geri alınıyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "continueWithdrawFailed": {
+    "key": "continueWithdrawFailed",
+    "en": "Your preference couldn’t be withdrawn. You can try again.",
+    "tr": "Tercihin geri alınamadı. Tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "continueNoFinal": {
+    "key": "continueNoFinal",
+    "en": "If you choose not to continue, the connection ends. This choice can’t be undone.",
+    "tr": "Devam etmemeyi seçersen bağlantı sona erer. Bu karar geri alınamaz.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "continueNoConfirm": {
+    "key": "continueNoConfirm",
+    "en": "Do you want to stop here?",
+    "tr": "Devam etmemek istiyor musun?",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "continueNoSaving": {
+    "key": "continueNoSaving",
+    "en": "Saving your choice…",
+    "tr": "Kararın kaydediliyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "continueNoFailed": {
+    "key": "continueNoFailed",
+    "en": "Your choice couldn’t be saved. You can try again.",
+    "tr": "Kararın kaydedilemedi. Tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "continueLoading": {
+    "key": "continueLoading",
+    "en": "Loading your preference…",
+    "tr": "Tercihin yükleniyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "continueLoadFailed": {
+    "key": "continueLoadFailed",
+    "en": "Your preference couldn’t be loaded. You can try again.",
+    "tr": "Tercihin yüklenemedi. Tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactYourDetails": {
+    "key": "contactYourDetails",
+    "en": "Your details shared in this connection",
+    "tr": "Bu bağlantıda paylaştıkların",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactSharedWithYou": {
+    "key": "contactSharedWithYou",
+    "en": "Details shared with you",
+    "tr": "Seninle paylaşılanlar",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactNothingShared": {
+    "key": "contactNothingShared",
+    "en": "No details are currently shared.",
+    "tr": "Şu anda paylaşılan bir bilgi yok.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactExplicitOnly": {
+    "key": "contactExplicitOnly",
+    "en": "Filling in a field doesn’t share it. Select it and confirm to share.",
+    "tr": "Bir alanı doldurmak onu paylaşmaz. Paylaşmak için seçip onayla.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactSeenNote": {
+    "key": "contactSeenNote",
+    "en": "Details already seen or saved can’t be recalled.",
+    "tr": "Daha önce görülmüş veya kaydedilmiş bilgiler geri alınamaz.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactChooseDetails": {
+    "key": "contactChooseDetails",
+    "en": "Choose details to share",
+    "tr": "Paylaşacağın bilgileri seç",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactWithdrawConsequence": {
+    "key": "contactWithdrawConsequence",
+    "en": "Removing this detail from view won’t recall copies already seen or saved.",
+    "tr": "Görünürlüğünü kaldırmak, daha önce görülmüş veya kaydedilmiş bilgileri geri almaz.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactLoading": {
+    "key": "contactLoading",
+    "en": "Loading contact details…",
+    "tr": "İletişim bilgileri yükleniyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactLoadFailed": {
+    "key": "contactLoadFailed",
+    "en": "Contact details couldn’t be loaded. You can try again.",
+    "tr": "İletişim bilgileri yüklenemedi. Tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactSharing": {
+    "key": "contactSharing",
+    "en": "Sharing your selected details…",
+    "tr": "Seçtiğin bilgiler paylaşılıyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactShareFailed": {
+    "key": "contactShareFailed",
+    "en": "Your details couldn’t be shared. You can try again.",
+    "tr": "Bilgilerin paylaşılamadı. Tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactFieldInvalid": {
+    "key": "contactFieldInvalid",
+    "en": "Check the detail you want to share.",
+    "tr": "Paylaşmak istediğin bilgiyi kontrol et.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactUpdating": {
+    "key": "contactUpdating",
+    "en": "Sharing your update…",
+    "tr": "Değişikliğin paylaşılıyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactUpdateFailed": {
+    "key": "contactUpdateFailed",
+    "en": "Your update couldn’t be shared. You can try again.",
+    "tr": "Değişikliğin paylaşılamadı. Tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactWithdrawing": {
+    "key": "contactWithdrawing",
+    "en": "Removing this detail from view…",
+    "tr": "Bilginin görünürlüğü kaldırılıyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactWithdrawFailed": {
+    "key": "contactWithdrawFailed",
+    "en": "This detail couldn’t be removed from view. You can try again.",
+    "tr": "Bilginin görünürlüğü kaldırılamadı. Tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactWithdrawTitle": {
+    "key": "contactWithdrawTitle",
+    "en": "Stop showing this detail?",
+    "tr": "Bu bilginin görünürlüğü kaldırılsın mı?",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "safetyTitle": {
+    "key": "safetyTitle",
+    "en": "Safety",
+    "tr": "Güvenlik",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "settingsNotifications": {
+    "key": "settingsNotifications",
+    "en": "Notifications",
+    "tr": "Bildirimler",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "settingsBlocked": {
+    "key": "settingsBlocked",
+    "en": "Blocked users",
+    "tr": "Engellenenler",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "settingsPrivacy": {
+    "key": "settingsPrivacy",
+    "en": "Privacy policy",
+    "tr": "Gizlilik politikası",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "settingsTerms": {
+    "key": "settingsTerms",
+    "en": "Terms",
+    "tr": "Şartlar",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "settingsBack": {
+    "key": "settingsBack",
+    "en": "Back to settings",
+    "tr": "Ayarlara dön",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "safetyBack": {
+    "key": "safetyBack",
+    "en": "Go back",
+    "tr": "Geri dön",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "safetyChooseCategory": {
+    "key": "safetyChooseCategory",
+    "en": "Choose a category.",
+    "tr": "Bir kategori seç.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "safetyReportSending": {
+    "key": "safetyReportSending",
+    "en": "Sending your report…",
+    "tr": "Şikâyetin gönderiliyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "safetyUnknown": {
+    "key": "safetyUnknown",
+    "en": "The outcome hasn’t been confirmed yet.",
+    "tr": "İşlemin sonucu henüz doğrulanamadı.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "safetyCheckResult": {
+    "key": "safetyCheckResult",
+    "en": "Check operation status",
+    "tr": "İşlem durumunu kontrol et",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "safetyUnavailable": {
+    "key": "safetyUnavailable",
+    "en": "This action isn’t available right now.",
+    "tr": "Bu işlem şu anda kullanılamıyor.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "blockBody": {
+    "key": "blockBody",
+    "en": "This person will no longer appear in discovery, requests, chats or contact sharing.",
+    "tr": "Bu kişi keşif, istek, sohbet ve iletişim paylaşımında görünmez olur.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "blockBusy": {
+    "key": "blockBusy",
+    "en": "Blocking…",
+    "tr": "Engelleniyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "blockDone": {
+    "key": "blockDone",
+    "en": "This person is blocked.",
+    "tr": "Kişi engellendi.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "blockFailed": {
+    "key": "blockFailed",
+    "en": "This person couldn’t be blocked. You can try again.",
+    "tr": "Kişi engellenemedi. Tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "blockedEmpty": {
+    "key": "blockedEmpty",
+    "en": "You haven’t blocked anyone.",
+    "tr": "Engellediğin kimse yok.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "blockedLoading": {
+    "key": "blockedLoading",
+    "en": "Loading blocked users…",
+    "tr": "Engellenenler yükleniyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "blockedFailed": {
+    "key": "blockedFailed",
+    "en": "Blocked users couldn’t be loaded.",
+    "tr": "Engellenenler yüklenemedi.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "unblockConfirm": {
+    "key": "unblockConfirm",
+    "en": "Unblock this person?",
+    "tr": "Bu kişinin engeli kaldırılsın mı?",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "unblockBody": {
+    "key": "unblockBody",
+    "en": "Unblocking won’t reopen the old chat or connection.",
+    "tr": "Engeli kaldırmak eski sohbeti veya bağlantıyı yeniden açmaz.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "unblockBusy": {
+    "key": "unblockBusy",
+    "en": "Unblocking…",
+    "tr": "Engel kaldırılıyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "unblockDone": {
+    "key": "unblockDone",
+    "en": "This person is unblocked.",
+    "tr": "Engel kaldırıldı.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "unblockFailed": {
+    "key": "unblockFailed",
+    "en": "This person couldn’t be unblocked. You can try again.",
+    "tr": "Engel kaldırılamadı. Tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "endBody": {
+    "key": "endBody",
+    "en": "The connection will end. This won’t block the person.",
+    "tr": "Bağlantı sona erer. Bu kişiyi engellemiş olmazsın.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "endBusy": {
+    "key": "endBusy",
+    "en": "Ending the connection…",
+    "tr": "Bağlantı bitiriliyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "endFailed": {
+    "key": "endFailed",
+    "en": "The connection couldn’t be ended. You can try again.",
+    "tr": "Bağlantı bitirilemedi. Tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "notificationIntro": {
+    "key": "notificationIntro",
+    "en": "Stay informed about requests and messages.",
+    "tr": "İsteklerden ve mesajlardan haberdar ol.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "notificationOptional": {
+    "key": "notificationOptional",
+    "en": "You can use the app without allowing notifications.",
+    "tr": "Bildirim izni vermeden de uygulamayı kullanabilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "notificationAllow": {
+    "key": "notificationAllow",
+    "en": "Allow notifications",
+    "tr": "Bildirimlere izin ver",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "notificationLater": {
+    "key": "notificationLater",
+    "en": "Not now",
+    "tr": "Şimdi değil",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "notificationOn": {
+    "key": "notificationOn",
+    "en": "Notifications are allowed.",
+    "tr": "Bildirim izni açık.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "notificationChecking": {
+    "key": "notificationChecking",
+    "en": "Checking notification permission…",
+    "tr": "Bildirim izni kontrol ediliyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "notificationFailed": {
+    "key": "notificationFailed",
+    "en": "Notification permission couldn’t be checked.",
+    "tr": "Bildirim izni kontrol edilemedi.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "notificationSettingsFailed": {
+    "key": "notificationSettingsFailed",
+    "en": "Device settings couldn’t be opened.",
+    "tr": "Cihaz ayarları açılamadı.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "notificationContinue": {
+    "key": "notificationContinue",
+    "en": "Continue to the app",
+    "tr": "Uygulamaya devam et",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "notificationDeviceSettings": {
+    "key": "notificationDeviceSettings",
+    "en": "Device notification settings",
+    "tr": "Cihaz bildirim ayarları",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "legalLoading": {
+    "key": "legalLoading",
+    "en": "Loading the document…",
+    "tr": "Belge yükleniyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "legalFailed": {
+    "key": "legalFailed",
+    "en": "The document couldn’t be loaded. You can try again.",
+    "tr": "Belge yüklenemedi. Tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "legalUnavailable": {
+    "key": "legalUnavailable",
+    "en": "This document isn’t available right now.",
+    "tr": "Bu belge şu anda kullanılamıyor.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "deleteIrreversible": {
+    "key": "deleteIrreversible",
+    "en": "Deleting your account can’t be undone.",
+    "tr": "Hesabını silmek geri alınamaz.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "deleteAccessScope": {
+    "key": "deleteAccessScope",
+    "en": "You’ll lose access to your profile, photo, check-in records, requests, chats and shared contact details.",
+    "tr": "Profilin, fotoğrafın, check-in kayıtların, isteklerin, sohbetlerin ve paylaştığın iletişim bilgileri erişiminden kalkar.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "deleteLimitedRetention": {
+    "key": "deleteLimitedRetention",
+    "en": "Limited records may be retained to meet legal requirements.",
+    "tr": "Sınırlı kayıtlar yasal gereklilikle saklanabilir.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "deleteReceived": {
+    "key": "deleteReceived",
+    "en": "Your account deletion request has been received. Deletion isn’t complete yet.",
+    "tr": "Hesap silme isteğin alındı. İşlem henüz tamamlanmadı.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "deleteScope": {
+    "key": "deleteScope",
+    "en": "Data deletion details",
+    "tr": "Veri silme açıklaması",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "deleteBusy": {
+    "key": "deleteBusy",
+    "en": "Deleting your account…",
+    "tr": "Hesabın siliniyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "deleteFailed": {
+    "key": "deleteFailed",
+    "en": "Your account couldn’t be deleted. You can try again.",
+    "tr": "Hesabın silinemedi. Tekrar deneyebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "deleteDone": {
+    "key": "deleteDone",
+    "en": "Your account has been deleted.",
+    "tr": "Hesabın silindi.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "deleteScopeUnavailable": {
+    "key": "deleteScopeUnavailable",
+    "en": "Data deletion details can’t be loaded right now. Please try again.",
+    "tr": "Veri silme açıklaması şu anda yüklenemiyor. Lütfen tekrar dene.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "eventsReturn": {
+    "key": "eventsReturn",
+    "en": "Back to Nearby",
+    "tr": "Yakındakiler’e dön",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "notificationRequestSample": {
+    "key": "notificationRequestSample",
+    "en": "You have a new connection request.",
+    "tr": "Yeni bir bağlantı isteğin var.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "notificationMessageSample": {
+    "key": "notificationMessageSample",
+    "en": "You have a new message.",
+    "tr": "Yeni bir mesajın var.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileAgeYears": {
+    "key": "profileAgeYears",
+    "en": "{age} years old",
+    "tr": "{age} yaşında",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "requestCooldown": {
+    "key": "requestCooldown",
+    "en": "You can’t send a request to this person right now.",
+    "tr": "Şu an bu kişiye istek gönderilemiyor.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "requestAlreadyPending": {
+    "key": "requestAlreadyPending",
+    "en": "There’s a pending request between you and this person.",
+    "tr": "Bu kişiyle bekleyen bir istek var.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "requestAlreadyConnected": {
+    "key": "requestAlreadyConnected",
+    "en": "You’re already connected.",
+    "tr": "Zaten bağlantıdasınız.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactAddDetails": {
+    "key": "contactAddDetails",
+    "en": "Share more details",
+    "tr": "Ek bilgi paylaş",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactUpdated": {
+    "key": "contactUpdated",
+    "en": "Your shared detail was updated.",
+    "tr": "Paylaştığın bilgi güncellendi.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "chatRetentionInfo": {
+    "key": "chatRetentionInfo",
+    "en": "Messages are kept for up to 30 days after this chat becomes read-only.",
+    "tr": "Bu sohbet yazmaya kapandıktan sonra mesajlar en fazla 30 gün saklanır.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "chatRetentionWarning": {
+    "key": "chatRetentionWarning",
+    "en": "These messages will be deleted soon. If contact details have been shared, you can save any you need.",
+    "tr": "Bu yazışma yakında silinecek. Paylaşılmış iletişim bilgileri varsa, ihtiyacın olanları kaydedebilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "chatRetentionDeleted": {
+    "key": "chatRetentionDeleted",
+    "en": "The messages in this chat were deleted because their retention period ended.",
+    "tr": "Saklama süresi dolduğu için bu yazışmadaki mesajlar silindi.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyLimited": {
+    "key": "nearbyLimited",
+    "en": "Some of the people nearby are shown here.",
+    "tr": "Yakındaki kişilerin bir kısmı burada gösteriliyor.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "photoUploaded": {
+    "key": "photoUploaded",
+    "en": "Photo uploaded.",
+    "tr": "Fotoğraf yüklendi.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "settingsContact": {
+    "key": "settingsContact",
+    "en": "Contact us",
+    "tr": "Bize yaz",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "supportEmailUnavailable": {
+    "key": "supportEmailUnavailable",
+    "en": "The email app couldn’t open. You can copy the address below and write to us.",
+    "tr": "E-posta uygulaması açılamadı. Aşağıdaki adresi kopyalayıp bize yazabilirsin.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "notificationChannelUpdates": {
+    "key": "notificationChannelUpdates",
+    "en": "Updates",
+    "tr": "Güncellemeler",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "notificationChannelCheckInReminders": {
+    "key": "notificationChannelCheckInReminders",
+    "en": "Check-in reminders",
+    "tr": "Check-in hatırlatmaları",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "supportCopyEmail": {
+    "key": "supportCopyEmail",
+    "en": "Copy email address",
+    "tr": "E-posta adresini kopyala",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "supportEmailCopied": {
+    "key": "supportEmailCopied",
+    "en": "Address copied.",
+    "tr": "Adres kopyalandı.",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authVerifyResending": {
+    "key": "authVerifyResending",
+    "en": "Resending the verification link…",
+    "tr": "Doğrulama bağlantısı tekrar gönderiliyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "photoUploading": {
+    "key": "photoUploading",
+    "en": "Uploading photo…",
+    "tr": "Fotoğraf yükleniyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "photoProcessing": {
+    "key": "photoProcessing",
+    "en": "Processing photo…",
+    "tr": "Fotoğraf işleniyor…",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileHiddenToOthers": {
+    "key": "profileHiddenToOthers",
+    "en": "Not visible to others",
+    "tr": "Başkalarına görünmez",
+    "source": "v2.3 l10n/app_*.arb",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactCardTitle": {
+    "key": "contactCardTitle",
+    "en": "Contact card",
+    "tr": "İletişim kartı",
+    "source": "v2.3 contact-card-complete-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactCardProfileHelp": {
+    "key": "contactCardProfileHelp",
+    "en": "Add at least one detail: phone, email or Instagram. Only you can see your card until you send it in a chat.",
+    "tr": "Telefon, e-posta veya Instagram bilgilerinden en az birini ekle. Bir sohbette gönderene kadar kartını yalnız sen görebilirsin.",
+    "source": "v2.3 contact-card-complete-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactCardEdit": {
+    "key": "contactCardEdit",
+    "en": "Edit card",
+    "tr": "Kartı düzenle",
+    "source": "v2.3 contact-card-complete-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactCardSave": {
+    "key": "contactCardSave",
+    "en": "Save card",
+    "tr": "Kartı kaydet",
+    "source": "v2.3 contact-card-complete-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactCardSaved": {
+    "key": "contactCardSaved",
+    "en": "Your card has been saved.",
+    "tr": "Kartın kaydedildi.",
+    "source": "v2.3 contact-card-complete-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactCardSaveFailed": {
+    "key": "contactCardSaveFailed",
+    "en": "Your card couldn’t be saved. You can try again.",
+    "tr": "Kartın kaydedilemedi. Tekrar deneyebilirsin.",
+    "source": "v2.3 contact-card-complete-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactCardSending": {
+    "key": "contactCardSending",
+    "en": "Sending your card…",
+    "tr": "Kartın gönderiliyor…",
+    "source": "v2.3 contact-card-complete-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactCardSendFailed": {
+    "key": "contactCardSendFailed",
+    "en": "Your card couldn’t be sent. You can try again.",
+    "tr": "Kartın gönderilemedi. Tekrar deneyebilirsin.",
+    "source": "v2.3 contact-card-complete-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactCardChanged": {
+    "key": "contactCardChanged",
+    "en": "Your card has changed. Check what will be sent.",
+    "tr": "Kartın değişti. Gönderilecekleri kontrol et.",
+    "source": "v2.3 contact-card-complete-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactCardReceived": {
+    "key": "contactCardReceived",
+    "en": "Received",
+    "tr": "Alındı",
+    "source": "v2.3 contact-card-complete-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactCardSentLabel": {
+    "key": "contactCardSentLabel",
+    "en": "Sent",
+    "tr": "Gönderildi",
+    "source": "v2.3 contact-card-complete-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactCardReport": {
+    "key": "contactCardReport",
+    "en": "Report",
+    "tr": "Şikâyet et",
+    "source": "v2.3 contact-card-complete-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactCardConfirmTitle": {
+    "key": "contactCardConfirmTitle",
+    "en": "Send your contact card?",
+    "tr": "İletişim kartını gönder?",
+    "source": "v2.3 contact-card-v1-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactCardConfirmBody": {
+    "key": "contactCardConfirmBody",
+    "en": "Once sent, the other person keeps these details even if you end the connection or block them, and can contact you outside the app, where blocking does not apply. You can change what is on your card in Profile.",
+    "tr": "Gönderdikten sonra karşı taraf bu bilgileri, bağlantıyı bitirsen veya onu engellesen bile elinde tutar ve seninle uygulama dışından iletişime geçebilir; orada engelleme geçerli değildir. Karttakileri Profil'den değiştirebilirsin.",
+    "source": "v2.3 contact-card-v1-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactCardSend": {
+    "key": "contactCardSend",
+    "en": "Send",
+    "tr": "Gönder",
+    "source": "v2.3 contact-card-v1-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactCardNotNow": {
+    "key": "contactCardNotNow",
+    "en": "Not now",
+    "tr": "Şimdi değil",
+    "source": "v2.3 contact-card-v1-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactCardEmptyHelp": {
+    "key": "contactCardEmptyHelp",
+    "en": "Add at least one detail to send",
+    "tr": "Göndermek için en az bir bilgi ekle",
+    "source": "v2.3 contact-card-v1-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactCardSentWarning": {
+    "key": "contactCardSentWarning",
+    "en": "Sent details can't be taken back.",
+    "tr": "Gönderilen bilgiler geri alınamaz.",
+    "source": "v2.3 contact-card-v1-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authConsentLine": {
+    "key": "authConsentLine",
+    "en": "By tapping Create account you agree to the {terms} and confirm you have read the {privacy}.",
+    "tr": "Hesap oluştur’a dokunarak {terms}’nı kabul etmiş ve {privacy}’nı okuduğunu onaylamış olursun.",
+    "source": "v2.3 v6-final-copy-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "mapShowMyArea": {
+    "key": "mapShowMyArea",
+    "en": "Show my area",
+    "tr": "Bölgemi göster",
+    "source": "v2.3 v6-final-copy-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "compactNext": {
+    "key": "compactNext",
+    "en": "Next",
+    "tr": "İleri",
+    "source": "v2.3 compact-v10-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "compactAccountGroup": {
+    "key": "compactAccountGroup",
+    "en": "Account",
+    "tr": "Hesap",
+    "source": "v2.3 compact-v10-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "compactPrivacyGroup": {
+    "key": "compactPrivacyGroup",
+    "en": "Privacy",
+    "tr": "Gizlilik",
+    "source": "v2.3 compact-v10-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "compactAboutGroup": {
+    "key": "compactAboutGroup",
+    "en": "About",
+    "tr": "Hakkında",
+    "source": "v2.3 compact-v10-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "compactMore": {
+    "key": "compactMore",
+    "en": "More options",
+    "tr": "Diğer seçenekler",
+    "source": "v2.3 compact-v10-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "messagesUnread": {
+    "key": "messagesUnread",
+    "en": "Unread messages",
+    "tr": "Okunmamış mesaj",
+    "source": "v2.3 release8-approved-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileNetworkingMix": {
+    "key": "profileNetworkingMix",
+    "en": "Networking {networking}% · Friends {friends}%",
+    "tr": "Networking %{networking} · Arkadaşlık %{friends}",
+    "source": "v2.3 release8-approved-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileNetworkingMixTitle": {
+    "key": "profileNetworkingMixTitle",
+    "en": "Networking and friends",
+    "tr": "Networking ve arkadaşlık",
+    "source": "v2.3 release8-approved-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "settingsChangeEmail": {
+    "key": "settingsChangeEmail",
+    "en": "Change email address",
+    "tr": "E-posta adresini değiştir",
+    "source": "v2.3 release8-approved-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "emailChangeNewLabel": {
+    "key": "emailChangeNewLabel",
+    "en": "New email address",
+    "tr": "Yeni e-posta adresi",
+    "source": "v2.3 release8-approved-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "emailChangeSubmit": {
+    "key": "emailChangeSubmit",
+    "en": "Send verification link",
+    "tr": "Doğrulama bağlantısı gönder",
+    "source": "v2.3 release8-approved-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "emailChangeReauth": {
+    "key": "emailChangeReauth",
+    "en": "To change your email address, first sign in again with your current password.",
+    "tr": "E-posta adresini değiştirmek için önce mevcut parolanla yeniden giriş yap.",
+    "source": "v2.3 release8-approved-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "emailChangeSent": {
+    "key": "emailChangeSent",
+    "en": "If this address can be used, you’ll receive a verification link at {email}. Open it to change your email address, then sign in again with your new address.",
+    "tr": "Bu adres kullanılabiliyorsa {email} adresine bir doğrulama bağlantısı gelecek. E-posta adresini değiştirmek için bağlantıyı aç, ardından yeni adresinle yeniden giriş yap.",
+    "source": "v2.3 release8-approved-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "emailChangeFailed": {
+    "key": "emailChangeFailed",
+    "en": "This couldn’t be completed. Please try again.",
+    "tr": "İşlem tamamlanamadı. Tekrar dene.",
+    "source": "v2.3 release8-approved-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileIntentBalanceNotSet": {
+    "key": "profileIntentBalanceNotSet",
+    "en": "Not set",
+    "tr": "Ayarlanmadı",
+    "source": "v2.3 release8-approved-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileIntentBalanceAdjust": {
+    "key": "profileIntentBalanceAdjust",
+    "en": "Networking percentage",
+    "tr": "Networking yüzdesi",
+    "source": "v2.3 release8-approved-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "emailChangeSending": {
+    "key": "emailChangeSending",
+    "en": "Sending verification link…",
+    "tr": "Doğrulama bağlantısı gönderiliyor…",
+    "source": "v2.3 release8-approved-patch",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "y2PurposeDefaultNote": {
+    "key": "y2PurposeDefaultNote",
+    "en": "Your default purpose is selected. You can change it for this session.",
+    "tr": "Varsayılan amacın seçili. Bu oturum için değiştirebilirsin.",
+    "source": "HB-20 final §3 line 59; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedin": {
+    "key": "profileLinkedin",
+    "en": "LinkedIn",
+    "tr": "LinkedIn",
+    "source": "HB-20 final §3 line 60; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinFieldLabel": {
+    "key": "profileLinkedinFieldLabel",
+    "en": "Your LinkedIn profile link",
+    "tr": "LinkedIn profil bağlantın",
+    "source": "HB-20 final §3 line 61; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinHint": {
+    "key": "profileLinkedinHint",
+    "en": "linkedin.com/in/…",
+    "tr": "linkedin.com/in/…",
+    "source": "HB-20 final §3 line 62; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinInvalid": {
+    "key": "profileLinkedinInvalid",
+    "en": "Check the link. It should look like linkedin.com/in/… and contain only Latin letters, numbers and hyphens after /in/.",
+    "tr": "Bağlantıyı kontrol et. linkedin.com/in/… biçiminde olmalı; /in/ sonrasında yalnız Latin harfleri, rakam ve tire bulunmalı.",
+    "source": "HB-20 final §3 line 63; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinHelp": {
+    "key": "profileLinkedinHelp",
+    "en": "Optional. You choose below who can see and open this link: everyone, only your connections, or no one. People may already have seen it before you change this.",
+    "tr": "İsteğe bağlı. Bu bağlantıyı kimin görüp açabileceğini aşağıdan sen seçersin: herkes, yalnız bağlantıların ya da kimse. Sen bunu değiştirmeden önce kişiler onu görmüş olabilir.",
+    "source": "HB-37 r5 line 133",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinNoCheck": {
+    "key": "profileLinkedinNoCheck",
+    "en": "We don’t read your LinkedIn page or check whose profile it is. Only add your own profile. If your LinkedIn address changes, update it here too. You can remove it at any time.",
+    "tr": "LinkedIn sayfanı okumuyoruz ve profilin kime ait olduğunu kontrol etmiyoruz. Yalnız kendi profilini ekle. LinkedIn adresin değişirse burada da güncelle. İstediğin zaman kaldırabilirsin.",
+    "source": "HB-20 final §3 line 65; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinOpenCheck": {
+    "key": "profileLinkedinOpenCheck",
+    "en": "Open and check",
+    "tr": "Aç ve kontrol et",
+    "source": "HB-20 final §3 line 66; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinCheckRequired": {
+    "key": "profileLinkedinCheckRequired",
+    "en": "Before saving, open the link and confirm it’s your profile.",
+    "tr": "Kaydetmeden önce bağlantıyı aç ve senin profilin olduğunu onayla.",
+    "source": "HB-20 final §3 line 67; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinConfirmTitle": {
+    "key": "profileLinkedinConfirmTitle",
+    "en": "Is this your LinkedIn profile?",
+    "tr": "Bu senin LinkedIn profilin mi?",
+    "source": "HB-20 final §3 line 68; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinConfirmYes": {
+    "key": "profileLinkedinConfirmYes",
+    "en": "Yes, it’s mine",
+    "tr": "Evet, benim",
+    "source": "HB-20 final §3 line 69; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinConfirmNo": {
+    "key": "profileLinkedinConfirmNo",
+    "en": "No",
+    "tr": "Hayır",
+    "source": "HB-20 final §3 line 70; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinRemove": {
+    "key": "profileLinkedinRemove",
+    "en": "Remove link",
+    "tr": "Bağlantıyı kaldır",
+    "source": "HB-20 final §3 line 71; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinLinkLabel": {
+    "key": "profileLinkedinLinkLabel",
+    "en": "LinkedIn profile",
+    "tr": "LinkedIn profili",
+    "source": "HB-20 final §3 line 72; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinLinkHint": {
+    "key": "profileLinkedinLinkHint",
+    "en": "Opens in the LinkedIn app or your browser.",
+    "tr": "LinkedIn uygulamasında ya da tarayıcında açılır.",
+    "source": "HB-20 final §3 line 73; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "linkOpenFailed": {
+    "key": "linkOpenFailed",
+    "en": "The link couldn’t be opened. Try again.",
+    "tr": "Bağlantı açılamadı. Tekrar dene.",
+    "source": "HB-20 final §3 line 74; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinOutsideAppNote": {
+    "key": "profileLinkedinOutsideAppNote",
+    "en": "Your LinkedIn page may show your full name and where you work. Details you hide in the app may also be visible on your LinkedIn page. Blocking someone in the app doesn’t block them on LinkedIn.",
+    "tr": "LinkedIn sayfan tam adını ve çalıştığın yeri gösterebilir. Uygulamada gizlediğin bilgiler de LinkedIn sayfanda görünebilir. Uygulamadaki engelleme LinkedIn’e uzanmaz.",
+    "source": "HB-20 final §3 line 75; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinViewerNote": {
+    "key": "profileLinkedinViewerNote",
+    "en": "If your LinkedIn settings allow it, this person may see on LinkedIn that you viewed their profile.",
+    "tr": "LinkedIn ayarların izin veriyorsa bu kişi, profiline baktığını LinkedIn’de görebilir.",
+    "source": "HB-20 final §3 line 76; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinPausedNote": {
+    "key": "profileLinkedinPausedNote",
+    "en": "LinkedIn links aren’t shown to others at the moment. If you keep yours saved, it will be shown again as you’ve set when this changes.",
+    "tr": "LinkedIn bağlantıları şu an başkalarına gösterilmiyor. Seninkini kayıtlı tutarsan bu durum değişince seçtiğin ayara göre yeniden görünür.",
+    "source": "HB-37 r5 line 134",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinRemoveConfirm": {
+    "key": "profileLinkedinRemoveConfirm",
+    "en": "Remove your LinkedIn link?",
+    "tr": "LinkedIn bağlantın kaldırılsın mı?",
+    "source": "HB-20 final §3 line 79; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinRemoveBody": {
+    "key": "profileLinkedinRemoveBody",
+    "en": "It will no longer appear on your profile.",
+    "tr": "Artık profilinde görünmez.",
+    "source": "HB-20 final §3 line 80; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinRemoved": {
+    "key": "profileLinkedinRemoved",
+    "en": "Your LinkedIn link has been removed.",
+    "tr": "LinkedIn bağlantın kaldırıldı.",
+    "source": "HB-20 final §3 line 81; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinSave": {
+    "key": "profileLinkedinSave",
+    "en": "Save link",
+    "tr": "Bağlantıyı kaydet",
+    "source": "HB-20 final §3 line 82; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinSaved": {
+    "key": "profileLinkedinSaved",
+    "en": "Your LinkedIn link has been saved.",
+    "tr": "LinkedIn bağlantın kaydedildi.",
+    "source": "HB-20 final §3 line 83; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinSaveFailed": {
+    "key": "profileLinkedinSaveFailed",
+    "en": "Your link couldn’t be saved. Try again.",
+    "tr": "Bağlantın kaydedilemedi. Tekrar dene.",
+    "source": "HB-20 final §3 line 84; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "y2PurposeChangedNote": {
+    "key": "y2PurposeChangedNote",
+    "en": "This choice applies only to this session. Your default purpose stays the same.",
+    "tr": "Bu seçim yalnız bu oturum için geçerli. Varsayılan amacın aynı kalır.",
+    "source": "HB-20 final §3 line 85; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinOpening": {
+    "key": "profileLinkedinOpening",
+    "en": "Opening link…",
+    "tr": "Bağlantı açılıyor…",
+    "source": "HB-20 final §3 line 86; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinSaving": {
+    "key": "profileLinkedinSaving",
+    "en": "Saving link…",
+    "tr": "Bağlantı kaydediliyor…",
+    "source": "HB-20 final §3 line 87; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinRemoving": {
+    "key": "profileLinkedinRemoving",
+    "en": "Removing link…",
+    "tr": "Bağlantı kaldırılıyor…",
+    "source": "HB-20 final §3 line 88; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinRemoveFailed": {
+    "key": "profileLinkedinRemoveFailed",
+    "en": "Your link couldn’t be removed. Try again.",
+    "tr": "Bağlantın kaldırılamadı. Tekrar dene.",
+    "source": "HB-20 final §3 line 89; reused by HB-37 §7",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communityChooseTitle": {
+    "key": "communityChooseTitle",
+    "en": "What are you looking for in the app?",
+    "tr": "Uygulamada ne arıyorsun?",
+    "source": "HB-37 r5 line 24",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communityChooseBody": {
+    "key": "communityChooseBody",
+    "en": "Choose who you want to meet. You’ll only see, and be seen by, people in the community you’re using. You can change this later.",
+    "tr": "Kimlerle tanışmak istediğini seç. Yalnız kullandığın topluluktaki kişileri görürsün, onlar da seni görür. Bunu sonra değiştirebilirsin.",
+    "source": "HB-37 r5 line 25",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communityOptionNetworking": {
+    "key": "communityOptionNetworking",
+    "en": "Networking",
+    "tr": "Networking",
+    "source": "HB-37 r5 line 26",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communityOptionNetworkingDesc": {
+    "key": "communityOptionNetworkingDesc",
+    "en": "Meet people for work and professional connections.",
+    "tr": "İş ve profesyonel bağlantılar için insanlarla tanış.",
+    "source": "HB-37 r5 line 27",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communityOptionFriendship": {
+    "key": "communityOptionFriendship",
+    "en": "Friendship",
+    "tr": "Arkadaşlık",
+    "source": "HB-37 r5 line 28",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communityOptionFriendshipDesc": {
+    "key": "communityOptionFriendshipDesc",
+    "en": "Meet people to make new friends.",
+    "tr": "Yeni arkadaşlar edinmek için insanlarla tanış.",
+    "source": "HB-37 r5 line 29",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communityOptionBoth": {
+    "key": "communityOptionBoth",
+    "en": "Both",
+    "tr": "İkisi",
+    "source": "HB-37 r5 line 30",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communityOptionBothDesc": {
+    "key": "communityOptionBothDesc",
+    "en": "Join both and switch between them. You use one at a time.",
+    "tr": "İkisine de katıl, aralarında geçiş yap. Bir anda birini kullanırsın.",
+    "source": "HB-37 r5 line 31",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communityBothStartWith": {
+    "key": "communityBothStartWith",
+    "en": "Which one do you want to start with?",
+    "tr": "Hangisiyle başlamak istersin?",
+    "source": "HB-37 r5 line 32",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communityNotDating": {
+    "key": "communityNotDating",
+    "en": "I’M HERE isn’t a dating app.",
+    "tr": "I’M HERE bir flört uygulaması değildir.",
+    "source": "HB-37 r5 line 33",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communityChooseSaveFailed": {
+    "key": "communityChooseSaveFailed",
+    "en": "Your choice couldn’t be saved. Try again.",
+    "tr": "Seçimin kaydedilemedi. Tekrar dene.",
+    "source": "HB-37 r5 line 34",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communityActiveLabel": {
+    "key": "communityActiveLabel",
+    "en": "You’re in {community}",
+    "tr": "{community} topluluğundasın",
+    "source": "HB-37 r5 line 40",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communityPickerA11yLabel": {
+    "key": "communityPickerA11yLabel",
+    "en": "Community: {community}",
+    "tr": "Topluluk: {community}",
+    "source": "HB-37 r5 line 41",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communitySwitching": {
+    "key": "communitySwitching",
+    "en": "Switching…",
+    "tr": "Geçiliyor…",
+    "source": "HB-37 r5 line 43",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "connectionCommunityBadge": {
+    "key": "connectionCommunityBadge",
+    "en": "Met in {community}",
+    "tr": "{community} topluluğunda tanıştınız",
+    "source": "HB-37 r5 line 44",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communitySettingsTitle": {
+    "key": "communitySettingsTitle",
+    "en": "Communities",
+    "tr": "Topluluklar",
+    "source": "HB-37 r5 line 49",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communitySettingsHelp": {
+    "key": "communitySettingsHelp",
+    "en": "You only see, and are seen by, people in the community you’re using. People in one community aren’t told whether you’ve also joined the other.",
+    "tr": "Yalnız kullandığın topluluktaki kişileri görürsün, onlar da seni görür. Bir topluluktaki kişilere diğerine de katılıp katılmadığın söylenmez.",
+    "source": "HB-37 r5 line 50",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communitySettingsJoin": {
+    "key": "communitySettingsJoin",
+    "en": "Join {community}",
+    "tr": "{community} topluluğuna katıl",
+    "source": "HB-37 r5 line 51",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communitySettingsLeave": {
+    "key": "communitySettingsLeave",
+    "en": "Leave {community}",
+    "tr": "{community} topluluğundan ayrıl",
+    "source": "HB-37 r5 line 52",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communitySettingsLastOne": {
+    "key": "communitySettingsLastOne",
+    "en": "You need at least one community.",
+    "tr": "En az bir toplulukta olmalısın.",
+    "source": "HB-37 r5 line 54",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communitySwitchTitle": {
+    "key": "communitySwitchTitle",
+    "en": "Switch to {community}?",
+    "tr": "{community} topluluğuna geçilsin mi?",
+    "source": "HB-37 r5 line 59",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communitySwitchBodyCheckedIn": {
+    "key": "communitySwitchBodyCheckedIn",
+    "en": "Your current check-in will end. You’ll see people, the map and events in {community}. Your chats stay as they are.",
+    "tr": "Şu anki check-in’in biter. {community} topluluğundaki kişileri, haritayı ve etkinlikleri görürsün. Sohbetlerin olduğu gibi kalır.",
+    "source": "HB-37 r5 line 60",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communitySwitchBody": {
+    "key": "communitySwitchBody",
+    "en": "You’ll see people, the map and events in {community}. Your chats stay as they are.",
+    "tr": "{community} topluluğundaki kişileri, haritayı ve etkinlikleri görürsün. Sohbetlerin olduğu gibi kalır.",
+    "source": "HB-37 r5 line 61",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communitySwitchGoingNote": {
+    "key": "communitySwitchGoingNote",
+    "en": "Reminders for events you’re going to will still arrive.",
+    "tr": "Gideceğin etkinliklerin hatırlatmaları gelmeye devam eder.",
+    "source": "HB-37 r5 line 62",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communitySwitchConfirm": {
+    "key": "communitySwitchConfirm",
+    "en": "Switch",
+    "tr": "Geç",
+    "source": "HB-37 r5 line 64",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communitySwitchDone": {
+    "key": "communitySwitchDone",
+    "en": "You’re now in {community}.",
+    "tr": "Artık {community} topluluğundasın.",
+    "source": "HB-37 r5 line 66",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communitySwitchFailed": {
+    "key": "communitySwitchFailed",
+    "en": "Couldn’t switch. Try again.",
+    "tr": "Geçiş yapılamadı. Tekrar dene.",
+    "source": "HB-37 r5 line 67",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "eventV1CategoryNetworking": {
+    "key": "eventV1CategoryNetworking",
+    "en": "Professional",
+    "tr": "Profesyonel",
+    "source": "HB-37 r5 §5 line 74",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "y1CategoryNetworking": {
+    "key": "y1CategoryNetworking",
+    "en": "Professional",
+    "tr": "Profesyonel",
+    "source": "HB-37 r5 §5 line 75",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "occupationStepTitle": {
+    "key": "occupationStepTitle",
+    "en": "What do you do?",
+    "tr": "Ne iş yapıyorsun?",
+    "source": "HB-37 r5 line 81",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "occupationStepBody": {
+    "key": "occupationStepBody",
+    "en": "Optional. Choose from the list. When you choose a job title, it’s shown on your profile, and in Networking it counts in Nearby filters. You can hide or remove it at any time.",
+    "tr": "İsteğe bağlı. Listeden seç. Bir meslek seçtiğinde profilinde görünür ve Networking’de Yakındakiler filtrelerinde sayılır. İstediğin zaman gizleyebilir ya da kaldırabilirsin.",
+    "source": "HB-37 r5 line 82",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "occupationStepBodyF": {
+    "key": "occupationStepBodyF",
+    "en": "It isn’t shown in Friendship.",
+    "tr": "Arkadaşlık’ta gösterilmez.",
+    "source": "HB-37 r5 line 83",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "occupationSearchHint": {
+    "key": "occupationSearchHint",
+    "en": "Search job titles",
+    "tr": "Meslek ara",
+    "source": "HB-37 r5 line 84",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "occupationNoMatch": {
+    "key": "occupationNoMatch",
+    "en": "No match. Choose “Other” in the closest group.",
+    "tr": "Eşleşme yok. En yakın gruptaki “Diğer”i seç.",
+    "source": "HB-37 r5 line 85",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "occupationOther": {
+    "key": "occupationOther",
+    "en": "Other — {group}",
+    "tr": "Diğer — {group}",
+    "source": "HB-37 r5 line 86",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "occupationOwnTitleLabel": {
+    "key": "occupationOwnTitleLabel",
+    "en": "Your job title (optional)",
+    "tr": "Unvanın (isteğe bağlı)",
+    "source": "HB-37 r5 line 87",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "occupationOwnTitleHelp": {
+    "key": "occupationOwnTitleHelp",
+    "en": "Shown only on your profile. It isn’t used in filters.",
+    "tr": "Yalnız profilinde görünür. Filtrelerde kullanılmaz.",
+    "source": "HB-37 r5 line 88",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "occupationShowHelp": {
+    "key": "occupationShowHelp",
+    "en": "When it’s off, your job title isn’t shown on your profile or counted in filters. It stays saved.",
+    "tr": "Kapalıyken mesleğin profilinde görünmez ve filtrelerde sayılmaz. Kayıtlı kalır.",
+    "source": "HB-37 r5 line 89",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "occupationRemove": {
+    "key": "occupationRemove",
+    "en": "Remove job title",
+    "tr": "Mesleği kaldır",
+    "source": "HB-37 r5 line 90",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "occupationRemoved": {
+    "key": "occupationRemoved",
+    "en": "Your job title has been removed.",
+    "tr": "Mesleğin kaldırıldı.",
+    "source": "HB-37 r5 line 91",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "occupationReplaceNote": {
+    "key": "occupationReplaceNote",
+    "en": "Choosing from the list replaces what you wrote before.",
+    "tr": "Listeden seçmek, daha önce yazdığının yerini alır.",
+    "source": "HB-37 r5 line 92",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "occupationLegacyNote": {
+    "key": "occupationLegacyNote",
+    "en": "You wrote this in an earlier version. It’s shown on your profile but isn’t used in filters.",
+    "tr": "Bunu eski bir sürümde yazdın. Profilinde görünür ama filtrelerde kullanılmaz.",
+    "source": "HB-37 r5 line 93",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "occupationSkip": {
+    "key": "occupationSkip",
+    "en": "Skip",
+    "tr": "Atla",
+    "source": "HB-37 r5 line 94",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "signupLinkedinTitle": {
+    "key": "signupLinkedinTitle",
+    "en": "Add your LinkedIn",
+    "tr": "LinkedIn’ini ekle",
+    "source": "HB-37 r5 line 108",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "signupLinkedinBody": {
+    "key": "signupLinkedinBody",
+    "en": "Optional. You choose who can see it: everyone, only your connections, or no one. It starts as Everyone, so in Networking, people who open your profile in Nearby can see and open it, and you’re counted in the LinkedIn filter. You can change this or remove it at any time.",
+    "tr": "İsteğe bağlı. Kimin göreceğini sen seçersin: herkes, yalnız bağlantıların ya da kimse. Başlangıçta Herkes seçili; yani Networking’de Yakındakiler’de profilini açanlar onu görebilir ve açabilir, LinkedIn filtresinde de sayılırsın. Bunu ya da bağlantıyı istediğin zaman değiştirebilir veya kaldırabilirsin.",
+    "source": "HB-37 r5 §14.1 FINAL",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "signupLinkedinSkip": {
+    "key": "signupLinkedinSkip",
+    "en": "Skip",
+    "tr": "Atla",
+    "source": "HB-37 r5 line 110",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinVisibilityTitle": {
+    "key": "profileLinkedinVisibilityTitle",
+    "en": "Who can see your LinkedIn",
+    "tr": "LinkedIn’ini kim görsün",
+    "source": "HB-37 r5 line 115",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinVisibilityNobody": {
+    "key": "profileLinkedinVisibilityNobody",
+    "en": "No one",
+    "tr": "Kimse görmesin",
+    "source": "HB-37 r5 line 116",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinVisibilityNobodyDesc": {
+    "key": "profileLinkedinVisibilityNobodyDesc",
+    "en": "Your link stays saved, but no one sees it. You aren’t counted in the LinkedIn filter.",
+    "tr": "Bağlantın kayıtlı kalır ama kimse görmez. LinkedIn filtresinde sayılmazsın.",
+    "source": "HB-37 r5 line 117",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinVisibilityConnections": {
+    "key": "profileLinkedinVisibilityConnections",
+    "en": "Only my connections",
+    "tr": "Yalnız bağlantılarım",
+    "source": "HB-37 r5 line 118",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinVisibilityConnectionsDesc": {
+    "key": "profileLinkedinVisibilityConnectionsDesc",
+    "en": "Only people you’re connected with can see and open it. It isn’t shown in Nearby or on requests, and you aren’t counted in the LinkedIn filter.",
+    "tr": "Yalnız bağlantı kurduğun kişiler görebilir ve açabilir. Yakındakiler’de ve isteklerde görünmez; LinkedIn filtresinde sayılmazsın.",
+    "source": "HB-37 r5 line 119",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinVisibilityEveryone": {
+    "key": "profileLinkedinVisibilityEveryone",
+    "en": "Everyone",
+    "tr": "Herkes",
+    "source": "HB-37 r5 line 120",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinVisibilityEveryoneDesc": {
+    "key": "profileLinkedinVisibilityEveryoneDesc",
+    "en": "In Networking, people who open your profile in Nearby and people you send a request to can see and open it. Your connections can too. You’re counted in the LinkedIn filter.",
+    "tr": "Networking’de Yakındakiler’de profilini açanlar ve istek gönderdiğin kişiler onu görebilir ve açabilir. Bağlantıların da görebilir. LinkedIn filtresinde sayılırsın.",
+    "source": "HB-37 r5 §14.1 FINAL",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinVisibilityDefaultNote": {
+    "key": "profileLinkedinVisibilityDefaultNote",
+    "en": "It starts as Everyone. You can change this at any time.",
+    "tr": "Başlangıçta Herkes seçili. Bunu istediğin zaman değiştirebilirsin.",
+    "source": "HB-37 r5 line 122",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinVisibilitySaved": {
+    "key": "profileLinkedinVisibilitySaved",
+    "en": "Saved.",
+    "tr": "Kaydedildi.",
+    "source": "HB-37 r5 line 123",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinVisibilitySaveFailed": {
+    "key": "profileLinkedinVisibilitySaveFailed",
+    "en": "Your choice couldn’t be saved. Try again.",
+    "tr": "Seçimin kaydedilemedi. Tekrar dene.",
+    "source": "HB-37 r5 line 124",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyFilters": {
+    "key": "nearbyFilters",
+    "en": "Filters",
+    "tr": "Filtreler",
+    "source": "HB-37 r5 line 142",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyFiltersJobTitles": {
+    "key": "nearbyFiltersJobTitles",
+    "en": "Job titles",
+    "tr": "Meslekler",
+    "source": "HB-37 r5 line 143",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyFiltersJobHelp": {
+    "key": "nearbyFiltersJobHelp",
+    "en": "Choose up to 5. People with any of them are shown.",
+    "tr": "En çok 5 tane seç. Bunlardan herhangi birine sahip kişiler gösterilir.",
+    "source": "HB-37 r5 line 144",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyFiltersMaxReached": {
+    "key": "nearbyFiltersMaxReached",
+    "en": "You can choose up to 5 job titles.",
+    "tr": "En çok 5 meslek seçebilirsin.",
+    "source": "HB-37 r5 line 145",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyFiltersLinkedinOnly": {
+    "key": "nearbyFiltersLinkedinOnly",
+    "en": "Only people with LinkedIn",
+    "tr": "Yalnız LinkedIn’i olanlar",
+    "source": "HB-37 r5 line 146",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyFiltersCountMany": {
+    "key": "nearbyFiltersCountMany",
+    "en": "50+",
+    "tr": "50+",
+    "source": "HB-37 r5 line 147",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyFiltersOptionA11y": {
+    "key": "nearbyFiltersOptionA11y",
+    "en": "{title}, {count} people",
+    "tr": "{title}, {count} kişi",
+    "source": "HB-37 r5 line 148",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyFiltersOptionManyA11y": {
+    "key": "nearbyFiltersOptionManyA11y",
+    "en": "{title}, more than 50 people",
+    "tr": "{title}, 50’den fazla kişi",
+    "source": "HB-37 r5 line 149",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyFiltersThresholdNote": {
+    "key": "nearbyFiltersThresholdNote",
+    "en": "A job title appears here only when at least 3 people you can see show it.",
+    "tr": "Bir meslek burada yalnız, görebildiğin en az 3 kişi onu gösteriyorsa çıkar.",
+    "source": "HB-37 r5 line 150",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyFiltersNoOptions": {
+    "key": "nearbyFiltersNoOptions",
+    "en": "No job titles to show right now.",
+    "tr": "Şu an gösterilecek meslek yok.",
+    "source": "HB-37 r5 line 151",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyFiltersNotEnough": {
+    "key": "nearbyFiltersNotEnough",
+    "en": "Not enough results",
+    "tr": "Yeterli sonuç yok",
+    "source": "HB-37 r5 line 152",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyFiltersNotEnoughBody": {
+    "key": "nearbyFiltersNotEnoughBody",
+    "en": "Not enough people match these filters right now. Try other filters or check again later.",
+    "tr": "Şu an bu filtrelere yeterli kişi uymuyor. Başka filtreler dene ya da sonra tekrar bak.",
+    "source": "HB-37 r5 line 153",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyFiltersNoLongerEnough": {
+    "key": "nearbyFiltersNoLongerEnough",
+    "en": "Not enough people match any more. Your filters are still on.",
+    "tr": "Artık yeterli kişi uymuyor. Filtrelerin hâlâ açık.",
+    "source": "HB-37 r5 line 154",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyFiltersClear": {
+    "key": "nearbyFiltersClear",
+    "en": "Clear filters",
+    "tr": "Filtreleri temizle",
+    "source": "HB-37 r5 line 155",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyFiltersShowResults": {
+    "key": "nearbyFiltersShowResults",
+    "en": "Show results",
+    "tr": "Sonuçları göster",
+    "source": "HB-37 r5 line 156",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyFiltersOnBadge": {
+    "key": "nearbyFiltersOnBadge",
+    "en": "{count, plural, =1{1 filter on} other{{count} filters on}}",
+    "tr": "{count} filtre açık",
+    "source": "HB-37 r5 line 157",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyFiltersPrivacyNote": {
+    "key": "nearbyFiltersPrivacyNote",
+    "en": "Filters don’t change who can see you, and nobody is told you used them. Your filter choices aren’t saved.",
+    "tr": "Filtreler seni kimin görebileceğini değiştirmez ve filtre kullandığın kimseye söylenmez. Filtre seçimlerin saklanmaz.",
+    "source": "HB-37 r5 line 158",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyFiltersFriendshipNote": {
+    "key": "nearbyFiltersFriendshipNote",
+    "en": "Job title filters are only in Networking.",
+    "tr": "Meslek filtreleri yalnız Networking’de var.",
+    "source": "HB-37 r5 line 159",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "nearbyFiltersUpdateNote": {
+    "key": "nearbyFiltersUpdateNote",
+    "en": "Counts update about once a minute.",
+    "tr": "Sayılar yaklaşık dakikada bir güncellenir.",
+    "source": "HB-37 r5 line 160",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "v15IntroTitle": {
+    "key": "v15IntroTitle",
+    "en": "I’M HERE now has two communities",
+    "tr": "I’M HERE’da artık iki topluluk var",
+    "source": "HB-37 r5 line 169",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "v15IntroBody": {
+    "key": "v15IntroBody",
+    "en": "Networking is for work and professional connections. Friendship is for making new friends. You’ll only see, and be seen by, people in the community you’re using. Until you choose, you won’t be shown in Nearby or on the map.",
+    "tr": "Networking, iş ve profesyonel bağlantılar içindir. Arkadaşlık, yeni arkadaşlar edinmek içindir. Yalnız kullandığın topluluktaki kişileri görürsün, onlar da seni görür. Seçim yapana kadar Yakındakiler’de ve haritada görünmezsin.",
+    "source": "HB-37 r5 line 170",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "v15IntroNoGuess": {
+    "key": "v15IntroNoGuess",
+    "en": "We haven’t chosen for you. Your chats stay as they are.",
+    "tr": "Senin yerine seçim yapmadık. Sohbetlerin olduğu gibi kalır.",
+    "source": "HB-37 r5 line 171",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "v15WhatChanged": {
+    "key": "v15WhatChanged",
+    "en": "What changed",
+    "tr": "Neler değişti",
+    "source": "HB-37 r5 line 172",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "v15LinkedinTitle": {
+    "key": "v15LinkedinTitle",
+    "en": "Who can see your LinkedIn",
+    "tr": "LinkedIn’ini kim görsün",
+    "source": "HB-37 r5 line 173",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "v15LinkedinBody": {
+    "key": "v15LinkedinBody",
+    "en": "You can now choose who sees your LinkedIn link. It’s set to Everyone, as before: in Networking, people who open your profile in Nearby and people you send a request to can see and open it. Two things are new with Everyone: your connections can see it too, including people you connected with before, and people nearby can find you with the LinkedIn filter.",
+    "tr": "Artık LinkedIn bağlantını kimin göreceğini seçebilirsin. Önceden olduğu gibi Herkes seçili: Networking’de Yakındakiler’de profilini açanlar ve istek gönderdiğin kişiler onu görebilir ve açabilir. Herkes seçiliyken iki şey yeni: bağlantıların da — daha önce bağlantı kurdukların dahil — onu görebilir ve yakınındakiler seni LinkedIn filtresiyle bulabilir.",
+    "source": "HB-37 r5 §14.1 FINAL",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "v15LinkedinChangeLater": {
+    "key": "v15LinkedinChangeLater",
+    "en": "You can change this later in your profile.",
+    "tr": "Bunu sonra profilinden değiştirebilirsin.",
+    "source": "HB-37 r5 line 176",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "v15LinkedinContinue": {
+    "key": "v15LinkedinContinue",
+    "en": "Continue",
+    "tr": "Devam",
+    "source": "HB-37 r5 line 177",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "v15OccupationTitle": {
+    "key": "v15OccupationTitle",
+    "en": "Choose your job title from the list",
+    "tr": "Mesleğini listeden seç",
+    "source": "HB-37 r5 line 178",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "v15OccupationBody": {
+    "key": "v15OccupationBody",
+    "en": "Optional. What you wrote before stays on your profile, but it isn’t used in Nearby filters. To appear in filters, choose a job title from the list.",
+    "tr": "İsteğe bağlı. Daha önce yazdığın profilinde kalır, ama Yakındakiler filtrelerinde kullanılmaz. Filtrelerde görünmek için listeden bir meslek seç.",
+    "source": "HB-37 r5 line 179",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "v15OccupationChoose": {
+    "key": "v15OccupationChoose",
+    "en": "Choose from list",
+    "tr": "Listeden seç",
+    "source": "HB-37 r5 line 180",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "v15OccupationNotNow": {
+    "key": "v15OccupationNotNow",
+    "en": "Not now",
+    "tr": "Şimdi değil",
+    "source": "HB-37 r5 line 181",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "updateRequiredTitle": {
+    "key": "updateRequiredTitle",
+    "en": "Update required",
+    "tr": "Güncelleme gerekli",
+    "source": "HB-37 r5 line 186",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "updateRequiredBody": {
+    "key": "updateRequiredBody",
+    "en": "This version of I’M HERE is no longer supported. Update the app to keep using it.",
+    "tr": "I’M HERE’ın bu sürümü artık desteklenmiyor. Kullanmaya devam etmek için uygulamayı güncelle.",
+    "source": "HB-37 r5 line 187",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "updateRequiredButton": {
+    "key": "updateRequiredButton",
+    "en": "Update",
+    "tr": "Güncelle",
+    "source": "HB-37 r5 line 188",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "updateRequiredStoreFailed": {
+    "key": "updateRequiredStoreFailed",
+    "en": "The store couldn’t be opened. Open it yourself and update I’M HERE.",
+    "tr": "Mağaza açılamadı. Mağazayı kendin açıp I’M HERE’ı güncelle.",
+    "source": "HB-37 r5 line 189",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "updateRequiredDeleteNote": {
+    "key": "updateRequiredDeleteNote",
+    "en": "You can also delete your account at useimhere.com/delete-account.",
+    "tr": "Hesabını useimhere.com/delete-account adresinden de silebilirsin.",
+    "source": "HB-37 r5 line 190",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactCardStepTitle": {
+    "key": "contactCardStepTitle",
+    "en": "Add your contact card",
+    "tr": "İletişim kartını ekle",
+    "source": "HB-37 r5 line 212",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactCardStepBody": {
+    "key": "contactCardStepBody",
+    "en": "Optional. Add the details you’d like to share, so it’s easy to stay in touch with people you meet here. Your card isn’t shown on your profile: it’s shared only when you send it in a chat, and only with that person, who then keeps it.",
+    "tr": "İsteğe bağlı. Burada tanıştığın kişilerle iletişimde kalmak kolaylaşsın diye paylaşmak istediğin bilgileri ekle. Kartın profilinde görünmez; yalnız bir sohbette gönderdiğinde, yalnız o kişiyle paylaşılır ve bilgiler onda kalır.",
+    "source": "HB-37 r5 line 213",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactCardStepEmailNote": {
+    "key": "contactCardStepEmailNote",
+    "en": "Your sign-in email isn’t added for you. Add only what you want to share.",
+    "tr": "Giriş e-postan karta kendiliğinden eklenmez. Yalnız paylaşmak istediklerini ekle.",
+    "source": "HB-37 r5 line 214",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "contactCardStepLater": {
+    "key": "contactCardStepLater",
+    "en": "You can add or change it later in Profile.",
+    "tr": "Bunu sonra Profil’den ekleyebilir ya da değiştirebilirsin.",
+    "source": "HB-37 r5 line 215",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communitySettingsInUse": {
+    "key": "communitySettingsInUse",
+    "en": "In use",
+    "tr": "Kullanılıyor",
+    "source": "HB-37 r5 line 229",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communitySettingsLimitRule": {
+    "key": "communitySettingsLimitRule",
+    "en": "You can make up to 3 changes in 24 hours. Joining, leaving and switching each count as one.",
+    "tr": "24 saat içinde en çok 3 değişiklik yapabilirsin. Katılmak, ayrılmak ve geçiş yapmak birer değişiklik sayılır.",
+    "source": "HB-37 r5 line 230",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communitySettingsJoinTitle": {
+    "key": "communitySettingsJoinTitle",
+    "en": "Join {community}?",
+    "tr": "{community} topluluğuna katılınsın mı?",
+    "source": "HB-37 r5 line 231",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communitySettingsJoinBody": {
+    "key": "communitySettingsJoinBody",
+    "en": "You’ll be able to switch between Networking and Friendship here. You use one at a time.",
+    "tr": "Networking ve Arkadaşlık arasında buradan geçiş yapabilirsin. Bir anda birini kullanırsın.",
+    "source": "HB-37 r5 line 232",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communitySettingsJoinConfirm": {
+    "key": "communitySettingsJoinConfirm",
+    "en": "Join",
+    "tr": "Katıl",
+    "source": "HB-37 r5 line 233",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communitySettingsJoined": {
+    "key": "communitySettingsJoined",
+    "en": "You’ve joined {community}.",
+    "tr": "{community} topluluğuna katıldın.",
+    "source": "HB-37 r5 line 234",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communitySettingsLeaveTitle": {
+    "key": "communitySettingsLeaveTitle",
+    "en": "Leave {community}?",
+    "tr": "{community} topluluğundan ayrılınsın mı?",
+    "source": "HB-37 r5 line 235",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communitySettingsLeaveBody": {
+    "key": "communitySettingsLeaveBody",
+    "en": "You won’t be able to use {community} until you join again. Your chats stay as they are.",
+    "tr": "Yeniden katılana kadar {community} topluluğunu kullanamazsın. Sohbetlerin olduğu gibi kalır.",
+    "source": "HB-37 r5 line 236",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communitySettingsLeaveActiveNote": {
+    "key": "communitySettingsLeaveActiveNote",
+    "en": "You’re using {community} now. If you leave, you’ll switch to {other}.",
+    "tr": "Şu an {community} topluluğunu kullanıyorsun. Ayrılırsan {other} topluluğuna geçersin.",
+    "source": "HB-37 r5 line 237",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communityCheckInEndsNote": {
+    "key": "communityCheckInEndsNote",
+    "en": "Your current check-in will end.",
+    "tr": "Şu anki check-in’in biter.",
+    "source": "HB-37 r5 line 238",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communitySettingsLeaveConfirm": {
+    "key": "communitySettingsLeaveConfirm",
+    "en": "Leave",
+    "tr": "Ayrıl",
+    "source": "HB-37 r5 line 239",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communitySettingsLeft": {
+    "key": "communitySettingsLeft",
+    "en": "You’ve left {community}.",
+    "tr": "{community} topluluğundan ayrıldın.",
+    "source": "HB-37 r5 line 240",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communitySettingsChangeFailed": {
+    "key": "communitySettingsChangeFailed",
+    "en": "This couldn’t be changed. Try again.",
+    "tr": "Bu değiştirilemedi. Tekrar dene.",
+    "source": "HB-37 r5 line 241",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communitySwitchRemaining": {
+    "key": "communitySwitchRemaining",
+    "en": "{remaining, plural, =1{You can make 1 more change for now.} other{You can make {remaining} more changes for now.}}",
+    "tr": "Şimdilik {remaining} değişiklik hakkın kaldı.",
+    "source": "HB-37 r5 line 242",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communitySwitchLimitReached": {
+    "key": "communitySwitchLimitReached",
+    "en": "You’ve reached the limit of 3 changes. Try again later.",
+    "tr": "3 değişiklik sınırına ulaştın. Daha sonra tekrar dene.",
+    "source": "HB-37 r5 line 243",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "communityPickerA11yHint": {
+    "key": "communityPickerA11yHint",
+    "en": "Opens Settings, where you can change your community.",
+    "tr": "Ayarlar’ı açar; topluluğunu orada değiştirebilirsin.",
+    "source": "HB-37 r5 line 252",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "occupationNetworkingNote": {
+    "key": "occupationNetworkingNote",
+    "en": "Shown only in Networking.",
+    "tr": "Yalnız Networking’de görünür.",
+    "source": "HB-37 r5 line 260",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "profileLinkedinNetworkingNote": {
+    "key": "profileLinkedinNetworkingNote",
+    "en": "Before you connect, people see it only in Networking.",
+    "tr": "Bağlantı kurmadan önce kişiler onu yalnız Networking’de görür.",
+    "source": "HB-37 r5 line 261",
+    "status": "APPROVED — source / existing design reference"
+  },
+  "authSignOutCheckInNote": {
+    "key": "authSignOutCheckInNote",
+    "en": "Signing out will end your current check-in.",
+    "tr": "Çıkış yaparsan şu anki check-in’in biter.",
+    "source": "HB-37 r5 line 313",
+    "status": "APPROVED — source / existing design reference"
+  }
+}

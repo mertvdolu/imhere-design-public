@@ -1,0 +1,64 @@
+{
+  "status": "APPROVED COPY — HB-37 r5 / existing approved reuse; UI decisions proposed ★",
+  "entries": [
+    {
+      "key": "updateRequiredBody",
+      "en": "This version of I’M HERE is no longer supported. Update the app to keep using it.",
+      "tr": "I’M HERE’ın bu sürümü artık desteklenmiyor. Kullanmaya devam etmek için uygulamayı güncelle.",
+      "source": "HB-37 r5 line 187",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "d0-required",
+        "d0-opening",
+        "d0-store-failed"
+      ]
+    },
+    {
+      "key": "updateRequiredButton",
+      "en": "Update",
+      "tr": "Güncelle",
+      "source": "HB-37 r5 line 188",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "d0-required",
+        "d0-opening",
+        "d0-store-failed"
+      ]
+    },
+    {
+      "key": "updateRequiredDeleteNote",
+      "en": "You can also delete your account at useimhere.com/delete-account.",
+      "tr": "Hesabını useimhere.com/delete-account adresinden de silebilirsin.",
+      "source": "HB-37 r5 line 190",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "d0-required",
+        "d0-opening",
+        "d0-store-failed"
+      ]
+    },
+    {
+      "key": "updateRequiredStoreFailed",
+      "en": "The store couldn’t be opened. Open it yourself and update I’M HERE.",
+      "tr": "Mağaza açılamadı. Mağazayı kendin açıp I’M HERE’ı güncelle.",
+      "source": "HB-37 r5 line 189",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "d0-store-failed"
+      ]
+    },
+    {
+      "key": "updateRequiredTitle",
+      "en": "Update required",
+      "tr": "Güncelleme gerekli",
+      "source": "HB-37 r5 line 186",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "d0-required",
+        "d0-opening",
+        "d0-store-failed"
+      ]
+    }
+  ],
+  "proposals": []
+}

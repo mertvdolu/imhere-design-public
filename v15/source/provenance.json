@@ -1,0 +1,16 @@
+{
+  "theme": "Cream & Ink v2.3",
+  "baseCommit": "58bf8c4380c9e2b8487b32d5d94f6f1e683ad649",
+  "copy": [
+    {
+      "file": "v15-uygulama-metinleri.md",
+      "sha256": "312cf2ac3b83da857d740f38a7d5cd7020c6825bd58f40124661725d1c01d9ea"
+    },
+    {
+      "file": "profil-al-metin-son.md",
+      "sha256": "0ae265a7d04c8d3fa529d92c5fc637ea44c615995dc86d6deae99857c47f4f46"
+    }
+  ],
+  "precedence": "HB-37 r5 §14.1 > §13 > earlier tables. Latest approved source resolves METİN-EKİ BEKLİYOR.",
+  "privacy": "No real profile or contact data. Fictional labels and layout fixtures only."
+}

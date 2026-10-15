@@ -1,0 +1,92 @@
+[
+  {
+    "id": "d0-required",
+    "group": "d0",
+    "title": "updateRequiredTitle",
+    "layout": "gate",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "updateRequiredBody"
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "updateRequiredButton",
+            "primary": true,
+            "to": "d0-opening"
+          }
+        ]
+      },
+      {
+        "type": "link",
+        "key": "updateRequiredDeleteNote",
+        "href": "https://useimhere.com/delete-account"
+      }
+    ],
+    "notes": "Cold-launch minimum-version gate. No back, profile, navigation or dismiss. Update opens configured OS store URL."
+  },
+  {
+    "id": "d0-opening",
+    "group": "d0",
+    "title": "updateRequiredTitle",
+    "layout": "gate",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "updateRequiredBody"
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "updateRequiredButton",
+            "primary": true,
+            "busy": true,
+            "disabled": true
+          }
+        ]
+      },
+      {
+        "type": "link",
+        "key": "updateRequiredDeleteNote",
+        "href": "https://useimhere.com/delete-account"
+      }
+    ],
+    "notes": "Store opener pending, spinner plus unchanged Update label; no success claim. Delete-account route remains available. Platform opener completion/failure ends pending state."
+  },
+  {
+    "id": "d0-store-failed",
+    "group": "d0",
+    "title": "updateRequiredTitle",
+    "layout": "gate",
+    "blocks": [
+      {
+        "type": "text",
+        "key": "updateRequiredBody"
+      },
+      {
+        "type": "notice",
+        "key": "updateRequiredStoreFailed",
+        "error": true
+      },
+      {
+        "type": "actions",
+        "items": [
+          {
+            "key": "updateRequiredButton",
+            "primary": true,
+            "to": "d0-opening"
+          }
+        ]
+      },
+      {
+        "type": "link",
+        "key": "updateRequiredDeleteNote",
+        "href": "https://useimhere.com/delete-account"
+      }
+    ],
+    "notes": "Store opener failed; Update remains retryable. No invented store URL. Delete link opens approved web deletion route."
+  }
+]

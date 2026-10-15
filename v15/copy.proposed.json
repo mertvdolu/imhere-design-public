@@ -1,0 +1,127 @@
+{
+  "status": "APPROVED COPY — HB-37 r5 / approved reuse; proposed UI decisions separate",
+  "entries": [
+    {
+      "key": "communityActiveLabel",
+      "en": "You’re in {community}",
+      "tr": "{community} topluluğundasın",
+      "source": "HB-37 r5 line 40",
+      "status": "APPROVED — source / existing design reference"
+    },
+    {
+      "key": "communityPickerA11yHint",
+      "en": "Opens Settings, where you can change your community.",
+      "tr": "Ayarlar’ı açar; topluluğunu orada değiştirebilirsin.",
+      "source": "HB-37 r5 line 252",
+      "status": "APPROVED — source / existing design reference"
+    },
+    {
+      "key": "communityPickerA11yLabel",
+      "en": "Community: {community}",
+      "tr": "Topluluk: {community}",
+      "source": "HB-37 r5 line 41",
+      "status": "APPROVED — source / existing design reference"
+    },
+    {
+      "key": "mapShowMyArea",
+      "en": "Show my area",
+      "tr": "Bölgemi göster",
+      "source": "v2.3 v6-final-copy-patch",
+      "status": "APPROVED — source / existing design reference"
+    },
+    {
+      "key": "navEvents",
+      "en": "Events",
+      "tr": "Etkinlikler",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference"
+    },
+    {
+      "key": "navMessages",
+      "en": "Messages",
+      "tr": "Mesajlar",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference"
+    },
+    {
+      "key": "navNearby",
+      "en": "Nearby",
+      "tr": "Yakındakiler",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference"
+    },
+    {
+      "key": "navProfile",
+      "en": "Profile",
+      "tr": "Profil",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference"
+    },
+    {
+      "key": "updateRequiredBody",
+      "en": "This version of I’M HERE is no longer supported. Update the app to keep using it.",
+      "tr": "I’M HERE’ın bu sürümü artık desteklenmiyor. Kullanmaya devam etmek için uygulamayı güncelle.",
+      "source": "HB-37 r5 line 187",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "d0-required",
+        "d0-opening",
+        "d0-store-failed"
+      ]
+    },
+    {
+      "key": "updateRequiredButton",
+      "en": "Update",
+      "tr": "Güncelle",
+      "source": "HB-37 r5 line 188",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "d0-required",
+        "d0-opening",
+        "d0-store-failed"
+      ]
+    },
+    {
+      "key": "updateRequiredDeleteNote",
+      "en": "You can also delete your account at useimhere.com/delete-account.",
+      "tr": "Hesabını useimhere.com/delete-account adresinden de silebilirsin.",
+      "source": "HB-37 r5 line 190",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "d0-required",
+        "d0-opening",
+        "d0-store-failed"
+      ]
+    },
+    {
+      "key": "updateRequiredStoreFailed",
+      "en": "The store couldn’t be opened. Open it yourself and update I’M HERE.",
+      "tr": "Mağaza açılamadı. Mağazayı kendin açıp I’M HERE’ı güncelle.",
+      "source": "HB-37 r5 line 189",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "d0-store-failed"
+      ]
+    },
+    {
+      "key": "updateRequiredTitle",
+      "en": "Update required",
+      "tr": "Güncelleme gerekli",
+      "source": "HB-37 r5 line 186",
+      "status": "APPROVED — source / existing design reference",
+      "screens": [
+        "d0-required",
+        "d0-opening",
+        "d0-store-failed"
+      ]
+    },
+    {
+      "key": "viewBack",
+      "en": "Back",
+      "tr": "Geri",
+      "source": "v2.3 l10n/app_*.arb",
+      "status": "APPROVED — source / existing design reference"
+    }
+  ],
+  "proposals": []
+}
