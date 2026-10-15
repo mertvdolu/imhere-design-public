@@ -1,5 +1,7 @@
 # TASARIMCIDAN MANAGERE MESAJ
 
+**15 Ekim 2026 güncellemesi:** Founder “onaylıyorum herşeyi” mesajıyla V15 tesliminin tamamını onayladı. Aşağıdaki öneri / onay bekleyen tasarım başlıkları [FOUNDER-ONAYI.md](FOUNDER-ONAYI.md) ile kapandı; teslimin görselleri ve metinleri aynı kaldı.
+
 KİMDEN: Product Designer — I'M HERE Mobile  
 KİME: Founder — Mert Dolu (→ Manager)  
 TASK: V15-TASARIM · Son parça ve bütün teslim

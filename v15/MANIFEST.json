@@ -4,7 +4,7 @@
     "states": 147,
     "mainPng": 1176,
     "fullPng": 552,
-    "filesExcludingManifest": 2671
+    "filesExcludingManifest": 2672
   },
   "files": [
     {
@@ -19,13 +19,18 @@
     },
     {
       "file": "DUZELTME-1.md",
-      "bytes": 3946,
-      "sha256": "1abd1f61ad53b1d2bc919756cad91846a41108f48f986801097d27dec02274cb"
+      "bytes": 4178,
+      "sha256": "ff295bdf46f2ae5efaf95847897f3175b59972c7f55c3c62b8798c578d988fbe"
+    },
+    {
+      "file": "FOUNDER-ONAYI.md",
+      "bytes": 2162,
+      "sha256": "66412e193cc0a479cced12b10d7744b7c39bb817720d2bc043996afc0c72c485"
     },
     {
       "file": "HANDOFF.md",
-      "bytes": 1356,
-      "sha256": "79d761fbcd3cd5fdf8593f49e6bdfc5cc701f61e7eb500ed38e09134b8700d60"
+      "bytes": 1605,
+      "sha256": "ccb912705d3d9dfa265ce62a75c341c40c682e88085a66f07e5f5d2d486a63ad"
     },
     {
       "file": "ONIZLEME.html",
@@ -39,8 +44,8 @@
     },
     {
       "file": "README.md",
-      "bytes": 1012,
-      "sha256": "87e8cd9343b4480a2529d86d094d3eb736f34695e26c398bfeac5e4304a2455b"
+      "bytes": 1192,
+      "sha256": "07a74e8e5dd1eedf10d5f4de7232fffa91c862dc08d5f927367c9da7258ffe5d"
     },
     {
       "file": "SCREEN-STATE-MATRIX.md",
@@ -54,8 +59,8 @@
     },
     {
       "file": "TESLIM-RAPORU.md",
-      "bytes": 6630,
-      "sha256": "db32bf38c6761d6de4247954a22aa17bc50c2405d5816f805a4c5672d6ddab9f"
+      "bytes": 6905,
+      "sha256": "89a6a9f7fe994e5f4222b62777bc402ffe5d370479c4f60d8a648788d7376ae2"
     },
     {
       "file": "TOKENS.md",

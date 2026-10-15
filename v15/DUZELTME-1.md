@@ -1,5 +1,7 @@
 # TASARIMCIDAN MANAGERE MESAJ
 
+**15 Ekim 2026 güncellemesi:** Bu düzeltme ve tüm V15 görsel kararları Founder tarafından onaylandı. Aşağıdaki ayrı görsel onay beklentisi [FOUNDER-ONAYI.md](FOUNDER-ONAYI.md) ile kapandı; düzeltme içeriği korunur.
+
 TASK: V15-TASARIM-DUZELTME-1  
 Depo / dal: imhere-design-public · design/v15-cream-ink-v23  
 Temel teslim: 0aaa981d83241d30e24b28fcdc70a76ca48563bf

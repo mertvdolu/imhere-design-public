@@ -1,5 +1,7 @@
 # TASARIMCIDAN MANAGERE MESAJ
 
+**Güncel karar — 15 Ekim 2026:** V15 teslimi ve Düzeltme 1 Founder tarafından tamamen onaylandı. [FOUNDER-ONAYI.md](FOUNDER-ONAYI.md) önceki görsel onay beklentilerinin yerini alır. Native uygulama ve cihaz kontrolleri Code'da devam eder.
+
 V15 tasarımının parça teslimleri aynı dalda birikir. D0 ilk commit ve ayrı1.4.2 kapsamıdır. Sonraki gruplar kapalıV15 bayrağı için hazırlanır.
 
 Okuma: README → grupSPEC → ONIZLEME → COPY-REVIEW → VALIDATION → MANIFEST. SHA/push kanıtı teslim mesajında; MANIFEST kendini listelemez.
