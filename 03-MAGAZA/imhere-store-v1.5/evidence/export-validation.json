@@ -1,0 +1,134 @@
+{
+  "status": "PASS",
+  "count": 18,
+  "allRGB": true,
+  "allOpaque": true,
+  "exports": [
+    {
+      "file": "ios-15-1206x2622/01-community.png",
+      "width": 1206,
+      "height": 2622,
+      "channels": 3,
+      "hasAlpha": false
+    },
+    {
+      "file": "ios-15-1206x2622/02-nearby.png",
+      "width": 1206,
+      "height": 2622,
+      "channels": 3,
+      "hasAlpha": false
+    },
+    {
+      "file": "ios-15-1206x2622/03-filters.png",
+      "width": 1206,
+      "height": 2622,
+      "channels": 3,
+      "hasAlpha": false
+    },
+    {
+      "file": "ios-15-1206x2622/04-request-profile.png",
+      "width": 1206,
+      "height": 2622,
+      "channels": 3,
+      "hasAlpha": false
+    },
+    {
+      "file": "ios-15-1206x2622/05-chat.png",
+      "width": 1206,
+      "height": 2622,
+      "channels": 3,
+      "hasAlpha": false
+    },
+    {
+      "file": "ios-15-1206x2622/06-events.png",
+      "width": 1206,
+      "height": 2622,
+      "channels": 3,
+      "hasAlpha": false
+    },
+    {
+      "file": "ios-15-1320x2868/01-community.png",
+      "width": 1320,
+      "height": 2868,
+      "channels": 3,
+      "hasAlpha": false
+    },
+    {
+      "file": "ios-15-1320x2868/02-nearby.png",
+      "width": 1320,
+      "height": 2868,
+      "channels": 3,
+      "hasAlpha": false
+    },
+    {
+      "file": "ios-15-1320x2868/03-filters.png",
+      "width": 1320,
+      "height": 2868,
+      "channels": 3,
+      "hasAlpha": false
+    },
+    {
+      "file": "ios-15-1320x2868/04-request-profile.png",
+      "width": 1320,
+      "height": 2868,
+      "channels": 3,
+      "hasAlpha": false
+    },
+    {
+      "file": "ios-15-1320x2868/05-chat.png",
+      "width": 1320,
+      "height": 2868,
+      "channels": 3,
+      "hasAlpha": false
+    },
+    {
+      "file": "ios-15-1320x2868/06-events.png",
+      "width": 1320,
+      "height": 2868,
+      "channels": 3,
+      "hasAlpha": false
+    },
+    {
+      "file": "play-15-phone/01-community.png",
+      "width": 1080,
+      "height": 1920,
+      "channels": 3,
+      "hasAlpha": false
+    },
+    {
+      "file": "play-15-phone/02-nearby.png",
+      "width": 1080,
+      "height": 1920,
+      "channels": 3,
+      "hasAlpha": false
+    },
+    {
+      "file": "play-15-phone/03-filters.png",
+      "width": 1080,
+      "height": 1920,
+      "channels": 3,
+      "hasAlpha": false
+    },
+    {
+      "file": "play-15-phone/04-request-profile.png",
+      "width": 1080,
+      "height": 1920,
+      "channels": 3,
+      "hasAlpha": false
+    },
+    {
+      "file": "play-15-phone/05-chat.png",
+      "width": 1080,
+      "height": 1920,
+      "channels": 3,
+      "hasAlpha": false
+    },
+    {
+      "file": "play-15-phone/06-events.png",
+      "width": 1080,
+      "height": 1920,
+      "channels": 3,
+      "hasAlpha": false
+    }
+  ]
+}

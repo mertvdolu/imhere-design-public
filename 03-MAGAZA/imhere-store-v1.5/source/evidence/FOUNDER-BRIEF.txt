@@ -1,0 +1,42 @@
+I'M HERE 1.5 — mağaza ekran görüntüleri (App Store + Google Play)
+
+Merhaba! 1.5 için mağaza karelerini istiyoruz. Biçim 1.4 setinle AYNI: üstte başlık, altta ince çerçeve içinde gerçek uygulama ekranı, en altta küçük satır "Fictional profiles · Illustrative content". Renk, yazı tipi, marka 1.4 ile aynı.
+
+KARELER (6 adet, bu sırayla):
+01  Başlık: Choose your community.
+    Alt satır: Networking, Friendship or both. One at a time.
+    Ekran: KARE-1-topluluk-secimi.png
+02  Başlık: See who else is here.
+    Alt satır: Only people in the community you're using.
+    Ekran: KARE-2-yakindakiler.png
+03  Başlık: Filter by job title.
+    Alt satır: In Networking, when at least 3 people match.
+    Alt küçük satır bu karede: "Fictional profiles and numbers · Illustrative content"
+    Ekran: KARE-3b-filtre-paneli.png
+04  Başlık: See who's saying hello.
+    Alt satır: See their profile before you accept.
+    Ekran: 1.4 setindeki "03-request-profile" karesinin ekranı (aynen)
+05  Başlık: Start with a conversation.
+    Alt satır: Twenty messages each. Keep it simple.
+    Ekran: KARE-4-sohbet.png (yeni çekim)
+06  Başlık: Events from our team.
+    Alt satır: For the community you're using.
+    Ekran: KARE-5-etkinlik.png
+
+KURALLAR:
+- Başlık ve alt satırlarda "LinkedIn" yazmasın, LinkedIn logosu / mavisi olmasın.
+- Ekran görüntülerinin içeriğini değiştirme (yazı, kişi, sayı düzeltme yok); yalnız çerçeve + başlık.
+- Durum çubuğu (saat, pil) 1.4'te nasılsa öyle.
+
+BOYUTLAR (her kare üç boyutta, PNG, saydamlık yok):
+- iPhone 1206 × 2622  (1.4 iOS setiyle aynı)
+- iPhone 1320 × 2868
+- Android telefon 1080 × 1920
+Ham ekranlar: iPhone için "iphone-6.9" klasörü, Android için "android-telefon" klasörü.
+
+Dosya adları: 01-community.png, 02-nearby.png, 03-filters.png, 04-request-profile.png, 05-chat.png, 06-events.png
+Üç klasör: ios-15-1206x2622 / ios-15-1320x2868 / play-15-phone
+
+Play öne çıkan görsel (1024 × 500): 1.4'tekinde "purpose / amaç" anlatımı varsa "community" ile güncelle; yoksa aynen kalsın.
+
+Teşekkürler!

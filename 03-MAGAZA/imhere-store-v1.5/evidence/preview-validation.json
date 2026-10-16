@@ -1,0 +1,306 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "images": [
+        {
+          "height": 2622,
+          "loaded": true,
+          "src": "ios-15-1206x2622/01-community.png",
+          "width": 1206
+        },
+        {
+          "height": 2622,
+          "loaded": true,
+          "src": "ios-15-1206x2622/02-nearby.png",
+          "width": 1206
+        },
+        {
+          "height": 2622,
+          "loaded": true,
+          "src": "ios-15-1206x2622/03-filters.png",
+          "width": 1206
+        },
+        {
+          "height": 2622,
+          "loaded": true,
+          "src": "ios-15-1206x2622/04-request-profile.png",
+          "width": 1206
+        },
+        {
+          "height": 2622,
+          "loaded": true,
+          "src": "ios-15-1206x2622/05-chat.png",
+          "width": 1206
+        },
+        {
+          "height": 2622,
+          "loaded": true,
+          "src": "ios-15-1206x2622/06-events.png",
+          "width": 1206
+        },
+        {
+          "height": 500,
+          "loaded": true,
+          "src": "play-feature/feature-graphic.png",
+          "width": 1024
+        }
+      ],
+      "native": false,
+      "overflow": false,
+      "set": "ios-15-1206x2622",
+      "width": 791
+    },
+    {
+      "images": [
+        {
+          "height": 2868,
+          "loaded": true,
+          "src": "ios-15-1320x2868/01-community.png",
+          "width": 1320
+        },
+        {
+          "height": 2868,
+          "loaded": true,
+          "src": "ios-15-1320x2868/02-nearby.png",
+          "width": 1320
+        },
+        {
+          "height": 2868,
+          "loaded": true,
+          "src": "ios-15-1320x2868/03-filters.png",
+          "width": 1320
+        },
+        {
+          "height": 2868,
+          "loaded": true,
+          "src": "ios-15-1320x2868/04-request-profile.png",
+          "width": 1320
+        },
+        {
+          "height": 2868,
+          "loaded": true,
+          "src": "ios-15-1320x2868/05-chat.png",
+          "width": 1320
+        },
+        {
+          "height": 2868,
+          "loaded": true,
+          "src": "ios-15-1320x2868/06-events.png",
+          "width": 1320
+        },
+        {
+          "height": 500,
+          "loaded": true,
+          "src": "play-feature/feature-graphic.png",
+          "width": 1024
+        }
+      ],
+      "native": false,
+      "overflow": false,
+      "set": "ios-15-1320x2868",
+      "width": 791
+    },
+    {
+      "images": [
+        {
+          "height": 1920,
+          "loaded": true,
+          "src": "play-15-phone/01-community.png",
+          "width": 1080
+        },
+        {
+          "height": 1920,
+          "loaded": true,
+          "src": "play-15-phone/02-nearby.png",
+          "width": 1080
+        },
+        {
+          "height": 1920,
+          "loaded": true,
+          "src": "play-15-phone/03-filters.png",
+          "width": 1080
+        },
+        {
+          "height": 1920,
+          "loaded": true,
+          "src": "play-15-phone/04-request-profile.png",
+          "width": 1080
+        },
+        {
+          "height": 1920,
+          "loaded": true,
+          "src": "play-15-phone/05-chat.png",
+          "width": 1080
+        },
+        {
+          "height": 1920,
+          "loaded": true,
+          "src": "play-15-phone/06-events.png",
+          "width": 1080
+        },
+        {
+          "height": 500,
+          "loaded": true,
+          "src": "play-feature/feature-graphic.png",
+          "width": 1024
+        }
+      ],
+      "native": false,
+      "overflow": false,
+      "set": "play-15-phone",
+      "width": 791
+    },
+    {
+      "images": [
+        {
+          "height": 2400,
+          "loaded": true,
+          "src": "source/native/android/KARE-1-topluluk-secimi.png",
+          "width": 1080
+        },
+        {
+          "height": 2400,
+          "loaded": true,
+          "src": "source/native/android/KARE-2-yakindakiler.png",
+          "width": 1080
+        },
+        {
+          "height": 2400,
+          "loaded": true,
+          "src": "source/native/android/KARE-3b-filtre-paneli.png",
+          "width": 1080
+        },
+        {
+          "height": 2400,
+          "loaded": true,
+          "src": "source/native/android/03-istek-profili.png",
+          "width": 1080
+        },
+        {
+          "height": 2400,
+          "loaded": true,
+          "src": "source/native/android/KARE-4-sohbet.png",
+          "width": 1080
+        },
+        {
+          "height": 2400,
+          "loaded": true,
+          "src": "source/native/android/KARE-5-etkinlik.png",
+          "width": 1080
+        },
+        {
+          "height": 500,
+          "loaded": true,
+          "src": "play-feature/feature-graphic.png",
+          "width": 1024
+        }
+      ],
+      "native": true,
+      "overflow": false,
+      "set": "play-15-phone",
+      "width": 791
+    },
+    {
+      "images": [
+        {
+          "height": 2868,
+          "loaded": true,
+          "src": "source/native/ios/KARE-1-topluluk-secimi.png",
+          "width": 1320
+        },
+        {
+          "height": 2868,
+          "loaded": true,
+          "src": "source/native/ios/KARE-2-yakindakiler.png",
+          "width": 1320
+        },
+        {
+          "height": 2868,
+          "loaded": true,
+          "src": "source/native/ios/KARE-3b-filtre-paneli.png",
+          "width": 1320
+        },
+        {
+          "height": 2622,
+          "loaded": true,
+          "src": "source/native/ios/03-istek-profili.png",
+          "width": 1206
+        },
+        {
+          "height": 2868,
+          "loaded": true,
+          "src": "source/native/ios/KARE-4-sohbet.png",
+          "width": 1320
+        },
+        {
+          "height": 2868,
+          "loaded": true,
+          "src": "source/native/ios/KARE-5-etkinlik.png",
+          "width": 1320
+        },
+        {
+          "height": 500,
+          "loaded": true,
+          "src": "play-feature/feature-graphic.png",
+          "width": 1024
+        }
+      ],
+      "native": true,
+      "overflow": false,
+      "set": "ios-15-1206x2622",
+      "width": 791
+    },
+    {
+      "images": [
+        {
+          "height": 2622,
+          "loaded": true,
+          "src": "ios-15-1206x2622/01-community.png",
+          "width": 1206
+        },
+        {
+          "height": 2622,
+          "loaded": true,
+          "src": "ios-15-1206x2622/02-nearby.png",
+          "width": 1206
+        },
+        {
+          "height": 2622,
+          "loaded": true,
+          "src": "ios-15-1206x2622/03-filters.png",
+          "width": 1206
+        },
+        {
+          "height": 2622,
+          "loaded": true,
+          "src": "ios-15-1206x2622/04-request-profile.png",
+          "width": 1206
+        },
+        {
+          "height": 2622,
+          "loaded": true,
+          "src": "ios-15-1206x2622/05-chat.png",
+          "width": 1206
+        },
+        {
+          "height": 2622,
+          "loaded": true,
+          "src": "ios-15-1206x2622/06-events.png",
+          "width": 1206
+        },
+        {
+          "height": 500,
+          "loaded": true,
+          "src": "play-feature/feature-graphic.png",
+          "width": 1024
+        }
+      ],
+      "native": false,
+      "overflow": false,
+      "set": "ios-15-1206x2622",
+      "width": 320
+    }
+  ],
+  "console": []
+}

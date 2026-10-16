@@ -1,0 +1,74 @@
+{
+  "brand": "IM HERE",
+  "locale": "en_GB",
+  "status": "FOUNDER-SUPPLIED WORDING — 16 Oct 2026; unchanged",
+  "disclosure": "Fictional profiles · Illustrative content",
+  "filterDisclosure": "Fictional profiles and numbers · Illustrative content",
+  "shots": [
+    {
+      "id": "01-community",
+      "source": "KARE-1-topluluk-secimi.png",
+      "title": "Choose your community.",
+      "lines": [
+        "Choose your",
+        "community."
+      ],
+      "subtitle": "Networking, Friendship or both. One at a time."
+    },
+    {
+      "id": "02-nearby",
+      "source": "KARE-2-yakindakiler.png",
+      "title": "See who else is here.",
+      "lines": [
+        "See who else",
+        "is here."
+      ],
+      "subtitle": "Only people in the community you're using."
+    },
+    {
+      "id": "03-filters",
+      "source": "KARE-3b-filtre-paneli.png",
+      "title": "Filter by job title.",
+      "lines": [
+        "Filter by",
+        "job title."
+      ],
+      "subtitle": "In Networking, when at least 3 people match."
+    },
+    {
+      "id": "04-request-profile",
+      "source": "03-istek-profili.png",
+      "title": "See who's saying hello.",
+      "lines": [
+        "See who's",
+        "saying hello."
+      ],
+      "subtitle": "See their profile before you accept."
+    },
+    {
+      "id": "05-chat",
+      "source": "KARE-4-sohbet.png",
+      "title": "Start with a conversation.",
+      "lines": [
+        "Start with",
+        "a conversation."
+      ],
+      "subtitle": "Twenty messages each. Keep it simple."
+    },
+    {
+      "id": "06-events",
+      "source": "KARE-5-etkinlik.png",
+      "title": "Events from our team.",
+      "lines": [
+        "Events from",
+        "our team."
+      ],
+      "subtitle": "For the community you're using."
+    }
+  ],
+  "feature": {
+    "action": "Reuse 1.4 byte-for-byte",
+    "title": "Start with a conversation.",
+    "reason": "Existing feature contains no purpose wording; explicit Founder instruction is to keep it unchanged."
+  }
+}

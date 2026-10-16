@@ -1,0 +1,580 @@
+{
+  "package": "imhere-store-v1.5",
+  "date": "2026-10-16",
+  "theme": "Cream & Ink v2.3",
+  "storePngCount": 19,
+  "screenshots": 18,
+  "featureGraphics": 1,
+  "fileCount": 77,
+  "hashAlgorithm": "SHA256",
+  "selfExclusion": "MANIFEST.json",
+  "files": [
+    {
+      "file": "DELIVERY.json",
+      "bytes": 14297,
+      "sha256": "6988068e2e0246f723cc87325104baebca60bd9def4a37a787430c7bc5e92e39",
+      "role": "source-or-review"
+    },
+    {
+      "file": "HANDOFF.md",
+      "bytes": 2357,
+      "sha256": "55dbfc33dda34cd2e53dee542eb4dca4376de83b632915b1fe1769866ab40bd7",
+      "role": "source-or-review"
+    },
+    {
+      "file": "ONIZLEME.html",
+      "bytes": 4226,
+      "sha256": "b0c5f912130f45158c75f68c747cedf82f8bca7a21734067a996ed35d6dd586c",
+      "role": "source-or-review"
+    },
+    {
+      "file": "README.md",
+      "bytes": 1672,
+      "sha256": "aede3e6d2d99627f85f3af69398215435768a6e156a6e96c43fae5efbc285343",
+      "role": "source-or-review"
+    },
+    {
+      "file": "SHA256SUMS.txt",
+      "bytes": 1860,
+      "sha256": "de29c5f4bab6ce9018697c56fb449b2e1fd90bf695832f15b09c3ce87283afba",
+      "role": "source-or-review"
+    },
+    {
+      "file": "SPEC.md",
+      "bytes": 2180,
+      "sha256": "9da92bac05126f0ed881ac51cf28564c3dd4f5cc9f93d559f62c6bf13e987497",
+      "role": "source-or-review"
+    },
+    {
+      "file": "VALIDATION.md",
+      "bytes": 1303,
+      "sha256": "5e9ca2227a79422d7d10b53aea2926aabe764ae7ffb9fa62b95c301ea9e00290",
+      "role": "source-or-review"
+    },
+    {
+      "file": "assets/Geist-Medium.ttf",
+      "bytes": 127660,
+      "sha256": "3a3b36f0d0b981f4857f7f00eeef4a5ee123605575d362ab31ee7c19e3d11f2f",
+      "role": "source-or-review"
+    },
+    {
+      "file": "assets/Geist-Medium.woff2",
+      "bytes": 19992,
+      "sha256": "dc097e4fa082f01c44ccc7a5ee13ed30259e791a663b9ffa81225ecb4869f40f",
+      "role": "source-or-review"
+    },
+    {
+      "file": "assets/Geist-Regular.ttf",
+      "bytes": 126048,
+      "sha256": "85a1c6b18a6b0a06dfe9fd4f6d6a5d4979f74ec861eaef4bc7868b5492b8a117",
+      "role": "source-or-review"
+    },
+    {
+      "file": "assets/Geist-Regular.woff2",
+      "bytes": 19400,
+      "sha256": "e11300a9faf16e0c5e04bf63e6a082d614d82a3ef5ad50614f770cb8242a412b",
+      "role": "source-or-review"
+    },
+    {
+      "file": "assets/OFL.txt",
+      "bytes": 4383,
+      "sha256": "942560b236adfa83745b2c64e5fc09ebaf91cb331751b1157eb92187e5d6e930",
+      "role": "source-or-review"
+    },
+    {
+      "file": "assets/imhere-mark-icon-weight.svg",
+      "bytes": 565,
+      "sha256": "2ab93326b0dc88965527e8a2552495ce45e75df6a1da949752072379e60ff663",
+      "role": "source-or-review"
+    },
+    {
+      "file": "evidence/artwork-validation.json",
+      "bytes": 16130,
+      "sha256": "e2733085ce043682c7ac910c42df618de21e1f7c264540857b23a6c2b42bdb52",
+      "role": "source-or-review"
+    },
+    {
+      "file": "evidence/browser-preview.png",
+      "bytes": 74181,
+      "sha256": "7f035c868ce7cf167696cc09326f1d3397c71bb1389f01ab1215206706c9823c",
+      "role": "source-or-review",
+      "width": 791,
+      "height": 943,
+      "mode": "RGB"
+    },
+    {
+      "file": "evidence/export-validation.json",
+      "bytes": 2793,
+      "sha256": "5a440374f5a98adfbd3621aae28cf8ef7448b401cfc8654b351aee40a1765bbc",
+      "role": "source-or-review"
+    },
+    {
+      "file": "evidence/preview-validation.json",
+      "bytes": 7272,
+      "sha256": "69f5c813d392d44e5dfd7bda99be95efdf8214cdfd700b32620e94d7d1c819cb",
+      "role": "source-or-review"
+    },
+    {
+      "file": "ios-15-1206x2622/01-community.png",
+      "bytes": 233024,
+      "sha256": "9588c1892c9882d704078174b478ef6be0b49b8936e1a39a3943696a5de9c956",
+      "role": "store-upload-candidate",
+      "width": 1206,
+      "height": 2622,
+      "mode": "RGB"
+    },
+    {
+      "file": "ios-15-1206x2622/02-nearby.png",
+      "bytes": 234681,
+      "sha256": "d5c95c178b4deef32dd1162b68ed751651076fce4bc0be637f706a3595d3061f",
+      "role": "store-upload-candidate",
+      "width": 1206,
+      "height": 2622,
+      "mode": "RGB"
+    },
+    {
+      "file": "ios-15-1206x2622/03-filters.png",
+      "bytes": 223213,
+      "sha256": "35ba7ebf13857e92add1e94de02be52a4c99253d3396581bd1fe8ae5cba70f3c",
+      "role": "store-upload-candidate",
+      "width": 1206,
+      "height": 2622,
+      "mode": "RGB"
+    },
+    {
+      "file": "ios-15-1206x2622/04-request-profile.png",
+      "bytes": 179986,
+      "sha256": "c6c4e44d7521a2bee9a8a4ef4223c6d9040acd81e90abf0dd708102e96c0c60f",
+      "role": "store-upload-candidate",
+      "width": 1206,
+      "height": 2622,
+      "mode": "RGB"
+    },
+    {
+      "file": "ios-15-1206x2622/05-chat.png",
+      "bytes": 213078,
+      "sha256": "80800eb10846ebee502690cce9fea079ea644835e8b811e1f09fac01fd4c2ca5",
+      "role": "store-upload-candidate",
+      "width": 1206,
+      "height": 2622,
+      "mode": "RGB"
+    },
+    {
+      "file": "ios-15-1206x2622/06-events.png",
+      "bytes": 223696,
+      "sha256": "a4cd6c9712ecad701747df3044625612420c42ac5e2f319a355839801d7acd32",
+      "role": "store-upload-candidate",
+      "width": 1206,
+      "height": 2622,
+      "mode": "RGB"
+    },
+    {
+      "file": "ios-15-1320x2868/01-community.png",
+      "bytes": 251841,
+      "sha256": "3dceaf041b26129db102765f56c7739ff2303f5a93c11e901bf709f7df4b8773",
+      "role": "store-upload-candidate",
+      "width": 1320,
+      "height": 2868,
+      "mode": "RGB"
+    },
+    {
+      "file": "ios-15-1320x2868/02-nearby.png",
+      "bytes": 254653,
+      "sha256": "2e224e195bdc51eaf4823dd1d1c862e78109b8dd95438b2f87a6dae50b672463",
+      "role": "store-upload-candidate",
+      "width": 1320,
+      "height": 2868,
+      "mode": "RGB"
+    },
+    {
+      "file": "ios-15-1320x2868/03-filters.png",
+      "bytes": 240343,
+      "sha256": "77959682a7a461d1ddd9e46853aca0af1ddaed51bfd08a6a43ca17d85a0972f9",
+      "role": "store-upload-candidate",
+      "width": 1320,
+      "height": 2868,
+      "mode": "RGB"
+    },
+    {
+      "file": "ios-15-1320x2868/04-request-profile.png",
+      "bytes": 204919,
+      "sha256": "9c93433e5e60b086fa23c130ced458c352d0ca425e61411526ecc9ed0915bcd1",
+      "role": "store-upload-candidate",
+      "width": 1320,
+      "height": 2868,
+      "mode": "RGB"
+    },
+    {
+      "file": "ios-15-1320x2868/05-chat.png",
+      "bytes": 229976,
+      "sha256": "b1a6b8cae2f57f4fd60476e530b2e4bdb5f5c12fc93795344c4a115521ed5367",
+      "role": "store-upload-candidate",
+      "width": 1320,
+      "height": 2868,
+      "mode": "RGB"
+    },
+    {
+      "file": "ios-15-1320x2868/06-events.png",
+      "bytes": 242775,
+      "sha256": "59f34953c2982732847b787604b9abe47bf2cee622f36a7fe4bc8556264f5e11",
+      "role": "store-upload-candidate",
+      "width": 1320,
+      "height": 2868,
+      "mode": "RGB"
+    },
+    {
+      "file": "play-15-phone/01-community.png",
+      "bytes": 167891,
+      "sha256": "23065b69d6e5f8a223947cd8a44164436d8f8d37cde10c0123fe79178b314fd2",
+      "role": "store-upload-candidate",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB"
+    },
+    {
+      "file": "play-15-phone/02-nearby.png",
+      "bytes": 165014,
+      "sha256": "3d74a5924646334d58889da4050fce4e843f8cba738e91c403d964aa078be5f7",
+      "role": "store-upload-candidate",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB"
+    },
+    {
+      "file": "play-15-phone/03-filters.png",
+      "bytes": 160975,
+      "sha256": "860660558de77dd194c22bf0c8d9e43c2f282487a74849b41b9675da58b59733",
+      "role": "store-upload-candidate",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB"
+    },
+    {
+      "file": "play-15-phone/04-request-profile.png",
+      "bytes": 127764,
+      "sha256": "6b8dbe51764094ad8dbd5118b30c1de5b2329f05d4858862af4b0826e128996b",
+      "role": "store-upload-candidate",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB"
+    },
+    {
+      "file": "play-15-phone/05-chat.png",
+      "bytes": 154557,
+      "sha256": "4a20b803423913bc2c7a7eddba56c62a576d74faaa3177c52e354876c32a6b72",
+      "role": "store-upload-candidate",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB"
+    },
+    {
+      "file": "play-15-phone/06-events.png",
+      "bytes": 161421,
+      "sha256": "bd6018b59a061121a8b97e13dd309124c36c9d0aefa338e40d30ab786c2194a1",
+      "role": "store-upload-candidate",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB"
+    },
+    {
+      "file": "play-feature/feature-graphic.png",
+      "bytes": 61397,
+      "sha256": "5163eb8dd25ad20954c4ae7554f77006155aa1dba9fb2a8f847048fa72e30069",
+      "role": "store-upload-candidate",
+      "width": 1024,
+      "height": 500,
+      "mode": "RGB"
+    },
+    {
+      "file": "review/ios-15-1206x2622-contact-sheet.png",
+      "bytes": 446757,
+      "sha256": "df4d992f67e81f9d76b0a043201eed663682b0219f7b7530be0d8e4977ced134",
+      "role": "source-or-review",
+      "width": 1176,
+      "height": 1690,
+      "mode": "RGB"
+    },
+    {
+      "file": "review/ios-15-1320x2868-contact-sheet.png",
+      "bytes": 446502,
+      "sha256": "225084a79c6eab58880d3ad72736d24c9efdbc8de524f2c38f3fa9dbb00b99f2",
+      "role": "source-or-review",
+      "width": 1176,
+      "height": 1690,
+      "mode": "RGB"
+    },
+    {
+      "file": "review/play-15-phone-contact-sheet.png",
+      "bytes": 366422,
+      "sha256": "4dcd745d66b9b79a02261caf4cd8337980182e3a7525901c96d24e198d2b6895",
+      "role": "source-or-review",
+      "width": 1176,
+      "height": 1412,
+      "mode": "RGB"
+    },
+    {
+      "file": "source/build.py",
+      "bytes": 4510,
+      "sha256": "696acad8942fd84cdeef47708d0ab0916092d170919d09cbfe7bc6d6ef61aaac",
+      "role": "source-or-review"
+    },
+    {
+      "file": "source/capture-provenance.json",
+      "bytes": 6140,
+      "sha256": "ddf06b88170a9b6bff304c387ce2875b47fe1e6ed0b0684031ec1359186df3b9",
+      "role": "source-or-review"
+    },
+    {
+      "file": "source/copy.en-GB.json",
+      "bytes": 2011,
+      "sha256": "956532734d256657194fe08417f395048451870d60a520e44d31ba0d5d3daeaf",
+      "role": "source-or-review"
+    },
+    {
+      "file": "source/evidence/FOUNDER-BRIEF.txt",
+      "bytes": 2123,
+      "sha256": "f2e28ab7729ce048b2cffb8732515c3b1d1ee2fedff7f57c3a3653e0d91d6e34",
+      "role": "source-or-review"
+    },
+    {
+      "file": "source/manifest.py",
+      "bytes": 1175,
+      "sha256": "9e2c9a0505553e71644aa9a849e04c8a0bdae8b560db51eb88fa5112fbe37cdc",
+      "role": "source-or-review"
+    },
+    {
+      "file": "source/native/android/03-istek-profili.png",
+      "bytes": 151855,
+      "sha256": "81b89b2899a23538e027ee27b92c5f1cf6292968c84e9b3fd1e8d185ee72cd9f",
+      "role": "source-or-review",
+      "width": 1080,
+      "height": 2400,
+      "mode": "RGBA"
+    },
+    {
+      "file": "source/native/android/KARE-1-topluluk-secimi.png",
+      "bytes": 202132,
+      "sha256": "f78247256449bff6c6c4f2281937e8a849e8dfb4c4f84b0c8718aea93411e40d",
+      "role": "source-or-review",
+      "width": 1080,
+      "height": 2400,
+      "mode": "RGB"
+    },
+    {
+      "file": "source/native/android/KARE-2-yakindakiler.png",
+      "bytes": 197213,
+      "sha256": "89179ca674e7e31274d11675e83d6b7b21699f2886f49bedc22903562b6b1521",
+      "role": "source-or-review",
+      "width": 1080,
+      "height": 2400,
+      "mode": "RGB"
+    },
+    {
+      "file": "source/native/android/KARE-3b-filtre-paneli.png",
+      "bytes": 200792,
+      "sha256": "cb97acfac4f1c50ba62539468d245a7a7783c8883569d86043e595179b3ed4a1",
+      "role": "source-or-review",
+      "width": 1080,
+      "height": 2400,
+      "mode": "RGB"
+    },
+    {
+      "file": "source/native/android/KARE-4-sohbet.png",
+      "bytes": 170736,
+      "sha256": "cce503c730f49afd64a1d16157e81f3e2e1ad94b96701cfbb7f20e662cbcdeda",
+      "role": "source-or-review",
+      "width": 1080,
+      "height": 2400,
+      "mode": "RGB"
+    },
+    {
+      "file": "source/native/android/KARE-5-etkinlik.png",
+      "bytes": 203844,
+      "sha256": "cbdd39b49a759f9e4d173e7b504ba2eeef08c30d6a5af7f1124e694e17601e39",
+      "role": "source-or-review",
+      "width": 1080,
+      "height": 2400,
+      "mode": "RGB"
+    },
+    {
+      "file": "source/native/ios/03-istek-profili.png",
+      "bytes": 252320,
+      "sha256": "17766a16599cc1c5622cd55fc6411d730c5f94cbba57041594f23b71e1052c80",
+      "role": "source-or-review",
+      "width": 1206,
+      "height": 2622,
+      "mode": "RGBA"
+    },
+    {
+      "file": "source/native/ios/KARE-1-topluluk-secimi.png",
+      "bytes": 303934,
+      "sha256": "e3f5150c8ba4c36dcb9e99923b2c7ba9b13a4690a75dd07784f6f0b23f466723",
+      "role": "source-or-review",
+      "width": 1320,
+      "height": 2868,
+      "mode": "RGB"
+    },
+    {
+      "file": "source/native/ios/KARE-2-yakindakiler.png",
+      "bytes": 326482,
+      "sha256": "cfdd34323dcbd179f96f9f04e67cbab7bf8575e2c0a91ae358e54e5863c3d16e",
+      "role": "source-or-review",
+      "width": 1320,
+      "height": 2868,
+      "mode": "RGB"
+    },
+    {
+      "file": "source/native/ios/KARE-3b-filtre-paneli.png",
+      "bytes": 303637,
+      "sha256": "6172691735779955c3b357361d4268b89c4951f0719fd1bbd5387a8e40668252",
+      "role": "source-or-review",
+      "width": 1320,
+      "height": 2868,
+      "mode": "RGB"
+    },
+    {
+      "file": "source/native/ios/KARE-4-sohbet.png",
+      "bytes": 275711,
+      "sha256": "4cc66ae4d6d9b06c468f1d0ddbea0a928ef9a9d97e0973747e477019256d22ff",
+      "role": "source-or-review",
+      "width": 1320,
+      "height": 2868,
+      "mode": "RGB"
+    },
+    {
+      "file": "source/native/ios/KARE-5-etkinlik.png",
+      "bytes": 318126,
+      "sha256": "1aedc64c0ee9a319f5c5836a51e9ad77418b49f3fc1b6e76da6fde91c756f4c5",
+      "role": "source-or-review",
+      "width": 1320,
+      "height": 2868,
+      "mode": "RGB"
+    },
+    {
+      "file": "source/render.cjs",
+      "bytes": 2601,
+      "sha256": "9a71d8b5c17ad8d4b29da37cb94db37d301148800fb7f3c5c00c9b654f1643f5",
+      "role": "source-or-review"
+    },
+    {
+      "file": "source/svg/feature-graphic-v14-unchanged.svg",
+      "bytes": 1144891,
+      "sha256": "3cc12444ee3ed4b26d49e0d89c2c2fd2f441668e2fad45c21e432d2490a0a3be",
+      "role": "source-or-review"
+    },
+    {
+      "file": "source/svg/ios-15-1206x2622/01-community.svg",
+      "bytes": 460609,
+      "sha256": "4bbe4819f75d2a56f362da177ad3ae3f75732ac75418cda06daac33d85356d85",
+      "role": "source-or-review"
+    },
+    {
+      "file": "source/svg/ios-15-1206x2622/02-nearby.svg",
+      "bytes": 490673,
+      "sha256": "ed5d82babb0a2a2fc5405d44b3c83902d45fb515ba7269e0891e0692a250622e",
+      "role": "source-or-review"
+    },
+    {
+      "file": "source/svg/ios-15-1206x2622/03-filters.svg",
+      "bytes": 460229,
+      "sha256": "d63197dfddba956e709a0fb49c968e09ea29cede87ae56f9203b95752e11c400",
+      "role": "source-or-review"
+    },
+    {
+      "file": "source/svg/ios-15-1206x2622/04-request-profile.svg",
+      "bytes": 391776,
+      "sha256": "349001a1f1419fe18a888c430f72a1892b2642900b241dd461e45089f28206a2",
+      "role": "source-or-review"
+    },
+    {
+      "file": "source/svg/ios-15-1206x2622/05-chat.svg",
+      "bytes": 422967,
+      "sha256": "f796c3fd859b2193dd87237886b25a32df0ffad1e1ce67d711c51ab75ad34145",
+      "role": "source-or-review"
+    },
+    {
+      "file": "source/svg/ios-15-1206x2622/06-events.svg",
+      "bytes": 479507,
+      "sha256": "76e91a702f7376556da28f31b63d8f83c2d806b93a48ddb1491c086ced98a71b",
+      "role": "source-or-review"
+    },
+    {
+      "file": "source/svg/ios-15-1320x2868/01-community.svg",
+      "bytes": 460547,
+      "sha256": "6fe6697d0bafcd480133aec798b9395850bd99e3ddf7523a448237651ad429f6",
+      "role": "source-or-review"
+    },
+    {
+      "file": "source/svg/ios-15-1320x2868/02-nearby.svg",
+      "bytes": 490611,
+      "sha256": "3bf18f64f9906d142d0f46667a41ee50acbd36b193748dbff776559b938ab7b3",
+      "role": "source-or-review"
+    },
+    {
+      "file": "source/svg/ios-15-1320x2868/03-filters.svg",
+      "bytes": 460167,
+      "sha256": "fa1ed5b9fdac625934b15ae071a4863a0ff8b7a97f5ccbee753cc3954d980751",
+      "role": "source-or-review"
+    },
+    {
+      "file": "source/svg/ios-15-1320x2868/04-request-profile.svg",
+      "bytes": 391721,
+      "sha256": "97e2619ed6a22eb757079ff6467000d7b4dbea4a5e1df1f7f7ed9e01bed46d46",
+      "role": "source-or-review"
+    },
+    {
+      "file": "source/svg/ios-15-1320x2868/05-chat.svg",
+      "bytes": 422905,
+      "sha256": "58459b279913ed4796592e8fb90106c4f0ca9a4e8f7ed4938c3838754db44f79",
+      "role": "source-or-review"
+    },
+    {
+      "file": "source/svg/ios-15-1320x2868/06-events.svg",
+      "bytes": 479445,
+      "sha256": "c74718a8458d878369cd81954e064aa9627024de62dd93aacf8919599da178db",
+      "role": "source-or-review"
+    },
+    {
+      "file": "source/svg/play-15-phone/01-community.svg",
+      "bytes": 324779,
+      "sha256": "958ce554635df8dc9de06c60ea4da60bcb473d69485f040d1fa57dd47ac5ecf5",
+      "role": "source-or-review"
+    },
+    {
+      "file": "source/svg/play-15-phone/02-nearby.svg",
+      "bytes": 318219,
+      "sha256": "170ea7d3226df55d58855c6036a5cb98e7a47c27356f063161d2b01644fe4cb1",
+      "role": "source-or-review"
+    },
+    {
+      "file": "source/svg/play-15-phone/03-filters.svg",
+      "bytes": 323007,
+      "sha256": "c137b530bc9cbca8d09f20e7a913ac4c1d3fe7f0cb6bf26d6f7aa000961bd9ca",
+      "role": "source-or-review"
+    },
+    {
+      "file": "source/svg/play-15-phone/04-request-profile.svg",
+      "bytes": 257735,
+      "sha256": "f297c1995e3d071d69a162766511e134f6166b3b57ba43dbbb751fa35cc1838b",
+      "role": "source-or-review"
+    },
+    {
+      "file": "source/svg/play-15-phone/05-chat.svg",
+      "bytes": 282905,
+      "sha256": "4b10be64e5fbbd1228f49bac7de890a365ff765eb68c0e20414848ae25dd6dfb",
+      "role": "source-or-review"
+    },
+    {
+      "file": "source/svg/play-15-phone/06-events.svg",
+      "bytes": 327037,
+      "sha256": "ea89b09f7bbf9bbc1860cb39ed85bd39f9e3a21b0db12f8cec7e7f41dda2b981",
+      "role": "source-or-review"
+    },
+    {
+      "file": "source/validate.py",
+      "bytes": 4947,
+      "sha256": "9f1662e545b5d3cc7da2d26205604f1cea8731edf9a55c9b784041fc9e184c43",
+      "role": "source-or-review"
+    }
+  ]
+}

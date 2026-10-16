@@ -1,0 +1,722 @@
+{
+  "status": "PASS",
+  "screenshots": 18,
+  "nativeSources": 12,
+  "featureGraphics": 1,
+  "allOpaqueRGB": true,
+  "nativeContentUnchanged": true,
+  "featureByteIdenticalTo14": true,
+  "marketingTextContrast": {
+    "#191A17": 15.486,
+    "#696A62": 4.847
+  },
+  "assets": [
+    {
+      "file": "ios-15-1206x2622/01-community.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "opaqueRGB": true,
+      "embeddedNativeHashMatches": true,
+      "fullFrameUniformScale": true,
+      "nativeOverlays": 0,
+      "exactCopy": true,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "width": 125.0,
+          "fits": true
+        },
+        {
+          "text": "Choose your",
+          "width": 628.0,
+          "fits": true
+        },
+        {
+          "text": "community.",
+          "width": 584.0,
+          "fits": true
+        },
+        {
+          "text": "Networking, Friendship or both. One at a time.",
+          "width": 724.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "width": 485.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "ios-15-1206x2622/02-nearby.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "opaqueRGB": true,
+      "embeddedNativeHashMatches": true,
+      "fullFrameUniformScale": true,
+      "nativeOverlays": 0,
+      "exactCopy": true,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "width": 125.0,
+          "fits": true
+        },
+        {
+          "text": "See who else",
+          "width": 660.0,
+          "fits": true
+        },
+        {
+          "text": "is here.",
+          "width": 352.0,
+          "fits": true
+        },
+        {
+          "text": "Only people in the community you're using.",
+          "width": 677.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "width": 485.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "ios-15-1206x2622/03-filters.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "opaqueRGB": true,
+      "embeddedNativeHashMatches": true,
+      "fullFrameUniformScale": true,
+      "nativeOverlays": 0,
+      "exactCopy": true,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "width": 125.0,
+          "fits": true
+        },
+        {
+          "text": "Filter by",
+          "width": 408.0,
+          "fits": true
+        },
+        {
+          "text": "job title.",
+          "width": 399.0,
+          "fits": true
+        },
+        {
+          "text": "In Networking, when at least 3 people match.",
+          "width": 716.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles and numbers · Illustrative content",
+          "width": 663.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "ios-15-1206x2622/04-request-profile.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "opaqueRGB": true,
+      "embeddedNativeHashMatches": true,
+      "fullFrameUniformScale": true,
+      "nativeOverlays": 0,
+      "exactCopy": true,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "width": 125.0,
+          "fits": true
+        },
+        {
+          "text": "See who's",
+          "width": 504.0,
+          "fits": true
+        },
+        {
+          "text": "saying hello.",
+          "width": 612.0,
+          "fits": true
+        },
+        {
+          "text": "See their profile before you accept.",
+          "width": 555.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "width": 485.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "ios-15-1206x2622/05-chat.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "opaqueRGB": true,
+      "embeddedNativeHashMatches": true,
+      "fullFrameUniformScale": true,
+      "nativeOverlays": 0,
+      "exactCopy": true,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "width": 125.0,
+          "fits": true
+        },
+        {
+          "text": "Start with",
+          "width": 497.0,
+          "fits": true
+        },
+        {
+          "text": "a conversation.",
+          "width": 755.0,
+          "fits": true
+        },
+        {
+          "text": "Twenty messages each. Keep it simple.",
+          "width": 619.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "width": 485.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "ios-15-1206x2622/06-events.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "opaqueRGB": true,
+      "embeddedNativeHashMatches": true,
+      "fullFrameUniformScale": true,
+      "nativeOverlays": 0,
+      "exactCopy": true,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "width": 125.0,
+          "fits": true
+        },
+        {
+          "text": "Events from",
+          "width": 610.0,
+          "fits": true
+        },
+        {
+          "text": "our team.",
+          "width": 468.0,
+          "fits": true
+        },
+        {
+          "text": "For the community you're using.",
+          "width": 505.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "width": 485.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "ios-15-1320x2868/01-community.png",
+      "size": [
+        1320,
+        2868
+      ],
+      "opaqueRGB": true,
+      "embeddedNativeHashMatches": true,
+      "fullFrameUniformScale": true,
+      "nativeOverlays": 0,
+      "exactCopy": true,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "width": 125.0,
+          "fits": true
+        },
+        {
+          "text": "Choose your",
+          "width": 628.0,
+          "fits": true
+        },
+        {
+          "text": "community.",
+          "width": 584.0,
+          "fits": true
+        },
+        {
+          "text": "Networking, Friendship or both. One at a time.",
+          "width": 724.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "width": 485.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "ios-15-1320x2868/02-nearby.png",
+      "size": [
+        1320,
+        2868
+      ],
+      "opaqueRGB": true,
+      "embeddedNativeHashMatches": true,
+      "fullFrameUniformScale": true,
+      "nativeOverlays": 0,
+      "exactCopy": true,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "width": 125.0,
+          "fits": true
+        },
+        {
+          "text": "See who else",
+          "width": 660.0,
+          "fits": true
+        },
+        {
+          "text": "is here.",
+          "width": 352.0,
+          "fits": true
+        },
+        {
+          "text": "Only people in the community you're using.",
+          "width": 677.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "width": 485.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "ios-15-1320x2868/03-filters.png",
+      "size": [
+        1320,
+        2868
+      ],
+      "opaqueRGB": true,
+      "embeddedNativeHashMatches": true,
+      "fullFrameUniformScale": true,
+      "nativeOverlays": 0,
+      "exactCopy": true,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "width": 125.0,
+          "fits": true
+        },
+        {
+          "text": "Filter by",
+          "width": 408.0,
+          "fits": true
+        },
+        {
+          "text": "job title.",
+          "width": 399.0,
+          "fits": true
+        },
+        {
+          "text": "In Networking, when at least 3 people match.",
+          "width": 716.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles and numbers · Illustrative content",
+          "width": 663.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "ios-15-1320x2868/04-request-profile.png",
+      "size": [
+        1320,
+        2868
+      ],
+      "opaqueRGB": true,
+      "embeddedNativeHashMatches": true,
+      "fullFrameUniformScale": true,
+      "nativeOverlays": 0,
+      "exactCopy": true,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "width": 125.0,
+          "fits": true
+        },
+        {
+          "text": "See who's",
+          "width": 504.0,
+          "fits": true
+        },
+        {
+          "text": "saying hello.",
+          "width": 612.0,
+          "fits": true
+        },
+        {
+          "text": "See their profile before you accept.",
+          "width": 555.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "width": 485.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "ios-15-1320x2868/05-chat.png",
+      "size": [
+        1320,
+        2868
+      ],
+      "opaqueRGB": true,
+      "embeddedNativeHashMatches": true,
+      "fullFrameUniformScale": true,
+      "nativeOverlays": 0,
+      "exactCopy": true,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "width": 125.0,
+          "fits": true
+        },
+        {
+          "text": "Start with",
+          "width": 497.0,
+          "fits": true
+        },
+        {
+          "text": "a conversation.",
+          "width": 755.0,
+          "fits": true
+        },
+        {
+          "text": "Twenty messages each. Keep it simple.",
+          "width": 619.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "width": 485.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "ios-15-1320x2868/06-events.png",
+      "size": [
+        1320,
+        2868
+      ],
+      "opaqueRGB": true,
+      "embeddedNativeHashMatches": true,
+      "fullFrameUniformScale": true,
+      "nativeOverlays": 0,
+      "exactCopy": true,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "width": 125.0,
+          "fits": true
+        },
+        {
+          "text": "Events from",
+          "width": 610.0,
+          "fits": true
+        },
+        {
+          "text": "our team.",
+          "width": 468.0,
+          "fits": true
+        },
+        {
+          "text": "For the community you're using.",
+          "width": 505.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "width": 485.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "play-15-phone/01-community.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "opaqueRGB": true,
+      "embeddedNativeHashMatches": true,
+      "fullFrameUniformScale": true,
+      "nativeOverlays": 0,
+      "exactCopy": true,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "width": 107.2,
+          "fits": true
+        },
+        {
+          "text": "Choose your",
+          "width": 456.0,
+          "fits": true
+        },
+        {
+          "text": "community.",
+          "width": 426.0,
+          "fits": true
+        },
+        {
+          "text": "Networking, Friendship or both. One at a time.",
+          "width": 601.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "width": 401.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "play-15-phone/02-nearby.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "opaqueRGB": true,
+      "embeddedNativeHashMatches": true,
+      "fullFrameUniformScale": true,
+      "nativeOverlays": 0,
+      "exactCopy": true,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "width": 107.2,
+          "fits": true
+        },
+        {
+          "text": "See who else",
+          "width": 480.0,
+          "fits": true
+        },
+        {
+          "text": "is here.",
+          "width": 255.0,
+          "fits": true
+        },
+        {
+          "text": "Only people in the community you're using.",
+          "width": 558.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "width": 401.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "play-15-phone/03-filters.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "opaqueRGB": true,
+      "embeddedNativeHashMatches": true,
+      "fullFrameUniformScale": true,
+      "nativeOverlays": 0,
+      "exactCopy": true,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "width": 107.2,
+          "fits": true
+        },
+        {
+          "text": "Filter by",
+          "width": 297.0,
+          "fits": true
+        },
+        {
+          "text": "job title.",
+          "width": 290.0,
+          "fits": true
+        },
+        {
+          "text": "In Networking, when at least 3 people match.",
+          "width": 589.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles and numbers · Illustrative content",
+          "width": 547.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "play-15-phone/04-request-profile.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "opaqueRGB": true,
+      "embeddedNativeHashMatches": true,
+      "fullFrameUniformScale": true,
+      "nativeOverlays": 0,
+      "exactCopy": true,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "width": 107.2,
+          "fits": true
+        },
+        {
+          "text": "See who's",
+          "width": 367.0,
+          "fits": true
+        },
+        {
+          "text": "saying hello.",
+          "width": 444.0,
+          "fits": true
+        },
+        {
+          "text": "See their profile before you accept.",
+          "width": 460.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "width": 401.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "play-15-phone/05-chat.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "opaqueRGB": true,
+      "embeddedNativeHashMatches": true,
+      "fullFrameUniformScale": true,
+      "nativeOverlays": 0,
+      "exactCopy": true,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "width": 107.2,
+          "fits": true
+        },
+        {
+          "text": "Start with",
+          "width": 364.0,
+          "fits": true
+        },
+        {
+          "text": "a conversation.",
+          "width": 549.0,
+          "fits": true
+        },
+        {
+          "text": "Twenty messages each. Keep it simple.",
+          "width": 511.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "width": 401.0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "file": "play-15-phone/06-events.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "opaqueRGB": true,
+      "embeddedNativeHashMatches": true,
+      "fullFrameUniformScale": true,
+      "nativeOverlays": 0,
+      "exactCopy": true,
+      "textFit": [
+        {
+          "text": "IM HERE",
+          "width": 107.2,
+          "fits": true
+        },
+        {
+          "text": "Events from",
+          "width": 446.0,
+          "fits": true
+        },
+        {
+          "text": "our team.",
+          "width": 341.0,
+          "fits": true
+        },
+        {
+          "text": "For the community you're using.",
+          "width": 417.0,
+          "fits": true
+        },
+        {
+          "text": "Fictional profiles · Illustrative content",
+          "width": 401.0,
+          "fits": true
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Artwork audit, not native application QA or store acceptance.",
+    "Native clocks, battery icons, UI wording, people and counts retained as supplied.",
+    "1.4 request-profile sources retained independently for iOS and Android."
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "captures": [
+    {
+      "file": "source/native/ios/KARE-1-topluluk-secimi.png",
+      "sha256": "e3f5150c8ba4c36dcb9e99923b2c7ba9b13a4690a75dd07784f6f0b23f466723",
+      "width": 1320,
+      "height": 2868,
+      "shot": "01-community",
+      "source": "Founder supplied iphone-6.9/KARE-1-topluluk-secimi.png",
+      "sourceCommit": null,
+      "statusBar": "Retained from source; no repaint",
+      "portraits": "No overlays; all native pixels retained"
+    },
+    {
+      "file": "source/native/ios/KARE-2-yakindakiler.png",
+      "sha256": "cfdd34323dcbd179f96f9f04e67cbab7bf8575e2c0a91ae358e54e5863c3d16e",
+      "width": 1320,
+      "height": 2868,
+      "shot": "02-nearby",
+      "source": "Founder supplied iphone-6.9/KARE-2-yakindakiler.png",
+      "sourceCommit": null,
+      "statusBar": "Retained from source; no repaint",
+      "portraits": "No overlays; all native pixels retained"
+    },
+    {
+      "file": "source/native/ios/KARE-3b-filtre-paneli.png",
+      "sha256": "6172691735779955c3b357361d4268b89c4951f0719fd1bbd5387a8e40668252",
+      "width": 1320,
+      "height": 2868,
+      "shot": "03-filters",
+      "source": "Founder supplied iphone-6.9/KARE-3b-filtre-paneli.png",
+      "sourceCommit": null,
+      "statusBar": "Retained from source; no repaint",
+      "portraits": "No overlays; all native pixels retained"
+    },
+    {
+      "file": "source/native/ios/03-istek-profili.png",
+      "sha256": "17766a16599cc1c5622cd55fc6411d730c5f94cbba57041594f23b71e1052c80",
+      "width": 1206,
+      "height": 2622,
+      "shot": "04-request-profile",
+      "source": "1.4 native request profile; identical to original source",
+      "sourceCommit": "bb3229fbc129d8083241dd6d88f5b25f6a31a8e1",
+      "statusBar": "Retained from source; no repaint",
+      "portraits": "No overlays; all native pixels retained"
+    },
+    {
+      "file": "source/native/ios/KARE-4-sohbet.png",
+      "sha256": "4cc66ae4d6d9b06c468f1d0ddbea0a928ef9a9d97e0973747e477019256d22ff",
+      "width": 1320,
+      "height": 2868,
+      "shot": "05-chat",
+      "source": "Founder supplied iphone-6.9/KARE-4-sohbet.png",
+      "sourceCommit": null,
+      "statusBar": "Retained from source; no repaint",
+      "portraits": "No overlays; all native pixels retained"
+    },
+    {
+      "file": "source/native/ios/KARE-5-etkinlik.png",
+      "sha256": "1aedc64c0ee9a319f5c5836a51e9ad77418b49f3fc1b6e76da6fde91c756f4c5",
+      "width": 1320,
+      "height": 2868,
+      "shot": "06-events",
+      "source": "Founder supplied iphone-6.9/KARE-5-etkinlik.png",
+      "sourceCommit": null,
+      "statusBar": "Retained from source; no repaint",
+      "portraits": "No overlays; all native pixels retained"
+    },
+    {
+      "file": "source/native/android/KARE-1-topluluk-secimi.png",
+      "sha256": "f78247256449bff6c6c4f2281937e8a849e8dfb4c4f84b0c8718aea93411e40d",
+      "width": 1080,
+      "height": 2400,
+      "shot": "01-community",
+      "source": "Founder supplied android-telefon/KARE-1-topluluk-secimi.png",
+      "sourceCommit": null,
+      "statusBar": "Retained from source; no repaint",
+      "portraits": "No overlays; all native pixels retained"
+    },
+    {
+      "file": "source/native/android/KARE-2-yakindakiler.png",
+      "sha256": "89179ca674e7e31274d11675e83d6b7b21699f2886f49bedc22903562b6b1521",
+      "width": 1080,
+      "height": 2400,
+      "shot": "02-nearby",
+      "source": "Founder supplied android-telefon/KARE-2-yakindakiler.png",
+      "sourceCommit": null,
+      "statusBar": "Retained from source; no repaint",
+      "portraits": "No overlays; all native pixels retained"
+    },
+    {
+      "file": "source/native/android/KARE-3b-filtre-paneli.png",
+      "sha256": "cb97acfac4f1c50ba62539468d245a7a7783c8883569d86043e595179b3ed4a1",
+      "width": 1080,
+      "height": 2400,
+      "shot": "03-filters",
+      "source": "Founder supplied android-telefon/KARE-3b-filtre-paneli.png",
+      "sourceCommit": null,
+      "statusBar": "Retained from source; no repaint",
+      "portraits": "No overlays; all native pixels retained"
+    },
+    {
+      "file": "source/native/android/03-istek-profili.png",
+      "sha256": "81b89b2899a23538e027ee27b92c5f1cf6292968c84e9b3fd1e8d185ee72cd9f",
+      "width": 1080,
+      "height": 2400,
+      "shot": "04-request-profile",
+      "source": "1.4 native request profile; identical to original source",
+      "sourceCommit": "909961fe6f89f5b22af2b0929806b4b0d528c3aa",
+      "statusBar": "Retained from source; no repaint",
+      "portraits": "No overlays; all native pixels retained"
+    },
+    {
+      "file": "source/native/android/KARE-4-sohbet.png",
+      "sha256": "cce503c730f49afd64a1d16157e81f3e2e1ad94b96701cfbb7f20e662cbcdeda",
+      "width": 1080,
+      "height": 2400,
+      "shot": "05-chat",
+      "source": "Founder supplied android-telefon/KARE-4-sohbet.png",
+      "sourceCommit": null,
+      "statusBar": "Retained from source; no repaint",
+      "portraits": "No overlays; all native pixels retained"
+    },
+    {
+      "file": "source/native/android/KARE-5-etkinlik.png",
+      "sha256": "cbdd39b49a759f9e4d173e7b504ba2eeef08c30d6a5af7f1124e694e17601e39",
+      "width": 1080,
+      "height": 2400,
+      "shot": "06-events",
+      "source": "Founder supplied android-telefon/KARE-5-etkinlik.png",
+      "sourceCommit": null,
+      "statusBar": "Retained from source; no repaint",
+      "portraits": "No overlays; all native pixels retained"
+    }
+  ],
+  "feature": {
+    "file": "play-feature/feature-graphic.png",
+    "sourceCommit": "909961fe6f89f5b22af2b0929806b4b0d528c3aa",
+    "sha256": "5163eb8dd25ad20954c4ae7554f77006155aa1dba9fb2a8f847048fa72e30069",
+    "sourceSvg": "source/svg/feature-graphic-v14-unchanged.svg",
+    "action": "byte-identical reuse; contains no purpose wording"
+  },
+  "appVersion": "1.5, as supplied by Founder; native build/commit not supplied for new captures",
+  "nativePolicy": "No retouching, no cropping, no overlays, no clock/battery changes; full-frame uniform scaling only",
+  "baseTemplateIos": "bb3229fbc129d8083241dd6d88f5b25f6a31a8e1",
+  "baseTemplatePlay": "909961fe6f89f5b22af2b0929806b4b0d528c3aa"
+}

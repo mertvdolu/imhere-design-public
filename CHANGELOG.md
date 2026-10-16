@@ -1,5 +1,12 @@
 # Değişiklik kaydı
 
+## 2026-10-16 — STORE-15 / iPhone + Google Play
+
+- `03-MAGAZA/imhere-store-v1.5/`: 6 sahne ×3 boyut; 18 opak RGB PNG. Founder'ın başlık/alt satırları aynen, 03'te özel kurmaca sayı açıklaması.
+- 10 yeni native + her platformdan 1.4 istek profili; kaynaklar bayt-aynı, kırpma/portre/saat/pil düzeltmesi yok. 1.4 çerçeve, Geist ve marka; alt satıra yer açıldı.
+- 1024×500 Play feature, purpose ifadesi içermediğinden 1.4 dosyasıyla aynı. 18 SVG + eski feature kaynağı, 3 contact sheet, HTML önizleme, copy/provenance, SPEC/HANDOFF, SHA256/MANIFEST.
+- Uygulama, ARB, tema tokenları ve eski mağaza setleri değişmedi. Mağaza yüklemesi/yayın yok; dosya teslimi ayrı tasarım dalında.
+
 ## 2026-10-13 — STORE-IOS-14 EK1 / Google Play 1.4.0 (19)
 
 - `03-MAGAZA/imhere-store-v1.4-play/`: 6 adet 1080×1920 telefon PNG +1024×500 feature graphic, opak RGB. Cream & Ink v2.3; gündüz Android API36 native kaynakları.
